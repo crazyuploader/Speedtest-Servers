@@ -43,7 +43,7 @@ Simply click on any of the links above to view the raw JSON data for a specific 
    ```bash
    uv sync
    ```
-5. Run the main script to fetch data:
+4. Run the main script to fetch data:
    ```bash
    python main.py --search "Bharti Airtel,Jio,ACT Fibernet"
    ```
