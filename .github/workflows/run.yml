@@ -1,0 +1,57 @@
+name: Run
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.13.5
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Install dependencies
+        run: |
+          uv sync --frozen --no-install-project --no-dev --python-preference=only-system
+          sudo npm install -g prettier@3.5.3
+
+      - name: Run Program
+        run: |
+          uv python main.py --search "Bharti Airtel,Jio,ACT FIBERNET,OneBroadband,BHARAT SANCHAR NIGAM LTD,Excitel,Shyam Spectra,YOU Broadband India,RailTel Corporation of India Ltd,Tata Play Fiber,Tata Teleservices Ltd,Asianet Broadband,HATHWAY,GTPL Broadband Pvt Ltd,Siti Broadband"
+
+      - name: Prettify files
+        run: |
+          prettier --write .
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if [[ -z $(git status --porcelain) ]]; then
+              echo "::set-output name=changes::false"
+          else
+              echo "::set-output name=changes::true"
+          fi
+
+      - name: Commit files
+        if: ${{ steps.check_changes.outputs.changes == 'true' && github.ref == 'refs/heads/main' }}
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m "Add changes"
+
+      - name: Push changes
+        if: ${{ steps.check_changes.outputs.changes == 'true' && github.ref == 'refs/heads/main' }}
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
