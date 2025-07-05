@@ -30,8 +30,6 @@ jobs:
       - name: Install dependencies
         run: |
           uv sync --frozen --no-install-project --no-dev --python-preference=only-system
-          apt-get update
-          apt-get install --yes git
 
       - name: Run Program
         run: |
