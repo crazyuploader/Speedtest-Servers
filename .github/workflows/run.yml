@@ -25,7 +25,7 @@ jobs:
       - name: Install dependencies
         run: |
           uv sync --frozen --no-install-project --no-dev --python-preference=only-system
-          sudo npm install -g prettier@3.5.3
+          npm install -g prettier@3.5.3
 
       - name: Run Program
         run: |
