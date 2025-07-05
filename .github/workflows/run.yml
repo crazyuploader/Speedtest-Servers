@@ -14,6 +14,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -34,7 +35,7 @@ jobs:
 
       - name: Run Program
         run: |
-          uv run python main.py --search "Bharti Airtel,Jio,ACT FIBERNET,OneBroadband,BHARAT SANCHAR NIGAM LTD,Excitel,Shyam Spectra,YOU Broadband India,RailTel Corporation of India Ltd,Tata Play Fiber,Tata Teleservices Ltd,Asianet Broadband,HATHWAY,GTPL Broadband Pvt Ltd,Siti Broadband"
+          uv run python main.py --search "act fibernet,asianet broadband,bharat sanchar nigam ltd,bharti airtel,excitel,gtpl broadband pvt ltd,hathway,jio,onebroadband,railtel corporation of india ltd,shyam spectra,siti broadband,tata play fiber,tata teleservices ltd,you broadband india"
 
       - name: Prettify files
         run: |
@@ -44,9 +45,9 @@ jobs:
         id: check_changes
         run: |
           if [[ -z $(git status --porcelain) ]]; then
-              echo "::set-output name=changes::false"
+              echo "changes=false" >> $GITHUB_OUTPUT
           else
-              echo "::set-output name=changes::true"
+              echo "changes=true" >> $GITHUB_OUTPUT
           fi
 
       - name: Commit files
