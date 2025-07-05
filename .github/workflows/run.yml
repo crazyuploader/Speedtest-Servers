@@ -26,7 +26,7 @@ jobs:
 
       - name: Run Program
         run: |
-          uv python main.py --search "Bharti Airtel,Jio,ACT FIBERNET,OneBroadband,BHARAT SANCHAR NIGAM LTD,Excitel,Shyam Spectra,YOU Broadband India,RailTel Corporation of India Ltd,Tata Play Fiber,Tata Teleservices Ltd,Asianet Broadband,HATHWAY,GTPL Broadband Pvt Ltd,Siti Broadband"
+          uv run python main.py --search "Bharti Airtel,Jio,ACT FIBERNET,OneBroadband,BHARAT SANCHAR NIGAM LTD,Excitel,Shyam Spectra,YOU Broadband India,RailTel Corporation of India Ltd,Tata Play Fiber,Tata Teleservices Ltd,Asianet Broadband,HATHWAY,GTPL Broadband Pvt Ltd,Siti Broadband"
 
       - name: Prettify files
         run: |
