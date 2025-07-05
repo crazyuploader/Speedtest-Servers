@@ -33,7 +33,7 @@ jobs:
 
       - name: Run Program
         run: |
-          uv run python main.py --search "act fibernet,asianet broadband,bharat sanchar nigam ltd,bharti airtel,excitel,gtpl broadband pvt ltd,hathway,ishan netsols,jio,onebroadband,railtel corporation of india ltd,shyam spectra,siti broadband,tata play fiber,tata teleservices ltd,vi india,you broadband india"
+          uv run python main.py --search "act fibernet,asianet broadband,bharat sanchar nigam ltd,bharti airtel,excitel,gtpl broadband pvt ltd,hathway,ishan netsol,jio,onebroadband,railtel corporation of india ltd,shyam spectra,siti broadband,tata play fiber,tata teleservices ltd,vi india,you broadband india"
 
       - name: Prettify files
         run: |
