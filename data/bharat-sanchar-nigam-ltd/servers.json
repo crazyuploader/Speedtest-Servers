@@ -133,20 +133,5 @@
     "isp_id": "73461",
     "https_functional": 1,
     "host": "bsnlooklaagt.mywire.org.prod.hosts.ooklaserver.net:8080"
-  },
-  {
-    "url": "http://ooklabsnlazl.freeddns.org:8080/speedtest/upload.php",
-    "lat": "23.7285",
-    "lon": "92.7188",
-    "distance": 1022,
-    "name": "Aizawl",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "BHARAT SANCHAR NIGAM LTD",
-    "id": "60294",
-    "preferred": 0,
-    "isp_id": "73461",
-    "https_functional": 1,
-    "host": "ooklabsnlazl.freeddns.org.prod.hosts.ooklaserver.net:8080"
   }
 ]
