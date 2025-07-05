@@ -18,6 +18,7 @@ This repository contains JSON files, each dedicated to a specific ISP, holding a
 - [Hathway Cable](data/hathway/servers.json)
 - [Ishan Netsol](data/ishan-netsol/servers.json)
 - [Jio](data/jio/servers.json)
+- [Keralavision Broadband Ltd](data/keralavision-broadband-ltd/servers.json)
 - [OneBroadband](data/onebroadband/servers.json)
 - [Powergrid Corporation of India Ltd.](data/powergrid-corporation-of-india-ltd/servers.json)
 - [RailTel Corporation of India Ltd.](data/railtel-corporation-of-india-ltd/servers.json)
