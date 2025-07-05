@@ -1,0 +1,62 @@
+[
+  {
+    "url": "http://speedtest.spectra.co:8080/speedtest/upload.php",
+    "lat": "28.6100",
+    "lon": "77.2300",
+    "distance": 7530,
+    "name": "New Delhi",
+    "country": "India",
+    "cc": "IN",
+    "sponsor": "Shyam Spectra",
+    "id": "15002",
+    "preferred": 0,
+    "isp_id": "158825",
+    "https_functional": 1,
+    "host": "speedtest.spectra.co.prod.hosts.ooklaserver.net:8080"
+  },
+  {
+    "url": "http://bangalorespeedtest.spectra.co:8080/speedtest/upload.php",
+    "lat": "28.4595",
+    "lon": "77.0266",
+    "distance": 7536,
+    "name": "Bangalore",
+    "country": "India",
+    "cc": "IN",
+    "sponsor": "Shyam Spectra",
+    "id": "24233",
+    "preferred": 0,
+    "isp_id": "158825",
+    "https_functional": 1,
+    "host": "bangalorespeedtest.spectra.co.prod.hosts.ooklaserver.net:8080"
+  },
+  {
+    "url": "http://mumbaispeedtest.spectra.co:8080/speedtest/upload.php",
+    "lat": "18.9647",
+    "lon": "72.8258",
+    "distance": 8040,
+    "name": "Mumbai",
+    "country": "India",
+    "cc": "IN",
+    "sponsor": "Shyam Spectra",
+    "id": "8978",
+    "preferred": 0,
+    "isp_id": "158825",
+    "https_functional": 1,
+    "host": "mumbaispeedtest.spectra.co.prod.hosts.ooklaserver.net:8080"
+  },
+  {
+    "url": "http://chennaispeedtest.spectra.co:8080/speedtest/upload.php",
+    "lat": "13.0827",
+    "lon": "80.2707",
+    "distance": 8606,
+    "name": "Chennai",
+    "country": "India",
+    "cc": "IN",
+    "sponsor": "Shyam Spectra",
+    "id": "11562",
+    "preferred": 0,
+    "isp_id": "158825",
+    "https_functional": 1,
+    "host": "chennaispeedtest.spectra.co.prod.hosts.ooklaserver.net:8080"
+  }
+]

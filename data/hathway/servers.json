@@ -1,0 +1,17 @@
+[
+  {
+    "url": "http://suratspeed.hathway.net:8080/speedtest/upload.php",
+    "lat": "21.1981",
+    "lon": "72.8298",
+    "distance": 7900,
+    "name": "Surat",
+    "country": "India",
+    "cc": "IN",
+    "sponsor": "HATHWAY CABLE & DATACOM LTD.",
+    "id": "7543",
+    "preferred": 0,
+    "isp_id": "724",
+    "https_functional": 1,
+    "host": "suratspeed.hathway.net:8080"
+  }
+]
