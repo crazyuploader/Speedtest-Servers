@@ -150,21 +150,6 @@
     "host": "speedtestlkn.actcorp.in.prod.hosts.ooklaserver.net:8080"
   },
   {
-    "url": "http://speedtestjpr.actcorp.in:8080/speedtest/upload.php",
-    "lat": "26.9260",
-    "lon": "75.8235",
-    "distance": 681,
-    "name": "Jaipur",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "ACT FIBERNET",
-    "id": "47976",
-    "preferred": 0,
-    "isp_id": "64789",
-    "https_functional": 1,
-    "host": "speedtestjpr.actcorp.in.prod.hosts.ooklaserver.net:8080"
-  },
-  {
     "url": "http://speedtestdelhi.actcorp.in:8080/speedtest/upload.php",
     "lat": "28.6100",
     "lon": "77.2300",

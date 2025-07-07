@@ -180,21 +180,6 @@
     "host": "speedtestsur2.airtel.in.prod.hosts.ooklaserver.net:8080"
   },
   {
-    "url": "http://speedtestcal1.airtelbroadband.in:8080/speedtest/upload.php",
-    "lat": "11.2588",
-    "lon": "75.7804",
-    "distance": 460,
-    "name": "Calicut",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Bharti Airtel Ltd",
-    "id": "52217",
-    "preferred": 0,
-    "isp_id": "46101",
-    "https_functional": 1,
-    "host": "speedtestcal1.airtelbroadband.in.prod.hosts.ooklaserver.net:8080"
-  },
-  {
     "url": "http://speedtestplc1.airtel.in:8080/speedtest/upload.php",
     "lat": "10.6609",
     "lon": "77.0048",
