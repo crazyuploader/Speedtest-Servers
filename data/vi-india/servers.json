@@ -15,6 +15,21 @@
     "host": "speedtest.kar.vodafoneidea.com:8080"
   },
   {
+    "url": "http://speedtest.mum.vodafoneidea.com:8080/speedtest/upload.php",
+    "lat": "18.9647",
+    "lon": "72.8258",
+    "distance": 386,
+    "name": "Mumbai",
+    "country": "India",
+    "cc": "IN",
+    "sponsor": "Vi India",
+    "id": "69596",
+    "preferred": 0,
+    "isp_id": "23698",
+    "https_functional": 1,
+    "host": "speedtest.mum.vodafoneidea.com:8080"
+  },
+  {
     "url": "http://ooklatestjaipur.live.vodafone.in:8080/speedtest/upload.php",
     "lat": "26.9260",
     "lon": "75.8235",
