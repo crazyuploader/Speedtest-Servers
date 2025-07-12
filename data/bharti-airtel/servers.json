@@ -135,21 +135,6 @@
     "host": "speedtestmng1.airtel.in.prod.hosts.ooklaserver.net:8080"
   },
   {
-    "url": "http://speedtestmp1.airtel.in:8080/speedtest/upload.php",
-    "lat": "23.2599",
-    "lon": "77.4126",
-    "distance": 412,
-    "name": "Bhopal",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Bharti Airtel Ltd",
-    "id": "28282",
-    "preferred": 0,
-    "isp_id": "46101",
-    "https_functional": 1,
-    "host": "speedtestmp1.airtel.in.prod.hosts.ooklaserver.net:8080"
-  },
-  {
     "url": "http://speedtestjbl1.airtel.in:8080/speedtest/upload.php",
     "lat": "23.1815",
     "lon": "79.9864",
@@ -178,21 +163,6 @@
     "isp_id": "46101",
     "https_functional": 1,
     "host": "speedtestsur2.airtel.in.prod.hosts.ooklaserver.net:8080"
-  },
-  {
-    "url": "http://speedtestcal1.airtelbroadband.in:8080/speedtest/upload.php",
-    "lat": "11.2588",
-    "lon": "75.7804",
-    "distance": 460,
-    "name": "Calicut",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Bharti Airtel Ltd",
-    "id": "52217",
-    "preferred": 0,
-    "isp_id": "46101",
-    "https_functional": 1,
-    "host": "speedtestcal1.airtelbroadband.in.prod.hosts.ooklaserver.net:8080"
   },
   {
     "url": "http://speedtestplc1.airtel.in:8080/speedtest/upload.php",
@@ -448,6 +418,21 @@
     "isp_id": "46101",
     "https_functional": 1,
     "host": "speedtestsaha1.airtel.in.prod.hosts.ooklaserver.net:8080"
+  },
+  {
+    "url": "http://speedtestlud1.airtelbroadband.in:8080/speedtest/upload.php",
+    "lat": "30.9010",
+    "lon": "75.8573",
+    "distance": 949,
+    "name": "Ludhiana",
+    "country": "India",
+    "cc": "IN",
+    "sponsor": "Bharti Airtel Ltd",
+    "id": "51033",
+    "preferred": 0,
+    "isp_id": "46101",
+    "https_functional": 1,
+    "host": "speedtestlud1.airtelbroadband.in.prod.hosts.ooklaserver.net:8080"
   },
   {
     "url": "http://speedtestguw1.airtel.in:8080/speedtest/upload.php",

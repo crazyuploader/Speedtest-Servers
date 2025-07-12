@@ -58,20 +58,5 @@
     "isp_id": "227198",
     "https_functional": 1,
     "host": "kolkataspeedtest.onebroadband.in.prod.hosts.ooklaserver.net:8080"
-  },
-  {
-    "url": "http://delhispeedtest.onebroadband.in:8080/speedtest/upload.php",
-    "lat": "28.6100",
-    "lon": "77.2300",
-    "distance": 780,
-    "name": "New Delhi",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "OneBroadband",
-    "id": "11876",
-    "preferred": 0,
-    "isp_id": "227198",
-    "https_functional": 1,
-    "host": "delhispeedtest.onebroadband.in.prod.hosts.ooklaserver.net:8080"
   }
 ]
