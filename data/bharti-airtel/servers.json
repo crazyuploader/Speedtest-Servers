@@ -420,21 +420,6 @@
     "host": "speedtestsaha1.airtel.in.prod.hosts.ooklaserver.net:8080"
   },
   {
-    "url": "http://speedtestlud1.airtelbroadband.in:8080/speedtest/upload.php",
-    "lat": "30.9010",
-    "lon": "75.8573",
-    "distance": 949,
-    "name": "Ludhiana",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Bharti Airtel Ltd",
-    "id": "51033",
-    "preferred": 0,
-    "isp_id": "46101",
-    "https_functional": 1,
-    "host": "speedtestlud1.airtelbroadband.in.prod.hosts.ooklaserver.net:8080"
-  },
-  {
     "url": "http://speedtestguw1.airtel.in:8080/speedtest/upload.php",
     "lat": "26.1445",
     "lon": "91.7362",

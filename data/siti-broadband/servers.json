@@ -15,6 +15,21 @@
     "host": "speedtest.e-net.in.prod.hosts.ooklaserver.net:8080"
   },
   {
+    "url": "http://gorakhpur.sitibroadband.co.in:8080/speedtest/upload.php",
+    "lat": "26.7638",
+    "lon": "83.3338",
+    "distance": 720,
+    "name": "Gorakhpur",
+    "country": "India",
+    "cc": "IN",
+    "sponsor": "Siti Broadband",
+    "id": "48561",
+    "preferred": 0,
+    "isp_id": "99525",
+    "https_functional": 1,
+    "host": "gorakhpur.sitibroadband.co.in.prod.hosts.ooklaserver.net:8080"
+  },
+  {
     "url": "http://noidaspeedtest.sitibroadband.co.in:8080/speedtest/upload.php",
     "lat": "28.5700",
     "lon": "77.3200",

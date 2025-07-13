@@ -45,6 +45,21 @@
     "host": "stpun.tatatelebusiness.com:8080"
   },
   {
+    "url": "http://stmum.tatatelebusiness.com:8080/speedtest/upload.php",
+    "lat": "18.9647",
+    "lon": "72.8258",
+    "distance": 386,
+    "name": "Mumbai",
+    "country": "India",
+    "cc": "IN",
+    "sponsor": "Tata Teleservices Ltd",
+    "id": "47668",
+    "preferred": 0,
+    "isp_id": "2434",
+    "https_functional": 1,
+    "host": "stmum.tatatelebusiness.com:8080"
+  },
+  {
     "url": "http://stdel.tatatelebusiness.com:8080/speedtest/upload.php",
     "lat": "28.6139",
     "lon": "77.2090",
