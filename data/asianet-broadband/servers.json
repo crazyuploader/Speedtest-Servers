@@ -1,77 +1,106 @@
-[
-  {
-    "url": "http://speed-node-hyd.asianetdigital.net:8080/speedtest/upload.php",
-    "lat": "17.3700",
-    "lon": "78.4800",
-    "distance": 2,
-    "name": "Hyderabad",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Asianet Broadband",
-    "id": "49760",
-    "preferred": 0,
-    "isp_id": "93082",
-    "https_functional": 1,
-    "host": "speed-node-hyd.asianetdigital.net.prod.hosts.ooklaserver.net:8080"
-  },
-  {
-    "url": "http://speed-node-blr.asianetdigital.net:8080/speedtest/upload.php",
-    "lat": "12.9833",
-    "lon": "77.5833",
-    "distance": 310,
-    "name": "Bangalore",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Asianet Broadband",
-    "id": "70397",
-    "preferred": 0,
-    "isp_id": "93082",
-    "https_functional": 1,
-    "host": "speed-node-blr.asianetdigital.net:8080"
-  },
-  {
-    "url": "http://speed-node-slm.asianetdigital.net:8080/speedtest/upload.php",
-    "lat": "11.6643",
-    "lon": "78.1460",
-    "distance": 396,
-    "name": "Salem",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Asianet Broadband",
-    "id": "39896",
-    "preferred": 0,
-    "isp_id": "93082",
-    "https_functional": 1,
-    "host": "speed-node-slm.asianetdigital.net.prod.hosts.ooklaserver.net:8080"
-  },
-  {
-    "url": "http://speed-cok-node-a.asianetdigital.net:8080/speedtest/upload.php",
-    "lat": "9.9312",
-    "lon": "76.2673",
-    "distance": 536,
-    "name": "Cochin",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Asianet Broadband",
-    "id": "29372",
-    "preferred": 0,
-    "isp_id": "93082",
-    "https_functional": 1,
-    "host": "speed-cok-node-a.asianetdigital.net.prod.hosts.ooklaserver.net:8080"
-  },
-  {
-    "url": "http://speedtest.asianetbroadband.in:8080/speedtest/upload.php",
-    "lat": "8.4875",
-    "lon": "76.9525",
-    "distance": 624,
-    "name": "Thiruvananthapuram",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Asianet Broadband",
-    "id": "4352",
-    "preferred": 0,
-    "isp_id": "93082",
-    "https_functional": 1,
-    "host": "speedtest.asianetbroadband.in.prod.hosts.ooklaserver.net:8080"
-  }
-]
+{
+  "servers": [
+    {
+      "url": "http://speed-node-hyd.asianetdigital.net:8080/speedtest/upload.php",
+      "lat": "17.3700",
+      "lon": "78.4800",
+      "name": "Hyderabad",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Asianet Broadband",
+      "id": "49760",
+      "preferred": 0,
+      "isp_id": "93082",
+      "https_functional": 1,
+      "host": "speed-node-hyd.asianetdigital.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speed-node-hyd.asianetdigital.net",
+      "ip_address": {
+        "A": "202.164.135.22",
+        "AAAA": "2406:8800:a000:1::5a"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speed-node-blr.asianetdigital.net:8080/speedtest/upload.php",
+      "lat": "12.9833",
+      "lon": "77.5833",
+      "name": "Bangalore",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Asianet Broadband",
+      "id": "70397",
+      "preferred": 0,
+      "isp_id": "93082",
+      "https_functional": 1,
+      "host": "speed-node-blr.asianetdigital.net:8080",
+      "hostname": "speed-node-blr.asianetdigital.net",
+      "ip_address": {
+        "A": "111.92.90.42",
+        "AAAA": "2406:8800:d000::26"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speed-node-slm.asianetdigital.net:8080/speedtest/upload.php",
+      "lat": "11.6643",
+      "lon": "78.1460",
+      "name": "Salem",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Asianet Broadband",
+      "id": "39896",
+      "preferred": 0,
+      "isp_id": "93082",
+      "https_functional": 1,
+      "host": "speed-node-slm.asianetdigital.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speed-node-slm.asianetdigital.net",
+      "ip_address": {
+        "A": "111.92.43.170",
+        "AAAA": "2406:8800:a000:1::66"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speed-cok-node-a.asianetdigital.net:8080/speedtest/upload.php",
+      "lat": "9.9312",
+      "lon": "76.2673",
+      "name": "Cochin",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Asianet Broadband",
+      "id": "29372",
+      "preferred": 0,
+      "isp_id": "93082",
+      "https_functional": 1,
+      "host": "speed-cok-node-a.asianetdigital.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speed-cok-node-a.asianetdigital.net",
+      "ip_address": {
+        "A": "202.88.230.190",
+        "AAAA": "2406:8800:a000:1::5e"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.asianetbroadband.in:8080/speedtest/upload.php",
+      "lat": "8.4875",
+      "lon": "76.9525",
+      "name": "Thiruvananthapuram",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Asianet Broadband",
+      "id": "4352",
+      "preferred": 0,
+      "isp_id": "93082",
+      "https_functional": 1,
+      "host": "speedtest.asianetbroadband.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.asianetbroadband.in",
+      "ip_address": {
+        "A": "202.88.232.222",
+        "AAAA": "2406:8800:0:3::e"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 5,
+  "updated_at": "2025-07-14T06:43:31.312288+00:00"
+}

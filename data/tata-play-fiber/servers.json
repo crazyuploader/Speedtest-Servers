@@ -1,92 +1,144 @@
-[
-  {
-    "url": "http://speedtestpune.tataplayfiber.co.in:8080/speedtest/upload.php",
-    "lat": "18.5203",
-    "lon": "73.8567",
-    "distance": 313,
-    "name": "Pune",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Tata Play Fiber",
-    "id": "33603",
-    "preferred": 0,
-    "isp_id": "122193",
-    "https_functional": 1,
-    "host": "speedtestpune.tataplayfiber.co.in.prod.hosts.ooklaserver.net:8080"
-  },
-  {
-    "url": "http://speedtestchennai.tataplayfiber.co.in:8080/speedtest/upload.php",
-    "lat": "13.0827",
-    "lon": "80.2707",
-    "distance": 321,
-    "name": "Chennai",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Tata Play Fiber",
-    "id": "37352",
-    "preferred": 0,
-    "isp_id": "122193",
-    "https_functional": 1,
-    "host": "speedtestchennai.tataplayfiber.co.in.prod.hosts.ooklaserver.net:8080"
-  },
-  {
-    "url": "http://speedtestjaipur.tataplayfiber.co.in:8080/speedtest/upload.php",
-    "lat": "26.9260",
-    "lon": "75.8235",
-    "distance": 681,
-    "name": "Jaipur",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Tata Play Fiber",
-    "id": "36392",
-    "preferred": 0,
-    "isp_id": "122193",
-    "https_functional": 1,
-    "host": "speedtestjaipur.tataplayfiber.co.in.prod.hosts.ooklaserver.net:8080"
-  },
-  {
-    "url": "http://speedtestkolkata.tataplayfiber.co.in:8080/speedtest/upload.php",
-    "lat": "22.5667",
-    "lon": "88.3667",
-    "distance": 737,
-    "name": "Kolkata",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Tata Play Fiber",
-    "id": "40733",
-    "preferred": 0,
-    "isp_id": "122193",
-    "https_functional": 1,
-    "host": "speedtestkolkata.tataplayfiber.co.in.prod.hosts.ooklaserver.net:8080"
-  },
-  {
-    "url": "http://speedtestnoida.tataplayfiber.co.in:8080/speedtest/upload.php",
-    "lat": "28.5700",
-    "lon": "77.3200",
-    "distance": 777,
-    "name": "Noida",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Tata Play Fiber",
-    "id": "45938",
-    "preferred": 0,
-    "isp_id": "122193",
-    "https_functional": 1,
-    "host": "speedtestnoida.tataplayfiber.co.in.prod.hosts.ooklaserver.net:8080"
-  },
-  {
-    "url": "http://speedtestdel.tataplayfiber.co.in:8080/speedtest/upload.php",
-    "lat": "28.6100",
-    "lon": "77.2300",
-    "distance": 780,
-    "name": "New Delhi",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Tata Play Fiber",
-    "id": "29658",
-    "preferred": 0,
-    "isp_id": "122193",
-    "https_functional": 1,
-    "host": "speedtestdel.tataplayfiber.co.in.prod.hosts.ooklaserver.net:8080"
-  }
-]
+{
+  "servers": [
+    {
+      "url": "http://speedtest.tataplayfiber.co.in:8080/speedtest/upload.php",
+      "lat": "12.9833",
+      "lon": "77.5833",
+      "name": "Bangalore",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Tata Play Fiber",
+      "id": "16671",
+      "preferred": 0,
+      "isp_id": "122193",
+      "host": "speedtest.tataplayfiber.co.in:8080",
+      "hostname": "speedtest.tataplayfiber.co.in",
+      "ip_address": {
+        "A": "45.127.47.9",
+        "AAAA": "2402:e280:21fc:233::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestpune.tataplayfiber.co.in:8080/speedtest/upload.php",
+      "lat": "18.5203",
+      "lon": "73.8567",
+      "name": "Pune",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Tata Play Fiber",
+      "id": "33603",
+      "preferred": 0,
+      "isp_id": "122193",
+      "https_functional": 1,
+      "host": "speedtestpune.tataplayfiber.co.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestpune.tataplayfiber.co.in",
+      "ip_address": {
+        "A": "103.208.69.233",
+        "AAAA": "2402:e280:200:233::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestchennai.tataplayfiber.co.in:8080/speedtest/upload.php",
+      "lat": "13.0827",
+      "lon": "80.2707",
+      "name": "Chennai",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Tata Play Fiber",
+      "id": "37352",
+      "preferred": 0,
+      "isp_id": "122193",
+      "https_functional": 1,
+      "host": "speedtestchennai.tataplayfiber.co.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestchennai.tataplayfiber.co.in",
+      "ip_address": {
+        "A": "182.50.71.233",
+        "AAAA": "2402:e280:2001:233::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestjaipur.tataplayfiber.co.in:8080/speedtest/upload.php",
+      "lat": "26.9260",
+      "lon": "75.8235",
+      "name": "Jaipur",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Tata Play Fiber",
+      "id": "36392",
+      "preferred": 0,
+      "isp_id": "122193",
+      "https_functional": 1,
+      "host": "speedtestjaipur.tataplayfiber.co.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestjaipur.tataplayfiber.co.in",
+      "ip_address": {
+        "A": "103.22.143.173",
+        "AAAA": "2402:e280:400:233::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestkolkata.tataplayfiber.co.in:8080/speedtest/upload.php",
+      "lat": "22.5667",
+      "lon": "88.3667",
+      "name": "Kolkata",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Tata Play Fiber",
+      "id": "40733",
+      "preferred": 0,
+      "isp_id": "122193",
+      "https_functional": 1,
+      "host": "speedtestkolkata.tataplayfiber.co.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestkolkata.tataplayfiber.co.in",
+      "ip_address": {
+        "A": "103.59.72.233",
+        "AAAA": "2402:e280:106:233::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestnoida.tataplayfiber.co.in:8080/speedtest/upload.php",
+      "lat": "28.5700",
+      "lon": "77.3200",
+      "name": "Noida",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Tata Play Fiber",
+      "id": "45938",
+      "preferred": 0,
+      "isp_id": "122193",
+      "https_functional": 1,
+      "host": "speedtestnoida.tataplayfiber.co.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestnoida.tataplayfiber.co.in",
+      "ip_address": {
+        "A": "45.119.31.233",
+        "AAAA": "2402:e280:4000:233::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestdel.tataplayfiber.co.in:8080/speedtest/upload.php",
+      "lat": "28.6100",
+      "lon": "77.2300",
+      "name": "New Delhi",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Tata Play Fiber",
+      "id": "29658",
+      "preferred": 0,
+      "isp_id": "122193",
+      "https_functional": 1,
+      "host": "speedtestdel.tataplayfiber.co.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestdel.tataplayfiber.co.in",
+      "ip_address": {
+        "A": "103.195.201.233"
+      },
+      "ipv6_capable": "no"
+    }
+  ],
+  "total_servers": 7,
+  "updated_at": "2025-07-14T06:43:57.718482+00:00"
+}

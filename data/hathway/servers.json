@@ -1,17 +1,26 @@
-[
-  {
-    "url": "http://suratspeed.hathway.net:8080/speedtest/upload.php",
-    "lat": "21.1981",
-    "lon": "72.8298",
-    "distance": 452,
-    "name": "Surat",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "HATHWAY CABLE & DATACOM LTD.",
-    "id": "7543",
-    "preferred": 0,
-    "isp_id": "724",
-    "https_functional": 1,
-    "host": "suratspeed.hathway.net:8080"
-  }
-]
+{
+  "servers": [
+    {
+      "url": "http://suratspeed.hathway.net:8080/speedtest/upload.php",
+      "lat": "21.1981",
+      "lon": "72.8298",
+      "name": "Surat",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "HATHWAY CABLE & DATACOM LTD.",
+      "id": "7543",
+      "preferred": 0,
+      "isp_id": "724",
+      "https_functional": 1,
+      "host": "suratspeed.hathway.net:8080",
+      "hostname": "suratspeed.hathway.net",
+      "ip_address": {
+        "A": "116.74.100.6",
+        "AAAA": "2403:c00:800:2::70"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 1,
+  "updated_at": "2025-07-14T06:43:47.187142+00:00"
+}

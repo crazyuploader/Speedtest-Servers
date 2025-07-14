@@ -1,92 +1,126 @@
-[
-  {
-    "url": "http://speedtestvtz.alliancebroadband.in:8080/speedtest/upload.php",
-    "lat": "17.6883",
-    "lon": "83.2186",
-    "distance": 315,
-    "name": "Visakhapatnam",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Alliance Broadband Services Pvt Ltd",
-    "id": "27524",
-    "preferred": 0,
-    "isp_id": "99547",
-    "https_functional": 1,
-    "host": "speedtestvtz.alliancebroadband.in.prod.hosts.ooklaserver.net:8080"
-  },
-  {
-    "url": "http://speedtestcokkl.alliancebroadband.in:8080/speedtest/upload.php",
-    "lat": "11.0510",
-    "lon": "76.0711",
-    "distance": 466,
-    "name": "Malappuram",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Alliance Broadband Services Pvt Ltd",
-    "id": "14922",
-    "preferred": 0,
-    "isp_id": "99547",
-    "https_functional": 1,
-    "host": "speedtestcokkl.alliancebroadband.in.prod.hosts.ooklaserver.net:8080"
-  },
-  {
-    "url": "http://speedtest.alliancebroadband.in:8080/speedtest/upload.php",
-    "lat": "22.5667",
-    "lon": "88.3667",
-    "distance": 737,
-    "name": "Kolkata",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Alliance Broadband Services Pvt Ltd",
-    "id": "12221",
-    "preferred": 0,
-    "isp_id": "99547",
-    "https_functional": 1,
-    "host": "speedtest.alliancebroadband.in.prod.hosts.ooklaserver.net:8080"
-  },
-  {
-    "url": "http://speedtestdgr.alliancebroadband.in:8080/speedtest/upload.php",
-    "lat": "22.5667",
-    "lon": "88.3667",
-    "distance": 737,
-    "name": "Durgapur",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Alliance Broadband Services Pvt Ltd",
-    "id": "40255",
-    "preferred": 0,
-    "isp_id": "99547",
-    "https_functional": 1,
-    "host": "speedtestdgr.alliancebroadband.in.prod.hosts.ooklaserver.net:8080"
-  },
-  {
-    "url": "http://speedtestnoida.alliancebroadband.in:8080/speedtest/upload.php",
-    "lat": "28.5700",
-    "lon": "77.3200",
-    "distance": 777,
-    "name": "Noida",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Alliance Broadband Services Pvt Ltd",
-    "id": "46445",
-    "preferred": 0,
-    "isp_id": "99547",
-    "https_functional": 1,
-    "host": "speedtestnoida.alliancebroadband.in.prod.hosts.ooklaserver.net:8080"
-  },
-  {
-    "url": "http://speedtestslg.alliancebroadband.in:8080/speedtest/upload.php",
-    "lat": "26.7084",
-    "lon": "88.4318",
-    "distance": 907,
-    "name": "Siliguri",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Alliance Broadband Services Pvt Ltd",
-    "id": "49089",
-    "preferred": 0,
-    "isp_id": "99547",
-    "https_functional": 1,
-    "host": "speedtestslg.alliancebroadband.in.prod.hosts.ooklaserver.net:8080"
-  }
-]
+{
+  "servers": [
+    {
+      "url": "http://speedtestvtz.alliancebroadband.in:8080/speedtest/upload.php",
+      "lat": "17.6883",
+      "lon": "83.2186",
+      "name": "Visakhapatnam",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Alliance Broadband Services Pvt Ltd",
+      "id": "27524",
+      "preferred": 0,
+      "isp_id": "99547",
+      "https_functional": 1,
+      "host": "speedtestvtz.alliancebroadband.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestvtz.alliancebroadband.in",
+      "ip_address": {
+        "A": "144.48.226.6",
+        "AAAA": "2407:cb00:d800::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestcokkl.alliancebroadband.in:8080/speedtest/upload.php",
+      "lat": "11.0510",
+      "lon": "76.0711",
+      "name": "Malappuram",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Alliance Broadband Services Pvt Ltd",
+      "id": "14922",
+      "preferred": 0,
+      "isp_id": "99547",
+      "https_functional": 1,
+      "host": "speedtestcokkl.alliancebroadband.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestcokkl.alliancebroadband.in",
+      "ip_address": {
+        "A": "103.94.136.50",
+        "AAAA": "2407:cb00:dc00::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.alliancebroadband.in:8080/speedtest/upload.php",
+      "lat": "22.5667",
+      "lon": "88.3667",
+      "name": "Kolkata",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Alliance Broadband Services Pvt Ltd",
+      "id": "12221",
+      "preferred": 0,
+      "isp_id": "99547",
+      "https_functional": 1,
+      "host": "speedtest.alliancebroadband.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.alliancebroadband.in",
+      "ip_address": {
+        "A": "203.171.240.22",
+        "AAAA": "2407:cb00::436"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestdgr.alliancebroadband.in:8080/speedtest/upload.php",
+      "lat": "22.5667",
+      "lon": "88.3667",
+      "name": "Durgapur",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Alliance Broadband Services Pvt Ltd",
+      "id": "40255",
+      "preferred": 0,
+      "isp_id": "99547",
+      "https_functional": 1,
+      "host": "speedtestdgr.alliancebroadband.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestdgr.alliancebroadband.in",
+      "ip_address": {
+        "A": "103.217.242.78",
+        "AAAA": "2407:cb00:e000::32"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestnoida.alliancebroadband.in:8080/speedtest/upload.php",
+      "lat": "28.5700",
+      "lon": "77.3200",
+      "name": "Noida",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Alliance Broadband Services Pvt Ltd",
+      "id": "46445",
+      "preferred": 0,
+      "isp_id": "99547",
+      "https_functional": 1,
+      "host": "speedtestnoida.alliancebroadband.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestnoida.alliancebroadband.in",
+      "ip_address": {
+        "A": "103.66.8.12",
+        "AAAA": "2407:cb00:ec00:100::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestslg.alliancebroadband.in:8080/speedtest/upload.php",
+      "lat": "26.7084",
+      "lon": "88.4318",
+      "name": "Siliguri",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Alliance Broadband Services Pvt Ltd",
+      "id": "49089",
+      "preferred": 0,
+      "isp_id": "99547",
+      "https_functional": 1,
+      "host": "speedtestslg.alliancebroadband.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestslg.alliancebroadband.in",
+      "ip_address": {
+        "A": "103.2.133.30",
+        "AAAA": "2407:cb00:e400::2"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 6,
+  "updated_at": "2025-07-14T06:43:30.545453+00:00"
+}

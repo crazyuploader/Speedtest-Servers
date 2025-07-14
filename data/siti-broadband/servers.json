@@ -1,77 +1,103 @@
-[
-  {
-    "url": "http://speedtest.e-net.in:8080/speedtest/upload.php",
-    "lat": "16.5190",
-    "lon": "80.6215",
-    "distance": 155,
-    "name": "Vijayawada",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Siti Broadband",
-    "id": "43558",
-    "preferred": 0,
-    "isp_id": "122130",
-    "https_functional": 1,
-    "host": "speedtest.e-net.in.prod.hosts.ooklaserver.net:8080"
-  },
-  {
-    "url": "http://kanpur.sitibroadband.co.in:8080/speedtest/upload.php",
-    "lat": "26.4499",
-    "lon": "80.3319",
-    "distance": 638,
-    "name": "Kanpur",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Siti Broadband",
-    "id": "50715",
-    "preferred": 0,
-    "isp_id": "99525",
-    "https_functional": 1,
-    "host": "kanpur.sitibroadband.co.in.prod.hosts.ooklaserver.net:8080"
-  },
-  {
-    "url": "http://gorakhpur.sitibroadband.co.in:8080/speedtest/upload.php",
-    "lat": "26.7638",
-    "lon": "83.3338",
-    "distance": 720,
-    "name": "Gorakhpur",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Siti Broadband",
-    "id": "48561",
-    "preferred": 0,
-    "isp_id": "99525",
-    "https_functional": 1,
-    "host": "gorakhpur.sitibroadband.co.in.prod.hosts.ooklaserver.net:8080"
-  },
-  {
-    "url": "http://noidaspeedtest.sitibroadband.co.in:8080/speedtest/upload.php",
-    "lat": "28.5700",
-    "lon": "77.3200",
-    "distance": 777,
-    "name": "Noida",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Siti Broadband",
-    "id": "50174",
-    "preferred": 0,
-    "isp_id": "99525",
-    "https_functional": 1,
-    "host": "noidaspeedtest.sitibroadband.co.in.prod.hosts.ooklaserver.net:8080"
-  },
-  {
-    "url": "http://karnal.sitibroadband.co.in:8080/speedtest/upload.php",
-    "lat": "29.6857",
-    "lon": "76.9905",
-    "distance": 856,
-    "name": "Karnal",
-    "country": "India",
-    "cc": "IN",
-    "sponsor": "Siti Broadband",
-    "id": "25068",
-    "preferred": 0,
-    "isp_id": "99525",
-    "https_functional": 1,
-    "host": "karnal.sitibroadband.co.in.prod.hosts.ooklaserver.net:8080"
-  }
-]
+{
+  "servers": [
+    {
+      "url": "http://speedtest.e-net.in:8080/speedtest/upload.php",
+      "lat": "16.5190",
+      "lon": "80.6215",
+      "name": "Vijayawada",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Siti Broadband",
+      "id": "43558",
+      "preferred": 0,
+      "isp_id": "122130",
+      "https_functional": 1,
+      "host": "speedtest.e-net.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.e-net.in",
+      "ip_address": {
+        "A": "45.249.49.9",
+        "AAAA": "2407:42c0:5::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://kanpur.sitibroadband.co.in:8080/speedtest/upload.php",
+      "lat": "26.4499",
+      "lon": "80.3319",
+      "name": "Kanpur",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Siti Broadband",
+      "id": "50715",
+      "preferred": 0,
+      "isp_id": "99525",
+      "host": "kanpur.sitibroadband.co.in:8080",
+      "hostname": "kanpur.sitibroadband.co.in",
+      "ip_address": {
+        "A": "103.217.244.254"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://gorakhpur.sitibroadband.co.in:8080/speedtest/upload.php",
+      "lat": "26.7638",
+      "lon": "83.3338",
+      "name": "Gorakhpur",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Siti Broadband",
+      "id": "48561",
+      "preferred": 0,
+      "isp_id": "99525",
+      "https_functional": 1,
+      "host": "gorakhpur.sitibroadband.co.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "gorakhpur.sitibroadband.co.in",
+      "ip_address": {
+        "A": "202.142.117.66",
+        "AAAA": "2402:ea80:16:2::3"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://noidaspeedtest.sitibroadband.co.in:8080/speedtest/upload.php",
+      "lat": "28.5700",
+      "lon": "77.3200",
+      "name": "Noida",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Siti Broadband",
+      "id": "50174",
+      "preferred": 0,
+      "isp_id": "99525",
+      "https_functional": 1,
+      "host": "noidaspeedtest.sitibroadband.co.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "noidaspeedtest.sitibroadband.co.in",
+      "ip_address": {
+        "A": "150.107.8.106"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://karnal.sitibroadband.co.in:8080/speedtest/upload.php",
+      "lat": "29.6857",
+      "lon": "76.9905",
+      "name": "Karnal",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Siti Broadband",
+      "id": "25068",
+      "preferred": 0,
+      "isp_id": "99525",
+      "https_functional": 1,
+      "host": "karnal.sitibroadband.co.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "karnal.sitibroadband.co.in",
+      "ip_address": {
+        "A": "103.199.227.70",
+        "AAAA": "2402:ea80:d:2::3"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 5,
+  "updated_at": "2025-07-14T06:43:56.513427+00:00"
+}
