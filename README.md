@@ -9,7 +9,7 @@ This repository contains JSON files, each dedicated to a specific ISP, holding a
 **Explore the Server Data:**
 
 - [ACT Fibernet](data/act-fibernet/servers.json)
-- [Alliance Broadband Services Pvt Ltd.](data/alliance-broadband-services-pvt-ltd/servers.json)
+- [Alliance Broadband Services Pvt. Ltd.](data/alliance-broadband-services-pvt-ltd/servers.json)
 - [Asianet Broadband](data/asianet-broadband/servers.json)
 - [Bharat Sanchar Nigam Ltd.](data/bharat-sanchar-nigam-ltd/servers.json)
 - [Bharti Airtel Ltd.](data/bharti-airtel/servers.json)
