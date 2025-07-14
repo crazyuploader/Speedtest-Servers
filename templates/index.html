@@ -3,57 +3,122 @@
   <head>
     <meta charset="UTF-8" />
     <title>Speedtest Servers Viewer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
+      /* Basic custom styles that Tailwind doesn't directly cover or for overrides */
       body {
-        font-family: sans-serif;
-        padding: 20px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
       }
-      select {
-        padding: 5px;
+      main {
+        flex-grow: 1;
       }
-      table {
-        border-collapse: collapse;
-        width: 100%;
-        margin-top: 20px;
-      }
-      th,
-      td {
-        border: 1px solid #ccc;
-        padding: 8px;
-        text-align: left;
-      }
-      th {
-        background-color: #f5f5f5;
+      /* Custom scrollbar for table on smaller screens if needed */
+      .table-container {
+        overflow-x: auto;
       }
     </style>
   </head>
-  <body>
-    <h1>Speedtest Servers Viewer</h1>
+  <body
+    class="bg-gray-100 text-gray-800 antialiased font-sans flex flex-col min-h-screen"
+  >
+    <header class="bg-gradient-to-r from-blue-600 to-indigo-700 p-6 shadow-md">
+      <div class="container mx-auto">
+        <h1 class="text-4xl font-extrabold text-white">
+          Speedtest Servers Viewer
+        </h1>
+      </div>
+    </header>
 
-    <!-- Dropdown to choose ISP/network -->
-    <label for="provider">Choose an ISP/Network:</label>
-    <select id="provider"></select>
+    <main
+      class="container mx-auto mt-8 p-4 bg-white rounded-lg shadow-xl flex-grow"
+    >
+      <div class="mb-6">
+        <label
+          for="provider"
+          class="block text-lg font-semibold text-gray-700 mb-2"
+          >Choose an ISP/Network:</label
+        >
+        <div class="relative inline-block w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
+          <select
+            id="provider"
+            class="block appearance-none w-full bg-white border border-gray-300 text-gray-700 py-3 px-4 pr-8 rounded-lg leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-200 ease-in-out"
+          ></select>
+          <div
+            class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"
+          >
+            <svg
+              class="fill-current h-4 w-4"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+            >
+              <path
+                d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
 
-    <!-- Table to show server data -->
-    <table id="servers">
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>City</th>
-          <th>Sponsor</th>
-          <th>IPv6</th>
-          <th>Host</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
+      <div
+        id="metadata"
+        class="text-sm text-gray-600 mb-6 p-3 bg-blue-50 rounded-md border border-blue-200"
+      ></div>
 
-    <!-- Metadata for current ISP like server count and update time -->
-    <div id="metadata" style="margin-top: 10px; font-style: italic"></div>
+      <div
+        class="table-container shadow-md rounded-lg overflow-hidden border border-gray-200"
+      >
+        <table id="servers" class="min-w-full divide-y divide-gray-200">
+          <thead class="bg-gray-50">
+            <tr>
+              <th
+                scope="col"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+              >
+                #
+              </th>
+              <th
+                scope="col"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+              >
+                City
+              </th>
+              <th
+                scope="col"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+              >
+                Sponsor
+              </th>
+              <th
+                scope="col"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+              >
+                IPv6
+              </th>
+              <th
+                scope="col"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+              >
+                Host
+              </th>
+            </tr>
+          </thead>
+          <tbody class="bg-white divide-y divide-gray-200"></tbody>
+        </table>
+      </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white text-center p-4 mt-8 shadow-inner">
+      <div class="container mx-auto">
+        <p>&copy; 2025 Speedtest Servers Viewer. All rights reserved.</p>
+      </div>
+    </footer>
 
     <script>
       const select = document.getElementById("provider"); // dropdown element
       const tbody = document.querySelector("tbody"); // table body where rows go
+      const metadataDiv = document.getElementById("metadata"); // metadata div
 
       // In-memory cache for already-fetched JSON data
       const cachedData = {};
@@ -68,45 +133,65 @@
 
       // Load all ISPs listed from the server
       async function loadProviders() {
-        const res = await fetch("/list");
-        const dirs = await res.json(); // array of directory names like 'jio', 'hathway'
-        const options = [];
-
-        // For each ISP directory, fetch the servers.json file
-        for (const dir of dirs) {
-          try {
-            const jsonRes = await fetch(`/data/${dir}/servers.json`);
-            const data = await jsonRes.json();
-
-            // Cache this JSON for later use (avoids re-fetching)
-            cachedData[dir] = data;
-
-            // Label for dropdown: use sponsor name or fallback to formatted dir name
-            const label = data.servers?.[0]?.sponsor || formatName(dir);
-            options.push({ value: dir, label });
-          } catch (err) {
-            console.warn(`Failed to read sponsor from ${dir}:`, err);
+        try {
+          const res = await fetch("/list");
+          if (!res.ok) {
+            throw new Error(`HTTP error! status: ${res.status}`);
           }
-        }
+          const dirs = await res.json(); // array of directory names like 'jio', 'hathway'
+          const options = [];
 
-        // Sort ISPs alphabetically by sponsor name
-        options.sort((a, b) => a.label.localeCompare(b.label));
+          // For each ISP directory, fetch the servers.json file
+          for (const dir of dirs) {
+            try {
+              const jsonRes = await fetch(`/data/${dir}/servers.json`);
+              if (!jsonRes.ok) {
+                console.warn(
+                  `Failed to fetch data for ${dir}: HTTP error! status: ${jsonRes.status}`,
+                );
+                continue; // Skip to the next directory
+              }
+              const data = await jsonRes.json();
 
-        // Render dropdown options
-        select.innerHTML = options
-          .map((opt) => `<option value="${opt.value}">${opt.label}</option>`)
-          .join("");
+              // Cache this JSON for later use (avoids re-fetching)
+              cachedData[dir] = data;
 
-        // Load the first ISP by default
-        if (options.length > 0) {
-          loadServers(options[0].value);
+              // Label for dropdown: use sponsor name or fallback to formatted dir name
+              const label = data.servers?.[0]?.sponsor || formatName(dir);
+              options.push({ value: dir, label });
+            } catch (err) {
+              console.warn(`Failed to process data for ${dir}:`, err);
+            }
+          }
+
+          // Sort ISPs alphabetically by sponsor name
+          options.sort((a, b) => a.label.localeCompare(b.label));
+
+          // Render dropdown options
+          select.innerHTML = options
+            .map((opt) => `<option value="${opt.value}">${opt.label}</option>`)
+            .join("");
+
+          // Load the first ISP by default
+          if (options.length > 0) {
+            loadServers(options[0].value);
+          } else {
+            metadataDiv.innerHTML = `<p class="text-red-600">No ISP data available.</p>`;
+          }
+        } catch (err) {
+          console.error("Error loading providers:", err);
+          metadataDiv.innerHTML = `<p class="text-red-600">Failed to load ISP list. Please check the server connection.</p>`;
         }
       }
 
       // Load server data from cachedData and display it in the table
       function loadServers(isp) {
         const data = cachedData[isp];
-        if (!data) return;
+        if (!data) {
+          tbody.innerHTML = `<tr><td colspan="5" class="px-6 py-4 text-center text-gray-500">No server data found for this ISP.</td></tr>`;
+          metadataDiv.innerHTML = `<p class="text-red-600">No data available for the selected ISP.</p>`;
+          return;
+        }
 
         // Format last updated timestamp (24-hour format)
         const updatedAt = new Date(data.updated_at);
@@ -121,31 +206,34 @@
         });
 
         // Show metadata
-        const metadataDiv = document.getElementById("metadata");
         metadataDiv.innerHTML = `
-          Total Servers: ${data.total_servers} &nbsp;|&nbsp;
-          Last Updated: ${formattedDate}
+          <p><strong>Total Servers:</strong> <span class="font-medium">${data.total_servers}</span></p>
+          <p><strong>Last Updated:</strong> <span class="font-medium">${formattedDate}</span></p>
         `;
 
         // Populate table rows with server data
         tbody.innerHTML = "";
-        data.servers.forEach((server, idx) => {
-          tbody.innerHTML += `
-            <tr>
-              <td>${idx + 1}</td>
-              <td>${server.name}</td>
-              <td>${server.sponsor}</td>
-              <td>${server.ipv6_capable}</td>
-              <td>${server.hostname}</td>
-            </tr>`;
-        });
+        if (data.servers && data.servers.length > 0) {
+          data.servers.forEach((server, idx) => {
+            tbody.innerHTML += `
+              <tr class="${idx % 2 === 0 ? "bg-white" : "bg-gray-50"} hover:bg-gray-100 transition duration-150 ease-in-out">
+                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">${idx + 1}</td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">${server.name}</td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">${server.sponsor}</td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm ${server.ipv6_capable === "yes" ? "text-green-600" : "text-red-600"}">${server.ipv6_capable}</td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 font-mono">${server.hostname}</td>
+              </tr>`;
+          });
+        } else {
+          tbody.innerHTML = `<tr><td colspan="5" class="px-6 py-4 text-center text-gray-500">No servers found for this ISP.</td></tr>`;
+        }
       }
 
       // When dropdown changes, update the table for selected ISP
       select.addEventListener("change", (e) => loadServers(e.target.value));
 
       // Start everything when page loads
-      loadProviders();
+      document.addEventListener("DOMContentLoaded", loadProviders);
     </script>
   </body>
 </html>
