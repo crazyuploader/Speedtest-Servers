@@ -11,20 +11,26 @@ import os
 from flask import Flask, abort, render_template, jsonify
 from werkzeug.middleware.proxy_fix import ProxyFix
 
-app = Flask(__name__, static_folder="data", template_folder="templates")
+# Define paths
+BASE_DIR = os.path.dirname(__file__)
+DATA_DIR = os.path.join(BASE_DIR, "data")  # JSON data folder
 
-# Enable proxy headers
+app = Flask(__name__, template_folder="templates")
+
+# Enable reverse proxy support
 app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1)
 
 
 @app.route("/")
 def dashboard():
+    """Serve the main dashboard HTML"""
     return render_template("index.html")
 
 
 @app.route("/data/<term>/servers.json")
 def serve_json(term):
-    file_path = os.path.join(app.static_folder, term, "servers.json")
+    """Serve servers.json for a given ISP"""
+    file_path = os.path.join(DATA_DIR, term, "servers.json")
 
     if not os.path.exists(file_path):
         abort(404)
@@ -41,13 +47,12 @@ def serve_json(term):
 
 @app.route("/list")
 def list_isps():
-    base_dir = app.static_folder
+    """List all available ISPs that have a servers.json"""
     try:
         isp_dirs = sorted(
-            d
-            for d in os.listdir(base_dir)
-            if os.path.isdir(os.path.join(base_dir, d))
-            and os.path.isfile(os.path.join(base_dir, d, "servers.json"))
+            d for d in os.listdir(DATA_DIR)
+            if os.path.isdir(os.path.join(DATA_DIR, d))
+            and os.path.isfile(os.path.join(DATA_DIR, d, "servers.json"))
         )
         return jsonify(isp_dirs)
     except Exception as e:
@@ -55,4 +60,5 @@ def list_isps():
 
 
 if __name__ == "__main__":
+    # Only for development use — Gunicorn should be used in production
     app.run(host="0.0.0.0", port=5000, debug=True)
