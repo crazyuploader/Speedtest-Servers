@@ -313,7 +313,7 @@
       "hostname": "speedtestlud1.airtelbroadband.in",
       "ip_address": {
         "A": "182.66.121.38",
-        "AAAA": "2404:a800:1a00:805::b0"
+        "AAAA": "2404:a800:1a00:805::b3"
       },
       "ipv6_capable": "yes"
     },
@@ -619,5 +619,5 @@
     }
   ],
   "total_servers": 31,
-  "updated_at": "2025-07-14T09:00:58.510984+00:00"
+  "updated_at": "2025-07-14T09:47:54.360618+00:00"
 }
