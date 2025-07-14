@@ -30,9 +30,11 @@
   <body>
     <h1>Speedtest Servers Viewer</h1>
 
+    <!-- Dropdown to choose ISP/network -->
     <label for="provider">Choose an ISP/Network:</label>
     <select id="provider"></select>
 
+    <!-- Table to show server data -->
     <table id="servers">
       <thead>
         <tr>
@@ -46,52 +48,67 @@
       <tbody></tbody>
     </table>
 
+    <!-- Metadata for current ISP like server count and update time -->
     <div id="metadata" style="margin-top: 10px; font-style: italic"></div>
 
     <script>
-      const select = document.getElementById("provider");
-      const tbody = document.querySelector("tbody");
+      const select = document.getElementById("provider"); // dropdown element
+      const tbody = document.querySelector("tbody"); // table body where rows go
 
-      // Converts 'you-broadband-india' → 'You Broadband India'
+      // In-memory cache for already-fetched JSON data
+      const cachedData = {};
+
+      // Helper to convert slugified directory names to readable labels
+      // 'you-broadband-india' → 'You Broadband India'
       const formatName = (str) =>
         str
           .split("-")
           .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
           .join(" ");
 
+      // Load all ISPs listed from the server
       async function loadProviders() {
         const res = await fetch("/list");
-        const dirs = await res.json();
+        const dirs = await res.json(); // array of directory names like 'jio', 'hathway'
         const options = [];
 
+        // For each ISP directory, fetch the servers.json file
         for (const dir of dirs) {
           try {
             const jsonRes = await fetch(`/data/${dir}/servers.json`);
             const data = await jsonRes.json();
-            const label = data.servers?.[0]?.sponsor || formatName(dir); // fallback
+
+            // Cache this JSON for later use (avoids re-fetching)
+            cachedData[dir] = data;
+
+            // Label for dropdown: use sponsor name or fallback to formatted dir name
+            const label = data.servers?.[0]?.sponsor || formatName(dir);
             options.push({ value: dir, label });
           } catch (err) {
             console.warn(`Failed to read sponsor from ${dir}:`, err);
           }
         }
 
-        // Sort alphabetically by sponsor label
+        // Sort ISPs alphabetically by sponsor name
         options.sort((a, b) => a.label.localeCompare(b.label));
 
+        // Render dropdown options
         select.innerHTML = options
           .map((opt) => `<option value="${opt.value}">${opt.label}</option>`)
           .join("");
 
+        // Load the first ISP by default
         if (options.length > 0) {
           loadServers(options[0].value);
         }
       }
 
-      async function loadServers(isp) {
-        const res = await fetch(`/data/${isp}/servers.json`);
-        const data = await res.json();
+      // Load server data from cachedData and display it in the table
+      function loadServers(isp) {
+        const data = cachedData[isp];
+        if (!data) return;
 
-        // Display metadata
+        // Format last updated timestamp (24-hour format)
         const updatedAt = new Date(data.updated_at);
         const formattedDate = updatedAt.toLocaleString(undefined, {
           year: "numeric",
@@ -100,32 +117,34 @@
           hour: "2-digit",
           minute: "2-digit",
           second: "2-digit",
-          hour12: false,
+          hour12: false, // 24-hour clock
         });
 
+        // Show metadata
         const metadataDiv = document.getElementById("metadata");
         metadataDiv.innerHTML = `
-    Total Servers: ${data.total_servers} &nbsp;|&nbsp;
-    Last Updated: ${formattedDate}
-  `;
+          Total Servers: ${data.total_servers} &nbsp;|&nbsp;
+          Last Updated: ${formattedDate}
+        `;
 
-        // Build table
+        // Populate table rows with server data
         tbody.innerHTML = "";
         data.servers.forEach((server, idx) => {
           tbody.innerHTML += `
-      <tr>
-        <td>${idx + 1}</td>
-        <td>${server.name}</td>
-        <td>${server.sponsor}</td>
-        <td>${server.ipv6_capable}</td>
-        <td>${server.hostname}</td>
-      </tr>`;
+            <tr>
+              <td>${idx + 1}</td>
+              <td>${server.name}</td>
+              <td>${server.sponsor}</td>
+              <td>${server.ipv6_capable}</td>
+              <td>${server.hostname}</td>
+            </tr>`;
         });
       }
 
+      // When dropdown changes, update the table for selected ISP
       select.addEventListener("change", (e) => loadServers(e.target.value));
 
-      // Initialize
+      // Start everything when page loads
       loadProviders();
     </script>
   </body>
