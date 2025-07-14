@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Speedtest Servers Viewer</title>
+    <title>Enhanced Speedtest Servers Viewer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@400;600;700&display=swap"
@@ -96,7 +96,7 @@
       /* --- Table Styles --- */
       #servers {
         /* Set minimum width to ensure table is wide enough to scroll */
-        min-width: 900px;
+        min-width: 800px; /* Adjusted for fewer columns */
         width: 100%;
         display: table;
       }
@@ -107,7 +107,7 @@
           table-layout: fixed;
         }
 
-        /* Adjusted widths for 7 columns on desktop */
+        /* Adjusted widths for 8 columns on desktop */
         #servers th:nth-child(1),
         #servers td:nth-child(1) {
           width: 5%; /* # */
@@ -118,7 +118,7 @@
         }
         #servers th:nth-child(3),
         #servers td:nth-child(3) {
-          width: 15%; /* Country */
+          width: 10%; /* Country */
         }
         #servers th:nth-child(4),
         #servers td:nth-child(4) {
@@ -130,11 +130,15 @@
         }
         #servers th:nth-child(6),
         #servers td:nth-child(6) {
-          width: 10%; /* IPv6 */
+          width: 8%; /* HTTPS */
         }
         #servers th:nth-child(7),
         #servers td:nth-child(7) {
-          width: 25%; /* Host */
+          width: 8%; /* IPv6 */
+        }
+        #servers th:nth-child(8),
+        #servers td:nth-child(8) {
+          width: 24%; /* Host */
         }
       }
 
@@ -151,7 +155,7 @@
 
         #servers {
           table-layout: auto;
-          min-width: 900px;
+          min-width: 880px; /* Adjusted for fewer columns */
           display: table;
         }
 
@@ -176,7 +180,7 @@
         }
         #servers th:nth-child(4),
         #servers td:nth-child(4) {
-          min-width: 200px; /* Sponsor */
+          min-width: 180px; /* Sponsor */
         }
         #servers th:nth-child(5),
         #servers td:nth-child(5) {
@@ -184,11 +188,15 @@
         }
         #servers th:nth-child(6),
         #servers td:nth-child(6) {
-          min-width: 100px; /* IPv6 */
+          min-width: 70px; /* HTTPS */
         }
         #servers th:nth-child(7),
         #servers td:nth-child(7) {
-          min-width: 250px; /* Host */
+          min-width: 90px; /* IPv6 */
+        }
+        #servers th:nth-child(8),
+        #servers td:nth-child(8) {
+          min-width: 200px; /* Host */
         }
       }
 
@@ -226,6 +234,22 @@
       #ip-tooltip strong {
         color: #a8dadc; /* A slight highlight for labels */
       }
+
+      /* Status indicator dot (kept for potential future use, though not displayed) */
+      .status-dot {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-right: 5px;
+        vertical-align: middle;
+      }
+      .status-online {
+        background-color: #22c55e; /* green-500 */
+      }
+      .status-offline {
+        background-color: #ef4444; /* red-500 */
+      }
     </style>
   </head>
   <body class="bg-gray-50 text-gray-800 antialiased flex flex-col min-h-screen">
@@ -242,7 +266,7 @@
         <h1
           class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white text-center sm:text-left tracking-tight font-['Montserrat']"
         >
-          Speedtest Servers Viewer
+          Enhanced Speedtest Servers Viewer
         </h1>
       </div>
     </header>
@@ -250,30 +274,80 @@
     <main
       class="container mx-auto mt-6 sm:mt-10 p-4 sm:p-6 bg-white rounded-xl shadow-2xl flex-grow border border-gray-100"
     >
-      <div class="mb-6 sm:mb-8">
-        <label
-          for="provider"
-          class="block text-lg sm:text-xl font-semibold text-gray-700 mb-3"
-          >Choose an ISP/Network:</label
-        >
-        <div class="relative w-full sm:w-2/3 md:w-1/2 lg:w-1/3">
-          <select
-            id="provider"
-            class="block appearance-none w-full bg-white border border-gray-300 text-gray-800 py-3 px-4 pr-8 rounded-lg leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300 ease-in-out text-base sm:text-lg shadow-sm"
-          ></select>
-          <div
-            class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-600"
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6 sm:mb-8"
+      >
+        <!-- ISP Selector -->
+        <div>
+          <label
+            for="provider"
+            class="block text-lg sm:text-xl font-semibold text-gray-700 mb-3"
+            >Choose an ISP/Network:</label
           >
-            <svg
-              class="fill-current h-5 w-5"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
+          <div class="relative">
+            <select
+              id="provider"
+              class="block appearance-none w-full bg-white border border-gray-300 text-gray-800 py-3 px-4 pr-8 rounded-lg leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300 ease-in-out text-base sm:text-lg shadow-sm"
+            ></select>
+            <div
+              class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-600"
             >
-              <path
-                d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-              />
-            </svg>
+              <svg
+                class="fill-current h-5 w-5"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                />
+              </svg>
+            </div>
           </div>
+        </div>
+
+        <!-- Country Filter -->
+        <div>
+          <label
+            for="countryFilter"
+            class="block text-lg sm:text-xl font-semibold text-gray-700 mb-3"
+            >Filter by Country:</label
+          >
+          <div class="relative">
+            <select
+              id="countryFilter"
+              class="block appearance-none w-full bg-white border border-gray-300 text-gray-800 py-3 px-4 pr-8 rounded-lg leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300 ease-in-out text-base sm:text-lg shadow-sm"
+            >
+              <option value="">All Countries</option>
+            </select>
+            <div
+              class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-600"
+            >
+              <svg
+                class="fill-current h-5 w-5"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Search Bar -->
+        <div>
+          <label
+            for="searchServers"
+            class="block text-lg sm:text-xl font-semibold text-gray-700 mb-3"
+            >Search Servers:</label
+          >
+          <input
+            type="text"
+            id="searchServers"
+            placeholder="Search by city, sponsor, host, ID..."
+            class="block w-full bg-white border border-gray-300 text-gray-800 py-3 px-4 rounded-lg leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300 ease-in-out text-base sm:text-lg shadow-sm"
+          />
         </div>
       </div>
 
@@ -355,6 +429,12 @@
                 scope="col"
                 class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider"
               >
+                HTTPS
+              </th>
+              <th
+                scope="col"
+                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider"
+              >
                 IPv6 Capable
               </th>
               <th
@@ -374,12 +454,16 @@
       class="bg-gray-900 text-white text-center p-4 sm:p-5 mt-8 sm:mt-12 shadow-inner text-sm sm:text-base"
     >
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <p>&copy; 2025 Speedtest Servers Viewer. All rights reserved.</p>
+        <p>
+          &copy; 2025 Enhanced Speedtest Servers Viewer. All rights reserved.
+        </p>
       </div>
     </footer>
 
     <script>
-      const select = document.getElementById("provider"); // dropdown element
+      const selectProvider = document.getElementById("provider"); // ISP dropdown element
+      const selectCountryFilter = document.getElementById("countryFilter"); // Country filter dropdown
+      const searchServersInput = document.getElementById("searchServers"); // Search input
       const tbody = document.querySelector("tbody"); // table body where rows go
       const metadataDiv = document.getElementById("metadata"); // metadata div
       const spinner = document.getElementById("spinner"); // spinner element
@@ -387,6 +471,7 @@
 
       // In-memory cache for already-fetched JSON data
       const cachedData = {};
+      let currentISPData = null; // Stores the currently selected ISP's full data
 
       // Helper to show the spinner
       function showSpinner() {
@@ -405,6 +490,26 @@
           .split("-")
           .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
           .join(" ");
+
+      // Function to populate the country filter dropdown
+      function populateCountryFilter(servers) {
+        const countries = new Set();
+        servers.forEach((server) => {
+          if (server.country) {
+            countries.add(server.country);
+          }
+        });
+        const sortedCountries = Array.from(countries).sort();
+
+        selectCountryFilter.innerHTML =
+          '<option value="">All Countries</option>';
+        sortedCountries.forEach((country) => {
+          const option = document.createElement("option");
+          option.value = country;
+          option.textContent = country;
+          selectCountryFilter.appendChild(option);
+        });
+      }
 
       // Load all ISPs listed from the server
       async function loadProviders() {
@@ -444,12 +549,15 @@
           options.sort((a, b) => a.label.localeCompare(b.label));
 
           // Render dropdown options
-          select.innerHTML = options
+          selectProvider.innerHTML = options
             .map((opt) => `<option value="${opt.value}">${opt.label}</option>`)
             .join("");
 
           // Load the first ISP by default
           if (options.length > 0) {
+            // Reset filters when a new ISP is loaded
+            selectCountryFilter.value = "";
+            searchServersInput.value = "";
             loadServers(options[0].value);
           } else {
             metadataDiv.innerHTML = `<p class="text-red-600">No ISP data available.</p>`;
@@ -462,15 +570,44 @@
         }
       }
 
-      // Load server data from cachedData and display it in the table
-      function loadServers(isp) {
+      // Load server data from cachedData, apply filters, and display it in the table
+      function loadServers(isp, countryFilter = "", searchTerm = "") {
         const data = cachedData[isp];
-        if (!data) {
-          // Colspan remains 7 as there are still 7 columns
-          tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-4 text-center text-gray-500">No server data found for this ISP.</td></tr>`;
+        currentISPData = data; // Store the full data for current ISP
+
+        if (!data || !data.servers) {
+          // Colspan is now 8
+          tbody.innerHTML = `<tr><td colspan="8" class="px-6 py-4 text-center text-gray-500">No server data found for this ISP.</td></tr>`;
           metadataDiv.innerHTML = `<p class="text-red-600">No data available for the selected ISP.</p>`;
+          populateCountryFilter([]); // Clear country filter
           return;
         }
+
+        let filteredServers = data.servers; // No simulation needed if columns are removed
+
+        // Apply country filter
+        if (countryFilter) {
+          filteredServers = filteredServers.filter(
+            (server) => server.country === countryFilter,
+          );
+        }
+
+        // Apply search term filter
+        if (searchTerm) {
+          const lowerCaseSearchTerm = searchTerm.toLowerCase();
+          filteredServers = filteredServers.filter(
+            (server) =>
+              server.name.toLowerCase().includes(lowerCaseSearchTerm) ||
+              server.sponsor.toLowerCase().includes(lowerCaseSearchTerm) ||
+              server.host.toLowerCase().includes(lowerCaseSearchTerm) ||
+              server.id.includes(lowerCaseSearchTerm),
+          );
+        }
+
+        // Populate country filter based on the *original* full data for the ISP
+        populateCountryFilter(data.servers);
+        // Ensure the selected country filter remains active
+        selectCountryFilter.value = countryFilter;
 
         // Format last updated timestamp (24-hour format)
         const updatedAt = new Date(data.updated_at);
@@ -484,20 +621,32 @@
           hour12: false, // 24-hour clock
         });
 
+        // Live status counts are no longer relevant without the 'Status' column
+        // but keeping the metadata structure consistent for now.
+        // If you want to completely remove this, you can adjust the metadataDiv.innerHTML
+        // const onlineServers = filteredServers.filter(s => s.simulatedStatus === 'Online').length;
+        // const offlineServers = filteredServers.length - onlineServers;
+
         // Show metadata
         metadataDiv.innerHTML = `
       <p class="font-medium"><strong>Total Servers:</strong> <span class="font-bold text-blue-700">${data.total_servers}</span></p>
       <p class="font-medium"><strong>Last Updated:</strong> <span class="font-bold text-blue-700">${formattedDate}</span></p>
+      <!-- Removed live status as columns are removed -->
     `;
 
         // Populate table rows with server data
         tbody.innerHTML = "";
-        if (data.servers && data.servers.length > 0) {
-          data.servers.forEach((server, idx) => {
+        if (filteredServers.length > 0) {
+          filteredServers.forEach((server, idx) => {
             const ipv6Class =
               server.ipv6_capable === "yes"
                 ? "text-green-600 font-semibold"
                 : "text-red-600 font-semibold";
+            const httpsClass =
+              server.https_functional === 1
+                ? "text-green-600 font-semibold"
+                : "text-red-600 font-semibold";
+
             tbody.innerHTML += `
           <tr class="${idx % 2 === 0 ? "bg-white" : "bg-gray-50"} hover:bg-blue-50 transition duration-150 ease-in-out">
             <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-800 sm:px-6 sm:py-4">${idx + 1}</td>
@@ -505,6 +654,7 @@
             <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-800 sm:px-6 sm:py-4">${server.country}</td>
             <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-800 sm:px-6 sm:py-4">${server.sponsor}</td>
             <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-800 sm:px-6 sm:py-4">${server.id}</td>
+            <td class="px-4 py-2 whitespace-nowrap text-sm ${httpsClass} sm:px-6 sm:py-4">${server.https_functional === 1 ? "Yes" : "No"}</td>
             <td class="px-4 py-2 whitespace-nowrap text-sm ${ipv6Class} sm:px-6 sm:py-4">${server.ipv6_capable}</td>
             <td
                 class="px-4 py-2 whitespace-nowrap text-sm text-gray-800 font-mono sm:px-6 sm:py-4 cursor-help relative"
@@ -516,22 +666,38 @@
           </tr>`;
           });
         } else {
-          // Colspan remains 7
-          tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-4 text-center text-gray-500 italic">No servers found for this ISP.</td></tr>`;
+          // Colspan is now 8
+          tbody.innerHTML = `<tr><td colspan="8" class="px-6 py-4 text-center text-gray-500 italic">No servers found matching your criteria.</td></tr>`;
         }
       }
 
-      // When dropdown changes, update the table for selected ISP
-      select.addEventListener("change", (e) => loadServers(e.target.value));
+      // Function to trigger re-rendering with current filters
+      function applyFilters() {
+        const selectedIsp = selectProvider.value;
+        const selectedCountry = selectCountryFilter.value;
+        const searchTerm = searchServersInput.value;
+        loadServers(selectedIsp, selectedCountry, searchTerm);
+      }
+
+      // Event listeners for filters
+      selectProvider.addEventListener("change", () => {
+        // When ISP changes, reset country filter and search term, then load
+        selectCountryFilter.value = "";
+        searchServersInput.value = "";
+        applyFilters();
+      });
+      selectCountryFilter.addEventListener("change", applyFilters);
+      searchServersInput.addEventListener("input", applyFilters);
 
       // --- Tooltip Event Listeners ---
       tbody.addEventListener("mouseover", (e) => {
         const hoveredCell = e.target.closest("td");
 
-        // Ensure the hovered element is the 7th column (Host) and contains IP data
+        // Ensure the hovered element is the last column (Host) and contains IP data
+        // The index is now 7 (0-indexed), as 4 columns were removed from the original 11th index.
         if (
           hoveredCell &&
-          hoveredCell.cellIndex === 6 &&
+          hoveredCell.cellIndex === 7 &&
           hoveredCell.hasAttribute("data-ipv4")
         ) {
           const ipv4 = hoveredCell.dataset.ipv4;
