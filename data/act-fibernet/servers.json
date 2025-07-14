@@ -1,102 +1,22 @@
 {
   "servers": [
     {
-      "url": "http://speedtest.actcorp.in:8080/speedtest/upload.php",
-      "lat": "17.3700",
-      "lon": "78.4800",
-      "name": "Hyderabad",
+      "url": "http://speedtestahmd.actcorp.in:8080/speedtest/upload.php",
+      "lat": "23.0300",
+      "lon": "72.5800",
+      "name": "Ahmedabad",
       "country": "India",
       "cc": "IN",
       "sponsor": "ACT FIBERNET",
-      "id": "14340",
+      "id": "51969",
       "preferred": 0,
       "isp_id": "64789",
       "https_functional": 1,
-      "host": "speedtest.actcorp.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtest.actcorp.in",
+      "host": "speedtestahmd.actcorp.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestahmd.actcorp.in",
       "ip_address": {
-        "A": "123.176.37.64",
-        "AAAA": "2406:b400:1::64"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtestvjw.actcorp.in:8080/speedtest/upload.php",
-      "lat": "16.5190",
-      "lon": "80.6215",
-      "name": "Vijayawada",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "ACT FIBERNET",
-      "id": "7896",
-      "preferred": 0,
-      "isp_id": "64789",
-      "https_functional": 1,
-      "host": "speedtestvjw.actcorp.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestvjw.actcorp.in",
-      "ip_address": {
-        "A": "202.83.30.41",
-        "AAAA": "2406:7400:30:10::42"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtestnlr.actcorp.in:8080/speedtest/upload.php",
-      "lat": "14.4426",
-      "lon": "79.9865",
-      "name": "Nellore",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "ACT FIBERNET",
-      "id": "10984",
-      "preferred": 0,
-      "isp_id": "64789",
-      "https_functional": 1,
-      "host": "speedtestnlr.actcorp.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestnlr.actcorp.in",
-      "ip_address": {
-        "A": "106.51.255.249",
-        "AAAA": "2406:7400:38:10::143"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtestpune.actcorp.in:8080/speedtest/upload.php",
-      "lat": "18.5203",
-      "lon": "73.8567",
-      "name": "Pune",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "ACT FIBERNET",
-      "id": "63254",
-      "preferred": 0,
-      "isp_id": "64789",
-      "https_functional": 1,
-      "host": "speedtestpune.actcorp.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestpune.actcorp.in",
-      "ip_address": {
-        "A": "183.83.40.12",
-        "AAAA": "2406:b400:51:1::2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtestviz.actcorp.in:8080/speedtest/upload.php",
-      "lat": "17.6883",
-      "lon": "83.2186",
-      "name": "Visakhapatnam",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "ACT FIBERNET",
-      "id": "7895",
-      "preferred": 0,
-      "isp_id": "64789",
-      "https_functional": 1,
-      "host": "speedtestviz.actcorp.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestviz.actcorp.in",
-      "ip_address": {
-        "A": "106.51.115.152",
-        "AAAA": "2406:7400:40:10::152"
+        "A": "124.123.126.10",
+        "AAAA": "2406:b400:1::66"
       },
       "ipv6_capable": "yes"
     },
@@ -141,42 +61,22 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtestahmd.actcorp.in:8080/speedtest/upload.php",
-      "lat": "23.0300",
-      "lon": "72.5800",
-      "name": "Ahmedabad",
+      "url": "http://speedtest.actcorp.in:8080/speedtest/upload.php",
+      "lat": "17.3700",
+      "lon": "78.4800",
+      "name": "Hyderabad",
       "country": "India",
       "cc": "IN",
       "sponsor": "ACT FIBERNET",
-      "id": "51969",
+      "id": "14340",
       "preferred": 0,
       "isp_id": "64789",
       "https_functional": 1,
-      "host": "speedtestahmd.actcorp.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestahmd.actcorp.in",
+      "host": "speedtest.actcorp.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.actcorp.in",
       "ip_address": {
-        "A": "124.123.126.10",
-        "AAAA": "2406:b400:1::66"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtestlkn.actcorp.in:8080/speedtest/upload.php",
-      "lat": "26.8500",
-      "lon": "80.9200",
-      "name": "Lucknow",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "ACT FIBERNET",
-      "id": "54064",
-      "preferred": 0,
-      "isp_id": "64789",
-      "https_functional": 1,
-      "host": "speedtestlkn.actcorp.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestlkn.actcorp.in",
-      "ip_address": {
-        "A": "183.82.174.13",
-        "AAAA": "2406:b400:64:1::13"
+        "A": "123.176.37.64",
+        "AAAA": "2406:b400:1::64"
       },
       "ipv6_capable": "yes"
     },
@@ -201,6 +101,46 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtestlkn.actcorp.in:8080/speedtest/upload.php",
+      "lat": "26.8500",
+      "lon": "80.9200",
+      "name": "Lucknow",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "ACT FIBERNET",
+      "id": "54064",
+      "preferred": 0,
+      "isp_id": "64789",
+      "https_functional": 1,
+      "host": "speedtestlkn.actcorp.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestlkn.actcorp.in",
+      "ip_address": {
+        "A": "183.82.174.13",
+        "AAAA": "2406:b400:64:1::13"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestnlr.actcorp.in:8080/speedtest/upload.php",
+      "lat": "14.4426",
+      "lon": "79.9865",
+      "name": "Nellore",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "ACT FIBERNET",
+      "id": "10984",
+      "preferred": 0,
+      "isp_id": "64789",
+      "https_functional": 1,
+      "host": "speedtestnlr.actcorp.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestnlr.actcorp.in",
+      "ip_address": {
+        "A": "106.51.255.249",
+        "AAAA": "2406:7400:38:10::143"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtestdelhi.actcorp.in:8080/speedtest/upload.php",
       "lat": "28.6100",
       "lon": "77.2300",
@@ -219,8 +159,68 @@
         "AAAA": "2406:b400:50::16"
       },
       "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestpune.actcorp.in:8080/speedtest/upload.php",
+      "lat": "18.5203",
+      "lon": "73.8567",
+      "name": "Pune",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "ACT FIBERNET",
+      "id": "63254",
+      "preferred": 0,
+      "isp_id": "64789",
+      "https_functional": 1,
+      "host": "speedtestpune.actcorp.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestpune.actcorp.in",
+      "ip_address": {
+        "A": "183.83.40.12",
+        "AAAA": "2406:b400:51:1::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestvjw.actcorp.in:8080/speedtest/upload.php",
+      "lat": "16.5190",
+      "lon": "80.6215",
+      "name": "Vijayawada",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "ACT FIBERNET",
+      "id": "7896",
+      "preferred": 0,
+      "isp_id": "64789",
+      "https_functional": 1,
+      "host": "speedtestvjw.actcorp.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestvjw.actcorp.in",
+      "ip_address": {
+        "A": "202.83.30.41",
+        "AAAA": "2406:7400:30:10::42"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestviz.actcorp.in:8080/speedtest/upload.php",
+      "lat": "17.6883",
+      "lon": "83.2186",
+      "name": "Visakhapatnam",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "ACT FIBERNET",
+      "id": "7895",
+      "preferred": 0,
+      "isp_id": "64789",
+      "https_functional": 1,
+      "host": "speedtestviz.actcorp.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestviz.actcorp.in",
+      "ip_address": {
+        "A": "106.51.115.152",
+        "AAAA": "2406:7400:40:10::152"
+      },
+      "ipv6_capable": "yes"
     }
   ],
   "total_servers": 11,
-  "updated_at": "2025-07-14T06:43:29.863370+00:00"
+  "updated_at": "2025-07-14T06:57:50.134720+00:00"
 }

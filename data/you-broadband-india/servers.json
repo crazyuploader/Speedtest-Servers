@@ -1,22 +1,22 @@
 {
   "servers": [
     {
-      "url": "http://sp1-hyd.youbroadband.in:8080/speedtest/upload.php",
-      "lat": "17.3700",
-      "lon": "78.4800",
-      "name": "Hyderabad",
+      "url": "http://sp1-ahm.youbroadband.in:8080/speedtest/upload.php",
+      "lat": "23.0300",
+      "lon": "72.5800",
+      "name": "Ahmedabad",
       "country": "India",
       "cc": "IN",
       "sponsor": "YOU Broadband India Pvt. Ltd.",
-      "id": "6452",
+      "id": "6460",
       "preferred": 0,
       "isp_id": "71775",
       "https_functional": 1,
-      "host": "sp1-hyd.youbroadband.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "sp1-hyd.youbroadband.in",
+      "host": "sp1-ahm.youbroadband.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "sp1-ahm.youbroadband.in",
       "ip_address": {
-        "A": "203.109.92.114",
-        "AAAA": "2405:6800:3800:4:ffff:ffff:ffff:fffd"
+        "A": "203.187.200.195",
+        "AAAA": "2405:6800:1000:4:ffff:ffff:ffff:fffd"
       },
       "ipv6_capable": "yes"
     },
@@ -41,46 +41,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://sp1-pune.youbroadband.in:8080/speedtest/upload.php",
-      "lat": "18.5203",
-      "lon": "73.8567",
-      "name": "Pune",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "YOU Broadband India Pvt. Ltd.",
-      "id": "6404",
-      "preferred": 0,
-      "isp_id": "71775",
-      "https_functional": 1,
-      "host": "sp1-pune.youbroadband.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "sp1-pune.youbroadband.in",
-      "ip_address": {
-        "A": "203.187.215.35",
-        "AAAA": "2405:6800:3000:4:ffff:ffff:ffff:fffd"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://sp1-viz.youbroadband.in:8080/speedtest/upload.php",
-      "lat": "17.6883",
-      "lon": "83.2186",
-      "name": "Vishakapatnam",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "YOU Broadband India Pvt. Ltd.",
-      "id": "6451",
-      "preferred": 0,
-      "isp_id": "71775",
-      "https_functional": 1,
-      "host": "sp1-viz.youbroadband.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "sp1-viz.youbroadband.in",
-      "ip_address": {
-        "A": "203.109.88.226",
-        "AAAA": "2405:6800:5000:4:ffff:ffff:ffff:fffd"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://sp1-chn.youbroadband.in:8080/speedtest/upload.php",
       "lat": "13.0827",
       "lon": "80.2707",
@@ -101,6 +61,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://sp1-hyd.youbroadband.in:8080/speedtest/upload.php",
+      "lat": "17.3700",
+      "lon": "78.4800",
+      "name": "Hyderabad",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "YOU Broadband India Pvt. Ltd.",
+      "id": "6452",
+      "preferred": 0,
+      "isp_id": "71775",
+      "https_functional": 1,
+      "host": "sp1-hyd.youbroadband.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "sp1-hyd.youbroadband.in",
+      "ip_address": {
+        "A": "203.109.92.114",
+        "AAAA": "2405:6800:3800:4:ffff:ffff:ffff:fffd"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://sp1-mum.youbroadband.in:8080/speedtest/upload.php",
       "lat": "18.9647",
       "lon": "72.8258",
@@ -117,6 +97,26 @@
       "ip_address": {
         "A": "203.187.216.146",
         "AAAA": "2405:6800:2000:4:ffff:ffff:ffff:fffd"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://sp1-pune.youbroadband.in:8080/speedtest/upload.php",
+      "lat": "18.5203",
+      "lon": "73.8567",
+      "name": "Pune",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "YOU Broadband India Pvt. Ltd.",
+      "id": "6404",
+      "preferred": 0,
+      "isp_id": "71775",
+      "https_functional": 1,
+      "host": "sp1-pune.youbroadband.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "sp1-pune.youbroadband.in",
+      "ip_address": {
+        "A": "203.187.215.35",
+        "AAAA": "2405:6800:3000:4:ffff:ffff:ffff:fffd"
       },
       "ipv6_capable": "yes"
     },
@@ -161,26 +161,26 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://sp1-ahm.youbroadband.in:8080/speedtest/upload.php",
-      "lat": "23.0300",
-      "lon": "72.5800",
-      "name": "Ahmedabad",
+      "url": "http://sp1-viz.youbroadband.in:8080/speedtest/upload.php",
+      "lat": "17.6883",
+      "lon": "83.2186",
+      "name": "Vishakapatnam",
       "country": "India",
       "cc": "IN",
       "sponsor": "YOU Broadband India Pvt. Ltd.",
-      "id": "6460",
+      "id": "6451",
       "preferred": 0,
       "isp_id": "71775",
       "https_functional": 1,
-      "host": "sp1-ahm.youbroadband.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "sp1-ahm.youbroadband.in",
+      "host": "sp1-viz.youbroadband.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "sp1-viz.youbroadband.in",
       "ip_address": {
-        "A": "203.187.200.195",
-        "AAAA": "2405:6800:1000:4:ffff:ffff:ffff:fffd"
+        "A": "203.109.88.226",
+        "AAAA": "2405:6800:5000:4:ffff:ffff:ffff:fffd"
       },
       "ipv6_capable": "yes"
     }
   ],
   "total_servers": 9,
-  "updated_at": "2025-07-14T06:44:01.029502+00:00"
+  "updated_at": "2025-07-14T06:58:18.665249+00:00"
 }

@@ -1,42 +1,22 @@
 {
   "servers": [
     {
-      "url": "http://sec.speedtest.railtel.in:8080/speedtest/upload.php",
-      "lat": "17.3700",
-      "lon": "78.4800",
-      "name": "Hyderabad",
+      "url": "http://adi.speedtest.railtel.in:8080/speedtest/upload.php",
+      "lat": "23.0225",
+      "lon": "72.5714",
+      "name": "Ahemdabad",
       "country": "India",
       "cc": "IN",
       "sponsor": "RailTel Corporation of India Ltd",
-      "id": "7128",
+      "id": "62223",
       "preferred": 0,
       "isp_id": "96146",
       "https_functional": 1,
-      "host": "sec.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "sec.speedtest.railtel.in",
+      "host": "adi.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "adi.speedtest.railtel.in",
       "ip_address": {
-        "A": "103.28.244.2",
-        "AAAA": "2401:b200:9::d5"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://ngp.speedtest.railtel.in:8080/speedtest/upload.php",
-      "lat": "21.1458",
-      "lon": "79.0882",
-      "name": "Nagpur",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "RailTel Corporation of India Ltd",
-      "id": "47291",
-      "preferred": 0,
-      "isp_id": "96146",
-      "https_functional": 1,
-      "host": "ngp.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "ngp.speedtest.railtel.in",
-      "ip_address": {
-        "A": "112.133.241.110",
-        "AAAA": "2401:b200:10::cd"
+        "A": "122.252.238.6",
+        "AAAA": "2401:b200:10::c9"
       },
       "ipv6_capable": "yes"
     },
@@ -61,22 +41,22 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://chn.speedtest.railtel.in:8080/speedtest/upload.php",
-      "lat": "13.0827",
-      "lon": "80.2707",
-      "name": "Chennai",
+      "url": "http://bbs.speedtest.railtel.in:8080/speedtest/upload.php",
+      "lat": "20.2700",
+      "lon": "85.8400",
+      "name": "Bhubaneswar",
       "country": "India",
       "cc": "IN",
       "sponsor": "RailTel Corporation of India Ltd",
-      "id": "9591",
+      "id": "39596",
       "preferred": 0,
       "isp_id": "96146",
       "https_functional": 1,
-      "host": "chn.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "chn.speedtest.railtel.in",
+      "host": "bbs.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "bbs.speedtest.railtel.in",
       "ip_address": {
-        "A": "203.153.33.174",
-        "AAAA": "2401:b200:9::d9"
+        "A": "112.133.208.162",
+        "AAAA": "2401:b200:12::d"
       },
       "ipv6_capable": "yes"
     },
@@ -101,142 +81,22 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://bbs.speedtest.railtel.in:8080/speedtest/upload.php",
-      "lat": "20.2700",
-      "lon": "85.8400",
-      "name": "Bhubaneswar",
+      "url": "http://chn.speedtest.railtel.in:8080/speedtest/upload.php",
+      "lat": "13.0827",
+      "lon": "80.2707",
+      "name": "Chennai",
       "country": "India",
       "cc": "IN",
       "sponsor": "RailTel Corporation of India Ltd",
-      "id": "39596",
+      "id": "9591",
       "preferred": 0,
       "isp_id": "96146",
       "https_functional": 1,
-      "host": "bbs.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "bbs.speedtest.railtel.in",
+      "host": "chn.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "chn.speedtest.railtel.in",
       "ip_address": {
-        "A": "112.133.208.162",
-        "AAAA": "2401:b200:12::d"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://ers.speedtest.railtel.in:8080/speedtest/upload.php",
-      "lat": "9.9816",
-      "lon": "76.2999",
-      "name": "Ernakulam",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "RailTel Corporation of India Ltd",
-      "id": "37123",
-      "preferred": 0,
-      "isp_id": "96146",
-      "https_functional": 1,
-      "host": "ers.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "ers.speedtest.railtel.in",
-      "ip_address": {
-        "A": "112.133.214.157",
-        "AAAA": "2401:b200:9::62"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://adi.speedtest.railtel.in:8080/speedtest/upload.php",
-      "lat": "23.0225",
-      "lon": "72.5714",
-      "name": "Ahemdabad",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "RailTel Corporation of India Ltd",
-      "id": "62223",
-      "preferred": 0,
-      "isp_id": "96146",
-      "https_functional": 1,
-      "host": "adi.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "adi.speedtest.railtel.in",
-      "ip_address": {
-        "A": "122.252.238.6",
-        "AAAA": "2401:b200:10::c9"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://jp.speedtest.railtel.in:8080/speedtest/upload.php",
-      "lat": "26.9260",
-      "lon": "75.8235",
-      "name": "Jaipur",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "RailTel Corporation of India Ltd",
-      "id": "47162",
-      "preferred": 0,
-      "isp_id": "96146",
-      "https_functional": 1,
-      "host": "jp.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "jp.speedtest.railtel.in",
-      "ip_address": {
-        "A": "112.133.210.170",
-        "AAAA": "2401:b200:11::b1"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://pnbe.speedtest.railtel.in:8080/speedtest/upload.php",
-      "lat": "25.6139",
-      "lon": "85.1354",
-      "name": "Patna",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "RailTel Corporation of India Ltd",
-      "id": "47264",
-      "preferred": 0,
-      "isp_id": "96146",
-      "https_functional": 1,
-      "host": "pnbe.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "pnbe.speedtest.railtel.in",
-      "ip_address": {
-        "A": "112.133.226.66",
-        "AAAA": "2401:b200:11::b5"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://kol.speedtest.railtel.in:8080/speedtest/upload.php",
-      "lat": "22.5667",
-      "lon": "88.3667",
-      "name": "Kolkata",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "RailTel Corporation of India Ltd",
-      "id": "15697",
-      "preferred": 0,
-      "isp_id": "96146",
-      "https_functional": 1,
-      "host": "kol.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "kol.speedtest.railtel.in",
-      "ip_address": {
-        "A": "112.133.231.18",
-        "AAAA": "2401:b200:12::159"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://ggn.speedtest.railtel.in:8080/speedtest/upload.php",
-      "lat": "28.4615",
-      "lon": "77.0178",
-      "name": "Gurgaon",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "RailTel Corporation of India Ltd",
-      "id": "6936",
-      "preferred": 0,
-      "isp_id": "96146",
-      "https_functional": 1,
-      "host": "ggn.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "ggn.speedtest.railtel.in",
-      "ip_address": {
-        "A": "203.153.43.178",
-        "AAAA": "2401:b200:9::42"
+        "A": "203.153.33.174",
+        "AAAA": "2401:b200:9::d9"
       },
       "ipv6_capable": "yes"
     },
@@ -261,6 +121,46 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://ers.speedtest.railtel.in:8080/speedtest/upload.php",
+      "lat": "9.9816",
+      "lon": "76.2999",
+      "name": "Ernakulam",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "RailTel Corporation of India Ltd",
+      "id": "37123",
+      "preferred": 0,
+      "isp_id": "96146",
+      "https_functional": 1,
+      "host": "ers.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ers.speedtest.railtel.in",
+      "ip_address": {
+        "A": "112.133.214.157",
+        "AAAA": "2401:b200:9::62"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ggn.speedtest.railtel.in:8080/speedtest/upload.php",
+      "lat": "28.4615",
+      "lon": "77.0178",
+      "name": "Gurgaon",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "RailTel Corporation of India Ltd",
+      "id": "6936",
+      "preferred": 0,
+      "isp_id": "96146",
+      "https_functional": 1,
+      "host": "ggn.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ggn.speedtest.railtel.in",
+      "ip_address": {
+        "A": "203.153.43.178",
+        "AAAA": "2401:b200:9::42"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://gwh.speedtest.railtel.in:8080/speedtest/upload.php",
       "lat": "26.1445",
       "lon": "91.7362",
@@ -279,8 +179,108 @@
         "AAAA": "2401:b200:12::165"
       },
       "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://sec.speedtest.railtel.in:8080/speedtest/upload.php",
+      "lat": "17.3700",
+      "lon": "78.4800",
+      "name": "Hyderabad",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "RailTel Corporation of India Ltd",
+      "id": "7128",
+      "preferred": 0,
+      "isp_id": "96146",
+      "https_functional": 1,
+      "host": "sec.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "sec.speedtest.railtel.in",
+      "ip_address": {
+        "A": "103.28.244.2",
+        "AAAA": "2401:b200:9::d5"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://jp.speedtest.railtel.in:8080/speedtest/upload.php",
+      "lat": "26.9260",
+      "lon": "75.8235",
+      "name": "Jaipur",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "RailTel Corporation of India Ltd",
+      "id": "47162",
+      "preferred": 0,
+      "isp_id": "96146",
+      "https_functional": 1,
+      "host": "jp.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "jp.speedtest.railtel.in",
+      "ip_address": {
+        "A": "112.133.210.170",
+        "AAAA": "2401:b200:11::b1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://kol.speedtest.railtel.in:8080/speedtest/upload.php",
+      "lat": "22.5667",
+      "lon": "88.3667",
+      "name": "Kolkata",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "RailTel Corporation of India Ltd",
+      "id": "15697",
+      "preferred": 0,
+      "isp_id": "96146",
+      "https_functional": 1,
+      "host": "kol.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "kol.speedtest.railtel.in",
+      "ip_address": {
+        "A": "112.133.231.18",
+        "AAAA": "2401:b200:12::159"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ngp.speedtest.railtel.in:8080/speedtest/upload.php",
+      "lat": "21.1458",
+      "lon": "79.0882",
+      "name": "Nagpur",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "RailTel Corporation of India Ltd",
+      "id": "47291",
+      "preferred": 0,
+      "isp_id": "96146",
+      "https_functional": 1,
+      "host": "ngp.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ngp.speedtest.railtel.in",
+      "ip_address": {
+        "A": "112.133.241.110",
+        "AAAA": "2401:b200:10::cd"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://pnbe.speedtest.railtel.in:8080/speedtest/upload.php",
+      "lat": "25.6139",
+      "lon": "85.1354",
+      "name": "Patna",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "RailTel Corporation of India Ltd",
+      "id": "47264",
+      "preferred": 0,
+      "isp_id": "96146",
+      "https_functional": 1,
+      "host": "pnbe.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "pnbe.speedtest.railtel.in",
+      "ip_address": {
+        "A": "112.133.226.66",
+        "AAAA": "2401:b200:11::b5"
+      },
+      "ipv6_capable": "yes"
     }
   ],
   "total_servers": 14,
-  "updated_at": "2025-07-14T06:43:55.092478+00:00"
+  "updated_at": "2025-07-14T06:58:12.816608+00:00"
 }

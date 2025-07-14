@@ -1,22 +1,21 @@
 {
   "servers": [
     {
-      "url": "http://ooklatesthydrabad.live.vodafone.in:8080/speedtest/upload.php",
-      "lat": "17.3700",
-      "lon": "78.4800",
-      "name": "Hyderabad",
+      "url": "http://ooklatestahmedabad.live.vodafone.in:8080/speedtest/upload.php",
+      "lat": "23.0225",
+      "lon": "72.5714",
+      "name": "Ahmedabad",
       "country": "India",
       "cc": "IN",
       "sponsor": "Vi India",
-      "id": "24687",
+      "id": "67885",
       "preferred": 0,
       "isp_id": "23698",
-      "https_functional": 1,
-      "host": "ooklatesthydrabad.live.vodafone.in:8080",
-      "hostname": "ooklatesthydrabad.live.vodafone.in",
+      "host": "ooklatestahmedabad.live.vodafone.in:8080",
+      "hostname": "ooklatestahmedabad.live.vodafone.in",
       "ip_address": {
-        "A": "223.196.102.9",
-        "AAAA": "2400:c700:1101:5::fd2"
+        "A": "112.79.47.94",
+        "AAAA": "2402:3a80:1060:1::10"
       },
       "ipv6_capable": "yes"
     },
@@ -41,6 +40,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://ooklatestbehrampur.live.vodafone.in:8080/speedtest/upload.php",
+      "lat": "24.0983",
+      "lon": "88.2684",
+      "name": "Behrampur",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Vi India",
+      "id": "35038",
+      "preferred": 0,
+      "isp_id": "23698",
+      "https_functional": 1,
+      "host": "ooklatestbehrampur.live.vodafone.in:8080",
+      "hostname": "ooklatestbehrampur.live.vodafone.in",
+      "ip_address": {
+        "A": "112.79.35.253",
+        "AAAA": "2402:3a80:c019:5::fd2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://ooklatestbenguluru.live.vodafone.in:8080/speedtest/upload.php",
       "lat": "12.9716",
       "lon": "77.5946",
@@ -60,66 +79,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://ooklatestpune.live.vodafone.in:8080/speedtest/upload.php",
-      "lat": "18.5203",
-      "lon": "73.8567",
-      "name": "Pune",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Vi India",
-      "id": "24685",
-      "preferred": 0,
-      "isp_id": "23698",
-      "https_functional": 1,
-      "host": "ooklatestpune.live.vodafone.in:8080",
-      "hostname": "ooklatestpune.live.vodafone.in",
-      "ip_address": {
-        "A": "112.79.47.17",
-        "AAAA": "2402:3a80:c003:14::fd2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtest.mum.vodafoneidea.com:8080/speedtest/upload.php",
-      "lat": "18.9647",
-      "lon": "72.8258",
-      "name": "Mumbai",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Vi India",
-      "id": "69596",
-      "preferred": 0,
-      "isp_id": "23698",
-      "https_functional": 1,
-      "host": "speedtest.mum.vodafoneidea.com:8080",
-      "hostname": "speedtest.mum.vodafoneidea.com",
-      "ip_address": {
-        "A": "112.79.41.4",
-        "AAAA": "2402:3a80:46e2::2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://ooklatestindore.live.vodafone.in:8080/speedtest/upload.php",
-      "lat": "22.7196",
-      "lon": "75.8577",
-      "name": "Indore",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Vi India",
-      "id": "24717",
-      "preferred": 0,
-      "isp_id": "23698",
-      "https_functional": 1,
-      "host": "ooklatestindore.live.vodafone.in:8080",
-      "hostname": "ooklatestindore.live.vodafone.in",
-      "ip_address": {
-        "A": "223.196.102.1",
-        "AAAA": "2400:c700:8001:2000::fd2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "https://ooklatestcoimbatore.live.vodafone.in:8080/speedtest/upload.php",
       "lat": "11.0183",
       "lon": "76.9725",
@@ -135,84 +94,6 @@
       "ip_address": {
         "A": "112.79.47.33",
         "AAAA": "2402:3a80:c01c:4::fd2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "https://ooklatestmadurai.live.vodafone.in:8080/speedtest/upload.php",
-      "lat": "9.9000",
-      "lon": "78.1000",
-      "name": "Madurai",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Vi India",
-      "id": "34444",
-      "preferred": 0,
-      "isp_id": "23698",
-      "host": "ooklatestmadurai.live.vodafone.in:8080",
-      "hostname": "ooklatestmadurai.live.vodafone.in",
-      "ip_address": {
-        "A": "1.39.83.205",
-        "AAAA": "2402:3a80:c043:5::fd2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://ooklatestahmedabad.live.vodafone.in:8080/speedtest/upload.php",
-      "lat": "23.0225",
-      "lon": "72.5714",
-      "name": "Ahmedabad",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Vi India",
-      "id": "67885",
-      "preferred": 0,
-      "isp_id": "23698",
-      "host": "ooklatestahmedabad.live.vodafone.in:8080",
-      "hostname": "ooklatestahmedabad.live.vodafone.in",
-      "ip_address": {
-        "A": "112.79.47.94",
-        "AAAA": "2402:3a80:1060:1::10"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://ooklatestjaipur.live.vodafone.in:8080/speedtest/upload.php",
-      "lat": "26.9260",
-      "lon": "75.8235",
-      "name": "Jaipur",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Vi India",
-      "id": "22967",
-      "preferred": 0,
-      "isp_id": "23698",
-      "https_functional": 1,
-      "host": "ooklatestjaipur.live.vodafone.in:8080",
-      "hostname": "ooklatestjaipur.live.vodafone.in",
-      "ip_address": {
-        "A": "112.79.47.1",
-        "AAAA": "2402:3a80:c004:4::fd1"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtest.bih.vodafoneidea.com:8080/speedtest/upload.php",
-      "lat": "25.5941",
-      "lon": "85.1376",
-      "name": "Patna",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Vi India",
-      "id": "69777",
-      "preferred": 0,
-      "isp_id": "23698",
-      "https_functional": 1,
-      "host": "speedtest.bih.vodafoneidea.com:8080",
-      "hostname": "speedtest.bih.vodafoneidea.com",
-      "ip_address": {
-        "A": "112.79.41.1",
-        "AAAA": "2402:3a80:46e2::"
       },
       "ipv6_capable": "yes"
     },
@@ -237,41 +118,81 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://ooklatestnoida.live.vodafone.in:8080/speedtest/upload.php",
-      "lat": "28.5700",
-      "lon": "77.3200",
-      "name": "Noida",
+      "url": "http://ooklatesthydrabad.live.vodafone.in:8080/speedtest/upload.php",
+      "lat": "17.3700",
+      "lon": "78.4800",
+      "name": "Hyderabad",
       "country": "India",
       "cc": "IN",
       "sponsor": "Vi India",
-      "id": "53340",
+      "id": "24687",
       "preferred": 0,
       "isp_id": "23698",
-      "host": "ooklatestnoida.live.vodafone.in:8080",
-      "hostname": "ooklatestnoida.live.vodafone.in",
+      "https_functional": 1,
+      "host": "ooklatesthydrabad.live.vodafone.in:8080",
+      "hostname": "ooklatesthydrabad.live.vodafone.in",
       "ip_address": {
-        "A": "106.77.174.68",
-        "AAAA": "2402:8100:16:10::10"
+        "A": "223.196.102.9",
+        "AAAA": "2400:c700:1101:5::fd2"
       },
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://ooklatestbehrampur.live.vodafone.in:8080/speedtest/upload.php",
-      "lat": "24.0983",
-      "lon": "88.2684",
-      "name": "Behrampur",
+      "url": "http://ooklatestindore.live.vodafone.in:8080/speedtest/upload.php",
+      "lat": "22.7196",
+      "lon": "75.8577",
+      "name": "Indore",
       "country": "India",
       "cc": "IN",
       "sponsor": "Vi India",
-      "id": "35038",
+      "id": "24717",
       "preferred": 0,
       "isp_id": "23698",
       "https_functional": 1,
-      "host": "ooklatestbehrampur.live.vodafone.in:8080",
-      "hostname": "ooklatestbehrampur.live.vodafone.in",
+      "host": "ooklatestindore.live.vodafone.in:8080",
+      "hostname": "ooklatestindore.live.vodafone.in",
       "ip_address": {
-        "A": "112.79.35.253",
-        "AAAA": "2402:3a80:c019:5::fd2"
+        "A": "223.196.102.1",
+        "AAAA": "2400:c700:8001:2000::fd2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ooklatestjaipur.live.vodafone.in:8080/speedtest/upload.php",
+      "lat": "26.9260",
+      "lon": "75.8235",
+      "name": "Jaipur",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Vi India",
+      "id": "22967",
+      "preferred": 0,
+      "isp_id": "23698",
+      "https_functional": 1,
+      "host": "ooklatestjaipur.live.vodafone.in:8080",
+      "hostname": "ooklatestjaipur.live.vodafone.in",
+      "ip_address": {
+        "A": "112.79.47.1",
+        "AAAA": "2402:3a80:c004:4::fd1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "https://ooklatestmadurai.live.vodafone.in:8080/speedtest/upload.php",
+      "lat": "9.9000",
+      "lon": "78.1000",
+      "name": "Madurai",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Vi India",
+      "id": "34444",
+      "preferred": 0,
+      "isp_id": "23698",
+      "host": "ooklatestmadurai.live.vodafone.in:8080",
+      "hostname": "ooklatestmadurai.live.vodafone.in",
+      "ip_address": {
+        "A": "1.39.83.205",
+        "AAAA": "2402:3a80:c043:5::fd2"
       },
       "ipv6_capable": "yes"
     },
@@ -294,8 +215,87 @@
         "AAAA": "2402:8100:2449::"
       },
       "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.mum.vodafoneidea.com:8080/speedtest/upload.php",
+      "lat": "18.9647",
+      "lon": "72.8258",
+      "name": "Mumbai",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Vi India",
+      "id": "69596",
+      "preferred": 0,
+      "isp_id": "23698",
+      "https_functional": 1,
+      "host": "speedtest.mum.vodafoneidea.com:8080",
+      "hostname": "speedtest.mum.vodafoneidea.com",
+      "ip_address": {
+        "A": "112.79.41.4",
+        "AAAA": "2402:3a80:46e2::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ooklatestnoida.live.vodafone.in:8080/speedtest/upload.php",
+      "lat": "28.5700",
+      "lon": "77.3200",
+      "name": "Noida",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Vi India",
+      "id": "53340",
+      "preferred": 0,
+      "isp_id": "23698",
+      "host": "ooklatestnoida.live.vodafone.in:8080",
+      "hostname": "ooklatestnoida.live.vodafone.in",
+      "ip_address": {
+        "A": "106.77.174.68",
+        "AAAA": "2402:8100:16:10::10"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.bih.vodafoneidea.com:8080/speedtest/upload.php",
+      "lat": "25.5941",
+      "lon": "85.1376",
+      "name": "Patna",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Vi India",
+      "id": "69777",
+      "preferred": 0,
+      "isp_id": "23698",
+      "https_functional": 1,
+      "host": "speedtest.bih.vodafoneidea.com:8080",
+      "hostname": "speedtest.bih.vodafoneidea.com",
+      "ip_address": {
+        "A": "112.79.41.1",
+        "AAAA": "2402:3a80:46e2::"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ooklatestpune.live.vodafone.in:8080/speedtest/upload.php",
+      "lat": "18.5203",
+      "lon": "73.8567",
+      "name": "Pune",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Vi India",
+      "id": "24685",
+      "preferred": 0,
+      "isp_id": "23698",
+      "https_functional": 1,
+      "host": "ooklatestpune.live.vodafone.in:8080",
+      "hostname": "ooklatestpune.live.vodafone.in",
+      "ip_address": {
+        "A": "112.79.47.17",
+        "AAAA": "2402:3a80:c003:14::fd2"
+      },
+      "ipv6_capable": "yes"
     }
   ],
   "total_servers": 15,
-  "updated_at": "2025-07-14T06:44:00.174481+00:00"
+  "updated_at": "2025-07-14T06:58:17.911247+00:00"
 }

@@ -1,26 +1,6 @@
 {
   "servers": [
     {
-      "url": "http://speedtest.vijw.excitel.in:8080/speedtest/upload.php",
-      "lat": "16.5190",
-      "lon": "80.6215",
-      "name": "Vijayawada",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Excitel",
-      "id": "52512",
-      "preferred": 0,
-      "isp_id": "115835",
-      "https_functional": 1,
-      "host": "speedtest.vijw.excitel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtest.vijw.excitel.in",
-      "ip_address": {
-        "A": "103.161.57.245",
-        "AAAA": "2401:9640:fa00::2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtest.blr.excitel.in:8080/speedtest/upload.php",
       "lat": "12.9833",
       "lon": "77.5833",
@@ -41,22 +21,22 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtest.mum.excitel.in:8080/speedtest/upload.php",
-      "lat": "18.9647",
-      "lon": "72.8258",
-      "name": "Mumbai",
+      "url": "http://speedtest.jpr.excitel.in:8080/speedtest/upload.php",
+      "lat": "26.9260",
+      "lon": "75.8235",
+      "name": "Jaipur",
       "country": "India",
       "cc": "IN",
       "sponsor": "Excitel",
-      "id": "49975",
+      "id": "43409",
       "preferred": 0,
       "isp_id": "115835",
       "https_functional": 1,
-      "host": "speedtest.mum.excitel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtest.mum.excitel.in",
+      "host": "speedtest.jpr.excitel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.jpr.excitel.in",
       "ip_address": {
-        "A": "103.177.120.22",
-        "AAAA": "2401:9640:6f31::5"
+        "A": "205.254.161.245",
+        "AAAA": "2401:9640:6731::5"
       },
       "ipv6_capable": "yes"
     },
@@ -101,42 +81,42 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtest.jpr.excitel.in:8080/speedtest/upload.php",
-      "lat": "26.9260",
-      "lon": "75.8235",
-      "name": "Jaipur",
+      "url": "http://speedtest.mum.excitel.in:8080/speedtest/upload.php",
+      "lat": "18.9647",
+      "lon": "72.8258",
+      "name": "Mumbai",
       "country": "India",
       "cc": "IN",
       "sponsor": "Excitel",
-      "id": "43409",
+      "id": "49975",
       "preferred": 0,
       "isp_id": "115835",
       "https_functional": 1,
-      "host": "speedtest.jpr.excitel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtest.jpr.excitel.in",
+      "host": "speedtest.mum.excitel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.mum.excitel.in",
       "ip_address": {
-        "A": "205.254.161.245",
-        "AAAA": "2401:9640:6731::5"
+        "A": "103.177.120.22",
+        "AAAA": "2401:9640:6f31::5"
       },
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtest.pat.excitel.in:8080/speedtest/upload.php",
-      "lat": "25.6139",
-      "lon": "85.1354",
-      "name": "Patna",
+      "url": "http://speedtest.del.excitel.in:8080/speedtest/upload.php",
+      "lat": "28.6100",
+      "lon": "77.2300",
+      "name": "New Delhi",
       "country": "India",
       "cc": "IN",
       "sponsor": "Excitel",
-      "id": "49231",
+      "id": "20485",
       "preferred": 0,
       "isp_id": "115835",
       "https_functional": 1,
-      "host": "speedtest.pat.excitel.in:8080",
-      "hostname": "speedtest.pat.excitel.in",
+      "host": "speedtest.del.excitel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.del.excitel.in",
       "ip_address": {
-        "A": "139.5.252.245",
-        "AAAA": "2401:9640:3f31::5"
+        "A": "139.5.241.22",
+        "AAAA": "2401:9640:5f31::5"
       },
       "ipv6_capable": "yes"
     },
@@ -161,26 +141,46 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtest.del.excitel.in:8080/speedtest/upload.php",
-      "lat": "28.6100",
-      "lon": "77.2300",
-      "name": "New Delhi",
+      "url": "http://speedtest.pat.excitel.in:8080/speedtest/upload.php",
+      "lat": "25.6139",
+      "lon": "85.1354",
+      "name": "Patna",
       "country": "India",
       "cc": "IN",
       "sponsor": "Excitel",
-      "id": "20485",
+      "id": "49231",
       "preferred": 0,
       "isp_id": "115835",
       "https_functional": 1,
-      "host": "speedtest.del.excitel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtest.del.excitel.in",
+      "host": "speedtest.pat.excitel.in:8080",
+      "hostname": "speedtest.pat.excitel.in",
       "ip_address": {
-        "A": "139.5.241.22",
-        "AAAA": "2401:9640:5f31::5"
+        "A": "139.5.252.245",
+        "AAAA": "2401:9640:3f31::5"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.vijw.excitel.in:8080/speedtest/upload.php",
+      "lat": "16.5190",
+      "lon": "80.6215",
+      "name": "Vijayawada",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Excitel",
+      "id": "52512",
+      "preferred": 0,
+      "isp_id": "115835",
+      "https_functional": 1,
+      "host": "speedtest.vijw.excitel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.vijw.excitel.in",
+      "ip_address": {
+        "A": "103.161.57.245",
+        "AAAA": "2401:9640:fa00::2"
       },
       "ipv6_capable": "yes"
     }
   ],
   "total_servers": 9,
-  "updated_at": "2025-07-14T06:43:44.068250+00:00"
+  "updated_at": "2025-07-14T06:57:56.616139+00:00"
 }

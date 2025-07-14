@@ -1,85 +1,6 @@
 {
   "servers": [
     {
-      "url": "http://speedtestap1.airtel.in:8080/speedtest/upload.php",
-      "lat": "17.3700",
-      "lon": "78.4800",
-      "name": "Hyderabad",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Bharti Airtel Ltd",
-      "id": "2679",
-      "preferred": 0,
-      "isp_id": "46101",
-      "https_functional": 1,
-      "host": "speedtestap1.airtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestap1.airtel.in",
-      "ip_address": {
-        "A": "223.224.136.154"
-      },
-      "ipv6_capable": "no"
-    },
-    {
-      "url": "http://speedtestvjw1.airtel.in:8080/speedtest/upload.php",
-      "lat": "16.5062",
-      "lon": "80.6480",
-      "name": "Vijaywada",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Bharti Airtel Ltd",
-      "id": "52670",
-      "preferred": 0,
-      "isp_id": "46101",
-      "https_functional": 1,
-      "host": "speedtestvjw1.airtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestvjw1.airtel.in",
-      "ip_address": {
-        "A": "182.79.17.6",
-        "AAAA": "2404:a800:3a00:1::5cf"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtestngp1.airtel.in:8080/speedtest/upload.php",
-      "lat": "21.1458",
-      "lon": "79.0882",
-      "name": "Nagpur",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Bharti Airtel Limited",
-      "id": "60187",
-      "preferred": 0,
-      "isp_id": "46101",
-      "https_functional": 1,
-      "host": "speedtestngp1.airtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestngp1.airtel.in",
-      "ip_address": {
-        "A": "125.22.183.54",
-        "AAAA": "2404:a800:2a00:102::42"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtestkhd1.airtel.in:8080/speedtest/upload.php",
-      "lat": "18.5538",
-      "lon": "73.9477",
-      "name": "Pune",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Bharti Airtel Limited",
-      "id": "57312",
-      "preferred": 0,
-      "isp_id": "46101",
-      "https_functional": 1,
-      "host": "speedtestkhd1.airtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestkhd1.airtel.in",
-      "ip_address": {
-        "A": "182.78.249.222",
-        "AAAA": "2404:a800:2a00:101::12e"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtestwfd1.airtel.in:8080/speedtest/upload.php",
       "lat": "12.9833",
       "lon": "77.5833",
@@ -100,142 +21,22 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtestshm1.airtel.in:8080/speedtest/upload.php",
-      "lat": "13.0827",
-      "lon": "80.2707",
-      "name": "Chennai",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Bharti Airtel Ltd",
-      "id": "64426",
-      "preferred": 0,
-      "isp_id": "46101",
-      "https_functional": 1,
-      "host": "speedtestshm1.airtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestshm1.airtel.in",
-      "ip_address": {
-        "A": "152.52.30.118",
-        "AAAA": "2404:a800:3a00:1::a3a"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtestchv1.airtel.in:8080/speedtest/upload.php",
-      "lat": "19.1075",
-      "lon": "72.9018",
-      "name": "Chandivali",
+      "url": "http://speedtestbha1.airtel.in:8080/speedtest/upload.php",
+      "lat": "25.2425",
+      "lon": "86.9842",
+      "name": "Bhagalpur",
       "country": "India",
       "cc": "IN",
       "sponsor": "Bharti Airtel Limited",
-      "id": "59675",
+      "id": "58189",
       "preferred": 0,
       "isp_id": "46101",
       "https_functional": 1,
-      "host": "speedtestchv1.airtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestchv1.airtel.in",
+      "host": "speedtestbha1.airtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestbha1.airtel.in",
       "ip_address": {
-        "A": "125.20.47.34",
-        "AAAA": "2404:a800:2a00::a8e"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtestspc1.airtel.in:8080/speedtest/upload.php",
-      "lat": "19.0760",
-      "lon": "72.8777",
-      "name": "Mumbai",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Bharti Airtel Ltd",
-      "id": "64429",
-      "preferred": 0,
-      "isp_id": "46101",
-      "https_functional": 1,
-      "host": "speedtestspc1.airtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestspc1.airtel.in",
-      "ip_address": {
-        "A": "182.79.233.98",
-        "AAAA": "2404:a800:2a00::bf2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtestmng1.airtel.in:8080/speedtest/upload.php",
-      "lat": "12.9141",
-      "lon": "74.8560",
-      "name": "Mangalore",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Bharti Airtel Ltd",
-      "id": "52218",
-      "preferred": 0,
-      "isp_id": "46101",
-      "https_functional": 1,
-      "host": "speedtestmng1.airtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestmng1.airtel.in",
-      "ip_address": {
-        "A": "182.79.18.146",
-        "AAAA": "2404:a800:3a00:1::5d3"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtestjbl1.airtel.in:8080/speedtest/upload.php",
-      "lat": "23.1815",
-      "lon": "79.9864",
-      "name": "Jabalpur",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Bharti Airtel Limited",
-      "id": "58393",
-      "preferred": 0,
-      "isp_id": "82287",
-      "https_functional": 1,
-      "host": "speedtestjbl1.airtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestjbl1.airtel.in",
-      "ip_address": {
-        "A": "61.246.117.254",
-        "AAAA": "2404:a800:1a00:205::1b"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtestsur2.airtel.in:8080/speedtest/upload.php",
-      "lat": "21.1700",
-      "lon": "72.8300",
-      "name": "Surat",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Bharti Airtel Limited",
-      "id": "58190",
-      "preferred": 0,
-      "isp_id": "46101",
-      "https_functional": 1,
-      "host": "speedtestsur2.airtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestsur2.airtel.in",
-      "ip_address": {
-        "A": "125.21.207.18",
-        "AAAA": "2404:a800:2a00:101::1e2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtestplc1.airtel.in:8080/speedtest/upload.php",
-      "lat": "10.6609",
-      "lon": "77.0048",
-      "name": "Pollachi",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Bharti Airtel Ltd",
-      "id": "64573",
-      "preferred": 0,
-      "isp_id": "46101",
-      "https_functional": 1,
-      "host": "speedtestplc1.airtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestplc1.airtel.in",
-      "ip_address": {
-        "A": "152.52.46.138",
-        "AAAA": "2404:a800:3a00:300::a2"
+        "A": "125.21.30.206",
+        "AAAA": "2404:a800:4a00:209::26"
       },
       "ipv6_capable": "yes"
     },
@@ -260,102 +61,119 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtestrkt1.airtel.in:8080/speedtest/upload.php",
-      "lat": "22.3000",
-      "lon": "70.7833",
-      "name": "Rajkot",
+      "url": "http://speedtestchv1.airtel.in:8080/speedtest/upload.php",
+      "lat": "19.1075",
+      "lon": "72.9018",
+      "name": "Chandivali",
       "country": "India",
       "cc": "IN",
       "sponsor": "Bharti Airtel Limited",
-      "id": "60185",
+      "id": "59675",
       "preferred": 0,
       "isp_id": "46101",
       "https_functional": 1,
-      "host": "speedtestrkt1.airtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestrkt1.airtel.in",
+      "host": "speedtestchv1.airtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestchv1.airtel.in",
       "ip_address": {
-        "A": "125.22.182.14",
-        "AAAA": "2404:a800:2a00:20a::46"
+        "A": "125.20.47.34",
+        "AAAA": "2404:a800:2a00::a8e"
       },
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtestrch1.airtel.in:8080/speedtest/upload.php",
-      "lat": "23.3441",
-      "lon": "85.3096",
-      "name": "Ranchi",
+      "url": "http://speedtestshm1.airtel.in:8080/speedtest/upload.php",
+      "lat": "13.0827",
+      "lon": "80.2707",
+      "name": "Chennai",
       "country": "India",
       "cc": "IN",
       "sponsor": "Bharti Airtel Ltd",
-      "id": "64427",
+      "id": "64426",
+      "preferred": 0,
+      "isp_id": "46101",
+      "https_functional": 1,
+      "host": "speedtestshm1.airtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestshm1.airtel.in",
+      "ip_address": {
+        "A": "152.52.30.118",
+        "AAAA": "2404:a800:3a00:1::a3a"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestggn1.airtel.in:8080/speedtest/upload.php",
+      "lat": "28.4595",
+      "lon": "77.0266",
+      "name": "Gurgaon",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Bharti Airtel Ltd",
+      "id": "9930",
+      "preferred": 0,
+      "isp_id": "46101",
+      "https_functional": 1,
+      "host": "speedtestggn1.airtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestggn1.airtel.in",
+      "ip_address": {
+        "A": "223.224.79.2"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtestguw1.airtel.in:8080/speedtest/upload.php",
+      "lat": "26.1445",
+      "lon": "91.7362",
+      "name": "Guwahati",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Bharti Airtel Ltd",
+      "id": "46660",
+      "preferred": 0,
+      "isp_id": "46101",
+      "https_functional": 1,
+      "host": "speedtestguw1.airtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestguw1.airtel.in",
+      "ip_address": {
+        "A": "122.185.181.122"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtestap1.airtel.in:8080/speedtest/upload.php",
+      "lat": "17.3700",
+      "lon": "78.4800",
+      "name": "Hyderabad",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Bharti Airtel Ltd",
+      "id": "2679",
+      "preferred": 0,
+      "isp_id": "46101",
+      "https_functional": 1,
+      "host": "speedtestap1.airtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestap1.airtel.in",
+      "ip_address": {
+        "A": "223.224.136.154"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtestjbl1.airtel.in:8080/speedtest/upload.php",
+      "lat": "23.1815",
+      "lon": "79.9864",
+      "name": "Jabalpur",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Bharti Airtel Limited",
+      "id": "58393",
       "preferred": 0,
       "isp_id": "82287",
       "https_functional": 1,
-      "host": "speedtestrch1.airtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestrch1.airtel.in",
+      "host": "speedtestjbl1.airtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestjbl1.airtel.in",
       "ip_address": {
-        "A": "125.23.61.30",
-        "AAAA": "2404:a800:4a00:100::36"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtesttar1.airtel.in:8080/speedtest/upload.php",
-      "lat": "25.3176",
-      "lon": "82.9739",
-      "name": "Varanasi",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Bharti Airtel Ltd",
-      "id": "49129",
-      "preferred": 0,
-      "isp_id": "46101",
-      "https_functional": 1,
-      "host": "speedtesttar1.airtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtesttar1.airtel.in",
-      "ip_address": {
-        "A": "59.145.208.86",
-        "AAAA": "2404:a800:1a00:801::1bb"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtestkgp1.airtel.in:8080/speedtest/upload.php",
-      "lat": "22.3460",
-      "lon": "87.2320",
-      "name": "Kharagpur",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Bharti Airtel Ltd",
-      "id": "48115",
-      "preferred": 0,
-      "isp_id": "46101",
-      "https_functional": 1,
-      "host": "speedtestkgp1.airtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestkgp1.airtel.in",
-      "ip_address": {
-        "A": "182.78.194.114",
-        "AAAA": "2404:a800:4a00::173"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtestgmt1.airtel.in:8080/speedtest/upload.php",
-      "lat": "26.8500",
-      "lon": "80.9200",
-      "name": "Lucknow",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Bharti Airtel Ltd",
-      "id": "64221",
-      "preferred": 0,
-      "isp_id": "46101",
-      "https_functional": 1,
-      "host": "speedtestgmt1.airtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestgmt1.airtel.in",
-      "ip_address": {
-        "A": "152.52.76.86",
-        "AAAA": "2404:a800:1a00:805::11e"
+        "A": "61.246.117.254",
+        "AAAA": "2404:a800:1a00:205::1b"
       },
       "ipv6_capable": "yes"
     },
@@ -400,22 +218,22 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtestptn1.airtel.in:8080/speedtest/upload.php",
-      "lat": "25.5941",
-      "lon": "85.1376",
-      "name": "Patna",
+      "url": "http://speedtestkgp1.airtel.in:8080/speedtest/upload.php",
+      "lat": "22.3460",
+      "lon": "87.2320",
+      "name": "Kharagpur",
       "country": "India",
       "cc": "IN",
       "sponsor": "Bharti Airtel Ltd",
-      "id": "64572",
+      "id": "48115",
       "preferred": 0,
       "isp_id": "46101",
       "https_functional": 1,
-      "host": "speedtestptn1.airtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestptn1.airtel.in",
+      "host": "speedtestkgp1.airtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestkgp1.airtel.in",
       "ip_address": {
-        "A": "152.52.142.2",
-        "AAAA": "2404:a800:1a00:805::12a"
+        "A": "182.78.194.114",
+        "AAAA": "2404:a800:4a00::173"
       },
       "ipv6_capable": "yes"
     },
@@ -440,81 +258,42 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtestggn1.airtel.in:8080/speedtest/upload.php",
-      "lat": "28.4595",
-      "lon": "77.0266",
-      "name": "Gurgaon",
+      "url": "http://speedtestgmt1.airtel.in:8080/speedtest/upload.php",
+      "lat": "26.8500",
+      "lon": "80.9200",
+      "name": "Lucknow",
       "country": "India",
       "cc": "IN",
       "sponsor": "Bharti Airtel Ltd",
-      "id": "9930",
+      "id": "64221",
       "preferred": 0,
       "isp_id": "46101",
       "https_functional": 1,
-      "host": "speedtestggn1.airtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestggn1.airtel.in",
+      "host": "speedtestgmt1.airtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestgmt1.airtel.in",
       "ip_address": {
-        "A": "223.224.79.2"
-      },
-      "ipv6_capable": "no"
-    },
-    {
-      "url": "http://speedtestbha1.airtel.in:8080/speedtest/upload.php",
-      "lat": "25.2425",
-      "lon": "86.9842",
-      "name": "Bhagalpur",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Bharti Airtel Limited",
-      "id": "58189",
-      "preferred": 0,
-      "isp_id": "46101",
-      "https_functional": 1,
-      "host": "speedtestbha1.airtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestbha1.airtel.in",
-      "ip_address": {
-        "A": "125.21.30.206",
-        "AAAA": "2404:a800:4a00:209::26"
+        "A": "152.52.76.86",
+        "AAAA": "2404:a800:1a00:805::11e"
       },
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtestblrhsr1.airtel.in:8080/speedtest/upload.php",
-      "lat": "28.5355",
-      "lon": "77.3910",
-      "name": "Noida",
+      "url": "http://speedtestmng1.airtel.in:8080/speedtest/upload.php",
+      "lat": "12.9141",
+      "lon": "74.8560",
+      "name": "Mangalore",
       "country": "India",
       "cc": "IN",
       "sponsor": "Bharti Airtel Ltd",
-      "id": "62966",
+      "id": "52218",
       "preferred": 0,
       "isp_id": "46101",
       "https_functional": 1,
-      "host": "speedtestblrhsr1.airtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestblrhsr1.airtel.in",
+      "host": "speedtestmng1.airtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestmng1.airtel.in",
       "ip_address": {
-        "A": "182.76.80.158",
-        "AAAA": "2404:a800:3a00::3c6"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtestmrd1.airtel.in:8080/speedtest/upload.php",
-      "lat": "28.8386",
-      "lon": "78.7733",
-      "name": "Moradabad",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Bharti Airtel Ltd",
-      "id": "54737",
-      "preferred": 0,
-      "isp_id": "46101",
-      "https_functional": 1,
-      "host": "speedtestmrd1.airtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestmrd1.airtel.in",
-      "ip_address": {
-        "A": "122.186.76.186",
-        "AAAA": "2404:a800:1a00:801::1e3"
+        "A": "182.79.18.146",
+        "AAAA": "2404:a800:3a00:1::5d3"
       },
       "ipv6_capable": "yes"
     },
@@ -539,6 +318,186 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtestmrd1.airtel.in:8080/speedtest/upload.php",
+      "lat": "28.8386",
+      "lon": "78.7733",
+      "name": "Moradabad",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Bharti Airtel Ltd",
+      "id": "54737",
+      "preferred": 0,
+      "isp_id": "46101",
+      "https_functional": 1,
+      "host": "speedtestmrd1.airtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestmrd1.airtel.in",
+      "ip_address": {
+        "A": "122.186.76.186",
+        "AAAA": "2404:a800:1a00:801::1e3"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestspc1.airtel.in:8080/speedtest/upload.php",
+      "lat": "19.0760",
+      "lon": "72.8777",
+      "name": "Mumbai",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Bharti Airtel Ltd",
+      "id": "64429",
+      "preferred": 0,
+      "isp_id": "46101",
+      "https_functional": 1,
+      "host": "speedtestspc1.airtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestspc1.airtel.in",
+      "ip_address": {
+        "A": "182.79.233.98",
+        "AAAA": "2404:a800:2a00::bf2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestngp1.airtel.in:8080/speedtest/upload.php",
+      "lat": "21.1458",
+      "lon": "79.0882",
+      "name": "Nagpur",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Bharti Airtel Limited",
+      "id": "60187",
+      "preferred": 0,
+      "isp_id": "46101",
+      "https_functional": 1,
+      "host": "speedtestngp1.airtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestngp1.airtel.in",
+      "ip_address": {
+        "A": "125.22.183.54",
+        "AAAA": "2404:a800:2a00:102::42"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestblrhsr1.airtel.in:8080/speedtest/upload.php",
+      "lat": "28.5355",
+      "lon": "77.3910",
+      "name": "Noida",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Bharti Airtel Ltd",
+      "id": "62966",
+      "preferred": 0,
+      "isp_id": "46101",
+      "https_functional": 1,
+      "host": "speedtestblrhsr1.airtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestblrhsr1.airtel.in",
+      "ip_address": {
+        "A": "182.76.80.158",
+        "AAAA": "2404:a800:3a00::3c6"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestptn1.airtel.in:8080/speedtest/upload.php",
+      "lat": "25.5941",
+      "lon": "85.1376",
+      "name": "Patna",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Bharti Airtel Ltd",
+      "id": "64572",
+      "preferred": 0,
+      "isp_id": "46101",
+      "https_functional": 1,
+      "host": "speedtestptn1.airtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestptn1.airtel.in",
+      "ip_address": {
+        "A": "152.52.142.2",
+        "AAAA": "2404:a800:1a00:805::12a"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestplc1.airtel.in:8080/speedtest/upload.php",
+      "lat": "10.6609",
+      "lon": "77.0048",
+      "name": "Pollachi",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Bharti Airtel Ltd",
+      "id": "64573",
+      "preferred": 0,
+      "isp_id": "46101",
+      "https_functional": 1,
+      "host": "speedtestplc1.airtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestplc1.airtel.in",
+      "ip_address": {
+        "A": "152.52.46.138",
+        "AAAA": "2404:a800:3a00:300::a2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestkhd1.airtel.in:8080/speedtest/upload.php",
+      "lat": "18.5538",
+      "lon": "73.9477",
+      "name": "Pune",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Bharti Airtel Limited",
+      "id": "57312",
+      "preferred": 0,
+      "isp_id": "46101",
+      "https_functional": 1,
+      "host": "speedtestkhd1.airtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestkhd1.airtel.in",
+      "ip_address": {
+        "A": "182.78.249.222",
+        "AAAA": "2404:a800:2a00:101::12e"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestrkt1.airtel.in:8080/speedtest/upload.php",
+      "lat": "22.3000",
+      "lon": "70.7833",
+      "name": "Rajkot",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Bharti Airtel Limited",
+      "id": "60185",
+      "preferred": 0,
+      "isp_id": "46101",
+      "https_functional": 1,
+      "host": "speedtestrkt1.airtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestrkt1.airtel.in",
+      "ip_address": {
+        "A": "125.22.182.14",
+        "AAAA": "2404:a800:2a00:20a::46"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestrch1.airtel.in:8080/speedtest/upload.php",
+      "lat": "23.3441",
+      "lon": "85.3096",
+      "name": "Ranchi",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Bharti Airtel Ltd",
+      "id": "64427",
+      "preferred": 0,
+      "isp_id": "82287",
+      "https_functional": 1,
+      "host": "speedtestrch1.airtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestrch1.airtel.in",
+      "ip_address": {
+        "A": "125.23.61.30",
+        "AAAA": "2404:a800:4a00:100::36"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtestsaha1.airtel.in:8080/speedtest/upload.php",
       "lat": "30.3006",
       "lon": "76.9672",
@@ -559,25 +518,66 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtestguw1.airtel.in:8080/speedtest/upload.php",
-      "lat": "26.1445",
-      "lon": "91.7362",
-      "name": "Guwahati",
+      "url": "http://speedtestsur2.airtel.in:8080/speedtest/upload.php",
+      "lat": "21.1700",
+      "lon": "72.8300",
+      "name": "Surat",
       "country": "India",
       "cc": "IN",
-      "sponsor": "Bharti Airtel Ltd",
-      "id": "46660",
+      "sponsor": "Bharti Airtel Limited",
+      "id": "58190",
       "preferred": 0,
       "isp_id": "46101",
       "https_functional": 1,
-      "host": "speedtestguw1.airtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestguw1.airtel.in",
+      "host": "speedtestsur2.airtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestsur2.airtel.in",
       "ip_address": {
-        "A": "122.185.181.122"
+        "A": "125.21.207.18",
+        "AAAA": "2404:a800:2a00:101::1e2"
       },
-      "ipv6_capable": "no"
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtesttar1.airtel.in:8080/speedtest/upload.php",
+      "lat": "25.3176",
+      "lon": "82.9739",
+      "name": "Varanasi",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Bharti Airtel Ltd",
+      "id": "49129",
+      "preferred": 0,
+      "isp_id": "46101",
+      "https_functional": 1,
+      "host": "speedtesttar1.airtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtesttar1.airtel.in",
+      "ip_address": {
+        "A": "59.145.208.86",
+        "AAAA": "2404:a800:1a00:801::1bb"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestvjw1.airtel.in:8080/speedtest/upload.php",
+      "lat": "16.5062",
+      "lon": "80.6480",
+      "name": "Vijaywada",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Bharti Airtel Ltd",
+      "id": "52670",
+      "preferred": 0,
+      "isp_id": "46101",
+      "https_functional": 1,
+      "host": "speedtestvjw1.airtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestvjw1.airtel.in",
+      "ip_address": {
+        "A": "182.79.17.6",
+        "AAAA": "2404:a800:3a00:1::5cf"
+      },
+      "ipv6_capable": "yes"
     }
   ],
   "total_servers": 29,
-  "updated_at": "2025-07-14T06:43:41.523697+00:00"
+  "updated_at": "2025-07-14T06:57:54.303921+00:00"
 }

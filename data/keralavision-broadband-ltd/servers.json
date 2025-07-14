@@ -1,6 +1,26 @@
 {
   "servers": [
     {
+      "url": "http://speedtestekm1.keralavisionisp.com:8080/speedtest/upload.php",
+      "lat": "9.9816",
+      "lon": "76.2999",
+      "name": "Ernakulam",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Keralavision Broadband Ltd",
+      "id": "62235",
+      "preferred": 0,
+      "isp_id": "200948",
+      "https_functional": 1,
+      "host": "speedtestekm1.keralavisionisp.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestekm1.keralavisionisp.com",
+      "ip_address": {
+        "A": "103.160.195.234",
+        "AAAA": "2001:df5:d380:8001::15"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtestknr.keralavisionisp.com:8080/speedtest/upload.php",
       "lat": "11.8745",
       "lon": "75.3704",
@@ -61,26 +81,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtestekm1.keralavisionisp.com:8080/speedtest/upload.php",
-      "lat": "9.9816",
-      "lon": "76.2999",
-      "name": "Ernakulam",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Keralavision Broadband Ltd",
-      "id": "62235",
-      "preferred": 0,
-      "isp_id": "200948",
-      "https_functional": 1,
-      "host": "speedtestekm1.keralavisionisp.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestekm1.keralavisionisp.com",
-      "ip_address": {
-        "A": "103.160.195.234",
-        "AAAA": "2001:df5:d380:8001::15"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtest-tvm.keralavisionisp.com:8080/speedtest/upload.php",
       "lat": "8.5241",
       "lon": "76.9366",
@@ -102,5 +102,5 @@
     }
   ],
   "total_servers": 5,
-  "updated_at": "2025-07-14T06:43:52.305178+00:00"
+  "updated_at": "2025-07-14T06:58:10.305370+00:00"
 }

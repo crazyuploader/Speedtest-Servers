@@ -1,42 +1,22 @@
 {
   "servers": [
     {
-      "url": "http://speedtestvtz.alliancebroadband.in:8080/speedtest/upload.php",
-      "lat": "17.6883",
-      "lon": "83.2186",
-      "name": "Visakhapatnam",
+      "url": "http://speedtestdgr.alliancebroadband.in:8080/speedtest/upload.php",
+      "lat": "22.5667",
+      "lon": "88.3667",
+      "name": "Durgapur",
       "country": "India",
       "cc": "IN",
       "sponsor": "Alliance Broadband Services Pvt Ltd",
-      "id": "27524",
+      "id": "40255",
       "preferred": 0,
       "isp_id": "99547",
       "https_functional": 1,
-      "host": "speedtestvtz.alliancebroadband.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestvtz.alliancebroadband.in",
+      "host": "speedtestdgr.alliancebroadband.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestdgr.alliancebroadband.in",
       "ip_address": {
-        "A": "144.48.226.6",
-        "AAAA": "2407:cb00:d800::2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtestcokkl.alliancebroadband.in:8080/speedtest/upload.php",
-      "lat": "11.0510",
-      "lon": "76.0711",
-      "name": "Malappuram",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Alliance Broadband Services Pvt Ltd",
-      "id": "14922",
-      "preferred": 0,
-      "isp_id": "99547",
-      "https_functional": 1,
-      "host": "speedtestcokkl.alliancebroadband.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestcokkl.alliancebroadband.in",
-      "ip_address": {
-        "A": "103.94.136.50",
-        "AAAA": "2407:cb00:dc00::2"
+        "A": "103.217.242.78",
+        "AAAA": "2407:cb00:e000::32"
       },
       "ipv6_capable": "yes"
     },
@@ -61,22 +41,22 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtestdgr.alliancebroadband.in:8080/speedtest/upload.php",
-      "lat": "22.5667",
-      "lon": "88.3667",
-      "name": "Durgapur",
+      "url": "http://speedtestcokkl.alliancebroadband.in:8080/speedtest/upload.php",
+      "lat": "11.0510",
+      "lon": "76.0711",
+      "name": "Malappuram",
       "country": "India",
       "cc": "IN",
       "sponsor": "Alliance Broadband Services Pvt Ltd",
-      "id": "40255",
+      "id": "14922",
       "preferred": 0,
       "isp_id": "99547",
       "https_functional": 1,
-      "host": "speedtestdgr.alliancebroadband.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestdgr.alliancebroadband.in",
+      "host": "speedtestcokkl.alliancebroadband.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestcokkl.alliancebroadband.in",
       "ip_address": {
-        "A": "103.217.242.78",
-        "AAAA": "2407:cb00:e000::32"
+        "A": "103.94.136.50",
+        "AAAA": "2407:cb00:dc00::2"
       },
       "ipv6_capable": "yes"
     },
@@ -119,8 +99,28 @@
         "AAAA": "2407:cb00:e400::2"
       },
       "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestvtz.alliancebroadband.in:8080/speedtest/upload.php",
+      "lat": "17.6883",
+      "lon": "83.2186",
+      "name": "Visakhapatnam",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Alliance Broadband Services Pvt Ltd",
+      "id": "27524",
+      "preferred": 0,
+      "isp_id": "99547",
+      "https_functional": 1,
+      "host": "speedtestvtz.alliancebroadband.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestvtz.alliancebroadband.in",
+      "ip_address": {
+        "A": "144.48.226.6",
+        "AAAA": "2407:cb00:d800::2"
+      },
+      "ipv6_capable": "yes"
     }
   ],
   "total_servers": 6,
-  "updated_at": "2025-07-14T06:43:30.545453+00:00"
+  "updated_at": "2025-07-14T06:57:51.056502+00:00"
 }
