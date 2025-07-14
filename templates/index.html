@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Speedtest Servers Viewer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@400;600;700&display=swap"
       rel="stylesheet"
-      href="{{ url_for('static', filename='style.css') }}"
     />
     <style>
       /* Basic custom styles that Tailwind doesn't directly cover or for overrides */
@@ -14,6 +15,8 @@
         min-height: 100vh;
         display: flex;
         flex-direction: column;
+        /* Apply a default font for the body */
+        font-family: "Poppins", sans-serif;
       }
       main {
         flex-grow: 1;
@@ -133,7 +136,8 @@
 
       /* --- Tooltip Styles --- */
       #ip-tooltip {
-        position: fixed; /* Use fixed to position relative to viewport */
+        /* CHANGED FROM fixed TO absolute */
+        position: absolute;
         background-color: #333;
         color: #fff;
         padding: 8px 12px;
@@ -165,9 +169,7 @@
       }
     </style>
   </head>
-  <body
-    class="bg-gray-100 text-gray-800 antialiased font-sans flex flex-col min-h-screen"
-  >
+  <body class="bg-gray-50 text-gray-800 antialiased flex flex-col min-h-screen">
     <div id="spinner" class="spinner-overlay hidden">
       <div class="spinner"></div>
     </div>
@@ -175,11 +177,11 @@
     <div id="ip-tooltip"></div>
 
     <header
-      class="bg-gradient-to-r from-blue-600 to-indigo-700 p-4 sm:p-6 shadow-md"
+      class="bg-gradient-to-r from-blue-700 to-purple-600 p-4 sm:p-6 shadow-lg"
     >
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <h1
-          class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white text-center sm:text-left"
+          class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white text-center sm:text-left tracking-tight font-['Montserrat']"
         >
           Speedtest Servers Viewer
         </h1>
@@ -187,24 +189,24 @@
     </header>
 
     <main
-      class="container mx-auto mt-4 sm:mt-8 p-3 sm:p-4 bg-white rounded-lg shadow-xl flex-grow"
+      class="container mx-auto mt-6 sm:mt-10 p-4 sm:p-6 bg-white rounded-xl shadow-2xl flex-grow border border-gray-100"
     >
-      <div class="mb-5 sm:mb-6">
+      <div class="mb-6 sm:mb-8">
         <label
           for="provider"
-          class="block text-base sm:text-lg font-semibold text-gray-700 mb-2"
+          class="block text-lg sm:text-xl font-semibold text-gray-700 mb-3"
           >Choose an ISP/Network:</label
         >
-        <div class="relative w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
+        <div class="relative w-full sm:w-2/3 md:w-1/2 lg:w-1/3">
           <select
             id="provider"
-            class="block appearance-none w-full bg-white border border-gray-300 text-gray-700 py-2 sm:py-3 px-3 sm:px-4 pr-8 rounded-lg leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-200 ease-in-out text-sm sm:text-base"
+            class="block appearance-none w-full bg-white border border-gray-300 text-gray-800 py-3 px-4 pr-8 rounded-lg leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300 ease-in-out text-base sm:text-lg shadow-sm"
           ></select>
           <div
-            class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"
+            class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-600"
           >
             <svg
-              class="fill-current h-4 w-4"
+              class="fill-current h-5 w-5"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
             >
@@ -218,66 +220,66 @@
 
       <div
         id="metadata"
-        class="text-xs sm:text-sm text-gray-600 mb-5 sm:mb-6 p-3 bg-blue-50 rounded-md border border-blue-200"
+        class="text-sm sm:text-base text-gray-700 mb-6 sm:mb-8 p-4 bg-blue-50 rounded-lg border border-blue-200 shadow-inner"
       ></div>
 
       <div
-        class="table-container shadow-md rounded-lg overflow-hidden border border-gray-200"
+        class="table-container shadow-lg rounded-lg overflow-hidden border border-gray-200 bg-white"
       >
         <table id="servers" class="min-w-full divide-y divide-gray-200">
-          <thead class="bg-gray-50">
+          <thead class="bg-gray-100">
             <tr>
               <th
                 scope="col"
-                class="px-4 py-2 sm:px-6 sm:py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider"
               >
                 #
               </th>
               <th
                 scope="col"
-                class="px-4 py-2 sm:px-6 sm:py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider"
               >
                 City
               </th>
               <th
                 scope="col"
-                class="px-4 py-2 sm:px-6 sm:py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider"
               >
                 Country
               </th>
               <th
                 scope="col"
-                class="px-4 py-2 sm:px-6 sm:py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider"
               >
                 Sponsor
               </th>
               <th
                 scope="col"
-                class="px-4 py-2 sm:px-6 sm:py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider"
               >
                 Server ID
               </th>
               <th
                 scope="col"
-                class="px-4 py-2 sm:px-6 sm:py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider"
               >
-                IPv6
+                IPv6 Capable
               </th>
               <th
                 scope="col"
-                class="px-4 py-2 sm:px-6 sm:py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider"
               >
                 Host
               </th>
             </tr>
           </thead>
-          <tbody class="bg-white divide-y divide-gray-200"></tbody>
+          <tbody class="bg-white divide-y divide-gray-100"></tbody>
         </table>
       </div>
     </main>
 
     <footer
-      class="bg-gray-800 text-white text-center p-3 sm:p-4 mt-6 sm:mt-8 shadow-inner text-sm"
+      class="bg-gray-900 text-white text-center p-4 sm:p-5 mt-8 sm:mt-12 shadow-inner text-sm sm:text-base"
     >
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <p>&copy; 2025 Speedtest Servers Viewer. All rights reserved.</p>
@@ -392,28 +394,38 @@
 
         // Show metadata
         metadataDiv.innerHTML = `
-      <p><strong>Total Servers:</strong> <span class="font-medium">${data.total_servers}</span></p>
-      <p><strong>Last Updated:</strong> <span class="font-medium">${formattedDate}</span></p>
+      <p class="font-medium"><strong>Total Servers:</strong> <span class="font-bold text-blue-700">${data.total_servers}</span></p>
+      <p class="font-medium"><strong>Last Updated:</strong> <span class="font-bold text-blue-700">${formattedDate}</span></p>
     `;
 
         // Populate table rows with server data
         tbody.innerHTML = "";
         if (data.servers && data.servers.length > 0) {
           data.servers.forEach((server, idx) => {
+            const ipv6Class =
+              server.ipv6_capable === "yes"
+                ? "text-green-600 font-semibold"
+                : "text-red-600 font-semibold";
             tbody.innerHTML += `
-          <tr class="${idx % 2 === 0 ? "bg-white" : "bg-gray-50"} hover:bg-gray-100 transition duration-150 ease-in-out">
-            <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900 sm:px-6 sm:py-4">${idx + 1}</td>
-            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-900 sm:px-6 sm:py-4">${server.name}</td> <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-900 sm:px-6 sm:py-4">${server.country}</td> <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-900 sm:px-6 sm:py-4">${server.sponsor}</td> <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-900 sm:px-6 sm:py-4">${server.id}</td> <td class="px-4 py-2 whitespace-nowrap text-sm ${server.ipv6_capable === "yes" ? "text-green-600" : "text-red-600"} sm:px-6 sm:py-4">${server.ipv6_capable}</td> <td
-                class="px-4 py-2 whitespace-nowrap text-sm text-gray-900 font-mono sm:px-6 sm:py-4"
+          <tr class="${idx % 2 === 0 ? "bg-white" : "bg-gray-50"} hover:bg-blue-50 transition duration-150 ease-in-out">
+            <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-800 sm:px-6 sm:py-4">${idx + 1}</td>
+            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-800 sm:px-6 sm:py-4">${server.name}</td>
+            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-800 sm:px-6 sm:py-4">${server.country}</td>
+            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-800 sm:px-6 sm:py-4">${server.sponsor}</td>
+            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-800 sm:px-6 sm:py-4">${server.id}</td>
+            <td class="px-4 py-2 whitespace-nowrap text-sm ${ipv6Class} sm:px-6 sm:py-4">${server.ipv6_capable}</td>
+            <td
+                class="px-4 py-2 whitespace-nowrap text-sm text-gray-800 font-mono sm:px-6 sm:py-4 cursor-help relative"
                 data-ipv4="${server.ip_address?.A || ""}"
                 data-ipv6="${server.ip_address?.AAAA || ""}"
             >
                 ${server.hostname}
-            </td> </tr>`;
+            </td>
+          </tr>`;
           });
         } else {
           // Colspan remains 7
-          tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-4 text-center text-gray-500">No servers found for this ISP.</td></tr>`;
+          tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-4 text-center text-gray-500 italic">No servers found for this ISP.</td></tr>`;
         }
       }
 
@@ -422,44 +434,37 @@
 
       // --- Tooltip Event Listeners ---
       tbody.addEventListener("mouseover", (e) => {
-        // Check if the hovered element is the 7th column (Host)
-        // e.target is the element that triggered the event (e.g., a <td>)
-        // We use closest('td') to ensure we get the TD even if a child element inside it was hovered.
         const hoveredCell = e.target.closest("td");
 
-        // Check if it's a TD and if it's the 7th child of its row (Host column, index 6)
-        // And ensure it has data-ipv4 attribute (meaning it's a data row, not an empty message row)
+        // Ensure the hovered element is the 7th column (Host) and contains IP data
         if (
           hoveredCell &&
           hoveredCell.cellIndex === 6 &&
           hoveredCell.hasAttribute("data-ipv4")
         ) {
           const ipv4 = hoveredCell.dataset.ipv4;
-          const ipv6 = hoveredCell.dataset.ipv6; // This will be empty string if not present in JSON
+          const ipv6 = hoveredCell.dataset.ipv6;
 
           let tooltipContent = `<p><strong>IPv4:</strong> ${ipv4 || "N/A"}</p>`;
           if (ipv6) {
-            // Only add IPv6 if it exists (i.e., not an empty string)
             tooltipContent += `<p><strong>IPv6:</strong> ${ipv6}</p>`;
           }
           ipTooltip.innerHTML = tooltipContent;
 
-          // Position the tooltip
-          // Get the bounding rectangle of the hovered cell
+          // Position the tooltip relative to the hovered cell
           const rect = hoveredCell.getBoundingClientRect();
           const tooltipWidth = ipTooltip.offsetWidth;
           const tooltipHeight = ipTooltip.offsetHeight;
 
-          // Calculate position to appear below and slightly to the right of the cursor
-          // or relative to the element. Let's try relative to element for stability.
-          let top = rect.bottom + window.scrollY + 10; // 10px below the element
+          // Calculate position relative to the document
+          let top = rect.bottom + window.scrollY + 10; // 10px below the cell
           let left = rect.left + window.scrollX;
 
-          // Adjust if too close to the right edge
+          // Adjust if too close to the right edge of the viewport
           if (left + tooltipWidth > window.innerWidth - 20) {
             left = window.innerWidth - tooltipWidth - 20; // 20px padding from right
           }
-          // Ensure it doesn't go off the left edge
+          // Ensure it doesn't go off the left edge of the viewport
           if (left < 10) {
             left = 10;
           }
@@ -471,8 +476,7 @@
       });
 
       tbody.addEventListener("mouseout", (e) => {
-        // Hide the tooltip regardless of where the mouse exits from within tbody
-        // This prevents the tooltip from lingering if you move from one host cell to another quickly
+        // Hide the tooltip when the mouse leaves the tbody area
         ipTooltip.classList.remove("visible");
       });
 
