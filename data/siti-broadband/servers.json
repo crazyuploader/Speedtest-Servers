@@ -15,6 +15,21 @@
     "host": "speedtest.e-net.in.prod.hosts.ooklaserver.net:8080"
   },
   {
+    "url": "http://kanpur.sitibroadband.co.in:8080/speedtest/upload.php",
+    "lat": "26.4499",
+    "lon": "80.3319",
+    "distance": 638,
+    "name": "Kanpur",
+    "country": "India",
+    "cc": "IN",
+    "sponsor": "Siti Broadband",
+    "id": "50715",
+    "preferred": 0,
+    "isp_id": "99525",
+    "https_functional": 1,
+    "host": "kanpur.sitibroadband.co.in.prod.hosts.ooklaserver.net:8080"
+  },
+  {
     "url": "http://gorakhpur.sitibroadband.co.in:8080/speedtest/upload.php",
     "lat": "26.7638",
     "lon": "83.3338",
