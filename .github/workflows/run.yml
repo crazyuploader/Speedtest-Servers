@@ -6,7 +6,7 @@ on:
   pull_request:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 * * * *"
 
 jobs:
   run:
@@ -33,7 +33,7 @@ jobs:
 
       - name: Run Program
         run: |
-          uv run python main.py --search "alliance broadband services pvt ltd,act fibernet,asianet broadband,bharat sanchar nigam ltd,bharti airtel,excitel,gtpl broadband pvt ltd,hathway,ishan netsol,jio,keralavision broadband ltd,onebroadband,powergrid corporation of india ltd,railtel corporation of india ltd,shyam spectra,siti broadband,tata play fiber,tata teleservices ltd,vi india,you broadband india"
+          uv run python main.py --search "act fibernet,alliance broadband services pvt ltd,asianet broadband,bharat sanchar nigam ltd,bharti airtel,excitel,gtpl broadband pvt ltd,hathway,ishan netsol,jio,keralavision broadband ltd,onebroadband,powergrid corporation of india ltd,railtel corporation of india ltd,shyam spectra,siti broadband,tata play fiber,tata teleservices ltd,vi india,you broadband india"
 
       - name: Prettify files
         run: |
