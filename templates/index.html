@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Speedtest Servers Viewer</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 20px;
+      }
+      select {
+        padding: 5px;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 20px;
+      }
+      th,
+      td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f5f5f5;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Speedtest Servers Viewer</h1>
+
+    <label for="provider">Choose an ISP/Network:</label>
+    <select id="provider"></select>
+
+    <table id="servers">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>City</th>
+          <th>Sponsor</th>
+          <th>IPv6</th>
+          <th>Host</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <div id="metadata" style="margin-top: 10px; font-style: italic"></div>
+
+    <script>
+      const select = document.getElementById("provider");
+      const tbody = document.querySelector("tbody");
+
+      // Converts 'you-broadband-india' → 'You Broadband India'
+      const formatName = (str) =>
+        str
+          .split("-")
+          .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+          .join(" ");
+
+      async function loadProviders() {
+        const res = await fetch("/list");
+        const dirs = await res.json();
+        const options = [];
+
+        for (const dir of dirs) {
+          try {
+            const jsonRes = await fetch(`/data/${dir}/servers.json`);
+            const data = await jsonRes.json();
+            const label = data.servers?.[0]?.sponsor || formatName(dir); // fallback
+            options.push({ value: dir, label });
+          } catch (err) {
+            console.warn(`Failed to read sponsor from ${dir}:`, err);
+          }
+        }
+
+        // Sort alphabetically by sponsor label
+        options.sort((a, b) => a.label.localeCompare(b.label));
+
+        select.innerHTML = options
+          .map((opt) => `<option value="${opt.value}">${opt.label}</option>`)
+          .join("");
+
+        if (options.length > 0) {
+          loadServers(options[0].value);
+        }
+      }
+
+      async function loadServers(isp) {
+        const res = await fetch(`/data/${isp}/servers.json`);
+        const data = await res.json();
+
+        // Display metadata
+        const updatedAt = new Date(data.updated_at);
+        const formattedDate = updatedAt.toLocaleString(undefined, {
+          year: "numeric",
+          month: "2-digit",
+          day: "2-digit",
+          hour: "2-digit",
+          minute: "2-digit",
+          second: "2-digit",
+          hour12: false,
+        });
+
+        const metadataDiv = document.getElementById("metadata");
+        metadataDiv.innerHTML = `
+    Total Servers: ${data.total_servers} &nbsp;|&nbsp;
+    Last Updated: ${formattedDate}
+  `;
+
+        // Build table
+        tbody.innerHTML = "";
+        data.servers.forEach((server, idx) => {
+          tbody.innerHTML += `
+      <tr>
+        <td>${idx + 1}</td>
+        <td>${server.name}</td>
+        <td>${server.sponsor}</td>
+        <td>${server.ipv6_capable}</td>
+        <td>${server.hostname}</td>
+      </tr>`;
+        });
+      }
+
+      select.addEventListener("change", (e) => loadServers(e.target.value));
+
+      // Initialize
+      loadProviders();
+    </script>
+  </body>
+</html>
