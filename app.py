@@ -50,7 +50,8 @@ def list_isps():
     """List all available ISPs that have a servers.json"""
     try:
         isp_dirs = sorted(
-            d for d in os.listdir(DATA_DIR)
+            d
+            for d in os.listdir(DATA_DIR)
             if os.path.isdir(os.path.join(DATA_DIR, d))
             and os.path.isfile(os.path.join(DATA_DIR, d, "servers.json"))
         )

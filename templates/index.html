@@ -130,6 +130,39 @@
           white-space: nowrap; /* Prevent text from wrapping too much */
         }
       }
+
+      /* --- Tooltip Styles --- */
+      #ip-tooltip {
+        position: fixed; /* Use fixed to position relative to viewport */
+        background-color: #333;
+        color: #fff;
+        padding: 8px 12px;
+        border-radius: 6px;
+        font-size: 0.85rem;
+        z-index: 10000; /* Above everything else */
+        opacity: 0;
+        visibility: hidden;
+        transition:
+          opacity 0.2s ease-in-out,
+          visibility 0.2s ease-in-out;
+        pointer-events: none; /* Allows clicks to pass through to elements beneath */
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        max-width: 200px; /* Prevent it from being too wide */
+      }
+      #ip-tooltip.visible {
+        opacity: 1;
+        visibility: visible;
+      }
+      #ip-tooltip p {
+        margin: 0;
+        line-height: 1.4;
+      }
+      #ip-tooltip p:not(:last-child) {
+        margin-bottom: 4px;
+      }
+      #ip-tooltip strong {
+        color: #a8dadc; /* A slight highlight for labels */
+      }
     </style>
   </head>
   <body
@@ -138,6 +171,8 @@
     <div id="spinner" class="spinner-overlay hidden">
       <div class="spinner"></div>
     </div>
+
+    <div id="ip-tooltip"></div>
 
     <header
       class="bg-gradient-to-r from-blue-600 to-indigo-700 p-4 sm:p-6 shadow-md"
@@ -226,7 +261,7 @@
                 scope="col"
                 class="px-4 py-2 sm:px-6 sm:py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
               >
-                IPv6 Capable
+                IPv6
               </th>
               <th
                 scope="col"
@@ -254,6 +289,7 @@
       const tbody = document.querySelector("tbody"); // table body where rows go
       const metadataDiv = document.getElementById("metadata"); // metadata div
       const spinner = document.getElementById("spinner"); // spinner element
+      const ipTooltip = document.getElementById("ip-tooltip"); // Tooltip element
 
       // In-memory cache for already-fetched JSON data
       const cachedData = {};
@@ -367,7 +403,13 @@
             tbody.innerHTML += `
           <tr class="${idx % 2 === 0 ? "bg-white" : "bg-gray-50"} hover:bg-gray-100 transition duration-150 ease-in-out">
             <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900 sm:px-6 sm:py-4">${idx + 1}</td>
-            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-900 sm:px-6 sm:py-4">${server.name}</td> <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-900 sm:px-6 sm:py-4">${server.country}</td> <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-900 sm:px-6 sm:py-4">${server.sponsor}</td> <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-900 sm:px-6 sm:py-4">${server.id}</td> <td class="px-4 py-2 whitespace-nowrap text-sm ${server.ipv6_capable === "yes" ? "text-green-600" : "text-red-600"} sm:px-6 sm:py-4">${server.ipv6_capable}</td> <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-900 font-mono sm:px-6 sm:py-4">${server.hostname}</td> </tr>`;
+            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-900 sm:px-6 sm:py-4">${server.name}</td> <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-900 sm:px-6 sm:py-4">${server.country}</td> <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-900 sm:px-6 sm:py-4">${server.sponsor}</td> <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-900 sm:px-6 sm:py-4">${server.id}</td> <td class="px-4 py-2 whitespace-nowrap text-sm ${server.ipv6_capable === "yes" ? "text-green-600" : "text-red-600"} sm:px-6 sm:py-4">${server.ipv6_capable}</td> <td
+                class="px-4 py-2 whitespace-nowrap text-sm text-gray-900 font-mono sm:px-6 sm:py-4"
+                data-ipv4="${server.ip_address?.A || ""}"
+                data-ipv6="${server.ip_address?.AAAA || ""}"
+            >
+                ${server.hostname}
+            </td> </tr>`;
           });
         } else {
           // Colspan remains 7
@@ -377,6 +419,62 @@
 
       // When dropdown changes, update the table for selected ISP
       select.addEventListener("change", (e) => loadServers(e.target.value));
+
+      // --- Tooltip Event Listeners ---
+      tbody.addEventListener("mouseover", (e) => {
+        // Check if the hovered element is the 7th column (Host)
+        // e.target is the element that triggered the event (e.g., a <td>)
+        // We use closest('td') to ensure we get the TD even if a child element inside it was hovered.
+        const hoveredCell = e.target.closest("td");
+
+        // Check if it's a TD and if it's the 7th child of its row (Host column, index 6)
+        // And ensure it has data-ipv4 attribute (meaning it's a data row, not an empty message row)
+        if (
+          hoveredCell &&
+          hoveredCell.cellIndex === 6 &&
+          hoveredCell.hasAttribute("data-ipv4")
+        ) {
+          const ipv4 = hoveredCell.dataset.ipv4;
+          const ipv6 = hoveredCell.dataset.ipv6; // This will be empty string if not present in JSON
+
+          let tooltipContent = `<p><strong>IPv4:</strong> ${ipv4 || "N/A"}</p>`;
+          if (ipv6) {
+            // Only add IPv6 if it exists (i.e., not an empty string)
+            tooltipContent += `<p><strong>IPv6:</strong> ${ipv6}</p>`;
+          }
+          ipTooltip.innerHTML = tooltipContent;
+
+          // Position the tooltip
+          // Get the bounding rectangle of the hovered cell
+          const rect = hoveredCell.getBoundingClientRect();
+          const tooltipWidth = ipTooltip.offsetWidth;
+          const tooltipHeight = ipTooltip.offsetHeight;
+
+          // Calculate position to appear below and slightly to the right of the cursor
+          // or relative to the element. Let's try relative to element for stability.
+          let top = rect.bottom + window.scrollY + 10; // 10px below the element
+          let left = rect.left + window.scrollX;
+
+          // Adjust if too close to the right edge
+          if (left + tooltipWidth > window.innerWidth - 20) {
+            left = window.innerWidth - tooltipWidth - 20; // 20px padding from right
+          }
+          // Ensure it doesn't go off the left edge
+          if (left < 10) {
+            left = 10;
+          }
+
+          ipTooltip.style.top = `${top}px`;
+          ipTooltip.style.left = `${left}px`;
+          ipTooltip.classList.add("visible");
+        }
+      });
+
+      tbody.addEventListener("mouseout", (e) => {
+        // Hide the tooltip regardless of where the mouse exits from within tbody
+        // This prevents the tooltip from lingering if you move from one host cell to another quickly
+        ipTooltip.classList.remove("visible");
+      });
 
       // Start everything when page loads
       document.addEventListener("DOMContentLoaded", loadProviders);
