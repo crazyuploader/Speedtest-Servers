@@ -1,0 +1,13 @@
+name: Speedtest Servers
+services:
+  speedtest_servers:
+    build:
+      context: .
+    volumes:
+      - ./data:/app/data:ro
+    ports:
+      - 8202:8202
+    restart: always
+    logging:
+      options:
+        max-size: 1g
