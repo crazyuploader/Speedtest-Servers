@@ -21,11 +21,15 @@
       main {
         flex-grow: 1;
       }
-      /* Custom scrollbar for table on smaller screens if needed */
+      /* Custom scrollbar for table on smaller screens */
       .table-container {
         overflow-x: auto;
+        overflow-y: visible;
         /* Ensure table content doesn't break out on very small screens */
         -webkit-overflow-scrolling: touch; /* Smoother scrolling on iOS */
+        /* Make sure the container itself has proper scrolling */
+        width: 100%;
+        display: block;
       }
 
       /* Reduce table cell padding on small screens for better fit */
@@ -33,14 +37,16 @@
         /* Tailwind's 'sm' breakpoint */
         .table-container th,
         .table-container td {
-          padding-left: 1rem; /* px-4 */
-          padding-right: 1rem; /* px-4 */
-          font-size: 0.875rem; /* text-sm */
+          padding-left: 0.5rem; /* px-2 */
+          padding-right: 0.5rem; /* px-2 */
+          padding-top: 0.5rem; /* py-2 */
+          padding-bottom: 0.5rem; /* py-2 */
+          font-size: 0.75rem; /* text-xs */
         }
         /* Further reduce padding for the first column if necessary */
         .table-container th:first-child,
         .table-container td:first-child {
-          padding-left: 0.75rem; /* px-3 */
+          padding-left: 0.25rem; /* px-1 */
         }
       }
 
@@ -87,56 +93,107 @@
         }
       }
 
-      /* --- Table Full Width Fix --- */
+      /* --- Table Styles --- */
       #servers {
-        width: 100%; /* Ensure the table itself takes 100% of its container */
-        table-layout: fixed; /* This is key: it makes column widths proportional */
+        /* Set minimum width to ensure table is wide enough to scroll */
+        min-width: 900px;
+        width: 100%;
+        display: table;
       }
 
-      /* Adjusted widths for 7 columns - ORDER MATTERS HERE! */
-      #servers th:nth-child(1),
-      #servers td:nth-child(1) {
-        width: 5%; /* # */
-      }
-      #servers th:nth-child(2),
-      #servers td:nth-child(2) {
-        width: 15%; /* City */
-      }
-      #servers th:nth-child(3),
-      #servers td:nth-child(3) {
-        width: 15%; /* Country */
-      }
-      #servers th:nth-child(4),
-      #servers td:nth-child(4) {
-        width: 20%; /* Sponsor */
-      }
-      #servers th:nth-child(5),
-      #servers td:nth-child(5) {
-        width: 10%; /* Server ID */
-      }
-      #servers th:nth-child(6),
-      #servers td:nth-child(6) {
-        width: 10%; /* IPv6 */
-      }
-      #servers th:nth-child(7),
-      #servers td:nth-child(7) {
-        width: 25%; /* Host */
-      }
-
-      /* Adjust for smaller screens if needed to prevent squishing content */
-      @media (max-width: 768px) {
+      /* Desktop styles - use fixed layout for consistent column widths */
+      @media (min-width: 769px) {
         #servers {
-          table-layout: auto; /* Revert to auto on smaller screens if fixed layout causes issues */
+          table-layout: fixed;
         }
+
+        /* Adjusted widths for 7 columns on desktop */
+        #servers th:nth-child(1),
+        #servers td:nth-child(1) {
+          width: 5%; /* # */
+        }
+        #servers th:nth-child(2),
+        #servers td:nth-child(2) {
+          width: 15%; /* City */
+        }
+        #servers th:nth-child(3),
+        #servers td:nth-child(3) {
+          width: 15%; /* Country */
+        }
+        #servers th:nth-child(4),
+        #servers td:nth-child(4) {
+          width: 20%; /* Sponsor */
+        }
+        #servers th:nth-child(5),
+        #servers td:nth-child(5) {
+          width: 10%; /* Server ID */
+        }
+        #servers th:nth-child(6),
+        #servers td:nth-child(6) {
+          width: 10%; /* IPv6 */
+        }
+        #servers th:nth-child(7),
+        #servers td:nth-child(7) {
+          width: 25%; /* Host */
+        }
+      }
+
+      /* Mobile styles - use auto layout and prevent text wrapping */
+      @media (max-width: 768px) {
+        .table-container {
+          border-radius: 0.5rem;
+          overflow-x: scroll !important;
+          overflow-y: visible;
+          -webkit-overflow-scrolling: touch;
+          width: 100%;
+          display: block;
+        }
+
+        #servers {
+          table-layout: auto;
+          min-width: 900px;
+          display: table;
+        }
+
         #servers th,
         #servers td {
-          white-space: nowrap; /* Prevent text from wrapping too much */
+          white-space: nowrap; /* Prevent text from wrapping */
+          min-width: 80px; /* Minimum width for each column */
+        }
+
+        /* Specific minimum widths for mobile */
+        #servers th:nth-child(1),
+        #servers td:nth-child(1) {
+          min-width: 40px; /* # */
+        }
+        #servers th:nth-child(2),
+        #servers td:nth-child(2) {
+          min-width: 120px; /* City */
+        }
+        #servers th:nth-child(3),
+        #servers td:nth-child(3) {
+          min-width: 100px; /* Country */
+        }
+        #servers th:nth-child(4),
+        #servers td:nth-child(4) {
+          min-width: 200px; /* Sponsor */
+        }
+        #servers th:nth-child(5),
+        #servers td:nth-child(5) {
+          min-width: 80px; /* Server ID */
+        }
+        #servers th:nth-child(6),
+        #servers td:nth-child(6) {
+          min-width: 100px; /* IPv6 */
+        }
+        #servers th:nth-child(7),
+        #servers td:nth-child(7) {
+          min-width: 250px; /* Host */
         }
       }
 
       /* --- Tooltip Styles --- */
       #ip-tooltip {
-        /* CHANGED FROM fixed TO absolute */
         position: absolute;
         background-color: #333;
         color: #fff;
@@ -226,7 +283,7 @@
       <div
         class="table-container shadow-lg rounded-lg overflow-hidden border border-gray-200 bg-white"
       >
-        <table id="servers" class="min-w-full divide-y divide-gray-200">
+        <table id="servers" class="divide-y divide-gray-200">
           <thead class="bg-gray-100">
             <tr>
               <th
