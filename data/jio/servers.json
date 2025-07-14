@@ -1221,6 +1221,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://tvdmooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
+      "lat": "8.5241",
+      "lon": "76.9366",
+      "name": "Trivandrum",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Jio",
+      "id": "71049",
+      "preferred": 0,
+      "isp_id": "137615",
+      "https_functional": 1,
+      "host": "tvdmooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "tvdmooklaspeed1.jioconnect.com",
+      "ip_address": {
+        "A": "49.45.64.246",
+        "AAAA": "2405:200:1670:200:49:45:64:f2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://udprooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
       "lat": "24.5800",
       "lon": "73.6800",
@@ -1301,6 +1321,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 65,
-  "updated_at": "2025-07-14T10:16:13.511746+00:00"
+  "total_servers": 66,
+  "updated_at": "2025-07-14T17:25:25.903954+00:00"
 }

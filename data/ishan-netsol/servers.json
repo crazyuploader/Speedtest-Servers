@@ -241,26 +241,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtest1.ishangroup.com:8080/speedtest/upload.php",
-      "lat": "21.1700",
-      "lon": "72.8300",
-      "name": "Surat",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Ishan Netsol Pvt Ltd",
-      "id": "7614",
-      "preferred": 0,
-      "isp_id": "27544",
-      "https_functional": 1,
-      "host": "speedtest1.ishangroup.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtest1.ishangroup.com",
-      "ip_address": {
-        "A": "111.90.168.122",
-        "AAAA": "2405:f600:32:10::2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://vadodara-sptest.ishancloud.com:8080/speedtest/upload.php",
       "lat": "22.3000",
       "lon": "73.2000",
@@ -281,6 +261,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 14,
-  "updated_at": "2025-07-14T10:16:10.257367+00:00"
+  "total_servers": 13,
+  "updated_at": "2025-07-14T17:25:19.031091+00:00"
 }

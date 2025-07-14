@@ -51,7 +51,8 @@
       "id": "52100",
       "preferred": 0,
       "isp_id": "99525",
-      "host": "nagpur.sitibroadband.co.in:8080",
+      "https_functional": 1,
+      "host": "nagpur.sitibroadband.co.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "nagpur.sitibroadband.co.in",
       "ip_address": {
         "A": "202.142.116.254"
@@ -100,5 +101,5 @@
     }
   ],
   "total_servers": 5,
-  "updated_at": "2025-07-14T10:16:20.401770+00:00"
+  "updated_at": "2025-07-14T17:25:36.343682+00:00"
 }
