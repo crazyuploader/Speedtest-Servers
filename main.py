@@ -130,6 +130,9 @@ def main():
                     server["ip_address"] = ip_address
                     server["ipv6_capable"] = "yes" if ip_address.get("AAAA") else "no"
 
+            # Sort servers alphabetically by the 'name' key (City Name)
+            servers_data.sort(key=lambda s: s.get("name", "").lower())
+
             current_time = datetime.now(timezone.utc).astimezone().isoformat()
             data = {
                 "servers": servers_data,
