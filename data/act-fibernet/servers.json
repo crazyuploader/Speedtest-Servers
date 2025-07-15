@@ -161,6 +161,25 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtestdelhi.actcorp.in:8080/speedtest/upload.php",
+      "lat": "28.6100",
+      "lon": "77.2300",
+      "name": "New Delhi",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "ACT FIBERNET",
+      "id": "9214",
+      "preferred": 0,
+      "isp_id": "64789",
+      "host": "speedtestdelhi.actcorp.in:8080",
+      "hostname": "speedtestdelhi.actcorp.in",
+      "ip_address": {
+        "A": "49.207.47.14",
+        "AAAA": "2406:b400:50::16"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtestpune.actcorp.in:8080/speedtest/upload.php",
       "lat": "18.5203",
       "lon": "73.8567",
@@ -221,6 +240,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 11,
-  "updated_at": "2025-07-15T06:51:55.640662+00:00"
+  "total_servers": 12,
+  "updated_at": "2025-07-15T18:14:08.609037+00:00"
 }

@@ -81,6 +81,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtest.lko.excitel.in:8080/speedtest/upload.php",
+      "lat": "26.8500",
+      "lon": "80.9200",
+      "name": "Lucknow",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Excitel",
+      "id": "36668",
+      "preferred": 0,
+      "isp_id": "115835",
+      "https_functional": 1,
+      "host": "speedtest.lko.excitel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.lko.excitel.in",
+      "ip_address": {
+        "A": "103.120.50.245",
+        "AAAA": "2401:9640:4f31::5"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtest.mum.excitel.in:8080/speedtest/upload.php",
       "lat": "18.9647",
       "lon": "72.8258",
@@ -181,6 +201,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 9,
-  "updated_at": "2025-07-15T06:52:14.196289+00:00"
+  "total_servers": 10,
+  "updated_at": "2025-07-15T18:14:26.991638+00:00"
 }
