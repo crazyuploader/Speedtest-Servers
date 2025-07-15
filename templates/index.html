@@ -9,6 +9,13 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+    <!-- Leaflet CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
     <style>
       /* Basic custom styles that Tailwind doesn't directly cover or for overrides */
       body {
@@ -256,6 +263,18 @@
       .status-offline {
         background-color: #ef4444; /* red-500 */
       }
+
+      /* Map container style */
+      #map {
+        height: 400px; /* Set a fixed height for the map */
+        width: 100%;
+        border-radius: 0.75rem; /* rounded-xl */
+        box-shadow:
+          0 10px 15px -3px rgba(0, 0, 0, 0.1),
+          0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-lg */
+        margin-bottom: 1.5rem; /* mb-6 */
+        border: 1px solid #e2e8f0; /* border-gray-200 */
+      }
     </style>
   </head>
   <body class="text-gray-800 antialiased flex flex-col min-h-screen">
@@ -356,6 +375,33 @@
           />
         </div>
       </div>
+
+      <!-- Export Button -->
+      <div class="flex justify-end mb-6 sm:mb-8">
+        <button
+          id="exportJsonButton"
+          class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out flex items-center"
+        >
+          <svg
+            class="w-5 h-5 mr-2"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+            ></path>
+          </svg>
+          Export to JSON
+        </button>
+      </div>
+
+      <!-- Map Container -->
+      <div id="map"></div>
 
       <div
         id="metadata"
@@ -466,6 +512,13 @@
       </div>
     </footer>
 
+    <!-- Leaflet JS -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+
     <script>
       const selectProvider = document.getElementById("provider"); // ISP dropdown element
       const selectCountryFilter = document.getElementById("countryFilter"); // Country filter dropdown
@@ -474,10 +527,16 @@
       const metadataDiv = document.getElementById("metadata"); // metadata div
       const spinner = document.getElementById("spinner"); // spinner element
       const ipTooltip = document.getElementById("ip-tooltip"); // Tooltip element
+      const exportJsonButton = document.getElementById("exportJsonButton"); // Export JSON button
+      const mapDiv = document.getElementById("map"); // Map container element
 
       // In-memory cache for already-fetched JSON data
       const cachedData = {};
       let currentISPData = null; // Stores the currently selected ISP's full data
+      let currentFilteredServers = []; // Stores the currently displayed (filtered) servers
+
+      let map = null; // Leaflet map instance
+      let markers = L.featureGroup(); // Layer group to hold markers
 
       // Helper to show the spinner
       function showSpinner() {
@@ -515,6 +574,64 @@
           option.textContent = country;
           selectCountryFilter.appendChild(option);
         });
+      }
+
+      // Initialize the Leaflet map
+      function initializeMap() {
+        if (map === null) {
+          // Initialize map centered on a general location (e.g., world view)
+          map = L.map("map").setView([20, 0], 2); // Centered at 20 Lat, 0 Lon, zoom level 2
+
+          // Add OpenStreetMap tile layer
+          L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+            attribution:
+              '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+          }).addTo(map);
+
+          // Add the markers feature group to the map
+          markers.addTo(map);
+        }
+      }
+
+      // Update markers on the map based on filtered servers
+      function updateMapMarkers(servers) {
+        markers.clearLayers(); // Clear existing markers
+
+        const validMarkers = [];
+        servers.forEach((server) => {
+          // Check if latitude and longitude exist and are valid numbers
+          if (
+            server.lat &&
+            server.lon &&
+            !isNaN(parseFloat(server.lat)) &&
+            !isNaN(parseFloat(server.lon))
+          ) {
+            const lat = parseFloat(server.lat);
+            const lon = parseFloat(server.lon);
+
+            const marker = L.marker([lat, lon]);
+            marker.bindPopup(`
+              <strong>${server.name}</strong><br>
+              Sponsor: ${server.sponsor}<br>
+              Host: ${server.hostname}<br>
+              Country: ${server.country}<br>
+              ID: ${server.id}
+            `);
+            markers.addLayer(marker);
+            validMarkers.push(marker);
+          }
+        });
+
+        // Fit map bounds to all markers if there are any
+        if (validMarkers.length > 0) {
+          const bounds = new L.LatLngBounds(
+            validMarkers.map((marker) => marker.getLatLng()),
+          );
+          map.fitBounds(bounds, { padding: [50, 50] }); // Add some padding
+        } else {
+          // If no markers, reset view to a default world view
+          map.setView([20, 0], 2);
+        }
       }
 
       // Load all ISPs listed from the server
@@ -567,10 +684,12 @@
             loadServers(options[0].value);
           } else {
             metadataDiv.innerHTML = `<p class="text-red-600">No ISP data available.</p>`;
+            updateMapMarkers([]); // Clear map if no data
           }
         } catch (err) {
           console.error("Error loading providers:", err);
           metadataDiv.innerHTML = `<p class="text-red-600">Failed to load ISP list. Please check the server connection.</p>`;
+          updateMapMarkers([]); // Clear map on error
         } finally {
           hideSpinner(); // Hide spinner after all data is fetched or an error occurs
         }
@@ -586,6 +705,8 @@
           tbody.innerHTML = `<tr><td colspan="8" class="px-6 py-4 text-center text-gray-500">No server data found for this ISP.</td></tr>`;
           metadataDiv.innerHTML = `<p class="text-red-600">No data available for the selected ISP.</p>`;
           populateCountryFilter([]); // Clear country filter
+          currentFilteredServers = []; // Clear filtered servers
+          updateMapMarkers([]); // Clear map markers
           return;
         }
 
@@ -609,6 +730,9 @@
               server.id.includes(lowerCaseSearchTerm),
           );
         }
+
+        currentFilteredServers = filteredServers; // Store the filtered data for export
+        updateMapMarkers(currentFilteredServers); // Update map with filtered servers
 
         // Populate country filter based on the *original* full data for the ISP
         populateCountryFilter(data.servers);
@@ -685,6 +809,27 @@
         loadServers(selectedIsp, selectedCountry, searchTerm);
       }
 
+      // Function to export current filtered data to JSON
+      function exportToJson() {
+        if (currentFilteredServers.length === 0) {
+          // Using a simple alert for now, consider a custom modal for better UX
+          alert("No servers to export. Please apply filters or select an ISP.");
+          return;
+        }
+
+        const jsonString = JSON.stringify(currentFilteredServers, null, 2); // Pretty print JSON
+        const blob = new Blob([jsonString], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = `speedtest_servers_${selectProvider.value}_${new Date().toISOString().slice(0, 10)}.json`; // Dynamic filename
+        document.body.appendChild(a); // Append to body to make it clickable
+        a.click(); // Programmatically click the link to trigger download
+        document.body.removeChild(a); // Clean up the temporary link
+        URL.revokeObjectURL(url); // Release the object URL
+      }
+
       // Event listeners for filters
       selectProvider.addEventListener("change", () => {
         // When ISP changes, reset country filter and search term, then load
@@ -694,6 +839,9 @@
       });
       selectCountryFilter.addEventListener("change", applyFilters);
       searchServersInput.addEventListener("input", applyFilters);
+
+      // Event listener for export button
+      exportJsonButton.addEventListener("click", exportToJson);
 
       // --- Tooltip Event Listeners ---
       tbody.addEventListener("mouseover", (e) => {
@@ -745,7 +893,10 @@
       });
 
       // Start everything when page loads
-      document.addEventListener("DOMContentLoaded", loadProviders);
+      document.addEventListener("DOMContentLoaded", () => {
+        initializeMap(); // Initialize the map first
+        loadProviders(); // Then load providers and populate data
+      });
     </script>
   </body>
 </html>
