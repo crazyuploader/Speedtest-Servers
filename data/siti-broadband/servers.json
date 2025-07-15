@@ -15,9 +15,10 @@
       "host": "gorakhpur.sitibroadband.co.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "gorakhpur.sitibroadband.co.in",
       "ip_address": {
-        "A": "202.142.117.66"
+        "A": "202.142.117.66",
+        "AAAA": "2402:ea80:16:2::3"
       },
-      "ipv6_capable": "no"
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://karnal.sitibroadband.co.in:8080/speedtest/upload.php",
@@ -101,5 +102,5 @@
     }
   ],
   "total_servers": 5,
-  "updated_at": "2025-07-15T18:23:46.138201+00:00"
+  "updated_at": "2025-07-15T18:26:45.283225+00:00"
 }
