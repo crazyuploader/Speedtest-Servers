@@ -4,7 +4,7 @@ services:
     volumes:
       - ./data:/app/data:ro
     ports:
-      - "${SPEEDTEST_INTERFACE:-127.0.0.1}:8202:8202"
+      - "${HOST:-127.0.0.1}:8202:8202"
     restart: unless-stopped
     logging:
       options:
