@@ -30,6 +30,83 @@
           #e0f2f7,
           #f0f4f8
         ); /* Light blue to light gray */
+        transition:
+          background 0.3s,
+          color 0.3s;
+      }
+      body.dark-mode {
+        background: linear-gradient(to bottom right, #181a20, #23272f);
+        color: #e5e7eb;
+      }
+      body.dark-mode main,
+      body.dark-mode .table-container,
+      body.dark-mode .bg-white {
+        background: #23272f !important;
+        color: #e5e7eb !important;
+      }
+      body.dark-mode .text-gray-800,
+      body.dark-mode .text-gray-700,
+      body.dark-mode .text-gray-600,
+      body.dark-mode .text-gray-500 {
+        color: #e5e7eb !important;
+      }
+      body.dark-mode .bg-gray-100,
+      body.dark-mode .bg-gray-50 {
+        background: #23272f !important;
+      }
+      body.dark-mode .divide-gray-200,
+      body.dark-mode .border-gray-200,
+      body.dark-mode .border-gray-100,
+      body.dark-mode .border-gray-300 {
+        border-color: #444857 !important;
+      }
+      body.dark-mode .shadow-lg,
+      body.dark-mode .shadow-2xl,
+      body.dark-mode .shadow-inner {
+        box-shadow: 0 2px 8px 0 #0008 !important;
+      }
+      body.dark-mode .rounded-xl,
+      body.dark-mode .rounded-lg {
+        background: #23272f !important;
+      }
+      body.dark-mode .bg-blue-50 {
+        background: #23272f !important;
+      }
+      body.dark-mode .font-mono {
+        color: #b5bfe2 !important;
+      }
+      body.dark-mode .bg-gradient-to-r {
+        background: linear-gradient(to right, #23272f, #181a20) !important;
+      }
+      body.dark-mode .text-blue-700 {
+        color: #7dd3fc !important;
+      }
+      body.dark-mode .text-red-600 {
+        color: #f87171 !important;
+      }
+      body.dark-mode .text-green-600 {
+        color: #4ade80 !important;
+      }
+      body.dark-mode .hover\:bg-blue-50:hover {
+        background: #23272f !important;
+      }
+      body.dark-mode .bg-gray-900 {
+        background: #181a20 !important;
+      }
+      body.dark-mode .text-white {
+        color: #e5e7eb !important;
+      }
+      body.dark-mode input,
+      body.dark-mode select,
+      body.dark-mode textarea {
+        background: #181a20 !important;
+        color: #e5e7eb !important;
+        border-color: #444857 !important;
+      }
+      body.dark-mode #ip-tooltip {
+        background-color: #23272f !important;
+        color: #e5e7eb !important;
+        border: 1px solid #444857 !important;
       }
       main {
         flex-grow: 1;
@@ -285,14 +362,31 @@
     <div id="ip-tooltip"></div>
 
     <header
-      class="bg-gradient-to-r from-blue-700 to-purple-600 p-4 sm:p-6 shadow-lg"
+      class="bg-gradient-to-r from-blue-700 to-purple-600 p-4 sm:p-6 shadow-lg flex items-center justify-between"
     >
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div
+        class="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between"
+      >
         <h1
           class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white text-center sm:text-left tracking-tight font-['Montserrat']"
         >
           Enhanced Speedtest Servers Dashboard
         </h1>
+        <!-- Dark Mode Toggle Button -->
+        <button
+          id="darkModeToggle"
+          aria-label="Toggle dark mode"
+          class="ml-4 bg-white bg-opacity-20 hover:bg-opacity-40 text-white rounded-full p-2 transition duration-200 ease-in-out shadow-md focus:outline-none"
+          style="
+            min-width: 44px;
+            min-height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          "
+        >
+          <span id="darkModeIcon" style="font-size: 1.5rem">🌙</span>
+        </button>
       </div>
     </header>
 
@@ -896,6 +990,40 @@
       document.addEventListener("DOMContentLoaded", () => {
         initializeMap(); // Initialize the map first
         loadProviders(); // Then load providers and populate data
+      });
+    </script>
+    <script>
+      // Dark mode toggle logic
+      const darkModeToggle = document.getElementById("darkModeToggle");
+      const darkModeIcon = document.getElementById("darkModeIcon");
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      function setDarkMode(enabled) {
+        if (enabled) {
+          document.body.classList.add("dark-mode");
+          darkModeIcon.textContent = "☀️";
+        } else {
+          document.body.classList.remove("dark-mode");
+          darkModeIcon.textContent = "🌙";
+        }
+      }
+
+      // On load: check localStorage or system preference
+      document.addEventListener("DOMContentLoaded", () => {
+        let dark = localStorage.getItem("darkMode");
+        if (dark === null) {
+          dark = prefersDark ? "true" : "false";
+        }
+        setDarkMode(dark === "true");
+      });
+
+      // Toggle on button click
+      darkModeToggle.addEventListener("click", () => {
+        const isDark = document.body.classList.toggle("dark-mode");
+        setDarkMode(isDark);
+        localStorage.setItem("darkMode", isDark ? "true" : "false");
       });
     </script>
   </body>
