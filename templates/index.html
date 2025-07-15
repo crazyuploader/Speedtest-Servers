@@ -17,6 +17,12 @@
         flex-direction: column;
         /* Apply a default font for the body */
         font-family: "Poppins", sans-serif;
+        /* New: Background gradient for the body */
+        background: linear-gradient(
+          to bottom right,
+          #e0f2f7,
+          #f0f4f8
+        ); /* Light blue to light gray */
       }
       main {
         flex-grow: 1;
@@ -252,7 +258,7 @@
       }
     </style>
   </head>
-  <body class="bg-gray-50 text-gray-800 antialiased flex flex-col min-h-screen">
+  <body class="text-gray-800 antialiased flex flex-col min-h-screen">
     <div id="spinner" class="spinner-overlay hidden">
       <div class="spinner"></div>
     </div>
