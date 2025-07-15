@@ -398,6 +398,12 @@ document.addEventListener("DOMContentLoaded", () => {
   // Initialize map and load providers
   initializeMap(); // Initialize the map first
   loadProviders(); // Then load providers and populate data
+
+  // Return current year
+  const yearSpan = document.getElementById("year");
+  if (yearSpan) {
+    yearSpan.textContent = new Date().getFullYear();
+  }
 });
 
 // Toggle dark mode on button click

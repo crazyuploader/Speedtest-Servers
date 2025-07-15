@@ -3,8 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Enhanced Speedtest Servers Dashboard</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="author" content="Jugal Kishore" />
+    <meta
+      name="description"
+      content="Explore and analyze Speedtest servers worldwide. Filter by ISP, country, or location, and visualize server distribution on an interactive map."
+    />
+    <meta
+      name="keywords"
+      content="Speedtest, Speedtest.net, Internet Speed, Servers, ISP, Network Map, Server Explorer, Latency, IPv6, Server Visualization, Speedtest Dashboard"
+    />
+    <title>Speedtest Servers Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@400;600;700&display=swap"
       rel="stylesheet"
@@ -35,22 +44,20 @@
         <h1
           class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white text-center sm:text-left tracking-tight font-['Montserrat']"
         >
-          Enhanced Speedtest Servers Dashboard
+          Speedtest Servers Dashboard
         </h1>
         <!-- Dark Mode Toggle Button -->
         <button
           id="darkModeToggle"
           aria-label="Toggle dark mode"
-          class="ml-4 bg-white bg-opacity-20 hover:bg-opacity-40 text-white rounded-full p-2 transition duration-200 ease-in-out shadow-md focus:outline-none"
-          style="
-            min-width: 44px;
-            min-height: 44px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          "
+          class="ml-4 w-12 h-12 flex items-center justify-center rounded-full bg-gradient-to-br from-gray-700/30 to-gray-900/30 backdrop-blur-sm hover:from-gray-700/40 hover:to-gray-900/40 hover:scale-110 active:scale-95 text-white shadow-lg hover:shadow-xl hover:shadow-gray-500/20 transition-all duration-300 ease-out focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 dark:from-white/10 dark:to-white/5 dark:hover:from-white/20 dark:hover:to-white/10"
         >
-          <span id="darkModeIcon" style="font-size: 1.5rem">🌙</span>
+          <span
+            id="darkModeIcon"
+            class="text-2xl transform transition-transform duration-500 hover:rotate-[360deg]"
+          >
+            🌙
+          </span>
         </button>
       </div>
     </header>
@@ -266,7 +273,8 @@
     >
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <p>
-          &copy; 2025 Enhanced Speedtest Servers Dashboard. All rights reserved.
+          &copy; <span id="year"></span> Speedtest Server Explorer. All rights
+          reserved.
         </p>
       </div>
     </footer>
@@ -276,9 +284,10 @@
       src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
       integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
       crossorigin=""
+      defer
     ></script>
 
     <!-- Custom JavaScript -->
-    <script src="/static/script.js"></script>
+    <script src="/static/script.js" defer></script>
   </body>
 </html>

@@ -1,42 +1,56 @@
-/* Basic custom styles that Tailwind doesn't directly cover or for overrides */
+/* === CSS Variables for easy theming === */
+:root {
+  --bg-light-gradient: linear-gradient(to bottom right, #e0f2f7, #f0f4f8);
+  --bg-dark-gradient: linear-gradient(to bottom right, #181a20, #23272f);
+  --text-light: #e5e7eb;
+  --highlight-blue: #7dd3fc;
+  --highlight-red: #f87171;
+  --highlight-green: #4ade80;
+}
+
+/* === Base Styles === */
 body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  /* Apply a default font for the body */
   font-family: "Poppins", sans-serif;
-  /* New: Background gradient for the body */
-  background: linear-gradient(
-    to bottom right,
-    #e0f2f7,
-    #f0f4f8
-  ); /* Light blue to light gray */
+  background: var(--bg-light-gradient);
   transition:
     background 0.3s,
     color 0.3s;
 }
 
+main {
+  flex-grow: 1;
+}
+
+/* === Dark Mode === */
 body.dark-mode {
-  background: linear-gradient(to bottom right, #181a20, #23272f);
-  color: #e5e7eb;
+  background: var(--bg-dark-gradient);
+  color: var(--text-light);
 }
 
 body.dark-mode main,
 body.dark-mode .table-container,
-body.dark-mode .bg-white {
+body.dark-mode .bg-white,
+body.dark-mode .rounded-xl,
+body.dark-mode .rounded-lg,
+body.dark-mode .bg-blue-50 {
   background: #23272f !important;
-  color: #e5e7eb !important;
+  color: var(--text-light) !important;
 }
 
 body.dark-mode .text-gray-800,
 body.dark-mode .text-gray-700,
 body.dark-mode .text-gray-600,
-body.dark-mode .text-gray-500 {
-  color: #e5e7eb !important;
+body.dark-mode .text-gray-500,
+body.dark-mode .text-white {
+  color: var(--text-light) !important;
 }
 
 body.dark-mode .bg-gray-100,
-body.dark-mode .bg-gray-50 {
+body.dark-mode .bg-gray-50,
+body.dark-mode .bg-gray-900 {
   background: #23272f !important;
 }
 
@@ -53,15 +67,6 @@ body.dark-mode .shadow-inner {
   box-shadow: 0 2px 8px 0 #0008 !important;
 }
 
-body.dark-mode .rounded-xl,
-body.dark-mode .rounded-lg {
-  background: #23272f !important;
-}
-
-body.dark-mode .bg-blue-50 {
-  background: #23272f !important;
-}
-
 body.dark-mode .font-mono {
   color: #b5bfe2 !important;
 }
@@ -71,93 +76,56 @@ body.dark-mode .bg-gradient-to-r {
 }
 
 body.dark-mode .text-blue-700 {
-  color: #7dd3fc !important;
+  color: var(--highlight-blue) !important;
 }
 
 body.dark-mode .text-red-600 {
-  color: #f87171 !important;
+  color: var(--highlight-red) !important;
 }
 
 body.dark-mode .text-green-600 {
-  color: #4ade80 !important;
+  color: var(--highlight-green) !important;
 }
 
 body.dark-mode .hover\:bg-blue-50:hover {
   background: #23272f !important;
 }
 
-body.dark-mode .bg-gray-900 {
-  background: #181a20 !important;
-}
-
-body.dark-mode .text-white {
-  color: #e5e7eb !important;
-}
-
 body.dark-mode input,
 body.dark-mode select,
 body.dark-mode textarea {
   background: #181a20 !important;
-  color: #e5e7eb !important;
+  color: var(--text-light) !important;
   border-color: #444857 !important;
 }
 
 body.dark-mode #ip-tooltip {
   background-color: #23272f !important;
-  color: #e5e7eb !important;
+  color: var(--text-light) !important;
   border: 1px solid #444857 !important;
 }
 
-main {
-  flex-grow: 1;
-}
-
-/* Custom scrollbar for table on smaller screens */
+/* === Table Container === */
 .table-container {
   overflow-x: auto;
   overflow-y: visible;
-  /* Ensure table content doesn't break out on very small screens */
-  -webkit-overflow-scrolling: touch; /* Smoother scrolling on iOS */
-  /* Make sure the container itself has proper scrolling */
+  -webkit-overflow-scrolling: touch;
   width: 100%;
   display: block;
 }
 
-/* Reduce table cell padding on small screens for better fit */
-@media (max-width: 640px) {
-  /* Tailwind's 'sm' breakpoint */
-  .table-container th,
-  .table-container td {
-    padding-left: 0.5rem; /* px-2 */
-    padding-right: 0.5rem; /* px-2 */
-    padding-top: 0.5rem; /* py-2 */
-    padding-bottom: 0.5rem; /* py-2 */
-    font-size: 0.75rem; /* text-xs */
-  }
-  /* Further reduce padding for the first column if necessary */
-  .table-container th:first-child,
-  .table-container td:first-child {
-    padding-left: 0.25rem; /* px-1 */
-  }
-}
-
-/* --- Spinner Styles --- */
+/* === Spinner Styles === */
 .spinner-overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.9
-  ); /* Semi-transparent white background */
+  background-color: rgba(255, 255, 255, 0.9);
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 9999; /* Ensure it's on top of everything */
+  z-index: 9999;
   transition: opacity 0.3s ease-in-out;
 }
 
@@ -167,12 +135,12 @@ main {
 }
 
 .spinner {
-  border: 8px solid #f3f3f3; /* Light grey */
-  border-top: 8px solid #3498db; /* Blue */
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  animation: spin 1s linear infinite; /* Spin animation */
+  animation: spin 1s linear infinite;
 }
 
 @keyframes spin {
@@ -184,56 +152,52 @@ main {
   }
 }
 
-/* --- Table Styles --- */
+/* === Table Styles === */
 #servers {
-  /* Set minimum width to ensure table is wide enough to scroll */
-  min-width: 800px; /* Adjusted for fewer columns */
+  min-width: 800px;
   width: 100%;
   display: table;
 }
 
-/* Desktop styles - use fixed layout for consistent column widths */
 @media (min-width: 769px) {
   #servers {
     table-layout: fixed;
   }
 
-  /* Adjusted widths for 8 columns on desktop */
   #servers th:nth-child(1),
   #servers td:nth-child(1) {
-    width: 5%; /* # */
+    width: 5%;
   }
   #servers th:nth-child(2),
   #servers td:nth-child(2) {
-    width: 15%; /* City */
+    width: 15%;
   }
   #servers th:nth-child(3),
   #servers td:nth-child(3) {
-    width: 10%; /* Country */
+    width: 10%;
   }
   #servers th:nth-child(4),
   #servers td:nth-child(4) {
-    width: 20%; /* Sponsor */
+    width: 20%;
   }
   #servers th:nth-child(5),
   #servers td:nth-child(5) {
-    width: 10%; /* Server ID */
+    width: 10%;
   }
   #servers th:nth-child(6),
   #servers td:nth-child(6) {
-    width: 8%; /* HTTPS */
+    width: 8%;
   }
   #servers th:nth-child(7),
   #servers td:nth-child(7) {
-    width: 8%; /* IPv6 */
+    width: 8%;
   }
   #servers th:nth-child(8),
   #servers td:nth-child(8) {
-    width: 24%; /* Host */
+    width: 24%;
   }
 }
 
-/* Mobile styles - use auto layout and prevent text wrapping */
 @media (max-width: 768px) {
   .table-container {
     border-radius: 0.5rem;
@@ -246,52 +210,51 @@ main {
 
   #servers {
     table-layout: auto;
-    min-width: 880px; /* Adjusted for fewer columns */
+    min-width: 880px;
     display: table;
   }
 
   #servers th,
   #servers td {
-    white-space: nowrap; /* Prevent text from wrapping */
-    min-width: 80px; /* Minimum width for each column */
+    white-space: nowrap;
+    min-width: 80px;
   }
 
-  /* Specific minimum widths for mobile */
   #servers th:nth-child(1),
   #servers td:nth-child(1) {
-    min-width: 40px; /* # */
+    min-width: 40px;
   }
   #servers th:nth-child(2),
   #servers td:nth-child(2) {
-    min-width: 120px; /* City */
+    min-width: 120px;
   }
   #servers th:nth-child(3),
   #servers td:nth-child(3) {
-    min-width: 100px; /* Country */
+    min-width: 100px;
   }
   #servers th:nth-child(4),
   #servers td:nth-child(4) {
-    min-width: 180px; /* Sponsor */
+    min-width: 180px;
   }
   #servers th:nth-child(5),
   #servers td:nth-child(5) {
-    min-width: 80px; /* Server ID */
+    min-width: 80px;
   }
   #servers th:nth-child(6),
   #servers td:nth-child(6) {
-    min-width: 70px; /* HTTPS */
+    min-width: 70px;
   }
   #servers th:nth-child(7),
   #servers td:nth-child(7) {
-    min-width: 90px; /* IPv6 */
+    min-width: 90px;
   }
   #servers th:nth-child(8),
   #servers td:nth-child(8) {
-    min-width: 200px; /* Host */
+    min-width: 200px;
   }
 }
 
-/* --- Tooltip Styles --- */
+/* === Tooltip Styles === */
 #ip-tooltip {
   position: absolute;
   background-color: #333;
@@ -299,16 +262,16 @@ main {
   padding: 8px 12px;
   border-radius: 6px;
   font-size: 0.85rem;
-  z-index: 10000; /* Above everything else */
+  z-index: 10000;
   opacity: 0;
   visibility: hidden;
   transition:
     opacity 0.2s ease-in-out,
     visibility 0.2s ease-in-out;
-  pointer-events: none; /* Allows clicks to pass through to elements beneath */
+  pointer-events: none;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  max-width: 300px; /* INCREASED WIDTH */
-  min-width: 200px; /* Added minimum width */
+  max-width: 300px;
+  min-width: 200px;
 }
 
 #ip-tooltip.visible {
@@ -319,7 +282,6 @@ main {
 #ip-tooltip p {
   margin: 0;
   line-height: 1.4;
-  /* Removed word-break: break-all; */
 }
 
 #ip-tooltip p:not(:last-child) {
@@ -327,10 +289,10 @@ main {
 }
 
 #ip-tooltip strong {
-  color: #a8dadc; /* A slight highlight for labels */
+  color: #a8dadc;
 }
 
-/* Status indicator dot (kept for potential future use, though not displayed) */
+/* === Status Dot (reserved for future use) === */
 .status-dot {
   display: inline-block;
   width: 10px;
@@ -341,21 +303,21 @@ main {
 }
 
 .status-online {
-  background-color: #22c55e; /* green-500 */
+  background-color: #22c55e;
 }
 
 .status-offline {
-  background-color: #ef4444; /* red-500 */
+  background-color: #ef4444;
 }
 
-/* Map container style */
+/* === Map Styles === */
 #map {
-  height: 400px; /* Set a fixed height for the map */
+  height: 400px;
   width: 100%;
-  border-radius: 0.75rem; /* rounded-xl */
+  border-radius: 0.75rem;
   box-shadow:
     0 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-lg */
-  margin-bottom: 1.5rem; /* mb-6 */
-  border: 1px solid #e2e8f0; /* border-gray-200 */
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  margin-bottom: 1.5rem;
+  border: 1px solid #e2e8f0;
 }
