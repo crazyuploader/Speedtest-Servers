@@ -1,13 +1,11 @@
-name: Speedtest Servers
 services:
   speedtest_servers:
-    build:
-      context: .
+    image: crazyuploader/speedtest-dashboard
     volumes:
       - ./data:/app/data:ro
     ports:
-      - 8202:8202
-    restart: always
+      - "${SPEEDTEST_INTERFACE:-127.0.0.1}:8202:8202"
+    restart: unless-stopped
     logging:
       options:
-        max-size: 1g
+        max-size: 256m
