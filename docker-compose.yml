@@ -1,6 +1,6 @@
 services:
   speedtest_servers:
-    image: crazyuploader/speedtest-dashboard
+    image: ghcr.io/crazyuploader/speedtest-dashboard:latest
     volumes:
       - ./data:/app/data:ro
     ports:
