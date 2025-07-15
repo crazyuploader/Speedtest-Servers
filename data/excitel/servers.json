@@ -41,26 +41,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtest.jpr.excitel.in:8080/speedtest/upload.php",
-      "lat": "26.9260",
-      "lon": "75.8235",
-      "name": "Jaipur",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Excitel",
-      "id": "43409",
-      "preferred": 0,
-      "isp_id": "115835",
-      "https_functional": 1,
-      "host": "speedtest.jpr.excitel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtest.jpr.excitel.in",
-      "ip_address": {
-        "A": "205.254.161.245",
-        "AAAA": "2401:9640:6731::5"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtest.knu.excitel.in:8080/speedtest/upload.php",
       "lat": "26.4499",
       "lon": "80.3319",
@@ -201,6 +181,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 10,
-  "updated_at": "2025-07-14T18:41:34.339784+00:00"
+  "total_servers": 9,
+  "updated_at": "2025-07-15T01:12:55.408869+00:00"
 }

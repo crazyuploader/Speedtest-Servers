@@ -91,7 +91,8 @@
       "id": "6403",
       "preferred": 0,
       "isp_id": "71775",
-      "host": "sp1-mum.youbroadband.in:8080",
+      "https_functional": 1,
+      "host": "sp1-mum.youbroadband.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "sp1-mum.youbroadband.in",
       "ip_address": {
         "A": "203.187.216.146",
@@ -181,5 +182,5 @@
     }
   ],
   "total_servers": 9,
-  "updated_at": "2025-07-14T18:42:03.726711+00:00"
+  "updated_at": "2025-07-15T01:13:25.518397+00:00"
 }
