@@ -1231,8 +1231,7 @@
       "id": "71049",
       "preferred": 0,
       "isp_id": "137615",
-      "https_functional": 1,
-      "host": "tvdmooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
+      "host": "tvdmooklaspeed1.jioconnect.com:8080",
       "hostname": "tvdmooklaspeed1.jioconnect.com",
       "ip_address": {
         "A": "49.45.64.246",
@@ -1322,5 +1321,5 @@
     }
   ],
   "total_servers": 66,
-  "updated_at": "2025-07-16T04:46:19.772476+00:00"
+  "updated_at": "2025-07-17T01:11:40.255972+00:00"
 }
