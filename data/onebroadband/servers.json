@@ -21,6 +21,25 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://kolkataspeedtest.onebroadband.in:8080/speedtest/upload.php",
+      "lat": "22.5667",
+      "lon": "88.3667",
+      "name": "Kolkata",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "OneBroadband",
+      "id": "22709",
+      "preferred": 0,
+      "isp_id": "227198",
+      "host": "kolkataspeedtest.onebroadband.in:8080",
+      "hostname": "kolkataspeedtest.onebroadband.in",
+      "ip_address": {
+        "A": "203.192.209.3",
+        "AAAA": "2404:ba00:fa00::12"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://mumbaispeedtest.onebroadband.in:8080/speedtest/upload.php",
       "lat": "18.9647",
       "lon": "72.8258",
@@ -81,6 +100,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 4,
-  "updated_at": "2025-07-19T01:09:20.078588+00:00"
+  "total_servers": 5,
+  "updated_at": "2025-07-20T01:18:03.969688+00:00"
 }
