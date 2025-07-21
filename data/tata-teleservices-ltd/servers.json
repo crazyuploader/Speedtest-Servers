@@ -41,26 +41,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://stmum.tatatelebusiness.com:8080/speedtest/upload.php",
-      "lat": "18.9647",
-      "lon": "72.8258",
-      "name": "Mumbai",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Tata Teleservices Ltd",
-      "id": "47668",
-      "preferred": 0,
-      "isp_id": "2434",
-      "https_functional": 1,
-      "host": "stmum.tatatelebusiness.com:8080",
-      "hostname": "stmum.tatatelebusiness.com",
-      "ip_address": {
-        "A": "49.248.192.204",
-        "AAAA": "2402:d400:5:1::91"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://stdel.tatatelebusiness.com:8080/speedtest/upload.php",
       "lat": "28.6139",
       "lon": "77.2090",
@@ -101,6 +81,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 5,
-  "updated_at": "2025-07-20T01:18:16.612656+00:00"
+  "total_servers": 4,
+  "updated_at": "2025-07-21T01:15:47.322591+00:00"
 }
