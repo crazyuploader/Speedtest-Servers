@@ -204,7 +204,9 @@ function loadServers(isp, countryFilter = "", searchTerm = "") {
         server.name.toLowerCase().includes(lowerCaseSearchTerm) ||
         server.sponsor.toLowerCase().includes(lowerCaseSearchTerm) ||
         server.host.toLowerCase().includes(lowerCaseSearchTerm) ||
-        server.id.includes(lowerCaseSearchTerm),
+        server.id.includes(lowerCaseSearchTerm) ||
+        server.country.toLowerCase().includes(lowerCaseSearchTerm) ||
+        server.cc.toLowerCase().includes(lowerCaseSearchTerm),
     );
   }
 
