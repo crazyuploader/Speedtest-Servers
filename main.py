@@ -121,6 +121,15 @@ def main():
                 print(f"WARNING: No servers found for '{term}'.")
                 continue
 
+            # Filter for exact match
+            servers_data = [
+                s for s in servers_data if s.get("sponsor", "").lower() == term.lower()
+            ]
+
+            if not servers_data:
+                print(f"WARNING: No servers with exact match found for '{term}'.")
+                continue
+
             for server in servers_data:
                 server.pop("distance", None)
                 hostname = jc.parse("url", server.get("url", "")).get("hostname", None)
