@@ -317,7 +317,25 @@ selectProvider.addEventListener("change", () => {
   applyFilters();
 });
 selectCountryFilter.addEventListener("change", applyFilters);
-searchServersInput.addEventListener("input", applyFilters);
+// Debounce function to limit how often a function is called
+function debounce(func, delay) {
+  let timeout;
+  return function(...args) {
+    const context = this;
+    clearTimeout(timeout);
+    timeout = setTimeout(() => func.apply(context, args), delay);
+  };
+}
+
+// Event listeners for filters
+selectProvider.addEventListener("change", () => {
+  // When ISP changes, reset country filter and search term, then load
+  selectCountryFilter.value = "";
+  searchServersInput.value = "";
+  applyFilters();
+});
+selectCountryFilter.addEventListener("change", applyFilters);
+searchServersInput.addEventListener("input", debounce(applyFilters, 300)); // Debounce search input by 300ms
 
 // Event listener for export button
 exportJsonButton.addEventListener("click", exportToJson);
