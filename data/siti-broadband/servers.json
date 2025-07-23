@@ -34,7 +34,7 @@
       "host": "kanpur.sitibroadband.co.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "kanpur.sitibroadband.co.in",
       "ip_address": {
-        "A": "103.217.244.254",
+        "A": "103.171.100.254",
         "AAAA": "2402:ea80:13:2::3"
       },
       "ipv6_capable": "yes"
@@ -121,5 +121,5 @@
     }
   ],
   "total_servers": 6,
-  "updated_at": "2025-07-22T14:19:51.262648+00:00"
+  "updated_at": "2025-07-23T01:13:09.037610+00:00"
 }
