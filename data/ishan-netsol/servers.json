@@ -161,6 +161,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://noida-sptest.ishancloud.com:8080/speedtest/upload.php",
+      "lat": "28.5355",
+      "lon": "77.3910",
+      "name": "Noida",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Ishan Netsol Pvt Ltd",
+      "id": "28420",
+      "preferred": 0,
+      "isp_id": "27544",
+      "https_functional": 1,
+      "host": "noida-sptest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "noida-sptest.ishancloud.com",
+      "ip_address": {
+        "A": "202.129.211.252",
+        "AAAA": "2405:f600:91:c4::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://patna-speedtest.ishancloud.com:8080/speedtest/upload.php",
       "lat": "25.6139",
       "lon": "85.1354",
@@ -241,6 +261,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 12,
-  "updated_at": "2025-07-23T01:12:53.269483+00:00"
+  "total_servers": 13,
+  "updated_at": "2025-07-24T01:11:42.779548+00:00"
 }
