@@ -61,26 +61,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtestcal1.airtelbroadband.in:8080/speedtest/upload.php",
-      "lat": "11.2588",
-      "lon": "75.7804",
-      "name": "Calicut",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Bharti Airtel Ltd",
-      "id": "52217",
-      "preferred": 0,
-      "isp_id": "46101",
-      "https_functional": 1,
-      "host": "speedtestcal1.airtelbroadband.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestcal1.airtelbroadband.in",
-      "ip_address": {
-        "A": "122.187.99.102",
-        "AAAA": "2404:a800:3a00:207::41"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtestchv1.airtel.in:8080/speedtest/upload.php",
       "lat": "19.1075",
       "lon": "72.9018",
@@ -274,6 +254,25 @@
       "ip_address": {
         "A": "152.52.76.86",
         "AAAA": "2404:a800:1a00:805::11e"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestlud1.airtelbroadband.in:8080/speedtest/upload.php",
+      "lat": "30.9010",
+      "lon": "75.8573",
+      "name": "Ludhiana",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Bharti Airtel Ltd",
+      "id": "51033",
+      "preferred": 0,
+      "isp_id": "46101",
+      "host": "speedtestlud1.airtelbroadband.in:8080",
+      "hostname": "speedtestlud1.airtelbroadband.in",
+      "ip_address": {
+        "A": "182.66.121.38",
+        "AAAA": "2404:a800:1a00:805::b3"
       },
       "ipv6_capable": "yes"
     },
@@ -559,5 +558,5 @@
     }
   ],
   "total_servers": 28,
-  "updated_at": "2025-07-24T01:11:27.641119+00:00"
+  "updated_at": "2025-07-25T01:11:06.584977+00:00"
 }
