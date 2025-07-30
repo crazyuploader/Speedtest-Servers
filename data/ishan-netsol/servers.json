@@ -251,7 +251,8 @@
       "id": "28421",
       "preferred": 0,
       "isp_id": "27544",
-      "host": "vadodara-sptest.ishancloud.com:8080",
+      "https_functional": 1,
+      "host": "vadodara-sptest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "vadodara-sptest.ishancloud.com",
       "ip_address": {
         "A": "111.90.173.4",
@@ -261,5 +262,5 @@
     }
   ],
   "total_servers": 13,
-  "updated_at": "2025-07-29T01:20:07.050319+00:00"
+  "updated_at": "2025-07-30T01:13:40.631639+00:00"
 }
