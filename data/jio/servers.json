@@ -1146,8 +1146,7 @@
       "id": "10109",
       "preferred": 0,
       "isp_id": "137615",
-      "https_functional": 1,
-      "host": "speedshm1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
+      "host": "speedshm1.jioconnect.com:8080",
       "hostname": "speedshm1.jioconnect.com",
       "ip_address": {
         "A": "49.44.79.182",
@@ -1316,5 +1315,5 @@
     }
   ],
   "total_servers": 66,
-  "updated_at": "2025-07-30T01:13:48.502813+00:00"
+  "updated_at": "2025-07-31T01:13:04.507356+00:00"
 }
