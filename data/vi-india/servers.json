@@ -170,6 +170,7 @@
       "id": "34444",
       "preferred": 0,
       "isp_id": "23698",
+      "https_functional": 1,
       "host": "ooklatestmadurai.live.vodafone.in:8080",
       "hostname": "ooklatestmadurai.live.vodafone.in",
       "ip_address": {
@@ -279,5 +280,5 @@
     }
   ],
   "total_servers": 14,
-  "updated_at": "2025-08-05T01:15:04.996457+00:00"
+  "updated_at": "2025-08-12T07:34:17.755381+00:00"
 }

@@ -180,26 +180,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtest-rjt01.gtpl.net:8080/speedtest/upload.php",
-      "lat": "22.3000",
-      "lon": "70.7833",
-      "name": "Rajkot",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "GTPL Broadband PVT LTD",
-      "id": "31402",
-      "preferred": 0,
-      "isp_id": "86204",
-      "https_functional": 1,
-      "host": "speedtest-rjt01.gtpl.net.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtest-rjt01.gtpl.net",
-      "ip_address": {
-        "A": "150.107.252.254",
-        "AAAA": "2402:a00:80::fffa"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtest-srt01.gtpl.net:8080/speedtest/upload.php",
       "lat": "21.1700",
       "lon": "72.8300",
@@ -259,6 +239,6 @@
       "ipv6_capable": "no"
     }
   ],
-  "total_servers": 13,
-  "updated_at": "2025-08-05T01:14:38.602318+00:00"
+  "total_servers": 12,
+  "updated_at": "2025-08-12T07:33:41.171854+00:00"
 }
