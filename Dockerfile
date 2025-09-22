@@ -10,7 +10,7 @@ ENV TZ="Asia/Kolkata"
 # Add required apt packages
 RUN apt-get update && \
     apt-get install --yes --no-install-recommends \
-    curl ca-certificates wget \
+    curl ca-certificates wget && \
     rm -rf /var/lib/apt/lists/* /tmp/*
 
 # Set Working Directory
