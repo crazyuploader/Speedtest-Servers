@@ -41,6 +41,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://mumbaispeedtest.onebroadband.in:8080/speedtest/upload.php",
+      "lat": "18.9647",
+      "lon": "72.8258",
+      "name": "Mumbai",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "OneBroadband",
+      "id": "10637",
+      "preferred": 0,
+      "isp_id": "227198",
+      "https_functional": 1,
+      "host": "mumbaispeedtest.onebroadband.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "mumbaispeedtest.onebroadband.in",
+      "ip_address": {
+        "A": "203.192.198.234",
+        "AAAA": "2404:ba00:a::66"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://ngpspeedtest.onebroadband.in:8080/speedtest/upload.php",
       "lat": "21.1458",
       "lon": "79.0882",
@@ -81,6 +101,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 4,
-  "updated_at": "2025-08-13T06:13:59.662730+00:00"
+  "total_servers": 5,
+  "updated_at": "2025-09-22T06:27:36.532659+00:00"
 }

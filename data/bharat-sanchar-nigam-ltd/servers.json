@@ -71,7 +71,8 @@
       "id": "61708",
       "preferred": 0,
       "isp_id": "73461",
-      "host": "bsnlooklachd.mywire.org:8080",
+      "https_functional": 1,
+      "host": "bsnlooklachd.mywire.org.prod.hosts.ooklaserver.net:8080",
       "hostname": "bsnlooklachd.mywire.org",
       "ip_address": {
         "A": "218.248.64.233",
@@ -221,5 +222,5 @@
     }
   ],
   "total_servers": 11,
-  "updated_at": "2025-08-13T06:13:29.345157+00:00"
+  "updated_at": "2025-09-22T06:27:26.020697+00:00"
 }

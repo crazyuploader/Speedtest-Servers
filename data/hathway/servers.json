@@ -11,6 +11,7 @@
       "id": "7543",
       "preferred": 0,
       "isp_id": "724",
+      "https_functional": 1,
       "host": "suratspeed.hathway.net:8080",
       "hostname": "suratspeed.hathway.net",
       "ip_address": {
@@ -21,5 +22,5 @@
     }
   ],
   "total_servers": 1,
-  "updated_at": "2025-08-13T06:13:40.118791+00:00"
+  "updated_at": "2025-09-22T06:27:30.551142+00:00"
 }

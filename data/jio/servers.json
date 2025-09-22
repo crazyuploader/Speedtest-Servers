@@ -1,26 +1,6 @@
 {
   "servers": [
     {
-      "url": "http://agraooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
-      "lat": "27.1767",
-      "lon": "78.0081",
-      "name": "Agra",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Jio",
-      "id": "15244",
-      "preferred": 0,
-      "isp_id": "137615",
-      "https_functional": 1,
-      "host": "agraooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "agraooklaspeed1.jioconnect.com",
-      "ip_address": {
-        "A": "49.45.64.70",
-        "AAAA": "2405:200:1670:200:49:45:64:42"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedahm1.jioconnect.com:8080/speedtest/upload.php",
       "lat": "23.0225",
       "lon": "72.5714",
@@ -140,6 +120,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://baurooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
+      "lat": "24.0983",
+      "lon": "88.2684",
+      "name": "Baharampur",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Jio",
+      "id": "9691",
+      "preferred": 0,
+      "isp_id": "137615",
+      "https_functional": 1,
+      "host": "baurooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "baurooklaspeed1.jioconnect.com",
+      "ip_address": {
+        "A": "49.45.64.242",
+        "AAAA": "2405:200:1670:200:49:45:64:ee"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://bglrooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
       "lat": "15.1463",
       "lon": "76.9260",
@@ -190,7 +190,8 @@
       "id": "10108",
       "preferred": 0,
       "isp_id": "137615",
-      "host": "speedbhp1.jioconnect.com:8080",
+      "https_functional": 1,
+      "host": "speedbhp1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedbhp1.jioconnect.com",
       "ip_address": {
         "A": "49.44.79.70",
@@ -235,26 +236,6 @@
       "ip_address": {
         "A": "49.45.64.190",
         "AAAA": "2405:200:1670:200:49:45:64:ba"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://chnnooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
-      "lat": "13.0827",
-      "lon": "80.2707",
-      "name": "Chennai",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Jio",
-      "id": "67859",
-      "preferred": 0,
-      "isp_id": "137615",
-      "https_functional": 1,
-      "host": "chnnooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "chnnooklaspeed1.jioconnect.com",
-      "ip_address": {
-        "A": "49.45.64.230",
-        "AAAA": "2405:200:1670:200:49:45:64:e3"
       },
       "ipv6_capable": "yes"
     },
@@ -369,7 +350,8 @@
       "id": "10107",
       "preferred": 0,
       "isp_id": "137615",
-      "host": "speedgwh1.jioconnect.com:8080",
+      "https_functional": 1,
+      "host": "speedgwh1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedgwh1.jioconnect.com",
       "ip_address": {
         "A": "49.44.79.54",
@@ -448,7 +430,8 @@
       "id": "10203",
       "preferred": 0,
       "isp_id": "137615",
-      "host": "speedjpr1.jioconnect.com:8080",
+      "https_functional": 1,
+      "host": "speedjpr1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedjpr1.jioconnect.com",
       "ip_address": {
         "A": "49.44.79.133",
@@ -827,7 +810,8 @@
       "id": "9692",
       "preferred": 0,
       "isp_id": "137615",
-      "host": "speedngp1.jioconnect.com:8080",
+      "https_functional": 1,
+      "host": "speedngp1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedngp1.jioconnect.com",
       "ip_address": {
         "A": "49.44.56.231",
@@ -906,7 +890,8 @@
       "id": "24158",
       "preferred": 0,
       "isp_id": "137615",
-      "host": "speeddlh1.jioconnect.com:8080",
+      "https_functional": 1,
+      "host": "speeddlh1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "speeddlh1.jioconnect.com",
       "ip_address": {
         "A": "49.44.56.202",
@@ -1145,11 +1130,32 @@
       "id": "10109",
       "preferred": 0,
       "isp_id": "137615",
-      "host": "speedshm1.jioconnect.com:8080",
+      "https_functional": 1,
+      "host": "speedshm1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedshm1.jioconnect.com",
       "ip_address": {
         "A": "49.44.79.182",
         "AAAA": "2405:200:161b:2820:41::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://slgrooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
+      "lat": "26.7084",
+      "lon": "88.4318",
+      "name": "Siliguri",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Jio",
+      "id": "71930",
+      "preferred": 0,
+      "isp_id": "137615",
+      "https_functional": 1,
+      "host": "slgrooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "slgrooklaspeed1.jioconnect.com",
+      "ip_address": {
+        "A": "49.45.64.250",
+        "AAAA": "2405:200:1670:200:49:45:64:f6"
       },
       "ipv6_capable": "yes"
     },
@@ -1273,26 +1279,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://vrnsooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
-      "lat": "25.3176",
-      "lon": "82.9739",
-      "name": "Varanasi",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Jio",
-      "id": "67664",
-      "preferred": 0,
-      "isp_id": "137615",
-      "https_functional": 1,
-      "host": "vrnsooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "vrnsooklaspeed1.jioconnect.com",
-      "ip_address": {
-        "A": "49.45.64.66",
-        "AAAA": "2405:200:1670:200:49:45:64:3e"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://vjydooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
       "lat": "16.5062",
       "lon": "80.6480",
@@ -1313,6 +1299,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 66,
-  "updated_at": "2025-08-13T06:13:57.417853+00:00"
+  "total_servers": 65,
+  "updated_at": "2025-09-22T06:27:34.758390+00:00"
 }

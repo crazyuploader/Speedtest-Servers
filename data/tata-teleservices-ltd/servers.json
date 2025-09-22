@@ -82,8 +82,8 @@
     },
     {
       "url": "http://stpun.tatatelebusiness.com:8080/speedtest/upload.php",
-      "lat": "18.5203",
-      "lon": "73.8567",
+      "lat": "18.5246",
+      "lon": "73.8786",
       "name": "Pune",
       "country": "India",
       "cc": "IN",
@@ -102,5 +102,5 @@
     }
   ],
   "total_servers": 5,
-  "updated_at": "2025-08-13T06:14:09.937152+00:00"
+  "updated_at": "2025-09-22T06:27:42.354916+00:00"
 }

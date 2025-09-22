@@ -101,26 +101,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://jaipur-sptest.ishancloud.com:8080/speedtest/upload.php",
-      "lat": "26.9260",
-      "lon": "75.8235",
-      "name": "Jaipur",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Ishan Netsol Pvt Ltd",
-      "id": "28355",
-      "preferred": 0,
-      "isp_id": "27544",
-      "https_functional": 1,
-      "host": "jaipur-sptest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "jaipur-sptest.ishancloud.com",
-      "ip_address": {
-        "A": "103.94.111.252",
-        "AAAA": "2405:f600:71:2::1ba"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://kolkata-speedtest.ishancloud.com:8080/speedtest/upload.php",
       "lat": "22.5667",
       "lon": "88.3667",
@@ -177,26 +157,6 @@
       "ip_address": {
         "A": "202.129.211.252",
         "AAAA": "2405:f600:91:c4::2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://patna-speedtest.ishancloud.com:8080/speedtest/upload.php",
-      "lat": "25.6139",
-      "lon": "85.1354",
-      "name": "Patna",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Ishan Netsol Pvt Ltd",
-      "id": "38394",
-      "preferred": 0,
-      "isp_id": "27544",
-      "https_functional": 1,
-      "host": "patna-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "patna-speedtest.ishancloud.com",
-      "ip_address": {
-        "A": "110.44.96.252",
-        "AAAA": "2405:f600:b0::a"
       },
       "ipv6_capable": "yes"
     },
@@ -261,6 +221,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 13,
-  "updated_at": "2025-08-13T06:13:43.373807+00:00"
+  "total_servers": 11,
+  "updated_at": "2025-09-22T06:27:31.653439+00:00"
 }

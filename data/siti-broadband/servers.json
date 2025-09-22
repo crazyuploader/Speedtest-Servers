@@ -15,9 +15,30 @@
       "host": "gorakhpur.sitibroadband.co.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "gorakhpur.sitibroadband.co.in",
       "ip_address": {
-        "A": "202.142.117.66"
+        "A": "202.142.117.66",
+        "AAAA": "2402:ea80:16:2::3"
       },
-      "ipv6_capable": "no"
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://kanpur.sitibroadband.co.in:8080/speedtest/upload.php",
+      "lat": "26.4499",
+      "lon": "80.3319",
+      "name": "Kanpur",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Siti Broadband",
+      "id": "50715",
+      "preferred": 0,
+      "isp_id": "99525",
+      "https_functional": 1,
+      "host": "kanpur.sitibroadband.co.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "kanpur.sitibroadband.co.in",
+      "ip_address": {
+        "A": "103.171.100.254",
+        "AAAA": "2402:ea80:13:2::3"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://karnal.sitibroadband.co.in:8080/speedtest/upload.php",
@@ -99,6 +120,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 5,
-  "updated_at": "2025-08-13T06:14:07.455139+00:00"
+  "total_servers": 6,
+  "updated_at": "2025-09-22T06:27:40.405922+00:00"
 }
