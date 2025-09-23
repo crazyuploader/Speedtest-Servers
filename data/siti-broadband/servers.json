@@ -93,10 +93,9 @@
       "host": "noidaspeedtest.sitibroadband.co.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "noidaspeedtest.sitibroadband.co.in",
       "ip_address": {
-        "A": "150.107.8.106",
-        "AAAA": "2402:ea80:0:3::3"
+        "A": "150.107.8.106"
       },
-      "ipv6_capable": "yes"
+      "ipv6_capable": "no"
     },
     {
       "url": "http://speedtest.e-net.in:8080/speedtest/upload.php",
@@ -120,5 +119,5 @@
     }
   ],
   "total_servers": 6,
-  "updated_at": "2025-09-22T10:28:48.859150+00:00"
+  "updated_at": "2025-09-23T01:00:09.707545+00:00"
 }

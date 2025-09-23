@@ -11,8 +11,7 @@
       "id": "36627",
       "preferred": 0,
       "isp_id": "115835",
-      "https_functional": 1,
-      "host": "speedtest.blr.excitel.in.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest.blr.excitel.in:8080",
       "hostname": "speedtest.blr.excitel.in",
       "ip_address": {
         "A": "103.57.86.37",
@@ -71,8 +70,7 @@
       "id": "34287",
       "preferred": 0,
       "isp_id": "115835",
-      "https_functional": 1,
-      "host": "speedtest.knu.excitel.in.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest.knu.excitel.in:8080",
       "hostname": "speedtest.knu.excitel.in",
       "ip_address": {
         "A": "110.235.226.35",
@@ -202,5 +200,5 @@
     }
   ],
   "total_servers": 10,
-  "updated_at": "2025-09-22T10:28:23.644764+00:00"
+  "updated_at": "2025-09-23T00:59:43.555745+00:00"
 }
