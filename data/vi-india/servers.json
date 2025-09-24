@@ -35,10 +35,9 @@
       "host": "speedtest.guj.vodafoneidea.com:8080",
       "hostname": "speedtest.guj.vodafoneidea.com",
       "ip_address": {
-        "A": "112.79.41.7",
-        "AAAA": "2402:3a80:46e2::5"
+        "A": "112.79.41.7"
       },
-      "ipv6_capable": "yes"
+      "ipv6_capable": "no"
     },
     {
       "url": "http://speedtest.kar.vodafoneidea.com:8080/speedtest/upload.php",
@@ -308,7 +307,6 @@
       "id": "69596",
       "preferred": 0,
       "isp_id": "23698",
-      "https_functional": 1,
       "host": "speedtest.mum.vodafoneidea.com:8080",
       "hostname": "speedtest.mum.vodafoneidea.com",
       "ip_address": {
@@ -398,5 +396,5 @@
     }
   ],
   "total_servers": 20,
-  "updated_at": "2025-09-23T01:00:16.512356+00:00"
+  "updated_at": "2025-09-24T01:00:49.665200+00:00"
 }
