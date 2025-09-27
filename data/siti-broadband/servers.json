@@ -35,10 +35,9 @@
       "host": "karnal.sitibroadband.co.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "karnal.sitibroadband.co.in",
       "ip_address": {
-        "A": "103.199.227.70",
-        "AAAA": "2402:ea80:d:2::3"
+        "A": "103.199.227.70"
       },
-      "ipv6_capable": "yes"
+      "ipv6_capable": "no"
     },
     {
       "url": "http://nagpur.sitibroadband.co.in:8080/speedtest/upload.php",
@@ -55,9 +54,10 @@
       "host": "nagpur.sitibroadband.co.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "nagpur.sitibroadband.co.in",
       "ip_address": {
-        "A": "202.142.116.254"
+        "A": "202.142.116.254",
+        "AAAA": "2402:ea80:10:2::3"
       },
-      "ipv6_capable": "no"
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://noidaspeedtest.sitibroadband.co.in:8080/speedtest/upload.php",
@@ -74,10 +74,9 @@
       "host": "noidaspeedtest.sitibroadband.co.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "noidaspeedtest.sitibroadband.co.in",
       "ip_address": {
-        "A": "150.107.8.106",
-        "AAAA": "2402:ea80:0:3::3"
+        "A": "150.107.8.106"
       },
-      "ipv6_capable": "yes"
+      "ipv6_capable": "no"
     },
     {
       "url": "http://speedtest.e-net.in:8080/speedtest/upload.php",
@@ -101,5 +100,5 @@
     }
   ],
   "total_servers": 5,
-  "updated_at": "2025-09-26T01:00:33.211604+00:00"
+  "updated_at": "2025-09-27T00:58:36.741194+00:00"
 }
