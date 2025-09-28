@@ -14,13 +14,10 @@
       "https_functional": 1,
       "host": "suratspeed.hathway.net:8080",
       "hostname": "suratspeed.hathway.net",
-      "ip_address": {
-        "A": "116.74.100.6",
-        "AAAA": "2403:c00:800:2::70"
-      },
-      "ipv6_capable": "yes"
+      "ip_address": {},
+      "ipv6_capable": "no"
     }
   ],
   "total_servers": 1,
-  "updated_at": "2025-09-27T00:58:18.521214+00:00"
+  "updated_at": "2025-09-28T01:06:35.705685+00:00"
 }

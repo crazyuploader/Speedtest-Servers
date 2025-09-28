@@ -14,11 +14,8 @@
       "https_functional": 1,
       "host": "speedtest-abd01.gtpl.net.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest-abd01.gtpl.net",
-      "ip_address": {
-        "A": "182.237.8.50",
-        "AAAA": "2402:a00::fffa"
-      },
-      "ipv6_capable": "yes"
+      "ip_address": {},
+      "ipv6_capable": "no"
     },
     {
       "url": "http://speedtest-brd01.gtpl.net:8080/speedtest/upload.php",
@@ -34,11 +31,8 @@
       "https_functional": 1,
       "host": "speedtest-brd01.gtpl.net.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest-brd01.gtpl.net",
-      "ip_address": {
-        "A": "27.116.50.98",
-        "AAAA": "2402:a00:40::fffa"
-      },
-      "ipv6_capable": "yes"
+      "ip_address": {},
+      "ipv6_capable": "no"
     },
     {
       "url": "http://speedtest-hyd01.gtpl.net:8080/speedtest/upload.php",
@@ -54,9 +48,7 @@
       "https_functional": 1,
       "host": "speedtest-hyd01.gtpl.net.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest-hyd01.gtpl.net",
-      "ip_address": {
-        "A": "43.239.200.27"
-      },
+      "ip_address": {},
       "ipv6_capable": "no"
     },
     {
@@ -73,11 +65,8 @@
       "https_functional": 1,
       "host": "speedtest-hll01.gtpl.net.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest-hll01.gtpl.net",
-      "ip_address": {
-        "A": "103.250.159.122",
-        "AAAA": "2402:a00:46::fffa"
-      },
-      "ipv6_capable": "yes"
+      "ip_address": {},
+      "ipv6_capable": "no"
     },
     {
       "url": "http://speedtest-kim01.gtpl.net:8080/speedtest/upload.php",
@@ -93,11 +82,8 @@
       "https_functional": 1,
       "host": "speedtest-kim01.gtpl.net.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest-kim01.gtpl.net",
-      "ip_address": {
-        "A": "150.129.115.78",
-        "AAAA": "2402:a00:67::fffa"
-      },
-      "ipv6_capable": "yes"
+      "ip_address": {},
+      "ipv6_capable": "no"
     },
     {
       "url": "http://speedtest-mhn01.gtpl.net:8080/speedtest/upload.php",
@@ -113,11 +99,8 @@
       "https_functional": 1,
       "host": "speedtest-mhn01.gtpl.net.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest-mhn01.gtpl.net",
-      "ip_address": {
-        "A": "27.121.102.14",
-        "AAAA": "2402:a00:e::fffa"
-      },
-      "ipv6_capable": "yes"
+      "ip_address": {},
+      "ipv6_capable": "no"
     },
     {
       "url": "http://speedtest-mds01.gtpl.net:8080/speedtest/upload.php",
@@ -133,11 +116,8 @@
       "https_functional": 1,
       "host": "speedtest-mds01.gtpl.net.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest-mds01.gtpl.net",
-      "ip_address": {
-        "A": "163.53.208.10",
-        "AAAA": "2402:a00:10::fffa"
-      },
-      "ipv6_capable": "yes"
+      "ip_address": {},
+      "ipv6_capable": "no"
     },
     {
       "url": "http://speedtest-nvs01.gtpl.net:8080/speedtest/upload.php",
@@ -153,11 +133,8 @@
       "https_functional": 1,
       "host": "speedtest-nvs01.gtpl.net.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest-nvs01.gtpl.net",
-      "ip_address": {
-        "A": "103.21.163.14",
-        "AAAA": "2402:a00:66::fffa"
-      },
-      "ipv6_capable": "yes"
+      "ip_address": {},
+      "ipv6_capable": "no"
     },
     {
       "url": "http://speedtest-ptn01.gtpl.net:8080/speedtest/upload.php",
@@ -173,11 +150,8 @@
       "https_functional": 1,
       "host": "speedtest-ptn01.gtpl.net.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest-ptn01.gtpl.net",
-      "ip_address": {
-        "A": "103.36.83.35",
-        "AAAA": "2402:a00:b0::fffa"
-      },
-      "ipv6_capable": "yes"
+      "ip_address": {},
+      "ipv6_capable": "no"
     },
     {
       "url": "http://speedtest-rjt01.gtpl.net:8080/speedtest/upload.php",
@@ -193,11 +167,8 @@
       "https_functional": 1,
       "host": "speedtest-rjt01.gtpl.net.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest-rjt01.gtpl.net",
-      "ip_address": {
-        "A": "150.107.252.254",
-        "AAAA": "2402:a00:80::fffa"
-      },
-      "ipv6_capable": "yes"
+      "ip_address": {},
+      "ipv6_capable": "no"
     },
     {
       "url": "http://speedtest-srt01.gtpl.net:8080/speedtest/upload.php",
@@ -213,11 +184,8 @@
       "https_functional": 1,
       "host": "speedtest-srt01.gtpl.net.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest-srt01.gtpl.net",
-      "ip_address": {
-        "A": "27.116.55.203",
-        "AAAA": "2402:a00:60::fffa"
-      },
-      "ipv6_capable": "yes"
+      "ip_address": {},
+      "ipv6_capable": "no"
     },
     {
       "url": "http://speedtest.dlgtpl.net:8080/speedtest/upload.php",
@@ -233,11 +201,8 @@
       "https_functional": 1,
       "host": "speedtest.dlgtpl.net.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest.dlgtpl.net",
-      "ip_address": {
-        "A": "103.217.87.10",
-        "AAAA": "2001:df1:3cc0:1:1::"
-      },
-      "ipv6_capable": "yes"
+      "ip_address": {},
+      "ipv6_capable": "no"
     },
     {
       "url": "http://speedtest-unj01.gtpl.net:8080/speedtest/upload.php",
@@ -253,12 +218,10 @@
       "https_functional": 1,
       "host": "speedtest-unj01.gtpl.net.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest-unj01.gtpl.net",
-      "ip_address": {
-        "A": "103.240.160.70"
-      },
+      "ip_address": {},
       "ipv6_capable": "no"
     }
   ],
   "total_servers": 13,
-  "updated_at": "2025-09-27T00:58:17.482991+00:00"
+  "updated_at": "2025-09-28T01:06:34.437630+00:00"
 }
