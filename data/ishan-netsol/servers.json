@@ -14,8 +14,11 @@
       "https_functional": 1,
       "host": "speedtest1.ishancloud.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest1.ishancloud.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "103.59.211.4",
+        "AAAA": "2405:f600:11:2::a"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://bangalore-speedtest.ishancloud.com:8080/speedtest/upload.php",
@@ -31,8 +34,11 @@
       "https_functional": 1,
       "host": "bangalore-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "bangalore-speedtest.ishancloud.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "103.53.166.252",
+        "AAAA": "2405:f600:a1::12"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://bhubaneswar-speedtest.ishancloud.com:8080/speedtest/upload.php",
@@ -48,8 +54,11 @@
       "https_functional": 1,
       "host": "bhubaneswar-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "bhubaneswar-speedtest.ishancloud.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "103.132.243.252",
+        "AAAA": "2405:f600:af:21::2"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://chennai-speedtest.ishancloud.com:8080/speedtest/upload.php",
@@ -65,8 +74,11 @@
       "https_functional": 1,
       "host": "chennai-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "chennai-speedtest.ishancloud.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "103.179.111.4",
+        "AAAA": "2405:f600:bd::4"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://jaipur-sptest.ishancloud.com:8080/speedtest/upload.php",
@@ -82,8 +94,11 @@
       "https_functional": 1,
       "host": "jaipur-sptest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "jaipur-sptest.ishancloud.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "103.94.111.252",
+        "AAAA": "2405:f600:71:2::1ba"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://kolkata-speedtest.ishancloud.com:8080/speedtest/upload.php",
@@ -99,8 +114,11 @@
       "https_functional": 1,
       "host": "kolkata-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "kolkata-speedtest.ishancloud.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "103.93.248.252",
+        "AAAA": "2405:f600:82::1b2"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://bombay-speedtest.ishancloud.com:8080/speedtest/upload.php",
@@ -116,8 +134,11 @@
       "https_functional": 1,
       "host": "bombay-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "bombay-speedtest.ishancloud.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "103.132.242.6",
+        "AAAA": "2405:f600:42:9c::3"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://noida-sptest.ishancloud.com:8080/speedtest/upload.php",
@@ -133,8 +154,11 @@
       "https_functional": 1,
       "host": "noida-sptest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "noida-sptest.ishancloud.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "202.129.211.252",
+        "AAAA": "2405:f600:91:c4::2"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://raipur-speedtest.ishancloud.com:8080/speedtest/upload.php",
@@ -150,8 +174,11 @@
       "https_functional": 1,
       "host": "raipur-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "raipur-speedtest.ishancloud.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "43.228.112.252",
+        "AAAA": "2405:f600:6e::9a"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://rajkot-speedtest.ishancloud.com:8080/speedtest/upload.php",
@@ -167,8 +194,11 @@
       "https_functional": 1,
       "host": "rajkot-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "rajkot-speedtest.ishancloud.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "119.160.192.77",
+        "AAAA": "2405:f600:1:2d::5"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://ranchi-speedtest.ishancloud.com:8080/speedtest/upload.php",
@@ -184,8 +214,11 @@
       "https_functional": 1,
       "host": "ranchi-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "ranchi-speedtest.ishancloud.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "103.59.209.3",
+        "AAAA": "2405:f600:ba::5a"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://vadodara-sptest.ishancloud.com:8080/speedtest/upload.php",
@@ -201,10 +234,13 @@
       "https_functional": 1,
       "host": "vadodara-sptest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "vadodara-sptest.ishancloud.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "111.90.173.4",
+        "AAAA": "2405:f600:20:18::3"
+      },
+      "ipv6_capable": "yes"
     }
   ],
   "total_servers": 12,
-  "updated_at": "2025-09-28T01:06:37.146617+00:00"
+  "updated_at": "2025-09-29T01:02:20.732166+00:00"
 }

@@ -34,8 +34,11 @@
       "https_functional": 1,
       "host": "speedtest.jpr.excitel.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest.jpr.excitel.in",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "205.254.161.245",
+        "AAAA": "2401:9640:6731::5"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://speedtest.knu.excitel.in:8080/speedtest/upload.php",
@@ -52,9 +55,10 @@
       "host": "speedtest.knu.excitel.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest.knu.excitel.in",
       "ip_address": {
-        "A": "110.235.226.35"
+        "A": "110.235.226.35",
+        "AAAA": "2401:9640:4731::5"
       },
-      "ipv6_capable": "no"
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://speedtest.lko.excitel.in:8080/speedtest/upload.php",
@@ -70,8 +74,11 @@
       "https_functional": 1,
       "host": "speedtest.lko.excitel.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest.lko.excitel.in",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "103.120.50.245",
+        "AAAA": "2401:9640:4f31::5"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://speedtest.mum.excitel.in:8080/speedtest/upload.php",
@@ -107,8 +114,11 @@
       "https_functional": 1,
       "host": "speedtest.del.excitel.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest.del.excitel.in",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "139.5.241.22",
+        "AAAA": "2401:9640:5f31::5"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://speedtest.nod.excitel.in:8080/speedtest/upload.php",
@@ -124,8 +134,11 @@
       "https_functional": 1,
       "host": "speedtest.nod.excitel.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest.nod.excitel.in",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "205.254.162.245",
+        "AAAA": "2401:9640:2f31::5"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://speedtest.pat.excitel.in:8080/speedtest/upload.php",
@@ -141,8 +154,11 @@
       "https_functional": 1,
       "host": "speedtest.pat.excitel.in:8080",
       "hostname": "speedtest.pat.excitel.in",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "139.5.252.245",
+        "AAAA": "2401:9640:3f31::5"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://speedtest.vijw.excitel.in:8080/speedtest/upload.php",
@@ -166,5 +182,5 @@
     }
   ],
   "total_servers": 9,
-  "updated_at": "2025-09-28T01:06:32.982879+00:00"
+  "updated_at": "2025-09-29T01:02:14.543412+00:00"
 }

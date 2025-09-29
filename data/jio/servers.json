@@ -13,8 +13,11 @@
       "isp_id": "137615",
       "host": "speedahm1.jioconnect.com:8080",
       "hostname": "speedahm1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.44.56.247",
+        "AAAA": "2405:200:1609:2820:41::7"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://abddooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -30,8 +33,11 @@
       "https_functional": 1,
       "host": "abddooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "abddooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.134",
+        "AAAA": "2405:200:1670:200:49:45:64:82"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://shhdooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -47,8 +53,11 @@
       "https_functional": 1,
       "host": "shhdooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "shhdooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.2",
+        "AAAA": "2405:200:1670:200:49:45:64:2"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://aprrooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -64,8 +73,11 @@
       "https_functional": 1,
       "host": "aprrooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "aprrooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.114",
+        "AAAA": "2405:200:1670:200:49:45:64:6e"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://asslooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -81,8 +93,11 @@
       "https_functional": 1,
       "host": "asslooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "asslooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.226",
+        "AAAA": "2405:200:1670:200:49:45:64:de"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://agbmooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -98,8 +113,11 @@
       "https_functional": 1,
       "host": "agbmooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "agbmooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.138",
+        "AAAA": "2405:200:1670:200:49:45:64:86"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://baurooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -115,8 +133,11 @@
       "https_functional": 1,
       "host": "baurooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "baurooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.242",
+        "AAAA": "2405:200:1670:200:49:45:64:ee"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://bglrooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -132,8 +153,11 @@
       "https_functional": 1,
       "host": "bglrooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "bglrooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.186",
+        "AAAA": "2405:200:1670:200:49:45:64:b6"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://bglrooklaspeed2.jioconnect.com:8080/speedtest/upload.php",
@@ -149,8 +173,11 @@
       "https_functional": 1,
       "host": "bglrooklaspeed2.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "bglrooklaspeed2.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.42",
+        "AAAA": "2405:200:1670:200:49:45:64:2a"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://speedbhp1.jioconnect.com:8080/speedtest/upload.php",
@@ -166,8 +193,11 @@
       "https_functional": 1,
       "host": "speedbhp1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedbhp1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.44.79.70",
+        "AAAA": "2405:200:160d:2820:41::5"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://bbsrooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -183,8 +213,11 @@
       "https_functional": 1,
       "host": "bbsrooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "bbsrooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.54",
+        "AAAA": "2405:200:1670:200:49:45:64:32"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://sgmlooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -200,8 +233,11 @@
       "https_functional": 1,
       "host": "sgmlooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "sgmlooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.190",
+        "AAAA": "2405:200:1670:200:49:45:64:ba"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://cmbrooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -217,8 +253,11 @@
       "https_functional": 1,
       "host": "cmbrooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "cmbrooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.118",
+        "AAAA": "2405:200:1670:200:49:45:64:72"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://ptnaooklaspeed3.jioconnect.com:8080/speedtest/upload.php",
@@ -234,8 +273,11 @@
       "https_functional": 1,
       "host": "ptnaooklaspeed3.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "ptnaooklaspeed3.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.202",
+        "AAAA": "2405:200:1670:200:49:45:64:c6"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://dlhiooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -251,8 +293,11 @@
       "https_functional": 1,
       "host": "dlhiooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "dlhiooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.18",
+        "AAAA": "2405:200:1670:200:49:45:64:12"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://dnbdooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -268,8 +313,11 @@
       "https_functional": 1,
       "host": "dnbdooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "dnbdooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.142",
+        "AAAA": "2405:200:1670:200:49:45:64:8a"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://dhulooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -285,8 +333,11 @@
       "https_functional": 1,
       "host": "dhulooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "dhulooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.146",
+        "AAAA": "2405:200:1670:200:49:45:64:8e"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://speedgwh1.jioconnect.com:8080/speedtest/upload.php",
@@ -302,8 +353,11 @@
       "https_functional": 1,
       "host": "speedgwh1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedgwh1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.44.79.54",
+        "AAAA": "2405:200:1612:2820:41::4"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://hdbdooklaspeed2.jioconnect.com:8080/speedtest/upload.php",
@@ -319,8 +373,11 @@
       "https_functional": 1,
       "host": "hdbdooklaspeed2.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "hdbdooklaspeed2.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.222",
+        "AAAA": "2405:200:1670:200:49:45:64:da"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://indrooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -336,8 +393,11 @@
       "https_functional": 1,
       "host": "indrooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "indrooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.62",
+        "AAAA": "2405:200:1670:200:49:45:64:3a"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://jblpooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -353,8 +413,11 @@
       "https_functional": 1,
       "host": "jblpooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "jblpooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.74",
+        "AAAA": "2405:200:1670:200:49:45:64:46"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://speedjpr1.jioconnect.com:8080/speedtest/upload.php",
@@ -370,8 +433,11 @@
       "https_functional": 1,
       "host": "speedjpr1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedjpr1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.44.79.133",
+        "AAAA": "2405:200:160f:2820:41::5"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://jldrooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -387,8 +453,11 @@
       "https_functional": 1,
       "host": "jldrooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "jldrooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.30",
+        "AAAA": "2405:200:1670:200:49:45:64:1e"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://jmmuooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -404,8 +473,11 @@
       "https_functional": 1,
       "host": "jmmuooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "jmmuooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.178",
+        "AAAA": "2405:200:1670:200:49:45:64:ae"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://jmgrooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -421,8 +493,11 @@
       "https_functional": 1,
       "host": "jmgrooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "jmgrooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.182",
+        "AAAA": "2405:200:1670:200:49:45:64:b2"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://jdprooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -438,8 +513,11 @@
       "https_functional": 1,
       "host": "jdprooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "jdprooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.94",
+        "AAAA": "2405:200:1670:200:49:45:64:5a"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://knprooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -455,8 +533,11 @@
       "https_functional": 1,
       "host": "knprooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "knprooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.218",
+        "AAAA": "2405:200:1670:200:49:45:64:d6"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://krllooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -472,8 +553,11 @@
       "https_functional": 1,
       "host": "krllooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "krllooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.34",
+        "AAAA": "2405:200:1670:200:49:45:64:22"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://kgprooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -489,8 +573,11 @@
       "https_functional": 1,
       "host": "kgprooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "kgprooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.50",
+        "AAAA": "2405:200:1670:200:49:45:64:2e"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://kochooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -506,8 +593,11 @@
       "https_functional": 1,
       "host": "kochooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "kochooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.214",
+        "AAAA": "2405:200:1670:200:49:45:64:d2"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://klprooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -523,8 +613,11 @@
       "https_functional": 1,
       "host": "klprooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "klprooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.150",
+        "AAAA": "2405:200:1670:200:49:45:64:92"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://klktooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -540,8 +633,11 @@
       "https_functional": 1,
       "host": "klktooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "klktooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.174",
+        "AAAA": "2405:200:1670:200:49:45:64:aa"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://kotaooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -557,8 +653,11 @@
       "https_functional": 1,
       "host": "kotaooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "kotaooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.98",
+        "AAAA": "2405:200:1670:200:49:45:64:5e"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://kzkdooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -574,8 +673,11 @@
       "https_functional": 1,
       "host": "kzkdooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "kzkdooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.14",
+        "AAAA": "2405:200:1670:200:49:45:64:e"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://lcknooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -591,8 +693,11 @@
       "https_functional": 1,
       "host": "lcknooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "lcknooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.210",
+        "AAAA": "2405:200:1670:200:49:45:64:ce"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://ldhnooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -608,8 +713,11 @@
       "https_functional": 1,
       "host": "ldhnooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "ldhnooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.234",
+        "AAAA": "2405:200:1670:200:49:45:64:e6"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://mdurooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -625,8 +733,11 @@
       "https_functional": 1,
       "host": "mdurooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "mdurooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.102",
+        "AAAA": "2405:200:1670:200:49:45:64:62"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://mglrooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -642,8 +753,11 @@
       "https_functional": 1,
       "host": "mglrooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "mglrooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.130",
+        "AAAA": "2405:200:1670:200:49:45:64:7e"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://mrutooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -659,8 +773,11 @@
       "https_functional": 1,
       "host": "mrutooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "mrutooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.194",
+        "AAAA": "2405:200:1670:200:49:45:64:be"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://mumbooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -676,8 +793,11 @@
       "https_functional": 1,
       "host": "mumbooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "mumbooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.110",
+        "AAAA": "2405:200:1670:200:49:45:64:6a"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://speedngp1.jioconnect.com:8080/speedtest/upload.php",
@@ -693,8 +813,11 @@
       "https_functional": 1,
       "host": "speedngp1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedngp1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.44.56.231",
+        "AAAA": "2405:200:1632:2820:41::7"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://nddgooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -710,8 +833,11 @@
       "https_functional": 1,
       "host": "nddgooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "nddgooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.154",
+        "AAAA": "2405:200:1670:200:49:45:64:96"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://nvmbooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -727,8 +853,11 @@
       "https_functional": 1,
       "host": "nvmbooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "nvmbooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.238",
+        "AAAA": "2405:200:1670:200:49:45:64:ea"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://dlhiooklaspeed2.jioconnect.com:8080/speedtest/upload.php",
@@ -744,8 +873,11 @@
       "https_functional": 1,
       "host": "dlhiooklaspeed2.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "dlhiooklaspeed2.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.26",
+        "AAAA": "2405:200:1670:200:49:45:64:1a"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://speeddlh1.jioconnect.com:8080/speedtest/upload.php",
@@ -761,8 +893,11 @@
       "https_functional": 1,
       "host": "speeddlh1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "speeddlh1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.44.56.202",
+        "AAAA": "2405:200:1604:2820:41::1a"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://tswdooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -778,8 +913,11 @@
       "https_functional": 1,
       "host": "tswdooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "tswdooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.170",
+        "AAAA": "2405:200:1670:200:49:45:64:a6"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://ptnaooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -795,8 +933,11 @@
       "https_functional": 1,
       "host": "ptnaooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "ptnaooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.6",
+        "AAAA": "2405:200:1670:200:49:45:64:6"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://ptnaooklaspeed2.jioconnect.com:8080/speedtest/upload.php",
@@ -812,8 +953,11 @@
       "https_functional": 1,
       "host": "ptnaooklaspeed2.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "ptnaooklaspeed2.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.198",
+        "AAAA": "2405:200:1670:200:49:45:64:c2"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://pblrooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -829,8 +973,11 @@
       "https_functional": 1,
       "host": "pblrooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "pblrooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.10",
+        "AAAA": "2405:200:1670:200:49:45:64:a"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://hnjwooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -846,8 +993,11 @@
       "https_functional": 1,
       "host": "hnjwooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "hnjwooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.122",
+        "AAAA": "2405:200:1670:200:49:45:64:76"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://rpurooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -863,8 +1013,11 @@
       "https_functional": 1,
       "host": "rpurooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "rpurooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.158",
+        "AAAA": "2405:200:1670:200:49:45:64:9a"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://rjktooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -880,8 +1033,11 @@
       "https_functional": 1,
       "host": "rjktooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "rjktooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.78",
+        "AAAA": "2405:200:1670:200:49:45:64:4a"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://rnchooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -897,8 +1053,11 @@
       "https_functional": 1,
       "host": "rnchooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "rnchooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.206",
+        "AAAA": "2405:200:1670:200:49:45:64:ca"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://slemooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -914,8 +1073,11 @@
       "https_functional": 1,
       "host": "slemooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "slemooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.126",
+        "AAAA": "2405:200:1670:200:49:45:64:7a"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://smbpooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -931,8 +1093,11 @@
       "https_functional": 1,
       "host": "smbpooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "smbpooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.162",
+        "AAAA": "2405:200:1670:200:49:45:64:9e"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://sllgooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -948,8 +1113,11 @@
       "https_functional": 1,
       "host": "sllgooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "sllgooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.82",
+        "AAAA": "2405:200:1670:200:49:45:64:4e"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://speedshm1.jioconnect.com:8080/speedtest/upload.php",
@@ -965,8 +1133,11 @@
       "https_functional": 1,
       "host": "speedshm1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedshm1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.44.79.182",
+        "AAAA": "2405:200:161b:2820:41::4"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://slgrooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -982,8 +1153,11 @@
       "https_functional": 1,
       "host": "slgrooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "slgrooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.250",
+        "AAAA": "2405:200:1670:200:49:45:64:f6"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://slprooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -999,8 +1173,11 @@
       "https_functional": 1,
       "host": "slprooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "slprooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.166",
+        "AAAA": "2405:200:1670:200:49:45:64:a2"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://sgarooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -1016,8 +1193,11 @@
       "https_functional": 1,
       "host": "sgarooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "sgarooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.22",
+        "AAAA": "2405:200:1670:200:49:45:64:16"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://kmrjooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -1033,8 +1213,11 @@
       "https_functional": 1,
       "host": "kmrjooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "kmrjooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.86",
+        "AAAA": "2405:200:1670:200:49:45:64:52"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://tvdmooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -1049,8 +1232,11 @@
       "isp_id": "137615",
       "host": "tvdmooklaspeed1.jioconnect.com:8080",
       "hostname": "tvdmooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.246",
+        "AAAA": "2405:200:1670:200:49:45:64:f2"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://udprooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -1066,8 +1252,11 @@
       "https_functional": 1,
       "host": "udprooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "udprooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.38",
+        "AAAA": "2405:200:1670:200:49:45:64:26"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://vddrooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -1083,8 +1272,11 @@
       "https_functional": 1,
       "host": "vddrooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "vddrooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.90",
+        "AAAA": "2405:200:1670:200:49:45:64:56"
+      },
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://vjydooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
@@ -1100,10 +1292,13 @@
       "https_functional": 1,
       "host": "vjydooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "vjydooklaspeed1.jioconnect.com",
-      "ip_address": {},
-      "ipv6_capable": "no"
+      "ip_address": {
+        "A": "49.45.64.106",
+        "AAAA": "2405:200:1670:200:49:45:64:66"
+      },
+      "ipv6_capable": "yes"
     }
   ],
   "total_servers": 65,
-  "updated_at": "2025-09-28T01:06:40.787825+00:00"
+  "updated_at": "2025-09-29T01:02:27.813181+00:00"
 }
