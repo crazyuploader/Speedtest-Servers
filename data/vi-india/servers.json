@@ -71,7 +71,6 @@
       "id": "35038",
       "preferred": 0,
       "isp_id": "23698",
-      "https_functional": 1,
       "host": "ooklatestbehrampur.live.vodafone.in:8080",
       "hostname": "ooklatestbehrampur.live.vodafone.in",
       "ip_address": {
@@ -399,5 +398,5 @@
     }
   ],
   "total_servers": 20,
-  "updated_at": "2025-10-01T01:07:55.805039+00:00"
+  "updated_at": "2025-10-02T00:59:56.423642+00:00"
 }
