@@ -219,28 +219,8 @@
         "AAAA": "2405:f600:ba::5a"
       },
       "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://vadodara-sptest.ishancloud.com:8080/speedtest/upload.php",
-      "lat": "22.3000",
-      "lon": "73.2000",
-      "name": "Vadodara",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Ishan Netsol Pvt Ltd",
-      "id": "28421",
-      "preferred": 0,
-      "isp_id": "27544",
-      "https_functional": 1,
-      "host": "vadodara-sptest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "vadodara-sptest.ishancloud.com",
-      "ip_address": {
-        "A": "111.90.173.4",
-        "AAAA": "2405:f600:20:18::3"
-      },
-      "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 12,
-  "updated_at": "2025-10-04T00:57:05.101104+00:00"
+  "total_servers": 11,
+  "updated_at": "2025-10-05T01:06:17.668116+00:00"
 }
