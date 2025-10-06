@@ -21,26 +21,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtestblr.actcorp.in:8080/speedtest/upload.php",
-      "lat": "12.9833",
-      "lon": "77.5833",
-      "name": "Bangalore",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "ACT FIBERNET",
-      "id": "7379",
-      "preferred": 0,
-      "isp_id": "64789",
-      "https_functional": 1,
-      "host": "speedtestblr.actcorp.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestblr.actcorp.in",
-      "ip_address": {
-        "A": "202.83.20.214",
-        "AAAA": "2406:7400:c:31::6"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtestchn.actcorp.in:8080/speedtest/upload.php",
       "lat": "13.0827",
       "lon": "80.2707",
@@ -241,6 +221,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 12,
-  "updated_at": "2025-10-05T01:05:54.261156+00:00"
+  "total_servers": 11,
+  "updated_at": "2025-10-06T01:01:10.070127+00:00"
 }
