@@ -229,6 +229,7 @@
       "id": "71706",
       "preferred": 0,
       "isp_id": "23698",
+      "https_functional": 1,
       "host": "speedtest.har.vodafoneidea.com:8080",
       "hostname": "speedtest.har.vodafoneidea.com",
       "ip_address": {
@@ -397,5 +398,5 @@
     }
   ],
   "total_servers": 20,
-  "updated_at": "2025-10-09T14:19:14.831239+00:00"
+  "updated_at": "2025-10-10T01:01:05.751655+00:00"
 }
