@@ -91,7 +91,8 @@
       "id": "4352",
       "preferred": 0,
       "isp_id": "93082",
-      "host": "speedtest.asianetbroadband.in:8080",
+      "https_functional": 1,
+      "host": "speedtest.asianetbroadband.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest.asianetbroadband.in",
       "ip_address": {
         "A": "202.88.232.222",
@@ -101,5 +102,5 @@
     }
   ],
   "total_servers": 5,
-  "updated_at": "2025-10-13T01:04:40.004112+00:00"
+  "updated_at": "2025-10-14T01:00:28.798765+00:00"
 }
