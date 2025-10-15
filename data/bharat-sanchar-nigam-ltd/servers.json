@@ -141,26 +141,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://bsnlooklajpr.mywire.org:8080/speedtest/upload.php",
-      "lat": "26.9124",
-      "lon": "75.7873",
-      "name": "Jaipur",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "BHARAT SANCHAR NIGAM LTD",
-      "id": "6893",
-      "preferred": 0,
-      "isp_id": "73461",
-      "https_functional": 1,
-      "host": "bsnlooklajpr.mywire.org.prod.hosts.ooklaserver.net:8080",
-      "hostname": "bsnlooklajpr.mywire.org",
-      "ip_address": {
-        "A": "117.232.129.249",
-        "AAAA": "2001:4490:dffc:6::1"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://bsnlooklaekm.mywire.org:8080/speedtest/upload.php",
       "lat": "9.9312",
       "lon": "76.2673",
@@ -221,6 +201,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 11,
-  "updated_at": "2025-10-14T01:00:35.088096+00:00"
+  "total_servers": 10,
+  "updated_at": "2025-10-15T01:02:17.984273+00:00"
 }
