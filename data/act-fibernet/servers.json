@@ -41,6 +41,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtestchn.actcorp.in:8080/speedtest/upload.php",
+      "lat": "13.0827",
+      "lon": "80.2707",
+      "name": "Chennai",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "ACT FIBERNET",
+      "id": "12285",
+      "preferred": 0,
+      "isp_id": "64789",
+      "https_functional": 1,
+      "host": "speedtestchn.actcorp.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestchn.actcorp.in",
+      "ip_address": {
+        "A": "103.16.203.20",
+        "AAAA": "2406:7400:b0:1::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtestcbe.actcorp.in:8080/speedtest/upload.php",
       "lat": "11.0183",
       "lon": "76.9725",
@@ -221,6 +241,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 11,
-  "updated_at": "2025-10-15T01:02:08.241070+00:00"
+  "total_servers": 12,
+  "updated_at": "2025-10-15T14:15:33.687259+00:00"
 }
