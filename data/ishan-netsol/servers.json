@@ -21,6 +21,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://bangalore-speedtest.ishancloud.com:8080/speedtest/upload.php",
+      "lat": "12.9833",
+      "lon": "77.5833",
+      "name": "Bangalore",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Ishan Netsol Pvt Ltd",
+      "id": "44418",
+      "preferred": 0,
+      "isp_id": "27544",
+      "https_functional": 1,
+      "host": "bangalore-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "bangalore-speedtest.ishancloud.com",
+      "ip_address": {
+        "A": "103.53.166.252",
+        "AAAA": "2405:f600:a1::12"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://bhubaneswar-speedtest.ishancloud.com:8080/speedtest/upload.php",
       "lat": "20.2700",
       "lon": "85.8400",
@@ -77,6 +97,26 @@
       "ip_address": {
         "A": "103.94.111.252",
         "AAAA": "2405:f600:71:2::1ba"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://kolkata-speedtest.ishancloud.com:8080/speedtest/upload.php",
+      "lat": "22.5667",
+      "lon": "88.3667",
+      "name": "Kolkata",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Ishan Netsol Pvt Ltd",
+      "id": "34580",
+      "preferred": 0,
+      "isp_id": "27544",
+      "https_functional": 1,
+      "host": "kolkata-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "kolkata-speedtest.ishancloud.com",
+      "ip_address": {
+        "A": "103.93.248.252",
+        "AAAA": "2405:f600:82::1b2"
       },
       "ipv6_capable": "yes"
     },
@@ -181,6 +221,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 9,
-  "updated_at": "2025-10-16T01:01:58.724382+00:00"
+  "total_servers": 11,
+  "updated_at": "2025-10-17T01:01:28.225470+00:00"
 }
