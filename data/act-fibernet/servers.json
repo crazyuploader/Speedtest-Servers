@@ -219,28 +219,8 @@
         "AAAA": "2406:7400:30:10::42"
       },
       "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtestviz.actcorp.in:8080/speedtest/upload.php",
-      "lat": "17.6883",
-      "lon": "83.2186",
-      "name": "Visakhapatnam",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "ACT FIBERNET",
-      "id": "7895",
-      "preferred": 0,
-      "isp_id": "64789",
-      "https_functional": 1,
-      "host": "speedtestviz.actcorp.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestviz.actcorp.in",
-      "ip_address": {
-        "A": "106.51.115.152",
-        "AAAA": "2406:7400:40:10::152"
-      },
-      "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 12,
-  "updated_at": "2025-10-20T01:06:07.853330+00:00"
+  "total_servers": 11,
+  "updated_at": "2025-10-21T01:02:51.725899+00:00"
 }

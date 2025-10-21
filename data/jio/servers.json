@@ -120,26 +120,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://baurooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
-      "lat": "24.0983",
-      "lon": "88.2684",
-      "name": "Baharampur",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Jio",
-      "id": "9691",
-      "preferred": 0,
-      "isp_id": "137615",
-      "https_functional": 1,
-      "host": "baurooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "baurooklaspeed1.jioconnect.com",
-      "ip_address": {
-        "A": "49.45.64.242",
-        "AAAA": "2405:200:1670:200:49:45:64:ee"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://bglrooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
       "lat": "15.1463",
       "lon": "76.9260",
@@ -1299,6 +1279,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 65,
-  "updated_at": "2025-10-20T01:06:37.382978+00:00"
+  "total_servers": 64,
+  "updated_at": "2025-10-21T01:03:20.732297+00:00"
 }
