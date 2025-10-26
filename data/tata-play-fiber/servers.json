@@ -20,6 +20,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtestchennai.tataplayfiber.co.in:8080/speedtest/upload.php",
+      "lat": "13.0827",
+      "lon": "80.2707",
+      "name": "Chennai",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Tata Play Fiber",
+      "id": "37352",
+      "preferred": 0,
+      "isp_id": "122193",
+      "https_functional": 1,
+      "host": "speedtestchennai.tataplayfiber.co.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestchennai.tataplayfiber.co.in",
+      "ip_address": {
+        "A": "182.50.71.233",
+        "AAAA": "2402:e280:2001:233::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtestjaipur.tataplayfiber.co.in:8080/speedtest/upload.php",
       "lat": "26.9260",
       "lon": "75.8235",
@@ -139,6 +159,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 7,
-  "updated_at": "2025-10-25T01:00:57.794122+00:00"
+  "total_servers": 8,
+  "updated_at": "2025-10-26T01:07:42.384938+00:00"
 }
