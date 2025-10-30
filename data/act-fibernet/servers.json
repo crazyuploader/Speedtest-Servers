@@ -31,8 +31,7 @@
       "id": "7379",
       "preferred": 0,
       "isp_id": "64789",
-      "https_functional": 1,
-      "host": "speedtestblr.actcorp.in.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtestblr.actcorp.in:8080",
       "hostname": "speedtestblr.actcorp.in",
       "ip_address": {
         "A": "202.83.20.214",
@@ -242,5 +241,5 @@
     }
   ],
   "total_servers": 12,
-  "updated_at": "2025-10-29T01:06:09.162618+00:00"
+  "updated_at": "2025-10-30T01:05:40.264450+00:00"
 }
