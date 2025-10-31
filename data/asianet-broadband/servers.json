@@ -79,28 +79,8 @@
         "AAAA": "2406:8800:a000:1::66"
       },
       "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtest.asianetbroadband.in:8080/speedtest/upload.php",
-      "lat": "8.4875",
-      "lon": "76.9525",
-      "name": "Thiruvananthapuram",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Asianet Broadband",
-      "id": "4352",
-      "preferred": 0,
-      "isp_id": "93082",
-      "https_functional": 1,
-      "host": "speedtest.asianetbroadband.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtest.asianetbroadband.in",
-      "ip_address": {
-        "A": "202.88.232.222",
-        "AAAA": "2406:8800:0:3::e"
-      },
-      "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 5,
-  "updated_at": "2025-10-30T01:05:42.722021+00:00"
+  "total_servers": 4,
+  "updated_at": "2025-10-31T01:03:31.129727+00:00"
 }

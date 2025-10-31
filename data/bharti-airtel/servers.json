@@ -61,26 +61,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtestcal1.airtelbroadband.in:8080/speedtest/upload.php",
-      "lat": "11.2588",
-      "lon": "75.7804",
-      "name": "Calicut",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Bharti Airtel Ltd",
-      "id": "52217",
-      "preferred": 0,
-      "isp_id": "46101",
-      "https_functional": 1,
-      "host": "speedtestcal1.airtelbroadband.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestcal1.airtelbroadband.in",
-      "ip_address": {
-        "A": "122.187.99.102",
-        "AAAA": "2404:a800:3a00:207::42"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtestchv1.airtel.in:8080/speedtest/upload.php",
       "lat": "19.1075",
       "lon": "72.9018",
@@ -598,6 +578,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 30,
-  "updated_at": "2025-10-30T01:05:53.462488+00:00"
+  "total_servers": 29,
+  "updated_at": "2025-10-31T01:03:42.452138+00:00"
 }
