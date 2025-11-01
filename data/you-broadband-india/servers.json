@@ -121,6 +121,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://sp1-srt.youbroadband.in:8080/speedtest/upload.php",
+      "lat": "21.1700",
+      "lon": "72.8300",
+      "name": "Surat",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "YOU Broadband India Pvt. Ltd.",
+      "id": "6068",
+      "preferred": 0,
+      "isp_id": "71775",
+      "https_functional": 1,
+      "host": "sp1-srt.youbroadband.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "sp1-srt.youbroadband.in",
+      "ip_address": {
+        "A": "203.109.71.155",
+        "AAAA": "2405:6800:0:4:ffff:ffff:ffff:fffd"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://sp1-vad.youbroadband.in:8080/speedtest/upload.php",
       "lat": "22.3000",
       "lon": "73.2000",
@@ -161,6 +181,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 8,
-  "updated_at": "2025-10-31T01:04:13.720770+00:00"
+  "total_servers": 9,
+  "updated_at": "2025-11-01T01:07:51.918707+00:00"
 }
