@@ -101,26 +101,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://kolkata-speedtest.ishancloud.com:8080/speedtest/upload.php",
-      "lat": "22.5667",
-      "lon": "88.3667",
-      "name": "Kolkata",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Ishan Netsol Pvt Ltd",
-      "id": "34580",
-      "preferred": 0,
-      "isp_id": "27544",
-      "https_functional": 1,
-      "host": "kolkata-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "kolkata-speedtest.ishancloud.com",
-      "ip_address": {
-        "A": "103.93.248.252",
-        "AAAA": "2405:f600:82::1b2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://bombay-speedtest.ishancloud.com:8080/speedtest/upload.php",
       "lat": "18.9647",
       "lon": "72.8258",
@@ -221,6 +201,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 11,
-  "updated_at": "2025-11-01T01:07:30.689158+00:00"
+  "total_servers": 10,
+  "updated_at": "2025-11-02T01:08:12.329621+00:00"
 }

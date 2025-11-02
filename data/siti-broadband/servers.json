@@ -11,11 +11,10 @@
       "id": "50715",
       "preferred": 0,
       "isp_id": "99525",
-      "https_functional": 1,
-      "host": "kanpur.sitibroadband.co.in.prod.hosts.ooklaserver.net:8080",
+      "host": "kanpur.sitibroadband.co.in:8080",
       "hostname": "kanpur.sitibroadband.co.in",
       "ip_address": {
-        "A": "103.217.244.254",
+        "A": "103.171.100.254",
         "AAAA": "2402:ea80:13:2::3"
       },
       "ipv6_capable": "yes"
@@ -55,9 +54,10 @@
       "host": "noidaspeedtest.sitibroadband.co.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "noidaspeedtest.sitibroadband.co.in",
       "ip_address": {
-        "A": "150.107.8.106"
+        "A": "150.107.8.106",
+        "AAAA": "2402:ea80:0:3::3"
       },
-      "ipv6_capable": "no"
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://speedtest.e-net.in:8080/speedtest/upload.php",
@@ -81,5 +81,5 @@
     }
   ],
   "total_servers": 4,
-  "updated_at": "2025-11-01T01:07:45.332776+00:00"
+  "updated_at": "2025-11-02T01:08:27.669214+00:00"
 }
