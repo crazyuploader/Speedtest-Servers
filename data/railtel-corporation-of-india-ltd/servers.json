@@ -256,7 +256,7 @@
       "hostname": "lko.speedtest.railtel.in",
       "ip_address": {
         "A": "122.252.232.158",
-        "AAAA": "2401:b200:11::91"
+        "AAAA": "2401:b200:11::92"
       },
       "ipv6_capable": "yes"
     },
@@ -302,5 +302,5 @@
     }
   ],
   "total_servers": 15,
-  "updated_at": "2025-11-02T01:08:25.157086+00:00"
+  "updated_at": "2025-11-03T01:07:24.630711+00:00"
 }

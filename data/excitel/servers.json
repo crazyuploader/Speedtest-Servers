@@ -151,8 +151,7 @@
       "id": "36763",
       "preferred": 0,
       "isp_id": "115835",
-      "https_functional": 1,
-      "host": "speedtest.nod.excitel.in.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest.nod.excitel.in:8080",
       "hostname": "speedtest.nod.excitel.in",
       "ip_address": {
         "A": "205.254.162.245",
@@ -202,5 +201,5 @@
     }
   ],
   "total_servers": 10,
-  "updated_at": "2025-11-02T01:08:06.537593+00:00"
+  "updated_at": "2025-11-03T01:07:05.390445+00:00"
 }
