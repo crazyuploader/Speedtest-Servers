@@ -171,7 +171,8 @@
       "id": "9214",
       "preferred": 0,
       "isp_id": "64789",
-      "host": "speedtestdelhi.actcorp.in:8080",
+      "https_functional": 1,
+      "host": "speedtestdelhi.actcorp.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtestdelhi.actcorp.in",
       "ip_address": {
         "A": "49.207.47.14",
@@ -241,5 +242,5 @@
     }
   ],
   "total_servers": 12,
-  "updated_at": "2025-11-07T01:04:04.396662+00:00"
+  "updated_at": "2025-11-08T01:01:27.191892+00:00"
 }
