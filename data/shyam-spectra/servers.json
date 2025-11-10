@@ -59,8 +59,27 @@
         "AAAA": "2001:fd0:2000:8::ff01"
       },
       "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.spectra.co:8080/speedtest/upload.php",
+      "lat": "28.6100",
+      "lon": "77.2300",
+      "name": "New Delhi",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Shyam Spectra",
+      "id": "15002",
+      "preferred": 0,
+      "isp_id": "158825",
+      "https_functional": 1,
+      "host": "speedtest.spectra.co.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.spectra.co",
+      "ip_address": {
+        "A": "203.122.35.214"
+      },
+      "ipv6_capable": "no"
     }
   ],
-  "total_servers": 3,
-  "updated_at": "2025-11-09T01:08:02.286989+00:00"
+  "total_servers": 4,
+  "updated_at": "2025-11-10T01:07:48.114345+00:00"
 }
