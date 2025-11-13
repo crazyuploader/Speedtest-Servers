@@ -111,7 +111,8 @@
       "id": "6404",
       "preferred": 0,
       "isp_id": "71775",
-      "host": "sp1-pune.youbroadband.in:8080",
+      "https_functional": 1,
+      "host": "sp1-pune.youbroadband.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "sp1-pune.youbroadband.in",
       "ip_address": {
         "A": "203.187.215.35",
@@ -181,5 +182,5 @@
     }
   ],
   "total_servers": 9,
-  "updated_at": "2025-11-12T01:05:46.175635+00:00"
+  "updated_at": "2025-11-13T01:06:04.986249+00:00"
 }
