@@ -179,28 +179,8 @@
         "AAAA": "2001:4490:dffc:401::1"
       },
       "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://bsnlooklapune.ddnsfree.com:8080/speedtest/upload.php",
-      "lat": "18.5204",
-      "lon": "73.8567",
-      "name": "Pune",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "BHARAT SANCHAR NIGAM LTD",
-      "id": "6993",
-      "preferred": 0,
-      "isp_id": "73461",
-      "https_functional": 1,
-      "host": "bsnlooklapune.ddnsfree.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "bsnlooklapune.ddnsfree.com",
-      "ip_address": {
-        "A": "117.250.162.65",
-        "AAAA": "2001:4490:dfe8:b00::1"
-      },
-      "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 10,
-  "updated_at": "2025-11-13T01:05:30.221059+00:00"
+  "total_servers": 9,
+  "updated_at": "2025-11-14T01:04:49.026580+00:00"
 }
