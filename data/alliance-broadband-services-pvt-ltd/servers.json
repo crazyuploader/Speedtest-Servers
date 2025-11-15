@@ -61,26 +61,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtestnoida.alliancebroadband.in:8080/speedtest/upload.php",
-      "lat": "28.5700",
-      "lon": "77.3200",
-      "name": "Noida",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Alliance Broadband Services Pvt Ltd",
-      "id": "46445",
-      "preferred": 0,
-      "isp_id": "99547",
-      "https_functional": 1,
-      "host": "speedtestnoida.alliancebroadband.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestnoida.alliancebroadband.in",
-      "ip_address": {
-        "A": "103.66.8.12",
-        "AAAA": "2407:cb00:ec00:100::2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtestslg.alliancebroadband.in:8080/speedtest/upload.php",
       "lat": "26.7084",
       "lon": "88.4318",
@@ -121,6 +101,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 6,
-  "updated_at": "2025-11-14T01:04:42.511619+00:00"
+  "total_servers": 5,
+  "updated_at": "2025-11-15T01:03:21.963714+00:00"
 }
