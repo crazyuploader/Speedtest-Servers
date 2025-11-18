@@ -1,6 +1,26 @@
 {
   "servers": [
     {
+      "url": "http://speedtestdgr.alliancebroadband.in:8080/speedtest/upload.php",
+      "lat": "22.5667",
+      "lon": "88.3667",
+      "name": "Durgapur",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Alliance Broadband Services Pvt Ltd",
+      "id": "40255",
+      "preferred": 0,
+      "isp_id": "99547",
+      "https_functional": 1,
+      "host": "speedtestdgr.alliancebroadband.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestdgr.alliancebroadband.in",
+      "ip_address": {
+        "A": "103.217.242.78",
+        "AAAA": "2407:cb00:e000::32"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtest.alliancebroadband.in:8080/speedtest/upload.php",
       "lat": "22.5667",
       "lon": "88.3667",
@@ -81,6 +101,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 4,
-  "updated_at": "2025-11-17T01:05:55.162773+00:00"
+  "total_servers": 5,
+  "updated_at": "2025-11-18T01:04:31.887666+00:00"
 }
