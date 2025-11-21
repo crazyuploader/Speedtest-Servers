@@ -190,8 +190,7 @@
       "id": "10108",
       "preferred": 0,
       "isp_id": "137615",
-      "https_functional": 1,
-      "host": "speedbhp1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
+      "host": "speedbhp1.jioconnect.com:8080",
       "hostname": "speedbhp1.jioconnect.com",
       "ip_address": {
         "A": "49.44.79.70",
@@ -350,8 +349,7 @@
       "id": "10107",
       "preferred": 0,
       "isp_id": "137615",
-      "https_functional": 1,
-      "host": "speedgwh1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
+      "host": "speedgwh1.jioconnect.com:8080",
       "hostname": "speedgwh1.jioconnect.com",
       "ip_address": {
         "A": "49.44.79.54",
@@ -810,8 +808,7 @@
       "id": "9692",
       "preferred": 0,
       "isp_id": "137615",
-      "https_functional": 1,
-      "host": "speedngp1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
+      "host": "speedngp1.jioconnect.com:8080",
       "hostname": "speedngp1.jioconnect.com",
       "ip_address": {
         "A": "49.44.56.231",
@@ -1300,5 +1297,5 @@
     }
   ],
   "total_servers": 65,
-  "updated_at": "2025-11-20T01:03:45.916587+00:00"
+  "updated_at": "2025-11-21T01:04:28.351782+00:00"
 }
