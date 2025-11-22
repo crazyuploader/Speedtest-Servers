@@ -241,6 +241,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://lko.speedtest.railtel.in:8080/speedtest/upload.php",
+      "lat": "26.8500",
+      "lon": "80.9200",
+      "name": "Lucknow",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "RailTel Corporation of India Ltd",
+      "id": "50989",
+      "preferred": 0,
+      "isp_id": "96146",
+      "https_functional": 1,
+      "host": "lko.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "lko.speedtest.railtel.in",
+      "ip_address": {
+        "A": "122.252.232.158",
+        "AAAA": "2401:b200:11::92"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://ngp.speedtest.railtel.in:8080/speedtest/upload.php",
       "lat": "21.1458",
       "lon": "79.0882",
@@ -281,6 +301,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 14,
-  "updated_at": "2025-11-21T01:04:33.834342+00:00"
+  "total_servers": 15,
+  "updated_at": "2025-11-22T01:02:19.998622+00:00"
 }
