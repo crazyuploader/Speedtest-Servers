@@ -61,6 +61,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://stdel.tatatelebusiness.com:8080/speedtest/upload.php",
+      "lat": "28.6139",
+      "lon": "77.2090",
+      "name": "New Delhi",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Tata Teleservices Ltd",
+      "id": "56195",
+      "preferred": 0,
+      "isp_id": "2434",
+      "https_functional": 1,
+      "host": "stdel.tatatelebusiness.com:8080",
+      "hostname": "stdel.tatatelebusiness.com",
+      "ip_address": {
+        "A": "14.194.64.150",
+        "AAAA": "2403:8600:2080::349"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://stpun.tatatelebusiness.com:8080/speedtest/upload.php",
       "lat": "18.5246",
       "lon": "73.8786",
@@ -81,6 +101,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 4,
-  "updated_at": "2025-11-23T01:14:13.210733+00:00"
+  "total_servers": 5,
+  "updated_at": "2025-11-24T01:09:42.574694+00:00"
 }
