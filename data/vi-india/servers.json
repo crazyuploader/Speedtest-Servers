@@ -11,7 +11,6 @@
       "id": "71696",
       "preferred": 0,
       "isp_id": "23698",
-      "https_functional": 1,
       "host": "speedtest.kol.vodafoneidea.com:8080",
       "hostname": "speedtest.kol.vodafoneidea.com",
       "ip_address": {
@@ -107,7 +106,6 @@
       "id": "71705",
       "preferred": 0,
       "isp_id": "23698",
-      "https_functional": 1,
       "host": "speedtest.tnc.vodafoneidea.com:8080",
       "hostname": "speedtest.tnc.vodafoneidea.com",
       "ip_address": {
@@ -127,7 +125,6 @@
       "id": "71692",
       "preferred": 0,
       "isp_id": "23698",
-      "https_functional": 1,
       "host": "speedtest.ker.vodafoneidea.com:8080",
       "hostname": "speedtest.ker.vodafoneidea.com",
       "ip_address": {
@@ -166,7 +163,6 @@
       "id": "71693",
       "preferred": 0,
       "isp_id": "23698",
-      "https_functional": 1,
       "host": "speedtest.apt.vodafoneidea.com:8080",
       "hostname": "speedtest.apt.vodafoneidea.com",
       "ip_address": {
@@ -186,7 +182,6 @@
       "id": "71695",
       "preferred": 0,
       "isp_id": "23698",
-      "https_functional": 1,
       "host": "speedtest.mpcg.vodafoneidea.com:8080",
       "hostname": "speedtest.mpcg.vodafoneidea.com",
       "ip_address": {
@@ -206,7 +201,6 @@
       "id": "71698",
       "preferred": 0,
       "isp_id": "23698",
-      "https_functional": 1,
       "host": "speedtest.raj.vodafoneidea.com:8080",
       "hostname": "speedtest.raj.vodafoneidea.com",
       "ip_address": {
@@ -226,7 +220,6 @@
       "id": "71706",
       "preferred": 0,
       "isp_id": "23698",
-      "https_functional": 1,
       "host": "speedtest.har.vodafoneidea.com:8080",
       "hostname": "speedtest.har.vodafoneidea.com",
       "ip_address": {
@@ -265,7 +258,6 @@
       "id": "71704",
       "preferred": 0,
       "isp_id": "23698",
-      "https_functional": 1,
       "host": "speedtest.upw.vodafoneidea.com:8080",
       "hostname": "speedtest.upw.vodafoneidea.com",
       "ip_address": {
@@ -353,5 +345,5 @@
     }
   ],
   "total_servers": 18,
-  "updated_at": "2025-11-24T01:09:45.521416+00:00"
+  "updated_at": "2025-11-25T01:05:26.467489+00:00"
 }
