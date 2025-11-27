@@ -14,7 +14,7 @@
       "host": "kanpur.sitibroadband.co.in:8080",
       "hostname": "kanpur.sitibroadband.co.in",
       "ip_address": {
-        "A": "103.171.100.254"
+        "A": "103.217.244.254"
       },
       "ipv6_capable": "no"
     },
@@ -79,5 +79,5 @@
     }
   ],
   "total_servers": 4,
-  "updated_at": "2025-11-26T01:05:29.239046+00:00"
+  "updated_at": "2025-11-27T01:04:25.405060+00:00"
 }
