@@ -34,10 +34,9 @@
       "host": "karnal.sitibroadband.co.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "karnal.sitibroadband.co.in",
       "ip_address": {
-        "A": "103.199.227.70",
-        "AAAA": "2402:ea80:d:2::3"
+        "A": "103.199.227.70"
       },
-      "ipv6_capable": "yes"
+      "ipv6_capable": "no"
     },
     {
       "url": "http://noidaspeedtest.sitibroadband.co.in:8080/speedtest/upload.php",
@@ -80,5 +79,5 @@
     }
   ],
   "total_servers": 4,
-  "updated_at": "2025-12-04T01:07:03.204317+00:00"
+  "updated_at": "2025-12-05T01:07:18.550688+00:00"
 }
