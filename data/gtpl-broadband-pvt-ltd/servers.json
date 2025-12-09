@@ -60,26 +60,6 @@
       "ipv6_capable": "no"
     },
     {
-      "url": "http://speedtest-hll01.gtpl.net:8080/speedtest/upload.php",
-      "lat": "22.5046",
-      "lon": "73.4714",
-      "name": "Hālol",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "GTPL Broadband PVT LTD",
-      "id": "39282",
-      "preferred": 0,
-      "isp_id": "86204",
-      "https_functional": 1,
-      "host": "speedtest-hll01.gtpl.net.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtest-hll01.gtpl.net",
-      "ip_address": {
-        "A": "103.250.159.122",
-        "AAAA": "2402:a00:46::fffa"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtest-kim01.gtpl.net:8080/speedtest/upload.php",
       "lat": "21.4006",
       "lon": "72.9269",
@@ -156,6 +136,26 @@
       "ip_address": {
         "A": "103.21.163.14",
         "AAAA": "2402:a00:66::fffa"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-ptn01.gtpl.net:8080/speedtest/upload.php",
+      "lat": "25.6139",
+      "lon": "85.1354",
+      "name": "Patna",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "GTPL Broadband PVT LTD",
+      "id": "38305",
+      "preferred": 0,
+      "isp_id": "86204",
+      "https_functional": 1,
+      "host": "speedtest-ptn01.gtpl.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-ptn01.gtpl.net",
+      "ip_address": {
+        "A": "103.36.83.35",
+        "AAAA": "2402:a00:b0::fffa"
       },
       "ipv6_capable": "yes"
     },
@@ -240,5 +240,5 @@
     }
   ],
   "total_servers": 12,
-  "updated_at": "2025-12-08T01:07:31.954971+00:00"
+  "updated_at": "2025-12-09T01:06:40.587583+00:00"
 }
