@@ -31,7 +31,8 @@
       "id": "50740",
       "preferred": 0,
       "isp_id": "27544",
-      "host": "bhubaneswar-speedtest.ishancloud.com:8080",
+      "https_functional": 1,
+      "host": "bhubaneswar-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "bhubaneswar-speedtest.ishancloud.com",
       "ip_address": {
         "A": "103.132.243.252",
@@ -201,5 +202,5 @@
     }
   ],
   "total_servers": 10,
-  "updated_at": "2025-12-13T01:04:48.557698+00:00"
+  "updated_at": "2025-12-14T01:14:04.293314+00:00"
 }
