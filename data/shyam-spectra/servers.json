@@ -1,26 +1,6 @@
 {
   "servers": [
     {
-      "url": "http://bangalorespeedtest.spectra.co:8080/speedtest/upload.php",
-      "lat": "28.4595",
-      "lon": "77.0266",
-      "name": "Bangalore",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Shyam Spectra",
-      "id": "24233",
-      "preferred": 0,
-      "isp_id": "158825",
-      "https_functional": 1,
-      "host": "bangalorespeedtest.spectra.co.prod.hosts.ooklaserver.net:8080",
-      "hostname": "bangalorespeedtest.spectra.co",
-      "ip_address": {
-        "A": "203.92.63.226",
-        "AAAA": "2001:fd0:3000:8::ff01"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://chennaispeedtest.spectra.co:8080/speedtest/upload.php",
       "lat": "13.0827",
       "lon": "80.2707",
@@ -80,6 +60,6 @@
       "ipv6_capable": "no"
     }
   ],
-  "total_servers": 4,
-  "updated_at": "2025-12-16T01:10:37.139300+00:00"
+  "total_servers": 3,
+  "updated_at": "2025-12-17T01:04:53.448527+00:00"
 }
