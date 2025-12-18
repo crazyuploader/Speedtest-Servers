@@ -61,6 +61,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speed-node-clt.asianetdigital.net:8080/speedtest/upload.php",
+      "lat": "11.2488",
+      "lon": "75.7839",
+      "name": "Kozhikode",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Asianet Broadband",
+      "id": "73036",
+      "preferred": 0,
+      "isp_id": "93082",
+      "https_functional": 1,
+      "host": "speed-node-clt.asianetdigital.net:8080",
+      "hostname": "speed-node-clt.asianetdigital.net",
+      "ip_address": {
+        "A": "202.164.146.42",
+        "AAAA": "2406:8800:e001::26"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speed-node-slm.asianetdigital.net:8080/speedtest/upload.php",
       "lat": "11.6643",
       "lon": "78.1460",
@@ -91,7 +111,8 @@
       "id": "4352",
       "preferred": 0,
       "isp_id": "93082",
-      "host": "speedtest.asianetbroadband.in:8080",
+      "https_functional": 1,
+      "host": "speedtest.asianetbroadband.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest.asianetbroadband.in",
       "ip_address": {
         "A": "202.88.232.222",
@@ -100,6 +121,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 5,
-  "updated_at": "2025-12-17T01:04:23.387799+00:00"
+  "total_servers": 6,
+  "updated_at": "2025-12-18T01:05:49.785765+00:00"
 }
