@@ -21,6 +21,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speed-node-mas.asianetdigital.net:8080/speedtest/upload.php",
+      "lat": "13.0827",
+      "lon": "80.2707",
+      "name": "Chennai",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Asianet Broadband",
+      "id": "73163",
+      "preferred": 0,
+      "isp_id": "93082",
+      "https_functional": 1,
+      "host": "speed-node-mas.asianetdigital.net:8080",
+      "hostname": "speed-node-mas.asianetdigital.net",
+      "ip_address": {
+        "A": "202.83.46.42",
+        "AAAA": "2406:8800:d010::26"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speed-cok-node-a.asianetdigital.net:8080/speedtest/upload.php",
       "lat": "9.9312",
       "lon": "76.2673",
@@ -121,6 +141,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 6,
-  "updated_at": "2025-12-19T01:09:20.498244+00:00"
+  "total_servers": 7,
+  "updated_at": "2025-12-20T01:04:43.483305+00:00"
 }
