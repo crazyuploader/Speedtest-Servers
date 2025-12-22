@@ -200,6 +200,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtest.har.vodafoneidea.com:8080/speedtest/upload.php",
+      "lat": "29.6857",
+      "lon": "76.9905",
+      "name": "Karnal",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Vi India",
+      "id": "71706",
+      "preferred": 0,
+      "isp_id": "23698",
+      "https_functional": 1,
+      "host": "speedtest.har.vodafoneidea.com:8080",
+      "hostname": "speedtest.har.vodafoneidea.com",
+      "ip_address": {
+        "A": "112.79.41.3",
+        "AAAA": "2402:3a80:46e2::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtest.upe.vodafoneidea.com:8080/speedtest/upload.php",
       "lat": "26.8500",
       "lon": "80.9200",
@@ -359,6 +379,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 18,
-  "updated_at": "2025-12-21T01:14:11.892943+00:00"
+  "total_servers": 19,
+  "updated_at": "2025-12-22T01:12:32.620973+00:00"
 }

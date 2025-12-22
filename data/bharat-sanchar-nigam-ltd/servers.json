@@ -141,26 +141,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://bsnlooklaekm.mywire.org:8080/speedtest/upload.php",
-      "lat": "9.9312",
-      "lon": "76.2673",
-      "name": "Kochi",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "BHARAT SANCHAR NIGAM LTD",
-      "id": "61707",
-      "preferred": 0,
-      "isp_id": "73461",
-      "https_functional": 1,
-      "host": "bsnlooklaekm.mywire.org.prod.hosts.ooklaserver.net:8080",
-      "hostname": "bsnlooklaekm.mywire.org",
-      "ip_address": {
-        "A": "117.250.238.209",
-        "AAAA": "2001:4490:dff4:d00::1"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://bsnlooklakol.mywire.org:8080/speedtest/upload.php",
       "lat": "22.5667",
       "lon": "88.3667",
@@ -181,6 +161,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 9,
-  "updated_at": "2025-12-21T01:13:41.179534+00:00"
+  "total_servers": 8,
+  "updated_at": "2025-12-22T01:12:00.718244+00:00"
 }
