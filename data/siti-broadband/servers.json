@@ -11,14 +11,12 @@
       "id": "50715",
       "preferred": 0,
       "isp_id": "99525",
-      "https_functional": 1,
-      "host": "kanpur.sitibroadband.co.in.prod.hosts.ooklaserver.net:8080",
+      "host": "kanpur.sitibroadband.co.in:8080",
       "hostname": "kanpur.sitibroadband.co.in",
       "ip_address": {
-        "A": "103.217.244.254",
-        "AAAA": "2402:ea80:13:2::3"
+        "A": "103.171.100.254"
       },
-      "ipv6_capable": "yes"
+      "ipv6_capable": "no"
     },
     {
       "url": "http://karnal.sitibroadband.co.in:8080/speedtest/upload.php",
@@ -80,5 +78,5 @@
     }
   ],
   "total_servers": 4,
-  "updated_at": "2025-12-23T01:09:16.606988+00:00"
+  "updated_at": "2025-12-24T01:08:37.425253+00:00"
 }
