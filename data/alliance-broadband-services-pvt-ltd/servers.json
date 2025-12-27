@@ -61,26 +61,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtestslg.alliancebroadband.in:8080/speedtest/upload.php",
-      "lat": "26.7084",
-      "lon": "88.4318",
-      "name": "Siliguri",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Alliance Broadband Services Pvt Ltd",
-      "id": "49089",
-      "preferred": 0,
-      "isp_id": "99547",
-      "https_functional": 1,
-      "host": "speedtestslg.alliancebroadband.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestslg.alliancebroadband.in",
-      "ip_address": {
-        "A": "103.2.133.30",
-        "AAAA": "2407:cb00:e400::2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtestvtz.alliancebroadband.in:8080/speedtest/upload.php",
       "lat": "17.6883",
       "lon": "83.2186",
@@ -101,6 +81,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 5,
-  "updated_at": "2025-12-27T01:07:13.968000+00:00"
+  "total_servers": 4,
+  "updated_at": "2025-12-27T07:48:12.021285+00:00"
 }
