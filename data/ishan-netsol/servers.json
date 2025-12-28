@@ -41,26 +41,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://bhubaneswar-speedtest.ishancloud.com:8080/speedtest/upload.php",
-      "lat": "20.2700",
-      "lon": "85.8400",
-      "name": "Bhubaneswar",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Ishan Netsol Pvt Ltd",
-      "id": "50740",
-      "preferred": 0,
-      "isp_id": "27544",
-      "https_functional": 1,
-      "host": "bhubaneswar-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "bhubaneswar-speedtest.ishancloud.com",
-      "ip_address": {
-        "A": "103.132.243.252",
-        "AAAA": "2405:f600:af:21::2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://chennai-speedtest.ishancloud.com:8080/speedtest/upload.php",
       "lat": "13.0827",
       "lon": "80.2707",
@@ -221,6 +201,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 11,
-  "updated_at": "2025-12-27T07:48:19.779225+00:00"
+  "total_servers": 10,
+  "updated_at": "2025-12-28T01:17:34.730854+00:00"
 }
