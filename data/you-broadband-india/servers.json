@@ -159,27 +159,8 @@
         "AAAA": "2405:6800:800:4:ffff:ffff:ffff:fffd"
       },
       "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://sp1-viz.youbroadband.in:8080/speedtest/upload.php",
-      "lat": "17.6883",
-      "lon": "83.2186",
-      "name": "Vishakapatnam",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "YOU Broadband India Pvt. Ltd.",
-      "id": "6451",
-      "preferred": 0,
-      "isp_id": "71775",
-      "host": "sp1-viz.youbroadband.in:8080",
-      "hostname": "sp1-viz.youbroadband.in",
-      "ip_address": {
-        "A": "203.109.88.226",
-        "AAAA": "2405:6800:5000:4:ffff:ffff:ffff:fffd"
-      },
-      "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 9,
-  "updated_at": "2025-12-28T01:17:55.143855+00:00"
+  "total_servers": 8,
+  "updated_at": "2025-12-29T01:15:31.978342+00:00"
 }
