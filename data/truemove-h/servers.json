@@ -1,0 +1,166 @@
+{
+  "servers": [
+    {
+      "url": "http://spd-bkk.trueinternet.co.th:8080/speedtest/upload.php",
+      "lat": "13.7500",
+      "lon": "100.4833",
+      "name": "Bangkok",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "TrueMove H",
+      "id": "1219",
+      "preferred": 0,
+      "isp_id": "70160",
+      "https_functional": 1,
+      "host": "spd-bkk.trueinternet.co.th:8080",
+      "hostname": "spd-bkk.trueinternet.co.th",
+      "ip_address": {
+        "A": "27.55.63.246",
+        "AAAA": "2001:fb0:100:2755:27:55:63:2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://truemoveookla-cmi.trueinternet.co.th:8080/speedtest/upload.php",
+      "lat": "18.7061",
+      "lon": "98.9817",
+      "name": "Chiang Mai",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "TrueMove H",
+      "id": "16396",
+      "preferred": 0,
+      "isp_id": "70160",
+      "https_functional": 1,
+      "host": "truemoveookla-cmi.trueinternet.co.th:8080",
+      "hostname": "truemoveookla-cmi.trueinternet.co.th",
+      "ip_address": {
+        "A": "27.55.63.218",
+        "AAAA": "2001:fb0:7fff:108::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://truemoveookla-cbr.trueinternet.co.th:8080/speedtest/upload.php",
+      "lat": "13.3611",
+      "lon": "100.9847",
+      "name": "Chon Buri",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "TrueMove H",
+      "id": "16517",
+      "preferred": 0,
+      "isp_id": "70160",
+      "https_functional": 1,
+      "host": "truemoveookla-cbr.trueinternet.co.th:8080",
+      "hostname": "truemoveookla-cbr.trueinternet.co.th",
+      "ip_address": {
+        "A": "27.55.63.202",
+        "AAAA": "2001:fb0:7fff:c6::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://truemoveookla-kkn.trueinternet.co.th:8080/speedtest/upload.php",
+      "lat": "16.4322",
+      "lon": "102.8236",
+      "name": "Khon Kaen",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "TrueMove H",
+      "id": "16508",
+      "preferred": 0,
+      "isp_id": "70160",
+      "https_functional": 1,
+      "host": "truemoveookla-kkn.trueinternet.co.th:8080",
+      "hostname": "truemoveookla-kkn.trueinternet.co.th",
+      "ip_address": {
+        "A": "27.55.63.214",
+        "AAAA": "2001:fb0:7fff:105:27:55:63:2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://spd-tt2.trueinternet.co.th:8080/speedtest/upload.php",
+      "lat": "13.7462",
+      "lon": "100.5308",
+      "name": "Pathumwan",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "TrueMove H",
+      "id": "61505",
+      "preferred": 0,
+      "isp_id": "70160",
+      "https_functional": 1,
+      "host": "spd-tt2.trueinternet.co.th:8080",
+      "hostname": "spd-tt2.trueinternet.co.th",
+      "ip_address": {
+        "A": "27.55.63.254",
+        "AAAA": "2001:fb0:7fff:b8:27:55:63:254"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://truemoveookla-psn.trueinternet.co.th:8080/speedtest/upload.php",
+      "lat": "16.8211",
+      "lon": "100.2659",
+      "name": "Phitsanulok",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "TrueMove H",
+      "id": "16507",
+      "preferred": 0,
+      "isp_id": "70160",
+      "https_functional": 1,
+      "host": "truemoveookla-psn.trueinternet.co.th:8080",
+      "hostname": "truemoveookla-psn.trueinternet.co.th",
+      "ip_address": {
+        "A": "27.55.63.210",
+        "AAAA": "2001:fb0:7fff:eb::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://truemoveookla-ska.trueinternet.co.th:8080/speedtest/upload.php",
+      "lat": "7.1898",
+      "lon": "100.5954",
+      "name": "Songkhla",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "TrueMove H",
+      "id": "16519",
+      "preferred": 0,
+      "isp_id": "70160",
+      "https_functional": 1,
+      "host": "truemoveookla-ska.trueinternet.co.th:8080",
+      "hostname": "truemoveookla-ska.trueinternet.co.th",
+      "ip_address": {
+        "A": "27.55.63.206",
+        "AAAA": "2001:fb0:7fff:dc::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://spd-srt.trueinternet.co.th:8080/speedtest/upload.php",
+      "lat": "9.1333",
+      "lon": "99.3317",
+      "name": "Surat Thani",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "TrueMove H",
+      "id": "61295",
+      "preferred": 0,
+      "isp_id": "70160",
+      "https_functional": 1,
+      "host": "spd-srt.trueinternet.co.th:8080",
+      "hostname": "spd-srt.trueinternet.co.th",
+      "ip_address": {
+        "A": "27.55.63.1",
+        "AAAA": "2001:fb0:7fff:700::7d0"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 8,
+  "updated_at": "2025-12-30T01:33:51.083438+00:00"
+}
