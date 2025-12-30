@@ -1,0 +1,526 @@
+{
+  "servers": [
+    {
+      "url": "http://speedtest-aya1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "14.3692",
+      "lon": "100.5877",
+      "name": "Ayutthaya",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "24588",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-aya1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-aya1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.212",
+        "AAAA": "2403:6200:ffff:fbff::f9a"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-sp1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "13.7500",
+      "lon": "100.4833",
+      "name": "Bangkok",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "8990",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-sp1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-sp1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.2.218",
+        "AAAA": "2403:6200:5::218"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-cri1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "19.9105",
+      "lon": "99.8406",
+      "name": "Chiang Rai",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "25116",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-cri1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-cri1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.210",
+        "AAAA": "2403:6200:ffff:fbff::fba"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-cmi2.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "18.7061",
+      "lon": "98.9817",
+      "name": "Chiangmai",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "23249",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-cmi2.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-cmi2.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.253",
+        "AAAA": "2403:6200:ffff:fbff::f62"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-cbi1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "13.3611",
+      "lon": "100.9850",
+      "name": "Chonburi",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "23118",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-cbi1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-cbi1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.234",
+        "AAAA": "2403:6200:ffff:fbff::f5a"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-kkn1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "16.4322",
+      "lon": "102.8236",
+      "name": "Khon Kaen",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "23519",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-kkn1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-kkn1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.226",
+        "AAAA": "2403:6200:ffff:fbff::f72"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-lpg1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "18.2855",
+      "lon": "99.5128",
+      "name": "Lampang",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "26820",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-lpg1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-lpg1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.209",
+        "AAAA": "2403:6200:ffff:fbff::fb2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-npt1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "13.8140",
+      "lon": "100.0373",
+      "name": "Nakhon Pathom",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "23646",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-npt1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-npt1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.218",
+        "AAAA": "2403:6200:ffff:fbff::f82"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-nma1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "14.9750",
+      "lon": "102.1000",
+      "name": "Nakhon Ratchasima",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "23377",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-nma1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-nma1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.246",
+        "AAAA": "2403:6200:ffff:fbff::f6a"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-nsn1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "15.6987",
+      "lon": "100.1200",
+      "name": "Nakhon Sawan",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "24990",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-nsn1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-nsn1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.211",
+        "AAAA": "2403:6200:ffff:fbff::fc2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-nrt1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "8.4325",
+      "lon": "99.9599",
+      "name": "Nakhon Si Thammarat",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "24507",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-nrt1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-nrt1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.236",
+        "AAAA": "2403:6200:ffff:fbff::fda"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-jas1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "13.8621",
+      "lon": "100.5144",
+      "name": "Nonthaburi",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "22667",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-jas1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-jas1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.2.220",
+        "AAAA": "2403:6200:5::220"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-pte1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "14.0208",
+      "lon": "100.5250",
+      "name": "Pathum Thani",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "23295",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-pte1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-pte1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.2.211",
+        "AAAA": "2403:6200:5::1:3"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-ptn1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "6.7618",
+      "lon": "101.3233",
+      "name": "Pattani",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "29054",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-ptn1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-ptn1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.228",
+        "AAAA": "2403:6200:ffff:fbff::f32"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-pbi1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "12.9649",
+      "lon": "99.6426",
+      "name": "Phetchaburi",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "26751",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-pbi1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-pbi1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.238",
+        "AAAA": "2403:6200:ffff:fbff::fea"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-pkt1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "7.9739",
+      "lon": "98.3439",
+      "name": "Phuket",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "24544",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-pkt1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-pkt1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.237",
+        "AAAA": "2403:6200:ffff:fbff::fe2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-ryg1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "12.6814",
+      "lon": "101.2816",
+      "name": "Rayong",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "26897",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-ryg1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-ryg1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.239",
+        "AAAA": "2403:6200:ffff:fbff::ff2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-snk1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "17.1546",
+      "lon": "104.1348",
+      "name": "Sakon Nakhon",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "24565",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-snk1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-snk1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.235",
+        "AAAA": "2403:6200:ffff:fbff::fd2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-spk1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "13.5991",
+      "lon": "100.5998",
+      "name": "Samut Prakarn",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "23312",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-spk1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-spk1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.2.210",
+        "AAAA": "2403:6200:5::1:2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-skn1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "13.5498",
+      "lon": "100.2741",
+      "name": "Samut Sakhon",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "29053",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-skn1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-skn1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.229",
+        "AAAA": "2403:6200:ffff:fbff::f3a"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-sri1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "14.5289",
+      "lon": "100.9101",
+      "name": "Saraburi",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "26819",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-sri1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-sri1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.250",
+        "AAAA": "2403:6200:ffff:fbff::fa2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-hyi1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "7.1898",
+      "lon": "100.5954",
+      "name": "Songkhla",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "24408",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-hyi1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-hyi1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.208",
+        "AAAA": "2403:6200:ffff:fbff::f92"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-sni1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "9.1342",
+      "lon": "99.3334",
+      "name": "Surat Thani",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "23990",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-sni1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-sni1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.222",
+        "AAAA": "2403:6200:ffff:fbff::f8a"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-ubn1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "15.2448",
+      "lon": "104.8473",
+      "name": "Ubon Ratchathani",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "24093",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-ubn1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-ubn1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.252",
+        "AAAA": "2403:6200:ffff:fbff::faa"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-udn1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "17.3647",
+      "lon": "102.8159",
+      "name": "Udon Thani",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "24831",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-udn1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-udn1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.232",
+        "AAAA": "2403:6200:ffff:fbff::fca"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-plk1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "16.8211",
+      "lon": "100.2659",
+      "name": "‎Phitsanulok",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "23762",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-plk1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-plk1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.230",
+        "AAAA": "2403:6200:ffff:fbff::f7a"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 26,
+  "updated_at": "2025-12-30T01:37:01.053629+00:00"
+}
