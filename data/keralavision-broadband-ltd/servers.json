@@ -61,26 +61,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtest.keralavisionisp.com:8080/speedtest/upload.php",
-      "lat": "10.5276",
-      "lon": "76.2144",
-      "name": "Thrissur",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Keralavision Broadband Ltd",
-      "id": "17289",
-      "preferred": 0,
-      "isp_id": "200948",
-      "https_functional": 1,
-      "host": "speedtest.keralavisionisp.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtest.keralavisionisp.com",
-      "ip_address": {
-        "A": "103.99.206.34",
-        "AAAA": "2001:df7:4d80:8:74f7:5fff:fe2e:d156"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtest-tvm.keralavisionisp.com:8080/speedtest/upload.php",
       "lat": "8.5241",
       "lon": "76.9366",
@@ -101,6 +81,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 5,
-  "updated_at": "2025-12-29T01:15:19.435061+00:00"
+  "total_servers": 4,
+  "updated_at": "2025-12-30T01:09:41.620430+00:00"
 }
