@@ -81,26 +81,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://bsnlooklachn.ddnsfree.com:8080/speedtest/upload.php",
-      "lat": "13.0843",
-      "lon": "80.2705",
-      "name": "Chennai",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "BHARAT SANCHAR NIGAM LTD",
-      "id": "12938",
-      "preferred": 0,
-      "isp_id": "73461",
-      "https_functional": 1,
-      "host": "bsnlooklachn.ddnsfree.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "bsnlooklachn.ddnsfree.com",
-      "ip_address": {
-        "A": "117.250.238.251",
-        "AAAA": "2001:4490:dff4:e00::3"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://bsnlooklacbt.mywire.org:8080/speedtest/upload.php",
       "lat": "11.0168",
       "lon": "76.9558",
@@ -181,6 +161,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 9,
-  "updated_at": "2026-01-01T01:17:04.631174+00:00"
+  "total_servers": 8,
+  "updated_at": "2026-01-02T01:11:20.150800+00:00"
 }
