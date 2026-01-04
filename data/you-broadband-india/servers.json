@@ -151,7 +151,8 @@
       "id": "6453",
       "preferred": 0,
       "isp_id": "71775",
-      "host": "sp1-vad.youbroadband.in:8080",
+      "https_functional": 1,
+      "host": "sp1-vad.youbroadband.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "sp1-vad.youbroadband.in",
       "ip_address": {
         "A": "203.187.193.66",
@@ -161,5 +162,5 @@
     }
   ],
   "total_servers": 8,
-  "updated_at": "2026-01-03T01:07:07.558111+00:00"
+  "updated_at": "2026-01-04T01:18:36.974125+00:00"
 }

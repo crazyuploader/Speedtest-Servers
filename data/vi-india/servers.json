@@ -21,6 +21,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtest.guj.vodafoneidea.com:8080/speedtest/upload.php",
+      "lat": "23.0225",
+      "lon": "72.5714",
+      "name": "Ahmedabad",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Vi India",
+      "id": "71694",
+      "preferred": 0,
+      "isp_id": "23698",
+      "https_functional": 1,
+      "host": "speedtest.guj.vodafoneidea.com:8080",
+      "hostname": "speedtest.guj.vodafoneidea.com",
+      "ip_address": {
+        "A": "112.79.41.7",
+        "AAAA": "2402:3a80:46e2::5"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtest.kar.vodafoneidea.com:8080/speedtest/upload.php",
       "lat": "12.9833",
       "lon": "77.5833",
@@ -56,26 +76,6 @@
       "ip_address": {
         "A": "112.79.47.21",
         "AAAA": "2402:3a80:c00d:45::fd2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtest.tnc.vodafoneidea.com:8080/speedtest/upload.php",
-      "lat": "13.0895",
-      "lon": "80.2739",
-      "name": "Chennai",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Vi India",
-      "id": "71705",
-      "preferred": 0,
-      "isp_id": "23698",
-      "https_functional": 1,
-      "host": "speedtest.tnc.vodafoneidea.com:8080",
-      "hostname": "speedtest.tnc.vodafoneidea.com",
-      "ip_address": {
-        "A": "112.79.41.16",
-        "AAAA": "2402:3a80:46e2::a"
       },
       "ipv6_capable": "yes"
     },
@@ -160,26 +160,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtest.raj.vodafoneidea.com:8080/speedtest/upload.php",
-      "lat": "26.9124",
-      "lon": "75.7873",
-      "name": "Jaipur",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Vi India",
-      "id": "71698",
-      "preferred": 0,
-      "isp_id": "23698",
-      "https_functional": 1,
-      "host": "speedtest.raj.vodafoneidea.com:8080",
-      "hostname": "speedtest.raj.vodafoneidea.com",
-      "ip_address": {
-        "A": "112.79.41.17",
-        "AAAA": "2402:3a80:46e2::b"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtest.har.vodafoneidea.com:8080/speedtest/upload.php",
       "lat": "29.6857",
       "lon": "76.9905",
@@ -236,26 +216,6 @@
       "ip_address": {
         "A": "112.79.41.9",
         "AAAA": "2402:8100:2449::1"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtest.pnb.vodafoneidea.com:8080/speedtest/upload.php",
-      "lat": "30.7800",
-      "lon": "76.6900",
-      "name": "Mohali",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Vi India",
-      "id": "69598",
-      "preferred": 0,
-      "isp_id": "23698",
-      "https_functional": 1,
-      "host": "speedtest.pnb.vodafoneidea.com:8080",
-      "hostname": "speedtest.pnb.vodafoneidea.com",
-      "ip_address": {
-        "A": "112.79.41.2",
-        "AAAA": "2402:8100:2449::"
       },
       "ipv6_capable": "yes"
     },
@@ -359,6 +319,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 18,
-  "updated_at": "2026-01-03T01:07:06.296047+00:00"
+  "total_servers": 16,
+  "updated_at": "2026-01-04T01:18:35.226799+00:00"
 }
