@@ -10,7 +10,7 @@ services:
       options:
         max-size: 256m
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8201/"]
+      test: ["CMD", "curl", "-f", "http://localhost:8202/"]
       interval: 30s
       timeout: 10s
       retries: 3
