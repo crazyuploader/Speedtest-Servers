@@ -21,26 +21,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtestknr.keralavisionisp.com:8080/speedtest/upload.php",
-      "lat": "11.8745",
-      "lon": "75.3704",
-      "name": "Kannur",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Keralavision Broadband Ltd",
-      "id": "54647",
-      "preferred": 0,
-      "isp_id": "200948",
-      "https_functional": 1,
-      "host": "speedtestknr.keralavisionisp.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestknr.keralavisionisp.com",
-      "ip_address": {
-        "A": "103.175.2.231",
-        "AAAA": "2001:df0:c640:f000::3"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtest.keralavisionbroadband.com:8080/speedtest/upload.php",
       "lat": "11.2588",
       "lon": "75.7804",
@@ -57,26 +37,6 @@
       "ip_address": {
         "A": "103.140.17.243",
         "AAAA": "2405:f140:ffff:ffff:ffff:ffff:0:3"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtest.keralavisionisp.com:8080/speedtest/upload.php",
-      "lat": "10.5276",
-      "lon": "76.2144",
-      "name": "Thrissur",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Keralavision Broadband Ltd",
-      "id": "17289",
-      "preferred": 0,
-      "isp_id": "200948",
-      "https_functional": 1,
-      "host": "speedtest.keralavisionisp.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtest.keralavisionisp.com",
-      "ip_address": {
-        "A": "103.99.206.34",
-        "AAAA": "2001:df7:4d80:8:74f7:5fff:fe2e:d156"
       },
       "ipv6_capable": "yes"
     },
@@ -101,6 +61,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 5,
-  "updated_at": "2026-01-05T04:24:27.169143+00:00"
+  "total_servers": 3,
+  "updated_at": "2026-01-06T01:10:48.976462+00:00"
 }
