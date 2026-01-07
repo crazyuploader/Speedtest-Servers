@@ -1,6 +1,26 @@
 {
   "servers": [
     {
+      "url": "http://bsnlooklaahb.mywire.org:8080/speedtest/upload.php",
+      "lat": "23.0225",
+      "lon": "72.5714",
+      "name": "Ahmedabad",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "BHARAT SANCHAR NIGAM LTD",
+      "id": "5812",
+      "preferred": 0,
+      "isp_id": "73461",
+      "https_functional": 1,
+      "host": "bsnlooklaahb.mywire.org.prod.hosts.ooklaserver.net:8080",
+      "hostname": "bsnlooklaahb.mywire.org",
+      "ip_address": {
+        "A": "210.212.129.101",
+        "AAAA": "2001:4490:dfe8:900::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://ooklabsnlazl.freeddns.org:8080/speedtest/upload.php",
       "lat": "23.7285",
       "lon": "92.7188",
@@ -141,6 +161,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 7,
-  "updated_at": "2026-01-06T01:10:28.790113+00:00"
+  "total_servers": 8,
+  "updated_at": "2026-01-07T01:11:26.973876+00:00"
 }

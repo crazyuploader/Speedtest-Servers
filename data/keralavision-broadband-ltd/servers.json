@@ -21,6 +21,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtestknr.keralavisionisp.com:8080/speedtest/upload.php",
+      "lat": "11.8745",
+      "lon": "75.3704",
+      "name": "Kannur",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Keralavision Broadband Ltd",
+      "id": "54647",
+      "preferred": 0,
+      "isp_id": "200948",
+      "https_functional": 1,
+      "host": "speedtestknr.keralavisionisp.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestknr.keralavisionisp.com",
+      "ip_address": {
+        "A": "103.175.2.231",
+        "AAAA": "2001:df0:c640:f000::3"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtest.keralavisionbroadband.com:8080/speedtest/upload.php",
       "lat": "11.2588",
       "lon": "75.7804",
@@ -61,6 +81,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 3,
-  "updated_at": "2026-01-06T01:10:48.976462+00:00"
+  "total_servers": 4,
+  "updated_at": "2026-01-07T01:11:48.815822+00:00"
 }
