@@ -1,6 +1,26 @@
 {
   "servers": [
     {
+      "url": "http://adi.speedtest.railtel.in:8080/speedtest/upload.php",
+      "lat": "23.0225",
+      "lon": "72.5714",
+      "name": "Ahemdabad",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "RailTel Corporation of India Ltd",
+      "id": "62223",
+      "preferred": 0,
+      "isp_id": "96146",
+      "https_functional": 1,
+      "host": "adi.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "adi.speedtest.railtel.in",
+      "ip_address": {
+        "A": "122.252.238.6",
+        "AAAA": "2401:b200:10::c9"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://sbc.speedtest.railtel.in:8080/speedtest/upload.php",
       "lat": "12.9833",
       "lon": "77.5833",
@@ -241,6 +261,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 12,
-  "updated_at": "2026-01-07T01:11:53.349473+00:00"
+  "total_servers": 13,
+  "updated_at": "2026-01-08T01:11:41.039248+00:00"
 }
