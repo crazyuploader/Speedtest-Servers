@@ -1174,6 +1174,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://sgarooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
+      "lat": "34.0837",
+      "lon": "74.7973",
+      "name": "Srinagar",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Jio",
+      "id": "15881",
+      "preferred": 0,
+      "isp_id": "137615",
+      "https_functional": 1,
+      "host": "sgarooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "sgarooklaspeed1.jioconnect.com",
+      "ip_address": {
+        "A": "49.45.64.22",
+        "AAAA": "2405:200:1670:200:49:45:64:16"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://kmrjooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
       "lat": "21.1700",
       "lon": "72.8300",
@@ -1273,6 +1293,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 64,
-  "updated_at": "2026-01-08T01:11:36.020165+00:00"
+  "total_servers": 65,
+  "updated_at": "2026-01-09T01:12:06.613858+00:00"
 }

@@ -271,8 +271,7 @@
       "id": "29054",
       "preferred": 0,
       "isp_id": "42011",
-      "https_functional": 1,
-      "host": "speedtest-ptn1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest-ptn1.3bb.co.th:8080",
       "hostname": "speedtest-ptn1.3bb.co.th",
       "ip_address": {
         "A": "110.164.3.228",
@@ -522,5 +521,5 @@
     }
   ],
   "total_servers": 26,
-  "updated_at": "2026-01-08T01:12:02.550922+00:00"
+  "updated_at": "2026-01-09T01:12:33.863843+00:00"
 }
