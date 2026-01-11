@@ -41,6 +41,46 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtest.alliancebroadband.in:8080/speedtest/upload.php",
+      "lat": "22.5667",
+      "lon": "88.3667",
+      "name": "Kolkata",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Alliance Broadband Services Pvt Ltd",
+      "id": "12221",
+      "preferred": 0,
+      "isp_id": "99547",
+      "https_functional": 1,
+      "host": "speedtest.alliancebroadband.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.alliancebroadband.in",
+      "ip_address": {
+        "A": "203.171.240.22",
+        "AAAA": "2407:cb00::436"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestslg.alliancebroadband.in:8080/speedtest/upload.php",
+      "lat": "26.7084",
+      "lon": "88.4318",
+      "name": "Siliguri",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Alliance Broadband Services Pvt Ltd",
+      "id": "49089",
+      "preferred": 0,
+      "isp_id": "99547",
+      "https_functional": 1,
+      "host": "speedtestslg.alliancebroadband.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestslg.alliancebroadband.in",
+      "ip_address": {
+        "A": "103.2.133.30",
+        "AAAA": "2407:cb00:e400::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtestvtz.alliancebroadband.in:8080/speedtest/upload.php",
       "lat": "17.6883",
       "lon": "83.2186",
@@ -61,6 +101,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 3,
-  "updated_at": "2026-01-10T01:09:19.581530+00:00"
+  "total_servers": 5,
+  "updated_at": "2026-01-11T01:19:11.707722+00:00"
 }
