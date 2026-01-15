@@ -1,26 +1,6 @@
 {
   "servers": [
     {
-      "url": "http://speedtest1.ishancloud.com:8080/speedtest/upload.php",
-      "lat": "23.0300",
-      "lon": "72.5800",
-      "name": "Ahmedabad",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Ishan Netsol Pvt Ltd",
-      "id": "6328",
-      "preferred": 0,
-      "isp_id": "27544",
-      "https_functional": 1,
-      "host": "speedtest1.ishancloud.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtest1.ishancloud.com",
-      "ip_address": {
-        "A": "103.59.211.4",
-        "AAAA": "2405:f600:11:2::a"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://bangalore-speedtest.ishancloud.com:8080/speedtest/upload.php",
       "lat": "12.9833",
       "lon": "77.5833",
@@ -221,6 +201,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 11,
-  "updated_at": "2026-01-14T01:14:15.059152+00:00"
+  "total_servers": 10,
+  "updated_at": "2026-01-15T01:10:05.531386+00:00"
 }
