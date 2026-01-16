@@ -21,26 +21,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtestcokkl.alliancebroadband.in:8080/speedtest/upload.php",
-      "lat": "9.9312",
-      "lon": "76.2673",
-      "name": "Kochi",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Alliance Broadband Services Pvt Ltd",
-      "id": "14922",
-      "preferred": 0,
-      "isp_id": "99547",
-      "https_functional": 1,
-      "host": "speedtestcokkl.alliancebroadband.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestcokkl.alliancebroadband.in",
-      "ip_address": {
-        "A": "103.94.136.50",
-        "AAAA": "2407:cb00:dc00::2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtest.alliancebroadband.in:8080/speedtest/upload.php",
       "lat": "22.5667",
       "lon": "88.3667",
@@ -101,6 +81,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 5,
-  "updated_at": "2026-01-15T01:09:51.376309+00:00"
+  "total_servers": 4,
+  "updated_at": "2026-01-16T01:11:46.280544+00:00"
 }
