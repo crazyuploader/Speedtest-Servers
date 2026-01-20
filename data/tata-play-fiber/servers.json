@@ -100,6 +100,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtestdel.tataplayfiber.co.in:8080/speedtest/upload.php",
+      "lat": "28.6100",
+      "lon": "77.2300",
+      "name": "New Delhi",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Tata Play Fiber",
+      "id": "29658",
+      "preferred": 0,
+      "isp_id": "122193",
+      "https_functional": 1,
+      "host": "speedtestdel.tataplayfiber.co.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestdel.tataplayfiber.co.in",
+      "ip_address": {
+        "A": "103.195.201.233",
+        "AAAA": "2402:e280:3de9:233::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtestnoida.tataplayfiber.co.in:8080/speedtest/upload.php",
       "lat": "28.5700",
       "lon": "77.3200",
@@ -140,6 +160,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 7,
-  "updated_at": "2026-01-19T01:16:20.544513+00:00"
+  "total_servers": 8,
+  "updated_at": "2026-01-20T01:11:15.801394+00:00"
 }

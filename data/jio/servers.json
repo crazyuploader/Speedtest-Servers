@@ -349,7 +349,8 @@
       "id": "10107",
       "preferred": 0,
       "isp_id": "137615",
-      "host": "speedgwh1.jioconnect.com:8080",
+      "https_functional": 1,
+      "host": "speedgwh1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedgwh1.jioconnect.com",
       "ip_address": {
         "A": "49.44.79.54",
@@ -1294,5 +1295,5 @@
     }
   ],
   "total_servers": 65,
-  "updated_at": "2026-01-19T01:16:11.604718+00:00"
+  "updated_at": "2026-01-20T01:11:06.839579+00:00"
 }
