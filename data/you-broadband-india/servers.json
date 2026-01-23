@@ -31,7 +31,8 @@
       "id": "6432",
       "preferred": 0,
       "isp_id": "71775",
-      "host": "sp1-blr.youbroadband.in:8080",
+      "https_functional": 1,
+      "host": "sp1-blr.youbroadband.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "sp1-blr.youbroadband.in",
       "ip_address": {
         "A": "203.187.252.90",
@@ -170,7 +171,8 @@
       "id": "6451",
       "preferred": 0,
       "isp_id": "71775",
-      "host": "sp1-viz.youbroadband.in:8080",
+      "https_functional": 1,
+      "host": "sp1-viz.youbroadband.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "sp1-viz.youbroadband.in",
       "ip_address": {
         "A": "203.109.88.226",
@@ -180,5 +182,5 @@
     }
   ],
   "total_servers": 9,
-  "updated_at": "2026-01-22T01:14:23.672859+00:00"
+  "updated_at": "2026-01-23T01:13:00.083647+00:00"
 }

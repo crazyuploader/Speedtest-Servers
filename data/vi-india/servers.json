@@ -170,7 +170,6 @@
       "id": "71691",
       "preferred": 0,
       "isp_id": "23698",
-      "https_functional": 1,
       "host": "speedtest.upe.vodafoneidea.com:8080",
       "hostname": "speedtest.upe.vodafoneidea.com",
       "ip_address": {
@@ -300,5 +299,5 @@
     }
   ],
   "total_servers": 15,
-  "updated_at": "2026-01-22T01:14:22.443098+00:00"
+  "updated_at": "2026-01-23T01:12:58.493784+00:00"
 }
