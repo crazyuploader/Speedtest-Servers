@@ -1,25 +1,6 @@
 {
   "servers": [
     {
-      "url": "http://kanpur.sitibroadband.co.in:8080/speedtest/upload.php",
-      "lat": "26.4499",
-      "lon": "80.3319",
-      "name": "Kanpur",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Siti Broadband",
-      "id": "50715",
-      "preferred": 0,
-      "isp_id": "99525",
-      "https_functional": 1,
-      "host": "kanpur.sitibroadband.co.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "kanpur.sitibroadband.co.in",
-      "ip_address": {
-        "A": "103.217.244.254"
-      },
-      "ipv6_capable": "no"
-    },
-    {
       "url": "http://karnal.sitibroadband.co.in:8080/speedtest/upload.php",
       "lat": "29.6857",
       "lon": "76.9905",
@@ -54,10 +35,9 @@
       "host": "noidaspeedtest.sitibroadband.co.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "noidaspeedtest.sitibroadband.co.in",
       "ip_address": {
-        "A": "150.107.8.106",
-        "AAAA": "2402:ea80:0:3::3"
+        "A": "150.107.8.106"
       },
-      "ipv6_capable": "yes"
+      "ipv6_capable": "no"
     },
     {
       "url": "http://speedtest.e-net.in:8080/speedtest/upload.php",
@@ -80,6 +60,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 4,
-  "updated_at": "2026-01-23T01:12:47.968056+00:00"
+  "total_servers": 3,
+  "updated_at": "2026-01-24T01:10:07.514078+00:00"
 }
