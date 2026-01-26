@@ -265,7 +265,6 @@
       "id": "69777",
       "preferred": 0,
       "isp_id": "23698",
-      "https_functional": 1,
       "host": "speedtest.bih.vodafoneidea.com:8080",
       "hostname": "speedtest.bih.vodafoneidea.com",
       "ip_address": {
@@ -316,5 +315,5 @@
     }
   ],
   "total_servers": 16,
-  "updated_at": "2026-01-25T01:19:43.435869+00:00"
+  "updated_at": "2026-01-26T01:18:30.366305+00:00"
 }
