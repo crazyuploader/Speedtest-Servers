@@ -21,6 +21,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://truemoveookla-cmi.trueinternet.co.th:8080/speedtest/upload.php",
+      "lat": "18.7061",
+      "lon": "98.9817",
+      "name": "Chiang Mai",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "TrueMove H",
+      "id": "16396",
+      "preferred": 0,
+      "isp_id": "70160",
+      "https_functional": 1,
+      "host": "truemoveookla-cmi.trueinternet.co.th:8080",
+      "hostname": "truemoveookla-cmi.trueinternet.co.th",
+      "ip_address": {
+        "A": "27.55.63.218",
+        "AAAA": "2001:fb0:7fff:108::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://truemoveookla-cbr.trueinternet.co.th:8080/speedtest/upload.php",
       "lat": "13.3611",
       "lon": "100.9847",
@@ -81,6 +101,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://truemoveookla-psn.trueinternet.co.th:8080/speedtest/upload.php",
+      "lat": "16.8211",
+      "lon": "100.2659",
+      "name": "Phitsanulok",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "TrueMove H",
+      "id": "16507",
+      "preferred": 0,
+      "isp_id": "70160",
+      "https_functional": 1,
+      "host": "truemoveookla-psn.trueinternet.co.th:8080",
+      "hostname": "truemoveookla-psn.trueinternet.co.th",
+      "ip_address": {
+        "A": "27.55.63.210",
+        "AAAA": "2001:fb0:7fff:eb::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://truemoveookla-ska.trueinternet.co.th:8080/speedtest/upload.php",
       "lat": "7.1898",
       "lon": "100.5954",
@@ -121,6 +161,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 6,
-  "updated_at": "2026-01-27T01:18:25.225889+00:00"
+  "total_servers": 8,
+  "updated_at": "2026-01-28T01:13:44.421647+00:00"
 }
