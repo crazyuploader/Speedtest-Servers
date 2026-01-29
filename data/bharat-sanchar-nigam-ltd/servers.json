@@ -101,6 +101,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://rcngnhyd.ddnsfree.com:8080/speedtest/upload.php",
+      "lat": "17.4065",
+      "lon": "78.4772",
+      "name": "Hyderabad",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "BHARAT SANCHAR NIGAM LTD",
+      "id": "12939",
+      "preferred": 0,
+      "isp_id": "73461",
+      "https_functional": 1,
+      "host": "rcngnhyd.ddnsfree.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "rcngnhyd.ddnsfree.com",
+      "ip_address": {
+        "A": "117.205.67.171",
+        "AAAA": "2001:4490:dff0:600::3"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://bsnlooklakol.mywire.org:8080/speedtest/upload.php",
       "lat": "22.5667",
       "lon": "88.3667",
@@ -121,6 +141,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 6,
-  "updated_at": "2026-01-28T01:12:48.909440+00:00"
+  "total_servers": 7,
+  "updated_at": "2026-01-29T01:22:27.296191+00:00"
 }
