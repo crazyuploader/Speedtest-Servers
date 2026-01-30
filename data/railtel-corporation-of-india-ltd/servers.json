@@ -95,9 +95,10 @@
       "host": "chn.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "chn.speedtest.railtel.in",
       "ip_address": {
-        "A": "203.153.33.174"
+        "A": "203.153.33.174",
+        "AAAA": "2401:b200:9::d9"
       },
-      "ipv6_capable": "no"
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://delhi.speedtest.railtel.in:8080/speedtest/upload.php",
@@ -281,5 +282,5 @@
     }
   ],
   "total_servers": 14,
-  "updated_at": "2026-01-29T01:23:14.341114+00:00"
+  "updated_at": "2026-01-30T01:22:55.040421+00:00"
 }
