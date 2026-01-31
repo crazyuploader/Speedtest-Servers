@@ -1,6 +1,26 @@
 {
   "servers": [
     {
+      "url": "http://speedtest-aya1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "14.3692",
+      "lon": "100.5877",
+      "name": "Ayutthaya",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "24588",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-aya1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-aya1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.212",
+        "AAAA": "2403:6200:ffff:fbff::f9a"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtest-sp1.3bb.co.th:8080/speedtest/upload.php",
       "lat": "13.7500",
       "lon": "100.4833",
@@ -501,6 +521,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 25,
-  "updated_at": "2026-01-30T01:23:17.344435+00:00"
+  "total_servers": 26,
+  "updated_at": "2026-01-31T01:20:34.603432+00:00"
 }
