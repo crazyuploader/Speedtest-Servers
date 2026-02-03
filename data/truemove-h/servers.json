@@ -41,46 +41,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://truemoveookla-cbr.trueinternet.co.th:8080/speedtest/upload.php",
-      "lat": "13.3611",
-      "lon": "100.9847",
-      "name": "Chon Buri",
-      "country": "Thailand",
-      "cc": "TH",
-      "sponsor": "TrueMove H",
-      "id": "16517",
-      "preferred": 0,
-      "isp_id": "70160",
-      "https_functional": 1,
-      "host": "truemoveookla-cbr.trueinternet.co.th:8080",
-      "hostname": "truemoveookla-cbr.trueinternet.co.th",
-      "ip_address": {
-        "A": "27.55.63.202",
-        "AAAA": "2001:fb0:7fff:c6::2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://truemoveookla-kkn.trueinternet.co.th:8080/speedtest/upload.php",
-      "lat": "16.4322",
-      "lon": "102.8236",
-      "name": "Khon Kaen",
-      "country": "Thailand",
-      "cc": "TH",
-      "sponsor": "TrueMove H",
-      "id": "16508",
-      "preferred": 0,
-      "isp_id": "70160",
-      "https_functional": 1,
-      "host": "truemoveookla-kkn.trueinternet.co.th:8080",
-      "hostname": "truemoveookla-kkn.trueinternet.co.th",
-      "ip_address": {
-        "A": "27.55.63.214",
-        "AAAA": "2001:fb0:7fff:105:27:55:63:2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://spd-tt2.trueinternet.co.th:8080/speedtest/upload.php",
       "lat": "13.7462",
       "lon": "100.5308",
@@ -121,26 +81,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://truemoveookla-ska.trueinternet.co.th:8080/speedtest/upload.php",
-      "lat": "7.1898",
-      "lon": "100.5954",
-      "name": "Songkhla",
-      "country": "Thailand",
-      "cc": "TH",
-      "sponsor": "TrueMove H",
-      "id": "16519",
-      "preferred": 0,
-      "isp_id": "70160",
-      "https_functional": 1,
-      "host": "truemoveookla-ska.trueinternet.co.th:8080",
-      "hostname": "truemoveookla-ska.trueinternet.co.th",
-      "ip_address": {
-        "A": "27.55.63.206",
-        "AAAA": "2001:fb0:7fff:dc::2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://spd-srt.trueinternet.co.th:8080/speedtest/upload.php",
       "lat": "9.1333",
       "lon": "99.3317",
@@ -161,6 +101,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 8,
-  "updated_at": "2026-02-02T01:27:33.979109+00:00"
+  "total_servers": 5,
+  "updated_at": "2026-02-03T01:28:04.072168+00:00"
 }

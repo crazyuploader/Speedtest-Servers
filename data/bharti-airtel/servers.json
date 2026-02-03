@@ -21,26 +21,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtestbha1.airtel.in:8080/speedtest/upload.php",
-      "lat": "25.2425",
-      "lon": "86.9842",
-      "name": "Bhagalpur",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Bharti Airtel Limited",
-      "id": "58189",
-      "preferred": 0,
-      "isp_id": "46101",
-      "https_functional": 1,
-      "host": "speedtestbha1.airtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestbha1.airtel.in",
-      "ip_address": {
-        "A": "125.21.30.206",
-        "AAAA": "2404:a800:4a00:209::26"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtestbbs1.airtel.in:8080/speedtest/upload.php",
       "lat": "20.2700",
       "lon": "85.8400",
@@ -618,6 +598,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 31,
-  "updated_at": "2026-02-02T01:26:38.813452+00:00"
+  "total_servers": 30,
+  "updated_at": "2026-02-03T01:27:05.383198+00:00"
 }
