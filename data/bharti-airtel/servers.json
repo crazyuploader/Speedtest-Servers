@@ -56,7 +56,7 @@
       "hostname": "speedtestcal1.airtelbroadband.in",
       "ip_address": {
         "A": "122.187.99.102",
-        "AAAA": "2404:a800:3a00:207::42"
+        "AAAA": "2404:a800:3a00:207::41"
       },
       "ipv6_capable": "yes"
     },
@@ -599,5 +599,5 @@
     }
   ],
   "total_servers": 30,
-  "updated_at": "2026-02-03T01:27:05.383198+00:00"
+  "updated_at": "2026-02-04T01:22:38.370723+00:00"
 }
