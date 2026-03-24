@@ -1,0 +1,445 @@
+{
+  "servers": [
+    {
+      "url": "http://ookla.aeq.as6453.net:8080/speedtest/upload.php",
+      "lat": "39.0438",
+      "lon": "-77.4874",
+      "name": "Ashburn, VA",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Tata Communications",
+      "id": "73617",
+      "preferred": 0,
+      "isp_id": "153428",
+      "https_functional": 1,
+      "host": "ookla.aeq.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ookla.aeq.as6453.net",
+      "ip_address": {
+        "A": "66.198.9.3",
+        "AAAA": "2001:5a0:3c01::2be1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ookla.a56.as6453.net:8080/speedtest/upload.php",
+      "lat": "33.7501",
+      "lon": "-84.3885",
+      "name": "Atlanta, GA",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Tata Communications",
+      "id": "73614",
+      "preferred": 0,
+      "isp_id": "153428",
+      "https_functional": 1,
+      "host": "ookla.a56.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ookla.a56.as6453.net",
+      "ip_address": {
+        "A": "64.86.8.30",
+        "AAAA": "2001:5a0:1b00:110::90c4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ookla.bg.as4755.net:8080/speedtest/upload.php",
+      "lat": "12.9833",
+      "lon": "77.5833",
+      "name": "Bangalore",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Tata Communications",
+      "id": "73043",
+      "preferred": 0,
+      "isp_id": "37733",
+      "https_functional": 1,
+      "host": "ookla.bg.as4755.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ookla.bg.as4755.net",
+      "ip_address": {
+        "A": "219.64.88.172",
+        "AAAA": "2403:0:533:f::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ookla.cn.as6453.net:8080/speedtest/upload.php",
+      "lat": "13.0827",
+      "lon": "80.2707",
+      "name": "Chennai",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Tata Communications",
+      "id": "73039",
+      "preferred": 0,
+      "isp_id": "37733",
+      "https_functional": 1,
+      "host": "ookla.cn.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ookla.cn.as6453.net",
+      "ip_address": {
+        "A": "115.110.96.156",
+        "AAAA": "2403:0:229:3::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ookla.ct8.as6453.net:8080/speedtest/upload.php",
+      "lat": "41.8832",
+      "lon": "-87.6324",
+      "name": "Chicago, IL",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Tata Communications",
+      "id": "73612",
+      "preferred": 0,
+      "isp_id": "153428",
+      "https_functional": 1,
+      "host": "ookla.ct8.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ookla.ct8.as6453.net",
+      "ip_address": {
+        "A": "63.243.129.46",
+        "AAAA": "2001:5a0:40:201::90c4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ookla.dt8.as6453.net:8080/speedtest/upload.php",
+      "lat": "32.7767",
+      "lon": "-96.7970",
+      "name": "Dallas, TX",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Tata Communications",
+      "id": "73613",
+      "preferred": 0,
+      "isp_id": "153428",
+      "https_functional": 1,
+      "host": "ookla.dt8.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ookla.dt8.as6453.net",
+      "ip_address": {
+        "A": "64.86.134.21",
+        "AAAA": "2001:5a0:3f01:50::90c4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ookla.ek.as6453.net:8080/speedtest/upload.php",
+      "lat": "9.9816",
+      "lon": "76.2999",
+      "name": "Ernakulam",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Tata Communications",
+      "id": "73040",
+      "preferred": 0,
+      "isp_id": "37733",
+      "https_functional": 1,
+      "host": "ookla.ek.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ookla.ek.as6453.net",
+      "ip_address": {
+        "A": "14.142.20.36",
+        "AAAA": "2403:0:4:3::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ookla.fnm.as6453.net:8080/speedtest/upload.php",
+      "lat": "50.1109",
+      "lon": "8.6821",
+      "name": "Frankfurt",
+      "country": "Germany",
+      "cc": "DE",
+      "sponsor": "Tata Communications",
+      "id": "73624",
+      "preferred": 0,
+      "isp_id": "310547",
+      "https_functional": 1,
+      "host": "ookla.fnm.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ookla.fnm.as6453.net",
+      "ip_address": {
+        "A": "195.219.156.69",
+        "AAAA": "2a01:3e0:ff00:1::fa7a"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ookla.hk2.as6453.net:8080/speedtest/upload.php",
+      "lat": "22.3193",
+      "lon": "114.1694",
+      "name": "Hong Kong",
+      "country": "Hong Kong",
+      "cc": "HK",
+      "sponsor": "Tata Communications",
+      "id": "73629",
+      "preferred": 0,
+      "isp_id": "310586",
+      "https_functional": 1,
+      "host": "ookla.hk2.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ookla.hk2.as6453.net",
+      "ip_address": {
+        "A": "180.87.168.83",
+        "AAAA": "2405:2000:400::4:67"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ookla.hb.as6453.net:8080/speedtest/upload.php",
+      "lat": "17.3700",
+      "lon": "78.4800",
+      "name": "Hyderabad",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Tata Communications",
+      "id": "73038",
+      "preferred": 0,
+      "isp_id": "37733",
+      "https_functional": 1,
+      "host": "ookla.hb.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ookla.hb.as6453.net",
+      "ip_address": {
+        "A": "203.200.46.236",
+        "AAAA": "2403:0:611:2::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ookla.kk.as6453.net:8080/speedtest/upload.php",
+      "lat": "22.5667",
+      "lon": "88.3667",
+      "name": "Kolkata",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Tata Communications",
+      "id": "73042",
+      "preferred": 0,
+      "isp_id": "37733",
+      "https_functional": 1,
+      "host": "ookla.kk.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ookla.kk.as6453.net",
+      "ip_address": {
+        "A": "115.110.80.220",
+        "AAAA": "2403:0:71e:b::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ookla.ldn.as6453.net:8080/speedtest/upload.php",
+      "lat": "51.5171",
+      "lon": "-0.1062",
+      "name": "London",
+      "country": "United Kingdom",
+      "cc": "GB",
+      "sponsor": "Tata Communications",
+      "id": "73623",
+      "preferred": 0,
+      "isp_id": "153351",
+      "host": "ookla.ldn.as6453.net:8080",
+      "hostname": "ookla.ldn.as6453.net",
+      "ip_address": {
+        "A": "80.231.60.62",
+        "AAAA": "2001:5a0:4e00:101::cee"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ookla.mln.as6453.net:8080/speedtest/upload.php",
+      "lat": "25.7617",
+      "lon": "-80.1918",
+      "name": "Miami, FL",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Tata Communications",
+      "id": "73619",
+      "preferred": 0,
+      "isp_id": "153428",
+      "https_functional": 1,
+      "host": "ookla.mln.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ookla.mln.as6453.net",
+      "ip_address": {
+        "A": "66.110.9.37",
+        "AAAA": "2001:5a0:40:50::90c4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ookla.mtt.as6453.net:8080/speedtest/upload.php",
+      "lat": "45.5019",
+      "lon": "-73.5674",
+      "name": "Montreal, QC",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Tata Communications",
+      "id": "73620",
+      "preferred": 0,
+      "isp_id": "310556",
+      "https_functional": 1,
+      "host": "ookla.mtt.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ookla.mtt.as6453.net",
+      "ip_address": {
+        "A": "66.198.161.133",
+        "AAAA": "2001:5a0:3604:3::1:54"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ookla.mu.as6453.net:8080/speedtest/upload.php",
+      "lat": "18.9647",
+      "lon": "72.8258",
+      "name": "Mumbai",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Tata Communications",
+      "id": "73041",
+      "preferred": 0,
+      "isp_id": "37733",
+      "https_functional": 1,
+      "host": "ookla.mu.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ookla.mu.as6453.net",
+      "ip_address": {
+        "A": "59.160.56.4",
+        "AAAA": "2403:0:13b:5::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ookla.n0v.as6453.net:8080/speedtest/upload.php",
+      "lat": "40.7128",
+      "lon": "-74.0060",
+      "name": "New York, NY",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Tata Communications",
+      "id": "73610",
+      "preferred": 0,
+      "isp_id": "153428",
+      "https_functional": 1,
+      "host": "ookla.n0v.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ookla.n0v.as6453.net",
+      "ip_address": {
+        "A": "209.58.18.87",
+        "AAAA": "2001:5a0:4500:50::8994"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ookla.pye.as6453.net:8080/speedtest/upload.php",
+      "lat": "48.8742",
+      "lon": "2.3470",
+      "name": "Paris",
+      "country": "France",
+      "cc": "FR",
+      "sponsor": "Tata Communications",
+      "id": "73625",
+      "preferred": 0,
+      "isp_id": "153357",
+      "https_functional": 1,
+      "host": "ookla.pye.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ookla.pye.as6453.net",
+      "ip_address": {
+        "A": "80.231.196.149",
+        "AAAA": "2a01:3e0:f00:100::90c4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ookla.pu.as4755.net:8080/speedtest/upload.php",
+      "lat": "18.5203",
+      "lon": "73.8567",
+      "name": "Pune",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Tata Communications",
+      "id": "73037",
+      "preferred": 0,
+      "isp_id": "37733",
+      "https_functional": 1,
+      "host": "ookla.pu.as4755.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ookla.pu.as4755.net",
+      "ip_address": {
+        "A": "203.200.19.52",
+        "AAAA": "2403:0:91b:2::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ookla.sv1.as6453.net:8080/speedtest/upload.php",
+      "lat": "37.3541",
+      "lon": "-121.9552",
+      "name": "Santa Clara, CA",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Tata Communications",
+      "id": "73609",
+      "preferred": 0,
+      "isp_id": "153428",
+      "https_functional": 1,
+      "host": "ookla.sv1.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ookla.sv1.as6453.net",
+      "ip_address": {
+        "A": "63.243.250.21",
+        "AAAA": "2001:5a0:4e00:101::cee"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ookla.svw.as6453.net:8080/speedtest/upload.php",
+      "lat": "1.3000",
+      "lon": "103.8000",
+      "name": "Singapore",
+      "country": "Singapore",
+      "cc": "SG",
+      "sponsor": "Tata Communications",
+      "id": "73627",
+      "preferred": 0,
+      "isp_id": "157795",
+      "https_functional": 1,
+      "host": "ookla.svw.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ookla.svw.as6453.net",
+      "ip_address": {
+        "A": "180.87.84.85",
+        "AAAA": "2405:2000:ffa0:200::8:ad"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ookla.m3h.as6453.net:8080/speedtest/upload.php",
+      "lat": "-33.8623",
+      "lon": "151.2077",
+      "name": "Sydney",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Tata Communications",
+      "id": "73631",
+      "preferred": 0,
+      "isp_id": "153522",
+      "https_functional": 1,
+      "host": "ookla.m3h.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ookla.m3h.as6453.net",
+      "ip_address": {
+        "A": "180.87.35.29",
+        "AAAA": "2405:2000:2000:10::d382"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ookla.z3z.as6453.net:8080/speedtest/upload.php",
+      "lat": "47.3952",
+      "lon": "8.4925",
+      "name": "Zurich",
+      "country": "Switzerland",
+      "cc": "CH",
+      "sponsor": "Tata Communications",
+      "id": "73626",
+      "preferred": 0,
+      "isp_id": "311380",
+      "https_functional": 1,
+      "host": "ookla.z3z.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ookla.z3z.as6453.net",
+      "ip_address": {
+        "A": "195.219.134.84",
+        "AAAA": "2a01:3e0:1d00::8:99"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 22,
+  "updated_at": "2026-03-24T18:01:38.982898+00:00"
+}
