@@ -461,26 +461,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtest-ubn1.3bb.co.th:8080/speedtest/upload.php",
-      "lat": "15.2448",
-      "lon": "104.8473",
-      "name": "Ubon Ratchathani",
-      "country": "Thailand",
-      "cc": "TH",
-      "sponsor": "3BB",
-      "id": "24093",
-      "preferred": 0,
-      "isp_id": "42011",
-      "https_functional": 1,
-      "host": "speedtest-ubn1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtest-ubn1.3bb.co.th",
-      "ip_address": {
-        "A": "110.164.3.252",
-        "AAAA": "2403:6200:ffff:fbff::faa"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtest-udn1.3bb.co.th:8080/speedtest/upload.php",
       "lat": "17.3647",
       "lon": "102.8159",
@@ -521,6 +501,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 26,
-  "updated_at": "2026-03-24T17:42:44.961815+00:00"
+  "total_servers": 25,
+  "updated_at": "2026-03-24T17:59:01.060805+00:00"
 }
