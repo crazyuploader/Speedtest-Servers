@@ -221,6 +221,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://patna-speedtest.ishancloud.com:8080/speedtest/upload.php",
+      "lat": "25.6139",
+      "lon": "85.1354",
+      "name": "Patna",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Ishan Netsol Pvt Ltd",
+      "id": "38394",
+      "preferred": 0,
+      "isp_id": "27544",
+      "https_functional": 1,
+      "host": "patna-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "patna-speedtest.ishancloud.com",
+      "ip_address": {
+        "A": "110.44.96.252",
+        "AAAA": "2405:f600:b0::a"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://raipur-speedtest.ishancloud.com:8080/speedtest/upload.php",
       "lat": "21.1797",
       "lon": "81.7787",
@@ -279,8 +299,28 @@
         "AAAA": "2405:f600:ba::5a"
       },
       "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://udaipur-speedtest.ishancloud.com:8080/speedtest/upload.php",
+      "lat": "24.5800",
+      "lon": "73.6800",
+      "name": "Udaipur",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Ishan Netsol Pvt Ltd",
+      "id": "62322",
+      "preferred": 0,
+      "isp_id": "27544",
+      "https_functional": 1,
+      "host": "udaipur-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "udaipur-speedtest.ishancloud.com",
+      "ip_address": {
+        "A": "160.202.11.6",
+        "AAAA": "2405:f600:7f::7a"
+      },
+      "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 14,
-  "updated_at": "2026-02-06T01:23:53.763196+00:00"
+  "total_servers": 16,
+  "updated_at": "2026-03-24T17:42:30.509948+00:00"
 }
