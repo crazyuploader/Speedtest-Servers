@@ -130,7 +130,7 @@
       "sponsor": "Asianet Broadband",
       "id": "4352",
       "preferred": 0,
-      "isp_id": "93082",
+      "isp_id": "329192",
       "https_functional": 1,
       "host": "speedtest.asianetbroadband.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest.asianetbroadband.in",
@@ -142,5 +142,5 @@
     }
   ],
   "total_servers": 7,
-  "updated_at": "2026-03-25T01:28:45.216759+00:00"
+  "updated_at": "2026-03-26T01:47:32.146954+00:00"
 }

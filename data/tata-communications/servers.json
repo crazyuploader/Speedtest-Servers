@@ -170,7 +170,7 @@
       "sponsor": "Tata Communications",
       "id": "73629",
       "preferred": 0,
-      "isp_id": "310586",
+      "isp_id": "310580",
       "https_functional": 1,
       "host": "ookla.hk2.as6453.net.prod.hosts.ooklaserver.net:8080",
       "hostname": "ookla.hk2.as6453.net",
@@ -441,5 +441,5 @@
     }
   ],
   "total_servers": 22,
-  "updated_at": "2026-03-25T01:29:44.951930+00:00"
+  "updated_at": "2026-03-26T01:48:25.509842+00:00"
 }
