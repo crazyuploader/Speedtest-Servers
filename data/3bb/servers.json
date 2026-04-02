@@ -131,7 +131,8 @@
       "id": "26820",
       "preferred": 0,
       "isp_id": "42011",
-      "host": "speedtest-lpg1.3bb.co.th:8080",
+      "https_functional": 1,
+      "host": "speedtest-lpg1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest-lpg1.3bb.co.th",
       "ip_address": {
         "A": "110.164.3.209",
@@ -196,6 +197,26 @@
       "ip_address": {
         "A": "110.164.3.211",
         "AAAA": "2403:6200:ffff:fbff::fc2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-nrt1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "8.4325",
+      "lon": "99.9599",
+      "name": "Nakhon Si Thammarat",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "24507",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-nrt1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-nrt1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.236",
+        "AAAA": "2403:6200:ffff:fbff::fda"
       },
       "ipv6_capable": "yes"
     },
@@ -500,6 +521,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 25,
-  "updated_at": "2026-04-01T01:57:58.096905+00:00"
+  "total_servers": 26,
+  "updated_at": "2026-04-02T01:47:04.530580+00:00"
 }

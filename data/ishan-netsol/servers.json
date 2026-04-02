@@ -241,6 +241,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://raipur-speedtest.ishancloud.com:8080/speedtest/upload.php",
+      "lat": "21.1797",
+      "lon": "81.7787",
+      "name": "Raipur",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Ishan Netsol Pvt Ltd",
+      "id": "43916",
+      "preferred": 0,
+      "isp_id": "27544",
+      "https_functional": 1,
+      "host": "raipur-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "raipur-speedtest.ishancloud.com",
+      "ip_address": {
+        "A": "43.228.112.252",
+        "AAAA": "2405:f600:6e::9a"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://rajkot-speedtest.ishancloud.com:8080/speedtest/upload.php",
       "lat": "22.3000",
       "lon": "70.7833",
@@ -321,6 +341,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 16,
-  "updated_at": "2026-04-01T01:57:02.839662+00:00"
+  "total_servers": 17,
+  "updated_at": "2026-04-02T01:46:11.379785+00:00"
 }
