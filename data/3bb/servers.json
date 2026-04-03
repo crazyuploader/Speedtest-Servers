@@ -121,26 +121,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtest-lpg1.3bb.co.th:8080/speedtest/upload.php",
-      "lat": "18.2855",
-      "lon": "99.5128",
-      "name": "Lampang",
-      "country": "Thailand",
-      "cc": "TH",
-      "sponsor": "3BB",
-      "id": "26820",
-      "preferred": 0,
-      "isp_id": "42011",
-      "https_functional": 1,
-      "host": "speedtest-lpg1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtest-lpg1.3bb.co.th",
-      "ip_address": {
-        "A": "110.164.3.209",
-        "AAAA": "2403:6200:ffff:fbff::fb2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtest-npt1.3bb.co.th:8080/speedtest/upload.php",
       "lat": "13.8140",
       "lon": "100.0373",
@@ -521,6 +501,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 26,
-  "updated_at": "2026-04-02T01:47:04.530580+00:00"
+  "total_servers": 25,
+  "updated_at": "2026-04-03T01:48:25.448601+00:00"
 }
