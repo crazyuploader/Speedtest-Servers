@@ -301,26 +301,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://udaipur-speedtest.ishancloud.com:8080/speedtest/upload.php",
-      "lat": "24.5800",
-      "lon": "73.6800",
-      "name": "Udaipur",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Ishan Netsol Pvt Ltd",
-      "id": "62322",
-      "preferred": 0,
-      "isp_id": "27544",
-      "https_functional": 1,
-      "host": "udaipur-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "udaipur-speedtest.ishancloud.com",
-      "ip_address": {
-        "A": "160.202.11.6",
-        "AAAA": "2405:f600:7f::7a"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://vadodara-sptest.ishancloud.com:8080/speedtest/upload.php",
       "lat": "22.3000",
       "lon": "73.2000",
@@ -331,7 +311,8 @@
       "id": "28421",
       "preferred": 0,
       "isp_id": "27544",
-      "host": "vadodara-sptest.ishancloud.com:8080",
+      "https_functional": 1,
+      "host": "vadodara-sptest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "vadodara-sptest.ishancloud.com",
       "ip_address": {
         "A": "111.90.173.4",
@@ -340,6 +321,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 17,
-  "updated_at": "2026-04-05T01:51:34.543099+00:00"
+  "total_servers": 16,
+  "updated_at": "2026-04-06T01:53:04.058614+00:00"
 }
