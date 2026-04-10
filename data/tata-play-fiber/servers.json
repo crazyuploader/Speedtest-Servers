@@ -60,6 +60,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtestkolkata.tataplayfiber.co.in:8080/speedtest/upload.php",
+      "lat": "22.5667",
+      "lon": "88.3667",
+      "name": "Kolkata",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Tata Play Fiber",
+      "id": "40733",
+      "preferred": 0,
+      "isp_id": "122193",
+      "https_functional": 1,
+      "host": "speedtestkolkata.tataplayfiber.co.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestkolkata.tataplayfiber.co.in",
+      "ip_address": {
+        "A": "103.59.72.233",
+        "AAAA": "2402:e280:106:233::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtestmum.tataplayfiber.co.in:8080/speedtest/upload.php",
       "lat": "19.0760",
       "lon": "72.8777",
@@ -140,6 +160,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 7,
-  "updated_at": "2026-04-09T01:30:37.686239+00:00"
+  "total_servers": 8,
+  "updated_at": "2026-04-10T01:54:35.639521+00:00"
 }
