@@ -61,7 +61,7 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtest.keralavisionisp.com:8080/speedtest/upload.php",
+      "url": "http://speedtest-tsr.keralavisionisp.com:8080/speedtest/upload.php",
       "lat": "10.5276",
       "lon": "76.2144",
       "name": "Thrissur",
@@ -72,11 +72,11 @@
       "preferred": 0,
       "isp_id": "200948",
       "https_functional": 1,
-      "host": "speedtest.keralavisionisp.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtest.keralavisionisp.com",
+      "host": "speedtest-tsr.keralavisionisp.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-tsr.keralavisionisp.com",
       "ip_address": {
-        "A": "103.99.206.34",
-        "AAAA": "2001:df7:4d80:8::2"
+        "A": "103.99.206.41",
+        "AAAA": "2001:df7:4d80:8::41"
       },
       "ipv6_capable": "yes"
     },
@@ -102,5 +102,5 @@
     }
   ],
   "total_servers": 5,
-  "updated_at": "2026-04-14T01:56:28.740450+00:00"
+  "updated_at": "2026-04-15T01:52:54.203488+00:00"
 }
