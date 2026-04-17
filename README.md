@@ -2,6 +2,13 @@
 
 > This project automates the collection of publicly available Speedtest.net server data from various Internet Service Providers (ISPs). It provides a regularly updated repository of server details, including their locations and other configuration data, for network analysis and monitoring.
 
+## Dashboard
+
+The project includes a **static web dashboard** to explore and visualize the collected server data on an interactive map.
+
+- **Live:** [https://speedtest-servers.devjugal.com/](https://speedtest-servers.devjugal.com/)
+- **Status:** Hosted on Netlify (Static Site)
+
 ## About This Data
 
 This repository contains JSON files, each dedicated to a specific ISP, holding a list of their Speedtest.net servers. The data is automatically fetched using the [Speedtest.net API](https://www.speedtest.net/about/knowledge/faq) and stored in a structured format for easy access and integration into other tools or scripts.

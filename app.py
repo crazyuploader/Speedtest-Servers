@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Serves the ISP Speedtest data as a web dashboard using Flask.
+Local development server for the ISP Speedtest data web dashboard.
 """
 
 __author__ = "Jugal Kishore <me@devjugal.com>"
