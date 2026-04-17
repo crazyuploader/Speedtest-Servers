@@ -30,7 +30,8 @@
       "id": "37352",
       "preferred": 0,
       "isp_id": "122193",
-      "host": "speedtestchennai.tataplayfiber.co.in:8080",
+      "https_functional": 1,
+      "host": "speedtestchennai.tataplayfiber.co.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtestchennai.tataplayfiber.co.in",
       "ip_address": {
         "A": "182.50.71.233",
@@ -160,5 +161,5 @@
     }
   ],
   "total_servers": 8,
-  "updated_at": "2026-04-17T01:57:08.230845+00:00"
+  "updated_at": "2026-04-17T09:23:35.394993+00:00"
 }
