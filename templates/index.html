@@ -25,6 +25,15 @@
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
       crossorigin=""
     />
+    <!-- Leaflet MarkerCluster CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
+    />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/static/style.css" />
   </head>
@@ -221,45 +230,52 @@
               </th>
               <th
                 scope="col"
-                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider"
+                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition select-none"
+                data-sort="name"
               >
-                City
+                City <span class="sort-icon ml-1">⇅</span>
               </th>
               <th
                 scope="col"
-                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider"
+                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition select-none"
+                data-sort="country"
               >
-                Country
+                Country <span class="sort-icon ml-1">⇅</span>
               </th>
               <th
                 scope="col"
-                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider"
+                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition select-none"
+                data-sort="sponsor"
               >
-                Sponsor
+                Sponsor <span class="sort-icon ml-1">⇅</span>
               </th>
               <th
                 scope="col"
-                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider"
+                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition select-none"
+                data-sort="id"
               >
-                Server ID
+                Server ID <span class="sort-icon ml-1">⇅</span>
               </th>
               <th
                 scope="col"
-                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider"
+                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition select-none"
+                data-sort="https_functional"
               >
-                HTTPS
+                HTTPS <span class="sort-icon ml-1">⇅</span>
               </th>
               <th
                 scope="col"
-                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider"
+                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition select-none"
+                data-sort="ipv6_capable"
               >
-                IPv6 Capable
+                IPv6 Capable <span class="sort-icon ml-1">⇅</span>
               </th>
               <th
                 scope="col"
-                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider"
+                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition select-none"
+                data-sort="hostname"
               >
-                Host
+                Host <span class="sort-icon ml-1">⇅</span>
               </th>
             </tr>
           </thead>
@@ -284,6 +300,11 @@
       src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
       integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
       crossorigin=""
+      defer
+    ></script>
+    <!-- Leaflet MarkerCluster JS -->
+    <script
+      src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"
       defer
     ></script>
 

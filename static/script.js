@@ -12,9 +12,10 @@ const mapDiv = document.getElementById("map"); // Map container element
 const cachedData = {};
 let currentISPData = null; // Stores the currently selected ISP's full data
 let currentFilteredServers = []; // Stores the currently displayed (filtered) servers
+let currentSort = { column: null, direction: "asc" }; // Current sorting state
 
 let map = null; // Leaflet map instance
-let markers = L.featureGroup(); // Layer group to hold markers
+let markers = L.markerClusterGroup(); // Layer group to hold markers (with clustering)
 
 // Helper to show the spinner
 function showSpinner() {
@@ -24,6 +25,15 @@ function showSpinner() {
 // Helper to hide the spinner
 function hideSpinner() {
   spinner.classList.add("hidden");
+}
+
+// Helper to highlight search term in text
+function highlightText(text, search) {
+  if (!search) return text;
+  const regex = new RegExp(`(${search})`, "gi");
+  return text
+    .toString()
+    .replace(regex, '<mark class="bg-yellow-200">$1</mark>');
 }
 
 // Helper to convert slugified directory names to readable labels
@@ -109,7 +119,7 @@ function initializeMap() {
 
 // Update markers on the map based on filtered servers
 function updateMapMarkers(servers) {
-  markers.clearLayers(); // Clear existing markers
+  markers.clearLayers(); // Clear existing markers from cluster group
 
   const validMarkers = [];
   servers.forEach((server) => {
@@ -150,53 +160,40 @@ function updateMapMarkers(servers) {
 
 // Load all ISPs listed from the server
 async function loadProviders() {
-  showSpinner(); // Show spinner before starting to fetch data
+  showSpinner();
   try {
     const res = await fetch("/list");
-    if (!res.ok) {
-      throw new Error(`HTTP error! status: ${res.status}`);
-    }
-    const dirs = await res.json(); // array of directory names like 'jio', 'hathway'
+    if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+    const dirs = await res.json();
 
-    // For each ISP directory, fetch the servers.json file
-    for (const dir of dirs) {
-      try {
-        const jsonRes = await fetch(`/data/${dir}/servers.json`);
-        if (!jsonRes.ok) {
-          console.warn(
-            `Failed to fetch data for ${dir}: HTTP error! status: ${jsonRes.status}`,
-          );
-          continue; // Skip to the next directory
+    // Fetch all ISP data in parallel
+    await Promise.all(
+      dirs.map(async (dir) => {
+        try {
+          const jsonRes = await fetch(`/data/${dir}/servers.json`);
+          if (jsonRes.ok) {
+            cachedData[dir] = await jsonRes.json();
+          }
+        } catch (err) {
+          console.warn(`Failed to process data for ${dir}:`, err);
         }
-        const data = await jsonRes.json();
+      }),
+    );
 
-        // Cache this JSON for later use (avoids re-fetching)
-        cachedData[dir] = data;
-      } catch (err) {
-        console.warn(`Failed to process data for ${dir}:`, err);
-      }
-    }
-
-    // Now populate filters globally from all cached data
     populateGlobalCountryFilter();
     const ispOptions = populateISPDropdown();
 
-    // Load the first ISP by default
     if (ispOptions.length > 0) {
-      // Reset filters when a new ISP is loaded
-      selectCountryFilter.value = "";
-      searchServersInput.value = "";
       loadServers(ispOptions[0].value);
     } else {
       metadataDiv.innerHTML = `<p class="text-red-600">No ISP data available.</p>`;
-      updateMapMarkers([]); // Clear map if no data
+      updateMapMarkers([]);
     }
   } catch (err) {
     console.error("Error loading providers:", err);
-    metadataDiv.innerHTML = `<p class="text-red-600">Failed to load ISP list. Please check the server connection.</p>`;
-    updateMapMarkers([]); // Clear map on error
+    metadataDiv.innerHTML = `<p class="text-red-600">Failed to load ISP list.</p>`;
   } finally {
-    hideSpinner(); // Hide spinner after all data is fetched or an error occurs
+    hideSpinner();
   }
 }
 
@@ -238,6 +235,30 @@ function loadServers(isp, countryFilter = "", searchTerm = "") {
     );
   }
 
+  // Apply sorting
+  if (currentSort.column) {
+    filteredServers.sort((a, b) => {
+      let valA = a[currentSort.column] || "";
+      let valB = b[currentSort.column] || "";
+
+      // Handle numeric fields
+      if (
+        currentSort.column === "id" ||
+        currentSort.column === "https_functional"
+      ) {
+        valA = parseFloat(valA);
+        valB = parseFloat(valB);
+      } else {
+        valA = valA.toString().toLowerCase();
+        valB = valB.toString().toLowerCase();
+      }
+
+      if (valA < valB) return currentSort.direction === "asc" ? -1 : 1;
+      if (valA > valB) return currentSort.direction === "asc" ? 1 : -1;
+      return 0;
+    });
+  }
+
   currentFilteredServers = filteredServers; // Store the filtered data for export
   updateMapMarkers(currentFilteredServers); // Update map with filtered servers
 
@@ -253,17 +274,28 @@ function loadServers(isp, countryFilter = "", searchTerm = "") {
     hour12: false, // 24-hour clock
   });
 
-  // Live status counts are no longer relevant without the 'Status' column
-  // but keeping the metadata structure consistent for now.
-  // If you want to completely remove this, you can adjust the metadataDiv.innerHTML
-  // const onlineServers = filteredServers.filter(s => s.simulatedStatus === 'Online').length;
-  // const offlineServers = filteredServers.length - onlineServers;
+  // Calculate Enhanced Stats
+  const ipv6Count = filteredServers.filter(
+    (s) => s.ipv6_capable === "yes",
+  ).length;
+  const httpsCount = filteredServers.filter(
+    (s) => s.https_functional === 1,
+  ).length;
+  const ipv6Percent = ((ipv6Count / filteredServers.length) * 100 || 0).toFixed(
+    1,
+  );
+  const httpsPercent = (
+    (httpsCount / filteredServers.length) * 100 || 0
+  ).toFixed(1);
 
-  // Show metadata
+  // Show metadata with Enhanced Stats
   metadataDiv.innerHTML = `
-    <p class="font-medium"><strong>Total Servers:</strong> <span class="font-bold text-blue-700">${data.total_servers}</span></p>
-    <p class="font-medium"><strong>Last Updated:</strong> <span class="font-bold text-blue-700">${formattedDate}</span></p>
-    <!-- Removed live status as columns are removed -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <p class="font-medium"><strong>Total Servers:</strong> <span class="font-bold text-blue-700">${filteredServers.length} / ${data.total_servers}</span></p>
+      <p class="font-medium"><strong>Last Updated:</strong> <span class="font-bold text-blue-700">${formattedDate}</span></p>
+      <p class="font-medium"><strong>IPv6 Ready:</strong> <span class="font-bold text-green-700">${ipv6Count} (${ipv6Percent}%)</span></p>
+      <p class="font-medium"><strong>HTTPS Support:</strong> <span class="font-bold text-green-700">${httpsCount} (${httpsPercent}%)</span></p>
+    </div>
   `;
 
   // Populate table rows with server data
@@ -282,10 +314,10 @@ function loadServers(isp, countryFilter = "", searchTerm = "") {
       tbody.innerHTML += `
         <tr class="${idx % 2 === 0 ? "bg-white" : "bg-gray-50"} hover:bg-blue-50 transition duration-150 ease-in-out">
           <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-800 sm:px-6 sm:py-4">${idx + 1}</td>
-          <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-800 sm:px-6 sm:py-4">${server.name}</td>
-          <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-800 sm:px-6 sm:py-4">${server.country}</td>
-          <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-800 sm:px-6 sm:py-4">${server.sponsor}</td>
-          <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-800 sm:px-6 sm:py-4">${server.id}</td>
+          <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-800 sm:px-6 sm:py-4">${highlightText(server.name, searchTerm)}</td>
+          <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-800 sm:px-6 sm:py-4">${highlightText(server.country, searchTerm)}</td>
+          <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-800 sm:px-6 sm:py-4">${highlightText(server.sponsor, searchTerm)}</td>
+          <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-800 sm:px-6 sm:py-4">${highlightText(server.id, searchTerm)}</td>
           <td class="px-4 py-2 whitespace-nowrap text-sm ${httpsClass} sm:px-6 sm:py-4">${server.https_functional === 1 ? "Yes" : "No"}</td>
           <td class="px-4 py-2 whitespace-nowrap text-sm ${ipv6Class} sm:px-6 sm:py-4">${server.ipv6_capable}</td>
           <td
@@ -293,7 +325,7 @@ function loadServers(isp, countryFilter = "", searchTerm = "") {
               data-ipv4="${server.ip_address?.A || ""}"
               data-ipv6="${server.ip_address?.AAAA || ""}"
           >
-              ${server.hostname}
+              ${highlightText(server.hostname, searchTerm)}
           </td>
         </tr>`;
     });
@@ -301,6 +333,18 @@ function loadServers(isp, countryFilter = "", searchTerm = "") {
     // Colspan is now 8
     tbody.innerHTML = `<tr><td colspan="8" class="px-6 py-4 text-center text-gray-500 italic">No servers found matching your criteria.</td></tr>`;
   }
+
+  // Update sort icons in the headers
+  document.querySelectorAll("th[data-sort]").forEach((th) => {
+    const icon = th.querySelector(".sort-icon");
+    if (th.dataset.sort === currentSort.column) {
+      icon.textContent = currentSort.direction === "asc" ? "▲" : "▼";
+      icon.classList.add("text-blue-600");
+    } else {
+      icon.textContent = "⇅";
+      icon.classList.remove("text-blue-600");
+    }
+  });
 }
 
 // Function to trigger re-rendering with current filters
@@ -366,6 +410,20 @@ function debounce(func, delay) {
 }
 
 searchServersInput.addEventListener("input", debounce(applyFilters, 300)); // Debounce search input by 300ms
+
+// Event listeners for sorting
+document.querySelectorAll("th[data-sort]").forEach((th) => {
+  th.addEventListener("click", () => {
+    const column = th.dataset.sort;
+    if (currentSort.column === column) {
+      currentSort.direction = currentSort.direction === "asc" ? "desc" : "asc";
+    } else {
+      currentSort.column = column;
+      currentSort.direction = "asc";
+    }
+    applyFilters();
+  });
+});
 
 // Event listener for export button
 exportJsonButton.addEventListener("click", exportToJson);
