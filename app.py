@@ -1,21 +1,21 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Serves the ISP Speedtest data as a web dashboard using Flask.
+Local development server for the ISP Speedtest data web dashboard.
 """
 
 __author__ = "Jugal Kishore <me@devjugal.com>"
 
 import json
 import os
-from flask import Flask, abort, render_template, jsonify
+from flask import Flask, abort, send_from_directory, jsonify
 from werkzeug.middleware.proxy_fix import ProxyFix
 
 # Define paths
 BASE_DIR = os.path.dirname(__file__)
 DATA_DIR = os.path.join(BASE_DIR, "data")  # JSON data folder
 
-app = Flask(__name__, template_folder="templates")
+app = Flask(__name__, static_folder="static")
 
 # Enable reverse proxy support
 app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1)
@@ -24,7 +24,13 @@ app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1)
 @app.route("/")
 def dashboard():
     """Serve the main dashboard HTML"""
-    return render_template("index.html")
+    return send_from_directory(BASE_DIR, "index.html")
+
+
+@app.route("/data/isps.json")
+def serve_isp_list():
+    """Serve the static ISP list JSON file."""
+    return send_from_directory(DATA_DIR, "isps.json")
 
 
 @app.route("/data/<term>/servers.json")
@@ -41,21 +47,6 @@ def serve_json(term):
         return jsonify(data)
     except json.JSONDecodeError:
         return jsonify({"error": "Invalid JSON format"}), 500
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
-
-
-@app.route("/list")
-def list_isps():
-    """List all available ISPs that have a servers.json"""
-    try:
-        isp_dirs = sorted(
-            d
-            for d in os.listdir(DATA_DIR)
-            if os.path.isdir(os.path.join(DATA_DIR, d))
-            and os.path.isfile(os.path.join(DATA_DIR, d, "servers.json"))
-        )
-        return jsonify(isp_dirs)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 

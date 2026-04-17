@@ -2,12 +2,20 @@
 
 > This project automates the collection of publicly available Speedtest.net server data from various Internet Service Providers (ISPs). It provides a regularly updated repository of server details, including their locations and other configuration data, for network analysis and monitoring.
 
+## Dashboard
+
+The project includes a **static web dashboard** to explore and visualize the collected server data on an interactive map.
+
+- **Live:** [https://speedtest-servers.devjugal.com/](https://speedtest-servers.devjugal.com/)
+- **Status:** Hosted on Netlify (Static Site)
+
 ## About This Data
 
 This repository contains JSON files, each dedicated to a specific ISP, holding a list of their Speedtest.net servers. The data is automatically fetched using the [Speedtest.net API](https://www.speedtest.net/about/knowledge/faq) and stored in a structured format for easy access and integration into other tools or scripts.
 
 **Explore the Server Data:**
 
+- [3BB](data/3bb/servers.json)
 - [ACT Fibernet](data/act-fibernet/servers.json)
 - [Alliance Broadband Services Pvt. Ltd.](data/alliance-broadband-services-pvt-ltd/servers.json)
 - [Asianet Broadband](data/asianet-broadband/servers.json)
@@ -24,8 +32,10 @@ This repository contains JSON files, each dedicated to a specific ISP, holding a
 - [RailTel Corporation of India Ltd.](data/railtel-corporation-of-india-ltd/servers.json)
 - [Shyam Spectra](data/shyam-spectra/servers.json)
 - [Siti Broadband](data/siti-broadband/servers.json)
+- [Tata Communications](data/tata-communications/servers.json)
 - [Tata Play Fiber](data/tata-play-fiber/servers.json)
 - [Tata Teleservices Ltd.](data/tata-teleservices-ltd/servers.json)
+- [Truemove H](data/truemove-h/servers.json)
 - [VI India](data/vi-india/servers.json)
 - [YOU Broadband India Pvt. Ltd.](data/you-broadband-india/servers.json)
 

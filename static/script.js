@@ -162,7 +162,7 @@ function updateMapMarkers(servers) {
 async function loadProviders() {
   showSpinner();
   try {
-    const res = await fetch("/list");
+    const res = await fetch("data/isps.json");
     if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
     const dirs = await res.json();
 
@@ -170,7 +170,7 @@ async function loadProviders() {
     await Promise.all(
       dirs.map(async (dir) => {
         try {
-          const jsonRes = await fetch(`/data/${dir}/servers.json`);
+          const jsonRes = await fetch(`data/${dir}/servers.json`);
           if (jsonRes.ok) {
             cachedData[dir] = await jsonRes.json();
           }
