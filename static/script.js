@@ -34,16 +34,23 @@ const formatName = (str) =>
     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
     .join(" ");
 
-// Function to populate the country filter dropdown
-function populateCountryFilter(servers) {
+// Function to populate the country filter dropdown based on all cached data
+function populateGlobalCountryFilter() {
   const countries = new Set();
-  servers.forEach((server) => {
-    if (server.country) {
-      countries.add(server.country);
+  // Iterate through all ISPs to collect all unique countries
+  for (const dir in cachedData) {
+    const data = cachedData[dir];
+    if (data && data.servers) {
+      data.servers.forEach((server) => {
+        if (server.country) {
+          countries.add(server.country);
+        }
+      });
     }
-  });
+  }
   const sortedCountries = Array.from(countries).sort();
 
+  const currentSelection = selectCountryFilter.value;
   selectCountryFilter.innerHTML = '<option value="">All Countries</option>';
   sortedCountries.forEach((country) => {
     const option = document.createElement("option");
@@ -51,6 +58,36 @@ function populateCountryFilter(servers) {
     option.textContent = country;
     selectCountryFilter.appendChild(option);
   });
+  // Restore current selection if it still exists
+  if (sortedCountries.includes(currentSelection)) {
+    selectCountryFilter.value = currentSelection;
+  }
+}
+
+// Function to populate the ISP dropdown based on a country filter
+function populateISPDropdown(country = "") {
+  const options = [];
+  for (const dir in cachedData) {
+    const data = cachedData[dir];
+    if (!data || !data.servers) continue;
+
+    // If a country filter is provided, check if the ISP has servers in that country
+    if (country) {
+      const hasCountry = data.servers.some((s) => s.country === country);
+      if (!hasCountry) continue;
+    }
+
+    const label = data.servers?.[0]?.sponsor || formatName(dir);
+    options.push({ value: dir, label });
+  }
+
+  options.sort((a, b) => a.label.localeCompare(b.label));
+
+  selectProvider.innerHTML = options
+    .map((opt) => `<option value="${opt.value}">${opt.label}</option>`)
+    .join("");
+
+  return options;
 }
 
 // Initialize the Leaflet map
@@ -120,7 +157,6 @@ async function loadProviders() {
       throw new Error(`HTTP error! status: ${res.status}`);
     }
     const dirs = await res.json(); // array of directory names like 'jio', 'hathway'
-    const options = [];
 
     // For each ISP directory, fetch the servers.json file
     for (const dir of dirs) {
@@ -136,29 +172,21 @@ async function loadProviders() {
 
         // Cache this JSON for later use (avoids re-fetching)
         cachedData[dir] = data;
-
-        // Label for dropdown: use sponsor name or fallback to formatted dir name
-        const label = data.servers?.[0]?.sponsor || formatName(dir);
-        options.push({ value: dir, label });
       } catch (err) {
         console.warn(`Failed to process data for ${dir}:`, err);
       }
     }
 
-    // Sort ISPs alphabetically by sponsor name
-    options.sort((a, b) => a.label.localeCompare(b.label));
-
-    // Render dropdown options
-    selectProvider.innerHTML = options
-      .map((opt) => `<option value="${opt.value}">${opt.label}</option>`)
-      .join("");
+    // Now populate filters globally from all cached data
+    populateGlobalCountryFilter();
+    const ispOptions = populateISPDropdown();
 
     // Load the first ISP by default
-    if (options.length > 0) {
+    if (ispOptions.length > 0) {
       // Reset filters when a new ISP is loaded
       selectCountryFilter.value = "";
       searchServersInput.value = "";
-      loadServers(options[0].value);
+      loadServers(ispOptions[0].value);
     } else {
       metadataDiv.innerHTML = `<p class="text-red-600">No ISP data available.</p>`;
       updateMapMarkers([]); // Clear map if no data
@@ -212,11 +240,6 @@ function loadServers(isp, countryFilter = "", searchTerm = "") {
 
   currentFilteredServers = filteredServers; // Store the filtered data for export
   updateMapMarkers(currentFilteredServers); // Update map with filtered servers
-
-  // Populate country filter based on the *original* full data for the ISP
-  populateCountryFilter(data.servers);
-  // Ensure the selected country filter remains active
-  selectCountryFilter.value = countryFilter;
 
   // Format last updated timestamp (24-hour format)
   const updatedAt = new Date(data.updated_at);
@@ -311,12 +334,27 @@ function exportToJson() {
 
 // Event listeners for filters
 selectProvider.addEventListener("change", () => {
-  // When ISP changes, reset country filter and search term, then load
-  selectCountryFilter.value = "";
+  // When ISP changes, reset search term but keep country filter, then load
   searchServersInput.value = "";
   applyFilters();
 });
-selectCountryFilter.addEventListener("change", applyFilters);
+
+selectCountryFilter.addEventListener("change", () => {
+  // When country changes, update the ISP list to only show relevant providers
+  const selectedCountry = selectCountryFilter.value;
+  const options = populateISPDropdown(selectedCountry);
+
+  // If the currently selected ISP is not in the new filtered list, select the first one
+  const currentIsp = selectProvider.value;
+  const isCurrentIspValid = options.some((opt) => opt.value === currentIsp);
+
+  if (!isCurrentIspValid && options.length > 0) {
+    selectProvider.value = options[0].value;
+  }
+
+  applyFilters();
+});
+
 // Debounce function to limit how often a function is called
 function debounce(func, delay) {
   let timeout;
@@ -327,14 +365,6 @@ function debounce(func, delay) {
   };
 }
 
-// Event listeners for filters
-selectProvider.addEventListener("change", () => {
-  // When ISP changes, reset country filter and search term, then load
-  selectCountryFilter.value = "";
-  searchServersInput.value = "";
-  applyFilters();
-});
-selectCountryFilter.addEventListener("change", applyFilters);
 searchServersInput.addEventListener("input", debounce(applyFilters, 300)); // Debounce search input by 300ms
 
 // Event listener for export button
