@@ -1,6 +1,7 @@
 services:
   speedtest_servers:
     image: ghcr.io/crazyuploader/speedtest-dashboard:latest
+    container_name: speedtest-servers
     volumes:
       - ./data:/app/data:ro
     ports:
@@ -8,7 +9,7 @@ services:
     restart: unless-stopped
     logging:
       options:
-        max-size: 256m
+        max-size: 64m
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8202/"]
       interval: 30s
