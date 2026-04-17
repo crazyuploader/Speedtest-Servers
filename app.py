@@ -8,14 +8,14 @@ __author__ = "Jugal Kishore <me@devjugal.com>"
 
 import json
 import os
-from flask import Flask, abort, render_template, jsonify
+from flask import Flask, abort, send_from_directory, jsonify
 from werkzeug.middleware.proxy_fix import ProxyFix
 
 # Define paths
 BASE_DIR = os.path.dirname(__file__)
 DATA_DIR = os.path.join(BASE_DIR, "data")  # JSON data folder
 
-app = Flask(__name__, template_folder="templates")
+app = Flask(__name__, static_folder="static")
 
 # Enable reverse proxy support
 app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1)
@@ -24,7 +24,7 @@ app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1)
 @app.route("/")
 def dashboard():
     """Serve the main dashboard HTML"""
-    return render_template("index.html")
+    return send_from_directory(BASE_DIR, "index.html")
 
 
 @app.route("/data/<term>/servers.json")

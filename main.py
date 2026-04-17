@@ -157,6 +157,26 @@ def main():
         except json.JSONDecodeError:
             print(f"ERROR: Failed to decode JSON response for '{term}'.")
 
+    update_isp_list()
+
+
+def update_isp_list():
+    """Updates the isps.json file with all directories in BASE_DATA_DIR that contain servers.json."""
+    print("\n--- Updating ISP list ---")
+    try:
+        isp_dirs = sorted(
+            d
+            for d in os.listdir(BASE_DATA_DIR)
+            if os.path.isdir(os.path.join(BASE_DATA_DIR, d))
+            and os.path.isfile(os.path.join(BASE_DATA_DIR, d, "servers.json"))
+        )
+        file_path = os.path.join(BASE_DATA_DIR, "isps.json")
+        with open(file_path, "w", encoding="utf-8") as f:
+            json.dump(isp_dirs, f, ensure_ascii=False, indent=4)
+        print(f"INFO: Successfully updated '{file_path}' with {len(isp_dirs)} ISPs")
+    except Exception as e:
+        print(f"ERROR: Could not update ISP list: {e}")
+
 
 if __name__ == "__main__":
     main()
