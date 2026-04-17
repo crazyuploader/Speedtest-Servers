@@ -44,6 +44,30 @@ const formatName = (str) =>
     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
     .join(" ");
 
+// Helper to find the longest common prefix among an array of strings
+function getCommonSponsorPrefix(sponsors) {
+  if (!sponsors || sponsors.length === 0) return "";
+  if (sponsors.length === 1) return sponsors[0];
+
+  // Filter out any empty or null sponsors
+  const validSponsors = sponsors.filter((s) => s && s.trim().length > 0);
+  if (validSponsors.length === 0) return "";
+  if (validSponsors.length === 1) return validSponsors[0];
+
+  // Sort and compare first and last to find common prefix
+  const sorted = [...validSponsors].sort();
+  const first = sorted[0];
+  const last = sorted[sorted.length - 1];
+  let i = 0;
+  while (i < first.length && first[i] === last[i]) {
+    i++;
+  }
+  let prefix = first.substring(0, i).trim();
+
+  // If prefix is too short or empty, fallback
+  return prefix.length > 2 ? prefix : null;
+}
+
 // Function to populate the country filter dropdown based on all cached data
 function populateGlobalCountryFilter() {
   const countries = new Set();
@@ -81,13 +105,32 @@ function populateISPDropdown(country = "") {
     const data = cachedData[dir];
     if (!data || !data.servers) continue;
 
-    // If a country filter is provided, check if the ISP has servers in that country
+    // Filter servers by country if a filter is provided
+    let relevantServers = data.servers;
     if (country) {
-      const hasCountry = data.servers.some((s) => s.country === country);
-      if (!hasCountry) continue;
+      relevantServers = data.servers.filter((s) => s.country === country);
+      if (relevantServers.length === 0) continue;
     }
 
-    const label = data.servers?.[0]?.sponsor || formatName(dir);
+    // Determine the best label for the ISP
+    const sponsors = Array.from(new Set(relevantServers.map((s) => s.sponsor)));
+    let label = null;
+
+    if (sponsors.length === 1) {
+      label = sponsors[0];
+    } else {
+      // Try to find a common prefix (e.g., "MyRepublic Indonesia" & "MyRepublic Singapore" -> "MyRepublic")
+      const commonPrefix = getCommonSponsorPrefix(sponsors);
+      if (commonPrefix) {
+        label = commonPrefix;
+      }
+    }
+
+    // Fallback to formatted directory name if no clear sponsor label found
+    if (!label) {
+      label = formatName(dir);
+    }
+
     options.push({ value: dir, label });
   }
 
