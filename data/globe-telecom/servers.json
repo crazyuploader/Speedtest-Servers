@@ -1,0 +1,406 @@
+{
+  "servers": [
+    {
+      "url": "http://ant2-speedtest.globe.com.ph:8080/speedtest/upload.php",
+      "lat": "14.5992",
+      "lon": "121.1943",
+      "name": "Antipolo",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Globe Telecom",
+      "id": "3948",
+      "preferred": 0,
+      "isp_id": "900",
+      "https_functional": 1,
+      "host": "ant2-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ant2-speedtest.globe.com.ph",
+      "ip_address": {
+        "A": "124.6.181.206",
+        "AAAA": "2001:fd8:3b1:1::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://bcn-speedtest.globe.com.ph:8080/speedtest/upload.php",
+      "lat": "10.6667",
+      "lon": "122.9500",
+      "name": "Bacolod",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Globe Telecom",
+      "id": "20539",
+      "preferred": 0,
+      "isp_id": "900",
+      "https_functional": 1,
+      "host": "bcn-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "bcn-speedtest.globe.com.ph",
+      "ip_address": {
+        "A": "120.28.63.202",
+        "AAAA": "2001:fe0:10:e3::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://bgo-speedtest.globe.com.ph:8080/speedtest/upload.php",
+      "lat": "16.4023",
+      "lon": "120.5960",
+      "name": "Baguio City",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Globe Telecom",
+      "id": "29126",
+      "preferred": 0,
+      "isp_id": "900",
+      "https_functional": 1,
+      "host": "bgo-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "bgo-speedtest.globe.com.ph",
+      "ip_address": {
+        "A": "124.6.181.218",
+        "AAAA": "2001:fe0:10:ea::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://cdo2-speedtest.globe.com.ph:8080/speedtest/upload.php",
+      "lat": "8.4542",
+      "lon": "124.6319",
+      "name": "Cagayan de Oro",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Globe Telecom",
+      "id": "28756",
+      "preferred": 0,
+      "isp_id": "900",
+      "https_functional": 1,
+      "host": "cdo2-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "cdo2-speedtest.globe.com.ph",
+      "ip_address": {
+        "A": "120.28.4.74",
+        "AAAA": "2001:fe0:10:e6::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://cln-speedtest.globe.com.ph:8080/speedtest/upload.php",
+      "lat": "14.7566",
+      "lon": "121.0450",
+      "name": "Caloocan City",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Globe Telecom",
+      "id": "61860",
+      "preferred": 0,
+      "isp_id": "900",
+      "https_functional": 1,
+      "host": "cln-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "cln-speedtest.globe.com.ph",
+      "ip_address": {
+        "A": "124.6.181.210",
+        "AAAA": "2001:fd8:3b1:3::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://lhg2-speedtest.globe.com.ph:8080/speedtest/upload.php",
+      "lat": "10.2833",
+      "lon": "123.9000",
+      "name": "Cebu City",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Globe Telecom",
+      "id": "3735",
+      "preferred": 0,
+      "isp_id": "900",
+      "https_functional": 1,
+      "host": "lhg2-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "lhg2-speedtest.globe.com.ph",
+      "ip_address": {
+        "A": "120.28.63.206",
+        "AAAA": "2001:fe0:10:e4::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://sfp-speedtest.globe.com.ph:8080/speedtest/upload.php",
+      "lat": "15.1846",
+      "lon": "120.5569",
+      "name": "Clark City",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Globe Telecom",
+      "id": "41186",
+      "preferred": 0,
+      "isp_id": "900",
+      "https_functional": 1,
+      "host": "sfp-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "sfp-speedtest.globe.com.ph",
+      "ip_address": {
+        "A": "124.6.181.202",
+        "AAAA": "2001:fe0:10:e8::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://dav3-speedtest.globe.com.ph:8080/speedtest/upload.php",
+      "lat": "7.0644",
+      "lon": "125.6078",
+      "name": "Davao City",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Globe Telecom",
+      "id": "34918",
+      "preferred": 0,
+      "isp_id": "900",
+      "https_functional": 1,
+      "host": "dav3-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "dav3-speedtest.globe.com.ph",
+      "ip_address": {
+        "A": "124.6.181.234",
+        "AAAA": "2001:fe0:10:e9::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ilo-speedtest.globe.com.ph:8080/speedtest/upload.php",
+      "lat": "11.0000",
+      "lon": "122.6667",
+      "name": "Iloilo",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Globe Telecom",
+      "id": "20538",
+      "preferred": 0,
+      "isp_id": "900",
+      "https_functional": 1,
+      "host": "ilo-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ilo-speedtest.globe.com.ph",
+      "ip_address": {
+        "A": "120.28.63.198",
+        "AAAA": "2001:fe0:10:e5::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://imu2-speedtest.globe.com.ph:8080/speedtest/upload.php",
+      "lat": "14.4000",
+      "lon": "120.9333",
+      "name": "Imus",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Globe Telecom",
+      "id": "3947",
+      "preferred": 0,
+      "isp_id": "900",
+      "https_functional": 1,
+      "host": "imu2-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "imu2-speedtest.globe.com.ph",
+      "ip_address": {
+        "A": "124.6.181.230",
+        "AAAA": "2001:fd8:2f2:b::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.globe.com.ph:8080/speedtest/upload.php",
+      "lat": "14.5500",
+      "lon": "121.0300",
+      "name": "Makati",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Globe Telecom",
+      "id": "1169",
+      "preferred": 0,
+      "isp_id": "316764",
+      "https_functional": 1,
+      "host": "speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.globe.com.ph",
+      "ip_address": {
+        "A": "203.177.54.138",
+        "AAAA": "2001:fe0:10:e0::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://mnl-speedtest.globe.com.ph:8080/speedtest/upload.php",
+      "lat": "14.5800",
+      "lon": "121.0000",
+      "name": "Manila",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Globe Telecom",
+      "id": "20273",
+      "preferred": 0,
+      "isp_id": "316764",
+      "https_functional": 1,
+      "host": "mnl-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "mnl-speedtest.globe.com.ph",
+      "ip_address": {
+        "A": "203.177.54.142",
+        "AAAA": "2001:fd8:1:2::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://psg-speedtest.globe.com.ph:8080/speedtest/upload.php",
+      "lat": "14.5764",
+      "lon": "121.0851",
+      "name": "Pasig City",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Globe Telecom",
+      "id": "3757",
+      "preferred": 0,
+      "isp_id": "900",
+      "https_functional": 1,
+      "host": "psg-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "psg-speedtest.globe.com.ph",
+      "ip_address": {
+        "A": "124.6.181.222",
+        "AAAA": "2001:fd8:3b1:2::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://qc2-speedtest.globe.com.ph:8080/speedtest/upload.php",
+      "lat": "14.6300",
+      "lon": "121.0300",
+      "name": "Quezon City",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Globe Telecom",
+      "id": "9398",
+      "preferred": 0,
+      "isp_id": "316764",
+      "https_functional": 1,
+      "host": "qc2-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "qc2-speedtest.globe.com.ph",
+      "ip_address": {
+        "A": "203.177.54.150",
+        "AAAA": "2001:fd8:1:3::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://sjdm-speedtest.globe.com.ph:8080/speedtest/upload.php",
+      "lat": "14.8143",
+      "lon": "121.0725",
+      "name": "San Jose del Monte",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Globe Telecom",
+      "id": "41185",
+      "preferred": 0,
+      "isp_id": "900",
+      "https_functional": 1,
+      "host": "sjdm-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "sjdm-speedtest.globe.com.ph",
+      "ip_address": {
+        "A": "124.6.181.226",
+        "AAAA": "2001:fd8:3b1:4::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://srs-speedtest.globe.com.ph:8080/speedtest/upload.php",
+      "lat": "14.2786",
+      "lon": "121.0967",
+      "name": "Santa Rosa",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Globe Telecom",
+      "id": "41188",
+      "preferred": 0,
+      "isp_id": "900",
+      "https_functional": 1,
+      "host": "srs-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "srs-speedtest.globe.com.ph",
+      "ip_address": {
+        "A": "124.6.181.214",
+        "AAAA": "2001:fd8:2f2:c::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://tac-speedtest.globe.com.ph:8080/speedtest/upload.php",
+      "lat": "11.2543",
+      "lon": "124.9617",
+      "name": "Tacloban",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Globe Telecom",
+      "id": "20537",
+      "preferred": 0,
+      "isp_id": "900",
+      "https_functional": 1,
+      "host": "tac-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "tac-speedtest.globe.com.ph",
+      "ip_address": {
+        "A": "120.28.63.194",
+        "AAAA": "2001:fe0:10:e2::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://tgt-speedtest.globe.com.ph:8080/speedtest/upload.php",
+      "lat": "14.5176",
+      "lon": "121.0509",
+      "name": "Taguig",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Globe Telecom",
+      "id": "20274",
+      "preferred": 0,
+      "isp_id": "316764",
+      "https_functional": 1,
+      "host": "tgt-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "tgt-speedtest.globe.com.ph",
+      "ip_address": {
+        "A": "203.177.54.146",
+        "AAAA": "2001:fe0:10:e1::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://tlc2-speedtest.globe.com.ph:8080/speedtest/upload.php",
+      "lat": "15.5000",
+      "lon": "120.5000",
+      "name": "Tarlac",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Globe Telecom",
+      "id": "3756",
+      "preferred": 0,
+      "isp_id": "900",
+      "https_functional": 1,
+      "host": "tlc2-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "tlc2-speedtest.globe.com.ph",
+      "ip_address": {
+        "A": "124.6.181.198",
+        "AAAA": "2001:fe0:10:eb::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://dav2-speedtest.globe.com.ph:8080/speedtest/upload.php",
+      "lat": "6.9214",
+      "lon": "122.0790",
+      "name": "Zamboanga",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Globe Telecom",
+      "id": "4192",
+      "preferred": 0,
+      "isp_id": "900",
+      "https_functional": 1,
+      "host": "dav2-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "dav2-speedtest.globe.com.ph",
+      "ip_address": {
+        "A": "120.28.4.78",
+        "AAAA": "2001:fe0:10:e7::2"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 20,
+  "updated_at": "2026-04-17T10:27:05.099455+00:00"
+}

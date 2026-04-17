@@ -1,0 +1,196 @@
+{
+  "servers": [
+    {
+      "url": "http://speedtest.aceh.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "4.6951",
+      "lon": "96.7494",
+      "name": "Aceh",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "MyRepublic Indonesia",
+      "id": "72052",
+      "preferred": 0,
+      "isp_id": "108000",
+      "https_functional": 1,
+      "host": "speedtest.aceh.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.aceh.myrepublic.net.id",
+      "ip_address": {
+        "A": "157.66.210.197"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest.tangerang2.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "-6.2980",
+      "lon": "106.6522",
+      "name": "BSD City",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "MyRepublic Indonesia",
+      "id": "72618",
+      "preferred": 0,
+      "isp_id": "108000",
+      "https_functional": 1,
+      "host": "speedtest.tangerang2.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.tangerang2.myrepublic.net.id",
+      "ip_address": {
+        "A": "157.66.210.199"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest.makasar.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "-5.1616",
+      "lon": "119.4359",
+      "name": "Makassar",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "MyRepublic Indonesia",
+      "id": "72796",
+      "preferred": 0,
+      "isp_id": "108000",
+      "https_functional": 1,
+      "host": "speedtest.makasar.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.makasar.myrepublic.net.id",
+      "ip_address": {
+        "A": "103.129.173.9"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest.malang.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "-7.9800",
+      "lon": "112.6200",
+      "name": "Malang",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "MyRepublic Indonesia",
+      "id": "46071",
+      "preferred": 0,
+      "isp_id": "108000",
+      "https_functional": 1,
+      "host": "speedtest.malang.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.malang.myrepublic.net.id",
+      "ip_address": {
+        "A": "158.140.186.73"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest.medan.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "3.5833",
+      "lon": "98.6667",
+      "name": "Medan",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "MyRepublic Indonesia",
+      "id": "46095",
+      "preferred": 0,
+      "isp_id": "108000",
+      "https_functional": 1,
+      "host": "speedtest.medan.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.medan.myrepublic.net.id",
+      "ip_address": {
+        "A": "158.140.186.81"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest.palembang.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "-2.9911",
+      "lon": "104.7567",
+      "name": "Palembang",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "MyRepublic Indonesia",
+      "id": "46443",
+      "preferred": 0,
+      "isp_id": "108000",
+      "https_functional": 1,
+      "host": "speedtest.palembang.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.palembang.myrepublic.net.id",
+      "ip_address": {
+        "A": "158.140.186.83"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest.semarang.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "-6.9667",
+      "lon": "110.4167",
+      "name": "Semarang",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "MyRepublic Indonesia",
+      "id": "46092",
+      "preferred": 0,
+      "isp_id": "108000",
+      "https_functional": 1,
+      "host": "speedtest.semarang.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.semarang.myrepublic.net.id",
+      "ip_address": {
+        "A": "158.140.186.77"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest.myrepublic.com.sg:8080/speedtest/upload.php",
+      "lat": "1.3000",
+      "lon": "103.8000",
+      "name": "Singapore",
+      "country": "Singapore",
+      "cc": "SG",
+      "sponsor": "MyRepublic Singapore",
+      "id": "5935",
+      "preferred": 0,
+      "isp_id": "77753",
+      "https_functional": 1,
+      "host": "speedtest.myrepublic.com.sg.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.myrepublic.com.sg",
+      "ip_address": {
+        "A": "103.6.148.98"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest.surabaya.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "-7.2667",
+      "lon": "112.7333",
+      "name": "Surabaya",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "MyRepublic Indonesia",
+      "id": "46091",
+      "preferred": 0,
+      "isp_id": "108000",
+      "https_functional": 1,
+      "host": "speedtest.surabaya.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.surabaya.myrepublic.net.id",
+      "ip_address": {
+        "A": "158.140.186.79"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest.tangerang.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "-6.1783",
+      "lon": "106.6319",
+      "name": "Tangerang",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "MyRepublic Indonesia",
+      "id": "46362",
+      "preferred": 0,
+      "isp_id": "108000",
+      "https_functional": 1,
+      "host": "speedtest.tangerang.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.tangerang.myrepublic.net.id",
+      "ip_address": {
+        "A": "158.140.186.75"
+      },
+      "ipv6_capable": "no"
+    }
+  ],
+  "total_servers": 10,
+  "updated_at": "2026-04-17T10:26:55.251942+00:00"
+}
