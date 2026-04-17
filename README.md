@@ -15,6 +15,7 @@ This repository contains JSON files, each dedicated to a specific ISP, holding a
 
 **Explore the Server Data:**
 
+- [3BB](data/3bb/servers.json)
 - [ACT Fibernet](data/act-fibernet/servers.json)
 - [Alliance Broadband Services Pvt. Ltd.](data/alliance-broadband-services-pvt-ltd/servers.json)
 - [Asianet Broadband](data/asianet-broadband/servers.json)
@@ -31,8 +32,10 @@ This repository contains JSON files, each dedicated to a specific ISP, holding a
 - [RailTel Corporation of India Ltd.](data/railtel-corporation-of-india-ltd/servers.json)
 - [Shyam Spectra](data/shyam-spectra/servers.json)
 - [Siti Broadband](data/siti-broadband/servers.json)
+- [Tata Communications](data/tata-communications/servers.json)
 - [Tata Play Fiber](data/tata-play-fiber/servers.json)
 - [Tata Teleservices Ltd.](data/tata-teleservices-ltd/servers.json)
+- [Truemove H](data/truemove-h/servers.json)
 - [VI India](data/vi-india/servers.json)
 - [YOU Broadband India Pvt. Ltd.](data/you-broadband-india/servers.json)
 

@@ -94,76 +94,78 @@ def main():
         print(f"ERROR: Could not create base directory '{BASE_DATA_DIR}/': {e}")
         sys.exit(1)
 
-    for term in search_terms:
-        print(f"\n--- Processing term: {term.title()} ---")
+    try:
+        for term in search_terms:
+            print(f"\n--- Processing term: {term.title()} ---")
 
-        sanitized_term = sanitize_name(term)
-        term_data_dir = os.path.join(BASE_DATA_DIR, sanitized_term)
+            sanitized_term = sanitize_name(term)
+            term_data_dir = os.path.join(BASE_DATA_DIR, sanitized_term)
 
-        # Create a dedicated directory for this term
-        try:
-            os.makedirs(term_data_dir, exist_ok=True)
-            print(f"INFO: Using directory: '{term_data_dir}/'")
-        except OSError as e:
-            print(f"ERROR: Could not create directory '{term_data_dir}/': {e}")
-            continue
-
-        print(f"INFO: Fetching servers for '{term}'...")
-        try:
-            response = requests.get(
-                f"{SPEEDTEST_SERVERS_URL}{term}", timeout=30, allow_redirects=True
-            )
-            response.raise_for_status()
-            data = {}
-            servers_data = response.json().get("servers", [])
-
-            if not servers_data:
-                print(f"WARNING: No servers found for '{term}'.")
+            # Create a dedicated directory for this term
+            try:
+                os.makedirs(term_data_dir, exist_ok=True)
+                print(f"INFO: Using directory: '{term_data_dir}/'")
+            except OSError as e:
+                print(f"ERROR: Could not create directory '{term_data_dir}/': {e}")
                 continue
 
-            for server in servers_data:
-                server.pop("distance", None)
-                hostname = jc.parse("url", server.get("url", "")).get("hostname", None)
-                if hostname:
-                    server["hostname"] = hostname
-                    ip_address = resolve_hostname(hostname) or {}
-                    server["ip_address"] = ip_address
-                    server["ipv6_capable"] = "yes" if ip_address.get("AAAA") else "no"
+            print(f"INFO: Fetching servers for '{term}'...")
+            try:
+                response = requests.get(
+                    f"{SPEEDTEST_SERVERS_URL}{term}", timeout=30, allow_redirects=True
+                )
+                response.raise_for_status()
+                data = {}
+                servers_data = response.json().get("servers", [])
 
-            # Sort servers alphabetically by the 'name' key (City Name)
-            servers_data.sort(key=lambda s: s.get("name", "").lower())
+                if not servers_data:
+                    print(f"WARNING: No servers found for '{term}'.")
+                    continue
 
-            current_time = datetime.now(timezone.utc).astimezone().isoformat()
-            data = {
-                "servers": servers_data,
-                "total_servers": len(servers_data),
-                "updated_at": current_time,
-            }
+                for server in servers_data:
+                    server.pop("distance", None)
+                    hostname = jc.parse("url", server.get("url", "")).get("hostname", None)
+                    if hostname:
+                        server["hostname"] = hostname
+                        ip_address = resolve_hostname(hostname) or {}
+                        server["ip_address"] = ip_address
+                        server["ipv6_capable"] = "yes" if ip_address.get("AAAA") else "no"
 
-            file_path = os.path.join(term_data_dir, "servers.json")
+                # Sort servers alphabetically by the 'name' key (City Name)
+                servers_data.sort(key=lambda s: s.get("name", "").lower())
 
-            with open(file_path, "w", encoding="utf-8") as f:
-                json.dump(data, f, ensure_ascii=False, indent=4)
+                current_time = datetime.now(timezone.utc).astimezone().isoformat()
+                data = {
+                    "servers": servers_data,
+                    "total_servers": len(servers_data),
+                    "updated_at": current_time,
+                }
 
-            print(
-                f"INFO: Successfully saved {len(servers_data)} servers to '{file_path}'"
-            )
-            print(f"\nSummary for '{term.title()}':")
-            for i, server in enumerate(servers_data, 1):
-                print(f"{i}. {server.get('name')} - IPv6: {server['ipv6_capable']}")
+                file_path = os.path.join(term_data_dir, "servers.json")
 
-        except requests.exceptions.RequestException as e:
-            print(f"ERROR: Could not fetch servers for '{term}': {e}")
-        except json.JSONDecodeError:
-            print(f"ERROR: Failed to decode JSON response for '{term}'.")
+                with open(file_path, "w", encoding="utf-8") as f:
+                    json.dump(data, f, ensure_ascii=False, indent=4)
 
-    update_isp_list()
+                print(
+                    f"INFO: Successfully saved {len(servers_data)} servers to '{file_path}'"
+                )
+                print(f"\nSummary for '{term.title()}':")
+                for i, server in enumerate(servers_data, 1):
+                    print(f"{i}. {server.get('name')} - IPv6: {server['ipv6_capable']}")
+
+            except requests.exceptions.RequestException as e:
+                print(f"ERROR: Could not fetch servers for '{term}': {e}")
+            except json.JSONDecodeError:
+                print(f"ERROR: Failed to decode JSON response for '{term}'.")
+    finally:
+        update_isp_list()
 
 
 def update_isp_list():
     """Updates the isps.json file with all directories in BASE_DATA_DIR that contain servers.json."""
     print("\n--- Updating ISP list ---")
     try:
+        os.makedirs(BASE_DATA_DIR, exist_ok=True)
         isp_dirs = sorted(
             d
             for d in os.listdir(BASE_DATA_DIR)
@@ -174,7 +176,7 @@ def update_isp_list():
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(isp_dirs, f, ensure_ascii=False, indent=4)
         print(f"INFO: Successfully updated '{file_path}' with {len(isp_dirs)} ISPs")
-    except Exception as e:
+    except (OSError, TypeError, ValueError) as e:
         print(f"ERROR: Could not update ISP list: {e}")
 
 

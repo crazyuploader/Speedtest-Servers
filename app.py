@@ -27,6 +27,12 @@ def dashboard():
     return send_from_directory(BASE_DIR, "index.html")
 
 
+@app.route("/data/isps.json")
+def serve_isp_list():
+    """Serve the static ISP list JSON file."""
+    return send_from_directory(DATA_DIR, "isps.json")
+
+
 @app.route("/data/<term>/servers.json")
 def serve_json(term):
     """Serve servers.json for a given ISP"""
@@ -41,21 +47,6 @@ def serve_json(term):
         return jsonify(data)
     except json.JSONDecodeError:
         return jsonify({"error": "Invalid JSON format"}), 500
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
-
-
-@app.route("/list")
-def list_isps():
-    """List all available ISPs that have a servers.json"""
-    try:
-        isp_dirs = sorted(
-            d
-            for d in os.listdir(DATA_DIR)
-            if os.path.isdir(os.path.join(DATA_DIR, d))
-            and os.path.isfile(os.path.join(DATA_DIR, d, "servers.json"))
-        )
-        return jsonify(isp_dirs)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
