@@ -41,26 +41,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://ooklabsnlazl.freeddns.org:8080/speedtest/upload.php",
-      "lat": "23.7285",
-      "lon": "92.7188",
-      "name": "Aizawl",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "BHARAT SANCHAR NIGAM LTD",
-      "id": "60294",
-      "preferred": 0,
-      "isp_id": "73461",
-      "https_functional": 1,
-      "host": "ooklabsnlazl.freeddns.org.prod.hosts.ooklaserver.net:8080",
-      "hostname": "ooklabsnlazl.freeddns.org",
-      "ip_address": {
-        "A": "117.250.116.225",
-        "AAAA": "2001:4490:dff8::12"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://bsnlooklachd.mywire.org:8080/speedtest/upload.php",
       "lat": "30.7333",
       "lon": "76.7794",
@@ -201,6 +181,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 10,
-  "updated_at": "2026-04-20T02:02:00.184163+00:00"
+  "total_servers": 9,
+  "updated_at": "2026-04-21T01:57:18.620447+00:00"
 }

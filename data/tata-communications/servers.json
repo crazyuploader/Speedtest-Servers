@@ -280,25 +280,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://ookla.mu.as6453.net:8080/speedtest/upload.php",
-      "lat": "18.9647",
-      "lon": "72.8258",
-      "name": "Mumbai",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Tata Communications",
-      "id": "73041",
-      "preferred": 0,
-      "isp_id": "37733",
-      "host": "ookla.mu.as6453.net:8080",
-      "hostname": "ookla.mu.as6453.net",
-      "ip_address": {
-        "A": "59.160.56.4",
-        "AAAA": "2403:0:13b:5::4"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://ookla.n0v.as6453.net:8080/speedtest/upload.php",
       "lat": "40.7128",
       "lon": "-74.0060",
@@ -399,26 +380,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://ookla.m3h.as6453.net:8080/speedtest/upload.php",
-      "lat": "-33.8623",
-      "lon": "151.2077",
-      "name": "Sydney",
-      "country": "Australia",
-      "cc": "AU",
-      "sponsor": "Tata Communications",
-      "id": "73631",
-      "preferred": 0,
-      "isp_id": "153522",
-      "https_functional": 1,
-      "host": "ookla.m3h.as6453.net.prod.hosts.ooklaserver.net:8080",
-      "hostname": "ookla.m3h.as6453.net",
-      "ip_address": {
-        "A": "180.87.35.29",
-        "AAAA": "2405:2000:2000:10::d382"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://ookla.z3z.as6453.net:8080/speedtest/upload.php",
       "lat": "47.3952",
       "lon": "8.4925",
@@ -439,6 +400,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 22,
-  "updated_at": "2026-04-20T02:03:02.875569+00:00"
+  "total_servers": 20,
+  "updated_at": "2026-04-21T01:58:22.489232+00:00"
 }
