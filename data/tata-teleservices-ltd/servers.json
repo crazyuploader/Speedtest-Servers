@@ -11,6 +11,7 @@
       "id": "47667",
       "preferred": 0,
       "isp_id": "2434",
+      "https_functional": 1,
       "host": "stblr.tatatelebusiness.com:8080",
       "hostname": "stblr.tatatelebusiness.com",
       "ip_address": {
@@ -81,5 +82,5 @@
     }
   ],
   "total_servers": 4,
-  "updated_at": "2026-04-21T01:58:26.412572+00:00"
+  "updated_at": "2026-04-22T01:57:10.772835+00:00"
 }
