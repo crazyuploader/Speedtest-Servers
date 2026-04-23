@@ -139,28 +139,8 @@
         "AAAA": "2001:fb0:7fff:dc::2"
       },
       "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://spd-srt.trueinternet.co.th:8080/speedtest/upload.php",
-      "lat": "9.1333",
-      "lon": "99.3317",
-      "name": "Surat Thani",
-      "country": "Thailand",
-      "cc": "TH",
-      "sponsor": "TrueMove H",
-      "id": "61295",
-      "preferred": 0,
-      "isp_id": "208623",
-      "https_functional": 1,
-      "host": "spd-srt.trueinternet.co.th:8080",
-      "hostname": "spd-srt.trueinternet.co.th",
-      "ip_address": {
-        "A": "27.55.63.1",
-        "AAAA": "2001:fb0:7fff:700::7d0"
-      },
-      "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 8,
-  "updated_at": "2026-04-22T01:57:30.441487+00:00"
+  "total_servers": 7,
+  "updated_at": "2026-04-23T02:01:48.469598+00:00"
 }
