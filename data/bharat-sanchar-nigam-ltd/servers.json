@@ -91,7 +91,8 @@
       "id": "12938",
       "preferred": 0,
       "isp_id": "73461",
-      "host": "bsnlooklachn.ddnsfree.com:8080",
+      "https_functional": 1,
+      "host": "bsnlooklachn.ddnsfree.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "bsnlooklachn.ddnsfree.com",
       "ip_address": {
         "A": "117.250.238.251",
@@ -181,5 +182,5 @@
     }
   ],
   "total_servers": 9,
-  "updated_at": "2026-04-28T02:12:35.489045+00:00"
+  "updated_at": "2026-04-29T02:13:33.679443+00:00"
 }

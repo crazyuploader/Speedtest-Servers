@@ -15,10 +15,9 @@
       "host": "kanpur.sitibroadband.co.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "kanpur.sitibroadband.co.in",
       "ip_address": {
-        "A": "103.171.100.254",
-        "AAAA": "2402:ea80:13:2::3"
+        "A": "103.217.244.254"
       },
-      "ipv6_capable": "yes"
+      "ipv6_capable": "no"
     },
     {
       "url": "http://karnal.sitibroadband.co.in:8080/speedtest/upload.php",
@@ -81,5 +80,5 @@
     }
   ],
   "total_servers": 4,
-  "updated_at": "2026-04-28T02:13:32.325870+00:00"
+  "updated_at": "2026-04-29T02:14:20.795715+00:00"
 }
