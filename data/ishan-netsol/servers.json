@@ -261,26 +261,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://rajkot-speedtest.ishancloud.com:8080/speedtest/upload.php",
-      "lat": "22.3000",
-      "lon": "70.7833",
-      "name": "Rajkot",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Ishan Netsol Pvt Ltd",
-      "id": "48325",
-      "preferred": 0,
-      "isp_id": "27544",
-      "https_functional": 1,
-      "host": "rajkot-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "rajkot-speedtest.ishancloud.com",
-      "ip_address": {
-        "A": "119.160.192.77",
-        "AAAA": "2405:f600:1:2d::5"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://ranchi-speedtest.ishancloud.com:8080/speedtest/upload.php",
       "lat": "23.3441",
       "lon": "85.3096",
@@ -341,6 +321,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 17,
-  "updated_at": "2026-04-29T02:13:54.763029+00:00"
+  "total_servers": 16,
+  "updated_at": "2026-04-30T02:14:26.259694+00:00"
 }
