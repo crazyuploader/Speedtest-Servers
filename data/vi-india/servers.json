@@ -350,7 +350,6 @@
       "id": "71697",
       "preferred": 0,
       "isp_id": "23698",
-      "https_functional": 1,
       "host": "speedtest.rob.vodafoneidea.com:8080",
       "hostname": "speedtest.rob.vodafoneidea.com",
       "ip_address": {
@@ -361,5 +360,5 @@
     }
   ],
   "total_servers": 18,
-  "updated_at": "2026-04-30T02:15:20.147565+00:00"
+  "updated_at": "2026-05-01T02:29:14.795511+00:00"
 }
