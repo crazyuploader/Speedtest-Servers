@@ -170,7 +170,7 @@
       "sponsor": "Tata Communications",
       "id": "73629",
       "preferred": 0,
-      "isp_id": "310580",
+      "isp_id": "310586",
       "https_functional": 1,
       "host": "ookla.hk2.as6453.net.prod.hosts.ooklaserver.net:8080",
       "hostname": "ookla.hk2.as6453.net",
@@ -276,26 +276,6 @@
       "ip_address": {
         "A": "66.198.161.133",
         "AAAA": "2001:5a0:3604:3::1:54"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://ookla.mu.as6453.net:8080/speedtest/upload.php",
-      "lat": "18.9647",
-      "lon": "72.8258",
-      "name": "Mumbai",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Tata Communications",
-      "id": "73041",
-      "preferred": 0,
-      "isp_id": "37733",
-      "https_functional": 1,
-      "host": "ookla.mu.as6453.net.prod.hosts.ooklaserver.net:8080",
-      "hostname": "ookla.mu.as6453.net",
-      "ip_address": {
-        "A": "59.160.56.4",
-        "AAAA": "2403:0:13b:5::4"
       },
       "ipv6_capable": "yes"
     },
@@ -440,6 +420,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 22,
-  "updated_at": "2026-05-01T02:29:01.516600+00:00"
+  "total_servers": 21,
+  "updated_at": "2026-05-02T02:06:20.582841+00:00"
 }
