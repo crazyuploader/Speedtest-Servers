@@ -1,0 +1,485 @@
+{
+  "servers": [
+    {
+      "url": "http://lg-ams.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "52.3667",
+      "lon": "4.9000",
+      "name": "Amsterdam",
+      "country": "Netherlands",
+      "cc": "NL",
+      "sponsor": "fdcservers.net",
+      "id": "9913",
+      "preferred": 0,
+      "isp_id": "27716",
+      "https_functional": 1,
+      "host": "lg-ams.fdcservers.net:8080",
+      "hostname": "lg-ams.fdcservers.net",
+      "ip_address": {
+        "A": "50.7.230.46",
+        "AAAA": "2001:49f0:d00d:ff00::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://lg-iad.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "39.0438",
+      "lon": "-77.4874",
+      "name": "Ashburn, VA",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "fdcservers.net",
+      "id": "6030",
+      "preferred": 0,
+      "isp_id": "213182",
+      "host": "lg-iad.fdcservers.net:8080",
+      "hostname": "lg-iad.fdcservers.net",
+      "ip_address": {
+        "A": "198.255.79.14",
+        "AAAA": "2001:49f0:d025::6"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://lg-atl.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "33.7483",
+      "lon": "-84.3911",
+      "name": "Atlanta, GA",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "fdcservers.net",
+      "id": "26653",
+      "preferred": 0,
+      "isp_id": "27716",
+      "host": "lg-atl.fdcservers.net:8080",
+      "hostname": "lg-atl.fdcservers.net",
+      "ip_address": {
+        "A": "23.237.162.117",
+        "AAAA": "2001:49f0:d0d1:a::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "https://lg-chie.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "41.8369",
+      "lon": "-87.6847",
+      "name": "Chicago, IL",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "fdcservers.net",
+      "id": "11750",
+      "preferred": 0,
+      "isp_id": "213182",
+      "host": "lg-chie.fdcservers.net:8080",
+      "hostname": "lg-chie.fdcservers.net",
+      "ip_address": {
+        "A": "216.227.156.110",
+        "AAAA": "2001:49f0:d130:a::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "https://lg-dfw.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "32.7767",
+      "lon": "-96.7970",
+      "name": "Dallas, TX",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "fdcservers.net",
+      "id": "26652",
+      "preferred": 0,
+      "isp_id": "213182",
+      "host": "lg-dfw.fdcservers.net:8080",
+      "hostname": "lg-dfw.fdcservers.net",
+      "ip_address": {
+        "A": "216.227.166.6",
+        "AAAA": "2001:49f0:d0d2::6"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://lg-dene.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "39.7392",
+      "lon": "-104.9903",
+      "name": "Denver, CO",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "fdcservers.net",
+      "id": "9912",
+      "preferred": 0,
+      "isp_id": "27716",
+      "host": "lg-dene.fdcservers.net:8080",
+      "hostname": "lg-dene.fdcservers.net",
+      "ip_address": {
+        "A": "23.237.195.62",
+        "AAAA": "2001:49f0:d11f:100::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://lg-dub.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "53.3478",
+      "lon": "-6.2597",
+      "name": "Dublin",
+      "country": "Ireland",
+      "cc": "IE",
+      "sponsor": "fdcservers.net",
+      "id": "35422",
+      "preferred": 0,
+      "isp_id": "27716",
+      "host": "lg-dub.fdcservers.net:8080",
+      "hostname": "lg-dub.fdcservers.net",
+      "ip_address": {
+        "A": "50.7.4.237",
+        "AAAA": "2001:49f0:d0ea:a::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "https://lg-fra.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "50.1109",
+      "lon": "8.6821",
+      "name": "Frankfurt",
+      "country": "Germany",
+      "cc": "DE",
+      "sponsor": "fdcservers.net",
+      "id": "10010",
+      "preferred": 0,
+      "isp_id": "27716",
+      "host": "lg-fra.fdcservers.net:8080",
+      "hostname": "lg-fra.fdcservers.net",
+      "ip_address": {
+        "A": "50.7.50.14",
+        "AAAA": "2001:49f0:d01f:ffff::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://lg-hkg.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "22.2500",
+      "lon": "114.1667",
+      "name": "Hong Kong",
+      "country": "Hong Kong",
+      "cc": "HK",
+      "sponsor": "fdcservers.net",
+      "id": "28912",
+      "preferred": 0,
+      "isp_id": "27716",
+      "host": "lg-hkg.fdcservers.net:8080",
+      "hostname": "lg-hkg.fdcservers.net",
+      "ip_address": {
+        "A": "50.7.251.4",
+        "AAAA": "2001:49f0:d0da::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://lg-khv.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "48.4770",
+      "lon": "135.0941",
+      "name": "Khabarovsk",
+      "country": "Russia",
+      "cc": "RU",
+      "sponsor": "fdcservers.net",
+      "id": "46700",
+      "preferred": 0,
+      "isp_id": "70159",
+      "host": "lg-khv.fdcservers.net:8080",
+      "hostname": "lg-khv.fdcservers.net",
+      "ip_address": {
+        "A": "66.90.93.4",
+        "AAAA": "2001:49f0:d104::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://lg-lis.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "38.7000",
+      "lon": "-9.1833",
+      "name": "Lisbon",
+      "country": "Portugal",
+      "cc": "PT",
+      "sponsor": "fdcservers.net",
+      "id": "34265",
+      "preferred": 0,
+      "isp_id": "27716",
+      "host": "lg-lis.fdcservers.net:8080",
+      "hostname": "lg-lis.fdcservers.net",
+      "ip_address": {
+        "A": "50.7.43.4",
+        "AAAA": "2001:49f0:d0ed::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "https://lg-lon.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "51.5171",
+      "lon": "-0.1062",
+      "name": "London",
+      "country": "United Kingdom",
+      "cc": "GB",
+      "sponsor": "fdcservers.net",
+      "id": "6032",
+      "preferred": 0,
+      "isp_id": "27716",
+      "host": "lg-lon.fdcservers.net:8080",
+      "hostname": "lg-lon.fdcservers.net",
+      "ip_address": {
+        "A": "50.7.213.4",
+        "AAAA": "2001:49f0:d007:3::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://lg-lax.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "34.0500",
+      "lon": "-118.2500",
+      "name": "Los Angeles, CA",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "fdcservers.net",
+      "id": "9916",
+      "preferred": 0,
+      "isp_id": "27716",
+      "host": "lg-lax.fdcservers.net:8080",
+      "hostname": "lg-lax.fdcservers.net",
+      "ip_address": {
+        "A": "50.7.229.14",
+        "AAAA": "2001:49f0:d13e:300::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://lg-mad.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "40.4000",
+      "lon": "-3.6833",
+      "name": "Madrid",
+      "country": "Spain",
+      "cc": "ES",
+      "sponsor": "fdcservers.net",
+      "id": "9933",
+      "preferred": 0,
+      "isp_id": "27716",
+      "host": "lg-mad.fdcservers.net:8080",
+      "hostname": "lg-mad.fdcservers.net",
+      "ip_address": {
+        "A": "50.7.31.242",
+        "AAAA": "2001:49f0:d01e:e::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.mia.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "25.7878",
+      "lon": "-80.2242",
+      "name": "Miami, FL",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "fdcservers.net",
+      "id": "6031",
+      "preferred": 0,
+      "isp_id": "27716",
+      "https_functional": 1,
+      "host": "speedtest.mia.fdcservers.net:8080",
+      "hostname": "speedtest.mia.fdcservers.net",
+      "ip_address": {
+        "A": "50.7.48.12",
+        "AAAA": "2001:49f0:d13b::10"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "https://lg-dme.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "55.7517",
+      "lon": "37.6178",
+      "name": "Moscow",
+      "country": "Russia",
+      "cc": "RU",
+      "sponsor": "fdcservers.net",
+      "id": "46685",
+      "preferred": 0,
+      "isp_id": "70159",
+      "host": "lg-dme.fdcservers.net:8080",
+      "hostname": "lg-dme.fdcservers.net",
+      "ip_address": {
+        "A": "66.90.91.4",
+        "AAAA": "2001:49f0:d103::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://lg-pa10.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "48.8742",
+      "lon": "2.3470",
+      "name": "Paris",
+      "country": "France",
+      "cc": "FR",
+      "sponsor": "fdcservers.net",
+      "id": "6027",
+      "preferred": 0,
+      "isp_id": "27716",
+      "https_functional": 1,
+      "host": "lg-pa10.fdcservers.net:8080",
+      "hostname": "lg-pa10.fdcservers.net",
+      "ip_address": {
+        "A": "50.7.228.10",
+        "AAAA": "2001:49f0:d0e4:21::6"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.prg.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "50.0833",
+      "lon": "14.4167",
+      "name": "Prague",
+      "country": "Czechia",
+      "cc": "CZ",
+      "sponsor": "fdcservers.net",
+      "id": "48622",
+      "preferred": 0,
+      "isp_id": "27716",
+      "host": "speedtest.prg.fdcservers.net:8080",
+      "hostname": "speedtest.prg.fdcservers.net",
+      "ip_address": {
+        "A": "50.7.54.7",
+        "AAAA": "2001:49f0:d10d:a::10"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://lg-sea.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "47.6062",
+      "lon": "-122.3321",
+      "name": "Seattle, WA",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "fdcservers.net",
+      "id": "6029",
+      "preferred": 0,
+      "isp_id": "27716",
+      "host": "lg-sea.fdcservers.net:8080",
+      "hostname": "lg-sea.fdcservers.net",
+      "ip_address": {
+        "A": "23.237.83.254",
+        "AAAA": "2001:49f0:d090:a::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://lg-sin.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "1.3000",
+      "lon": "103.8000",
+      "name": "Singapore",
+      "country": "Singapore",
+      "cc": "SG",
+      "sponsor": "fdcservers.net",
+      "id": "26654",
+      "preferred": 0,
+      "isp_id": "27716",
+      "host": "lg-sin.fdcservers.net:8080",
+      "hostname": "lg-sin.fdcservers.net",
+      "ip_address": {
+        "A": "50.7.253.4",
+        "AAAA": "2001:49f0:d0db::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.spb.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "-23.5000",
+      "lon": "-46.6167",
+      "name": "São Paulo",
+      "country": "Brazil",
+      "cc": "BR",
+      "sponsor": "fdcservers.net",
+      "id": "34671",
+      "preferred": 0,
+      "isp_id": "209442",
+      "host": "speedtest.spb.fdcservers.net:8080",
+      "hostname": "speedtest.spb.fdcservers.net",
+      "ip_address": {
+        "A": "67.159.33.211",
+        "AAAA": "2001:49f0:d11b:a::10"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.hnd.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "35.6833",
+      "lon": "139.6833",
+      "name": "Tokyo",
+      "country": "Japan",
+      "cc": "JP",
+      "sponsor": "fdcservers.net",
+      "id": "28910",
+      "preferred": 0,
+      "isp_id": "27716",
+      "https_functional": 1,
+      "host": "speedtest.hnd.fdcservers.net:8080",
+      "hostname": "speedtest.hnd.fdcservers.net",
+      "ip_address": {
+        "A": "50.7.159.210",
+        "AAAA": "2001:49f0:d0d9:3:b::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://lg-tor.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "43.6481",
+      "lon": "-79.4042",
+      "name": "Toronto, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "fdcservers.net",
+      "id": "9911",
+      "preferred": 0,
+      "isp_id": "27716",
+      "host": "lg-tor.fdcservers.net:8080",
+      "hostname": "lg-tor.fdcservers.net",
+      "ip_address": {
+        "A": "23.237.140.14",
+        "AAAA": "2001:49f0:d055::6"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "https://lg-vie.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "48.2088",
+      "lon": "16.3726",
+      "name": "Vienna",
+      "country": "Austria",
+      "cc": "AT",
+      "sponsor": "fdcservers.net",
+      "id": "6070",
+      "preferred": 0,
+      "isp_id": "27716",
+      "host": "lg-vie.fdcservers.net:8080",
+      "hostname": "lg-vie.fdcservers.net",
+      "ip_address": {
+        "A": "50.7.53.12",
+        "AAAA": "2001:49f0:d13f:a::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "https://lg-war.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "52.2323",
+      "lon": "21.0084",
+      "name": "Warsaw",
+      "country": "Poland",
+      "cc": "PL",
+      "sponsor": "fdcservers.net",
+      "id": "34672",
+      "preferred": 0,
+      "isp_id": "27716",
+      "host": "lg-war.fdcservers.net:8080",
+      "hostname": "lg-war.fdcservers.net",
+      "ip_address": {
+        "A": "50.7.56.5",
+        "AAAA": "2001:49f0:d0eb::4"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 25,
+  "updated_at": "2026-05-02T17:10:52.088676+00:00"
+}
