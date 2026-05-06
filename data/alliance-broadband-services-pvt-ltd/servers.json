@@ -79,8 +79,28 @@
         "AAAA": "2407:cb00:e400::2"
       },
       "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestvtz.alliancebroadband.in:8080/speedtest/upload.php",
+      "lat": "17.6883",
+      "lon": "83.2186",
+      "name": "Visakhapatnam",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Alliance Broadband Services Pvt Ltd",
+      "id": "27524",
+      "preferred": 0,
+      "isp_id": "99547",
+      "https_functional": 1,
+      "host": "speedtestvtz.alliancebroadband.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestvtz.alliancebroadband.in",
+      "ip_address": {
+        "A": "144.48.226.6",
+        "AAAA": "2407:cb00:d800::2"
+      },
+      "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 4,
-  "updated_at": "2026-05-05T02:07:58.792570+00:00"
+  "total_servers": 5,
+  "updated_at": "2026-05-06T02:08:39.647873+00:00"
 }
