@@ -281,6 +281,25 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtest-pbi1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "12.9649",
+      "lon": "99.6426",
+      "name": "Phetchaburi",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "26751",
+      "preferred": 0,
+      "isp_id": "42011",
+      "host": "speedtest-pbi1.3bb.co.th:8080",
+      "hostname": "speedtest-pbi1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.238",
+        "AAAA": "2403:6200:ffff:fbff::fea"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtest-pkt1.3bb.co.th:8080/speedtest/upload.php",
       "lat": "7.9739",
       "lon": "98.3439",
@@ -501,6 +520,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 25,
-  "updated_at": "2026-05-06T02:10:19.105809+00:00"
+  "total_servers": 26,
+  "updated_at": "2026-05-07T02:11:47.513488+00:00"
 }

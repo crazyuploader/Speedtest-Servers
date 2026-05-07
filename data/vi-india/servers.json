@@ -131,6 +131,7 @@
       "id": "71693",
       "preferred": 0,
       "isp_id": "23698",
+      "https_functional": 1,
       "host": "speedtest.apt.vodafoneidea.com:8080",
       "hostname": "speedtest.apt.vodafoneidea.com",
       "ip_address": {
@@ -349,6 +350,7 @@
       "id": "71697",
       "preferred": 0,
       "isp_id": "23698",
+      "https_functional": 1,
       "host": "speedtest.rob.vodafoneidea.com:8080",
       "hostname": "speedtest.rob.vodafoneidea.com",
       "ip_address": {
@@ -359,5 +361,5 @@
     }
   ],
   "total_servers": 18,
-  "updated_at": "2026-05-06T02:10:07.192020+00:00"
+  "updated_at": "2026-05-07T02:11:36.367935+00:00"
 }
