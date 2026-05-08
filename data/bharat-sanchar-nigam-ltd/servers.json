@@ -101,6 +101,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://bsnlooklacbt.mywire.org:8080/speedtest/upload.php",
+      "lat": "11.0168",
+      "lon": "76.9558",
+      "name": "Coimbatore",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "BHARAT SANCHAR NIGAM LTD",
+      "id": "16094",
+      "preferred": 0,
+      "isp_id": "73461",
+      "https_functional": 1,
+      "host": "bsnlooklacbt.mywire.org.prod.hosts.ooklaserver.net:8080",
+      "hostname": "bsnlooklacbt.mywire.org",
+      "ip_address": {
+        "A": "61.1.182.161",
+        "AAAA": "2001:4490:dff4:f00::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://rcngnhyd.ddnsfree.com:8080/speedtest/upload.php",
       "lat": "17.4065",
       "lon": "78.4772",
@@ -181,6 +201,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 9,
-  "updated_at": "2026-05-07T02:10:20.081012+00:00"
+  "total_servers": 10,
+  "updated_at": "2026-05-08T02:27:22.517002+00:00"
 }

@@ -291,7 +291,8 @@
       "id": "26751",
       "preferred": 0,
       "isp_id": "42011",
-      "host": "speedtest-pbi1.3bb.co.th:8080",
+      "https_functional": 1,
+      "host": "speedtest-pbi1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest-pbi1.3bb.co.th",
       "ip_address": {
         "A": "110.164.3.238",
@@ -521,5 +522,5 @@
     }
   ],
   "total_servers": 26,
-  "updated_at": "2026-05-07T02:11:47.513488+00:00"
+  "updated_at": "2026-05-08T02:28:50.035499+00:00"
 }
