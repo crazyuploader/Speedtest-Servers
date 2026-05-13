@@ -361,6 +361,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://tlc2-speedtest.globe.com.ph:8080/speedtest/upload.php",
+      "lat": "15.5000",
+      "lon": "120.5000",
+      "name": "Tarlac",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Globe Telecom",
+      "id": "3756",
+      "preferred": 0,
+      "isp_id": "900",
+      "https_functional": 1,
+      "host": "tlc2-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "tlc2-speedtest.globe.com.ph",
+      "ip_address": {
+        "A": "124.6.181.198",
+        "AAAA": "2001:fe0:10:eb::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://dav2-speedtest.globe.com.ph:8080/speedtest/upload.php",
       "lat": "6.9214",
       "lon": "122.0790",
@@ -381,6 +401,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 19,
-  "updated_at": "2026-05-12T02:27:11.104445+00:00"
+  "total_servers": 20,
+  "updated_at": "2026-05-13T02:33:41.707408+00:00"
 }
