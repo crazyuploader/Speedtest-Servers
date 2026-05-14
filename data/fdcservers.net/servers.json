@@ -1,26 +1,6 @@
 {
   "servers": [
     {
-      "url": "http://lg-ams.fdcservers.net:8080/speedtest/upload.php",
-      "lat": "52.3667",
-      "lon": "4.9000",
-      "name": "Amsterdam",
-      "country": "Netherlands",
-      "cc": "NL",
-      "sponsor": "fdcservers.net",
-      "id": "9913",
-      "preferred": 0,
-      "isp_id": "27716",
-      "https_functional": 1,
-      "host": "lg-ams.fdcservers.net:8080",
-      "hostname": "lg-ams.fdcservers.net",
-      "ip_address": {
-        "A": "50.7.230.46",
-        "AAAA": "2001:49f0:d00d:ff00::4"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://lg-iad.fdcservers.net:8080/speedtest/upload.php",
       "lat": "39.0438",
       "lon": "-77.4874",
@@ -480,6 +460,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 25,
-  "updated_at": "2026-05-13T02:33:47.891675+00:00"
+  "total_servers": 24,
+  "updated_at": "2026-05-14T02:34:53.494109+00:00"
 }
