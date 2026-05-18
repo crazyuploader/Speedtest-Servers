@@ -81,26 +81,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://cln-speedtest.globe.com.ph:8080/speedtest/upload.php",
-      "lat": "14.7566",
-      "lon": "121.0450",
-      "name": "Caloocan City",
-      "country": "Philippines",
-      "cc": "PH",
-      "sponsor": "Globe Telecom",
-      "id": "61860",
-      "preferred": 0,
-      "isp_id": "900",
-      "https_functional": 1,
-      "host": "cln-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
-      "hostname": "cln-speedtest.globe.com.ph",
-      "ip_address": {
-        "A": "124.6.181.210",
-        "AAAA": "2001:fd8:3b1:3::2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://lhg2-speedtest.globe.com.ph:8080/speedtest/upload.php",
       "lat": "10.2833",
       "lon": "123.9000",
@@ -117,6 +97,26 @@
       "ip_address": {
         "A": "120.28.63.206",
         "AAAA": "2001:fe0:10:e4::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://sfp-speedtest.globe.com.ph:8080/speedtest/upload.php",
+      "lat": "15.1846",
+      "lon": "120.5569",
+      "name": "Clark City",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Globe Telecom",
+      "id": "41186",
+      "preferred": 0,
+      "isp_id": "900",
+      "https_functional": 1,
+      "host": "sfp-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "sfp-speedtest.globe.com.ph",
+      "ip_address": {
+        "A": "124.6.181.202",
+        "AAAA": "2001:fe0:10:e8::2"
       },
       "ipv6_capable": "yes"
     },
@@ -382,5 +382,5 @@
     }
   ],
   "total_servers": 19,
-  "updated_at": "2026-05-17T02:31:39.584112+00:00"
+  "updated_at": "2026-05-18T02:42:01.655907+00:00"
 }
