@@ -51,7 +51,8 @@
       "id": "12285",
       "preferred": 0,
       "isp_id": "64789",
-      "host": "speedtestchn.actcorp.in:8080",
+      "https_functional": 1,
+      "host": "speedtestchn.actcorp.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtestchn.actcorp.in",
       "ip_address": {
         "A": "103.16.203.20",
@@ -241,5 +242,5 @@
     }
   ],
   "total_servers": 12,
-  "updated_at": "2026-05-18T02:40:01.645873+00:00"
+  "updated_at": "2026-05-19T02:38:03.601120+00:00"
 }
