@@ -358,26 +358,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://hdbdooklaspeed2.jioconnect.com:8080/speedtest/upload.php",
-      "lat": "17.3724",
-      "lon": "78.4378",
-      "name": "Hyderabad",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Jio",
-      "id": "67728",
-      "preferred": 0,
-      "isp_id": "137615",
-      "https_functional": 1,
-      "host": "hdbdooklaspeed2.jioconnect.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "hdbdooklaspeed2.jioconnect.com",
-      "ip_address": {
-        "A": "49.45.64.222",
-        "AAAA": "2405:200:1670:200:49:45:64:da"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://indrooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
       "lat": "22.7287",
       "lon": "75.8654",
@@ -1293,6 +1273,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 65,
-  "updated_at": "2026-05-20T02:39:07.831115+00:00"
+  "total_servers": 64,
+  "updated_at": "2026-05-21T02:41:07.196117+00:00"
 }

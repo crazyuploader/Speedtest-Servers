@@ -31,6 +31,7 @@
       "id": "73163",
       "preferred": 0,
       "isp_id": "93082",
+      "https_functional": 1,
       "host": "speed-node-mas.asianetdigital.net:8080",
       "hostname": "speed-node-mas.asianetdigital.net",
       "ip_address": {
@@ -141,5 +142,5 @@
     }
   ],
   "total_servers": 7,
-  "updated_at": "2026-05-20T02:38:25.073047+00:00"
+  "updated_at": "2026-05-21T02:40:25.718353+00:00"
 }
