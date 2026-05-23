@@ -81,6 +81,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://cln-speedtest.globe.com.ph:8080/speedtest/upload.php",
+      "lat": "14.7566",
+      "lon": "121.0450",
+      "name": "Caloocan City",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Globe Telecom",
+      "id": "61860",
+      "preferred": 0,
+      "isp_id": "900",
+      "https_functional": 1,
+      "host": "cln-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "cln-speedtest.globe.com.ph",
+      "ip_address": {
+        "A": "124.6.181.210",
+        "AAAA": "2001:fd8:3b1:3::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://lhg2-speedtest.globe.com.ph:8080/speedtest/upload.php",
       "lat": "10.2833",
       "lon": "123.9000",
@@ -381,6 +401,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 19,
-  "updated_at": "2026-05-22T02:43:51.640228+00:00"
+  "total_servers": 20,
+  "updated_at": "2026-05-23T02:29:00.480823+00:00"
 }
