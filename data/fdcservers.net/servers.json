@@ -106,6 +106,7 @@
       "id": "35422",
       "preferred": 0,
       "isp_id": "27716",
+      "https_functional": 1,
       "host": "lg-dub.fdcservers.net:8080",
       "hostname": "lg-dub.fdcservers.net",
       "ip_address": {
@@ -461,5 +462,5 @@
     }
   ],
   "total_servers": 24,
-  "updated_at": "2026-05-25T02:48:09.220114+00:00"
+  "updated_at": "2026-05-26T02:36:45.366122+00:00"
 }
