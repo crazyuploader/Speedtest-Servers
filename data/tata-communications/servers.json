@@ -151,8 +151,7 @@
       "id": "73624",
       "preferred": 0,
       "isp_id": "310547",
-      "https_functional": 1,
-      "host": "ookla.fnm.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "host": "ookla.fnm.as6453.net:8080",
       "hostname": "ookla.fnm.as6453.net",
       "ip_address": {
         "A": "195.219.156.69",
@@ -280,26 +279,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://ookla.mu.as6453.net:8080/speedtest/upload.php",
-      "lat": "18.9647",
-      "lon": "72.8258",
-      "name": "Mumbai",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Tata Communications",
-      "id": "73041",
-      "preferred": 0,
-      "isp_id": "37733",
-      "https_functional": 1,
-      "host": "ookla.mu.as6453.net.prod.hosts.ooklaserver.net:8080",
-      "hostname": "ookla.mu.as6453.net",
-      "ip_address": {
-        "A": "59.160.56.4",
-        "AAAA": "2403:0:13b:5::4"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://ookla.n0v.as6453.net:8080/speedtest/upload.php",
       "lat": "40.7128",
       "lon": "-74.0060",
@@ -330,8 +309,7 @@
       "id": "73625",
       "preferred": 0,
       "isp_id": "153357",
-      "https_functional": 1,
-      "host": "ookla.pye.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "host": "ookla.pye.as6453.net:8080",
       "hostname": "ookla.pye.as6453.net",
       "ip_address": {
         "A": "80.231.196.149",
@@ -430,8 +408,7 @@
       "id": "73626",
       "preferred": 0,
       "isp_id": "311380",
-      "https_functional": 1,
-      "host": "ookla.z3z.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "host": "ookla.z3z.as6453.net:8080",
       "hostname": "ookla.z3z.as6453.net",
       "ip_address": {
         "A": "195.219.134.84",
@@ -440,6 +417,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 22,
-  "updated_at": "2026-05-28T02:33:06.196954+00:00"
+  "total_servers": 21,
+  "updated_at": "2026-05-29T02:37:21.258174+00:00"
 }

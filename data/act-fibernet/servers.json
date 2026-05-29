@@ -101,6 +101,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtestjpr.actcorp.in:8080/speedtest/upload.php",
+      "lat": "26.9260",
+      "lon": "75.8235",
+      "name": "Jaipur",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "ACT FIBERNET",
+      "id": "47976",
+      "preferred": 0,
+      "isp_id": "64789",
+      "https_functional": 1,
+      "host": "speedtestjpr.actcorp.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestjpr.actcorp.in",
+      "ip_address": {
+        "A": "49.204.174.13",
+        "AAAA": "2406:b400:55:1::13"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtestlkn.actcorp.in:8080/speedtest/upload.php",
       "lat": "26.8500",
       "lon": "80.9200",
@@ -221,6 +241,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 11,
-  "updated_at": "2026-05-28T02:31:49.723144+00:00"
+  "total_servers": 12,
+  "updated_at": "2026-05-29T02:35:59.816926+00:00"
 }

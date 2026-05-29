@@ -111,8 +111,7 @@
       "id": "51085",
       "preferred": 0,
       "isp_id": "219787",
-      "https_functional": 1,
-      "host": "Indore-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
+      "host": "Indore-speedtest.ishancloud.com:8080",
       "hostname": "indore-speedtest.ishancloud.com",
       "ip_address": {
         "A": "183.87.223.4",
@@ -262,5 +261,5 @@
     }
   ],
   "total_servers": 13,
-  "updated_at": "2026-05-28T02:32:24.537644+00:00"
+  "updated_at": "2026-05-29T02:36:33.911238+00:00"
 }
