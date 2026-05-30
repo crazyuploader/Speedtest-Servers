@@ -31,8 +31,7 @@
       "id": "73614",
       "preferred": 0,
       "isp_id": "153428",
-      "https_functional": 1,
-      "host": "ookla.a56.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "host": "ookla.a56.as6453.net:8080",
       "hostname": "ookla.a56.as6453.net",
       "ip_address": {
         "A": "64.86.8.30",
@@ -91,8 +90,7 @@
       "id": "73612",
       "preferred": 0,
       "isp_id": "153428",
-      "https_functional": 1,
-      "host": "ookla.ct8.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "host": "ookla.ct8.as6453.net:8080",
       "hostname": "ookla.ct8.as6453.net",
       "ip_address": {
         "A": "63.243.129.46",
@@ -111,8 +109,7 @@
       "id": "73613",
       "preferred": 0,
       "isp_id": "153428",
-      "https_functional": 1,
-      "host": "ookla.dt8.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "host": "ookla.dt8.as6453.net:8080",
       "hostname": "ookla.dt8.as6453.net",
       "ip_address": {
         "A": "64.86.134.21",
@@ -249,8 +246,7 @@
       "id": "73619",
       "preferred": 0,
       "isp_id": "153428",
-      "https_functional": 1,
-      "host": "ookla.mln.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "host": "ookla.mln.as6453.net:8080",
       "hostname": "ookla.mln.as6453.net",
       "ip_address": {
         "A": "66.110.9.37",
@@ -269,8 +265,7 @@
       "id": "73620",
       "preferred": 0,
       "isp_id": "310556",
-      "https_functional": 1,
-      "host": "ookla.mtt.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "host": "ookla.mtt.as6453.net:8080",
       "hostname": "ookla.mtt.as6453.net",
       "ip_address": {
         "A": "66.198.161.133",
@@ -348,8 +343,7 @@
       "id": "73609",
       "preferred": 0,
       "isp_id": "153428",
-      "https_functional": 1,
-      "host": "ookla.sv1.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "host": "ookla.sv1.as6453.net:8080",
       "hostname": "ookla.sv1.as6453.net",
       "ip_address": {
         "A": "63.243.250.21",
@@ -368,8 +362,7 @@
       "id": "73627",
       "preferred": 0,
       "isp_id": "157795",
-      "https_functional": 1,
-      "host": "ookla.svw.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "host": "ookla.svw.as6453.net:8080",
       "hostname": "ookla.svw.as6453.net",
       "ip_address": {
         "A": "180.87.84.85",
@@ -388,8 +381,7 @@
       "id": "73631",
       "preferred": 0,
       "isp_id": "153522",
-      "https_functional": 1,
-      "host": "ookla.m3h.as6453.net.prod.hosts.ooklaserver.net:8080",
+      "host": "ookla.m3h.as6453.net:8080",
       "hostname": "ookla.m3h.as6453.net",
       "ip_address": {
         "A": "180.87.35.29",
@@ -418,5 +410,5 @@
     }
   ],
   "total_servers": 21,
-  "updated_at": "2026-05-29T02:37:21.258174+00:00"
+  "updated_at": "2026-05-30T02:31:12.569236+00:00"
 }

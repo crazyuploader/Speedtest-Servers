@@ -115,25 +115,6 @@
       "ipv6_capable": "no"
     },
     {
-      "url": "http://speedtest.semarang.myrepublic.net.id:8080/speedtest/upload.php",
-      "lat": "-6.9667",
-      "lon": "110.4167",
-      "name": "Semarang",
-      "country": "Indonesia",
-      "cc": "ID",
-      "sponsor": "MyRepublic Indonesia",
-      "id": "46092",
-      "preferred": 0,
-      "isp_id": "108000",
-      "https_functional": 1,
-      "host": "speedtest.semarang.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtest.semarang.myrepublic.net.id",
-      "ip_address": {
-        "A": "158.140.186.77"
-      },
-      "ipv6_capable": "no"
-    },
-    {
       "url": "http://speedtest.myrepublic.com.sg:8080/speedtest/upload.php",
       "lat": "1.3000",
       "lon": "103.8000",
@@ -191,6 +172,6 @@
       "ipv6_capable": "no"
     }
   ],
-  "total_servers": 10,
-  "updated_at": "2026-05-29T02:37:55.077728+00:00"
+  "total_servers": 9,
+  "updated_at": "2026-05-30T02:31:46.486186+00:00"
 }
