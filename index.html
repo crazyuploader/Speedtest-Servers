@@ -14,18 +14,18 @@
     />
     <title>Speedtest Servers Dashboard</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=JetBrains+Mono:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-    <!-- Leaflet CSS -->
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
       crossorigin=""
     />
-    <!-- Leaflet MarkerCluster CSS -->
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
@@ -34,300 +34,293 @@
       rel="stylesheet"
       href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
     />
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="static/style.css" />
   </head>
-  <body class="text-gray-800 antialiased flex flex-col min-h-screen">
+  <body>
     <div id="spinner" class="spinner-overlay hidden">
-      <div class="spinner"></div>
+      <div class="spinner-ring"></div>
     </div>
 
     <div id="ip-tooltip"></div>
 
-    <header
-      class="bg-gradient-to-r from-blue-700 to-purple-600 p-4 sm:p-6 shadow-lg flex items-center justify-between"
-    >
-      <div
-        class="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between"
-      >
-        <h1
-          class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white text-center sm:text-left tracking-tight font-['Montserrat']"
-        >
-          Speedtest Servers Dashboard
-        </h1>
-        <!-- Dark Mode Toggle Button -->
-        <button
-          id="darkModeToggle"
-          aria-label="Toggle dark mode"
-          class="ml-4 w-12 h-12 flex items-center justify-center rounded-full bg-gradient-to-br from-gray-700/30 to-gray-900/30 backdrop-blur-sm hover:from-gray-700/40 hover:to-gray-900/40 hover:scale-110 active:scale-95 text-white shadow-lg hover:shadow-xl hover:shadow-gray-500/20 transition-all duration-300 ease-out focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 dark:from-white/10 dark:to-white/5 dark:hover:from-white/20 dark:hover:to-white/10"
-        >
-          <span
-            id="darkModeIcon"
-            class="text-2xl transform transition-transform duration-500 hover:rotate-[360deg]"
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="flex items-center gap-3">
+          <div class="logo-mark">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+              <rect
+                x="2"
+                y="2"
+                width="28"
+                height="28"
+                rx="8"
+                stroke="currentColor"
+                stroke-width="2.5"
+                class="logo-ring"
+              />
+              <circle
+                cx="16"
+                cy="16"
+                r="6"
+                fill="currentColor"
+                class="logo-dot"
+              />
+              <path
+                d="M10 22L14 18M22 10L18 14M16 6V10M16 22V26M6 16H10M22 16H26"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                class="logo-rays"
+              />
+            </svg>
+          </div>
+          <div>
+            <h1 class="site-title">
+              Speedtest <span class="text-accent">Servers</span>
+            </h1>
+            <p class="site-subtitle">Server Explorer &amp; Analytics</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-3">
+          <a
+            href="https://github.com/crazyuploader/Speedtest-Servers"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="header-action-btn github-btn"
+            aria-label="View on GitHub"
           >
-            🌙
-          </span>
-        </button>
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+              />
+            </svg>
+          </a>
+          <button
+            id="darkModeToggle"
+            aria-label="Toggle theme"
+            class="header-action-btn theme-toggle"
+          >
+            <span id="darkModeIcon">
+              <svg
+                class="w-5 h-5 moon-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+              </svg>
+              <svg
+                class="w-5 h-5 sun-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="12" cy="12" r="5" />
+                <line x1="12" y1="1" x2="12" y2="3" />
+                <line x1="12" y1="21" x2="12" y2="23" />
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                <line x1="1" y1="12" x2="3" y2="12" />
+                <line x1="21" y1="12" x2="23" y2="12" />
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+              </svg>
+            </span>
+          </button>
+        </div>
       </div>
     </header>
 
-    <main
-      class="container mx-auto mt-6 sm:mt-10 p-4 sm:p-6 bg-white rounded-xl shadow-2xl flex-grow border border-gray-100"
-    >
-      <div
-        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6 sm:mb-8"
-      >
-        <!-- ISP Selector -->
-        <div>
-          <label
-            for="provider"
-            class="block text-lg sm:text-xl font-semibold text-gray-700 mb-3"
-            >Choose an ISP/Network:</label
-          >
-          <div class="relative">
-            <select
-              id="provider"
-              class="block appearance-none w-full bg-white border border-gray-300 text-gray-800 py-3 px-4 pr-8 rounded-lg leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300 ease-in-out text-base sm:text-lg shadow-sm"
-            ></select>
-            <div
-              class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-600"
-            >
-              <svg
-                class="fill-current h-5 w-5"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-              >
+    <main class="main-content">
+      <div class="container">
+        <div id="metadata" class="stats-grid"></div>
+
+        <div class="filters-bar">
+          <div class="filter-group">
+            <label for="provider" class="filter-label">ISP / Network</label>
+            <div class="select-wrapper">
+              <select id="provider" class="filter-select"></select>
+              <svg class="select-arrow" viewBox="0 0 20 20" fill="currentColor">
                 <path
-                  d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                  fill-rule="evenodd"
+                  d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                  clip-rule="evenodd"
                 />
               </svg>
             </div>
           </div>
-        </div>
 
-        <!-- Country Filter -->
-        <div>
-          <label
-            for="countryFilter"
-            class="block text-lg sm:text-xl font-semibold text-gray-700 mb-3"
-            >Filter by Country:</label
-          >
-          <div class="relative">
-            <select
-              id="countryFilter"
-              class="block appearance-none w-full bg-white border border-gray-300 text-gray-800 py-3 px-4 pr-8 rounded-lg leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300 ease-in-out text-base sm:text-lg shadow-sm"
-            >
-              <option value="">All Countries</option>
-            </select>
-            <div
-              class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-600"
-            >
-              <svg
-                class="fill-current h-5 w-5"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-              >
+          <div class="filter-group">
+            <label for="countryFilter" class="filter-label">Country</label>
+            <div class="select-wrapper">
+              <select id="countryFilter" class="filter-select">
+                <option value="">All Countries</option>
+              </select>
+              <svg class="select-arrow" viewBox="0 0 20 20" fill="currentColor">
                 <path
-                  d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                  fill-rule="evenodd"
+                  d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                  clip-rule="evenodd"
                 />
               </svg>
             </div>
           </div>
+
+          <div class="filter-group search-group">
+            <label for="searchServers" class="filter-label">Search</label>
+            <div class="search-wrapper">
+              <svg class="search-icon" viewBox="0 0 20 20" fill="currentColor">
+                <path
+                  fill-rule="evenodd"
+                  d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <input
+                type="text"
+                id="searchServers"
+                placeholder="City, sponsor, host, ID..."
+                class="filter-search"
+              />
+            </div>
+          </div>
+
+          <div class="filter-group export-group">
+            <label class="filter-label">&nbsp;</label>
+            <button id="exportJsonButton" class="btn-export">
+              <svg
+                class="w-4 h-4"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+              Export JSON
+            </button>
+          </div>
         </div>
 
-        <!-- Search Bar -->
-        <div>
-          <label
-            for="searchServers"
-            class="block text-lg sm:text-xl font-semibold text-gray-700 mb-3"
-            >Search Servers:</label
-          >
-          <input
-            type="text"
-            id="searchServers"
-            placeholder="Search by city, sponsor, host, ID..."
-            class="block w-full bg-white border border-gray-300 text-gray-800 py-3 px-4 rounded-lg leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300 ease-in-out text-base sm:text-lg shadow-sm"
-          />
+        <div class="map-section">
+          <div id="map"></div>
         </div>
-      </div>
 
-      <!-- Export Button -->
-      <div class="flex justify-end mb-6 sm:mb-8">
-        <button
-          id="exportJsonButton"
-          class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out flex items-center"
-        >
-          <svg
-            class="w-5 h-5 mr-2"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
+        <div class="table-section">
+          <div class="table-header-bar" id="tableHeaderBar">
+            <span class="table-title">Server List</span>
+            <span class="server-count-badge" id="serverCountBadge"
+              >0 servers</span
+            >
+          </div>
+          <div class="table-container" id="tableContainer">
+            <table id="servers">
+              <thead>
+                <tr>
+                  <th scope="col" class="col-index">#</th>
+                  <th scope="col" class="col-sortable" data-sort="name">
+                    City <span class="sort-icon">⇅</span>
+                  </th>
+                  <th scope="col" class="col-sortable" data-sort="country">
+                    Country <span class="sort-icon">⇅</span>
+                  </th>
+                  <th scope="col" class="col-sortable" data-sort="sponsor">
+                    Sponsor <span class="sort-icon">⇅</span>
+                  </th>
+                  <th scope="col" class="col-sortable" data-sort="id">
+                    Server ID <span class="sort-icon">⇅</span>
+                  </th>
+                  <th
+                    scope="col"
+                    class="col-sortable"
+                    data-sort="https_functional"
+                  >
+                    HTTPS <span class="sort-icon">⇅</span>
+                  </th>
+                  <th scope="col" class="col-sortable" data-sort="ipv6_capable">
+                    IPv6 <span class="sort-icon">⇅</span>
+                  </th>
+                  <th scope="col" class="col-sortable" data-sort="hostname">
+                    Host <span class="sort-icon">⇅</span>
+                  </th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <div id="scroll-hint" class="scroll-hint">
+            <svg
+              class="w-4 h-4"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
               stroke-width="2"
-              d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-            ></path>
-          </svg>
-          Export to JSON
-        </button>
-      </div>
-
-      <!-- Map Container -->
-      <div id="map"></div>
-
-      <div
-        id="metadata"
-        class="text-sm sm:text-base text-gray-700 mb-6 sm:mb-8 p-4 bg-blue-50 rounded-lg border border-blue-200 shadow-inner"
-      ></div>
-
-      <div
-        id="scroll-hint"
-        class="block sm:hidden mb-3 text-center text-sm text-gray-500 italic"
-      >
-        <svg
-          class="inline w-4 h-4 mr-1"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M7 16l-4-4m0 0l4-4m-4 4h18"
-          />
-        </svg>
-        Scroll horizontally to view all data
-        <svg
-          class="inline w-4 h-4 ml-1"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M17 8l4 4m0 0l-4 4m4-4H3"
-          />
-        </svg>
-      </div>
-
-      <div
-        class="table-container shadow-lg rounded-lg overflow-hidden border border-gray-200 bg-white"
-      >
-        <table id="servers" class="divide-y divide-gray-200">
-          <thead class="bg-gray-100">
-            <tr>
-              <th
-                scope="col"
-                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider"
-              >
-                #
-              </th>
-              <th
-                scope="col"
-                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition select-none"
-                data-sort="name"
-              >
-                City <span class="sort-icon ml-1">⇅</span>
-              </th>
-              <th
-                scope="col"
-                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition select-none"
-                data-sort="country"
-              >
-                Country <span class="sort-icon ml-1">⇅</span>
-              </th>
-              <th
-                scope="col"
-                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition select-none"
-                data-sort="sponsor"
-              >
-                Sponsor <span class="sort-icon ml-1">⇅</span>
-              </th>
-              <th
-                scope="col"
-                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition select-none"
-                data-sort="id"
-              >
-                Server ID <span class="sort-icon ml-1">⇅</span>
-              </th>
-              <th
-                scope="col"
-                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition select-none"
-                data-sort="https_functional"
-              >
-                HTTPS <span class="sort-icon ml-1">⇅</span>
-              </th>
-              <th
-                scope="col"
-                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition select-none"
-                data-sort="ipv6_capable"
-              >
-                IPv6 Capable <span class="sort-icon ml-1">⇅</span>
-              </th>
-              <th
-                scope="col"
-                class="px-4 py-3 sm:px-6 sm:py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition select-none"
-                data-sort="hostname"
-              >
-                Host <span class="sort-icon ml-1">⇅</span>
-              </th>
-            </tr>
-          </thead>
-          <tbody class="bg-white divide-y divide-gray-100"></tbody>
-        </table>
+            >
+              <path d="M7 16l-4-4m0 0l4-4m-4 4h18" />
+            </svg>
+            Scroll horizontally to view all columns
+            <svg
+              class="w-4 h-4"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </div>
+        </div>
       </div>
     </main>
 
-    <footer
-      class="bg-gray-900 text-white text-center p-4 sm:p-5 mt-8 sm:mt-12 shadow-inner text-sm sm:text-base"
-    >
-      <div
-        class="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4"
-      >
+    <footer class="site-footer">
+      <div class="footer-inner">
         <p>
-          &copy; <span id="year"></span> Speedtest Server Dashboard. All rights
-          reserved.
+          &copy; <span id="year"></span> Speedtest Servers Dashboard. Built by
+          <a
+            href="https://devjugal.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer-link"
+            >Jugal Kishore</a
+          >.
         </p>
         <a
           href="https://github.com/crazyuploader/Speedtest-Servers"
           target="_blank"
           rel="noopener noreferrer"
-          class="flex items-center gap-2 text-gray-400 hover:text-white transition duration-300 group"
+          class="footer-github"
         >
-          <svg
-            class="w-6 h-6 fill-current"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
             <path
               d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
             />
           </svg>
-          <span class="group-hover:underline">View on GitHub</span>
+          Source
         </a>
       </div>
     </footer>
 
-    <!-- Leaflet JS -->
     <script
       src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
       integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
       crossorigin=""
       defer
     ></script>
-    <!-- Leaflet MarkerCluster JS -->
     <script
       src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"
       defer
     ></script>
-
-    <!-- Custom JavaScript -->
     <script src="static/script.js" defer></script>
   </body>
 </html>
