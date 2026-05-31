@@ -125,6 +125,7 @@
       "id": "5935",
       "preferred": 0,
       "isp_id": "77753",
+      "https_functional": 1,
       "host": "speedtest.myrepublic.com.sg:8080",
       "hostname": "speedtest.myrepublic.com.sg",
       "ip_address": {
@@ -172,5 +173,5 @@
     }
   ],
   "total_servers": 9,
-  "updated_at": "2026-05-31T02:48:15.313503+00:00"
+  "updated_at": "2026-05-31T11:59:25.242628+00:00"
 }

@@ -170,8 +170,7 @@
       "id": "38305",
       "preferred": 0,
       "isp_id": "86204",
-      "https_functional": 1,
-      "host": "speedtest-ptn01.gtpl.net.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest-ptn01.gtpl.net:8080",
       "hostname": "speedtest-ptn01.gtpl.net",
       "ip_address": {
         "A": "103.36.83.35",
@@ -260,5 +259,5 @@
     }
   ],
   "total_servers": 13,
-  "updated_at": "2026-05-31T02:46:55.795682+00:00"
+  "updated_at": "2026-05-31T11:58:48.655609+00:00"
 }
