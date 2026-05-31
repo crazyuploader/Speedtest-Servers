@@ -31,8 +31,7 @@
       "id": "12977",
       "preferred": 0,
       "isp_id": "115835",
-      "https_functional": 1,
-      "host": "speedtest.hyd.excitel.in.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest.hyd.excitel.in:8080",
       "hostname": "speedtest.hyd.excitel.in",
       "ip_address": {
         "A": "144.48.72.66",
@@ -182,5 +181,5 @@
     }
   ],
   "total_servers": 9,
-  "updated_at": "2026-05-30T02:30:17.058518+00:00"
+  "updated_at": "2026-05-31T02:46:49.687232+00:00"
 }

@@ -431,8 +431,7 @@
       "id": "24408",
       "preferred": 0,
       "isp_id": "42011",
-      "https_functional": 1,
-      "host": "speedtest-hyi1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest-hyi1.3bb.co.th:8080",
       "hostname": "speedtest-hyi1.3bb.co.th",
       "ip_address": {
         "A": "110.164.3.208",
@@ -522,5 +521,5 @@
     }
   ],
   "total_servers": 26,
-  "updated_at": "2026-05-30T02:31:38.365269+00:00"
+  "updated_at": "2026-05-31T02:48:07.052540+00:00"
 }
