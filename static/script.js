@@ -194,12 +194,12 @@ async function loadProviders() {
     if (ispOptions.length > 0) {
       loadServers(ispOptions[0].value);
     } else {
-      metadataDiv.innerHTML = `<p style="color: var(--accent-red); font-size: 0.9rem;">No ISP data available.</p>`;
+      metadataDiv.innerHTML = `<p style="color: var(--color-red); font-size: 0.9rem;">No ISP data available.</p>`;
       updateMapMarkers([]);
     }
   } catch (err) {
     console.error("Error loading providers:", err);
-    metadataDiv.innerHTML = `<p style="color: var(--accent-red); font-size: 0.9rem;">Failed to load ISP list.</p>`;
+    metadataDiv.innerHTML = `<p style="color: var(--color-red); font-size: 0.9rem;">Failed to load ISP list.</p>`;
   } finally {
     hideSpinner();
   }
@@ -209,8 +209,8 @@ function loadServers(isp, countryFilter = "", searchTerm = "") {
   const data = cachedData[isp];
   currentISPData = data;
   if (!data || !data.servers) {
-    tbody.innerHTML = `<tr><td colspan="8" style="text-align:center;padding:32px 16px;color:var(--text-muted);">No server data found for this ISP.</td></tr>`;
-    metadataDiv.innerHTML = `<p style="color: var(--accent-red); font-size: 0.9rem;">No data available for the selected ISP.</p>`;
+    tbody.innerHTML = `<tr><td colspan="8" class="empty-state">No server data found for this ISP.</td></tr>`;
+    metadataDiv.innerHTML = `<p style="color: var(--color-red); font-size: 0.9rem;">No data available for the selected ISP.</p>`;
     document.getElementById("serverCountBadge").textContent = "0 servers";
     currentFilteredServers = [];
     updateMapMarkers([]);
@@ -332,8 +332,14 @@ function loadServers(isp, countryFilter = "", searchTerm = "") {
   tbody.innerHTML = "";
   if (filteredServers.length > 0) {
     filteredServers.forEach((server, idx) => {
-      const ipv6Class = server.ipv6_capable === "yes" ? "cell-yes" : "cell-no";
-      const httpsClass = server.https_functional === 1 ? "cell-yes" : "cell-no";
+      const httpsBadge =
+        server.https_functional === 1
+          ? '<span class="badge badge-yes">yes</span>'
+          : '<span class="badge badge-no">no</span>';
+      const ipv6Badge =
+        server.ipv6_capable === "yes"
+          ? '<span class="badge badge-yes">yes</span>'
+          : '<span class="badge badge-no">no</span>';
       tbody.innerHTML += `
         <tr>
           <td class="cell-mono" style="color:var(--text-muted)">${idx + 1}</td>
@@ -341,8 +347,8 @@ function loadServers(isp, countryFilter = "", searchTerm = "") {
           <td>${highlightText(server.country, searchTerm)}</td>
           <td>${highlightText(server.sponsor, searchTerm)}</td>
           <td class="cell-mono">${server.id}</td>
-          <td class="${httpsClass}">${server.https_functional === 1 ? "Yes" : "No"}</td>
-          <td class="${ipv6Class}">${server.ipv6_capable}</td>
+          <td>${httpsBadge}</td>
+          <td>${ipv6Badge}</td>
           <td class="cell-host cell-mono"
               data-ipv4="${server.ip_address?.A || ""}"
               data-ipv6="${server.ip_address?.AAAA || ""}">
@@ -351,7 +357,7 @@ function loadServers(isp, countryFilter = "", searchTerm = "") {
         </tr>`;
     });
   } else {
-    tbody.innerHTML = `<tr><td colspan="8" style="text-align:center;padding:32px 16px;color:var(--text-muted);font-style:italic;">No servers found matching your criteria.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="8" class="empty-state">No servers found matching your criteria.</td></tr>`;
   }
   document.querySelectorAll("th[data-sort]").forEach((th) => {
     const icon = th.querySelector(".sort-icon");
