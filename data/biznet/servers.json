@@ -1,0 +1,25 @@
+{
+  "servers": [
+    {
+      "url": "http://speedtest.biznetgio.com:8080/speedtest/upload.php",
+      "lat": "-6.5971",
+      "lon": "106.8060",
+      "name": "Bogor",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "PT. Biznet Gio Nusantara",
+      "id": "68702",
+      "preferred": 0,
+      "isp_id": "107873",
+      "https_functional": 1,
+      "host": "speedtest.biznetgio.com:8080",
+      "hostname": "speedtest.biznetgio.com",
+      "ip_address": {
+        "A": "103.44.26.162"
+      },
+      "ipv6_capable": "no"
+    }
+  ],
+  "total_servers": 1,
+  "updated_at": "2026-05-31T18:11:16.036664+05:30"
+}

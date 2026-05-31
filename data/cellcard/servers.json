@@ -1,0 +1,25 @@
+{
+  "servers": [
+    {
+      "url": "http://speedtest.cellcard.com.kh:8080/speedtest/upload.php",
+      "lat": "11.5500",
+      "lon": "104.9167",
+      "name": "Phnom Penh",
+      "country": "Cambodia",
+      "cc": "KH",
+      "sponsor": "Cellcard",
+      "id": "13093",
+      "preferred": 0,
+      "isp_id": "181387",
+      "https_functional": 1,
+      "host": "speedtest.cellcard.com.kh:8080",
+      "hostname": "speedtest.cellcard.com.kh",
+      "ip_address": {
+        "A": "103.193.204.84"
+      },
+      "ipv6_capable": "no"
+    }
+  ],
+  "total_servers": 1,
+  "updated_at": "2026-05-31T18:11:40.420849+05:30"
+}

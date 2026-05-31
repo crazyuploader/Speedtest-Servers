@@ -1,0 +1,540 @@
+{
+  "servers": [
+    {
+      "url": "http://speedtest.balikpapan.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "-1.2786",
+      "lon": "116.8455",
+      "name": "Balikpapan",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "71377",
+      "preferred": 0,
+      "isp_id": "67639",
+      "https_functional": 1,
+      "host": "speedtest.balikpapan.telkomsel.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.balikpapan.telkomsel.com",
+      "ip_address": {
+        "A": "182.8.160.17",
+        "AAAA": "2404:c0:c603::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.aceh.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "5.5483",
+      "lon": "95.3238",
+      "name": "Banda Aceh",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "74153",
+      "preferred": 0,
+      "isp_id": "67639",
+      "https_functional": 1,
+      "host": "speedtest.aceh.telkomsel.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.aceh.telkomsel.com",
+      "ip_address": {
+        "A": "182.3.0.17",
+        "AAAA": "2404:c0:5400:9::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.lampung.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "-5.4479",
+      "lon": "105.2653",
+      "name": "Bandar Lampung",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "73385",
+      "preferred": 0,
+      "isp_id": "67639",
+      "host": "speedtest.lampung.telkomsel.com:8080",
+      "hostname": "speedtest.lampung.telkomsel.com",
+      "ip_address": {
+        "A": "182.3.97.65",
+        "AAAA": "2404:c0:5a00:8::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.bandung2.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "-6.9167",
+      "lon": "107.6000",
+      "name": "Bandung",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "70716",
+      "preferred": 0,
+      "isp_id": "67639",
+      "https_functional": 1,
+      "host": "speedtest.bandung2.telkomsel.com:8080",
+      "hostname": "speedtest.bandung2.telkomsel.com",
+      "ip_address": {
+        "A": "114.122.64.57",
+        "AAAA": "2404:c0:2800:6::11"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.banjabaru2.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "-3.3333",
+      "lon": "114.5833",
+      "name": "Banjarmasin",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "71032",
+      "preferred": 0,
+      "isp_id": "67639",
+      "https_functional": 1,
+      "host": "speedtest.banjabaru2.telkomsel.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.banjabaru2.telkomsel.com",
+      "ip_address": {
+        "A": "114.122.192.57",
+        "AAAA": "2404:c0:4c00:4::41"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.batam.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "1.0667",
+      "lon": "104.0167",
+      "name": "Batam",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "43255",
+      "preferred": 0,
+      "isp_id": "67639",
+      "https_functional": 1,
+      "host": "speedtest.batam.telkomsel.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.batam.telkomsel.com",
+      "ip_address": {
+        "A": "182.2.1.21",
+        "AAAA": "2404:c0:5000:6::9"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.bekasi.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "-6.2443",
+      "lon": "107.1479",
+      "name": "Bekasi",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "71027",
+      "preferred": 0,
+      "isp_id": "67639",
+      "host": "speedtest.bekasi.telkomsel.com:8080",
+      "hostname": "speedtest.bekasi.telkomsel.com",
+      "ip_address": {
+        "A": "114.124.192.57",
+        "AAAA": "2404:c0:2400:5::41"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.cirebon.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "-6.7320",
+      "lon": "108.5523",
+      "name": "Cirebon",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "71029",
+      "preferred": 0,
+      "isp_id": "67639",
+      "https_functional": 1,
+      "host": "speedtest.cirebon.telkomsel.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.cirebon.telkomsel.com",
+      "ip_address": {
+        "A": "182.5.128.201",
+        "AAAA": "2404:c0:6a00:2::41"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.denpasar2.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "-8.6500",
+      "lon": "115.2167",
+      "name": "Denpasar",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "70722",
+      "preferred": 0,
+      "isp_id": "67639",
+      "https_functional": 1,
+      "host": "speedtest.denpasar2.telkomsel.com:8080",
+      "hostname": "speedtest.denpasar2.telkomsel.com",
+      "ip_address": {
+        "A": "114.122.128.57",
+        "AAAA": "2404:c0:3800:2::31"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.jakartaselatan.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "-6.2615",
+      "lon": "106.8060",
+      "name": "Jakarta Selatan",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "71028",
+      "preferred": 0,
+      "isp_id": "67639",
+      "https_functional": 1,
+      "host": "speedtest.jakartaselatan.telkomsel.com:8080",
+      "hostname": "speedtest.jakartaselatan.telkomsel.com",
+      "ip_address": {
+        "A": "114.124.128.57",
+        "AAAA": "2404:c0:2000:4::41"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.jambi.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "-1.4852",
+      "lon": "102.4381",
+      "name": "Jambi",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "73402",
+      "preferred": 0,
+      "isp_id": "67639",
+      "host": "speedtest.jambi.telkomsel.com:8080",
+      "hostname": "speedtest.jambi.telkomsel.com",
+      "ip_address": {
+        "A": "182.3.65.65",
+        "AAAA": "2404:c0:5800:7::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.kupang.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "-10.1772",
+      "lon": "123.6070",
+      "name": "Kupang",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "73943",
+      "preferred": 0,
+      "isp_id": "67639",
+      "https_functional": 1,
+      "host": "speedtest.kupang.telkomsel.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.kupang.telkomsel.com",
+      "ip_address": {
+        "A": "182.4.192.81",
+        "AAAA": "2404:c0:7a01:2::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.makasar2.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "-5.1333",
+      "lon": "119.4167",
+      "name": "Makassar",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "71064",
+      "preferred": 0,
+      "isp_id": "67639",
+      "https_functional": 1,
+      "host": "speedtest.makasar2.telkomsel.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.makasar2.telkomsel.com",
+      "ip_address": {
+        "A": "114.125.192.73",
+        "AAAA": "2404:c0:4400:4::41"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.malang.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "-7.9800",
+      "lon": "112.6200",
+      "name": "Malang",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "71031",
+      "preferred": 0,
+      "isp_id": "67639",
+      "https_functional": 1,
+      "host": "speedtest.malang.telkomsel.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.malang.telkomsel.com",
+      "ip_address": {
+        "A": "182.4.128.57",
+        "AAAA": "2404:c0:9c00:3::41"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.maumere.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "-8.6246",
+      "lon": "122.2147",
+      "name": "Maumere",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "74152",
+      "preferred": 0,
+      "isp_id": "67639",
+      "https_functional": 1,
+      "host": "speedtest.maumere.telkomsel.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.maumere.telkomsel.com",
+      "ip_address": {
+        "A": "182.3.193.57",
+        "AAAA": "2404:c0:6000:4::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.medan2.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "3.5833",
+      "lon": "98.6667",
+      "name": "Medan",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "70718",
+      "preferred": 0,
+      "isp_id": "67639",
+      "https_functional": 1,
+      "host": "speedtest.medan2.telkomsel.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.medan2.telkomsel.com",
+      "ip_address": {
+        "A": "114.122.0.41",
+        "AAAA": "2404:c0:1c00:9::11"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.padang.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "-0.9480",
+      "lon": "100.3631",
+      "name": "Padang",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "72888",
+      "preferred": 0,
+      "isp_id": "67639",
+      "host": "speedtest.padang.telkomsel.com:8080",
+      "hostname": "speedtest.padang.telkomsel.com",
+      "ip_address": {
+        "A": "182.4.64.193",
+        "AAAA": "2404:c0:9800:3::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.palembang2.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "-2.9911",
+      "lon": "104.7567",
+      "name": "Palembang",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "70719",
+      "preferred": 0,
+      "isp_id": "67639",
+      "host": "speedtest.palembang2.telkomsel.com:8080",
+      "hostname": "speedtest.palembang2.telkomsel.com",
+      "ip_address": {
+        "A": "114.125.224.41",
+        "AAAA": "2404:c0:1800:10::11"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.pekanbaru2.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "0.5071",
+      "lon": "101.4478",
+      "name": "Pekanbaru",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "70721",
+      "preferred": 0,
+      "isp_id": "67639",
+      "https_functional": 1,
+      "host": "speedtest.pekanbaru2.telkomsel.com:8080",
+      "hostname": "speedtest.pekanbaru2.telkomsel.com",
+      "ip_address": {
+        "A": "114.125.32.241",
+        "AAAA": "2404:c0:1400:5::11"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.siantar.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "2.9651",
+      "lon": "99.0626",
+      "name": "Pematang Siantar",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "74366",
+      "preferred": 0,
+      "isp_id": "67639",
+      "host": "speedtest.siantar.telkomsel.com:8080",
+      "hostname": "speedtest.siantar.telkomsel.com",
+      "ip_address": {
+        "A": "114.122.32.17",
+        "AAAA": "2404:c0:5600:a::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.semarang.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "-6.9667",
+      "lon": "110.4167",
+      "name": "Semarang",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "70717",
+      "preferred": 0,
+      "isp_id": "67639",
+      "https_functional": 1,
+      "host": "speedtest.semarang.telkomsel.com:8080",
+      "hostname": "speedtest.semarang.telkomsel.com",
+      "ip_address": {
+        "A": "182.2.32.57",
+        "AAAA": "2404:c0:7000:8::11"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.singaraja.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "-8.1214",
+      "lon": "115.0782",
+      "name": "Singaraja",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "74576",
+      "preferred": 0,
+      "isp_id": "67639",
+      "https_functional": 1,
+      "host": "speedtest.singaraja.telkomsel.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.singaraja.telkomsel.com",
+      "ip_address": {
+        "A": "114.122.160.73",
+        "AAAA": "2404:c0:3c00:6::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.sumedang.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "-6.8381",
+      "lon": "107.9275",
+      "name": "Sumedang",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "74395",
+      "preferred": 0,
+      "isp_id": "67639",
+      "https_functional": 1,
+      "host": "speedtest.sumedang.telkomsel.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.sumedang.telkomsel.com",
+      "ip_address": {
+        "A": "114.122.96.82",
+        "AAAA": "2404:c0:2c00:7::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.surabaya2.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "-7.2667",
+      "lon": "112.7333",
+      "name": "Surabaya",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "70730",
+      "preferred": 0,
+      "isp_id": "67639",
+      "https_functional": 1,
+      "host": "speedtest.surabaya2.telkomsel.com:8080",
+      "hostname": "speedtest.surabaya2.telkomsel.com",
+      "ip_address": {
+        "A": "114.125.64.57",
+        "AAAA": "2404:c0:3000:3::11"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.solo.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "-7.5695",
+      "lon": "110.8250",
+      "name": "Surakarta",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "72239",
+      "preferred": 0,
+      "isp_id": "67639",
+      "https_functional": 1,
+      "host": "speedtest.solo.telkomsel.com:8080",
+      "hostname": "speedtest.solo.telkomsel.com",
+      "ip_address": {
+        "A": "182.2.64.46",
+        "AAAA": "2404:c0:7400:6::11"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.jakarta2.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "-6.1756",
+      "lon": "106.6299",
+      "name": "Tangerang",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "70715",
+      "preferred": 0,
+      "isp_id": "67639",
+      "https_functional": 1,
+      "host": "speedtest.jakarta2.telkomsel.com:8080",
+      "hostname": "speedtest.jakarta2.telkomsel.com",
+      "ip_address": {
+        "A": "182.3.32.57",
+        "AAAA": "2404:c0:5c00:6::11"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.yogyakarta.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "-7.8014",
+      "lon": "110.3644",
+      "name": "Yogyakarta",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "71030",
+      "preferred": 0,
+      "isp_id": "67639",
+      "https_functional": 1,
+      "host": "speedtest.yogyakarta.telkomsel.com:8080",
+      "hostname": "speedtest.yogyakarta.telkomsel.com",
+      "ip_address": {
+        "A": "182.4.96.57",
+        "AAAA": "2404:c0:9a00:2::41"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 27,
+  "updated_at": "2026-05-31T18:11:14.308538+05:30"
+}

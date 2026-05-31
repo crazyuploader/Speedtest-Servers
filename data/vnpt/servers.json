@@ -1,0 +1,106 @@
+{
+  "servers": [
+    {
+      "url": "http://speedtest9.vtn.com.vn:8080/speedtest/upload.php",
+      "lat": "10.0452",
+      "lon": "105.7469",
+      "name": "Can Tho",
+      "country": "Vietnam",
+      "cc": "VN",
+      "sponsor": "VNPT-NET",
+      "id": "45567",
+      "preferred": 0,
+      "isp_id": "880",
+      "https_functional": 1,
+      "host": "speedtest9.vtn.com.vn.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest9.vtn.com.vn",
+      "ip_address": {
+        "A": "113.164.9.121",
+        "AAAA": "2001:ee0:3100:7::a"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest5.vtn.com.vn:8080/speedtest/upload.php",
+      "lat": "16.0667",
+      "lon": "108.2333",
+      "name": "Da Nang",
+      "country": "Vietnam",
+      "cc": "VN",
+      "sponsor": "VNPT-NET",
+      "id": "17756",
+      "preferred": 0,
+      "isp_id": "880",
+      "https_functional": 1,
+      "host": "speedtest5.vtn.com.vn.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest5.vtn.com.vn",
+      "ip_address": {
+        "A": "113.164.16.66",
+        "AAAA": "2001:ee0:2f06:a::a"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest2.vtn.com.vn:8080/speedtest/upload.php",
+      "lat": "21.0285",
+      "lon": "105.8542",
+      "name": "Ha Noi",
+      "country": "Vietnam",
+      "cc": "VN",
+      "sponsor": "VNPT-NET",
+      "id": "17757",
+      "preferred": 0,
+      "isp_id": "880",
+      "https_functional": 1,
+      "host": "speedtest2.vtn.com.vn.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest2.vtn.com.vn",
+      "ip_address": {
+        "A": "113.164.24.102",
+        "AAAA": "2001:ee0:2f06:9::a"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest7.vtn.com.vn:8080/speedtest/upload.php",
+      "lat": "20.8467",
+      "lon": "106.6918",
+      "name": "Hai Phong",
+      "country": "Vietnam",
+      "cc": "VN",
+      "sponsor": "VNPT-NET",
+      "id": "45493",
+      "preferred": 0,
+      "isp_id": "880",
+      "https_functional": 1,
+      "host": "speedtest7.vtn.com.vn.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest7.vtn.com.vn",
+      "ip_address": {
+        "A": "203.162.252.26",
+        "AAAA": "2001:ee0:2f06::76"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest3.vtn.com.vn:8080/speedtest/upload.php",
+      "lat": "10.7500",
+      "lon": "106.6667",
+      "name": "Ho Chi Minh",
+      "country": "Vietnam",
+      "cc": "VN",
+      "sponsor": "VNPT-NET",
+      "id": "17758",
+      "preferred": 0,
+      "isp_id": "880",
+      "https_functional": 1,
+      "host": "speedtest3.vtn.com.vn.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest3.vtn.com.vn",
+      "ip_address": {
+        "A": "113.164.8.250",
+        "AAAA": "2001:ee0:2800:100:113:164:8:250"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 5,
+  "updated_at": "2026-05-31T18:10:55.624085+05:30"
+}

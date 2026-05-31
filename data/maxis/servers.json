@@ -1,0 +1,125 @@
+{
+  "servers": [
+    {
+      "url": "http://sgbookla01.maxis.com.my:8080/speedtest/upload.php",
+      "lat": "2.9213",
+      "lon": "101.6559",
+      "name": "Cyberjaya",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "Maxis",
+      "id": "49622",
+      "preferred": 0,
+      "isp_id": "17961",
+      "https_functional": 1,
+      "host": "sgbookla01.maxis.com.my.prod.hosts.ooklaserver.net:8080",
+      "hostname": "sgbookla01.maxis.com.my",
+      "ip_address": {
+        "A": "202.75.141.114",
+        "AAAA": "2001:d08:10:500::102"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://kkookla01.maxis.com.my:8080/speedtest/upload.php",
+      "lat": "5.9714",
+      "lon": "116.0953",
+      "name": "Kota Kinabalu",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "Maxis",
+      "id": "54520",
+      "preferred": 0,
+      "isp_id": "17961",
+      "https_functional": 1,
+      "host": "kkookla01.maxis.com.my.prod.hosts.ooklaserver.net:8080",
+      "hostname": "kkookla01.maxis.com.my",
+      "ip_address": {
+        "A": "202.75.141.50",
+        "AAAA": "2001:d08:41:10::42"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://sgbookla02.maxis.com.my:8080/speedtest/upload.php",
+      "lat": "3.1319",
+      "lon": "101.6841",
+      "name": "Kuala Lumpur",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "Maxis",
+      "id": "49683",
+      "preferred": 0,
+      "isp_id": "17961",
+      "https_functional": 1,
+      "host": "sgbookla02.maxis.com.my.prod.hosts.ooklaserver.net:8080",
+      "hostname": "sgbookla02.maxis.com.my",
+      "ip_address": {
+        "A": "202.75.141.115",
+        "AAAA": "2001:d08:10:500::103"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://dingookla01.maxis.com.my:8080/speedtest/upload.php",
+      "lat": "1.5600",
+      "lon": "110.3450",
+      "name": "Kuching",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "Maxis",
+      "id": "54521",
+      "preferred": 0,
+      "isp_id": "17961",
+      "https_functional": 1,
+      "host": "dingookla01.maxis.com.my.prod.hosts.ooklaserver.net:8080",
+      "hostname": "dingookla01.maxis.com.my",
+      "ip_address": {
+        "A": "202.75.141.58",
+        "AAAA": "2001:d08:40:10::42"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://shtookla02.maxis.com.my:8080/speedtest/upload.php",
+      "lat": "3.0733",
+      "lon": "101.5185",
+      "name": "Shah Alam",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "Maxis",
+      "id": "49573",
+      "preferred": 0,
+      "isp_id": "17961",
+      "https_functional": 1,
+      "host": "shtookla02.maxis.com.my.prod.hosts.ooklaserver.net:8080",
+      "hostname": "shtookla02.maxis.com.my",
+      "ip_address": {
+        "A": "202.75.141.42",
+        "AAAA": "2001:d08:11:500::102"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.maxis.com.my:8080/upload.php",
+      "lat": "3.0567",
+      "lon": "101.5851",
+      "name": "Subang Jaya",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "Maxis",
+      "id": "26511",
+      "preferred": 0,
+      "isp_id": "17961",
+      "https_functional": 1,
+      "host": "speedtest.maxis.com.my.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.maxis.com.my",
+      "ip_address": {
+        "A": "202.75.151.82"
+      },
+      "ipv6_capable": "no"
+    }
+  ],
+  "total_servers": 6,
+  "updated_at": "2026-05-31T18:11:23.769129+05:30"
+}

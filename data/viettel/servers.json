@@ -1,0 +1,161 @@
+{
+  "servers": [
+    {
+      "url": "http://cto-speedtest.viettelidc.com.vn:8080/speedtest/upload.php",
+      "lat": "10.0452",
+      "lon": "105.7469",
+      "name": "Can Tho",
+      "country": "Vietnam",
+      "cc": "VN",
+      "sponsor": "Viettel IDC",
+      "id": "59916",
+      "preferred": 0,
+      "isp_id": "171596",
+      "https_functional": 1,
+      "host": "cto-speedtest.viettelidc.com.vn.prod.hosts.ooklaserver.net:8080",
+      "hostname": "cto-speedtest.viettelidc.com.vn",
+      "ip_address": {
+        "A": "210.211.127.147"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://dtp-speedtest.viettelidc.com.vn:8080/speedtest/upload.php",
+      "lat": "10.4550",
+      "lon": "105.6340",
+      "name": "Cao Lãnh",
+      "country": "Vietnam",
+      "cc": "VN",
+      "sponsor": "Viettel IDC",
+      "id": "59918",
+      "preferred": 0,
+      "isp_id": "171596",
+      "https_functional": 1,
+      "host": "dtp-speedtest.viettelidc.com.vn.prod.hosts.ooklaserver.net:8080",
+      "hostname": "dtp-speedtest.viettelidc.com.vn",
+      "ip_address": {
+        "A": "210.211.127.149"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtestkv2a.viettel.vn:8080/speedtest/upload.php",
+      "lat": "16.0667",
+      "lon": "108.2333",
+      "name": "Da Nang",
+      "country": "Vietnam",
+      "cc": "VN",
+      "sponsor": "Viettel Network",
+      "id": "10040",
+      "preferred": 0,
+      "isp_id": "48490",
+      "https_functional": 1,
+      "host": "speedtestkv2a.viettel.vn.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestkv2a.viettel.vn",
+      "ip_address": {
+        "A": "27.68.201.1",
+        "AAAA": "2402:800:6260:1b::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestkv1a.viettel.vn:8080/speedtest/upload.php",
+      "lat": "21.0285",
+      "lon": "105.8542",
+      "name": "Ha Noi",
+      "country": "Vietnam",
+      "cc": "VN",
+      "sponsor": "Viettel Network",
+      "id": "9903",
+      "preferred": 0,
+      "isp_id": "48490",
+      "host": "speedtestkv1a.viettel.vn:8080",
+      "hostname": "speedtestkv1a.viettel.vn",
+      "ip_address": {
+        "A": "27.68.226.129",
+        "AAAA": "2402:800:6160:44::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://hht-speedtest.viettelidc.com.vn:8080/speedtest/upload.php",
+      "lat": "10.7500",
+      "lon": "106.6667",
+      "name": "Ho Chi Minh",
+      "country": "Vietnam",
+      "cc": "VN",
+      "sponsor": "Viettel IDC",
+      "id": "54812",
+      "preferred": 0,
+      "isp_id": "171596",
+      "https_functional": 1,
+      "host": "hht-speedtest.viettelidc.com.vn.prod.hosts.ooklaserver.net:8080",
+      "hostname": "hht-speedtest.viettelidc.com.vn",
+      "ip_address": {
+        "A": "115.84.182.155",
+        "AAAA": "2401:5f80:4001:d::155"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://phuly-speedtest.viettelidc.com.vn:8080/speedtest/upload.php",
+      "lat": "20.5317",
+      "lon": "105.9176",
+      "name": "Phu Ly",
+      "country": "Vietnam",
+      "cc": "VN",
+      "sponsor": "Viettel IDC",
+      "id": "59934",
+      "preferred": 0,
+      "isp_id": "171596",
+      "https_functional": 1,
+      "host": "phuly-speedtest.viettelidc.com.vn.prod.hosts.ooklaserver.net:8080",
+      "hostname": "phuly-speedtest.viettelidc.com.vn",
+      "ip_address": {
+        "A": "210.211.127.132"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtestkv1dp1.viettel.vn/speedtest/upload.php",
+      "lat": "20.5317",
+      "lon": "105.9176",
+      "name": "Phu Ly",
+      "country": "Vietnam",
+      "cc": "VN",
+      "sponsor": "Viettel Network",
+      "id": "27598",
+      "preferred": 0,
+      "isp_id": "48490",
+      "https_functional": 1,
+      "host": "speedtestkv1dp1.viettel.vn.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestkv1dp1.viettel.vn",
+      "ip_address": {
+        "A": "171.244.173.3",
+        "AAAA": "2402:800:6160:45::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://vinh-speedtest.viettelidc.com.vn:8080/speedtest/upload.php",
+      "lat": "18.6796",
+      "lon": "105.6813",
+      "name": "Vinh",
+      "country": "Vietnam",
+      "cc": "VN",
+      "sponsor": "Viettel IDC",
+      "id": "59932",
+      "preferred": 0,
+      "isp_id": "171596",
+      "https_functional": 1,
+      "host": "vinh-speedtest.viettelidc.com.vn.prod.hosts.ooklaserver.net:8080",
+      "hostname": "vinh-speedtest.viettelidc.com.vn",
+      "ip_address": {
+        "A": "210.211.127.130"
+      },
+      "ipv6_capable": "no"
+    }
+  ],
+  "total_servers": 8,
+  "updated_at": "2026-05-31T18:10:49.594479+05:30"
+}

@@ -1,0 +1,25 @@
+{
+  "servers": [
+    {
+      "url": "http://speedtestnewpnp.metfone.com.kh:8080/speedtest/upload.php",
+      "lat": "11.5500",
+      "lon": "104.9167",
+      "name": "Phnom Penh",
+      "country": "Cambodia",
+      "cc": "KH",
+      "sponsor": "MetfonePNP",
+      "id": "26126",
+      "preferred": 0,
+      "isp_id": "108145",
+      "https_functional": 1,
+      "host": "speedtestnewpnp.metfone.com.kh.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestnewpnp.metfone.com.kh",
+      "ip_address": {
+        "A": "45.119.133.235"
+      },
+      "ipv6_capable": "no"
+    }
+  ],
+  "total_servers": 1,
+  "updated_at": "2026-05-31T18:11:43.914441+05:30"
+}
