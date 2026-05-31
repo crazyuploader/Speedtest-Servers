@@ -109,7 +109,8 @@ function populateISPDropdown(country = "") {
   selectProvider.innerHTML = options
     .map((opt) => `<option value="${opt.value}">${opt.label}</option>`)
     .join("");
-  if (typeof lucide !== "undefined") lucide.createIcons({ attrs: { "stroke-width": "1.5" } });
+  if (typeof lucide !== "undefined")
+    lucide.createIcons({ attrs: { "stroke-width": "1.5" } });
   return options;
 }
 
@@ -316,7 +317,8 @@ function loadServers(isp, countryFilter = "", searchTerm = "") {
       </div>
     </div>
   `;
-  if (typeof lucide !== "undefined") lucide.createIcons({ attrs: { "stroke-width": "1.5" } });
+  if (typeof lucide !== "undefined")
+    lucide.createIcons({ attrs: { "stroke-width": "1.5" } });
   tbody.innerHTML = "";
   if (filteredServers.length > 0) {
     filteredServers.forEach((server, idx) => {
@@ -477,7 +479,8 @@ document.addEventListener("DOMContentLoaded", () => {
     dark = prefersDark ? "true" : "false";
   }
   setDarkMode(dark === "true");
-  if (typeof lucide !== "undefined") lucide.createIcons({ attrs: { "stroke-width": "1.5" } });
+  if (typeof lucide !== "undefined")
+    lucide.createIcons({ attrs: { "stroke-width": "1.5" } });
   initializeMap();
   loadProviders();
   const yearSpan = document.getElementById("year");
