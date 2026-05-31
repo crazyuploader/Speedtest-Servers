@@ -80,9 +80,17 @@ def main():
     """Main function to fetch server data and save it to individual directories."""
     args = parse_args()
 
-    search_terms = [term.strip() for term in args.search.split(",") if term.strip()]
+    # Each entry is pipe-separated; within an entry, comma separates search term from optional country filter
+    raw_entries = [e.strip() for e in args.search.split("|") if e.strip()]
+    search_entries = []
+    for entry in raw_entries:
+        parts = [p.strip() for p in entry.split(",", 1)]
+        term = parts[0]
+        country_filter = parts[1] if len(parts) > 1 else None
+        if term:
+            search_entries.append((term, country_filter))
 
-    if not search_terms:
+    if not search_entries:
         print("Error: Please provide at least one valid search term.")
         sys.exit(1)
 
@@ -95,8 +103,9 @@ def main():
         sys.exit(1)
 
     try:
-        for term in search_terms:
-            print(f"\n--- Processing term: {term.title()} ---")
+        for term, country_filter in search_entries:
+            label = f"{term.title()}" + (f" (country: {country_filter})" if country_filter else "")
+            print(f"\n--- Processing: {label} ---")
 
             sanitized_term = sanitize_name(term)
             term_data_dir = os.path.join(BASE_DATA_DIR, sanitized_term)
@@ -121,6 +130,19 @@ def main():
                 if not servers_data:
                     print(f"WARNING: No servers found for '{term}'.")
                     continue
+
+                if country_filter:
+                    cf = country_filter.lower()
+                    before = len(servers_data)
+                    servers_data = [
+                        s for s in servers_data
+                        if s.get("country", "").lower() == cf
+                        or s.get("cc", "").lower() == cf
+                    ]
+                    print(f"INFO: Country filter '{country_filter}': {before} → {len(servers_data)} servers")
+                    if not servers_data:
+                        print(f"WARNING: No servers remain after country filter for '{term}'.")
+                        continue
 
                 for server in servers_data:
                     server.pop("distance", None)

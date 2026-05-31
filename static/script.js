@@ -223,16 +223,26 @@ function loadServers(isp, countryFilter = "", searchTerm = "") {
     );
   }
   if (searchTerm) {
-    const lowerCaseSearchTerm = searchTerm.toLowerCase();
-    filteredServers = filteredServers.filter(
-      (server) =>
-        server.name.toLowerCase().includes(lowerCaseSearchTerm) ||
-        server.sponsor.toLowerCase().includes(lowerCaseSearchTerm) ||
-        server.host.toLowerCase().includes(lowerCaseSearchTerm) ||
-        server.id.includes(lowerCaseSearchTerm) ||
-        server.country.toLowerCase().includes(lowerCaseSearchTerm) ||
-        server.cc.toLowerCase().includes(lowerCaseSearchTerm),
-    );
+    const isExact =
+      searchTerm.startsWith('"') &&
+      searchTerm.endsWith('"') &&
+      searchTerm.length > 2;
+    const term = isExact
+      ? searchTerm.slice(1, -1).toLowerCase()
+      : searchTerm.toLowerCase();
+    filteredServers = filteredServers.filter((server) => {
+      const fields = [
+        (server.name ?? "").toLowerCase(),
+        (server.sponsor ?? "").toLowerCase(),
+        (server.host ?? "").toLowerCase(),
+        String(server.id ?? ""),
+        (server.country ?? "").toLowerCase(),
+        (server.cc ?? "").toLowerCase(),
+      ];
+      return isExact
+        ? fields.some((f) => f === term)
+        : fields.some((f) => f.includes(term));
+    });
   }
   if (currentSort.column) {
     filteredServers.sort((a, b) => {

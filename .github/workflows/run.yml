@@ -36,7 +36,7 @@ jobs:
 
       - name: Run Program
         run: |
-          networks=$(paste -sd, networks.txt)
+          networks=$(paste -sd'|' networks.txt)
           uv run python main.py --search "$networks"
 
       - name: Prettify files
@@ -47,9 +47,21 @@ jobs:
         id: check_changes
         run: |
           if [[ -z $(git status --porcelain) ]]; then
-              echo "changes=false" >> $GITHUB_OUTPUT
+            echo "changes=false" >> $GITHUB_OUTPUT
           else
+            # New untracked files (e.g. new ISP directories) are always meaningful
+            untracked=$(git status --porcelain | grep '^??' || true)
+            if [[ -n "$untracked" ]]; then
               echo "changes=true" >> $GITHUB_OUTPUT
+            else
+              # Modified tracked files — skip commit if only updated_at lines changed
+              meaningful=$(git diff --unified=0 | grep '^[+-]' | grep -v '^---' | grep -v '^+++' | grep -v '"updated_at"' || true)
+              if [[ -z "$meaningful" ]]; then
+                echo "changes=false" >> $GITHUB_OUTPUT
+              else
+                echo "changes=true" >> $GITHUB_OUTPUT
+              fi
+            fi
           fi
 
       - name: Commit files
