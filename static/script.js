@@ -122,9 +122,19 @@ function getTileLayer() {
         attr: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
       }
     : {
-        url: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-        attr: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        url: "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+        attr: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
       };
+}
+
+function createServerMarker() {
+  return L.divIcon({
+    className: "server-marker",
+    html: '<div class="server-marker-dot"></div>',
+    iconSize: [12, 12],
+    iconAnchor: [6, 6],
+    popupAnchor: [0, -10],
+  });
 }
 
 function initializeMap() {
@@ -132,7 +142,7 @@ function initializeMap() {
     map = L.map("map").setView([20, 0], 2);
     const cfg = getTileLayer();
     tileLayer = L.tileLayer(cfg.url, { attribution: cfg.attr }).addTo(map);
-    markers = L.markerClusterGroup();
+    markers = L.markerClusterGroup({ showCoverageOnHover: false });
     markers.addTo(map);
   }
 }
@@ -149,7 +159,7 @@ function updateMapMarkers(servers) {
     ) {
       const lat = parseFloat(server.lat);
       const lon = parseFloat(server.lon);
-      const marker = L.marker([lat, lon]);
+      const marker = L.marker([lat, lon], { icon: createServerMarker() });
       marker.bindPopup(`
         <strong>${server.name}</strong><br>
         Sponsor: ${server.sponsor}<br>

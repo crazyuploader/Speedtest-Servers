@@ -160,10 +160,14 @@ body.light-mode::before {
 }
 
 @keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
-
 
 .site-title {
   font-family: "IBM Plex Mono", monospace;
@@ -943,6 +947,30 @@ body.light-mode .badge-no {
   }
 }
 
+/* ── SERVER MARKERS ──────────────────────────────── */
+
+.server-marker {
+  background: none !important;
+  border: none !important;
+}
+
+.server-marker-dot {
+  width: 12px;
+  height: 12px;
+  background: var(--accent);
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  border-radius: 50%;
+  box-shadow:
+    0 0 8px var(--accent-glow),
+    0 2px 6px rgba(0, 0, 0, 0.4);
+  transition: transform 0.15s ease;
+  cursor: pointer;
+}
+
+.server-marker-dot:hover {
+  transform: scale(1.5);
+}
+
 /* ── LEAFLET ─────────────────────────────────────── */
 
 .leaflet-container {
@@ -1006,4 +1034,36 @@ body.light-mode .badge-no {
   color: #fff !important;
   font-family: "IBM Plex Mono", monospace !important;
   font-weight: 700 !important;
+}
+
+/* ── ZOOM CONTROLS ───────────────────────────────── */
+
+.leaflet-bar {
+  border: 1px solid var(--border-hover) !important;
+  border-radius: var(--radius-sm) !important;
+  box-shadow: var(--shadow) !important;
+  overflow: hidden;
+}
+
+.leaflet-bar a {
+  background: var(--bg-elevated) !important;
+  color: var(--text-secondary) !important;
+  border-bottom: 1px solid var(--border) !important;
+  font-family: "IBM Plex Mono", monospace !important;
+  font-weight: 700 !important;
+  width: 30px !important;
+  height: 30px !important;
+  line-height: 28px !important;
+  font-size: 15px !important;
+  transition: all 0.15s ease !important;
+  text-decoration: none !important;
+}
+
+.leaflet-bar a:hover {
+  background: var(--accent-dim) !important;
+  color: var(--accent) !important;
+}
+
+.leaflet-bar a:last-child {
+  border-bottom: none !important;
 }
