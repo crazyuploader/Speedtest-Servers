@@ -109,6 +109,7 @@ function populateISPDropdown(country = "") {
   selectProvider.innerHTML = options
     .map((opt) => `<option value="${opt.value}">${opt.label}</option>`)
     .join("");
+  if (typeof lucide !== "undefined") lucide.createIcons({ attrs: { "stroke-width": "1.5" } });
   return options;
 }
 
@@ -280,9 +281,7 @@ function loadServers(isp, countryFilter = "", searchTerm = "") {
   metadataDiv.innerHTML = `
     <div class="stat-card">
       <div class="stat-icon cyan">
-        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/>
-        </svg>
+        <i data-lucide="hard-drive" class="w-5 h-5"></i>
       </div>
       <div class="stat-body">
         <p class="stat-label">Total Servers</p>
@@ -291,9 +290,7 @@ function loadServers(isp, countryFilter = "", searchTerm = "") {
     </div>
     <div class="stat-card">
       <div class="stat-icon emerald">
-        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
-        </svg>
+        <i data-lucide="globe" class="w-5 h-5"></i>
       </div>
       <div class="stat-body">
         <p class="stat-label">IPv6 Ready</p>
@@ -302,9 +299,7 @@ function loadServers(isp, countryFilter = "", searchTerm = "") {
     </div>
     <div class="stat-card">
       <div class="stat-icon amber">
-        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-        </svg>
+        <i data-lucide="shield" class="w-5 h-5"></i>
       </div>
       <div class="stat-body">
         <p class="stat-label">HTTPS Support</p>
@@ -313,9 +308,7 @@ function loadServers(isp, countryFilter = "", searchTerm = "") {
     </div>
     <div class="stat-card">
       <div class="stat-icon purple">
-        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
-        </svg>
+        <i data-lucide="clock" class="w-5 h-5"></i>
       </div>
       <div class="stat-body">
         <p class="stat-label">Last Updated</p>
@@ -323,6 +316,7 @@ function loadServers(isp, countryFilter = "", searchTerm = "") {
       </div>
     </div>
   `;
+  if (typeof lucide !== "undefined") lucide.createIcons({ attrs: { "stroke-width": "1.5" } });
   tbody.innerHTML = "";
   if (filteredServers.length > 0) {
     filteredServers.forEach((server, idx) => {
@@ -483,6 +477,7 @@ document.addEventListener("DOMContentLoaded", () => {
     dark = prefersDark ? "true" : "false";
   }
   setDarkMode(dark === "true");
+  if (typeof lucide !== "undefined") lucide.createIcons({ attrs: { "stroke-width": "1.5" } });
   initializeMap();
   loadProviders();
   const yearSpan = document.getElementById("year");
