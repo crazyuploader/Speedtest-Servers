@@ -131,8 +131,7 @@
       "id": "41186",
       "preferred": 0,
       "isp_id": "900",
-      "https_functional": 1,
-      "host": "sfp-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
+      "host": "sfp-speedtest.globe.com.ph:8080",
       "hostname": "sfp-speedtest.globe.com.ph",
       "ip_address": {
         "A": "124.6.181.202",
@@ -402,5 +401,5 @@
     }
   ],
   "total_servers": 20,
-  "updated_at": "2026-05-31T13:11:08.072327+00:00"
+  "updated_at": "2026-06-01T02:56:05.688971+00:00"
 }

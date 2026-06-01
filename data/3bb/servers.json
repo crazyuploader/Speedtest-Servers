@@ -211,8 +211,7 @@
       "id": "24507",
       "preferred": 0,
       "isp_id": "42011",
-      "https_functional": 1,
-      "host": "speedtest-nrt1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest-nrt1.3bb.co.th:8080",
       "hostname": "speedtest-nrt1.3bb.co.th",
       "ip_address": {
         "A": "110.164.3.236",
@@ -521,5 +520,5 @@
     }
   ],
   "total_servers": 26,
-  "updated_at": "2026-05-31T13:10:31.168665+00:00"
+  "updated_at": "2026-06-01T02:55:19.524617+00:00"
 }

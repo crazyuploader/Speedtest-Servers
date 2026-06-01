@@ -687,8 +687,7 @@
       "id": "67798",
       "preferred": 0,
       "isp_id": "137615",
-      "https_functional": 1,
-      "host": "ldhnooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
+      "host": "ldhnooklaspeed1.jioconnect.com:8080",
       "hostname": "ldhnooklaspeed1.jioconnect.com",
       "ip_address": {
         "A": "49.45.64.234",
@@ -1273,5 +1272,5 @@
     }
   ],
   "total_servers": 64,
-  "updated_at": "2026-05-31T13:11:37.588113+00:00"
+  "updated_at": "2026-06-01T02:56:29.778026+00:00"
 }

@@ -110,6 +110,7 @@
       "id": "47976",
       "preferred": 0,
       "isp_id": "64789",
+      "https_functional": 1,
       "host": "speedtestjpr.actcorp.in:8080",
       "hostname": "speedtestjpr.actcorp.in",
       "ip_address": {
@@ -240,5 +241,5 @@
     }
   ],
   "total_servers": 12,
-  "updated_at": "2026-05-31T13:10:33.691760+00:00"
+  "updated_at": "2026-06-01T02:55:22.835176+00:00"
 }

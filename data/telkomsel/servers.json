@@ -445,8 +445,7 @@
       "id": "74395",
       "preferred": 0,
       "isp_id": "67639",
-      "https_functional": 1,
-      "host": "speedtest.sumedang.telkomsel.com.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest.sumedang.telkomsel.com:8080",
       "hostname": "speedtest.sumedang.telkomsel.com",
       "ip_address": {
         "A": "114.122.96.82",
@@ -536,5 +535,5 @@
     }
   ],
   "total_servers": 27,
-  "updated_at": "2026-05-31T13:12:27.870343+00:00"
+  "updated_at": "2026-06-01T02:57:26.711132+00:00"
 }
