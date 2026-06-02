@@ -41,25 +41,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://mumbaispeedtest.spectra.co:8080/speedtest/upload.php",
-      "lat": "18.9647",
-      "lon": "72.8258",
-      "name": "Mumbai",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Shyam Spectra",
-      "id": "8978",
-      "preferred": 0,
-      "isp_id": "158825",
-      "host": "mumbaispeedtest.spectra.co:8080",
-      "hostname": "mumbaispeedtest.spectra.co",
-      "ip_address": {
-        "A": "203.123.44.22",
-        "AAAA": "2001:fd0:2000:8::ff01"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtest.spectra.co:8080/speedtest/upload.php",
       "lat": "28.6100",
       "lon": "77.2300",
@@ -79,6 +60,6 @@
       "ipv6_capable": "no"
     }
   ],
-  "total_servers": 4,
-  "updated_at": "2026-06-01T02:56:55.396882+00:00"
+  "total_servers": 3,
+  "updated_at": "2026-06-02T02:54:06.583640+00:00"
 }

@@ -101,26 +101,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtest.del.vodafoneidea.com:8080/speedtest/upload.php",
-      "lat": "28.4615",
-      "lon": "77.0178",
-      "name": "Gurgaon",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Vi India",
-      "id": "69558",
-      "preferred": 0,
-      "isp_id": "23698",
-      "https_functional": 1,
-      "host": "speedtest.del.vodafoneidea.com:8080",
-      "hostname": "speedtest.del.vodafoneidea.com",
-      "ip_address": {
-        "A": "112.79.41.6",
-        "AAAA": "2402:3a80:46e2::4"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtest.apt.vodafoneidea.com:8080/speedtest/upload.php",
       "lat": "17.3700",
       "lon": "78.4800",
@@ -251,7 +231,6 @@
       "id": "69596",
       "preferred": 0,
       "isp_id": "23698",
-      "https_functional": 1,
       "host": "speedtest.mum.vodafoneidea.com:8080",
       "hostname": "speedtest.mum.vodafoneidea.com",
       "ip_address": {
@@ -340,6 +319,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 17,
-  "updated_at": "2026-06-01T02:57:39.285758+00:00"
+  "total_servers": 16,
+  "updated_at": "2026-06-02T02:54:52.311734+00:00"
 }

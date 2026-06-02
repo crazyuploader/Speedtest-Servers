@@ -130,8 +130,7 @@
       "id": "39281",
       "preferred": 0,
       "isp_id": "86204",
-      "https_functional": 1,
-      "host": "speedtest-mds01.gtpl.net.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest-mds01.gtpl.net:8080",
       "hostname": "speedtest-mds01.gtpl.net",
       "ip_address": {
         "A": "163.53.208.10",
@@ -249,8 +248,7 @@
       "id": "39268",
       "preferred": 0,
       "isp_id": "86204",
-      "https_functional": 1,
-      "host": "speedtest-unj01.gtpl.net.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest-unj01.gtpl.net:8080",
       "hostname": "speedtest-unj01.gtpl.net",
       "ip_address": {
         "A": "103.240.160.70"
@@ -259,5 +257,5 @@
     }
   ],
   "total_servers": 13,
-  "updated_at": "2026-06-01T02:56:12.046062+00:00"
+  "updated_at": "2026-06-02T02:53:24.140962+00:00"
 }
