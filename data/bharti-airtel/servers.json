@@ -31,8 +31,7 @@
       "id": "74425",
       "preferred": 0,
       "isp_id": "46101",
-      "https_functional": 1,
-      "host": "speedtestgov1.airtel.in.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtestgov1.airtel.in:8080",
       "hostname": "speedtestgov1.airtel.in",
       "ip_address": {
         "A": "125.21.143.182",
@@ -597,5 +596,5 @@
     }
   ],
   "total_servers": 30,
-  "updated_at": "2026-06-02T02:52:54.653950+00:00"
+  "updated_at": "2026-06-03T03:27:51.230950+00:00"
 }

@@ -101,26 +101,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://lhg2-speedtest.globe.com.ph:8080/speedtest/upload.php",
-      "lat": "10.2833",
-      "lon": "123.9000",
-      "name": "Cebu City",
-      "country": "Philippines",
-      "cc": "PH",
-      "sponsor": "Globe Telecom",
-      "id": "3735",
-      "preferred": 0,
-      "isp_id": "900",
-      "https_functional": 1,
-      "host": "lhg2-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
-      "hostname": "lhg2-speedtest.globe.com.ph",
-      "ip_address": {
-        "A": "120.28.63.206",
-        "AAAA": "2001:fe0:10:e4::2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://sfp-speedtest.globe.com.ph:8080/speedtest/upload.php",
       "lat": "15.1846",
       "lon": "120.5569",
@@ -320,26 +300,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://tac-speedtest.globe.com.ph:8080/speedtest/upload.php",
-      "lat": "11.2543",
-      "lon": "124.9617",
-      "name": "Tacloban",
-      "country": "Philippines",
-      "cc": "PH",
-      "sponsor": "Globe Telecom",
-      "id": "20537",
-      "preferred": 0,
-      "isp_id": "900",
-      "https_functional": 1,
-      "host": "tac-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
-      "hostname": "tac-speedtest.globe.com.ph",
-      "ip_address": {
-        "A": "120.28.63.194",
-        "AAAA": "2001:fe0:10:e2::2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://tgt-speedtest.globe.com.ph:8080/speedtest/upload.php",
       "lat": "14.5176",
       "lon": "121.0509",
@@ -400,6 +360,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 20,
-  "updated_at": "2026-06-02T02:53:17.511986+00:00"
+  "total_servers": 18,
+  "updated_at": "2026-06-03T03:28:15.807934+00:00"
 }

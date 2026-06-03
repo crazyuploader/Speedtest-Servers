@@ -81,6 +81,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtest.maxispeed.com.br:8080/speedtest/upload.php",
+      "lat": "-8.1362",
+      "lon": "-41.1417",
+      "name": "Paulistana",
+      "country": "Brazil",
+      "cc": "BR",
+      "sponsor": "MaxiSpeed",
+      "id": "21902",
+      "preferred": 0,
+      "isp_id": "157415",
+      "https_functional": 1,
+      "host": "speedtest.maxispeed.com.br.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.maxispeed.com.br",
+      "ip_address": {
+        "A": "45.71.139.243",
+        "AAAA": "2804:44dc:a000::243"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://shtookla02.maxis.com.my:8080/speedtest/upload.php",
       "lat": "3.0733",
       "lon": "101.5185",
@@ -120,6 +140,6 @@
       "ipv6_capable": "no"
     }
   ],
-  "total_servers": 6,
-  "updated_at": "2026-06-02T02:53:50.831165+00:00"
+  "total_servers": 7,
+  "updated_at": "2026-06-03T03:28:50.385590+00:00"
 }

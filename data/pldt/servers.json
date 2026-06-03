@@ -1,24 +1,6 @@
 {
   "servers": [
     {
-      "url": "http://119.92.238.98:8080/speedtest/upload.php",
-      "lat": "8.4833",
-      "lon": "124.6500",
-      "name": "Cagayan de Oro",
-      "country": "Philippines",
-      "cc": "PH",
-      "sponsor": "PLDT",
-      "id": "7789",
-      "preferred": 0,
-      "isp_id": "259981",
-      "host": "119.92.238.98:8080",
-      "hostname": "119.92.238.98",
-      "ip_address": {
-        "A": "119.92.238.98"
-      },
-      "ipv6_capable": "no"
-    },
-    {
       "url": "http://119.92.223.221:8080/speedtest/upload.php",
       "lat": "10.2833",
       "lon": "123.9000",
@@ -131,6 +113,6 @@
       "ipv6_capable": "no"
     }
   ],
-  "total_servers": 7,
-  "updated_at": "2026-06-02T02:53:59.573175+00:00"
+  "total_servers": 6,
+  "updated_at": "2026-06-03T03:28:58.891669+00:00"
 }
