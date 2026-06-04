@@ -11,8 +11,7 @@
       "id": "71377",
       "preferred": 0,
       "isp_id": "67639",
-      "https_functional": 1,
-      "host": "speedtest.balikpapan.telkomsel.com.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest.balikpapan.telkomsel.com:8080",
       "hostname": "speedtest.balikpapan.telkomsel.com",
       "ip_address": {
         "A": "182.8.160.17",
@@ -535,5 +534,5 @@
     }
   ],
   "total_servers": 27,
-  "updated_at": "2026-06-03T03:29:39.572172+00:00"
+  "updated_at": "2026-06-04T02:58:51.546613+00:00"
 }

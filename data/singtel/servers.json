@@ -11,7 +11,6 @@
       "id": "13623",
       "preferred": 0,
       "isp_id": "429",
-      "https_functional": 1,
       "host": "speedtest.singnet.com.sg:8080",
       "hostname": "speedtest.singnet.com.sg",
       "ip_address": {
@@ -21,5 +20,5 @@
     }
   ],
   "total_servers": 1,
-  "updated_at": "2026-06-03T03:29:06.888389+00:00"
+  "updated_at": "2026-06-04T02:58:21.500801+00:00"
 }

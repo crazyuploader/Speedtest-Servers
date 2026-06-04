@@ -147,8 +147,7 @@
       "id": "39272",
       "preferred": 0,
       "isp_id": "86204",
-      "https_functional": 1,
-      "host": "speedtest-nvs01.gtpl.net.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest-nvs01.gtpl.net:8080",
       "hostname": "speedtest-nvs01.gtpl.net",
       "ip_address": {
         "A": "103.21.163.14",
@@ -255,5 +254,5 @@
     }
   ],
   "total_servers": 13,
-  "updated_at": "2026-06-03T03:28:22.382496+00:00"
+  "updated_at": "2026-06-04T02:57:33.299708+00:00"
 }

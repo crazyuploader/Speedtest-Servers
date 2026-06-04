@@ -1,26 +1,6 @@
 {
   "servers": [
     {
-      "url": "http://ant2-speedtest.globe.com.ph:8080/speedtest/upload.php",
-      "lat": "14.5992",
-      "lon": "121.1943",
-      "name": "Antipolo",
-      "country": "Philippines",
-      "cc": "PH",
-      "sponsor": "Globe Telecom",
-      "id": "3948",
-      "preferred": 0,
-      "isp_id": "900",
-      "https_functional": 1,
-      "host": "ant2-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
-      "hostname": "ant2-speedtest.globe.com.ph",
-      "ip_address": {
-        "A": "124.6.181.206",
-        "AAAA": "2001:fd8:3b1:1::2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://bcn-speedtest.globe.com.ph:8080/speedtest/upload.php",
       "lat": "10.6667",
       "lon": "122.9500",
@@ -77,26 +57,6 @@
       "ip_address": {
         "A": "120.28.4.74",
         "AAAA": "2001:fe0:10:e6::2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://cln-speedtest.globe.com.ph:8080/speedtest/upload.php",
-      "lat": "14.7566",
-      "lon": "121.0450",
-      "name": "Caloocan City",
-      "country": "Philippines",
-      "cc": "PH",
-      "sponsor": "Globe Telecom",
-      "id": "61860",
-      "preferred": 0,
-      "isp_id": "900",
-      "https_functional": 1,
-      "host": "cln-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
-      "hostname": "cln-speedtest.globe.com.ph",
-      "ip_address": {
-        "A": "124.6.181.210",
-        "AAAA": "2001:fd8:3b1:3::2"
       },
       "ipv6_capable": "yes"
     },
@@ -220,26 +180,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://psg-speedtest.globe.com.ph:8080/speedtest/upload.php",
-      "lat": "14.5764",
-      "lon": "121.0851",
-      "name": "Pasig City",
-      "country": "Philippines",
-      "cc": "PH",
-      "sponsor": "Globe Telecom",
-      "id": "3757",
-      "preferred": 0,
-      "isp_id": "900",
-      "https_functional": 1,
-      "host": "psg-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
-      "hostname": "psg-speedtest.globe.com.ph",
-      "ip_address": {
-        "A": "124.6.181.222",
-        "AAAA": "2001:fd8:3b1:2::2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://qc2-speedtest.globe.com.ph:8080/speedtest/upload.php",
       "lat": "14.6300",
       "lon": "121.0300",
@@ -256,26 +196,6 @@
       "ip_address": {
         "A": "203.177.54.150",
         "AAAA": "2001:fd8:1:3::2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://sjdm-speedtest.globe.com.ph:8080/speedtest/upload.php",
-      "lat": "14.8143",
-      "lon": "121.0725",
-      "name": "San Jose del Monte",
-      "country": "Philippines",
-      "cc": "PH",
-      "sponsor": "Globe Telecom",
-      "id": "41185",
-      "preferred": 0,
-      "isp_id": "900",
-      "https_functional": 1,
-      "host": "sjdm-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
-      "hostname": "sjdm-speedtest.globe.com.ph",
-      "ip_address": {
-        "A": "124.6.181.226",
-        "AAAA": "2001:fd8:3b1:4::2"
       },
       "ipv6_capable": "yes"
     },
@@ -350,8 +270,7 @@
       "id": "4192",
       "preferred": 0,
       "isp_id": "900",
-      "https_functional": 1,
-      "host": "dav2-speedtest.globe.com.ph.prod.hosts.ooklaserver.net:8080",
+      "host": "dav2-speedtest.globe.com.ph:8080",
       "hostname": "dav2-speedtest.globe.com.ph",
       "ip_address": {
         "A": "120.28.4.78",
@@ -360,6 +279,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 18,
-  "updated_at": "2026-06-03T03:28:15.807934+00:00"
+  "total_servers": 14,
+  "updated_at": "2026-06-04T02:57:27.035352+00:00"
 }
