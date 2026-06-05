@@ -135,6 +135,25 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://tth-speedtest.viettelidc.com.vn:8080/speedtest/upload.php",
+      "lat": "16.4637",
+      "lon": "107.5909",
+      "name": "Hue",
+      "country": "Vietnam",
+      "cc": "VN",
+      "sponsor": "Viettel IDC",
+      "id": "59888",
+      "preferred": 0,
+      "isp_id": "171596",
+      "https_functional": 1,
+      "host": "tth-speedtest.viettelidc.com.vn.prod.hosts.ooklaserver.net:8080",
+      "hostname": "tth-speedtest.viettelidc.com.vn",
+      "ip_address": {
+        "A": "210.211.127.142"
+      },
+      "ipv6_capable": "no"
+    },
+    {
       "url": "http://phuly-speedtest.viettelidc.com.vn:8080/speedtest/upload.php",
       "lat": "20.5317",
       "lon": "105.9176",
@@ -231,6 +250,6 @@
       "ipv6_capable": "no"
     }
   ],
-  "total_servers": 12,
-  "updated_at": "2026-06-04T02:59:14.656454+00:00"
+  "total_servers": 13,
+  "updated_at": "2026-06-05T02:47:11.848288+00:00"
 }

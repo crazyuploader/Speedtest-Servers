@@ -210,8 +210,7 @@
       "id": "43916",
       "preferred": 0,
       "isp_id": "27544",
-      "https_functional": 1,
-      "host": "raipur-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
+      "host": "raipur-speedtest.ishancloud.com:8080",
       "hostname": "raipur-speedtest.ishancloud.com",
       "ip_address": {
         "A": "43.228.112.252",
@@ -261,5 +260,5 @@
     }
   ],
   "total_servers": 13,
-  "updated_at": "2026-06-04T02:57:38.341256+00:00"
+  "updated_at": "2026-06-05T02:45:20.035264+00:00"
 }
