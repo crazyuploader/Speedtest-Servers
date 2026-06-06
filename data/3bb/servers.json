@@ -31,8 +31,7 @@
       "id": "8990",
       "preferred": 0,
       "isp_id": "42011",
-      "https_functional": 1,
-      "host": "speedtest-sp1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest-sp1.3bb.co.th:8080",
       "hostname": "speedtest-sp1.3bb.co.th",
       "ip_address": {
         "A": "110.164.2.218",
@@ -211,7 +210,8 @@
       "id": "24507",
       "preferred": 0,
       "isp_id": "42011",
-      "host": "speedtest-nrt1.3bb.co.th:8080",
+      "https_functional": 1,
+      "host": "speedtest-nrt1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest-nrt1.3bb.co.th",
       "ip_address": {
         "A": "110.164.3.236",
@@ -250,7 +250,8 @@
       "id": "23295",
       "preferred": 0,
       "isp_id": "42011",
-      "host": "speedtest-pte1.3bb.co.th:8080",
+      "https_functional": 1,
+      "host": "speedtest-pte1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest-pte1.3bb.co.th",
       "ip_address": {
         "A": "110.164.2.211",
@@ -309,7 +310,8 @@
       "id": "24544",
       "preferred": 0,
       "isp_id": "42011",
-      "host": "speedtest-pkt1.3bb.co.th:8080",
+      "https_functional": 1,
+      "host": "speedtest-pkt1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest-pkt1.3bb.co.th",
       "ip_address": {
         "A": "110.164.3.237",
@@ -428,7 +430,8 @@
       "id": "24408",
       "preferred": 0,
       "isp_id": "42011",
-      "host": "speedtest-hyi1.3bb.co.th:8080",
+      "https_functional": 1,
+      "host": "speedtest-hyi1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest-hyi1.3bb.co.th",
       "ip_address": {
         "A": "110.164.3.208",
@@ -467,8 +470,7 @@
       "id": "24093",
       "preferred": 0,
       "isp_id": "42011",
-      "https_functional": 1,
-      "host": "speedtest-ubn1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest-ubn1.3bb.co.th:8080",
       "hostname": "speedtest-ubn1.3bb.co.th",
       "ip_address": {
         "A": "110.164.3.252",
@@ -518,5 +520,5 @@
     }
   ],
   "total_servers": 26,
-  "updated_at": "2026-06-05T02:44:23.086761+00:00"
+  "updated_at": "2026-06-06T02:31:50.227791+00:00"
 }

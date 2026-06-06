@@ -687,7 +687,8 @@
       "id": "67798",
       "preferred": 0,
       "isp_id": "137615",
-      "host": "ldhnooklaspeed1.jioconnect.com:8080",
+      "https_functional": 1,
+      "host": "ldhnooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "ldhnooklaspeed1.jioconnect.com",
       "ip_address": {
         "A": "49.45.64.234",
@@ -1024,7 +1025,8 @@
       "id": "16084",
       "preferred": 0,
       "isp_id": "137615",
-      "host": "rnchooklaspeed1.jioconnect.com:8080",
+      "https_functional": 1,
+      "host": "rnchooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "rnchooklaspeed1.jioconnect.com",
       "ip_address": {
         "A": "49.45.64.206",
@@ -1272,5 +1274,5 @@
     }
   ],
   "total_servers": 64,
-  "updated_at": "2026-06-05T02:45:35.886824+00:00"
+  "updated_at": "2026-06-06T02:32:57.529594+00:00"
 }

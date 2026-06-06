@@ -71,7 +71,8 @@
       "id": "7644",
       "preferred": 0,
       "isp_id": "64789",
-      "host": "speedtestcbe.actcorp.in:8080",
+      "https_functional": 1,
+      "host": "speedtestcbe.actcorp.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtestcbe.actcorp.in",
       "ip_address": {
         "A": "106.51.113.13",
@@ -90,6 +91,7 @@
       "id": "14340",
       "preferred": 0,
       "isp_id": "64789",
+      "https_functional": 1,
       "host": "speedtest.actcorp.in:8080",
       "hostname": "speedtest.actcorp.in",
       "ip_address": {
@@ -240,5 +242,5 @@
     }
   ],
   "total_servers": 12,
-  "updated_at": "2026-06-05T02:44:25.834731+00:00"
+  "updated_at": "2026-06-06T02:31:53.026275+00:00"
 }

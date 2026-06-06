@@ -111,7 +111,8 @@
       "id": "51085",
       "preferred": 0,
       "isp_id": "219787",
-      "host": "Indore-speedtest.ishancloud.com:8080",
+      "https_functional": 1,
+      "host": "Indore-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "indore-speedtest.ishancloud.com",
       "ip_address": {
         "A": "183.87.223.4",
@@ -210,7 +211,8 @@
       "id": "43916",
       "preferred": 0,
       "isp_id": "27544",
-      "host": "raipur-speedtest.ishancloud.com:8080",
+      "https_functional": 1,
+      "host": "raipur-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "raipur-speedtest.ishancloud.com",
       "ip_address": {
         "A": "43.228.112.252",
@@ -260,5 +262,5 @@
     }
   ],
   "total_servers": 13,
-  "updated_at": "2026-06-05T02:45:20.035264+00:00"
+  "updated_at": "2026-06-06T02:32:44.300827+00:00"
 }

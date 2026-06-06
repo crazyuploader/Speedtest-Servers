@@ -69,7 +69,8 @@
       "id": "59883",
       "preferred": 0,
       "isp_id": "171596",
-      "host": "dng-speedtest.viettelidc.com.vn:8080",
+      "https_functional": 1,
+      "host": "dng-speedtest.viettelidc.com.vn.prod.hosts.ooklaserver.net:8080",
       "hostname": "dng-speedtest.viettelidc.com.vn",
       "ip_address": {
         "A": "210.211.127.138"
@@ -87,7 +88,8 @@
       "id": "9903",
       "preferred": 0,
       "isp_id": "48490",
-      "host": "speedtestkv1a.viettel.vn:8080",
+      "https_functional": 1,
+      "host": "speedtestkv1a.viettel.vn.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtestkv1a.viettel.vn",
       "ip_address": {
         "A": "27.68.226.129",
@@ -183,8 +185,7 @@
       "id": "27598",
       "preferred": 0,
       "isp_id": "48490",
-      "https_functional": 1,
-      "host": "speedtestkv1dp1.viettel.vn.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtestkv1dp1.viettel.vn:8080",
       "hostname": "speedtestkv1dp1.viettel.vn",
       "ip_address": {
         "A": "171.244.173.3",
@@ -251,5 +252,5 @@
     }
   ],
   "total_servers": 13,
-  "updated_at": "2026-06-05T02:47:11.848288+00:00"
+  "updated_at": "2026-06-06T02:34:17.053633+00:00"
 }

@@ -11,7 +11,8 @@
       "id": "71377",
       "preferred": 0,
       "isp_id": "67639",
-      "host": "speedtest.balikpapan.telkomsel.com:8080",
+      "https_functional": 1,
+      "host": "speedtest.balikpapan.telkomsel.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest.balikpapan.telkomsel.com",
       "ip_address": {
         "A": "182.8.160.17",
@@ -109,7 +110,8 @@
       "id": "43255",
       "preferred": 0,
       "isp_id": "67639",
-      "host": "speedtest.batam.telkomsel.com:8080",
+      "https_functional": 1,
+      "host": "speedtest.batam.telkomsel.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest.batam.telkomsel.com",
       "ip_address": {
         "A": "182.2.1.21",
@@ -384,7 +386,8 @@
       "id": "74366",
       "preferred": 0,
       "isp_id": "67639",
-      "host": "speedtest.siantar.telkomsel.com:8080",
+      "https_functional": 1,
+      "host": "speedtest.siantar.telkomsel.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest.siantar.telkomsel.com",
       "ip_address": {
         "A": "114.122.32.17",
@@ -443,7 +446,8 @@
       "id": "74395",
       "preferred": 0,
       "isp_id": "67639",
-      "host": "speedtest.sumedang.telkomsel.com:8080",
+      "https_functional": 1,
+      "host": "speedtest.sumedang.telkomsel.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest.sumedang.telkomsel.com",
       "ip_address": {
         "A": "114.122.96.82",
@@ -533,5 +537,5 @@
     }
   ],
   "total_servers": 27,
-  "updated_at": "2026-06-05T02:46:44.001901+00:00"
+  "updated_at": "2026-06-06T02:33:54.838780+00:00"
 }

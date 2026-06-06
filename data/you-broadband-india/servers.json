@@ -31,7 +31,8 @@
       "id": "6432",
       "preferred": 0,
       "isp_id": "71775",
-      "host": "sp1-blr.youbroadband.in:8080",
+      "https_functional": 1,
+      "host": "sp1-blr.youbroadband.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "sp1-blr.youbroadband.in",
       "ip_address": {
         "A": "203.187.252.90",
@@ -90,7 +91,8 @@
       "id": "6403",
       "preferred": 0,
       "isp_id": "71775",
-      "host": "sp1-mum.youbroadband.in:8080",
+      "https_functional": 1,
+      "host": "sp1-mum.youbroadband.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "sp1-mum.youbroadband.in",
       "ip_address": {
         "A": "203.187.216.146",
@@ -109,7 +111,8 @@
       "id": "6404",
       "preferred": 0,
       "isp_id": "71775",
-      "host": "sp1-pune.youbroadband.in:8080",
+      "https_functional": 1,
+      "host": "sp1-pune.youbroadband.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "sp1-pune.youbroadband.in",
       "ip_address": {
         "A": "203.187.215.35",
@@ -136,28 +139,8 @@
         "AAAA": "2405:6800:0:4:ffff:ffff:ffff:fffd"
       },
       "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://sp1-vad.youbroadband.in:8080/speedtest/upload.php",
-      "lat": "22.3000",
-      "lon": "73.2000",
-      "name": "Vadodara",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "YOU Broadband India Pvt. Ltd.",
-      "id": "6453",
-      "preferred": 0,
-      "isp_id": "71775",
-      "https_functional": 1,
-      "host": "sp1-vad.youbroadband.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "sp1-vad.youbroadband.in",
-      "ip_address": {
-        "A": "203.187.193.66",
-        "AAAA": "2405:6800:800:4:ffff:ffff:ffff:fffd"
-      },
-      "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 8,
-  "updated_at": "2026-06-05T02:47:17.117307+00:00"
+  "total_servers": 7,
+  "updated_at": "2026-06-06T02:34:22.697720+00:00"
 }

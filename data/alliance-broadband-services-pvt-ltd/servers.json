@@ -31,7 +31,8 @@
       "id": "14922",
       "preferred": 0,
       "isp_id": "99547",
-      "host": "speedtestcokkl.alliancebroadband.in:8080",
+      "https_functional": 1,
+      "host": "speedtestcokkl.alliancebroadband.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtestcokkl.alliancebroadband.in",
       "ip_address": {
         "A": "103.94.136.50",
@@ -121,5 +122,5 @@
     }
   ],
   "total_servers": 6,
-  "updated_at": "2026-06-05T02:44:27.792395+00:00"
+  "updated_at": "2026-06-06T02:31:54.842133+00:00"
 }
