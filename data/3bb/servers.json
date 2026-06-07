@@ -170,8 +170,7 @@
       "id": "23377",
       "preferred": 0,
       "isp_id": "42011",
-      "https_functional": 1,
-      "host": "speedtest-nma1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest-nma1.3bb.co.th:8080",
       "hostname": "speedtest-nma1.3bb.co.th",
       "ip_address": {
         "A": "110.164.3.246",
@@ -350,8 +349,7 @@
       "id": "24565",
       "preferred": 0,
       "isp_id": "42011",
-      "https_functional": 1,
-      "host": "speedtest-snk1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest-snk1.3bb.co.th:8080",
       "hostname": "speedtest-snk1.3bb.co.th",
       "ip_address": {
         "A": "110.164.3.235",
@@ -520,5 +518,5 @@
     }
   ],
   "total_servers": 26,
-  "updated_at": "2026-06-06T02:31:50.227791+00:00"
+  "updated_at": "2026-06-07T02:50:41.564105+00:00"
 }
