@@ -51,8 +51,7 @@
       "id": "17757",
       "preferred": 0,
       "isp_id": "880",
-      "https_functional": 1,
-      "host": "speedtest2.vtn.com.vn.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest2.vtn.com.vn:8080",
       "hostname": "speedtest2.vtn.com.vn",
       "ip_address": {
         "A": "113.164.24.102",
@@ -101,5 +100,5 @@
     }
   ],
   "total_servers": 5,
-  "updated_at": "2026-06-07T02:53:16.407776+00:00"
+  "updated_at": "2026-06-08T02:56:02.087669+00:00"
 }

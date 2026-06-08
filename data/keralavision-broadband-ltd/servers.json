@@ -51,8 +51,7 @@
       "id": "34198",
       "preferred": 0,
       "isp_id": "200948",
-      "https_functional": 1,
-      "host": "speedtest.keralavisionbroadband.com.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest.keralavisionbroadband.com:8080",
       "hostname": "speedtest.keralavisionbroadband.com",
       "ip_address": {
         "A": "103.140.17.243",
@@ -102,5 +101,5 @@
     }
   ],
   "total_servers": 5,
-  "updated_at": "2026-06-07T02:51:49.601399+00:00"
+  "updated_at": "2026-06-08T02:54:37.429571+00:00"
 }

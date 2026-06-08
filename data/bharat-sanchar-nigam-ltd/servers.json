@@ -31,8 +31,7 @@
       "id": "5812",
       "preferred": 0,
       "isp_id": "73461",
-      "https_functional": 1,
-      "host": "bsnlooklaahb.mywire.org.prod.hosts.ooklaserver.net:8080",
+      "host": "bsnlooklaahb.mywire.org:8080",
       "hostname": "bsnlooklaahb.mywire.org",
       "ip_address": {
         "A": "210.212.129.101",
@@ -71,8 +70,7 @@
       "id": "12938",
       "preferred": 0,
       "isp_id": "73461",
-      "https_functional": 1,
-      "host": "bsnlooklachn.ddnsfree.com.prod.hosts.ooklaserver.net:8080",
+      "host": "bsnlooklachn.ddnsfree.com:8080",
       "hostname": "bsnlooklachn.ddnsfree.com",
       "ip_address": {
         "A": "117.250.238.251",
@@ -162,5 +160,5 @@
     }
   ],
   "total_servers": 8,
-  "updated_at": "2026-06-07T02:50:54.875235+00:00"
+  "updated_at": "2026-06-08T02:53:42.020828+00:00"
 }

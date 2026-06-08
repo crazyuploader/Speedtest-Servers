@@ -21,6 +21,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://kpgookla01.maxis.com.my:8080/speedtest/upload.php",
+      "lat": "3.2140",
+      "lon": "101.6356",
+      "name": "Kepong",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "Maxis",
+      "id": "49656",
+      "preferred": 0,
+      "isp_id": "17961",
+      "https_functional": 1,
+      "host": "kpgookla01.maxis.com.my.prod.hosts.ooklaserver.net:8080",
+      "hostname": "kpgookla01.maxis.com.my",
+      "ip_address": {
+        "A": "202.75.141.34",
+        "AAAA": "2001:d08:12:500::102"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://kkookla01.maxis.com.my:8080/speedtest/upload.php",
       "lat": "5.9714",
       "lon": "116.0953",
@@ -101,6 +121,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://kpgookla02.maxis.com.my:8080/speedtest/upload.php",
+      "lat": "3.1279",
+      "lon": "101.5945",
+      "name": "Petaling Jaya",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "Maxis",
+      "id": "49657",
+      "preferred": 0,
+      "isp_id": "17961",
+      "https_functional": 1,
+      "host": "kpgookla02.maxis.com.my.prod.hosts.ooklaserver.net:8080",
+      "hostname": "kpgookla02.maxis.com.my",
+      "ip_address": {
+        "A": "202.75.141.35",
+        "AAAA": "2001:d08:12:500::103"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://shtookla02.maxis.com.my:8080/speedtest/upload.php",
       "lat": "3.0733",
       "lon": "101.5185",
@@ -140,6 +180,6 @@
       "ipv6_capable": "no"
     }
   ],
-  "total_servers": 7,
-  "updated_at": "2026-06-07T02:51:58.387673+00:00"
+  "total_servers": 9,
+  "updated_at": "2026-06-08T02:54:47.663835+00:00"
 }

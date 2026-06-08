@@ -885,8 +885,7 @@
       "id": "67867",
       "preferred": 0,
       "isp_id": "137615",
-      "https_functional": 1,
-      "host": "tswdooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
+      "host": "tswdooklaspeed1.jioconnect.com:8080",
       "hostname": "tswdooklaspeed1.jioconnect.com",
       "ip_address": {
         "A": "49.45.64.170",
@@ -1274,5 +1273,5 @@
     }
   ],
   "total_servers": 64,
-  "updated_at": "2026-06-07T02:51:47.347736+00:00"
+  "updated_at": "2026-06-08T02:54:35.283261+00:00"
 }
