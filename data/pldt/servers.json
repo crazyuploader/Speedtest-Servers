@@ -49,7 +49,8 @@
       "id": "10493",
       "preferred": 0,
       "isp_id": "259981",
-      "host": "119.92.238.90:8080",
+      "https_functional": 1,
+      "host": "119.92.238.90.prod.hosts.ooklaserver.net:8080",
       "hostname": "119.92.238.90",
       "ip_address": {
         "A": "119.92.238.90"
@@ -133,5 +134,5 @@
     }
   ],
   "total_servers": 7,
-  "updated_at": "2026-06-08T02:54:56.256527+00:00"
+  "updated_at": "2026-06-09T02:32:27.133804+00:00"
 }

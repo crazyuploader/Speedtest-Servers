@@ -218,26 +218,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtest.kupang.telkomsel.com:8080/speedtest/upload.php",
-      "lat": "-10.1772",
-      "lon": "123.6070",
-      "name": "Kupang",
-      "country": "Indonesia",
-      "cc": "ID",
-      "sponsor": "Telkomsel",
-      "id": "73943",
-      "preferred": 0,
-      "isp_id": "67639",
-      "https_functional": 1,
-      "host": "speedtest.kupang.telkomsel.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtest.kupang.telkomsel.com",
-      "ip_address": {
-        "A": "182.4.192.81",
-        "AAAA": "2404:c0:7a01:2::1"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtest.makasar2.telkomsel.com:8080/speedtest/upload.php",
       "lat": "-5.1333",
       "lon": "119.4167",
@@ -536,6 +516,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 27,
-  "updated_at": "2026-06-08T02:55:36.117099+00:00"
+  "total_servers": 26,
+  "updated_at": "2026-06-09T02:33:04.685543+00:00"
 }
