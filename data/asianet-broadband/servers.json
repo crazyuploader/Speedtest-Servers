@@ -11,6 +11,7 @@
       "id": "70397",
       "preferred": 0,
       "isp_id": "93082",
+      "https_functional": 1,
       "host": "speed-node-blr.asianetdigital.net:8080",
       "hostname": "speed-node-blr.asianetdigital.net",
       "ip_address": {
@@ -40,7 +41,7 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speed-cok-node-a.asianetdigital.net:8080/speedtest/upload.php",
+      "url": "http://speed-node-cok.asianetdigital.net:8080/speedtest/upload.php",
       "lat": "9.9312",
       "lon": "76.2673",
       "name": "Cochin",
@@ -51,8 +52,8 @@
       "preferred": 0,
       "isp_id": "93082",
       "https_functional": 1,
-      "host": "speed-cok-node-a.asianetdigital.net.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speed-cok-node-a.asianetdigital.net",
+      "host": "speed-node-cok.asianetdigital.net:8080",
+      "hostname": "speed-node-cok.asianetdigital.net",
       "ip_address": {
         "A": "202.88.230.190",
         "AAAA": "2406:8800:a000:1::5e"
@@ -71,7 +72,7 @@
       "preferred": 0,
       "isp_id": "93082",
       "https_functional": 1,
-      "host": "speed-node-hyd.asianetdigital.net.prod.hosts.ooklaserver.net:8080",
+      "host": "speed-node-hyd.asianetdigital.net:8080",
       "hostname": "speed-node-hyd.asianetdigital.net",
       "ip_address": {
         "A": "202.164.135.22",
@@ -90,6 +91,7 @@
       "id": "73036",
       "preferred": 0,
       "isp_id": "93082",
+      "https_functional": 1,
       "host": "speed-node-clt.asianetdigital.net:8080",
       "hostname": "speed-node-clt.asianetdigital.net",
       "ip_address": {
@@ -140,5 +142,5 @@
     }
   ],
   "total_servers": 7,
-  "updated_at": "2026-06-09T02:31:04.305765+00:00"
+  "updated_at": "2026-06-10T02:44:17.236443+00:00"
 }

@@ -76,7 +76,7 @@
       "hostname": "speedtestcal1.airtelbroadband.in",
       "ip_address": {
         "A": "122.187.99.102",
-        "AAAA": "2404:a800:3a00:207::43"
+        "AAAA": "2404:a800:3a00:207::42"
       },
       "ipv6_capable": "yes"
     },
@@ -295,6 +295,26 @@
       "ip_address": {
         "A": "152.52.76.86",
         "AAAA": "2404:a800:1a00:805::11e"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestmng1.airtel.in:8080/speedtest/upload.php",
+      "lat": "12.9141",
+      "lon": "74.8560",
+      "name": "Mangalore",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Bharti Airtel Ltd",
+      "id": "52218",
+      "preferred": 0,
+      "isp_id": "46101",
+      "https_functional": 1,
+      "host": "speedtestmng1.airtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestmng1.airtel.in",
+      "ip_address": {
+        "A": "182.79.18.146",
+        "AAAA": "2404:a800:3a00:1::5d3"
       },
       "ipv6_capable": "yes"
     },
@@ -558,6 +578,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 28,
-  "updated_at": "2026-06-09T02:31:19.946821+00:00"
+  "total_servers": 29,
+  "updated_at": "2026-06-10T02:44:30.823550+00:00"
 }

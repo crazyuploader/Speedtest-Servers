@@ -21,25 +21,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://lg-iad.fdcservers.net:8080/speedtest/upload.php",
-      "lat": "39.0438",
-      "lon": "-77.4874",
-      "name": "Ashburn, VA",
-      "country": "United States",
-      "cc": "US",
-      "sponsor": "fdcservers.net",
-      "id": "6030",
-      "preferred": 0,
-      "isp_id": "213182",
-      "host": "lg-iad.fdcservers.net:8080",
-      "hostname": "lg-iad.fdcservers.net",
-      "ip_address": {
-        "A": "198.255.79.14",
-        "AAAA": "2001:49f0:d025::6"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://lg-atl.fdcservers.net:8080/speedtest/upload.php",
       "lat": "33.7483",
       "lon": "-84.3911",
@@ -171,25 +152,6 @@
       "ip_address": {
         "A": "50.7.251.4",
         "AAAA": "2001:49f0:d0da::4"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://lg-khv.fdcservers.net:8080/speedtest/upload.php",
-      "lat": "48.4770",
-      "lon": "135.0941",
-      "name": "Khabarovsk",
-      "country": "Russia",
-      "cc": "RU",
-      "sponsor": "fdcservers.net",
-      "id": "46700",
-      "preferred": 0,
-      "isp_id": "70159",
-      "host": "lg-khv.fdcservers.net:8080",
-      "hostname": "lg-khv.fdcservers.net",
-      "ip_address": {
-        "A": "66.90.93.4",
-        "AAAA": "2001:49f0:d104::4"
       },
       "ipv6_capable": "yes"
     },
@@ -462,6 +424,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 24,
-  "updated_at": "2026-06-09T02:31:34.822670+00:00"
+  "total_servers": 22,
+  "updated_at": "2026-06-10T02:44:45.070688+00:00"
 }
