@@ -112,7 +112,7 @@
       "preferred": 0,
       "isp_id": "93082",
       "https_functional": 1,
-      "host": "speed-node-slm.asianetdigital.net.prod.hosts.ooklaserver.net:8080",
+      "host": "speed-node-slm.asianetdigital.net:8080",
       "hostname": "speed-node-slm.asianetdigital.net",
       "ip_address": {
         "A": "111.92.43.170",
@@ -142,5 +142,5 @@
     }
   ],
   "total_servers": 7,
-  "updated_at": "2026-06-10T02:44:17.236443+00:00"
+  "updated_at": "2026-06-11T02:53:56.042067+00:00"
 }
