@@ -278,26 +278,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtest.maumere.telkomsel.com:8080/speedtest/upload.php",
-      "lat": "-8.6246",
-      "lon": "122.2147",
-      "name": "Maumere",
-      "country": "Indonesia",
-      "cc": "ID",
-      "sponsor": "Telkomsel",
-      "id": "74152",
-      "preferred": 0,
-      "isp_id": "67639",
-      "https_functional": 1,
-      "host": "speedtest.maumere.telkomsel.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtest.maumere.telkomsel.com",
-      "ip_address": {
-        "A": "182.3.193.57",
-        "AAAA": "2404:c0:6000:4::1"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtest.medan2.telkomsel.com:8080/speedtest/upload.php",
       "lat": "3.5833",
       "lon": "98.6667",
@@ -536,6 +516,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 27,
-  "updated_at": "2026-06-11T02:56:05.474255+00:00"
+  "total_servers": 26,
+  "updated_at": "2026-06-12T02:53:18.186849+00:00"
 }
