@@ -61,6 +61,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://sht-ookla01.celcomdigi.com:8080/speedtest/upload.php",
+      "lat": "6.1251",
+      "lon": "102.2379",
+      "name": "Kota Bharu",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "CelcomDigi Berhad",
+      "id": "74523",
+      "preferred": 0,
+      "isp_id": "300896",
+      "https_functional": 1,
+      "host": "sht-ookla01.celcomdigi.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "sht-ookla01.celcomdigi.com",
+      "ip_address": {
+        "A": "115.164.64.20",
+        "AAAA": "2001:4458:4000:40d::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://sht-ookla02.celcomdigi.com:8080/speedtest/upload.php",
       "lat": "3.1319",
       "lon": "101.6841",
@@ -121,26 +141,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://kpg-ookla02.celcomdigi.com:8080/speedtest/upload.php",
-      "lat": "3.1279",
-      "lon": "101.5945",
-      "name": "Petaling Jaya",
-      "country": "Malaysia",
-      "cc": "MY",
-      "sponsor": "CelcomDigi Berhad",
-      "id": "70827",
-      "preferred": 0,
-      "isp_id": "300896",
-      "https_functional": 1,
-      "host": "kpg-ookla02.celcomdigi.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "kpg-ookla02.celcomdigi.com",
-      "ip_address": {
-        "A": "182.62.210.21",
-        "AAAA": "2001:4458:4001:20f::5"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://kkb-ookla02.celcomdigi.com:8080/speedtest/upload.php",
       "lat": "5.8559",
       "lon": "118.0722",
@@ -157,6 +157,26 @@
       "ip_address": {
         "A": "182.63.7.21",
         "AAAA": "2001:4458:4002:20f::5"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.celcomred.com:8080/speedtest/upload.php",
+      "lat": "-3.4594",
+      "lon": "-79.9668",
+      "name": "Santa Rosa",
+      "country": "Ecuador",
+      "cc": "EC",
+      "sponsor": "Celcomred",
+      "id": "73838",
+      "preferred": 0,
+      "isp_id": "447",
+      "https_functional": 1,
+      "host": "speedtest.celcomred.com:8080",
+      "hostname": "speedtest.celcomred.com",
+      "ip_address": {
+        "A": "181.198.38.200",
+        "AAAA": "2800:2a0:4009::2"
       },
       "ipv6_capable": "yes"
     },
@@ -201,6 +221,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 10,
-  "updated_at": "2026-06-12T02:51:32.479419+00:00"
+  "total_servers": 11,
+  "updated_at": "2026-06-13T02:43:43.493925+00:00"
 }

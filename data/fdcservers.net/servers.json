@@ -31,6 +31,7 @@
       "id": "6030",
       "preferred": 0,
       "isp_id": "213182",
+      "https_functional": 1,
       "host": "lg-iad.fdcservers.net:8080",
       "hostname": "lg-iad.fdcservers.net",
       "ip_address": {
@@ -50,6 +51,7 @@
       "id": "26653",
       "preferred": 0,
       "isp_id": "27716",
+      "https_functional": 1,
       "host": "lg-atl.fdcservers.net:8080",
       "hostname": "lg-atl.fdcservers.net",
       "ip_address": {
@@ -69,6 +71,7 @@
       "id": "11750",
       "preferred": 0,
       "isp_id": "213182",
+      "https_functional": 1,
       "host": "lg-chie.fdcservers.net:8080",
       "hostname": "lg-chie.fdcservers.net",
       "ip_address": {
@@ -88,6 +91,7 @@
       "id": "26652",
       "preferred": 0,
       "isp_id": "213182",
+      "https_functional": 1,
       "host": "lg-dfw.fdcservers.net:8080",
       "hostname": "lg-dfw.fdcservers.net",
       "ip_address": {
@@ -107,6 +111,7 @@
       "id": "9912",
       "preferred": 0,
       "isp_id": "27716",
+      "https_functional": 1,
       "host": "lg-dene.fdcservers.net:8080",
       "hostname": "lg-dene.fdcservers.net",
       "ip_address": {
@@ -166,6 +171,7 @@
       "id": "28912",
       "preferred": 0,
       "isp_id": "27716",
+      "https_functional": 1,
       "host": "lg-hkg.fdcservers.net:8080",
       "hostname": "lg-hkg.fdcservers.net",
       "ip_address": {
@@ -185,6 +191,7 @@
       "id": "46700",
       "preferred": 0,
       "isp_id": "70159",
+      "https_functional": 1,
       "host": "lg-khv.fdcservers.net:8080",
       "hostname": "lg-khv.fdcservers.net",
       "ip_address": {
@@ -204,6 +211,7 @@
       "id": "34265",
       "preferred": 0,
       "isp_id": "27716",
+      "https_functional": 1,
       "host": "lg-lis.fdcservers.net:8080",
       "hostname": "lg-lis.fdcservers.net",
       "ip_address": {
@@ -223,6 +231,7 @@
       "id": "6032",
       "preferred": 0,
       "isp_id": "27716",
+      "https_functional": 1,
       "host": "lg-lon.fdcservers.net:8080",
       "hostname": "lg-lon.fdcservers.net",
       "ip_address": {
@@ -242,6 +251,7 @@
       "id": "9916",
       "preferred": 0,
       "isp_id": "27716",
+      "https_functional": 1,
       "host": "lg-lax.fdcservers.net:8080",
       "hostname": "lg-lax.fdcservers.net",
       "ip_address": {
@@ -261,6 +271,7 @@
       "id": "9933",
       "preferred": 0,
       "isp_id": "27716",
+      "https_functional": 1,
       "host": "lg-mad.fdcservers.net:8080",
       "hostname": "lg-mad.fdcservers.net",
       "ip_address": {
@@ -300,6 +311,7 @@
       "id": "46685",
       "preferred": 0,
       "isp_id": "70159",
+      "https_functional": 1,
       "host": "lg-dme.fdcservers.net:8080",
       "hostname": "lg-dme.fdcservers.net",
       "ip_address": {
@@ -339,6 +351,7 @@
       "id": "48622",
       "preferred": 0,
       "isp_id": "27716",
+      "https_functional": 1,
       "host": "speedtest.prg.fdcservers.net:8080",
       "hostname": "speedtest.prg.fdcservers.net",
       "ip_address": {
@@ -358,6 +371,7 @@
       "id": "6029",
       "preferred": 0,
       "isp_id": "27716",
+      "https_functional": 1,
       "host": "lg-sea.fdcservers.net:8080",
       "hostname": "lg-sea.fdcservers.net",
       "ip_address": {
@@ -377,6 +391,7 @@
       "id": "26654",
       "preferred": 0,
       "isp_id": "27716",
+      "https_functional": 1,
       "host": "lg-sin.fdcservers.net:8080",
       "hostname": "lg-sin.fdcservers.net",
       "ip_address": {
@@ -396,6 +411,7 @@
       "id": "34671",
       "preferred": 0,
       "isp_id": "209442",
+      "https_functional": 1,
       "host": "speedtest.spb.fdcservers.net:8080",
       "hostname": "speedtest.spb.fdcservers.net",
       "ip_address": {
@@ -415,6 +431,7 @@
       "id": "9911",
       "preferred": 0,
       "isp_id": "27716",
+      "https_functional": 1,
       "host": "lg-tor.fdcservers.net:8080",
       "hostname": "lg-tor.fdcservers.net",
       "ip_address": {
@@ -434,6 +451,7 @@
       "id": "6070",
       "preferred": 0,
       "isp_id": "27716",
+      "https_functional": 1,
       "host": "lg-vie.fdcservers.net:8080",
       "hostname": "lg-vie.fdcservers.net",
       "ip_address": {
@@ -453,6 +471,7 @@
       "id": "34672",
       "preferred": 0,
       "isp_id": "27716",
+      "https_functional": 1,
       "host": "lg-war.fdcservers.net:8080",
       "hostname": "lg-war.fdcservers.net",
       "ip_address": {
@@ -463,5 +482,5 @@
     }
   ],
   "total_servers": 24,
-  "updated_at": "2026-06-12T02:51:43.610698+00:00"
+  "updated_at": "2026-06-13T02:43:53.263971+00:00"
 }
