@@ -37,8 +37,27 @@
         "A": "115.84.111.155"
       },
       "ipv6_capable": "no"
+    },
+    {
+      "url": "http://ooklavte.laotel.com:8080/speedtest/upload.php",
+      "lat": "17.9757",
+      "lon": "102.6331",
+      "name": "Vientiane",
+      "country": "Laos",
+      "cc": "LA",
+      "sponsor": "Lao Telecom",
+      "id": "47463",
+      "preferred": 0,
+      "isp_id": "300903",
+      "https_functional": 1,
+      "host": "ooklavte.laotel.com:8080",
+      "hostname": "ooklavte.laotel.com",
+      "ip_address": {
+        "A": "202.137.128.99"
+      },
+      "ipv6_capable": "no"
     }
   ],
-  "total_servers": 2,
-  "updated_at": "2026-06-13T02:44:27.314640+00:00"
+  "total_servers": 3,
+  "updated_at": "2026-06-14T02:56:11.150150+00:00"
 }
