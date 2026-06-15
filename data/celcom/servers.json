@@ -41,26 +41,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://sht-ookla01.celcomdigi.com:8080/speedtest/upload.php",
-      "lat": "6.1251",
-      "lon": "102.2379",
-      "name": "Kota Bharu",
-      "country": "Malaysia",
-      "cc": "MY",
-      "sponsor": "CelcomDigi Berhad",
-      "id": "74523",
-      "preferred": 0,
-      "isp_id": "300896",
-      "https_functional": 1,
-      "host": "sht-ookla01.celcomdigi.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "sht-ookla01.celcomdigi.com",
-      "ip_address": {
-        "A": "115.164.64.20",
-        "AAAA": "2001:4458:4000:40d::4"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://sht-ookla02.celcomdigi.com:8080/speedtest/upload.php",
       "lat": "3.1319",
       "lon": "101.6841",
@@ -77,6 +57,26 @@
       "ip_address": {
         "A": "115.164.64.21",
         "AAAA": "2001:4458:4000:40d::5"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://kch-ookla01.celcomdigi.com:8080/speedtest/upload.php",
+      "lat": "1.5600",
+      "lon": "110.3450",
+      "name": "Kuching",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "CelcomDigi Berhad",
+      "id": "70829",
+      "preferred": 0,
+      "isp_id": "300896",
+      "https_functional": 1,
+      "host": "kch-ookla01.celcomdigi.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "kch-ookla01.celcomdigi.com",
+      "ip_address": {
+        "A": "182.63.71.20",
+        "AAAA": "2001:4458:4003:20f::4"
       },
       "ipv6_capable": "yes"
     },
@@ -161,6 +161,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://kpg-ookla01.celcomdigi.com:8080/speedtest/upload.php",
+      "lat": "3.0734",
+      "lon": "101.5217",
+      "name": "Shah Alam",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "CelcomDigi Berhad",
+      "id": "70826",
+      "preferred": 0,
+      "isp_id": "300896",
+      "https_functional": 1,
+      "host": "kpg-ookla01.celcomdigi.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "kpg-ookla01.celcomdigi.com",
+      "ip_address": {
+        "A": "182.62.210.20",
+        "AAAA": "2001:4458:4001:20f::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://kkb-ookla03.celcomdigi.com:8080/speedtest/upload.php",
       "lat": "4.2447",
       "lon": "117.8912",
@@ -181,6 +201,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 9,
-  "updated_at": "2026-06-14T02:55:24.316489+00:00"
+  "total_servers": 10,
+  "updated_at": "2026-06-15T03:27:32.405782+00:00"
 }

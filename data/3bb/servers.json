@@ -80,6 +80,25 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtest-cbi1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "13.3611",
+      "lon": "100.9850",
+      "name": "Chonburi",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "23118",
+      "preferred": 0,
+      "isp_id": "42011",
+      "host": "speedtest-cbi1.3bb.co.th:8080",
+      "hostname": "speedtest-cbi1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.234",
+        "AAAA": "2403:6200:ffff:fbff::f5a"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtest-kkn1.3bb.co.th:8080/speedtest/upload.php",
       "lat": "16.4322",
       "lon": "102.8236",
@@ -497,6 +516,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 25,
-  "updated_at": "2026-06-14T02:54:55.961546+00:00"
+  "total_servers": 26,
+  "updated_at": "2026-06-15T03:27:04.393694+00:00"
 }
