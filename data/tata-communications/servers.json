@@ -320,26 +320,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://ookla.pye.as6453.net:8080/speedtest/upload.php",
-      "lat": "48.8742",
-      "lon": "2.3470",
-      "name": "Paris",
-      "country": "France",
-      "cc": "FR",
-      "sponsor": "Tata Communications",
-      "id": "73625",
-      "preferred": 0,
-      "isp_id": "153357",
-      "https_functional": 1,
-      "host": "ookla.pye.as6453.net.prod.hosts.ooklaserver.net:8080",
-      "hostname": "ookla.pye.as6453.net",
-      "ip_address": {
-        "A": "80.231.196.149",
-        "AAAA": "2a01:3e0:f00:100::90c4"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://ookla.pu.as4755.net:8080/speedtest/upload.php",
       "lat": "18.5203",
       "lon": "73.8567",
@@ -440,6 +420,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 22,
-  "updated_at": "2026-06-15T03:29:06.694035+00:00"
+  "total_servers": 21,
+  "updated_at": "2026-06-16T03:26:35.718556+00:00"
 }
