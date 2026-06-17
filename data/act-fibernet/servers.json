@@ -141,26 +141,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtestnlr.actcorp.in:8080/speedtest/upload.php",
-      "lat": "14.4426",
-      "lon": "79.9865",
-      "name": "Nellore",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "ACT FIBERNET",
-      "id": "10984",
-      "preferred": 0,
-      "isp_id": "64789",
-      "https_functional": 1,
-      "host": "speedtestnlr.actcorp.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestnlr.actcorp.in",
-      "ip_address": {
-        "A": "106.51.255.249",
-        "AAAA": "2406:7400:38:10::143"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtestdelhi.actcorp.in:8080/speedtest/upload.php",
       "lat": "28.6100",
       "lon": "77.2300",
@@ -241,6 +221,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 12,
-  "updated_at": "2026-06-16T03:24:37.197730+00:00"
+  "total_servers": 11,
+  "updated_at": "2026-06-17T02:57:15.720263+00:00"
 }

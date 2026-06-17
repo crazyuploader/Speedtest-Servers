@@ -121,6 +121,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://kotaspeed.ishancloud.com:8080/speedtest/upload.php",
+      "lat": "25.2138",
+      "lon": "75.8648",
+      "name": "Kota",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Ishan Netsol Pvt Ltd",
+      "id": "28397",
+      "preferred": 0,
+      "isp_id": "219787",
+      "https_functional": 1,
+      "host": "kotaspeed.ishancloud.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "kotaspeed.ishancloud.com",
+      "ip_address": {
+        "A": "103.51.219.15",
+        "AAAA": "2405:f600:7e::72"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://bombay-speedtest.ishancloud.com:8080/speedtest/upload.php",
       "lat": "18.9647",
       "lon": "72.8258",
@@ -241,6 +261,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 12,
-  "updated_at": "2026-06-16T03:25:36.144074+00:00"
+  "total_servers": 13,
+  "updated_at": "2026-06-17T02:58:12.326450+00:00"
 }

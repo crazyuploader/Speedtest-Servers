@@ -117,6 +117,26 @@
       "ipv6_capable": "no"
     },
     {
+      "url": "http://pv-speedtest.viettelidc.com.vn:8080/speedtest/upload.php",
+      "lat": "21.0285",
+      "lon": "105.8542",
+      "name": "Hanoi",
+      "country": "Vietnam",
+      "cc": "VN",
+      "sponsor": "Viettel IDC",
+      "id": "54811",
+      "preferred": 0,
+      "isp_id": "171596",
+      "https_functional": 1,
+      "host": "pv-speedtest.viettelidc.com.vn.prod.hosts.ooklaserver.net:8080",
+      "hostname": "pv-speedtest.viettelidc.com.vn",
+      "ip_address": {
+        "A": "115.84.178.186",
+        "AAAA": "2401:5f80:2002:4::186"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtestkv3b.viettel.vn:8080/speedtest/upload.php",
       "lat": "10.7500",
       "lon": "106.6667",
@@ -146,8 +166,7 @@
       "id": "59888",
       "preferred": 0,
       "isp_id": "171596",
-      "https_functional": 1,
-      "host": "tth-speedtest.viettelidc.com.vn.prod.hosts.ooklaserver.net:8080",
+      "host": "tth-speedtest.viettelidc.com.vn:8080",
       "hostname": "tth-speedtest.viettelidc.com.vn",
       "ip_address": {
         "A": "210.211.127.142"
@@ -250,6 +269,6 @@
       "ipv6_capable": "no"
     }
   ],
-  "total_servers": 13,
-  "updated_at": "2026-06-16T03:27:11.598323+00:00"
+  "total_servers": 14,
+  "updated_at": "2026-06-17T02:59:45.267262+00:00"
 }

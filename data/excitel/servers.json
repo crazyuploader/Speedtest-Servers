@@ -31,8 +31,7 @@
       "id": "12977",
       "preferred": 0,
       "isp_id": "115835",
-      "https_functional": 1,
-      "host": "speedtest.hyd.excitel.in.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest.hyd.excitel.in:8080",
       "hostname": "speedtest.hyd.excitel.in",
       "ip_address": {
         "A": "144.48.72.66",
@@ -131,8 +130,7 @@
       "id": "36763",
       "preferred": 0,
       "isp_id": "115835",
-      "https_functional": 1,
-      "host": "speedtest.nod.excitel.in.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest.nod.excitel.in:8080",
       "hostname": "speedtest.nod.excitel.in",
       "ip_address": {
         "A": "205.254.162.245",
@@ -182,5 +180,5 @@
     }
   ],
   "total_servers": 9,
-  "updated_at": "2026-06-16T03:25:09.058411+00:00"
+  "updated_at": "2026-06-17T02:57:44.110487+00:00"
 }

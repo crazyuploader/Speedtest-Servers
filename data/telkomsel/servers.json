@@ -258,26 +258,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtest.malang.telkomsel.com:8080/speedtest/upload.php",
-      "lat": "-7.9800",
-      "lon": "112.6200",
-      "name": "Malang",
-      "country": "Indonesia",
-      "cc": "ID",
-      "sponsor": "Telkomsel",
-      "id": "71031",
-      "preferred": 0,
-      "isp_id": "67639",
-      "https_functional": 1,
-      "host": "speedtest.malang.telkomsel.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtest.malang.telkomsel.com",
-      "ip_address": {
-        "A": "182.4.128.57",
-        "AAAA": "2404:c0:9c00:3::41"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtest.medan2.telkomsel.com:8080/speedtest/upload.php",
       "lat": "3.5833",
       "lon": "98.6667",
@@ -406,8 +386,7 @@
       "id": "74576",
       "preferred": 0,
       "isp_id": "67639",
-      "https_functional": 1,
-      "host": "speedtest.singaraja.telkomsel.com.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest.singaraja.telkomsel.com:8080",
       "hostname": "speedtest.singaraja.telkomsel.com",
       "ip_address": {
         "A": "114.122.160.73",
@@ -516,6 +495,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 26,
-  "updated_at": "2026-06-16T03:26:48.379661+00:00"
+  "total_servers": 25,
+  "updated_at": "2026-06-17T02:59:24.094748+00:00"
 }
