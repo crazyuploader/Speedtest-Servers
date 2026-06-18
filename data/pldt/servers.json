@@ -68,7 +68,8 @@
       "id": "34625",
       "preferred": 0,
       "isp_id": "259981",
-      "host": "122.2.174.30:8080",
+      "https_functional": 1,
+      "host": "122.2.174.30.prod.hosts.ooklaserver.net:8080",
       "hostname": "122.2.174.30",
       "ip_address": {
         "A": "122.2.174.30"
@@ -134,5 +135,5 @@
     }
   ],
   "total_servers": 7,
-  "updated_at": "2026-06-17T02:58:46.267293+00:00"
+  "updated_at": "2026-06-18T02:53:28.362930+00:00"
 }

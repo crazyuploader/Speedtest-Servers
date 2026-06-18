@@ -101,26 +101,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtestjpr.actcorp.in:8080/speedtest/upload.php",
-      "lat": "26.9260",
-      "lon": "75.8235",
-      "name": "Jaipur",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "ACT FIBERNET",
-      "id": "47976",
-      "preferred": 0,
-      "isp_id": "64789",
-      "https_functional": 1,
-      "host": "speedtestjpr.actcorp.in:8080",
-      "hostname": "speedtestjpr.actcorp.in",
-      "ip_address": {
-        "A": "49.204.174.13",
-        "AAAA": "2406:b400:55:1::13"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtestlkn.actcorp.in:8080/speedtest/upload.php",
       "lat": "26.8500",
       "lon": "80.9200",
@@ -137,6 +117,26 @@
       "ip_address": {
         "A": "183.82.174.13",
         "AAAA": "2406:b400:64:1::13"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestnlr.actcorp.in:8080/speedtest/upload.php",
+      "lat": "14.4426",
+      "lon": "79.9865",
+      "name": "Nellore",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "ACT FIBERNET",
+      "id": "10984",
+      "preferred": 0,
+      "isp_id": "64789",
+      "https_functional": 1,
+      "host": "speedtestnlr.actcorp.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestnlr.actcorp.in",
+      "ip_address": {
+        "A": "106.51.255.249",
+        "AAAA": "2406:7400:38:10::143"
       },
       "ipv6_capable": "yes"
     },
@@ -222,5 +222,5 @@
     }
   ],
   "total_servers": 11,
-  "updated_at": "2026-06-17T02:57:15.720263+00:00"
+  "updated_at": "2026-06-18T02:51:58.509000+00:00"
 }
