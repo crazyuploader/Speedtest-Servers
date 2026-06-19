@@ -421,6 +421,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtest.hnd.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "35.6833",
+      "lon": "139.6833",
+      "name": "Tokyo",
+      "country": "Japan",
+      "cc": "JP",
+      "sponsor": "fdcservers.net",
+      "id": "28910",
+      "preferred": 0,
+      "isp_id": "27716",
+      "https_functional": 1,
+      "host": "speedtest.hnd.fdcservers.net:8080",
+      "hostname": "speedtest.hnd.fdcservers.net",
+      "ip_address": {
+        "A": "50.7.159.210",
+        "AAAA": "2001:49f0:d0d9:3:b::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://lg-tor.fdcservers.net:8080/speedtest/upload.php",
       "lat": "43.6481",
       "lon": "-79.4042",
@@ -459,28 +479,8 @@
         "AAAA": "2001:49f0:d13f:a::4"
       },
       "ipv6_capable": "yes"
-    },
-    {
-      "url": "https://lg-war.fdcservers.net:8080/speedtest/upload.php",
-      "lat": "52.2323",
-      "lon": "21.0084",
-      "name": "Warsaw",
-      "country": "Poland",
-      "cc": "PL",
-      "sponsor": "fdcservers.net",
-      "id": "34672",
-      "preferred": 0,
-      "isp_id": "27716",
-      "https_functional": 1,
-      "host": "lg-war.fdcservers.net:8080",
-      "hostname": "lg-war.fdcservers.net",
-      "ip_address": {
-        "A": "50.7.56.5",
-        "AAAA": "2001:49f0:d0eb::4"
-      },
-      "ipv6_capable": "yes"
     }
   ],
   "total_servers": 24,
-  "updated_at": "2026-06-18T02:52:33.544310+00:00"
+  "updated_at": "2026-06-19T03:39:09.461933+00:00"
 }
