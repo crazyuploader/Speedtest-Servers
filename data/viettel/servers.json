@@ -15,9 +15,10 @@
       "host": "cto-speedtest.viettelidc.com.vn.prod.hosts.ooklaserver.net:8080",
       "hostname": "cto-speedtest.viettelidc.com.vn",
       "ip_address": {
-        "A": "210.211.127.147"
+        "A": "210.211.127.147",
+        "AAAA": "2401:5f80:2002:1c::3"
       },
-      "ipv6_capable": "no"
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://dtp-speedtest.viettelidc.com.vn:8080/speedtest/upload.php",
@@ -34,9 +35,10 @@
       "host": "dtp-speedtest.viettelidc.com.vn.prod.hosts.ooklaserver.net:8080",
       "hostname": "dtp-speedtest.viettelidc.com.vn",
       "ip_address": {
-        "A": "210.211.127.149"
+        "A": "210.211.127.149",
+        "AAAA": "2401:5f80:2002:1c::5"
       },
-      "ipv6_capable": "no"
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://speedtestkv2a.viettel.vn:8080/speedtest/upload.php",
@@ -73,9 +75,10 @@
       "host": "dng-speedtest.viettelidc.com.vn.prod.hosts.ooklaserver.net:8080",
       "hostname": "dng-speedtest.viettelidc.com.vn",
       "ip_address": {
-        "A": "210.211.127.138"
+        "A": "210.211.127.138",
+        "AAAA": "2401:5f80:2002:1b::2"
       },
-      "ipv6_capable": "no"
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://speedtestkv1a.viettel.vn:8080/speedtest/upload.php",
@@ -112,9 +115,10 @@
       "host": "hpg-speedtest.viettelidc.com.vn.prod.hosts.ooklaserver.net:8080",
       "hostname": "hpg-speedtest.viettelidc.com.vn",
       "ip_address": {
-        "A": "210.211.127.133"
+        "A": "210.211.127.133",
+        "AAAA": "2401:5f80:2002:1a::5"
       },
-      "ipv6_capable": "no"
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://pv-speedtest.viettelidc.com.vn:8080/speedtest/upload.php",
@@ -170,9 +174,10 @@
       "host": "phuly-speedtest.viettelidc.com.vn.prod.hosts.ooklaserver.net:8080",
       "hostname": "phuly-speedtest.viettelidc.com.vn",
       "ip_address": {
-        "A": "210.211.127.132"
+        "A": "210.211.127.132",
+        "AAAA": "2401:5f80:2002:1a::4"
       },
-      "ipv6_capable": "no"
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://speedtestkv1dp1.viettel.vn/speedtest/upload.php",
@@ -208,9 +213,10 @@
       "host": "bdg-speedtest.viettelidc.com.vn.prod.hosts.ooklaserver.net:8080",
       "hostname": "bdg-speedtest.viettelidc.com.vn",
       "ip_address": {
-        "A": "210.211.127.148"
+        "A": "210.211.127.148",
+        "AAAA": "2401:5f80:2002:1c::4"
       },
-      "ipv6_capable": "no"
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://vinh-speedtest.viettelidc.com.vn:8080/speedtest/upload.php",
@@ -227,9 +233,10 @@
       "host": "vinh-speedtest.viettelidc.com.vn.prod.hosts.ooklaserver.net:8080",
       "hostname": "vinh-speedtest.viettelidc.com.vn",
       "ip_address": {
-        "A": "210.211.127.130"
+        "A": "210.211.127.130",
+        "AAAA": "2401:5f80:2002:1a::2"
       },
-      "ipv6_capable": "no"
+      "ipv6_capable": "yes"
     },
     {
       "url": "http://vtu-speedtest.viettelidc.com.vn:8080/speedtest/upload.php",
@@ -246,11 +253,12 @@
       "host": "vtu-speedtest.viettelidc.com.vn.prod.hosts.ooklaserver.net:8080",
       "hostname": "vtu-speedtest.viettelidc.com.vn",
       "ip_address": {
-        "A": "210.211.127.150"
+        "A": "210.211.127.150",
+        "AAAA": "2401:5f80:2002:1c::6"
       },
-      "ipv6_capable": "no"
+      "ipv6_capable": "yes"
     }
   ],
   "total_servers": 13,
-  "updated_at": "2026-06-19T03:41:23.364278+00:00"
+  "updated_at": "2026-06-20T02:44:53.189934+00:00"
 }

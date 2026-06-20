@@ -1,6 +1,26 @@
 {
   "servers": [
     {
+      "url": "http://speedtest-aya1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "14.3692",
+      "lon": "100.5877",
+      "name": "Ayutthaya",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "24588",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-aya1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-aya1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.3.212",
+        "AAAA": "2403:6200:ffff:fbff::f9a"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtest-sp1.3bb.co.th:8080/speedtest/upload.php",
       "lat": "13.7500",
       "lon": "100.4833",
@@ -71,7 +91,8 @@
       "id": "23118",
       "preferred": 0,
       "isp_id": "42011",
-      "host": "speedtest-cbi1.3bb.co.th:8080",
+      "https_functional": 1,
+      "host": "speedtest-cbi1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest-cbi1.3bb.co.th",
       "ip_address": {
         "A": "110.164.3.234",
@@ -196,6 +217,26 @@
       "ip_address": {
         "A": "110.164.3.236",
         "AAAA": "2403:6200:ffff:fbff::fda"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-jas1.3bb.co.th:8080/speedtest/upload.php",
+      "lat": "13.8621",
+      "lon": "100.5144",
+      "name": "Nonthaburi",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "3BB",
+      "id": "22667",
+      "preferred": 0,
+      "isp_id": "42011",
+      "https_functional": 1,
+      "host": "speedtest-jas1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-jas1.3bb.co.th",
+      "ip_address": {
+        "A": "110.164.2.220",
+        "AAAA": "2403:6200:5::220"
       },
       "ipv6_capable": "yes"
     },
@@ -480,6 +521,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 24,
-  "updated_at": "2026-06-19T03:38:32.742508+00:00"
+  "total_servers": 26,
+  "updated_at": "2026-06-20T02:42:21.508938+00:00"
 }
