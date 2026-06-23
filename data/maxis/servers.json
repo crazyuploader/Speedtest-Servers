@@ -1,26 +1,6 @@
 {
   "servers": [
     {
-      "url": "http://sgbookla01.maxis.com.my:8080/speedtest/upload.php",
-      "lat": "2.9213",
-      "lon": "101.6559",
-      "name": "Cyberjaya",
-      "country": "Malaysia",
-      "cc": "MY",
-      "sponsor": "Maxis",
-      "id": "49622",
-      "preferred": 0,
-      "isp_id": "17961",
-      "https_functional": 1,
-      "host": "sgbookla01.maxis.com.my.prod.hosts.ooklaserver.net:8080",
-      "hostname": "sgbookla01.maxis.com.my",
-      "ip_address": {
-        "A": "202.75.141.114",
-        "AAAA": "2001:d08:10:500::102"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://kpgookla01.maxis.com.my:8080/speedtest/upload.php",
       "lat": "3.2140",
       "lon": "101.6356",
@@ -180,6 +160,6 @@
       "ipv6_capable": "no"
     }
   ],
-  "total_servers": 9,
-  "updated_at": "2026-06-22T03:30:16.155051+00:00"
+  "total_servers": 8,
+  "updated_at": "2026-06-23T02:37:37.433420+00:00"
 }

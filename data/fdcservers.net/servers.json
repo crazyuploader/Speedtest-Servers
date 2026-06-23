@@ -121,26 +121,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://lg-dub.fdcservers.net:8080/speedtest/upload.php",
-      "lat": "53.3478",
-      "lon": "-6.2597",
-      "name": "Dublin",
-      "country": "Ireland",
-      "cc": "IE",
-      "sponsor": "fdcservers.net",
-      "id": "35422",
-      "preferred": 0,
-      "isp_id": "27716",
-      "https_functional": 1,
-      "host": "lg-dub.fdcservers.net:8080",
-      "hostname": "lg-dub.fdcservers.net",
-      "ip_address": {
-        "A": "50.7.4.237",
-        "AAAA": "2001:49f0:d0ea:a::4"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "https://lg-fra.fdcservers.net:8080/speedtest/upload.php",
       "lat": "50.1109",
       "lon": "8.6821",
@@ -421,26 +401,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtest.hnd.fdcservers.net:8080/speedtest/upload.php",
-      "lat": "35.6833",
-      "lon": "139.6833",
-      "name": "Tokyo",
-      "country": "Japan",
-      "cc": "JP",
-      "sponsor": "fdcservers.net",
-      "id": "28910",
-      "preferred": 0,
-      "isp_id": "27716",
-      "https_functional": 1,
-      "host": "speedtest.hnd.fdcservers.net:8080",
-      "hostname": "speedtest.hnd.fdcservers.net",
-      "ip_address": {
-        "A": "50.7.159.210",
-        "AAAA": "2001:49f0:d0d9:3:b::4"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://lg-tor.fdcservers.net:8080/speedtest/upload.php",
       "lat": "43.6481",
       "lon": "-79.4042",
@@ -501,6 +461,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 25,
-  "updated_at": "2026-06-22T03:29:32.524907+00:00"
+  "total_servers": 23,
+  "updated_at": "2026-06-23T02:36:42.934996+00:00"
 }
