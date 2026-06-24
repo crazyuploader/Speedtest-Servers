@@ -121,6 +121,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://lg-dub.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "53.3478",
+      "lon": "-6.2597",
+      "name": "Dublin",
+      "country": "Ireland",
+      "cc": "IE",
+      "sponsor": "fdcservers.net",
+      "id": "35422",
+      "preferred": 0,
+      "isp_id": "27716",
+      "https_functional": 1,
+      "host": "lg-dub.fdcservers.net:8080",
+      "hostname": "lg-dub.fdcservers.net",
+      "ip_address": {
+        "A": "50.7.4.237",
+        "AAAA": "2001:49f0:d0ea:a::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "https://lg-fra.fdcservers.net:8080/speedtest/upload.php",
       "lat": "50.1109",
       "lon": "8.6821",
@@ -431,7 +451,6 @@
       "id": "6070",
       "preferred": 0,
       "isp_id": "27716",
-      "https_functional": 1,
       "host": "lg-vie.fdcservers.net:8080",
       "hostname": "lg-vie.fdcservers.net",
       "ip_address": {
@@ -461,6 +480,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 23,
-  "updated_at": "2026-06-23T02:36:42.934996+00:00"
+  "total_servers": 24,
+  "updated_at": "2026-06-24T02:37:41.511955+00:00"
 }
