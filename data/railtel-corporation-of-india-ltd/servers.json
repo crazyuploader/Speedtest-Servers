@@ -76,7 +76,7 @@
       "hostname": "bsp.speedtest.railtel.in",
       "ip_address": {
         "A": "112.133.226.222",
-        "AAAA": "2401:b200:12::16d"
+        "AAAA": "2401:b200:12::16e"
       },
       "ipv6_capable": "yes"
     },
@@ -161,6 +161,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://sec.speedtest.railtel.in:8080/speedtest/upload.php",
+      "lat": "17.3700",
+      "lon": "78.4800",
+      "name": "Hyderabad",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "RailTel Corporation of India Ltd",
+      "id": "7128",
+      "preferred": 0,
+      "isp_id": "96146",
+      "https_functional": 1,
+      "host": "sec.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "sec.speedtest.railtel.in",
+      "ip_address": {
+        "A": "103.28.244.2",
+        "AAAA": "2401:b200:9::d5"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://kol.speedtest.railtel.in:8080/speedtest/upload.php",
       "lat": "22.5667",
       "lon": "88.3667",
@@ -196,7 +216,27 @@
       "hostname": "lko.speedtest.railtel.in",
       "ip_address": {
         "A": "122.252.232.158",
-        "AAAA": "2401:b200:11::92"
+        "AAAA": "2401:b200:11::91"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://mum.speedtest.railtel.in:8080/speedtest/upload.php",
+      "lat": "18.9647",
+      "lon": "72.8258",
+      "name": "Mumbai",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "RailTel Corporation of India Ltd",
+      "id": "9764",
+      "preferred": 0,
+      "isp_id": "96146",
+      "https_functional": 1,
+      "host": "mum.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "mum.speedtest.railtel.in",
+      "ip_address": {
+        "A": "203.153.39.98",
+        "AAAA": "2401:b200:9::46"
       },
       "ipv6_capable": "yes"
     },
@@ -241,6 +281,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 12,
-  "updated_at": "2026-06-24T02:38:43.089978+00:00"
+  "total_servers": 14,
+  "updated_at": "2026-06-25T02:39:19.808642+00:00"
 }

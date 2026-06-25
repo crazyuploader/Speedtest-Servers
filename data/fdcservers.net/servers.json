@@ -441,25 +441,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "https://lg-vie.fdcservers.net:8080/speedtest/upload.php",
-      "lat": "48.2088",
-      "lon": "16.3726",
-      "name": "Vienna",
-      "country": "Austria",
-      "cc": "AT",
-      "sponsor": "fdcservers.net",
-      "id": "6070",
-      "preferred": 0,
-      "isp_id": "27716",
-      "host": "lg-vie.fdcservers.net:8080",
-      "hostname": "lg-vie.fdcservers.net",
-      "ip_address": {
-        "A": "50.7.53.12",
-        "AAAA": "2001:49f0:d13f:a::4"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "https://lg-war.fdcservers.net:8080/speedtest/upload.php",
       "lat": "52.2323",
       "lon": "21.0084",
@@ -480,6 +461,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 24,
-  "updated_at": "2026-06-24T02:37:41.511955+00:00"
+  "total_servers": 23,
+  "updated_at": "2026-06-25T02:38:25.808345+00:00"
 }
