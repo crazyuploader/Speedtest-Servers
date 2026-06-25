@@ -1,0 +1,105 @@
+{
+    "servers": [
+        {
+            "url": "http://ber.wsqm.telekom-dienste.de:8080/speedtest/upload.php",
+            "lat": "52.5200",
+            "lon": "13.4050",
+            "name": "Berlin",
+            "country": "Germany",
+            "cc": "DE",
+            "sponsor": "Deutsche Telekom",
+            "id": "30907",
+            "preferred": 0,
+            "isp_id": "252",
+            "host": "ber.wsqm.telekom-dienste.de:8080",
+            "hostname": "ber.wsqm.telekom-dienste.de",
+            "ip_address": {
+                "A": "80.187.128.25",
+                "AAAA": "2a01:598:406:50::f6"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://dssd-tc.wsqm.telekom-dienste.de:8080/speedtest/upload.php",
+            "lat": "51.2230",
+            "lon": "6.7825",
+            "name": "Dusseldorf",
+            "country": "Germany",
+            "cc": "DE",
+            "sponsor": "Deutsche Telekom",
+            "id": "74096",
+            "preferred": 0,
+            "isp_id": "252",
+            "https_functional": 1,
+            "host": "dssd-tc.wsqm.telekom-dienste.de:8080",
+            "hostname": "dssd-tc.wsqm.telekom-dienste.de",
+            "ip_address": {
+                "A": "37.51.192.129",
+                "AAAA": "2a01:598:7e0:857::1"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://ffm.wsqm.telekom-dienste.de:8080/speedtest/upload.php",
+            "lat": "50.1109",
+            "lon": "8.6821",
+            "name": "Frankfurt am Main",
+            "country": "Germany",
+            "cc": "DE",
+            "sponsor": "Deutsche Telekom",
+            "id": "31448",
+            "preferred": 0,
+            "isp_id": "252",
+            "https_functional": 1,
+            "host": "ffm.wsqm.telekom-dienste.de.prod.hosts.ooklaserver.net:8080",
+            "hostname": "ffm.wsqm.telekom-dienste.de",
+            "ip_address": {
+                "A": "80.187.136.31",
+                "AAAA": "2a01:598:402:50::39e"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://ham.wsqm.telekom-dienste.de:8080/speedtest/upload.php",
+            "lat": "53.5653",
+            "lon": "10.0014",
+            "name": "Hamburg",
+            "country": "Germany",
+            "cc": "DE",
+            "sponsor": "Deutsche Telekom",
+            "id": "31469",
+            "preferred": 0,
+            "isp_id": "252",
+            "https_functional": 1,
+            "host": "ham.wsqm.telekom-dienste.de.prod.hosts.ooklaserver.net:8080",
+            "hostname": "ham.wsqm.telekom-dienste.de",
+            "ip_address": {
+                "A": "80.187.132.39",
+                "AAAA": "2a01:598:409:50::8f"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://mue.wsqm.telekom-dienste.de:8080/speedtest/upload.php",
+            "lat": "48.1333",
+            "lon": "11.5667",
+            "name": "Munich",
+            "country": "Germany",
+            "cc": "DE",
+            "sponsor": "Deutsche Telekom",
+            "id": "31470",
+            "preferred": 0,
+            "isp_id": "252",
+            "https_functional": 1,
+            "host": "mue.wsqm.telekom-dienste.de.prod.hosts.ooklaserver.net:8080",
+            "hostname": "mue.wsqm.telekom-dienste.de",
+            "ip_address": {
+                "A": "80.187.140.42",
+                "AAAA": "2a01:598:408:50::cd"
+            },
+            "ipv6_capable": "yes"
+        }
+    ],
+    "total_servers": 5,
+    "updated_at": "2026-06-25T13:51:34.172173+05:30"
+}

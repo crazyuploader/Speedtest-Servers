@@ -1,0 +1,246 @@
+{
+    "servers": [
+        {
+            "url": "http://ade1.speedtest.telstra.net:8080/speedtest/upload.php",
+            "lat": "-34.9290",
+            "lon": "138.6010",
+            "name": "Adelaide",
+            "country": "Australia",
+            "cc": "AU",
+            "sponsor": "Telstra",
+            "id": "12495",
+            "preferred": 0,
+            "isp_id": "39",
+            "https_functional": 1,
+            "host": "ade1.speedtest.telstra.net:8080",
+            "hostname": "ade1.speedtest.telstra.net",
+            "ip_address": {
+                "A": "203.47.10.37",
+                "AAAA": "2001:8000:105:f::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://brs1.speedtest.telstra.net:8080/speedtest/upload.php",
+            "lat": "-27.4728",
+            "lon": "153.0278",
+            "name": "Brisbane",
+            "country": "Australia",
+            "cc": "AU",
+            "sponsor": "Telstra",
+            "id": "12493",
+            "preferred": 0,
+            "isp_id": "39",
+            "https_functional": 1,
+            "host": "brs1.speedtest.telstra.net:8080",
+            "hostname": "brs1.speedtest.telstra.net",
+            "ip_address": {
+                "A": "203.39.103.129",
+                "AAAA": "2001:8000:106:1b::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://cbr1.speedtest.telstra.net:8080/speedtest/upload.php",
+            "lat": "-35.2809",
+            "lon": "149.1300",
+            "name": "Canberra",
+            "country": "Australia",
+            "cc": "AU",
+            "sponsor": "Telstra",
+            "id": "18711",
+            "preferred": 0,
+            "isp_id": "39",
+            "https_functional": 1,
+            "host": "cbr1.speedtest.telstra.net:8080",
+            "hostname": "cbr1.speedtest.telstra.net",
+            "ip_address": {
+                "A": "144.130.167.198",
+                "AAAA": "2001:8000:108:ad::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://cha1.speedtest.telstra.net:8080/speedtest/upload.php",
+            "lat": "-33.8008",
+            "lon": "151.1796",
+            "name": "Chatswood",
+            "country": "Australia",
+            "cc": "AU",
+            "sponsor": "Telstra",
+            "id": "18713",
+            "preferred": 0,
+            "isp_id": "39",
+            "https_functional": 1,
+            "host": "cha1.speedtest.telstra.net:8080",
+            "hostname": "cha1.speedtest.telstra.net",
+            "ip_address": {
+                "A": "144.130.165.118",
+                "AAAA": "2001:8000:103:2be::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://drw1.speedtest.telstra.net:8080/speedtest/upload.php",
+            "lat": "-12.4634",
+            "lon": "130.8456",
+            "name": "Darwin",
+            "country": "Australia",
+            "cc": "AU",
+            "sponsor": "Telstra",
+            "id": "22036",
+            "preferred": 0,
+            "isp_id": "39",
+            "https_functional": 1,
+            "host": "drw1.speedtest.telstra.net:8080",
+            "hostname": "drw1.speedtest.telstra.net",
+            "ip_address": {
+                "A": "203.54.161.146",
+                "AAAA": "2001:8000:10a:12::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://ool1.speedtest.telstra.net:8080/speedtest/upload.php",
+            "lat": "-28.0160",
+            "lon": "153.0167",
+            "name": "Gold Coast",
+            "country": "Australia",
+            "cc": "AU",
+            "sponsor": "Telstra",
+            "id": "16329",
+            "preferred": 0,
+            "isp_id": "39",
+            "https_functional": 1,
+            "host": "ool1.speedtest.telstra.net:8080",
+            "hostname": "ool1.speedtest.telstra.net",
+            "ip_address": {
+                "A": "110.145.213.6",
+                "AAAA": "2001:8000:106:a1::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://hob1.speedtest.telstra.net:8080/speedtest/upload.php",
+            "lat": "-42.8821",
+            "lon": "147.3272",
+            "name": "Hobart",
+            "country": "Australia",
+            "cc": "AU",
+            "sponsor": "Telstra",
+            "id": "18712",
+            "preferred": 0,
+            "isp_id": "39",
+            "https_functional": 1,
+            "host": "hob1.speedtest.telstra.net:8080",
+            "hostname": "hob1.speedtest.telstra.net",
+            "ip_address": {
+                "A": "144.130.167.86",
+                "AAAA": "2001:8000:109:f::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://mel1.speedtest.telstra.net:8080/speedtest/upload.php",
+            "lat": "-37.8136",
+            "lon": "144.9631",
+            "name": "Melbourne",
+            "country": "Australia",
+            "cc": "AU",
+            "sponsor": "Telstra",
+            "id": "12491",
+            "preferred": 0,
+            "isp_id": "39",
+            "https_functional": 1,
+            "host": "mel1.speedtest.telstra.net:8080",
+            "hostname": "mel1.speedtest.telstra.net",
+            "ip_address": {
+                "A": "139.130.3.66",
+                "AAAA": "2001:8000:104:21::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://per1.speedtest.telstra.net:8080/speedtest/upload.php",
+            "lat": "-31.9554",
+            "lon": "115.8585",
+            "name": "Perth",
+            "country": "Australia",
+            "cc": "AU",
+            "sponsor": "Telstra",
+            "id": "12494",
+            "preferred": 0,
+            "isp_id": "39",
+            "https_functional": 1,
+            "host": "per1.speedtest.telstra.net:8080",
+            "hostname": "per1.speedtest.telstra.net",
+            "ip_address": {
+                "A": "203.43.60.161",
+                "AAAA": "2001:8000:107:41::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://mcy1.speedtest.telstra.net:8080/speedtest/upload.php",
+            "lat": "-25.8833",
+            "lon": "152.5500",
+            "name": "Sunshine Coast",
+            "country": "Australia",
+            "cc": "AU",
+            "sponsor": "Telstra",
+            "id": "17702",
+            "preferred": 0,
+            "isp_id": "39",
+            "https_functional": 1,
+            "host": "mcy1.speedtest.telstra.net:8080",
+            "hostname": "mcy1.speedtest.telstra.net",
+            "ip_address": {
+                "A": "110.145.213.14",
+                "AAAA": "2001:8000:106:a2::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://syd1.speedtest.telstra.net:8080/speedtest/upload.php",
+            "lat": "-33.8600",
+            "lon": "151.2111",
+            "name": "Sydney",
+            "country": "Australia",
+            "cc": "AU",
+            "sponsor": "Telstra",
+            "id": "12492",
+            "preferred": 0,
+            "isp_id": "39",
+            "https_functional": 1,
+            "host": "syd1.speedtest.telstra.net:8080",
+            "hostname": "syd1.speedtest.telstra.net",
+            "ip_address": {
+                "A": "110.143.60.254",
+                "AAAA": "2001:8000:103:25::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://win1.speedtest.telstra.net:8080/speedtest/upload.php",
+            "lat": "-37.8540",
+            "lon": "144.9880",
+            "name": "Windsor",
+            "country": "Australia",
+            "cc": "AU",
+            "sponsor": "Telstra",
+            "id": "18714",
+            "preferred": 0,
+            "isp_id": "39",
+            "https_functional": 1,
+            "host": "win1.speedtest.telstra.net:8080",
+            "hostname": "win1.speedtest.telstra.net",
+            "ip_address": {
+                "A": "110.145.177.190",
+                "AAAA": "2001:8000:104:443::2"
+            },
+            "ipv6_capable": "yes"
+        }
+    ],
+    "total_servers": 12,
+    "updated_at": "2026-06-25T13:51:55.926012+05:30"
+}

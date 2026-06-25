@@ -1,0 +1,66 @@
+{
+    "servers": [
+        {
+            "url": "http://speedtest-bc1.orange.ro:8080/speedtest/upload.php",
+            "lat": "46.5833",
+            "lon": "26.9167",
+            "name": "Bacau",
+            "country": "Romania",
+            "cc": "RO",
+            "sponsor": "Orange Romania SA",
+            "id": "60638",
+            "preferred": 0,
+            "isp_id": "27714",
+            "https_functional": 1,
+            "host": "speedtest-bc1.orange.ro.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest-bc1.orange.ro",
+            "ip_address": {
+                "A": "109.166.248.50",
+                "AAAA": "2a02:a58:24:103::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest-b2.orange.ro:8080/speedtest/upload.php",
+            "lat": "44.4268",
+            "lon": "26.1025",
+            "name": "Bucuresti",
+            "country": "Romania",
+            "cc": "RO",
+            "sponsor": "Orange Romania SA",
+            "id": "45318",
+            "preferred": 0,
+            "isp_id": "27714",
+            "https_functional": 1,
+            "host": "speedtest-b2.orange.ro.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest-b2.orange.ro",
+            "ip_address": {
+                "A": "109.166.248.2",
+                "AAAA": "2a02:a58:24:101::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest-c2.orange.ro:8080/speedtest/upload.php",
+            "lat": "46.7712",
+            "lon": "23.6236",
+            "name": "Cluj-Napoca",
+            "country": "Romania",
+            "cc": "RO",
+            "sponsor": "Orange Romania SA",
+            "id": "45319",
+            "preferred": 0,
+            "isp_id": "27714",
+            "https_functional": 1,
+            "host": "speedtest-c2.orange.ro.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest-c2.orange.ro",
+            "ip_address": {
+                "A": "109.166.248.10",
+                "AAAA": "2a02:a58:24:102::2"
+            },
+            "ipv6_capable": "yes"
+        }
+    ],
+    "total_servers": 3,
+    "updated_at": "2026-06-25T13:58:52.266919+05:30"
+}

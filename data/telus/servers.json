@@ -1,0 +1,245 @@
+{
+    "servers": [
+        {
+            "url": "http://calgary2.speedtest.telus.com:8080/speedtest/upload.php",
+            "lat": "51.0486",
+            "lon": "-114.0708",
+            "name": "Calgary, AB",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "TELUS Mobility",
+            "id": "17555",
+            "preferred": 0,
+            "isp_id": "256720",
+            "https_functional": 1,
+            "host": "calgary2.speedtest.telus.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "calgary2.speedtest.telus.com",
+            "ip_address": {
+                "A": "207.34.77.3",
+                "AAAA": "2001:56a:1::f"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://calgary.speedtest.telus.com:8080/speedtest/upload.php",
+            "lat": "51.0450",
+            "lon": "-114.0572",
+            "name": "Calgary, AB",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "TELUS",
+            "id": "4392",
+            "preferred": 0,
+            "isp_id": "256720",
+            "https_functional": 1,
+            "host": "calgary.speedtest.telus.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "calgary.speedtest.telus.com",
+            "ip_address": {
+                "A": "207.34.77.1",
+                "AAAA": "2001:56a:1::d"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://halifax.speedtest.telus.com:8080/speedtest/upload.php",
+            "lat": "44.6700",
+            "lon": "-63.6100",
+            "name": "Halifax, NS",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "TELUS",
+            "id": "19200",
+            "preferred": 0,
+            "isp_id": "256720",
+            "https_functional": 1,
+            "host": "halifax.speedtest.telus.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "halifax.speedtest.telus.com",
+            "ip_address": {
+                "A": "207.134.7.253",
+                "AAAA": "2001:56b:a001::1"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://kmlpbcnu-speedtest-01.telus.com:8080/speedtest/upload.php",
+            "lat": "50.6745",
+            "lon": "-120.3273",
+            "name": "Kamloops, BC",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "TELUS",
+            "id": "14016",
+            "preferred": 0,
+            "isp_id": "256720",
+            "https_functional": 1,
+            "host": "kmlpbcnu-speedtest-01.telus.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "kmlpbcnu-speedtest-01.telus.com",
+            "ip_address": {
+                "A": "206.108.17.113",
+                "AAAA": "2001:569:c001::19"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://slrmpqfh-speedtest-01.telus.com:8080/speedtest/upload.php",
+            "lat": "45.5017",
+            "lon": "-73.5673",
+            "name": "Laval, QC",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "TELUS",
+            "id": "14021",
+            "preferred": 0,
+            "isp_id": "256720",
+            "https_functional": 1,
+            "host": "slrmpqfh-speedtest-01.telus.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "slrmpqfh-speedtest-01.telus.com",
+            "ip_address": {
+                "A": "142.169.41.81",
+                "AAAA": "2001:56b:8000::32"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://montreal2.speedtest.telus.com:8080/speedtest/upload.php",
+            "lat": "45.5017",
+            "lon": "-73.5673",
+            "name": "Montréal, QC",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "TELUS Mobility",
+            "id": "24707",
+            "preferred": 0,
+            "isp_id": "256720",
+            "https_functional": 1,
+            "host": "montreal2.speedtest.telus.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "montreal2.speedtest.telus.com",
+            "ip_address": {
+                "A": "206.162.134.23",
+                "AAAA": "2001:56b:8000::3"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://montreal.speedtest.telus.com:8080/speedtest/upload.php",
+            "lat": "45.5017",
+            "lon": "-73.5673",
+            "name": "Montréal, QC",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "TELUS",
+            "id": "4393",
+            "preferred": 0,
+            "isp_id": "256720",
+            "https_functional": 1,
+            "host": "montreal.speedtest.telus.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "montreal.speedtest.telus.com",
+            "ip_address": {
+                "A": "206.162.134.21",
+                "AAAA": "2001:56b:8000::1"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://rimouski.speedtest.telus.com:8080/speedtest/upload.php",
+            "lat": "48.4333",
+            "lon": "-68.5167",
+            "name": "Rimouski, QC",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "TELUS",
+            "id": "3683",
+            "preferred": 0,
+            "isp_id": "256720",
+            "https_functional": 1,
+            "host": "rimouski.speedtest.telus.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "rimouski.speedtest.telus.com",
+            "ip_address": {
+                "A": "207.134.7.1",
+                "AAAA": "2001:56b:c001::1"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://toronto.speedtest.telus.com:8080/speedtest/upload.php",
+            "lat": "43.6481",
+            "lon": "-79.4042",
+            "name": "Toronto, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "TELUS",
+            "id": "3575",
+            "preferred": 0,
+            "isp_id": "256720",
+            "https_functional": 1,
+            "host": "toronto.speedtest.telus.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "toronto.speedtest.telus.com",
+            "ip_address": {
+                "A": "207.219.22.171",
+                "AAAA": "2001:56b:1::1"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://toronto2.speedtest.telus.com:8080/speedtest/upload.php",
+            "lat": "43.6481",
+            "lon": "-79.4042",
+            "name": "Toronto, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "TELUS Mobility",
+            "id": "24698",
+            "preferred": 0,
+            "isp_id": "256720",
+            "https_functional": 1,
+            "host": "toronto2.speedtest.telus.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "toronto2.speedtest.telus.com",
+            "ip_address": {
+                "A": "207.219.22.169",
+                "AAAA": "2001:56b:1::3"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://vancouver.speedtest.telus.com:8080/speedtest/upload.php",
+            "lat": "49.2505",
+            "lon": "-123.1119",
+            "name": "Vancouver, BC",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "TELUS",
+            "id": "3049",
+            "preferred": 0,
+            "isp_id": "256720",
+            "https_functional": 1,
+            "host": "vancouver.speedtest.telus.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "vancouver.speedtest.telus.com",
+            "ip_address": {
+                "A": "207.102.78.141",
+                "AAAA": "2001:569:fff:1::1"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://vancouver2.speedtest.telus.com:8080/speedtest/upload.php",
+            "lat": "49.2505",
+            "lon": "-123.1119",
+            "name": "Vancouver, BC",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "TELUS Mobility",
+            "id": "16781",
+            "preferred": 0,
+            "isp_id": "256720",
+            "host": "vancouver2.speedtest.telus.com:8080",
+            "hostname": "vancouver2.speedtest.telus.com",
+            "ip_address": {
+                "A": "207.102.78.143",
+                "AAAA": "2001:569:fff:1::3"
+            },
+            "ipv6_capable": "yes"
+        }
+    ],
+    "total_servers": 12,
+    "updated_at": "2026-06-25T13:54:41.796137+05:30"
+}

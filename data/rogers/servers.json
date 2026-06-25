@@ -1,0 +1,1766 @@
+{
+    "servers": [
+        {
+            "url": "http://stajax.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.8509",
+            "lon": "-79.0204",
+            "name": "Ajax, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "46150",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stajax.rogers.com:8080",
+            "hostname": "stajax.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.162",
+                "AAAA": "2607:f798:561:1f2::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stbarrie.rogers.com:8080/speedtest/upload.php",
+            "lat": "44.3900",
+            "lon": "-79.6860",
+            "name": "Barrie, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "46812",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stbarrie.rogers.com:8080",
+            "hostname": "stbarrie.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.190",
+                "AAAA": "2607:f798:561:243::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stbarriewireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "44.3900",
+            "lon": "-79.6860",
+            "name": "Barrie, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46136",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stbarriewireless.rogers.com:8080",
+            "hostname": "stbarriewireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.74",
+                "AAAA": "2607:f798:561:233::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stbellevillewireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "44.1628",
+            "lon": "-77.3832",
+            "name": "Belleville, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46760",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stbellevillewireless.rogers.com:8080",
+            "hostname": "stbellevillewireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.42",
+                "AAAA": "2607:f798:561:222::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stbowmanville.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.9126",
+            "lon": "-78.6880",
+            "name": "Bowmanville, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "47544",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stbowmanville.rogers.com:8080",
+            "hostname": "stbowmanville.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.170",
+                "AAAA": "2607:f798:561:142::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stbowmanvillewireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.9126",
+            "lon": "-78.6880",
+            "name": "Bowmanville, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "47349",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stbowmanvillewireless.rogers.com:8080",
+            "hostname": "stbowmanvillewireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.46",
+                "AAAA": "2607:f798:561:223::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stbrampton.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.7315",
+            "lon": "-79.7624",
+            "name": "Brampton, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "46148",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stbrampton.rogers.com:8080",
+            "hostname": "stbrampton.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.154",
+                "AAAA": "2607:f798:561:1c2::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stbrantfordwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.1394",
+            "lon": "-80.2644",
+            "name": "Brantford, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46139",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stbrantfordwireless.rogers.com:8080",
+            "hostname": "stbrantfordwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.74",
+                "AAAA": "2607:f798:561:233::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stbrantford.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.1394",
+            "lon": "-80.2644",
+            "name": "Brantford, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "47541",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stbrantford.rogers.com:8080",
+            "hostname": "stbrantford.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.170",
+                "AAAA": "2607:f798:561:142::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stcalgarywireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "51.0450",
+            "lon": "-114.0572",
+            "name": "Calgary, AB",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46407",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stcalgarywireless.rogers.com:8080",
+            "hostname": "stcalgarywireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.106",
+                "AAAA": "2607:f798:561:2002::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stchathamwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "42.4048",
+            "lon": "-82.1910",
+            "name": "Chatham, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "47344",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stchathamwireless.rogers.com:8080",
+            "hostname": "stchathamwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.78",
+                "AAAA": "2607:f798:561:232::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stcornwallwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "45.0213",
+            "lon": "-74.7303",
+            "name": "Cornwall, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "47343",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stcornwallwireless.rogers.com:8080",
+            "hostname": "stcornwallwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.14",
+                "AAAA": "2607:f798:561:1033::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stedmontonwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "53.5472",
+            "lon": "-113.5006",
+            "name": "Edmonton, AB",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46411",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stedmontonwireless.rogers.com:8080",
+            "hostname": "stedmontonwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.110",
+                "AAAA": "2607:f798:561:2003::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stetobicoke.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.6205",
+            "lon": "-79.5132",
+            "name": "Etobicoke, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "46144",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stetobicoke.rogers.com:8080",
+            "hostname": "stetobicoke.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.154",
+                "AAAA": "2607:f798:561:1c2::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stfrederictonwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "45.9636",
+            "lon": "-66.6431",
+            "name": "Fredericton, NB",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46426",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stfrederictonwireless.rogers.com:8080",
+            "hostname": "stfrederictonwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.14",
+                "AAAA": "2607:f798:561:1033::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stgatineauwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "45.4765",
+            "lon": "-75.7013",
+            "name": "Gatineau, QC",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46427",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stgatineauwireless.rogers.com:8080",
+            "hostname": "stgatineauwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.14",
+                "AAAA": "2607:f798:561:1033::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stgeorgetownwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.6502",
+            "lon": "-79.9036",
+            "name": "Georgetown, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "47345",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stgeorgetownwireless.rogers.com:8080",
+            "hostname": "stgeorgetownwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.74",
+                "AAAA": "2607:f798:561:2::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stguelph.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.5448",
+            "lon": "-80.2482",
+            "name": "Guelph, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "46435",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stguelph.rogers.com:8080",
+            "hostname": "stguelph.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.186",
+                "AAAA": "2607:f798:561:242::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stguelphwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.5448",
+            "lon": "-80.2482",
+            "name": "Guelph, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "47328",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stguelphwireless.rogers.com:8080",
+            "hostname": "stguelphwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.74",
+                "AAAA": "2607:f798:561:233::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://sthalifaxwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "44.6700",
+            "lon": "-63.6100",
+            "name": "Halifax, NS",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46417",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "sthalifaxwireless.rogers.com:8080",
+            "hostname": "sthalifaxwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.10",
+                "AAAA": "2607:f798:561:1032::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://sthamiltonwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.2565",
+            "lon": "-79.8675",
+            "name": "Hamilton, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "47326",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "sthamiltonwireless.rogers.com:8080",
+            "hostname": "sthamiltonwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.78",
+                "AAAA": "2607:f798:561:232::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://sthamilton.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.2565",
+            "lon": "-79.8675",
+            "name": "Hamilton, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "46432",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "sthamilton.rogers.com:8080",
+            "hostname": "sthamilton.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.186",
+                "AAAA": "2607:f798:561:242::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stkanata.rogers.com:8080/speedtest/upload.php",
+            "lat": "45.3088",
+            "lon": "-75.8987",
+            "name": "Kanata, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "47539",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stkanata.rogers.com:8080",
+            "hostname": "stkanata.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.138",
+                "AAAA": "2607:f798:561:1023::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stkanatawireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "45.3088",
+            "lon": "-75.8987",
+            "name": "Kanata, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "47329",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stkanatawireless.rogers.com:8080",
+            "hostname": "stkanatawireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.10",
+                "AAAA": "2607:f798:561:1032::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stkelownawireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "49.8988",
+            "lon": "-119.4097",
+            "name": "Kelowna, BC",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46408",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stkelownawireless.rogers.com:8080",
+            "hostname": "stkelownawireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.106",
+                "AAAA": "2607:f798:561:2002::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stkingcity.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.9287",
+            "lon": "-79.5281",
+            "name": "King City, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "46434",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stkingcity.rogers.com:8080",
+            "hostname": "stkingcity.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.186",
+                "AAAA": "2607:f798:561:242::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stkingstonwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "44.2300",
+            "lon": "-76.5000",
+            "name": "Kingston, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46424",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stkingstonwireless.rogers.com:8080",
+            "hostname": "stkingstonwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.14",
+                "AAAA": "2607:f798:561:1033::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stkitchener.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.4500",
+            "lon": "-80.4833",
+            "name": "Kitchener, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "46809",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stkitchener.rogers.com:8080",
+            "hostname": "stkitchener.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.170",
+                "AAAA": "2607:f798:561:142::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stkitchenerwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.4500",
+            "lon": "-80.4833",
+            "name": "Kitchener, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46125",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stkitchenerwireless.rogers.com:8080",
+            "hostname": "stkitchenerwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.78",
+                "AAAA": "2607:f798:561:232::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stleamingtonwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "42.0532",
+            "lon": "-82.5999",
+            "name": "Leamington, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "47350",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stleamingtonwireless.rogers.com:8080",
+            "hostname": "stleamingtonwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.78",
+                "AAAA": "2607:f798:561:232::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stlethbridgewireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "49.6956",
+            "lon": "-112.8451",
+            "name": "Lethbridge, AB",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46414",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stlethbridgewireless.rogers.com:8080",
+            "hostname": "stlethbridgewireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.110",
+                "AAAA": "2607:f798:561:2003::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stlondon.rogers.com:8080/speedtest/upload.php",
+            "lat": "42.9849",
+            "lon": "-81.2453",
+            "name": "London, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "46149",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stlondon.rogers.com:8080",
+            "hostname": "stlondon.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.154",
+                "AAAA": "2607:f798:561:1c2::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stlondonwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "42.9849",
+            "lon": "-81.2453",
+            "name": "London, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46137",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stlondonwireless.rogers.com:8080",
+            "hostname": "stlondonwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.74",
+                "AAAA": "2607:f798:561:233::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stmarkham.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.8561",
+            "lon": "-79.3370",
+            "name": "Markham, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "46810",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stmarkham.rogers.com:8080",
+            "hostname": "stmarkham.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.162",
+                "AAAA": "2607:f798:561:1f2::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stmilton.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.5183",
+            "lon": "-79.8774",
+            "name": "Milton, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "47540",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stmilton.rogers.com:8080",
+            "hostname": "stmilton.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.186",
+                "AAAA": "2607:f798:561:242::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stmiltonwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.5183",
+            "lon": "-79.8774",
+            "name": "Milton, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "47330",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stmiltonwireless.rogers.com:8080",
+            "hostname": "stmiltonwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.78",
+                "AAAA": "2607:f798:561:232::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stmississauga.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.6000",
+            "lon": "-79.6500",
+            "name": "Mississauga, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "46147",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stmississauga.rogers.com:8080",
+            "hostname": "stmississauga.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.154",
+                "AAAA": "2607:f798:561:1c2::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stmississaugawireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.6000",
+            "lon": "-79.6500",
+            "name": "Mississauga, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46123",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stmississaugawireless.rogers.com:8080",
+            "hostname": "stmississaugawireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.78",
+                "AAAA": "2607:f798:561:232::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stmoncton.rogers.com:8080/speedtest/upload.php",
+            "lat": "46.1328",
+            "lon": "-64.7714",
+            "name": "Moncton, NB",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "46430",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stmoncton.rogers.com:8080",
+            "hostname": "stmoncton.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.194",
+                "AAAA": "2607:f798:561:1052::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stmonctonwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "46.1328",
+            "lon": "-64.7714",
+            "name": "Moncton, NB",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46425",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stmonctonwireless.rogers.com:8080",
+            "hostname": "stmonctonwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.14",
+                "AAAA": "2607:f798:561:1033::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stmontrealwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "45.5017",
+            "lon": "-73.5673",
+            "name": "Montréal, QC",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46416",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stmontrealwireless.rogers.com:8080",
+            "hostname": "stmontrealwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.10",
+                "AAAA": "2607:f798:561:1032::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stnanaimowireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "49.1659",
+            "lon": "-123.9401",
+            "name": "Nanaimo, BC",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46413",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stnanaimowireless.rogers.com:8080",
+            "hostname": "stnanaimowireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.110",
+                "AAAA": "2607:f798:561:2003::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stnewmarket.rogers.com:8080/speedtest/upload.php",
+            "lat": "44.0592",
+            "lon": "-79.4613",
+            "name": "Newmarket, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "46146",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stnewmarket.rogers.com:8080",
+            "hostname": "stnewmarket.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.170",
+                "AAAA": "2607:f798:561:142::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stnorthbaywireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "46.3091",
+            "lon": "-79.4608",
+            "name": "North Bay, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "47342",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stnorthbaywireless.rogers.com:8080",
+            "hostname": "stnorthbaywireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.74",
+                "AAAA": "2607:f798:561:2::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stnorthyork.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.7615",
+            "lon": "-79.4111",
+            "name": "North York, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "46811",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stnorthyork.rogers.com:8080",
+            "hostname": "stnorthyork.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.190",
+                "AAAA": "2607:f798:561:243::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stnorthyorkwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.7615",
+            "lon": "-79.4111",
+            "name": "North York, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46761",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stnorthyorkwireless.rogers.com:8080",
+            "hostname": "stnorthyorkwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.46",
+                "AAAA": "2607:f798:561:223::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stoakville.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.4675",
+            "lon": "-79.6877",
+            "name": "Oakville, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "46763",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stoakville.rogers.com:8080",
+            "hostname": "stoakville.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.190",
+                "AAAA": "2607:f798:561:243::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://storangeville.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.9200",
+            "lon": "-80.0943",
+            "name": "Orangeville, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "47548",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "storangeville.rogers.com:8080",
+            "hostname": "storangeville.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.190",
+                "AAAA": "2607:f798:561:243::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://storangevillewireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.9200",
+            "lon": "-80.0943",
+            "name": "Orangeville, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "47354",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "storangevillewireless.rogers.com:8080",
+            "hostname": "storangevillewireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.78",
+                "AAAA": "2607:f798:561:232::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://storillia.rogers.com:8080/speedtest/upload.php",
+            "lat": "44.6082",
+            "lon": "-79.4197",
+            "name": "Orillia, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "47546",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "storillia.rogers.com:8080",
+            "hostname": "storillia.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.162",
+                "AAAA": "2607:f798:561:1f2::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://storilliawireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "44.6082",
+            "lon": "-79.4197",
+            "name": "Orillia, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "47352",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "storilliawireless.rogers.com:8080",
+            "hostname": "storilliawireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.46",
+                "AAAA": "2607:f798:561:223::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stoshawawireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.8971",
+            "lon": "-78.8658",
+            "name": "Oshawa, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "47327",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stoshawawireless.rogers.com:8080",
+            "hostname": "stoshawawireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.42",
+                "AAAA": "2607:f798:561:222::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stoshawa.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.8971",
+            "lon": "-78.8658",
+            "name": "Oshawa, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "46429",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stoshawa.rogers.com:8080",
+            "hostname": "stoshawa.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.170",
+                "AAAA": "2607:f798:561:142::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stottawa.rogers.com:8080/speedtest/upload.php",
+            "lat": "45.4167",
+            "lon": "-75.7000",
+            "name": "Ottawa, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "46151",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stottawa.rogers.com:8080",
+            "hostname": "stottawa.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.138",
+                "AAAA": "2607:f798:561:1023::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stottawawireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "45.4167",
+            "lon": "-75.7000",
+            "name": "Ottawa, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46422",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stottawawireless.rogers.com:8080",
+            "hostname": "stottawawireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.14",
+                "AAAA": "2607:f798:561:1033::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stpeterboroughwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "44.3091",
+            "lon": "-78.3197",
+            "name": "Peterborough, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46421",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stpeterboroughwireless.rogers.com:8080",
+            "hostname": "stpeterboroughwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.10",
+                "AAAA": "2607:f798:561:1032::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stpickering.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.8384",
+            "lon": "-79.0868",
+            "name": "Pickering, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "46433",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stpickering.rogers.com:8080",
+            "hostname": "stpickering.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.186",
+                "AAAA": "2607:f798:561:242::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stquebeccitywireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "46.8139",
+            "lon": "-71.2080",
+            "name": "Quebec City, QC",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46423",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stquebeccitywireless.rogers.com:8080",
+            "hostname": "stquebeccitywireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.14",
+                "AAAA": "2607:f798:561:1033::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://streddeerwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "52.2690",
+            "lon": "-113.8116",
+            "name": "Red Deer, AB",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46415",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "streddeerwireless.rogers.com:8080",
+            "hostname": "streddeerwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.110",
+                "AAAA": "2607:f798:561:2003::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://strichmondhill.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.8828",
+            "lon": "-79.4403",
+            "name": "Richmond Hill, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "46145",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "strichmondhill.rogers.com:8080",
+            "hostname": "strichmondhill.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.170",
+                "AAAA": "2607:f798:561:142::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://strichmondhillwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.8828",
+            "lon": "-79.4403",
+            "name": "Richmond Hill, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46762",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "strichmondhillwireless.rogers.com:8080",
+            "hostname": "strichmondhillwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.46",
+                "AAAA": "2607:f798:561:223::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stsaintjohnwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "45.2806",
+            "lon": "-66.0761",
+            "name": "Saint John, NB",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46420",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stsaintjohnwireless.rogers.com:8080",
+            "hostname": "stsaintjohnwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.10",
+                "AAAA": "2607:f798:561:1032::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stsarniawireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "42.9745",
+            "lon": "-82.4066",
+            "name": "Sarnia, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46128",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stsarniawireless.rogers.com:8080",
+            "hostname": "stsarniawireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.78",
+                "AAAA": "2607:f798:561:232::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stsaultstemariewireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "46.5136",
+            "lon": "-84.3358",
+            "name": "Sault Ste. Marie, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "47340",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stsaultstemariewireless.rogers.com:8080",
+            "hostname": "stsaultstemariewireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.74",
+                "AAAA": "2607:f798:561:2::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stscarborough.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.7764",
+            "lon": "-79.2318",
+            "name": "Scarborough, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "46431",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stscarborough.rogers.com:8080",
+            "hostname": "stscarborough.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.186",
+                "AAAA": "2607:f798:561:242::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stsherbrookewireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "45.4042",
+            "lon": "-71.8929",
+            "name": "Sherbrooke, QC",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46419",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stsherbrookewireless.rogers.com:8080",
+            "hostname": "stsherbrookewireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.10",
+                "AAAA": "2607:f798:561:1032::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://ststcatharineswireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.1594",
+            "lon": "-79.2469",
+            "name": "St. Catharines, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46138",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "ststcatharineswireless.rogers.com:8080",
+            "hostname": "ststcatharineswireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.74",
+                "AAAA": "2607:f798:561:233::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://ststthomas.rogers.com:8080/speedtest/upload.php",
+            "lat": "42.7777",
+            "lon": "-81.1827",
+            "name": "St. Thomas, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "47542",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "ststthomas.rogers.com:8080",
+            "hostname": "ststthomas.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.154",
+                "AAAA": "2607:f798:561:1c2::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://ststthomaswireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "42.7777",
+            "lon": "-81.1827",
+            "name": "St. Thomas, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "47346",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "ststthomaswireless.rogers.com:8080",
+            "hostname": "ststthomaswireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.78",
+                "AAAA": "2607:f798:561:232::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://ststouffvillewireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.9706",
+            "lon": "-79.2443",
+            "name": "Stouffville, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "47351",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "ststouffvillewireless.rogers.com:8080",
+            "hostname": "ststouffvillewireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.42",
+                "AAAA": "2607:f798:561:222::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://ststouffville.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.9706",
+            "lon": "-79.2443",
+            "name": "Stouffville, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "47545",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "ststouffville.rogers.com:8080",
+            "hostname": "ststouffville.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.162",
+                "AAAA": "2607:f798:561:1f2::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://ststratford.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.3700",
+            "lon": "-80.9822",
+            "name": "Stratford, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "47547",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "ststratford.rogers.com:8080",
+            "hostname": "ststratford.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.190",
+                "AAAA": "2607:f798:561:243::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://ststratfordwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.3700",
+            "lon": "-80.9822",
+            "name": "Stratford, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "47353",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "ststratfordwireless.rogers.com:8080",
+            "hostname": "ststratfordwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.74",
+                "AAAA": "2607:f798:561:2::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stsudburywireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "46.5220",
+            "lon": "-80.9530",
+            "name": "Sudbury, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46428",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stsudburywireless.rogers.com:8080",
+            "hostname": "stsudburywireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.14",
+                "AAAA": "2607:f798:561:1033::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stsurreywireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "49.1913",
+            "lon": "-122.8490",
+            "name": "Surrey, BC",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46410",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stsurreywireless.rogers.com:8080",
+            "hostname": "stsurreywireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.110",
+                "AAAA": "2607:f798:561:2003::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stthunderbaywireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "48.3809",
+            "lon": "-89.2477",
+            "name": "Thunder Bay, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "47331",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stthunderbaywireless.rogers.com:8080",
+            "hostname": "stthunderbaywireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.106",
+                "AAAA": "2607:f798:561:2::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://sttoronto.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.6481",
+            "lon": "-79.4042",
+            "name": "Toronto, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "46143",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "sttoronto.rogers.com:8080",
+            "hostname": "sttoronto.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.146",
+                "AAAA": "2607:f798:561:2::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://sttorontowireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.6481",
+            "lon": "-79.4042",
+            "name": "Toronto, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46759",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "sttorontowireless.rogers.com:8080",
+            "hostname": "sttorontowireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.42",
+                "AAAA": "2607:f798:561:222::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://sttrois-riviereswireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "46.3430",
+            "lon": "-72.5421",
+            "name": "Trois-Rivières, QC",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46418",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "sttrois-riviereswireless.rogers.com:8080",
+            "hostname": "sttrois-riviereswireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.10",
+                "AAAA": "2607:f798:561:1032::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stvancouverwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "49.2505",
+            "lon": "-123.1119",
+            "name": "Vancouver, BC",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46406",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stvancouverwireless.rogers.com:8080",
+            "hostname": "stvancouverwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.106",
+                "AAAA": "2607:f798:561:2002::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stvaughan.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.8563",
+            "lon": "-79.5085",
+            "name": "Vaughan, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "46764",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stvaughan.rogers.com:8080",
+            "hostname": "stvaughan.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.190",
+                "AAAA": "2607:f798:561:243::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stvictoriawireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "48.4222",
+            "lon": "-123.3657",
+            "name": "Victoria, BC",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46412",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stvictoriawireless.rogers.com:8080",
+            "hostname": "stvictoriawireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.110",
+                "AAAA": "2607:f798:561:2003::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stwaterloo.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.4667",
+            "lon": "-80.5167",
+            "name": "Waterloo, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "46765",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stwaterloo.rogers.com:8080",
+            "hostname": "stwaterloo.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.190",
+                "AAAA": "2607:f798:561:243::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stwellandpelhamwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "42.9922",
+            "lon": "-79.2483",
+            "name": "Welland–Pelham, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "47341",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stwellandpelhamwireless.rogers.com:8080",
+            "hostname": "stwellandpelhamwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.78",
+                "AAAA": "2607:f798:561:232::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stwindsorwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "42.2833",
+            "lon": "-83.0000",
+            "name": "Windsor, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46126",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stwindsorwireless.rogers.com:8080",
+            "hostname": "stwindsorwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.78",
+                "AAAA": "2607:f798:561:232::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stwinnipegwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "49.8833",
+            "lon": "-97.1500",
+            "name": "Winnipeg, MB",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "46409",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stwinnipegwireless.rogers.com:8080",
+            "hostname": "stwinnipegwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.106",
+                "AAAA": "2607:f798:561:2002::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stwoodstockwireless.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.1315",
+            "lon": "-80.7472",
+            "name": "Woodstock, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers Wireless",
+            "id": "47348",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stwoodstockwireless.rogers.com:8080",
+            "hostname": "stwoodstockwireless.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.74",
+                "AAAA": "2607:f798:561:2::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://stwoodstock.rogers.com:8080/speedtest/upload.php",
+            "lat": "43.1315",
+            "lon": "-80.7472",
+            "name": "Woodstock, ON",
+            "country": "Canada",
+            "cc": "CA",
+            "sponsor": "Rogers",
+            "id": "47543",
+            "preferred": 0,
+            "isp_id": "164",
+            "https_functional": 1,
+            "host": "stwoodstock.rogers.com:8080",
+            "hostname": "stwoodstock.rogers.com",
+            "ip_address": {
+                "A": "72.136.172.170",
+                "AAAA": "2607:f798:561:142::2"
+            },
+            "ipv6_capable": "yes"
+        }
+    ],
+    "total_servers": 88,
+    "updated_at": "2026-06-25T13:53:30.394017+05:30"
+}

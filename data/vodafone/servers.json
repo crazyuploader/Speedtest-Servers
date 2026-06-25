@@ -1,0 +1,62 @@
+{
+    "servers": [
+        {
+            "url": "http://speedtest-bracknell.vodafone.co.uk:8080/speedtest/upload.php",
+            "lat": "51.4160",
+            "lon": "-0.7540",
+            "name": "Bracknell",
+            "country": "United Kingdom",
+            "cc": "GB",
+            "sponsor": "Vodafone UK",
+            "id": "23389",
+            "preferred": 0,
+            "isp_id": "106180",
+            "https_functional": 1,
+            "host": "speedtest-bracknell.vodafone.co.uk.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest-bracknell.vodafone.co.uk",
+            "ip_address": {
+                "A": "90.255.251.131"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://speedtest-edinburgh.vodafone.co.uk:8080/speedtest/upload.php",
+            "lat": "55.9521",
+            "lon": "-3.2015",
+            "name": "Edinburgh",
+            "country": "United Kingdom",
+            "cc": "GB",
+            "sponsor": "Vodafone UK",
+            "id": "38157",
+            "preferred": 0,
+            "isp_id": "106180",
+            "host": "speedtest-edinburgh.vodafone.co.uk:8080",
+            "hostname": "speedtest-edinburgh.vodafone.co.uk",
+            "ip_address": {
+                "A": "90.255.251.179"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://speedtest-manchester.vodafone.co.uk:8080/speedtest/upload.php",
+            "lat": "53.4808",
+            "lon": "-2.2426",
+            "name": "Manchester",
+            "country": "United Kingdom",
+            "cc": "GB",
+            "sponsor": "Vodafone UK",
+            "id": "23968",
+            "preferred": 0,
+            "isp_id": "106180",
+            "https_functional": 1,
+            "host": "speedtest-manchester.vodafone.co.uk.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest-manchester.vodafone.co.uk",
+            "ip_address": {
+                "A": "90.255.251.171"
+            },
+            "ipv6_capable": "no"
+        }
+    ],
+    "total_servers": 3,
+    "updated_at": "2026-06-25T13:51:38.267524+05:30"
+}

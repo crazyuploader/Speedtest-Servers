@@ -1,0 +1,464 @@
+{
+    "servers": [
+        {
+            "url": "http://speedtest.aguascalientes.izzi.mx:8080/speedtest/upload.php",
+            "lat": "21.8842",
+            "lon": "-102.2911",
+            "name": "Aguascalientes",
+            "country": "Mexico",
+            "cc": "MX",
+            "sponsor": "IZZI",
+            "id": "53782",
+            "preferred": 0,
+            "isp_id": "33937",
+            "https_functional": 1,
+            "host": "speedtest.aguascalientes.izzi.mx.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.aguascalientes.izzi.mx",
+            "ip_address": {
+                "A": "201.167.143.207",
+                "AAAA": "2806:310:4b::a"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest.apodaca.izzi.mx:8080/speedtest/upload.php",
+            "lat": "25.7799",
+            "lon": "-100.1853",
+            "name": "Apodaca",
+            "country": "Mexico",
+            "cc": "MX",
+            "sponsor": "IZZI",
+            "id": "54995",
+            "preferred": 0,
+            "isp_id": "33937",
+            "https_functional": 1,
+            "host": "speedtest.apodaca.izzi.mx.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.apodaca.izzi.mx",
+            "ip_address": {
+                "A": "201.172.7.233",
+                "AAAA": "2806:230:40f0:1::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest.cancun.izzi.mx:8080/speedtest/upload.php",
+            "lat": "21.1619",
+            "lon": "-86.8515",
+            "name": "Cancún",
+            "country": "Mexico",
+            "cc": "MX",
+            "sponsor": "IZZI",
+            "id": "20773",
+            "preferred": 0,
+            "isp_id": "33937",
+            "https_functional": 1,
+            "host": "speedtest.cancun.izzi.mx.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.cancun.izzi.mx",
+            "ip_address": {
+                "A": "187.252.2.245"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://speedtest.celaya.izzi.mx:8080/speedtest/upload.php",
+            "lat": "20.5148",
+            "lon": "-100.8219",
+            "name": "Celaya",
+            "country": "Mexico",
+            "cc": "MX",
+            "sponsor": "IZZI",
+            "id": "56655",
+            "preferred": 0,
+            "isp_id": "35310",
+            "https_functional": 1,
+            "host": "speedtest.celaya.izzi.mx.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.celaya.izzi.mx",
+            "ip_address": {
+                "A": "187.187.53.239",
+                "AAAA": "2001:1260:12::a"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest.chihuahua.izzi.mx:8080/speedtest/upload.php",
+            "lat": "28.6322",
+            "lon": "-106.0708",
+            "name": "Chihuahua",
+            "country": "Mexico",
+            "cc": "MX",
+            "sponsor": "IZZI",
+            "id": "53277",
+            "preferred": 0,
+            "isp_id": "33937",
+            "https_functional": 1,
+            "host": "speedtest.chihuahua.izzi.mx.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.chihuahua.izzi.mx",
+            "ip_address": {
+                "A": "177.238.191.223",
+                "AAAA": "2806:250:5f0::4"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest.juarez.izzi.mx:8080/speedtest/upload.php",
+            "lat": "31.7333",
+            "lon": "-106.4750",
+            "name": "Ciudad Juarez",
+            "country": "Mexico",
+            "cc": "MX",
+            "sponsor": "IZZI",
+            "id": "12533",
+            "preferred": 0,
+            "isp_id": "33937",
+            "https_functional": 1,
+            "host": "speedtest.juarez.izzi.mx.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.juarez.izzi.mx",
+            "ip_address": {
+                "A": "177.238.186.13",
+                "AAAA": "2806:250:7f0::3"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest.cuautitlan.izzi.mx:8080/speedtest/upload.php",
+            "lat": "19.6727",
+            "lon": "-99.1649",
+            "name": "Cuautitlán",
+            "country": "Mexico",
+            "cc": "MX",
+            "sponsor": "IZZI",
+            "id": "2115",
+            "preferred": 0,
+            "isp_id": "33937",
+            "https_functional": 1,
+            "host": "speedtest.cuautitlan.izzi.mx.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.cuautitlan.izzi.mx",
+            "ip_address": {
+                "A": "189.216.14.77",
+                "AAAA": "2806:2a0:2f0::4"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest.cuernavaca.izzi.mx:8080/speedtest/upload.php",
+            "lat": "18.9178",
+            "lon": "-99.2267",
+            "name": "Cuernavaca",
+            "country": "Mexico",
+            "cc": "MX",
+            "sponsor": "IZZI",
+            "id": "12629",
+            "preferred": 0,
+            "isp_id": "33937",
+            "https_functional": 1,
+            "host": "speedtest.cuernavaca.izzi.mx.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.cuernavaca.izzi.mx",
+            "ip_address": {
+                "A": "187.252.13.34",
+                "AAAA": "2806:250:35::a"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest.mexicali.izzi.mx:8080/speedtest/upload.php",
+            "lat": "32.6517",
+            "lon": "-115.4789",
+            "name": "Mexicali",
+            "country": "Mexico",
+            "cc": "MX",
+            "sponsor": "IZZI",
+            "id": "12693",
+            "preferred": 0,
+            "isp_id": "33937",
+            "https_functional": 1,
+            "host": "speedtest.mexicali.izzi.mx.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.mexicali.izzi.mx",
+            "ip_address": {
+                "A": "187.253.255.255",
+                "AAAA": "2806:250:2f0::3"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest.sevilla.izzi.mx:8080/speedtest/upload.php",
+            "lat": "19.4300",
+            "lon": "-99.1300",
+            "name": "Mexico City",
+            "country": "Mexico",
+            "cc": "MX",
+            "sponsor": "IZZI",
+            "id": "12694",
+            "preferred": 0,
+            "isp_id": "33937",
+            "https_functional": 1,
+            "host": "speedtest.sevilla.izzi.mx.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.sevilla.izzi.mx",
+            "ip_address": {
+                "A": "189.216.6.123",
+                "AAAA": "2806:2a0:2b::a"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest.monterreyhfc.izzi.mx:8080/speedtest/upload.php",
+            "lat": "25.6667",
+            "lon": "-100.3000",
+            "name": "Monterrey",
+            "country": "Mexico",
+            "cc": "MX",
+            "sponsor": "IZZI",
+            "id": "54565",
+            "preferred": 0,
+            "isp_id": "33937",
+            "https_functional": 1,
+            "host": "speedtest.monterreyhfc.izzi.mx.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.monterreyhfc.izzi.mx",
+            "ip_address": {
+                "A": "187.161.149.21",
+                "AAAA": "2806:230:1203::a"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest.merida.izzi.mx:8080/speedtest/upload.php",
+            "lat": "20.9811",
+            "lon": "-89.6164",
+            "name": "Mérida",
+            "country": "Mexico",
+            "cc": "MX",
+            "sponsor": "IZZI",
+            "id": "12811",
+            "preferred": 0,
+            "isp_id": "33937",
+            "https_functional": 1,
+            "host": "speedtest.merida.izzi.mx.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.merida.izzi.mx",
+            "ip_address": {
+                "A": "177.238.185.181",
+                "AAAA": "2806:250:4f0::3"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest.orizaba.izzi.mx:8080/speedtest/upload.php",
+            "lat": "18.8505",
+            "lon": "-97.1036",
+            "name": "Orizaba",
+            "country": "Mexico",
+            "cc": "MX",
+            "sponsor": "IZZI",
+            "id": "56924",
+            "preferred": 0,
+            "isp_id": "35310",
+            "https_functional": 1,
+            "host": "speedtest.orizaba.izzi.mx.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.orizaba.izzi.mx",
+            "ip_address": {
+                "A": "177.233.136.122",
+                "AAAA": "2001:1260:13::a"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest.pachuca.izzi.mx:8080/speedtest/upload.php",
+            "lat": "20.1011",
+            "lon": "-98.7591",
+            "name": "Pachuca",
+            "country": "Mexico",
+            "cc": "MX",
+            "sponsor": "IZZI",
+            "id": "56551",
+            "preferred": 0,
+            "isp_id": "35310",
+            "https_functional": 1,
+            "host": "speedtest.pachuca.izzi.mx.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.pachuca.izzi.mx",
+            "ip_address": {
+                "A": "148.246.54.239",
+                "AAAA": "2001:1260:14::a"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest.pozarica.izzi.mx:8080/speedtest/upload.php",
+            "lat": "20.5271",
+            "lon": "-97.4629",
+            "name": "Poza Rica",
+            "country": "Mexico",
+            "cc": "MX",
+            "sponsor": "IZZI",
+            "id": "53741",
+            "preferred": 0,
+            "isp_id": "33937",
+            "https_functional": 1,
+            "host": "speedtest.pozarica.izzi.mx.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.pozarica.izzi.mx",
+            "ip_address": {
+                "A": "189.220.252.98",
+                "AAAA": "2806:250:8f0::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest.queretaro.izzi.mx:8080/speedtest/upload.php",
+            "lat": "20.5888",
+            "lon": "-100.3899",
+            "name": "Querétaro",
+            "country": "Mexico",
+            "cc": "MX",
+            "sponsor": "IZZI",
+            "id": "37293",
+            "preferred": 0,
+            "isp_id": "35310",
+            "https_functional": 1,
+            "host": "speedtest.queretaro.izzi.mx.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.queretaro.izzi.mx",
+            "ip_address": {
+                "A": "187.186.242.232",
+                "AAAA": "2001:1260:2f8::b"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest.sjr.izzi.mx:8080/speedtest/upload.php",
+            "lat": "20.3833",
+            "lon": "-100.0000",
+            "name": "San Juan del Río",
+            "country": "Mexico",
+            "cc": "MX",
+            "sponsor": "IZZI",
+            "id": "53807",
+            "preferred": 0,
+            "isp_id": "33937",
+            "https_functional": 1,
+            "host": "speedtest.sjr.izzi.mx.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.sjr.izzi.mx",
+            "ip_address": {
+                "A": "200.56.203.11"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://speedtest.slp.izzi.mx:8080/speedtest/upload.php",
+            "lat": "22.1511",
+            "lon": "-100.9765",
+            "name": "San Luis Potosí",
+            "country": "Mexico",
+            "cc": "MX",
+            "sponsor": "IZZI",
+            "id": "53572",
+            "preferred": 0,
+            "isp_id": "35310",
+            "https_functional": 1,
+            "host": "speedtest.slp.izzi.mx.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.slp.izzi.mx",
+            "ip_address": {
+                "A": "187.187.112.243",
+                "AAAA": "2001:1260:3f0::3"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest.monterreygpon.izzi.mx:8080/speedtest/upload.php",
+            "lat": "25.7493",
+            "lon": "-100.2869",
+            "name": "San Nicolas",
+            "country": "Mexico",
+            "cc": "MX",
+            "sponsor": "IZZI",
+            "id": "29412",
+            "preferred": 0,
+            "isp_id": "33937",
+            "https_functional": 1,
+            "host": "speedtest.monterreygpon.izzi.mx.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.monterreygpon.izzi.mx",
+            "ip_address": {
+                "A": "201.173.10.4",
+                "AAAA": "2806:230:fff8:4::c"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest.tampico.izzi.mx:8080/speedtest/upload.php",
+            "lat": "22.2331",
+            "lon": "-97.8611",
+            "name": "Tampico",
+            "country": "Mexico",
+            "cc": "MX",
+            "sponsor": "IZZI",
+            "id": "53722",
+            "preferred": 0,
+            "isp_id": "33937",
+            "https_functional": 1,
+            "host": "speedtest.tampico.izzi.mx.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.tampico.izzi.mx",
+            "ip_address": {
+                "A": "201.161.174.231",
+                "AAAA": "2806:310:2f0::4"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest.tijuana.izzi.mx:8080/speedtest/upload.php",
+            "lat": "32.5308",
+            "lon": "-117.0200",
+            "name": "Tijuana",
+            "country": "Mexico",
+            "cc": "MX",
+            "sponsor": "IZZI",
+            "id": "12882",
+            "preferred": 0,
+            "isp_id": "33937",
+            "https_functional": 1,
+            "host": "speedtest.tijuana.izzi.mx.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.tijuana.izzi.mx",
+            "ip_address": {
+                "A": "177.238.184.247",
+                "AAAA": "2806:250:1f0::4"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest.villahermosa.izzi.mx:8080/speedtest/upload.php",
+            "lat": "17.9895",
+            "lon": "-92.9475",
+            "name": "Villahermosa",
+            "country": "Mexico",
+            "cc": "MX",
+            "sponsor": "IZZI",
+            "id": "53278",
+            "preferred": 0,
+            "isp_id": "35310",
+            "https_functional": 1,
+            "host": "speedtest.villahermosa.izzi.mx.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.villahermosa.izzi.mx",
+            "ip_address": {
+                "A": "177.232.92.239",
+                "AAAA": "2001:1260:4f0::4"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest.zapopan.izzi.mx:8080/speedtest/upload.php",
+            "lat": "20.7167",
+            "lon": "-103.4000",
+            "name": "Zapopan",
+            "country": "Mexico",
+            "cc": "MX",
+            "sponsor": "IZZI",
+            "id": "12760",
+            "preferred": 0,
+            "isp_id": "33937",
+            "https_functional": 1,
+            "host": "speedtest.zapopan.izzi.mx.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.zapopan.izzi.mx",
+            "ip_address": {
+                "A": "200.56.202.245",
+                "AAAA": "2806:310:1f0::4"
+            },
+            "ipv6_capable": "yes"
+        }
+    ],
+    "total_servers": 23,
+    "updated_at": "2026-06-25T13:57:28.179922+05:30"
+}

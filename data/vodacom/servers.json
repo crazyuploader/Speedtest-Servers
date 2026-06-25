@@ -1,0 +1,82 @@
+{
+    "servers": [
+        {
+            "url": "http://speedtest.cte.vodacombusiness.co.za:8080/speedtest/upload.php",
+            "lat": "-33.9253",
+            "lon": "18.4239",
+            "name": "Cape Town",
+            "country": "South Africa",
+            "cc": "ZA",
+            "sponsor": "Vodacom",
+            "id": "1491",
+            "preferred": 0,
+            "isp_id": "166202",
+            "https_functional": 1,
+            "host": "speedtest.cte.vodacombusiness.co.za.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.cte.vodacombusiness.co.za",
+            "ip_address": {
+                "A": "41.0.192.228"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://speedtest.dne.vodacombusiness.co.za:8080/speedtest/upload.php",
+            "lat": "-29.8697",
+            "lon": "31.0236",
+            "name": "Durban",
+            "country": "South Africa",
+            "cc": "ZA",
+            "sponsor": "Vodacom Business",
+            "id": "1285",
+            "preferred": 0,
+            "isp_id": "166202",
+            "https_functional": 1,
+            "host": "speedtest.dne.vodacombusiness.co.za.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.dne.vodacombusiness.co.za",
+            "ip_address": {
+                "A": "41.0.144.228"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://speedtest.mtb.vodacombusiness.co.za:8080/speedtest/upload.php",
+            "lat": "-26.2044",
+            "lon": "28.0456",
+            "name": "Johannesburg",
+            "country": "South Africa",
+            "cc": "ZA",
+            "sponsor": "Vodacom",
+            "id": "1440",
+            "preferred": 0,
+            "isp_id": "166202",
+            "https_functional": 1,
+            "host": "speedtest.mtb.vodacombusiness.co.za.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.mtb.vodacombusiness.co.za",
+            "ip_address": {
+                "A": "41.0.0.228"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://speedtest.pfr.vodacombusiness.co.za:8080/speedtest/upload.php",
+            "lat": "-33.7139",
+            "lon": "25.5207",
+            "name": "Port Elizabeth",
+            "country": "South Africa",
+            "cc": "ZA",
+            "sponsor": "Vodacom (Pty) Ltd",
+            "id": "11493",
+            "preferred": 0,
+            "isp_id": "166202",
+            "https_functional": 1,
+            "host": "speedtest.pfr.vodacombusiness.co.za.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.pfr.vodacombusiness.co.za",
+            "ip_address": {
+                "A": "41.0.233.81"
+            },
+            "ipv6_capable": "no"
+        }
+    ],
+    "total_servers": 4,
+    "updated_at": "2026-06-25T13:54:51.951967+05:30"
+}

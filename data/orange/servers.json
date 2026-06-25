@@ -1,0 +1,166 @@
+{
+    "servers": [
+        {
+            "url": "http://lille3.d2m.c2d.liveservices.fr:8080/speedtest/upload.php",
+            "lat": "50.6292",
+            "lon": "3.0573",
+            "name": "Lille",
+            "country": "France",
+            "cc": "FR",
+            "sponsor": "ORANGE FRANCE",
+            "id": "61025",
+            "preferred": 0,
+            "isp_id": "48496",
+            "https_functional": 1,
+            "host": "lille3.d2m.c2d.liveservices.fr.prod.hosts.ooklaserver.net:8080",
+            "hostname": "lille3.d2m.c2d.liveservices.fr",
+            "ip_address": {
+                "A": "80.12.44.52",
+                "AAAA": "2a01:cb0c:2004:4003::4"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://lyon3.d2m.c2d.liveservices.fr:8080/speedtest/upload.php",
+            "lat": "45.7669",
+            "lon": "4.8342",
+            "name": "Lyon",
+            "country": "France",
+            "cc": "FR",
+            "sponsor": "ORANGE FRANCE",
+            "id": "58915",
+            "preferred": 0,
+            "isp_id": "48496",
+            "https_functional": 1,
+            "host": "lyon3.d2m.c2d.liveservices.fr:8080",
+            "hostname": "lyon3.d2m.c2d.liveservices.fr",
+            "ip_address": {
+                "A": "80.12.28.20",
+                "AAAA": "2a01:cb14:2004:4003::4"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://marseille3.d2m.c2d.liveservices.fr:8080/speedtest/upload.php",
+            "lat": "43.2964",
+            "lon": "5.3700",
+            "name": "Marseille",
+            "country": "France",
+            "cc": "FR",
+            "sponsor": "ORANGE FRANCE",
+            "id": "61301",
+            "preferred": 0,
+            "isp_id": "48496",
+            "https_functional": 1,
+            "host": "marseille3.d2m.c2d.liveservices.fr.prod.hosts.ooklaserver.net:8080",
+            "hostname": "marseille3.d2m.c2d.liveservices.fr",
+            "ip_address": {
+                "A": "80.12.60.52",
+                "AAAA": "2a01:cb1c:2004:4003::4"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://montsouris3.d2m.c2d.liveservices.fr:8080/speedtest/upload.php",
+            "lat": "48.8742",
+            "lon": "2.3470",
+            "name": "Paris",
+            "country": "France",
+            "cc": "FR",
+            "sponsor": "ORANGE FRANCE",
+            "id": "62493",
+            "preferred": 0,
+            "isp_id": "48496",
+            "https_functional": 1,
+            "host": "montsouris3.d2m.c2d.liveservices.fr.prod.hosts.ooklaserver.net:8080",
+            "hostname": "montsouris3.d2m.c2d.liveservices.fr",
+            "ip_address": {
+                "A": "80.12.36.36",
+                "AAAA": "2a01:cb04:2004:4003::4"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://poitiers3.d2m.c2d.liveservices.fr:8080/speedtest/upload.php",
+            "lat": "46.5802",
+            "lon": "-0.3404",
+            "name": "Poitiers",
+            "country": "France",
+            "cc": "FR",
+            "sponsor": "ORANGE FRANCE",
+            "id": "62028",
+            "preferred": 0,
+            "isp_id": "48496",
+            "https_functional": 1,
+            "host": "poitiers3.d2m.c2d.liveservices.fr.prod.hosts.ooklaserver.net:8080",
+            "hostname": "poitiers3.d2m.c2d.liveservices.fr",
+            "ip_address": {
+                "A": "80.12.56.52",
+                "AAAA": "2a01:cb18:2004:4001::4"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://puteaux3.d2m.c2d.liveservices.fr:8080/speedtest/upload.php",
+            "lat": "48.8847",
+            "lon": "2.2396",
+            "name": "Puteaux",
+            "country": "France",
+            "cc": "FR",
+            "sponsor": "ORANGE FRANCE",
+            "id": "61289",
+            "preferred": 0,
+            "isp_id": "48496",
+            "https_functional": 1,
+            "host": "puteaux3.d2m.c2d.liveservices.fr.prod.hosts.ooklaserver.net:8080",
+            "hostname": "puteaux3.d2m.c2d.liveservices.fr",
+            "ip_address": {
+                "A": "80.12.32.180",
+                "AAAA": "2a01:cb00:2004:4003::4"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://reunion3.speedtest.orange.fr:8080/speedtest/upload.php",
+            "lat": "-20.8907",
+            "lon": "55.4551",
+            "name": "Saint-Denis",
+            "country": "France",
+            "cc": "FR",
+            "sponsor": "ORANGE",
+            "id": "24492",
+            "preferred": 0,
+            "isp_id": "148891",
+            "https_functional": 1,
+            "host": "reunion3.speedtest.orange.fr.prod.hosts.ooklaserver.net:8080",
+            "hostname": "reunion3.speedtest.orange.fr",
+            "ip_address": {
+                "A": "80.12.65.60",
+                "AAAA": "2a01:cb22:2004:4000::3"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://strasbourg3.d2m.c2d.liveservices.fr:8080/speedtest/upload.php",
+            "lat": "48.5734",
+            "lon": "7.7521",
+            "name": "Strasbourg",
+            "country": "France",
+            "cc": "FR",
+            "sponsor": "ORANGE FRANCE",
+            "id": "61300",
+            "preferred": 0,
+            "isp_id": "48496",
+            "https_functional": 1,
+            "host": "strasbourg3.d2m.c2d.liveservices.fr.prod.hosts.ooklaserver.net:8080",
+            "hostname": "strasbourg3.d2m.c2d.liveservices.fr",
+            "ip_address": {
+                "A": "80.12.48.52",
+                "AAAA": "2a01:cb10:2004:4005::4"
+            },
+            "ipv6_capable": "yes"
+        }
+    ],
+    "total_servers": 8,
+    "updated_at": "2026-06-25T13:51:20.412705+05:30"
+}

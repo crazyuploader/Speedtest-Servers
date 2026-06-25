@@ -1,0 +1,233 @@
+{
+    "servers": [
+        {
+            "url": "http://sptkh1.taiwanmobile.com:8080/speedtest/upload.php",
+            "lat": "25.0114",
+            "lon": "121.4618",
+            "name": "Banqiao District",
+            "country": "Taiwan",
+            "cc": "TW",
+            "sponsor": "Taiwan Mobile",
+            "id": "55674",
+            "preferred": 0,
+            "isp_id": "3131",
+            "host": "sptkh1.taiwanmobile.com:8080",
+            "hostname": "sptkh1.taiwanmobile.com",
+            "ip_address": {
+                "A": "60.199.147.49"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://sptch2.taiwanmobile.com:8080/speedtest/upload.php",
+            "lat": "23.9333",
+            "lon": "120.5333",
+            "name": "Changhua",
+            "country": "Taiwan",
+            "cc": "TW",
+            "sponsor": "Taiwan Mobile",
+            "id": "11709",
+            "preferred": 0,
+            "isp_id": "3131",
+            "https_functional": 1,
+            "host": "sptch2.taiwanmobile.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "sptch2.taiwanmobile.com",
+            "ip_address": {
+                "A": "203.105.239.18"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://sptcy2.taiwanmobile.com:8080/speedtest/upload.php",
+            "lat": "23.4801",
+            "lon": "120.4491",
+            "name": "Chiayi",
+            "country": "Taiwan",
+            "cc": "TW",
+            "sponsor": "Taiwan Mobile",
+            "id": "41191",
+            "preferred": 0,
+            "isp_id": "0",
+            "https_functional": 1,
+            "host": "sptcy2.taiwanmobile.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "sptcy2.taiwanmobile.com",
+            "ip_address": {
+                "A": "203.105.224.14"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://sptdad.taiwanmobile.com:8080/speedtest/upload.php",
+            "lat": "25.0249",
+            "lon": "121.5434",
+            "name": "Da'an District",
+            "country": "Taiwan",
+            "cc": "TW",
+            "sponsor": "Taiwan Mobile",
+            "id": "38330",
+            "preferred": 0,
+            "isp_id": "3131",
+            "https_functional": 1,
+            "host": "sptdad.taiwanmobile.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "sptdad.taiwanmobile.com",
+            "ip_address": {
+                "A": "60.199.137.18"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://spthc1.taiwanmobile.com:8080/speedtest/upload.php",
+            "lat": "24.8167",
+            "lon": "120.9833",
+            "name": "Hsinchu",
+            "country": "Taiwan",
+            "cc": "TW",
+            "sponsor": "Taiwan Mobile",
+            "id": "11705",
+            "preferred": 0,
+            "isp_id": "3131",
+            "host": "spthc1.taiwanmobile.com:8080",
+            "hostname": "spthc1.taiwanmobile.com",
+            "ip_address": {
+                "A": "60.199.147.81"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://spthl1.taiwanmobile.com:8080/speedtest/upload.php",
+            "lat": "23.9722",
+            "lon": "121.6064",
+            "name": "Hualien",
+            "country": "Taiwan",
+            "cc": "TW",
+            "sponsor": "Taiwan Mobile",
+            "id": "11708",
+            "preferred": 0,
+            "isp_id": "3131",
+            "https_functional": 1,
+            "host": "spthl1.taiwanmobile.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "spthl1.taiwanmobile.com",
+            "ip_address": {
+                "A": "60.199.137.33"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://sptkh2.taiwanmobile.com:8080/speedtest/upload.php",
+            "lat": "22.6333",
+            "lon": "120.2667",
+            "name": "Kaohsiung",
+            "country": "Taiwan",
+            "cc": "TW",
+            "sponsor": "Taiwan Mobile",
+            "id": "11713",
+            "preferred": 0,
+            "isp_id": "3131",
+            "https_functional": 1,
+            "host": "sptkh2.taiwanmobile.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "sptkh2.taiwanmobile.com",
+            "ip_address": {
+                "A": "203.105.224.22"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://sptdl2.taiwanmobile.com:8080/speedtest/upload.php",
+            "lat": "24.5712",
+            "lon": "120.8154",
+            "name": "Miaoli City",
+            "country": "Taiwan",
+            "cc": "TW",
+            "sponsor": "Taiwan Mobile",
+            "id": "56277",
+            "preferred": 0,
+            "isp_id": "3131",
+            "https_functional": 1,
+            "host": "sptdl2.taiwanmobile.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "sptdl2.taiwanmobile.com",
+            "ip_address": {
+                "A": "203.105.239.22"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://spttc2.taiwanmobile.com:8080/speedtest/upload.php",
+            "lat": "24.1500",
+            "lon": "120.6667",
+            "name": "Taichung",
+            "country": "Taiwan",
+            "cc": "TW",
+            "sponsor": "Taiwan Mobile",
+            "id": "11707",
+            "preferred": 0,
+            "isp_id": "0",
+            "https_functional": 1,
+            "host": "spttc2.taiwanmobile.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "spttc2.taiwanmobile.com",
+            "ip_address": {
+                "A": "203.105.239.14",
+                "AAAA": "2001:4546:1000:8f00::14"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://spttn2.taiwanmobile.com:8080/speedtest/upload.php",
+            "lat": "22.9833",
+            "lon": "120.1833",
+            "name": "Tainan",
+            "country": "Taiwan",
+            "cc": "TW",
+            "sponsor": "Taiwan Mobile",
+            "id": "11711",
+            "preferred": 0,
+            "isp_id": "3131",
+            "https_functional": 1,
+            "host": "spttn2.taiwanmobile.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "spttn2.taiwanmobile.com",
+            "ip_address": {
+                "A": "203.105.224.18"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://spttp1.taiwanmobile.com:8080/speedtest/upload.php",
+            "lat": "25.0333",
+            "lon": "121.5333",
+            "name": "Taipei",
+            "country": "Taiwan",
+            "cc": "TW",
+            "sponsor": "Taiwan Mobile",
+            "id": "11703",
+            "preferred": 0,
+            "isp_id": "3131",
+            "https_functional": 1,
+            "host": "spttp1.taiwanmobile.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "spttp1.taiwanmobile.com",
+            "ip_address": {
+                "A": "60.199.147.177"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://sptty1.taiwanmobile.com:8080/speedtest/upload.php",
+            "lat": "25.0764",
+            "lon": "121.2239",
+            "name": "Taoyuan",
+            "country": "Taiwan",
+            "cc": "TW",
+            "sponsor": "Taiwan Mobile",
+            "id": "11702",
+            "preferred": 0,
+            "isp_id": "3131",
+            "https_functional": 1,
+            "host": "sptty1.taiwanmobile.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "sptty1.taiwanmobile.com",
+            "ip_address": {
+                "A": "60.199.147.65"
+            },
+            "ipv6_capable": "no"
+        }
+    ],
+    "total_servers": 12,
+    "updated_at": "2026-06-25T13:56:59.765033+05:30"
+}

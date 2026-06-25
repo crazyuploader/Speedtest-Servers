@@ -1,0 +1,26 @@
+{
+    "servers": [
+        {
+            "url": "http://speedtestd.kpn.com:8080/speedtest/upload.php",
+            "lat": "52.3114",
+            "lon": "4.8701",
+            "name": "Amstelveen",
+            "country": "Netherlands",
+            "cc": "NL",
+            "sponsor": "KPN B.V.",
+            "id": "61186",
+            "preferred": 0,
+            "isp_id": "94681",
+            "https_functional": 1,
+            "host": "speedtestd.kpn.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtestd.kpn.com",
+            "ip_address": {
+                "A": "195.121.100.172",
+                "AAAA": "2a02:a47f:e003:0:ffff:ffff:ffff:fe46"
+            },
+            "ipv6_capable": "yes"
+        }
+    ],
+    "total_servers": 1,
+    "updated_at": "2026-06-25T13:58:24.023532+05:30"
+}

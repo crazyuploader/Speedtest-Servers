@@ -1,0 +1,105 @@
+{
+    "servers": [
+        {
+            "url": "http://test.speedtest.net.zon.pt:8080/speedtest/upload.php",
+            "lat": "38.7238",
+            "lon": "-9.2370",
+            "name": "Carnaxide",
+            "country": "Portugal",
+            "cc": "PT",
+            "sponsor": "NOS",
+            "id": "18090",
+            "preferred": 0,
+            "isp_id": "105421",
+            "https_functional": 1,
+            "host": "test.speedtest.net.zon.pt.prod.hosts.ooklaserver.net:8080",
+            "hostname": "test.speedtest.net.zon.pt",
+            "ip_address": {
+                "A": "194.79.69.117",
+                "AAAA": "2a01:8:10:29c:16::b"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest.nosmadeira.com:8080/speedtest/upload.php",
+            "lat": "32.6500",
+            "lon": "-16.9167",
+            "name": "Funchal",
+            "country": "Portugal",
+            "cc": "PT",
+            "sponsor": "NOS Madeira Comunicações SA",
+            "id": "5874",
+            "preferred": 0,
+            "isp_id": "105421",
+            "https_functional": 1,
+            "host": "speedtest.nosmadeira.com:8080",
+            "hostname": "speedtest.nosmadeira.com",
+            "ip_address": {
+                "A": "213.190.194.242",
+                "AAAA": "2a00:d180:8004::226"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://lisboa.speedtest.net.zon.pt:8080/speedtest/upload.php",
+            "lat": "38.7000",
+            "lon": "-9.1833",
+            "name": "Lisboa",
+            "country": "Portugal",
+            "cc": "PT",
+            "sponsor": "NOS",
+            "id": "1249",
+            "preferred": 0,
+            "isp_id": "105421",
+            "https_functional": 1,
+            "host": "lisboa.speedtest.net.zon.pt.prod.hosts.ooklaserver.net:8080",
+            "hostname": "lisboa.speedtest.net.zon.pt",
+            "ip_address": {
+                "A": "95.95.252.87",
+                "AAAA": "2a01:8:8020:1d::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://smiguel.speedtest.nos-acores.pt:8080/speedtest/upload.php",
+            "lat": "37.7394",
+            "lon": "-25.6687",
+            "name": "Ponta Delgada",
+            "country": "Portugal",
+            "cc": "PT",
+            "sponsor": "NOS",
+            "id": "38554",
+            "preferred": 0,
+            "isp_id": "105421",
+            "https_functional": 1,
+            "host": "smiguel.speedtest.nos-acores.pt.prod.hosts.ooklaserver.net:8080",
+            "hostname": "smiguel.speedtest.nos-acores.pt",
+            "ip_address": {
+                "A": "81.20.240.230"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://porto.speedtest.net.zon.pt:8080/speedtest/upload.php",
+            "lat": "41.1497",
+            "lon": "-8.6100",
+            "name": "Porto",
+            "country": "Portugal",
+            "cc": "PT",
+            "sponsor": "NOS",
+            "id": "10363",
+            "preferred": 0,
+            "isp_id": "105421",
+            "https_functional": 1,
+            "host": "porto.speedtest.net.zon.pt.prod.hosts.ooklaserver.net:8080",
+            "hostname": "porto.speedtest.net.zon.pt",
+            "ip_address": {
+                "A": "95.95.252.95",
+                "AAAA": "2a01:8:8020:1e::2"
+            },
+            "ipv6_capable": "yes"
+        }
+    ],
+    "total_servers": 5,
+    "updated_at": "2026-06-25T13:58:42.477922+05:30"
+}

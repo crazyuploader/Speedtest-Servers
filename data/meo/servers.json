@@ -1,0 +1,165 @@
+{
+    "servers": [
+        {
+            "url": "http://speedtest-coi1.meo.pt:8080/speedtest/upload.php",
+            "lat": "40.2033",
+            "lon": "-8.4103",
+            "name": "Coimbra",
+            "country": "Portugal",
+            "cc": "PT",
+            "sponsor": "MEO",
+            "id": "73843",
+            "preferred": 0,
+            "isp_id": "104037",
+            "https_functional": 1,
+            "host": "speedtest-coi1.meo.pt:8080",
+            "hostname": "speedtest-coi1.meo.pt",
+            "ip_address": {
+                "A": "213.13.128.153",
+                "AAAA": "2001:8a0:210b:34:213:13:128:153"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest-lab.meo.pt:8080/speedtest/upload.php",
+            "lat": "38.6400",
+            "lon": "-9.1502",
+            "name": "Corroios",
+            "country": "Portugal",
+            "cc": "PT",
+            "sponsor": "MEO LAB",
+            "id": "30843",
+            "preferred": 0,
+            "isp_id": "104037",
+            "https_functional": 1,
+            "host": "speedtest-lab.meo.pt:8080",
+            "hostname": "speedtest-lab.meo.pt",
+            "ip_address": {
+                "A": "194.65.162.126",
+                "AAAA": "2001:8a0:0:1004::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest-fx1.meo.pt:8080/speedtest/upload.php",
+            "lat": "32.6500",
+            "lon": "-16.9167",
+            "name": "Funchal",
+            "country": "Portugal",
+            "cc": "PT",
+            "sponsor": "MEO",
+            "id": "31551",
+            "preferred": 0,
+            "isp_id": "104037",
+            "https_functional": 1,
+            "host": "speedtest-fx1.meo.pt:8080",
+            "hostname": "speedtest-fx1.meo.pt",
+            "ip_address": {
+                "A": "212.55.137.237",
+                "AAAA": "2001:8a0:210b:5:212:55:137:237"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest-ga1.meo.pt:8080/speedtest/upload.php",
+            "lat": "41.1239",
+            "lon": "-8.6118",
+            "name": "Gaia",
+            "country": "Portugal",
+            "cc": "PT",
+            "sponsor": "MEO",
+            "id": "30945",
+            "preferred": 0,
+            "isp_id": "104037",
+            "https_functional": 1,
+            "host": "speedtest-ga1.meo.pt:8080",
+            "hostname": "speedtest-ga1.meo.pt",
+            "ip_address": {
+                "A": "212.55.137.229",
+                "AAAA": "2001:8a0:210b:3:212:55:137:229"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest-pcs1.meo.pt:8080/speedtest/upload.php",
+            "lat": "38.7000",
+            "lon": "-9.1833",
+            "name": "Lisboa",
+            "country": "Portugal",
+            "cc": "PT",
+            "sponsor": "MEO",
+            "id": "31309",
+            "preferred": 0,
+            "isp_id": "104037",
+            "https_functional": 1,
+            "host": "speedtest-pcs1.meo.pt:8080",
+            "hostname": "speedtest-pcs1.meo.pt",
+            "ip_address": {
+                "A": "212.55.137.225",
+                "AAAA": "2001:8a0:210b:2:212:55:137:225"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest3-lab.meo.pt:8080/speedtest/upload.php",
+            "lat": "38.7136",
+            "lon": "-9.2675",
+            "name": "Oeiras",
+            "country": "Portugal",
+            "cc": "PT",
+            "sponsor": "MEO LAB",
+            "id": "69521",
+            "preferred": 0,
+            "isp_id": "104037",
+            "host": "speedtest3-lab.meo.pt:8080",
+            "hostname": "speedtest3-lab.meo.pt",
+            "ip_address": {
+                "A": "194.65.162.122",
+                "AAAA": "2001:8a0:0:1003::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest-pd1.meo.pt:8080/speedtest/upload.php",
+            "lat": "37.7394",
+            "lon": "-25.6687",
+            "name": "Ponta Delgada",
+            "country": "Portugal",
+            "cc": "PT",
+            "sponsor": "MEO",
+            "id": "31543",
+            "preferred": 0,
+            "isp_id": "104037",
+            "https_functional": 1,
+            "host": "speedtest-pd1.meo.pt:8080",
+            "hostname": "speedtest-pd1.meo.pt",
+            "ip_address": {
+                "A": "212.55.137.233",
+                "AAAA": "2001:8a0:210b:4:212:55:137:233"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest-ptm1.meo.pt:8080/speedtest/upload.php",
+            "lat": "37.1362",
+            "lon": "-8.5377",
+            "name": "Portimão",
+            "country": "Portugal",
+            "cc": "PT",
+            "sponsor": "MEO",
+            "id": "73995",
+            "preferred": 0,
+            "isp_id": "104037",
+            "https_functional": 1,
+            "host": "speedtest-ptm1.meo.pt:8080",
+            "hostname": "speedtest-ptm1.meo.pt",
+            "ip_address": {
+                "A": "213.13.128.157",
+                "AAAA": "2001:8a0:210b:35:213:13:128:157"
+            },
+            "ipv6_capable": "yes"
+        }
+    ],
+    "total_servers": 8,
+    "updated_at": "2026-06-25T13:58:33.723278+05:30"
+}

@@ -1,0 +1,44 @@
+{
+    "servers": [
+        {
+            "url": "http://speedtestbog01.claro.net.co:8080/speedtest/upload.php",
+            "lat": "4.5981",
+            "lon": "-74.0758",
+            "name": "Bogotá",
+            "country": "Colombia",
+            "cc": "CO",
+            "sponsor": "Claro Colombia",
+            "id": "44095",
+            "preferred": 0,
+            "isp_id": "3932",
+            "https_functional": 1,
+            "host": "speedtestbog01.claro.net.co.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtestbog01.claro.net.co",
+            "ip_address": {
+                "A": "181.48.254.78"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://speedtestmed01.claro.net.co:8080/speedtest/upload.php",
+            "lat": "6.2459",
+            "lon": "-75.5746",
+            "name": "Medellín",
+            "country": "Colombia",
+            "cc": "CO",
+            "sponsor": "Claro Colombia",
+            "id": "44096",
+            "preferred": 0,
+            "isp_id": "3932",
+            "https_functional": 1,
+            "host": "speedtestmed01.claro.net.co.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtestmed01.claro.net.co",
+            "ip_address": {
+                "A": "181.48.254.74"
+            },
+            "ipv6_capable": "no"
+        }
+    ],
+    "total_servers": 2,
+    "updated_at": "2026-06-25T13:58:12.593859+05:30"
+}
