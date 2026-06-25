@@ -1,82 +1,82 @@
 {
-    "servers": [
-        {
-            "url": "http://speedtest2unn.brunet.bn:8080/speedtest/upload.php",
-            "lat": "4.8902",
-            "lon": "114.9422",
-            "name": "Bandar Seri Begawan",
-            "country": "Brunei",
-            "cc": "BN",
-            "sponsor": "Unified National Networks (UNN) Sdn Bhd",
-            "id": "36858",
-            "preferred": 0,
-            "isp_id": "216845",
-            "https_functional": 1,
-            "host": "speedtest2unn.brunet.bn.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest2unn.brunet.bn",
-            "ip_address": {
-                "A": "202.160.29.222"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest4unn.brunet.bn:8080/speedtest/upload.php",
-            "lat": "4.7127",
-            "lon": "115.0763",
-            "name": "Bangar",
-            "country": "Brunei",
-            "cc": "BN",
-            "sponsor": "Unified National Networks (UNN) Sdn Bhd",
-            "id": "36856",
-            "preferred": 0,
-            "isp_id": "216845",
-            "https_functional": 1,
-            "host": "speedtest4unn.brunet.bn.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest4unn.brunet.bn",
-            "ip_address": {
-                "A": "202.160.27.38"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest1unn.brunet.bn:8080/speedtest/upload.php",
-            "lat": "4.5832",
-            "lon": "114.2212",
-            "name": "Kuala Belait",
-            "country": "Brunei",
-            "cc": "BN",
-            "sponsor": "Unified National Networks (UNN) Sdn Bhd",
-            "id": "36855",
-            "preferred": 0,
-            "isp_id": "216845",
-            "https_functional": 1,
-            "host": "speedtest1unn.brunet.bn.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest1unn.brunet.bn",
-            "ip_address": {
-                "A": "202.160.29.218"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest3unn.brunet.bn:8080/speedtest/upload.php",
-            "lat": "4.8141",
-            "lon": "114.6609",
-            "name": "Tutong",
-            "country": "Brunei",
-            "cc": "BN",
-            "sponsor": "Unified National Networks (UNN) Sdn Bhd",
-            "id": "36857",
-            "preferred": 0,
-            "isp_id": "216845",
-            "https_functional": 1,
-            "host": "speedtest3unn.brunet.bn.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest3unn.brunet.bn",
-            "ip_address": {
-                "A": "202.160.27.34"
-            },
-            "ipv6_capable": "no"
-        }
-    ],
-    "total_servers": 4,
-    "updated_at": "2026-06-25T14:02:17.769965+05:30"
+  "servers": [
+    {
+      "url": "http://speedtest2unn.brunet.bn:8080/speedtest/upload.php",
+      "lat": "4.8902",
+      "lon": "114.9422",
+      "name": "Bandar Seri Begawan",
+      "country": "Brunei",
+      "cc": "BN",
+      "sponsor": "Unified National Networks (UNN) Sdn Bhd",
+      "id": "36858",
+      "preferred": 0,
+      "isp_id": "216845",
+      "https_functional": 1,
+      "host": "speedtest2unn.brunet.bn.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest2unn.brunet.bn",
+      "ip_address": {
+        "A": "202.160.29.222"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest4unn.brunet.bn:8080/speedtest/upload.php",
+      "lat": "4.7127",
+      "lon": "115.0763",
+      "name": "Bangar",
+      "country": "Brunei",
+      "cc": "BN",
+      "sponsor": "Unified National Networks (UNN) Sdn Bhd",
+      "id": "36856",
+      "preferred": 0,
+      "isp_id": "216845",
+      "https_functional": 1,
+      "host": "speedtest4unn.brunet.bn.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest4unn.brunet.bn",
+      "ip_address": {
+        "A": "202.160.27.38"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest1unn.brunet.bn:8080/speedtest/upload.php",
+      "lat": "4.5832",
+      "lon": "114.2212",
+      "name": "Kuala Belait",
+      "country": "Brunei",
+      "cc": "BN",
+      "sponsor": "Unified National Networks (UNN) Sdn Bhd",
+      "id": "36855",
+      "preferred": 0,
+      "isp_id": "216845",
+      "https_functional": 1,
+      "host": "speedtest1unn.brunet.bn.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest1unn.brunet.bn",
+      "ip_address": {
+        "A": "202.160.29.218"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest3unn.brunet.bn:8080/speedtest/upload.php",
+      "lat": "4.8141",
+      "lon": "114.6609",
+      "name": "Tutong",
+      "country": "Brunei",
+      "cc": "BN",
+      "sponsor": "Unified National Networks (UNN) Sdn Bhd",
+      "id": "36857",
+      "preferred": 0,
+      "isp_id": "216845",
+      "https_functional": 1,
+      "host": "speedtest3unn.brunet.bn.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest3unn.brunet.bn",
+      "ip_address": {
+        "A": "202.160.27.34"
+      },
+      "ipv6_capable": "no"
+    }
+  ],
+  "total_servers": 4,
+  "updated_at": "2026-06-25T14:02:17.769965+05:30"
 }

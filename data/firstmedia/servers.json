@@ -1,63 +1,63 @@
 {
-    "servers": [
-        {
-            "url": "http://bdg-speedtest.link.net.id:8080/speedtest/upload.php",
-            "lat": "-6.9167",
-            "lon": "107.6000",
-            "name": "Bandung",
-            "country": "Indonesia",
-            "cc": "ID",
-            "sponsor": "Firstmedia",
-            "id": "5318",
-            "preferred": 0,
-            "isp_id": "38778",
-            "https_functional": 1,
-            "host": "bdg-speedtest.link.net.id.prod.hosts.ooklaserver.net:8080",
-            "hostname": "bdg-speedtest.link.net.id",
-            "ip_address": {
-                "A": "202.73.97.6"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://jkt-speedtest.fast.net.id:8080/speedtest/upload.php",
-            "lat": "-6.1745",
-            "lon": "106.8227",
-            "name": "Jakarta",
-            "country": "Indonesia",
-            "cc": "ID",
-            "sponsor": "Firstmedia",
-            "id": "6612",
-            "preferred": 0,
-            "isp_id": "38778",
-            "https_functional": 1,
-            "host": "jkt-speedtest.fast.net.id.prod.hosts.ooklaserver.net:8080",
-            "hostname": "jkt-speedtest.fast.net.id",
-            "ip_address": {
-                "A": "202.73.96.230"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://sby-speedtest.fast.net.id:8080/speedtest/upload.php",
-            "lat": "-7.2667",
-            "lon": "112.7333",
-            "name": "Surabaya",
-            "country": "Indonesia",
-            "cc": "ID",
-            "sponsor": "Firstmedia",
-            "id": "73203",
-            "preferred": 0,
-            "isp_id": "38778",
-            "https_functional": 1,
-            "host": "sby-speedtest.fast.net.id.prod.hosts.ooklaserver.net:8080",
-            "hostname": "sby-speedtest.fast.net.id",
-            "ip_address": {
-                "A": "140.0.223.86"
-            },
-            "ipv6_capable": "no"
-        }
-    ],
-    "total_servers": 3,
-    "updated_at": "2026-06-25T14:03:06.904870+05:30"
+  "servers": [
+    {
+      "url": "http://bdg-speedtest.link.net.id:8080/speedtest/upload.php",
+      "lat": "-6.9167",
+      "lon": "107.6000",
+      "name": "Bandung",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Firstmedia",
+      "id": "5318",
+      "preferred": 0,
+      "isp_id": "38778",
+      "https_functional": 1,
+      "host": "bdg-speedtest.link.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "bdg-speedtest.link.net.id",
+      "ip_address": {
+        "A": "202.73.97.6"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://jkt-speedtest.fast.net.id:8080/speedtest/upload.php",
+      "lat": "-6.1745",
+      "lon": "106.8227",
+      "name": "Jakarta",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Firstmedia",
+      "id": "6612",
+      "preferred": 0,
+      "isp_id": "38778",
+      "https_functional": 1,
+      "host": "jkt-speedtest.fast.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "jkt-speedtest.fast.net.id",
+      "ip_address": {
+        "A": "202.73.96.230"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://sby-speedtest.fast.net.id:8080/speedtest/upload.php",
+      "lat": "-7.2667",
+      "lon": "112.7333",
+      "name": "Surabaya",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Firstmedia",
+      "id": "73203",
+      "preferred": 0,
+      "isp_id": "38778",
+      "https_functional": 1,
+      "host": "sby-speedtest.fast.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "sby-speedtest.fast.net.id",
+      "ip_address": {
+        "A": "140.0.223.86"
+      },
+      "ipv6_capable": "no"
+    }
+  ],
+  "total_servers": 3,
+  "updated_at": "2026-06-25T14:03:06.904870+05:30"
 }

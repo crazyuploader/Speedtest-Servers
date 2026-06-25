@@ -1,46 +1,46 @@
 {
-    "servers": [
-        {
-            "url": "http://hnispeedtest.cmctelecom.vn:8080/speedtest/upload.php",
-            "lat": "21.0285",
-            "lon": "105.8542",
-            "name": "Ha Noi",
-            "country": "Vietnam",
-            "cc": "VN",
-            "sponsor": "CMC Telecom",
-            "id": "6342",
-            "preferred": 0,
-            "isp_id": "46039",
-            "https_functional": 1,
-            "host": "hnispeedtest.cmctelecom.vn.prod.hosts.ooklaserver.net:8080",
-            "hostname": "hnispeedtest.cmctelecom.vn",
-            "ip_address": {
-                "A": "101.99.5.8",
-                "AAAA": "2402:5300:0:2::cd3"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://hcmspeedtest.cmctelecom.vn:8080/speedtest/upload.php",
-            "lat": "10.7500",
-            "lon": "106.6667",
-            "name": "Ho Chi Minh",
-            "country": "Vietnam",
-            "cc": "VN",
-            "sponsor": "CMC Telecom",
-            "id": "18250",
-            "preferred": 0,
-            "isp_id": "46039",
-            "https_functional": 1,
-            "host": "hcmspeedtest.cmctelecom.vn.prod.hosts.ooklaserver.net:8080",
-            "hostname": "hcmspeedtest.cmctelecom.vn",
-            "ip_address": {
-                "A": "101.99.59.5",
-                "AAAA": "2402:5300:4022:0:4b4:d4ff:fe00:4406"
-            },
-            "ipv6_capable": "yes"
-        }
-    ],
-    "total_servers": 2,
-    "updated_at": "2026-06-25T14:14:03.624848+05:30"
+  "servers": [
+    {
+      "url": "http://hnispeedtest.cmctelecom.vn:8080/speedtest/upload.php",
+      "lat": "21.0285",
+      "lon": "105.8542",
+      "name": "Ha Noi",
+      "country": "Vietnam",
+      "cc": "VN",
+      "sponsor": "CMC Telecom",
+      "id": "6342",
+      "preferred": 0,
+      "isp_id": "46039",
+      "https_functional": 1,
+      "host": "hnispeedtest.cmctelecom.vn.prod.hosts.ooklaserver.net:8080",
+      "hostname": "hnispeedtest.cmctelecom.vn",
+      "ip_address": {
+        "A": "101.99.5.8",
+        "AAAA": "2402:5300:0:2::cd3"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://hcmspeedtest.cmctelecom.vn:8080/speedtest/upload.php",
+      "lat": "10.7500",
+      "lon": "106.6667",
+      "name": "Ho Chi Minh",
+      "country": "Vietnam",
+      "cc": "VN",
+      "sponsor": "CMC Telecom",
+      "id": "18250",
+      "preferred": 0,
+      "isp_id": "46039",
+      "https_functional": 1,
+      "host": "hcmspeedtest.cmctelecom.vn.prod.hosts.ooklaserver.net:8080",
+      "hostname": "hcmspeedtest.cmctelecom.vn",
+      "ip_address": {
+        "A": "101.99.59.5",
+        "AAAA": "2402:5300:4022:0:4b4:d4ff:fe00:4406"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 2,
+  "updated_at": "2026-06-25T14:14:03.624848+05:30"
 }

@@ -1,25 +1,25 @@
 {
-    "servers": [
-        {
-            "url": "http://speedtest.yes.com.kh:8080/speedtest/upload.php",
-            "lat": "11.5500",
-            "lon": "104.9167",
-            "name": "Phnom Penh",
-            "country": "Cambodia",
-            "cc": "KH",
-            "sponsor": "Yes SEATEL",
-            "id": "30034",
-            "preferred": 0,
-            "isp_id": "218787",
-            "https_functional": 1,
-            "host": "speedtest.yes.com.kh:8080",
-            "hostname": "speedtest.yes.com.kh",
-            "ip_address": {
-                "A": "103.242.59.42"
-            },
-            "ipv6_capable": "no"
-        }
-    ],
-    "total_servers": 1,
-    "updated_at": "2026-06-25T14:08:05.004001+05:30"
+  "servers": [
+    {
+      "url": "http://speedtest.yes.com.kh:8080/speedtest/upload.php",
+      "lat": "11.5500",
+      "lon": "104.9167",
+      "name": "Phnom Penh",
+      "country": "Cambodia",
+      "cc": "KH",
+      "sponsor": "Yes SEATEL",
+      "id": "30034",
+      "preferred": 0,
+      "isp_id": "218787",
+      "https_functional": 1,
+      "host": "speedtest.yes.com.kh:8080",
+      "hostname": "speedtest.yes.com.kh",
+      "ip_address": {
+        "A": "103.242.59.42"
+      },
+      "ipv6_capable": "no"
+    }
+  ],
+  "total_servers": 1,
+  "updated_at": "2026-06-25T14:08:05.004001+05:30"
 }

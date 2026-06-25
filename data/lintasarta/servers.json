@@ -1,66 +1,66 @@
 {
-    "servers": [
-        {
-            "url": "http://speedtest-bdg.idola.net.id:8080/speedtest/upload.php",
-            "lat": "-6.9167",
-            "lon": "107.6000",
-            "name": "Bandung",
-            "country": "Indonesia",
-            "cc": "ID",
-            "sponsor": "PT. Aplikanusa Lintasarta",
-            "id": "31383",
-            "preferred": 0,
-            "isp_id": "62179",
-            "https_functional": 1,
-            "host": "speedtest-bdg.idola.net.id:8080",
-            "hostname": "speedtest-bdg.idola.net.id",
-            "ip_address": {
-                "A": "182.23.98.34",
-                "AAAA": "2400:8000:1:802::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "https://speedtest.idola.net.id:8080/speedtest/upload.php",
-            "lat": "-6.1751",
-            "lon": "106.8650",
-            "name": "Jakarta",
-            "country": "Indonesia",
-            "cc": "ID",
-            "sponsor": "PT. Aplikanusa Lintasarta",
-            "id": "14890",
-            "preferred": 0,
-            "isp_id": "62179",
-            "https_functional": 1,
-            "host": "speedtest.idola.net.id:8080",
-            "hostname": "speedtest.idola.net.id",
-            "ip_address": {
-                "A": "202.152.0.114",
-                "AAAA": "2400:8000:1:504::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest-ygy.idola.net.id:8080/speedtest/upload.php",
-            "lat": "-7.8014",
-            "lon": "110.3644",
-            "name": "Yogyakarta",
-            "country": "Indonesia",
-            "cc": "ID",
-            "sponsor": "PT. Aplikanusa Lintasarta",
-            "id": "42723",
-            "preferred": 0,
-            "isp_id": "62179",
-            "https_functional": 1,
-            "host": "speedtest-ygy.idola.net.id:8080",
-            "hostname": "speedtest-ygy.idola.net.id",
-            "ip_address": {
-                "A": "36.37.89.74",
-                "AAAA": "2400:8000:1:1000::2"
-            },
-            "ipv6_capable": "yes"
-        }
-    ],
-    "total_servers": 3,
-    "updated_at": "2026-06-25T14:13:37.510238+05:30"
+  "servers": [
+    {
+      "url": "http://speedtest-bdg.idola.net.id:8080/speedtest/upload.php",
+      "lat": "-6.9167",
+      "lon": "107.6000",
+      "name": "Bandung",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "PT. Aplikanusa Lintasarta",
+      "id": "31383",
+      "preferred": 0,
+      "isp_id": "62179",
+      "https_functional": 1,
+      "host": "speedtest-bdg.idola.net.id:8080",
+      "hostname": "speedtest-bdg.idola.net.id",
+      "ip_address": {
+        "A": "182.23.98.34",
+        "AAAA": "2400:8000:1:802::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "https://speedtest.idola.net.id:8080/speedtest/upload.php",
+      "lat": "-6.1751",
+      "lon": "106.8650",
+      "name": "Jakarta",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "PT. Aplikanusa Lintasarta",
+      "id": "14890",
+      "preferred": 0,
+      "isp_id": "62179",
+      "https_functional": 1,
+      "host": "speedtest.idola.net.id:8080",
+      "hostname": "speedtest.idola.net.id",
+      "ip_address": {
+        "A": "202.152.0.114",
+        "AAAA": "2400:8000:1:504::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-ygy.idola.net.id:8080/speedtest/upload.php",
+      "lat": "-7.8014",
+      "lon": "110.3644",
+      "name": "Yogyakarta",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "PT. Aplikanusa Lintasarta",
+      "id": "42723",
+      "preferred": 0,
+      "isp_id": "62179",
+      "https_functional": 1,
+      "host": "speedtest-ygy.idola.net.id:8080",
+      "hostname": "speedtest-ygy.idola.net.id",
+      "ip_address": {
+        "A": "36.37.89.74",
+        "AAAA": "2400:8000:1:1000::2"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 3,
+  "updated_at": "2026-06-25T14:13:37.510238+05:30"
 }

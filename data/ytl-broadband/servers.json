@@ -1,26 +1,26 @@
 {
-    "servers": [
-        {
-            "url": "http://speedtest.ytlbroadband.my:8080/speedtest/upload.php",
-            "lat": "3.1357",
-            "lon": "101.6880",
-            "name": "Kuala Lumpur",
-            "country": "Malaysia",
-            "cc": "MY",
-            "sponsor": "YTL Broadband",
-            "id": "8700",
-            "preferred": 0,
-            "isp_id": "159037",
-            "https_functional": 1,
-            "host": "speedtest.ytlbroadband.my.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest.ytlbroadband.my",
-            "ip_address": {
-                "A": "183.78.2.99",
-                "AAAA": "2402:b400:1002:7::b"
-            },
-            "ipv6_capable": "yes"
-        }
-    ],
-    "total_servers": 1,
-    "updated_at": "2026-06-25T14:03:24.373611+05:30"
+  "servers": [
+    {
+      "url": "http://speedtest.ytlbroadband.my:8080/speedtest/upload.php",
+      "lat": "3.1357",
+      "lon": "101.6880",
+      "name": "Kuala Lumpur",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "YTL Broadband",
+      "id": "8700",
+      "preferred": 0,
+      "isp_id": "159037",
+      "https_functional": 1,
+      "host": "speedtest.ytlbroadband.my.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.ytlbroadband.my",
+      "ip_address": {
+        "A": "183.78.2.99",
+        "AAAA": "2402:b400:1002:7::b"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 1,
+  "updated_at": "2026-06-25T14:03:24.373611+05:30"
 }

@@ -1,106 +1,106 @@
 {
-    "servers": [
-        {
-            "url": "http://speedtestjhr.u.net.my:8080/speedtest/upload.php",
-            "lat": "1.4927",
-            "lon": "103.7414",
-            "name": "Johor Bahru",
-            "country": "Malaysia",
-            "cc": "MY",
-            "sponsor": "U Mobile Sdn Bhd",
-            "id": "56684",
-            "preferred": 0,
-            "isp_id": "30689",
-            "https_functional": 1,
-            "host": "speedtestjhr.u.net.my:8080",
-            "hostname": "speedtestjhr.u.net.my",
-            "ip_address": {
-                "A": "123.136.113.149",
-                "AAAA": "2405:3800:8001:12::149"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtestkpg.u.net.my:8080/speedtest/upload.php",
-            "lat": "3.2140",
-            "lon": "101.6356",
-            "name": "Kepong",
-            "country": "Malaysia",
-            "cc": "MY",
-            "sponsor": "U Mobile Sdn Bhd",
-            "id": "44364",
-            "preferred": 0,
-            "isp_id": "30689",
-            "https_functional": 1,
-            "host": "speedtestkpg.u.net.my:8080",
-            "hostname": "speedtestkpg.u.net.my",
-            "ip_address": {
-                "A": "123.136.113.148",
-                "AAAA": "2405:3800:8001:12::148"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtestkul.u.net.my:8080/speedtest/upload.php",
-            "lat": "3.1357",
-            "lon": "101.6880",
-            "name": "Kuala Lumpur",
-            "country": "Malaysia",
-            "cc": "MY",
-            "sponsor": "U Mobile Sdn Bhd",
-            "id": "45610",
-            "preferred": 0,
-            "isp_id": "30689",
-            "https_functional": 1,
-            "host": "speedtestkul.u.net.my:8080",
-            "hostname": "speedtestkul.u.net.my",
-            "ip_address": {
-                "A": "123.136.100.149",
-                "AAAA": "2405:3800:1001:12::149"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtestkch.u.net.my:8080/speedtest/upload.php",
-            "lat": "1.5600",
-            "lon": "110.3450",
-            "name": "Kuching",
-            "country": "Malaysia",
-            "cc": "MY",
-            "sponsor": "U Mobile Sdn Bhd",
-            "id": "58879",
-            "preferred": 0,
-            "isp_id": "30689",
-            "https_functional": 1,
-            "host": "speedtestkch.u.net.my:8080",
-            "hostname": "speedtestkch.u.net.my",
-            "ip_address": {
-                "A": "123.136.100.151",
-                "AAAA": "2405:3800:1001:12::151"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtestpng.u.net.my:8080/speedtest/upload.php",
-            "lat": "5.4141",
-            "lon": "100.3288",
-            "name": "Penang",
-            "country": "Malaysia",
-            "cc": "MY",
-            "sponsor": "U Mobile Sdn Bhd",
-            "id": "56172",
-            "preferred": 0,
-            "isp_id": "30689",
-            "https_functional": 1,
-            "host": "speedtestpng.u.net.my:8080",
-            "hostname": "speedtestpng.u.net.my",
-            "ip_address": {
-                "A": "123.136.100.150",
-                "AAAA": "2405:3800:1001:12::150"
-            },
-            "ipv6_capable": "yes"
-        }
-    ],
-    "total_servers": 5,
-    "updated_at": "2026-06-25T14:03:17.745097+05:30"
+  "servers": [
+    {
+      "url": "http://speedtestjhr.u.net.my:8080/speedtest/upload.php",
+      "lat": "1.4927",
+      "lon": "103.7414",
+      "name": "Johor Bahru",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "U Mobile Sdn Bhd",
+      "id": "56684",
+      "preferred": 0,
+      "isp_id": "30689",
+      "https_functional": 1,
+      "host": "speedtestjhr.u.net.my:8080",
+      "hostname": "speedtestjhr.u.net.my",
+      "ip_address": {
+        "A": "123.136.113.149",
+        "AAAA": "2405:3800:8001:12::149"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestkpg.u.net.my:8080/speedtest/upload.php",
+      "lat": "3.2140",
+      "lon": "101.6356",
+      "name": "Kepong",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "U Mobile Sdn Bhd",
+      "id": "44364",
+      "preferred": 0,
+      "isp_id": "30689",
+      "https_functional": 1,
+      "host": "speedtestkpg.u.net.my:8080",
+      "hostname": "speedtestkpg.u.net.my",
+      "ip_address": {
+        "A": "123.136.113.148",
+        "AAAA": "2405:3800:8001:12::148"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestkul.u.net.my:8080/speedtest/upload.php",
+      "lat": "3.1357",
+      "lon": "101.6880",
+      "name": "Kuala Lumpur",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "U Mobile Sdn Bhd",
+      "id": "45610",
+      "preferred": 0,
+      "isp_id": "30689",
+      "https_functional": 1,
+      "host": "speedtestkul.u.net.my:8080",
+      "hostname": "speedtestkul.u.net.my",
+      "ip_address": {
+        "A": "123.136.100.149",
+        "AAAA": "2405:3800:1001:12::149"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestkch.u.net.my:8080/speedtest/upload.php",
+      "lat": "1.5600",
+      "lon": "110.3450",
+      "name": "Kuching",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "U Mobile Sdn Bhd",
+      "id": "58879",
+      "preferred": 0,
+      "isp_id": "30689",
+      "https_functional": 1,
+      "host": "speedtestkch.u.net.my:8080",
+      "hostname": "speedtestkch.u.net.my",
+      "ip_address": {
+        "A": "123.136.100.151",
+        "AAAA": "2405:3800:1001:12::151"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestpng.u.net.my:8080/speedtest/upload.php",
+      "lat": "5.4141",
+      "lon": "100.3288",
+      "name": "Penang",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "U Mobile Sdn Bhd",
+      "id": "56172",
+      "preferred": 0,
+      "isp_id": "30689",
+      "https_functional": 1,
+      "host": "speedtestpng.u.net.my:8080",
+      "hostname": "speedtestpng.u.net.my",
+      "ip_address": {
+        "A": "123.136.100.150",
+        "AAAA": "2405:3800:1001:12::150"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 5,
+  "updated_at": "2026-06-25T14:03:17.745097+05:30"
 }

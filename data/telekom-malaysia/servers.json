@@ -1,103 +1,103 @@
 {
-    "servers": [
-        {
-            "url": "http://speedtest-brf.tm.com.my:8080/speedtest/upload.php",
-            "lat": "3.1292",
-            "lon": "101.6861",
-            "name": "Brickfields",
-            "country": "Malaysia",
-            "cc": "MY",
-            "sponsor": "Telekom Malaysia Berhad",
-            "id": "64137",
-            "preferred": 0,
-            "isp_id": "99511",
-            "https_functional": 1,
-            "host": "speedtest-brf.tm.com.my.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest-brf.tm.com.my",
-            "ip_address": {
-                "A": "1.9.241.2",
-                "AAAA": "2001:e68::a:3cfe"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest-jb.tm.com.my:8080/speedtest/upload.php",
-            "lat": "1.4927",
-            "lon": "103.7414",
-            "name": "Johor Bahru",
-            "country": "Malaysia",
-            "cc": "MY",
-            "sponsor": "Telekom Malaysia Berhad",
-            "id": "18031",
-            "preferred": 0,
-            "isp_id": "99511",
-            "https_functional": 1,
-            "host": "speedtest-jb.tm.com.my.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest-jb.tm.com.my",
-            "ip_address": {
-                "A": "1.9.21.250",
-                "AAAA": "2001:e68::a:3d02"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest-bat.tm.com.my:8080/speedtest/upload.php",
-            "lat": "3.1390",
-            "lon": "101.6869",
-            "name": "Kuala Lumpur",
-            "country": "Malaysia",
-            "cc": "MY",
-            "sponsor": "Telekom Malaysia Berhad",
-            "id": "19302",
-            "preferred": 0,
-            "isp_id": "99511",
-            "https_functional": 1,
-            "host": "speedtest-bat.tm.com.my:8080",
-            "hostname": "speedtest-bat.tm.com.my",
-            "ip_address": {
-                "A": "210.187.84.114"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "https://speedtest-southern.tm.com.my:8080/speedtest/upload.php",
-            "lat": "2.1896",
-            "lon": "102.2501",
-            "name": "Melaka",
-            "country": "Malaysia",
-            "cc": "MY",
-            "sponsor": "Telekom Malaysia Berhad",
-            "id": "45088",
-            "preferred": 0,
-            "isp_id": "99511",
-            "https_functional": 1,
-            "host": "speedtest-southern.tm.com.my:8080",
-            "hostname": "speedtest-southern.tm.com.my",
-            "ip_address": {
-                "A": "58.27.108.234"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest-sabah.tm.com.my:8080/speedtest/upload.php",
-            "lat": "5.8634",
-            "lon": "116.2601",
-            "name": "Penampang",
-            "country": "Malaysia",
-            "cc": "MY",
-            "sponsor": "Telekom Malaysia Berhad",
-            "id": "30131",
-            "preferred": 0,
-            "isp_id": "99511",
-            "https_functional": 1,
-            "host": "speedtest-sabah.tm.com.my:8080",
-            "hostname": "speedtest-sabah.tm.com.my",
-            "ip_address": {
-                "A": "218.208.44.10"
-            },
-            "ipv6_capable": "no"
-        }
-    ],
-    "total_servers": 5,
-    "updated_at": "2026-06-25T14:03:12.092795+05:30"
+  "servers": [
+    {
+      "url": "http://speedtest-brf.tm.com.my:8080/speedtest/upload.php",
+      "lat": "3.1292",
+      "lon": "101.6861",
+      "name": "Brickfields",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "Telekom Malaysia Berhad",
+      "id": "64137",
+      "preferred": 0,
+      "isp_id": "99511",
+      "https_functional": 1,
+      "host": "speedtest-brf.tm.com.my.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-brf.tm.com.my",
+      "ip_address": {
+        "A": "1.9.241.2",
+        "AAAA": "2001:e68::a:3cfe"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-jb.tm.com.my:8080/speedtest/upload.php",
+      "lat": "1.4927",
+      "lon": "103.7414",
+      "name": "Johor Bahru",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "Telekom Malaysia Berhad",
+      "id": "18031",
+      "preferred": 0,
+      "isp_id": "99511",
+      "https_functional": 1,
+      "host": "speedtest-jb.tm.com.my.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-jb.tm.com.my",
+      "ip_address": {
+        "A": "1.9.21.250",
+        "AAAA": "2001:e68::a:3d02"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-bat.tm.com.my:8080/speedtest/upload.php",
+      "lat": "3.1390",
+      "lon": "101.6869",
+      "name": "Kuala Lumpur",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "Telekom Malaysia Berhad",
+      "id": "19302",
+      "preferred": 0,
+      "isp_id": "99511",
+      "https_functional": 1,
+      "host": "speedtest-bat.tm.com.my:8080",
+      "hostname": "speedtest-bat.tm.com.my",
+      "ip_address": {
+        "A": "210.187.84.114"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "https://speedtest-southern.tm.com.my:8080/speedtest/upload.php",
+      "lat": "2.1896",
+      "lon": "102.2501",
+      "name": "Melaka",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "Telekom Malaysia Berhad",
+      "id": "45088",
+      "preferred": 0,
+      "isp_id": "99511",
+      "https_functional": 1,
+      "host": "speedtest-southern.tm.com.my:8080",
+      "hostname": "speedtest-southern.tm.com.my",
+      "ip_address": {
+        "A": "58.27.108.234"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest-sabah.tm.com.my:8080/speedtest/upload.php",
+      "lat": "5.8634",
+      "lon": "116.2601",
+      "name": "Penampang",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "Telekom Malaysia Berhad",
+      "id": "30131",
+      "preferred": 0,
+      "isp_id": "99511",
+      "https_functional": 1,
+      "host": "speedtest-sabah.tm.com.my:8080",
+      "hostname": "speedtest-sabah.tm.com.my",
+      "ip_address": {
+        "A": "218.208.44.10"
+      },
+      "ipv6_capable": "no"
+    }
+  ],
+  "total_servers": 5,
+  "updated_at": "2026-06-25T14:03:12.092795+05:30"
 }

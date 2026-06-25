@@ -1,66 +1,66 @@
 {
-    "servers": [
-        {
-            "url": "http://speedtestcebu.radius.net.ph:8080/speedtest/upload.php",
-            "lat": "10.2833",
-            "lon": "123.9000",
-            "name": "Cebu City",
-            "country": "Philippines",
-            "cc": "PH",
-            "sponsor": "Radius Telecoms, Inc.",
-            "id": "58732",
-            "preferred": 0,
-            "isp_id": "99604",
-            "https_functional": 1,
-            "host": "speedtestcebu.radius.net.ph.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtestcebu.radius.net.ph",
-            "ip_address": {
-                "A": "203.96.180.90",
-                "AAAA": "2400:6a81:c000:1:e918:fd6d:fe5a:f935"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtestzenmanila.radius.net.ph:8080/speedtest/upload.php",
-            "lat": "14.5800",
-            "lon": "121.0000",
-            "name": "Manila",
-            "country": "Philippines",
-            "cc": "PH",
-            "sponsor": "Radius Telecoms Inc.",
-            "id": "59101",
-            "preferred": 0,
-            "isp_id": "99604",
-            "https_functional": 1,
-            "host": "speedtestzenmanila.radius.net.ph.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtestzenmanila.radius.net.ph",
-            "ip_address": {
-                "A": "155.137.79.242",
-                "AAAA": "2400:6a80:2:8002:384d:6c66:1eef:75a2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtestpasig.radius.net.ph:8080/speedtest/upload.php",
-            "lat": "14.5764",
-            "lon": "121.0851",
-            "name": "Pasig City",
-            "country": "Philippines",
-            "cc": "PH",
-            "sponsor": "Radius Telecoms, Inc.",
-            "id": "55837",
-            "preferred": 0,
-            "isp_id": "99604",
-            "https_functional": 1,
-            "host": "speedtestpasig.radius.net.ph.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtestpasig.radius.net.ph",
-            "ip_address": {
-                "A": "103.5.4.165",
-                "AAAA": "2400:6a80:0:1:103:5:4:165"
-            },
-            "ipv6_capable": "yes"
-        }
-    ],
-    "total_servers": 3,
-    "updated_at": "2026-06-25T14:13:47.935690+05:30"
+  "servers": [
+    {
+      "url": "http://speedtestcebu.radius.net.ph:8080/speedtest/upload.php",
+      "lat": "10.2833",
+      "lon": "123.9000",
+      "name": "Cebu City",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Radius Telecoms, Inc.",
+      "id": "58732",
+      "preferred": 0,
+      "isp_id": "99604",
+      "https_functional": 1,
+      "host": "speedtestcebu.radius.net.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestcebu.radius.net.ph",
+      "ip_address": {
+        "A": "203.96.180.90",
+        "AAAA": "2400:6a81:c000:1:e918:fd6d:fe5a:f935"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestzenmanila.radius.net.ph:8080/speedtest/upload.php",
+      "lat": "14.5800",
+      "lon": "121.0000",
+      "name": "Manila",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Radius Telecoms Inc.",
+      "id": "59101",
+      "preferred": 0,
+      "isp_id": "99604",
+      "https_functional": 1,
+      "host": "speedtestzenmanila.radius.net.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestzenmanila.radius.net.ph",
+      "ip_address": {
+        "A": "155.137.79.242",
+        "AAAA": "2400:6a80:2:8002:384d:6c66:1eef:75a2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestpasig.radius.net.ph:8080/speedtest/upload.php",
+      "lat": "14.5764",
+      "lon": "121.0851",
+      "name": "Pasig City",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "Radius Telecoms, Inc.",
+      "id": "55837",
+      "preferred": 0,
+      "isp_id": "99604",
+      "https_functional": 1,
+      "host": "speedtestpasig.radius.net.ph.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestpasig.radius.net.ph",
+      "ip_address": {
+        "A": "103.5.4.165",
+        "AAAA": "2400:6a80:0:1:103:5:4:165"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 3,
+  "updated_at": "2026-06-25T14:13:47.935690+05:30"
 }

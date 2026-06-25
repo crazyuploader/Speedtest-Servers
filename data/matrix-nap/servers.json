@@ -1,26 +1,26 @@
 {
-    "servers": [
-        {
-            "url": "http://speedtest.napinfo.co.id:8080/speedtest/upload.php",
-            "lat": "-6.1745",
-            "lon": "106.8227",
-            "name": "Jakarta",
-            "country": "Indonesia",
-            "cc": "ID",
-            "sponsor": "Matrix NAP Info",
-            "id": "37582",
-            "preferred": 0,
-            "isp_id": "10571",
-            "https_functional": 1,
-            "host": "speedtest.napinfo.co.id.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest.napinfo.co.id",
-            "ip_address": {
-                "A": "202.59.172.2",
-                "AAAA": "2404:c000:8000:1::92"
-            },
-            "ipv6_capable": "yes"
-        }
-    ],
-    "total_servers": 1,
-    "updated_at": "2026-06-25T14:13:43.188957+05:30"
+  "servers": [
+    {
+      "url": "http://speedtest.napinfo.co.id:8080/speedtest/upload.php",
+      "lat": "-6.1745",
+      "lon": "106.8227",
+      "name": "Jakarta",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Matrix NAP Info",
+      "id": "37582",
+      "preferred": 0,
+      "isp_id": "10571",
+      "https_functional": 1,
+      "host": "speedtest.napinfo.co.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.napinfo.co.id",
+      "ip_address": {
+        "A": "202.59.172.2",
+        "AAAA": "2404:c000:8000:1::92"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 1,
+  "updated_at": "2026-06-25T14:13:43.188957+05:30"
 }

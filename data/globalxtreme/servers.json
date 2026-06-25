@@ -1,124 +1,124 @@
 {
-    "servers": [
-        {
-            "url": "http://speedtest.badung.globalxtreme.net:8080/speedtest/upload.php",
-            "lat": "-8.5819",
-            "lon": "115.1771",
-            "name": "Badung",
-            "country": "Indonesia",
-            "cc": "ID",
-            "sponsor": "GlobalXtreme",
-            "id": "30500",
-            "preferred": 0,
-            "isp_id": "96689",
-            "https_functional": 1,
-            "host": "speedtest.badung.globalxtreme.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest.badung.globalxtreme.net",
-            "ip_address": {
-                "A": "103.225.148.18",
-                "AAAA": "2402:2900::122"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest.balikpapan.globalxtreme.net:8080/speedtest/upload.php",
-            "lat": "-1.2635",
-            "lon": "116.8279",
-            "name": "Balikpapan",
-            "country": "Indonesia",
-            "cc": "ID",
-            "sponsor": "GlobalXtreme",
-            "id": "40835",
-            "preferred": 0,
-            "isp_id": "96689",
-            "https_functional": 1,
-            "host": "speedtest.balikpapan.globalxtreme.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest.balikpapan.globalxtreme.net",
-            "ip_address": {
-                "A": "202.58.205.6"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest.denpasar.globalxtreme.net:8080/speedtest/upload.php",
-            "lat": "-8.6500",
-            "lon": "115.2167",
-            "name": "Denpasar",
-            "country": "Indonesia",
-            "cc": "ID",
-            "sponsor": "GlobalXtreme",
-            "id": "30712",
-            "preferred": 0,
-            "isp_id": "96689",
-            "https_functional": 1,
-            "host": "speedtest.denpasar.globalxtreme.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest.denpasar.globalxtreme.net",
-            "ip_address": {
-                "A": "103.225.148.20",
-                "AAAA": "2402:2900::123"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest.globalxtreme.net:8080/speedtest/upload.php",
-            "lat": "-6.2088",
-            "lon": "106.8456",
-            "name": "Jakarta",
-            "country": "Indonesia",
-            "cc": "ID",
-            "sponsor": "GlobalXtreme",
-            "id": "26047",
-            "preferred": 0,
-            "isp_id": "96689",
-            "https_functional": 1,
-            "host": "speedtest.globalxtreme.net:8080",
-            "hostname": "speedtest.globalxtreme.net",
-            "ip_address": {
-                "A": "103.225.148.10",
-                "AAAA": "2402:2900::112"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest.kuta.globalxtreme.net:8080/speedtest/upload.php",
-            "lat": "-8.6500",
-            "lon": "115.2167",
-            "name": "Kuta",
-            "country": "Indonesia",
-            "cc": "ID",
-            "sponsor": "GlobalXtreme",
-            "id": "30616",
-            "preferred": 0,
-            "isp_id": "96689",
-            "https_functional": 1,
-            "host": "speedtest.kuta.globalxtreme.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest.kuta.globalxtreme.net",
-            "ip_address": {
-                "A": "103.225.148.19",
-                "AAAA": "2402:2900::124"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest.malang.globalxtreme.net:8080/speedtest/upload.php",
-            "lat": "-7.9800",
-            "lon": "112.6200",
-            "name": "Malang",
-            "country": "Indonesia",
-            "cc": "ID",
-            "sponsor": "GlobalXtreme",
-            "id": "40832",
-            "preferred": 0,
-            "isp_id": "96689",
-            "https_functional": 1,
-            "host": "speedtest.malang.globalxtreme.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest.malang.globalxtreme.net",
-            "ip_address": {
-                "A": "202.58.200.6"
-            },
-            "ipv6_capable": "no"
-        }
-    ],
-    "total_servers": 6,
-    "updated_at": "2026-06-25T14:02:28.639695+05:30"
+  "servers": [
+    {
+      "url": "http://speedtest.badung.globalxtreme.net:8080/speedtest/upload.php",
+      "lat": "-8.5819",
+      "lon": "115.1771",
+      "name": "Badung",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "GlobalXtreme",
+      "id": "30500",
+      "preferred": 0,
+      "isp_id": "96689",
+      "https_functional": 1,
+      "host": "speedtest.badung.globalxtreme.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.badung.globalxtreme.net",
+      "ip_address": {
+        "A": "103.225.148.18",
+        "AAAA": "2402:2900::122"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.balikpapan.globalxtreme.net:8080/speedtest/upload.php",
+      "lat": "-1.2635",
+      "lon": "116.8279",
+      "name": "Balikpapan",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "GlobalXtreme",
+      "id": "40835",
+      "preferred": 0,
+      "isp_id": "96689",
+      "https_functional": 1,
+      "host": "speedtest.balikpapan.globalxtreme.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.balikpapan.globalxtreme.net",
+      "ip_address": {
+        "A": "202.58.205.6"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest.denpasar.globalxtreme.net:8080/speedtest/upload.php",
+      "lat": "-8.6500",
+      "lon": "115.2167",
+      "name": "Denpasar",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "GlobalXtreme",
+      "id": "30712",
+      "preferred": 0,
+      "isp_id": "96689",
+      "https_functional": 1,
+      "host": "speedtest.denpasar.globalxtreme.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.denpasar.globalxtreme.net",
+      "ip_address": {
+        "A": "103.225.148.20",
+        "AAAA": "2402:2900::123"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.globalxtreme.net:8080/speedtest/upload.php",
+      "lat": "-6.2088",
+      "lon": "106.8456",
+      "name": "Jakarta",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "GlobalXtreme",
+      "id": "26047",
+      "preferred": 0,
+      "isp_id": "96689",
+      "https_functional": 1,
+      "host": "speedtest.globalxtreme.net:8080",
+      "hostname": "speedtest.globalxtreme.net",
+      "ip_address": {
+        "A": "103.225.148.10",
+        "AAAA": "2402:2900::112"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.kuta.globalxtreme.net:8080/speedtest/upload.php",
+      "lat": "-8.6500",
+      "lon": "115.2167",
+      "name": "Kuta",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "GlobalXtreme",
+      "id": "30616",
+      "preferred": 0,
+      "isp_id": "96689",
+      "https_functional": 1,
+      "host": "speedtest.kuta.globalxtreme.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.kuta.globalxtreme.net",
+      "ip_address": {
+        "A": "103.225.148.19",
+        "AAAA": "2402:2900::124"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.malang.globalxtreme.net:8080/speedtest/upload.php",
+      "lat": "-7.9800",
+      "lon": "112.6200",
+      "name": "Malang",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "GlobalXtreme",
+      "id": "40832",
+      "preferred": 0,
+      "isp_id": "96689",
+      "https_functional": 1,
+      "host": "speedtest.malang.globalxtreme.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.malang.globalxtreme.net",
+      "ip_address": {
+        "A": "202.58.200.6"
+      },
+      "ipv6_capable": "no"
+    }
+  ],
+  "total_servers": 6,
+  "updated_at": "2026-06-25T14:02:28.639695+05:30"
 }

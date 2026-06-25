@@ -1,26 +1,26 @@
 {
-    "servers": [
-        {
-            "url": "http://hcm-ookla01.sctv.vn:8080/speedtest/upload.php",
-            "lat": "10.7500",
-            "lon": "106.6667",
-            "name": "Ho Chi Minh",
-            "country": "Vietnam",
-            "cc": "VN",
-            "sponsor": "SCTV Co.,Ltd",
-            "id": "56841",
-            "preferred": 0,
-            "isp_id": "111158",
-            "https_functional": 1,
-            "host": "hcm-ookla01.sctv.vn.prod.hosts.ooklaserver.net:8080",
-            "hostname": "hcm-ookla01.sctv.vn",
-            "ip_address": {
-                "A": "112.197.20.3",
-                "AAAA": "2403:e200:1:c:112:197:20:3"
-            },
-            "ipv6_capable": "yes"
-        }
-    ],
-    "total_servers": 1,
-    "updated_at": "2026-06-25T14:14:06.661985+05:30"
+  "servers": [
+    {
+      "url": "http://hcm-ookla01.sctv.vn:8080/speedtest/upload.php",
+      "lat": "10.7500",
+      "lon": "106.6667",
+      "name": "Ho Chi Minh",
+      "country": "Vietnam",
+      "cc": "VN",
+      "sponsor": "SCTV Co.,Ltd",
+      "id": "56841",
+      "preferred": 0,
+      "isp_id": "111158",
+      "https_functional": 1,
+      "host": "hcm-ookla01.sctv.vn.prod.hosts.ooklaserver.net:8080",
+      "hostname": "hcm-ookla01.sctv.vn",
+      "ip_address": {
+        "A": "112.197.20.3",
+        "AAAA": "2403:e200:1:c:112:197:20:3"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 1,
+  "updated_at": "2026-06-25T14:14:06.661985+05:30"
 }

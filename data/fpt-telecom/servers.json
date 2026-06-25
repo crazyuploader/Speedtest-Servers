@@ -1,66 +1,66 @@
 {
-    "servers": [
-        {
-            "url": "http://speedtestdng.fpt.vn:8080/speedtest/upload.php",
-            "lat": "16.0667",
-            "lon": "108.2333",
-            "name": "Da Nang",
-            "country": "Vietnam",
-            "cc": "VN",
-            "sponsor": "FPT Telecom",
-            "id": "44677",
-            "preferred": 0,
-            "isp_id": "43723",
-            "https_functional": 1,
-            "host": "speedtestdng.fpt.vn.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtestdng.fpt.vn",
-            "ip_address": {
-                "A": "118.70.71.231",
-                "AAAA": "2405:4800:106:35::231"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtesthn.fpt.vn:8080/speedtest/upload.php",
-            "lat": "21.0285",
-            "lon": "105.8542",
-            "name": "Ha Noi",
-            "country": "Vietnam",
-            "cc": "VN",
-            "sponsor": "FPT Telecom",
-            "id": "2552",
-            "preferred": 0,
-            "isp_id": "43723",
-            "https_functional": 1,
-            "host": "speedtesthn.fpt.vn.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtesthn.fpt.vn",
-            "ip_address": {
-                "A": "1.52.247.21",
-                "AAAA": "2405:4800:500::145"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtesthcm.fpt.vn:8080/speedtest/upload.php",
-            "lat": "10.7500",
-            "lon": "106.6667",
-            "name": "Ho Chi Minh",
-            "country": "Vietnam",
-            "cc": "VN",
-            "sponsor": "FPT Telecom",
-            "id": "74354",
-            "preferred": 0,
-            "isp_id": "43723",
-            "https_functional": 1,
-            "host": "speedtesthcm.fpt.vn.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtesthcm.fpt.vn",
-            "ip_address": {
-                "A": "210.245.15.5",
-                "AAAA": "2405:4802:f500::185"
-            },
-            "ipv6_capable": "yes"
-        }
-    ],
-    "total_servers": 3,
-    "updated_at": "2026-06-25T14:07:34.779171+05:30"
+  "servers": [
+    {
+      "url": "http://speedtestdng.fpt.vn:8080/speedtest/upload.php",
+      "lat": "16.0667",
+      "lon": "108.2333",
+      "name": "Da Nang",
+      "country": "Vietnam",
+      "cc": "VN",
+      "sponsor": "FPT Telecom",
+      "id": "44677",
+      "preferred": 0,
+      "isp_id": "43723",
+      "https_functional": 1,
+      "host": "speedtestdng.fpt.vn.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestdng.fpt.vn",
+      "ip_address": {
+        "A": "118.70.71.231",
+        "AAAA": "2405:4800:106:35::231"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtesthn.fpt.vn:8080/speedtest/upload.php",
+      "lat": "21.0285",
+      "lon": "105.8542",
+      "name": "Ha Noi",
+      "country": "Vietnam",
+      "cc": "VN",
+      "sponsor": "FPT Telecom",
+      "id": "2552",
+      "preferred": 0,
+      "isp_id": "43723",
+      "https_functional": 1,
+      "host": "speedtesthn.fpt.vn.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtesthn.fpt.vn",
+      "ip_address": {
+        "A": "1.52.247.21",
+        "AAAA": "2405:4800:500::145"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtesthcm.fpt.vn:8080/speedtest/upload.php",
+      "lat": "10.7500",
+      "lon": "106.6667",
+      "name": "Ho Chi Minh",
+      "country": "Vietnam",
+      "cc": "VN",
+      "sponsor": "FPT Telecom",
+      "id": "74354",
+      "preferred": 0,
+      "isp_id": "43723",
+      "https_functional": 1,
+      "host": "speedtesthcm.fpt.vn.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtesthcm.fpt.vn",
+      "ip_address": {
+        "A": "210.245.15.5",
+        "AAAA": "2405:4802:f500::185"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 3,
+  "updated_at": "2026-06-25T14:07:34.779171+05:30"
 }

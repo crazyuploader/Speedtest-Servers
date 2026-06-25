@@ -1,25 +1,25 @@
 {
-    "servers": [
-        {
-            "url": "http://sp4.unitel.com.la:8080/speedtest/upload.php",
-            "lat": "17.9757",
-            "lon": "102.6331",
-            "name": "Vientiane Capital",
-            "country": "Laos",
-            "cc": "LA",
-            "sponsor": "Unitel",
-            "id": "18509",
-            "preferred": 0,
-            "isp_id": "45317",
-            "https_functional": 1,
-            "host": "sp4.unitel.com.la.prod.hosts.ooklaserver.net:8080",
-            "hostname": "sp4.unitel.com.la",
-            "ip_address": {
-                "A": "183.182.100.23"
-            },
-            "ipv6_capable": "no"
-        }
-    ],
-    "total_servers": 1,
-    "updated_at": "2026-06-25T14:08:00.678744+05:30"
+  "servers": [
+    {
+      "url": "http://sp4.unitel.com.la:8080/speedtest/upload.php",
+      "lat": "17.9757",
+      "lon": "102.6331",
+      "name": "Vientiane Capital",
+      "country": "Laos",
+      "cc": "LA",
+      "sponsor": "Unitel",
+      "id": "18509",
+      "preferred": 0,
+      "isp_id": "45317",
+      "https_functional": 1,
+      "host": "sp4.unitel.com.la.prod.hosts.ooklaserver.net:8080",
+      "hostname": "sp4.unitel.com.la",
+      "ip_address": {
+        "A": "183.182.100.23"
+      },
+      "ipv6_capable": "no"
+    }
+  ],
+  "total_servers": 1,
+  "updated_at": "2026-06-25T14:08:00.678744+05:30"
 }

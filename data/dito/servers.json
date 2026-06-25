@@ -1,146 +1,146 @@
 {
-    "servers": [
-        {
-            "url": "http://speedtestco51s2.dito.ph:8080/speedtest/upload.php",
-            "lat": "15.1450",
-            "lon": "120.5887",
-            "name": "Angeles City",
-            "country": "Philippines",
-            "cc": "PH",
-            "sponsor": "DITO",
-            "id": "64912",
-            "preferred": 0,
-            "isp_id": "198327",
-            "https_functional": 1,
-            "host": "speedtestco51s2.dito.ph:8080",
-            "hostname": "speedtestco51s2.dito.ph",
-            "ip_address": {
-                "A": "131.226.94.161",
-                "AAAA": "2405:8d40:5a00:0:fe74:20:91e1:672"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtestco3s4.dito.ph:8080/speedtest/upload.php",
-            "lat": "13.7565",
-            "lon": "121.0583",
-            "name": "Batangas",
-            "country": "Philippines",
-            "cc": "PH",
-            "sponsor": "DITO",
-            "id": "68295",
-            "preferred": 0,
-            "isp_id": "198327",
-            "https_functional": 1,
-            "host": "speedtestco3s4.dito.ph:8080",
-            "hostname": "speedtestco3s4.dito.ph",
-            "ip_address": {
-                "A": "131.226.92.163",
-                "AAAA": "2405:8d40:5a80:100:fe74:22:9e28:1651"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtestco3s5.dito.ph:8080/speedtest/upload.php",
-            "lat": "14.2973",
-            "lon": "121.0392",
-            "name": "Carmona",
-            "country": "Philippines",
-            "cc": "PH",
-            "sponsor": "DITO",
-            "id": "68882",
-            "preferred": 0,
-            "isp_id": "198327",
-            "https_functional": 1,
-            "host": "speedtestco3s5.dito.ph:8080",
-            "hostname": "speedtestco3s5.dito.ph",
-            "ip_address": {
-                "A": "131.226.92.164",
-                "AAAA": "2405:8d40:5a80:100:fe74:22:9e29:1651"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtestco3s2.dito.ph:8080/speedtest/upload.php",
-            "lat": "10.3157",
-            "lon": "123.8854",
-            "name": "Cebu City",
-            "country": "Philippines",
-            "cc": "PH",
-            "sponsor": "DITO",
-            "id": "64914",
-            "preferred": 0,
-            "isp_id": "198327",
-            "https_functional": 1,
-            "host": "speedtestco3s2.dito.ph:8080",
-            "hostname": "speedtestco3s2.dito.ph",
-            "ip_address": {
-                "A": "131.226.92.161",
-                "AAAA": "2405:8d40:a40:100d::83e2:5ca1"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtestco3s3.dito.ph:8080/speedtest/upload.php",
-            "lat": "7.1907",
-            "lon": "125.4553",
-            "name": "Davao City",
-            "country": "Philippines",
-            "cc": "PH",
-            "sponsor": "DITO",
-            "id": "64915",
-            "preferred": 0,
-            "isp_id": "198327",
-            "https_functional": 1,
-            "host": "speedtestco3s3.dito.ph:8080",
-            "hostname": "speedtestco3s3.dito.ph",
-            "ip_address": {
-                "A": "131.226.92.162",
-                "AAAA": "2405:8d40:a40:100d::83e2:5ca2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtestco3s1.dito.ph:8080/speedtest/upload.php",
-            "lat": "14.5547",
-            "lon": "121.0244",
-            "name": "Makati City",
-            "country": "Philippines",
-            "cc": "PH",
-            "sponsor": "DITO",
-            "id": "64913",
-            "preferred": 0,
-            "isp_id": "198327",
-            "https_functional": 1,
-            "host": "speedtestco3s1.dito.ph:8080",
-            "hostname": "speedtestco3s1.dito.ph",
-            "ip_address": {
-                "A": "131.226.92.160",
-                "AAAA": "2405:8d40:a40:100d::83e2:5ca0"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtestco51s1.dito.ph:8080/speedtest/upload.php",
-            "lat": "14.6760",
-            "lon": "121.0437",
-            "name": "Quezon City",
-            "country": "Philippines",
-            "cc": "PH",
-            "sponsor": "DITO",
-            "id": "64911",
-            "preferred": 0,
-            "isp_id": "198327",
-            "https_functional": 1,
-            "host": "speedtestco51s1.dito.ph:8080",
-            "hostname": "speedtestco51s1.dito.ph",
-            "ip_address": {
-                "A": "131.226.94.160",
-                "AAAA": "2405:8d40:5a00:0:fe74:20:91e0:672"
-            },
-            "ipv6_capable": "yes"
-        }
-    ],
-    "total_servers": 7,
-    "updated_at": "2026-06-25T14:07:30.101621+05:30"
+  "servers": [
+    {
+      "url": "http://speedtestco51s2.dito.ph:8080/speedtest/upload.php",
+      "lat": "15.1450",
+      "lon": "120.5887",
+      "name": "Angeles City",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "DITO",
+      "id": "64912",
+      "preferred": 0,
+      "isp_id": "198327",
+      "https_functional": 1,
+      "host": "speedtestco51s2.dito.ph:8080",
+      "hostname": "speedtestco51s2.dito.ph",
+      "ip_address": {
+        "A": "131.226.94.161",
+        "AAAA": "2405:8d40:5a00:0:fe74:20:91e1:672"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestco3s4.dito.ph:8080/speedtest/upload.php",
+      "lat": "13.7565",
+      "lon": "121.0583",
+      "name": "Batangas",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "DITO",
+      "id": "68295",
+      "preferred": 0,
+      "isp_id": "198327",
+      "https_functional": 1,
+      "host": "speedtestco3s4.dito.ph:8080",
+      "hostname": "speedtestco3s4.dito.ph",
+      "ip_address": {
+        "A": "131.226.92.163",
+        "AAAA": "2405:8d40:5a80:100:fe74:22:9e28:1651"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestco3s5.dito.ph:8080/speedtest/upload.php",
+      "lat": "14.2973",
+      "lon": "121.0392",
+      "name": "Carmona",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "DITO",
+      "id": "68882",
+      "preferred": 0,
+      "isp_id": "198327",
+      "https_functional": 1,
+      "host": "speedtestco3s5.dito.ph:8080",
+      "hostname": "speedtestco3s5.dito.ph",
+      "ip_address": {
+        "A": "131.226.92.164",
+        "AAAA": "2405:8d40:5a80:100:fe74:22:9e29:1651"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestco3s2.dito.ph:8080/speedtest/upload.php",
+      "lat": "10.3157",
+      "lon": "123.8854",
+      "name": "Cebu City",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "DITO",
+      "id": "64914",
+      "preferred": 0,
+      "isp_id": "198327",
+      "https_functional": 1,
+      "host": "speedtestco3s2.dito.ph:8080",
+      "hostname": "speedtestco3s2.dito.ph",
+      "ip_address": {
+        "A": "131.226.92.161",
+        "AAAA": "2405:8d40:a40:100d::83e2:5ca1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestco3s3.dito.ph:8080/speedtest/upload.php",
+      "lat": "7.1907",
+      "lon": "125.4553",
+      "name": "Davao City",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "DITO",
+      "id": "64915",
+      "preferred": 0,
+      "isp_id": "198327",
+      "https_functional": 1,
+      "host": "speedtestco3s3.dito.ph:8080",
+      "hostname": "speedtestco3s3.dito.ph",
+      "ip_address": {
+        "A": "131.226.92.162",
+        "AAAA": "2405:8d40:a40:100d::83e2:5ca2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestco3s1.dito.ph:8080/speedtest/upload.php",
+      "lat": "14.5547",
+      "lon": "121.0244",
+      "name": "Makati City",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "DITO",
+      "id": "64913",
+      "preferred": 0,
+      "isp_id": "198327",
+      "https_functional": 1,
+      "host": "speedtestco3s1.dito.ph:8080",
+      "hostname": "speedtestco3s1.dito.ph",
+      "ip_address": {
+        "A": "131.226.92.160",
+        "AAAA": "2405:8d40:a40:100d::83e2:5ca0"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestco51s1.dito.ph:8080/speedtest/upload.php",
+      "lat": "14.6760",
+      "lon": "121.0437",
+      "name": "Quezon City",
+      "country": "Philippines",
+      "cc": "PH",
+      "sponsor": "DITO",
+      "id": "64911",
+      "preferred": 0,
+      "isp_id": "198327",
+      "https_functional": 1,
+      "host": "speedtestco51s1.dito.ph:8080",
+      "hostname": "speedtestco51s1.dito.ph",
+      "ip_address": {
+        "A": "131.226.94.160",
+        "AAAA": "2405:8d40:5a00:0:fe74:20:91e0:672"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 7,
+  "updated_at": "2026-06-25T14:07:30.101621+05:30"
 }
