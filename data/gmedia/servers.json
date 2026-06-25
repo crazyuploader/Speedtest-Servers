@@ -1,0 +1,120 @@
+{
+    "servers": [
+        {
+            "url": "http://speedtestjkt.gmedia.net.id:8080/speedtest/upload.php",
+            "lat": "-6.1745",
+            "lon": "106.8227",
+            "name": "Jakarta",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "GMEDIA",
+            "id": "50798",
+            "preferred": 0,
+            "isp_id": "54383",
+            "https_functional": 1,
+            "host": "speedtestjkt.gmedia.net.id.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtestjkt.gmedia.net.id",
+            "ip_address": {
+                "A": "43.245.184.231",
+                "AAAA": "2401:1700:20:1:43:245:184:231"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtestpwt1.gmedia.net.id:8080/speedtest/upload.php",
+            "lat": "-7.4243",
+            "lon": "109.2396",
+            "name": "Purwokerto",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "GMEDIA",
+            "id": "7195",
+            "preferred": 0,
+            "isp_id": "54383",
+            "host": "speedtestpwt1.gmedia.net.id:8080",
+            "hostname": "speedtestpwt1.gmedia.net.id",
+            "ip_address": {
+                "A": "103.255.241.34"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://speedtestyk2.gmedia.net.id:8080/speedtest/upload.php",
+            "lat": "-7.7325",
+            "lon": "110.4024",
+            "name": "Sleman",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "GMEDIA",
+            "id": "70955",
+            "preferred": 0,
+            "isp_id": "54383",
+            "host": "speedtestyk2.gmedia.net.id:8080",
+            "hostname": "speedtestyk2.gmedia.net.id",
+            "ip_address": {
+                "A": "43.245.184.9",
+                "AAAA": "2401:1700:3:1:43:245:184:9"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest-sby.gmedia.id:8080/speedtest/upload.php",
+            "lat": "-7.2667",
+            "lon": "112.7333",
+            "name": "Surabaya",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "GMEDIA",
+            "id": "68767",
+            "preferred": 0,
+            "isp_id": "54383",
+            "host": "speedtest-sby.gmedia.id:8080",
+            "hostname": "speedtest-sby.gmedia.id",
+            "ip_address": {
+                "A": "43.245.185.250",
+                "AAAA": "2401:1700:1e:1:43:245:185:250"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtestsrk1.gmedia.net.id:8080/speedtest/upload.php",
+            "lat": "-7.5667",
+            "lon": "110.8167",
+            "name": "Surakarta",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "GMEDIA",
+            "id": "13825",
+            "preferred": 0,
+            "isp_id": "54383",
+            "host": "speedtestsrk1.gmedia.net.id:8080",
+            "hostname": "speedtestsrk1.gmedia.net.id",
+            "ip_address": {
+                "A": "43.245.184.130"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://speedtestyk1.gmedia.net.id:8080/speedtest/upload.php",
+            "lat": "-7.8014",
+            "lon": "110.3644",
+            "name": "Yogyakarta",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "GMEDIA",
+            "id": "7106",
+            "preferred": 0,
+            "isp_id": "54383",
+            "https_functional": 1,
+            "host": "speedtestyk1.gmedia.net.id.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtestyk1.gmedia.net.id",
+            "ip_address": {
+                "A": "112.78.33.169",
+                "AAAA": "2401:1700:3:1:112:78:33:169"
+            },
+            "ipv6_capable": "yes"
+        }
+    ],
+    "total_servers": 6,
+    "updated_at": "2026-06-25T14:13:31.094760+05:30"
+}

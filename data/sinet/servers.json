@@ -1,0 +1,26 @@
+{
+    "servers": [
+        {
+            "url": "http://speedtest.sinet.com.kh:8080/speedtest/upload.php",
+            "lat": "11.5500",
+            "lon": "104.9167",
+            "name": "Phnom Penh",
+            "country": "Cambodia",
+            "cc": "KH",
+            "sponsor": "SINET",
+            "id": "5828",
+            "preferred": 0,
+            "isp_id": "111195",
+            "https_functional": 1,
+            "host": "speedtest.sinet.com.kh.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.sinet.com.kh",
+            "ip_address": {
+                "A": "96.9.64.18",
+                "AAAA": "2404:b300:100:1::23"
+            },
+            "ipv6_capable": "yes"
+        }
+    ],
+    "total_servers": 1,
+    "updated_at": "2026-06-25T14:02:20.313323+05:30"
+}

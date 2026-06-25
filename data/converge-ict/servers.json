@@ -1,0 +1,266 @@
+{
+    "servers": [
+        {
+            "url": "http://lun-spdtst-srv.convergeict.com:8080/speedtest/upload.php",
+            "lat": "16.3247",
+            "lon": "120.3551",
+            "name": "Agoo",
+            "country": "Philippines",
+            "cc": "PH",
+            "sponsor": "Converge ICT Solutions Inc.",
+            "id": "46776",
+            "preferred": 0,
+            "isp_id": "156043",
+            "https_functional": 1,
+            "host": "lun-spdtst-srv.convergeict.com:8080",
+            "hostname": "lun-spdtst-srv.convergeict.com",
+            "ip_address": {
+                "A": "120.29.101.2",
+                "AAAA": "2405:3200:105:22::3"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://clk-srv04.convergeict.com:8080/speedtest/upload.php",
+            "lat": "15.1450",
+            "lon": "120.5887",
+            "name": "Angeles",
+            "country": "Philippines",
+            "cc": "PH",
+            "sponsor": "Converge ICT Solutions Inc.",
+            "id": "11577",
+            "preferred": 0,
+            "isp_id": "156043",
+            "https_functional": 1,
+            "host": "clk-srv04.convergeict.com:8080",
+            "hostname": "clk-srv04.convergeict.com",
+            "ip_address": {
+                "A": "202.69.188.50",
+                "AAAA": "2405:3200:105:1a::3"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://brc-spdtst-srv.convergeict.com:8080/speedtest/upload.php",
+            "lat": "14.4130",
+            "lon": "120.9737",
+            "name": "Bacoor Cavite",
+            "country": "Philippines",
+            "cc": "PH",
+            "sponsor": "Converge ICT Solutions Inc.",
+            "id": "36736",
+            "preferred": 0,
+            "isp_id": "156043",
+            "https_functional": 1,
+            "host": "brc-spdtst-srv.convergeict.com:8080",
+            "hostname": "brc-spdtst-srv.convergeict.com",
+            "ip_address": {
+                "A": "136.158.20.22",
+                "AAAA": "2405:3200:102:3a::3"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://blc-spdtst-srv.convergeict.com:8080/speedtest/upload.php",
+            "lat": "15.0667",
+            "lon": "120.6432",
+            "name": "Bulacan",
+            "country": "Philippines",
+            "cc": "PH",
+            "sponsor": "Converge ICT Solutions Inc.",
+            "id": "74905",
+            "preferred": 0,
+            "isp_id": "156043",
+            "https_functional": 1,
+            "host": "blc-spdtst-srv.convergeict.com:8080",
+            "hostname": "blc-spdtst-srv.convergeict.com",
+            "ip_address": {
+                "A": "161.49.8.242",
+                "AAAA": "2405:3200:105:34::3"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://ccd-spdtst-srv.convergeict.com:8080/speedtest/upload.php",
+            "lat": "14.7566",
+            "lon": "121.0450",
+            "name": "Caloocan City",
+            "country": "Philippines",
+            "cc": "PH",
+            "sponsor": "Converge ICT Solutions Inc.",
+            "id": "36740",
+            "preferred": 0,
+            "isp_id": "156043",
+            "https_functional": 1,
+            "host": "ccd-spdtst-srv.convergeict.com:8080",
+            "hostname": "ccd-spdtst-srv.convergeict.com",
+            "ip_address": {
+                "A": "136.158.4.22",
+                "AAAA": "2405:3200:102:39::3"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://clk-spdtst-srv.convergeict.com:8080/speedtest/upload.php",
+            "lat": "15.1808",
+            "lon": "120.5300",
+            "name": "Clark Freeport Zone",
+            "country": "Philippines",
+            "cc": "PH",
+            "sponsor": "Converge ICT Solutions Inc.",
+            "id": "35473",
+            "preferred": 0,
+            "isp_id": "156043",
+            "https_functional": 1,
+            "host": "clk-spdtst-srv.convergeict.com:8080",
+            "hostname": "clk-spdtst-srv.convergeict.com",
+            "ip_address": {
+                "A": "202.69.188.82",
+                "AAAA": "2405:3200:105:12::3"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://dcd-spdtst-srv.convergeict.com:8080/speedtest/upload.php",
+            "lat": "7.0644",
+            "lon": "125.6078",
+            "name": "Davao City",
+            "country": "Philippines",
+            "cc": "PH",
+            "sponsor": "Converge ICT Solutions Inc.",
+            "id": "43414",
+            "preferred": 0,
+            "isp_id": "156043",
+            "https_functional": 1,
+            "host": "dcd-spdtst-srv.convergeict.com:8080",
+            "hostname": "dcd-spdtst-srv.convergeict.com",
+            "ip_address": {
+                "A": "143.44.180.46",
+                "AAAA": "2405:3200:700:8::3"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://sbm-spdtst-srv.convergeict.com:8080/speedtest/upload.php",
+            "lat": "14.5794",
+            "lon": "121.0359",
+            "name": "Mandaluyong",
+            "country": "Philippines",
+            "cc": "PH",
+            "sponsor": "Converge ICT Solutions Inc.",
+            "id": "36738",
+            "preferred": 0,
+            "isp_id": "156043",
+            "https_functional": 1,
+            "host": "sbm-spdtst-srv.convergeict.com:8080",
+            "hostname": "sbm-spdtst-srv.convergeict.com",
+            "ip_address": {
+                "A": "136.158.12.22",
+                "AAAA": "2405:3200:102:3c::3"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://ceb-spdtst-srv.convergeict.com:8080/speedtest/upload.php",
+            "lat": "10.3321",
+            "lon": "123.9357",
+            "name": "Mandaue",
+            "country": "Philippines",
+            "cc": "PH",
+            "sponsor": "Converge ICT Solutions Inc.",
+            "id": "41827",
+            "preferred": 0,
+            "isp_id": "156043",
+            "https_functional": 1,
+            "host": "ceb-spdtst-srv.convergeict.com:8080",
+            "hostname": "ceb-spdtst-srv.convergeict.com",
+            "ip_address": {
+                "A": "143.44.160.30",
+                "AAAA": "2405:3200:600:f::3"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://ngc-spdtst-srv.convergeict.com:8080/speedtest/upload.php",
+            "lat": "13.6218",
+            "lon": "123.1948",
+            "name": "Naga",
+            "country": "Philippines",
+            "cc": "PH",
+            "sponsor": "Converge ICT Solutions Inc.",
+            "id": "38919",
+            "preferred": 0,
+            "isp_id": "156043",
+            "https_functional": 1,
+            "host": "ngc-spdtst-srv.convergeict.com:8080",
+            "hostname": "ngc-spdtst-srv.convergeict.com",
+            "ip_address": {
+                "A": "204.145.2.158",
+                "AAAA": "2405:3200:102:91::3"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://psg-spdtst-srv.convergeict.com:8080/speedtest/upload.php",
+            "lat": "14.5823",
+            "lon": "121.0851",
+            "name": "Pasig",
+            "country": "Philippines",
+            "cc": "PH",
+            "sponsor": "Converge ICT Solutions Inc.",
+            "id": "36739",
+            "preferred": 0,
+            "isp_id": "156043",
+            "https_functional": 1,
+            "host": "psg-spdtst-srv.convergeict.com:8080",
+            "hostname": "psg-spdtst-srv.convergeict.com",
+            "ip_address": {
+                "A": "136.158.6.22",
+                "AAAA": "2405:3200:102:37::3"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://spo-spdtst-srv.convergeict.com:8080/speedtest/upload.php",
+            "lat": "14.0700",
+            "lon": "121.3233",
+            "name": "San Pablo",
+            "country": "Philippines",
+            "cc": "PH",
+            "sponsor": "Converge ICT",
+            "id": "75265",
+            "preferred": 0,
+            "isp_id": "156043",
+            "https_functional": 1,
+            "host": "spo-spdtst-srv.convergeict.com:8080",
+            "hostname": "spo-spdtst-srv.convergeict.com",
+            "ip_address": {
+                "A": "161.49.13.122",
+                "AAAA": "2405:3200:151:1c::3"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://puc-spdtst-srv.convergeict.com:8080/speedtest/upload.php",
+            "lat": "15.9761",
+            "lon": "120.5711",
+            "name": "Urdaneta City",
+            "country": "Philippines",
+            "cc": "PH",
+            "sponsor": "Converge ICT Solutions Inc.",
+            "id": "75106",
+            "preferred": 0,
+            "isp_id": "156043",
+            "https_functional": 1,
+            "host": "puc-spdtst-srv.convergeict.com:8080",
+            "hostname": "puc-spdtst-srv.convergeict.com",
+            "ip_address": {
+                "A": "161.49.8.238",
+                "AAAA": "2405:3200:105:99::3"
+            },
+            "ipv6_capable": "yes"
+        }
+    ],
+    "total_servers": 13,
+    "updated_at": "2026-06-25T14:03:34.581211+05:30"
+}

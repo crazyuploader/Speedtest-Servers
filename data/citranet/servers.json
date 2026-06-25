@@ -1,0 +1,64 @@
+{
+    "servers": [
+        {
+            "url": "http://speedtest.pwkt.citra.net.id:8080/speedtest/upload.php",
+            "lat": "-7.4243",
+            "lon": "109.2390",
+            "name": "Purwokerto",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "CitraNet",
+            "id": "60926",
+            "preferred": 0,
+            "isp_id": "4221",
+            "https_functional": 1,
+            "host": "speedtest.pwkt.citra.net.id.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.pwkt.citra.net.id",
+            "ip_address": {
+                "A": "202.152.156.10",
+                "AAAA": "2401:ee00:3041:10::10"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest2.solo.citra.net.id:8080/speedtest/upload.php",
+            "lat": "-7.5667",
+            "lon": "110.8167",
+            "name": "Surakarta",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "CitraNet",
+            "id": "36813",
+            "preferred": 0,
+            "isp_id": "4221",
+            "https_functional": 1,
+            "host": "speedtest2.solo.citra.net.id.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest2.solo.citra.net.id",
+            "ip_address": {
+                "A": "202.65.123.22",
+                "AAAA": "2401:ee00:2020:1::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest.jogja.citra.net.id:8080/speedtest/upload.php",
+            "lat": "-7.7956",
+            "lon": "110.3695",
+            "name": "Yogyakarta",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "CitraNet",
+            "id": "12532",
+            "preferred": 0,
+            "isp_id": "293338",
+            "host": "speedtest.jogja.citra.net.id:8080",
+            "hostname": "speedtest.jogja.citra.net.id",
+            "ip_address": {
+                "A": "202.65.113.218"
+            },
+            "ipv6_capable": "no"
+        }
+    ],
+    "total_servers": 3,
+    "updated_at": "2026-06-25T14:13:12.512276+05:30"
+}

@@ -1,0 +1,26 @@
+{
+    "servers": [
+        {
+            "url": "http://jkt-speedtest.moratelindo.io:8080/speedtest/upload.php",
+            "lat": "-6.2088",
+            "lon": "106.8456",
+            "name": "Jakarta",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT. Mora Telematika Indonesia",
+            "id": "30400",
+            "preferred": 0,
+            "isp_id": "63589",
+            "https_functional": 1,
+            "host": "jkt-speedtest.moratelindo.io.prod.hosts.ooklaserver.net:8080",
+            "hostname": "jkt-speedtest.moratelindo.io",
+            "ip_address": {
+                "A": "103.123.248.90",
+                "AAAA": "2400:dc00:c003:0:526b:8dff:fe8f:488f"
+            },
+            "ipv6_capable": "yes"
+        }
+    ],
+    "total_servers": 1,
+    "updated_at": "2026-06-25T14:13:07.366117+05:30"
+}

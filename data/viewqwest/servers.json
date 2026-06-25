@@ -1,0 +1,25 @@
+{
+    "servers": [
+        {
+            "url": "http://speedtest10.vqbn.com:8080/speedtest/upload.php",
+            "lat": "1.3000",
+            "lon": "103.8000",
+            "name": "Singapore",
+            "country": "Singapore",
+            "cc": "SG",
+            "sponsor": "ViewQwest",
+            "id": "2054",
+            "preferred": 0,
+            "isp_id": "72022",
+            "https_functional": 1,
+            "host": "speedtest10.vqbn.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest10.vqbn.com",
+            "ip_address": {
+                "A": "202.83.107.134"
+            },
+            "ipv6_capable": "no"
+        }
+    ],
+    "total_servers": 1,
+    "updated_at": "2026-06-25T14:03:41.130459+05:30"
+}

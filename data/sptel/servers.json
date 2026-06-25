@@ -1,0 +1,26 @@
+{
+    "servers": [
+        {
+            "url": "http://speedtest.sptel.com:8080/speedtest/upload.php",
+            "lat": "1.3000",
+            "lon": "103.8000",
+            "name": "Singapore",
+            "country": "Singapore",
+            "cc": "SG",
+            "sponsor": "SPTEL PTE. LTD.",
+            "id": "44817",
+            "preferred": 0,
+            "isp_id": "201669",
+            "https_functional": 1,
+            "host": "speedtest.sptel.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.sptel.com",
+            "ip_address": {
+                "A": "61.16.64.58",
+                "AAAA": "2407:9880:4002:d::58"
+            },
+            "ipv6_capable": "yes"
+        }
+    ],
+    "total_servers": 1,
+    "updated_at": "2026-06-25T14:03:45.436500+05:30"
+}

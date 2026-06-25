@@ -1,0 +1,25 @@
+{
+    "servers": [
+        {
+            "url": "http://speedtestneo.eastern-tele.com:8080/speedtest/upload.php",
+            "lat": "14.5500",
+            "lon": "121.0300",
+            "name": "Makati City",
+            "country": "Philippines",
+            "cc": "PH",
+            "sponsor": "Eastern Communications",
+            "id": "63215",
+            "preferred": 0,
+            "isp_id": "23573",
+            "https_functional": 1,
+            "host": "speedtestneo.eastern-tele.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtestneo.eastern-tele.com",
+            "ip_address": {
+                "A": "120.89.3.12"
+            },
+            "ipv6_capable": "no"
+        }
+    ],
+    "total_servers": 1,
+    "updated_at": "2026-06-25T14:03:38.054072+05:30"
+}

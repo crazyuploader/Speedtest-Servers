@@ -1,0 +1,24 @@
+{
+    "servers": [
+        {
+            "url": "https://speedtest-sg1.simba.sg:8080/speedtest/upload.php",
+            "lat": "1.3521",
+            "lon": "103.8198",
+            "name": "Singapore",
+            "country": "Singapore",
+            "cc": "SG",
+            "sponsor": "SIMBA Telecom",
+            "id": "12687",
+            "preferred": 0,
+            "isp_id": "239389",
+            "host": "speedtest-sg1.simba.sg:8080",
+            "hostname": "speedtest-sg1.simba.sg",
+            "ip_address": {
+                "A": "210.10.78.220"
+            },
+            "ipv6_capable": "no"
+        }
+    ],
+    "total_servers": 1,
+    "updated_at": "2026-06-25T14:07:20.668240+05:30"
+}

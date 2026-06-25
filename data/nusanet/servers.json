@@ -1,0 +1,105 @@
+{
+    "servers": [
+        {
+            "url": "http://bandwith.bdl.nusa.net.id:8080/speedtest/upload.php",
+            "lat": "-5.4500",
+            "lon": "105.2667",
+            "name": "Bandar Lampung",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "nusanet",
+            "id": "58043",
+            "preferred": 0,
+            "isp_id": "120552",
+            "https_functional": 1,
+            "host": "bandwith.bdl.nusa.net.id.prod.hosts.ooklaserver.net:8080",
+            "hostname": "bandwith.bdl.nusa.net.id",
+            "ip_address": {
+                "A": "192.145.228.241",
+                "AAAA": "::ffff:192.145.228.241"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest.bali.nusa.net.id:8080/speedtest/upload.php",
+            "lat": "-8.6500",
+            "lon": "115.2167",
+            "name": "Denpasar",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "nusanet",
+            "id": "39563",
+            "preferred": 0,
+            "isp_id": "11501",
+            "https_functional": 1,
+            "host": "speedtest.bali.nusa.net.id:8080",
+            "hostname": "speedtest.bali.nusa.net.id",
+            "ip_address": {
+                "A": "43.230.129.18",
+                "AAAA": "2401:2900:3f00::1"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest.nusa.net.id:8080/speedtest/upload.php",
+            "lat": "3.5833",
+            "lon": "98.6667",
+            "name": "Medan",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "nusanet",
+            "id": "15372",
+            "preferred": 0,
+            "isp_id": "11501",
+            "https_functional": 1,
+            "host": "speedtest.nusa.net.id:8080",
+            "hostname": "speedtest.nusa.net.id",
+            "ip_address": {
+                "A": "202.162.193.4",
+                "AAAA": "::ffff:202.162.193.4"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speed.plg.nusa.net.id:8080/speedtest/upload.php",
+            "lat": "-2.9911",
+            "lon": "104.7567",
+            "name": "Palembang",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "nusanet",
+            "id": "54430",
+            "preferred": 0,
+            "isp_id": "249636",
+            "https_functional": 1,
+            "host": "speed.plg.nusa.net.id.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speed.plg.nusa.net.id",
+            "ip_address": {
+                "A": "103.218.166.13",
+                "AAAA": "::ffff:103.218.166.13"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest.sby.nusa.net.id:8080/speedtest/upload.php",
+            "lat": "-7.2667",
+            "lon": "112.7333",
+            "name": "Surabaya",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "nusanet",
+            "id": "31504",
+            "preferred": 0,
+            "isp_id": "11501",
+            "https_functional": 1,
+            "host": "speedtest.sby.nusa.net.id:8080",
+            "hostname": "speedtest.sby.nusa.net.id",
+            "ip_address": {
+                "A": "202.162.202.122"
+            },
+            "ipv6_capable": "no"
+        }
+    ],
+    "total_servers": 5,
+    "updated_at": "2026-06-25T14:13:21.945950+05:30"
+}

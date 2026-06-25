@@ -1,0 +1,489 @@
+{
+    "servers": [
+        {
+            "url": "http://speed-bpp-01.ioh.co.id:8080/speedtest/upload.php",
+            "lat": "-1.2443",
+            "lon": "116.8718",
+            "name": "Balikpapan",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT Indosat Tbk",
+            "id": "71259",
+            "preferred": 0,
+            "isp_id": "28882",
+            "https_functional": 1,
+            "host": "speed-bpp-01.ioh.co.id.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speed-bpp-01.ioh.co.id",
+            "ip_address": {
+                "A": "202.67.39.50"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://speed-ach-01.ioh.co.id:8080/speedtest/upload.php",
+            "lat": "5.5328",
+            "lon": "95.2765",
+            "name": "Banda Aceh",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT. Indosat Tbk",
+            "id": "71233",
+            "preferred": 0,
+            "isp_id": "28882",
+            "https_functional": 1,
+            "host": "speed-ach-01.ioh.co.id.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speed-ach-01.ioh.co.id",
+            "ip_address": {
+                "A": "116.206.32.195"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://speed-lpg-01.ioh.co.id:8080/speedtest/upload.php",
+            "lat": "-5.3646",
+            "lon": "105.2583",
+            "name": "Bandar Lampung",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT. Indosat Tbk",
+            "id": "67939",
+            "preferred": 0,
+            "isp_id": "28882",
+            "https_functional": 1,
+            "host": "speed-lpg-01.ioh.co.id.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speed-lpg-01.ioh.co.id",
+            "ip_address": {
+                "A": "116.206.42.21",
+                "AAAA": "2400:8b00:d10:6::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speed-bdg-01.ioh.co.id:8080/speedtest/upload.php",
+            "lat": "-6.9483",
+            "lon": "107.6353",
+            "name": "Bandung",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT. Indosat Tbk",
+            "id": "67936",
+            "preferred": 0,
+            "isp_id": "28882",
+            "https_functional": 1,
+            "host": "speed-bdg-01.ioh.co.id.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speed-bdg-01.ioh.co.id",
+            "ip_address": {
+                "A": "116.206.15.201",
+                "AAAA": "2400:8b00:510:6::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speed-bjm-01.ioh.co.id:8080/speedtest/upload.php",
+            "lat": "-3.3453",
+            "lon": "114.6425",
+            "name": "Banjarmasin",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT. Indosat Tbk",
+            "id": "67940",
+            "preferred": 0,
+            "isp_id": "28882",
+            "https_functional": 1,
+            "host": "speed-bjm-01.ioh.co.id.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speed-bjm-01.ioh.co.id",
+            "ip_address": {
+                "A": "202.67.32.198"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://speed-pgd-02.ioh.co.id:8080/speedtest/upload.php",
+            "lat": "-6.2443",
+            "lon": "107.1479",
+            "name": "Bekasi",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT. Indosat Tbk",
+            "id": "71479",
+            "preferred": 0,
+            "isp_id": "28882",
+            "https_functional": 1,
+            "host": "speed-pgd-02.ioh.co.id.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speed-pgd-02.ioh.co.id",
+            "ip_address": {
+                "A": "114.10.37.2"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://coredps1.tri.co.id:8080/speedtest/upload.php",
+            "lat": "-8.6371",
+            "lon": "115.1920",
+            "name": "Denpasar",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT. Indosat Tbk",
+            "id": "13874",
+            "preferred": 0,
+            "isp_id": "28882",
+            "host": "coredps1.tri.co.id:8080",
+            "hostname": "coredps1.tri.co.id",
+            "ip_address": {
+                "A": "114.10.178.34"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://speed-pgd-01.ioh.co.id:8080/speedtest/upload.php",
+            "lat": "-6.4025",
+            "lon": "106.7942",
+            "name": "Depok",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT. Indosat Tbk",
+            "id": "71478",
+            "preferred": 0,
+            "isp_id": "28882",
+            "https_functional": 1,
+            "host": "speed-pgd-01.ioh.co.id:8080",
+            "hostname": "speed-pgd-01.ioh.co.id",
+            "ip_address": {
+                "A": "114.10.37.1"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://speed-gto-01.ioh.co.id:8080/speedtest/upload.php",
+            "lat": "0.5433",
+            "lon": "123.0420",
+            "name": "Gorontalo",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT. Indosat Tbk",
+            "id": "71277",
+            "preferred": 0,
+            "isp_id": "28882",
+            "https_functional": 1,
+            "host": "speed-gto-01.ioh.co.id.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speed-gto-01.ioh.co.id",
+            "ip_address": {
+                "A": "114.142.174.223"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://speedtest.indosatooredoo.com:8080/speedtest/upload.php",
+            "lat": "-6.1306",
+            "lon": "106.8220",
+            "name": "Jakarta",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT. Indosat Tbk",
+            "id": "13039",
+            "preferred": 0,
+            "isp_id": "28882",
+            "https_functional": 1,
+            "host": "speedtest.indosatooredoo.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest.indosatooredoo.com",
+            "ip_address": {
+                "A": "114.4.41.5",
+                "AAAA": "2407:0:3000:1::a9"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speed-jab-01.ioh.co.id:8080/speedtest/upload.php",
+            "lat": "-1.6086",
+            "lon": "103.5932",
+            "name": "Jambi",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT Indosat Tbk",
+            "id": "71258",
+            "preferred": 0,
+            "isp_id": "28882",
+            "https_functional": 1,
+            "host": "speed-jab-01.ioh.co.id.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speed-jab-01.ioh.co.id",
+            "ip_address": {
+                "A": "114.10.36.1"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://speedtest2.indosatooredoo.com:8080/speedtest/upload.php",
+            "lat": "-6.5347",
+            "lon": "107.3987",
+            "name": "Jatiluhur",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT. Indosat Tbk",
+            "id": "36699",
+            "preferred": 0,
+            "isp_id": "28882",
+            "https_functional": 1,
+            "host": "speedtest2.indosatooredoo.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest2.indosatooredoo.com",
+            "ip_address": {
+                "A": "114.5.9.166",
+                "AAAA": "2407:0:3000:1::b1"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speed-ktw-01.ioh.co.id:8080/speedtest/upload.php",
+            "lat": "-2.5337",
+            "lon": "112.9124",
+            "name": "Kotawaringin",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT. Indosat Tbk",
+            "id": "71276",
+            "preferred": 0,
+            "isp_id": "28882",
+            "https_functional": 1,
+            "host": "speed-ktw-01.ioh.co.id.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speed-ktw-01.ioh.co.id",
+            "ip_address": {
+                "A": "114.10.35.1"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://speed-mks-01.ioh.co.id:8080/speedtest/upload.php",
+            "lat": "-5.0986",
+            "lon": "119.5020",
+            "name": "Makassar",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT. Indosat Tbk",
+            "id": "32399",
+            "preferred": 0,
+            "isp_id": "28882",
+            "https_functional": 1,
+            "host": "speed-mks-01.ioh.co.id.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speed-mks-01.ioh.co.id",
+            "ip_address": {
+                "A": "202.67.36.54"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://speed-mlg-01.ioh.co.id:8080/speedtest/upload.php",
+            "lat": "-7.9694",
+            "lon": "112.6320",
+            "name": "Malang",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT. Indosat Tbk",
+            "id": "67938",
+            "preferred": 0,
+            "isp_id": "28882",
+            "https_functional": 1,
+            "host": "speed-mlg-01.ioh.co.id.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speed-mlg-01.ioh.co.id",
+            "ip_address": {
+                "A": "103.108.20.202",
+                "AAAA": "2400:8b00:1810:6::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speed-mdo-01.ioh.co.id:8080/speedtest/upload.php",
+            "lat": "1.4671",
+            "lon": "124.8558",
+            "name": "Manado",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT. Indosat Tbk",
+            "id": "62019",
+            "preferred": 0,
+            "isp_id": "28882",
+            "host": "speed-mdo-01.ioh.co.id:8080",
+            "hostname": "speed-mdo-01.ioh.co.id",
+            "ip_address": {
+                "A": "103.10.64.107",
+                "AAAA": "2400:8b00:a90:6::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest4.indosatooredoo.com:8080/speedtest/upload.php",
+            "lat": "3.5519",
+            "lon": "98.6367",
+            "name": "Medan",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT. Indosat Tbk",
+            "id": "39334",
+            "preferred": 0,
+            "isp_id": "28882",
+            "https_functional": 1,
+            "host": "speedtest4.indosatooredoo.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest4.indosatooredoo.com",
+            "ip_address": {
+                "A": "114.7.173.94",
+                "AAAA": "2407:0:3000:1::c1"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speed-pdg-01.ioh.co.id:8080/speedtest/upload.php",
+            "lat": "-0.9279",
+            "lon": "100.3863",
+            "name": "Padang",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT. Indosat Tbk",
+            "id": "69133",
+            "preferred": 0,
+            "isp_id": "28882",
+            "https_functional": 1,
+            "host": "speed-pdg-01.ioh.co.id.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speed-pdg-01.ioh.co.id",
+            "ip_address": {
+                "A": "223.255.231.204"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://speed-plb-01.ioh.co.id:8080/speedtest/upload.php",
+            "lat": "-2.9755",
+            "lon": "104.7439",
+            "name": "Palembang",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT. Indosat Tbk",
+            "id": "68558",
+            "preferred": 0,
+            "isp_id": "28882",
+            "https_functional": 1,
+            "host": "speed-plb-01.ioh.co.id.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speed-plb-01.ioh.co.id",
+            "ip_address": {
+                "A": "202.67.43.211"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://speed-pkb-01.ioh.co.id:8080/speedtest/upload.php",
+            "lat": "0.4901",
+            "lon": "101.3942",
+            "name": "Pekanbaru",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT. Indosat Tbk",
+            "id": "69335",
+            "preferred": 0,
+            "isp_id": "28882",
+            "https_functional": 1,
+            "host": "speed-pkb-01.ioh.co.id.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speed-pkb-01.ioh.co.id",
+            "ip_address": {
+                "A": "202.67.44.227"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://speed-smg-01.ioh.co.id:8080/speedtest/upload.php",
+            "lat": "-7.0415",
+            "lon": "110.4234",
+            "name": "Semarang",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT. Indosat Tbk",
+            "id": "68560",
+            "preferred": 0,
+            "isp_id": "28882",
+            "https_functional": 1,
+            "host": "speed-smg-01.ioh.co.id.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speed-smg-01.ioh.co.id",
+            "ip_address": {
+                "A": "103.105.28.70",
+                "AAAA": "2400:8b00:710:6::8"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speed-anc-02.ioh.co.id:8080/speedtest/upload.php",
+            "lat": "-6.1169",
+            "lon": "106.1539",
+            "name": "Serang",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT. Indosat Tbk",
+            "id": "71477",
+            "preferred": 0,
+            "isp_id": "28882",
+            "https_functional": 1,
+            "host": "speed-anc-02.ioh.co.id.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speed-anc-02.ioh.co.id",
+            "ip_address": {
+                "A": "114.8.232.125"
+            },
+            "ipv6_capable": "no"
+        },
+        {
+            "url": "http://speedtest3.indosatooredoo.com:8080/speedtest/upload.php",
+            "lat": "-7.2714",
+            "lon": "112.7446",
+            "name": "Surabaya",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT. Indosat Tbk",
+            "id": "36700",
+            "preferred": 0,
+            "isp_id": "28882",
+            "https_functional": 1,
+            "host": "speedtest3.indosatooredoo.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest3.indosatooredoo.com",
+            "ip_address": {
+                "A": "114.5.9.162",
+                "AAAA": "2407:0:3000:1::b5"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speed-slo-01.ioh.co.id:8080/speedtest/upload.php",
+            "lat": "-7.5391",
+            "lon": "110.8482",
+            "name": "Surakarta",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT. Indosat Tbk",
+            "id": "13777",
+            "preferred": 0,
+            "isp_id": "28882",
+            "https_functional": 1,
+            "host": "speed-slo-01.ioh.co.id.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speed-slo-01.ioh.co.id",
+            "ip_address": {
+                "A": "114.142.169.202",
+                "AAAA": "2400:8b00:610:6::2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speed-anc-01.ioh.co.id:8080/speedtest/upload.php",
+            "lat": "-6.1770",
+            "lon": "106.6284",
+            "name": "Tangerang",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "PT. Indosat Tbk",
+            "id": "71476",
+            "preferred": 0,
+            "isp_id": "28882",
+            "https_functional": 1,
+            "host": "speed-anc-01.ioh.co.id.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speed-anc-01.ioh.co.id",
+            "ip_address": {
+                "A": "114.8.232.124"
+            },
+            "ipv6_capable": "no"
+        }
+    ],
+    "total_servers": 25,
+    "updated_at": "2026-06-25T14:02:54.205730+05:30"
+}

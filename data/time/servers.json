@@ -1,0 +1,66 @@
+{
+    "servers": [
+        {
+            "url": "http://speedkl.time.com.my:8080/speedtest/upload.php",
+            "lat": "3.1357",
+            "lon": "101.6880",
+            "name": "Kuala Lumpur",
+            "country": "Malaysia",
+            "cc": "MY",
+            "sponsor": "TIME MY",
+            "id": "50737",
+            "preferred": 0,
+            "isp_id": "69378",
+            "https_functional": 1,
+            "host": "speedkl.time.com.my.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedkl.time.com.my",
+            "ip_address": {
+                "A": "223.28.57.66",
+                "AAAA": "2001:f40:0:2::496"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedpg.time.com.my:8080/speedtest/upload.php",
+            "lat": "5.4141",
+            "lon": "100.3288",
+            "name": "Penang",
+            "country": "Malaysia",
+            "cc": "MY",
+            "sponsor": "TIME MY",
+            "id": "53188",
+            "preferred": 0,
+            "isp_id": "69378",
+            "https_functional": 1,
+            "host": "speedpg.time.com.my:8080",
+            "hostname": "speedpg.time.com.my",
+            "ip_address": {
+                "A": "202.185.6.226",
+                "AAAA": "2001:f40:1:1::54:2"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speed.time.com.my:8080/speedtest/upload.php",
+            "lat": "3.0833",
+            "lon": "101.5333",
+            "name": "Shah Alam",
+            "country": "Malaysia",
+            "cc": "MY",
+            "sponsor": "TIME MY",
+            "id": "12108",
+            "preferred": 0,
+            "isp_id": "69378",
+            "https_functional": 1,
+            "host": "speed.time.com.my:8080",
+            "hostname": "speed.time.com.my",
+            "ip_address": {
+                "A": "203.121.74.194",
+                "AAAA": "2001:f40:0:1::1c5:2"
+            },
+            "ipv6_capable": "yes"
+        }
+    ],
+    "total_servers": 3,
+    "updated_at": "2026-06-25T14:03:21.751989+05:30"
+}

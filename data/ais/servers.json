@@ -1,0 +1,486 @@
+{
+    "servers": [
+        {
+            "url": "http://speedtest-aya1.ais-idc.net:8080/speedtest/upload.php",
+            "lat": "14.3692",
+            "lon": "100.5877",
+            "name": "Ayutthaya",
+            "country": "Thailand",
+            "cc": "TH",
+            "sponsor": "AIS",
+            "id": "17690",
+            "preferred": 0,
+            "isp_id": "79233",
+            "https_functional": 1,
+            "host": "speedtest-aya1.ais-idc.net.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest-aya1.ais-idc.net",
+            "ip_address": {
+                "A": "58.64.53.12",
+                "AAAA": "2405:9800:b015:53::12"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://tlssp1.myaisfibre.com:8080/speedtest/upload.php",
+            "lat": "13.7563",
+            "lon": "100.5018",
+            "name": "Bangkok",
+            "country": "Thailand",
+            "cc": "TH",
+            "sponsor": "AIS Fibre",
+            "id": "36978",
+            "preferred": 0,
+            "isp_id": "79233",
+            "https_functional": 1,
+            "host": "tlssp1.myaisfibre.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "tlssp1.myaisfibre.com",
+            "ip_address": {
+                "A": "58.64.48.212",
+                "AAAA": "2405:9800:b010:50::212"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest-cmi1.ais-idc.net:8080/speedtest/upload.php",
+            "lat": "18.7061",
+            "lon": "98.9817",
+            "name": "Chiang Mai",
+            "country": "Thailand",
+            "cc": "TH",
+            "sponsor": "AIS",
+            "id": "10844",
+            "preferred": 0,
+            "isp_id": "79233",
+            "https_functional": 1,
+            "host": "speedtest-cmi1.ais-idc.net.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest-cmi1.ais-idc.net",
+            "ip_address": {
+                "A": "58.64.52.12",
+                "AAAA": "2405:9800:b014:52::12"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://raisp1.myaisfibre.com:8080/speedtest/upload.php",
+            "lat": "19.9105",
+            "lon": "99.8406",
+            "name": "Chiang Rai",
+            "country": "Thailand",
+            "cc": "TH",
+            "sponsor": "AIS",
+            "id": "42128",
+            "preferred": 0,
+            "isp_id": "79233",
+            "https_functional": 1,
+            "host": "raisp1.myaisfibre.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "raisp1.myaisfibre.com",
+            "ip_address": {
+                "A": "58.64.52.20",
+                "AAAA": "2405:9800:b014:53::20"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest-cbi1.ais-idc.net:8080/speedtest/upload.php",
+            "lat": "13.3611",
+            "lon": "100.9850",
+            "name": "Chonburi",
+            "country": "Thailand",
+            "cc": "TH",
+            "sponsor": "AIS",
+            "id": "16128",
+            "preferred": 0,
+            "isp_id": "79233",
+            "https_functional": 1,
+            "host": "speedtest-cbi1.ais-idc.net.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest-cbi1.ais-idc.net",
+            "ip_address": {
+                "A": "58.64.54.12",
+                "AAAA": "2405:9800:b016:54::12"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest-kkn1.ais-idc.net:8080/speedtest/upload.php",
+            "lat": "16.4322",
+            "lon": "102.8236",
+            "name": "Khon Kaen",
+            "country": "Thailand",
+            "cc": "TH",
+            "sponsor": "AIS",
+            "id": "11195",
+            "preferred": 0,
+            "isp_id": "79233",
+            "https_functional": 1,
+            "host": "speedtest-kkn1.ais-idc.net.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest-kkn1.ais-idc.net",
+            "ip_address": {
+                "A": "58.64.51.12",
+                "AAAA": "2405:9800:b013:51::12"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://lbrsp1.myaisfibre.com:8080/speedtest/upload.php",
+            "lat": "14.7995",
+            "lon": "100.6534",
+            "name": "Mueang Lop Buri",
+            "country": "Thailand",
+            "cc": "TH",
+            "sponsor": "AIS",
+            "id": "42132",
+            "preferred": 0,
+            "isp_id": "79233",
+            "https_functional": 1,
+            "host": "lbrsp1.myaisfibre.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "lbrsp1.myaisfibre.com",
+            "ip_address": {
+                "A": "58.64.53.20",
+                "AAAA": "2405:9800:b015:54::20"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest-npt1.ais-idc.net:8080/speedtest/upload.php",
+            "lat": "13.8140",
+            "lon": "100.0373",
+            "name": "Nakhon Pathom",
+            "country": "Thailand",
+            "cc": "TH",
+            "sponsor": "AIS",
+            "id": "17691",
+            "preferred": 0,
+            "isp_id": "79233",
+            "https_functional": 1,
+            "host": "speedtest-npt1.ais-idc.net.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest-npt1.ais-idc.net",
+            "ip_address": {
+                "A": "58.64.61.12",
+                "AAAA": "2405:9800:b01d:61::12"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest-nma1.ais-idc.net:8080/speedtest/upload.php",
+            "lat": "14.9750",
+            "lon": "102.1000",
+            "name": "Nakhon Ratchasima",
+            "country": "Thailand",
+            "cc": "TH",
+            "sponsor": "AIS",
+            "id": "17111",
+            "preferred": 0,
+            "isp_id": "79233",
+            "https_functional": 1,
+            "host": "speedtest-nma1.ais-idc.net.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest-nma1.ais-idc.net",
+            "ip_address": {
+                "A": "58.64.59.12",
+                "AAAA": "2405:9800:b01b:59::12"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://nkssp1.myaisfibre.com:8080/speedtest/upload.php",
+            "lat": "15.6987",
+            "lon": "100.1200",
+            "name": "Nakhon Sawan",
+            "country": "Thailand",
+            "cc": "TH",
+            "sponsor": "AIS",
+            "id": "42129",
+            "preferred": 0,
+            "isp_id": "79233",
+            "https_functional": 1,
+            "host": "nkssp1.myaisfibre.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "nkssp1.myaisfibre.com",
+            "ip_address": {
+                "A": "58.64.60.20",
+                "AAAA": "2405:9800:b01c:61::20"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://nstsp1.myaisfibre.com:8080/speedtest/upload.php",
+            "lat": "8.4325",
+            "lon": "99.9599",
+            "name": "Nakhon Si Thammarat",
+            "country": "Thailand",
+            "cc": "TH",
+            "sponsor": "AIS",
+            "id": "42136",
+            "preferred": 0,
+            "isp_id": "79233",
+            "https_functional": 1,
+            "host": "nstsp1.myaisfibre.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "nstsp1.myaisfibre.com",
+            "ip_address": {
+                "A": "58.64.55.24",
+                "AAAA": "2405:9800:b017:56::24"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest-nbi1.ais-idc.net:8080/speedtest/upload.php",
+            "lat": "13.8621",
+            "lon": "100.5144",
+            "name": "Nonthaburi",
+            "country": "Thailand",
+            "cc": "TH",
+            "sponsor": "AIS",
+            "id": "16061",
+            "preferred": 0,
+            "isp_id": "79233",
+            "https_functional": 1,
+            "host": "speedtest-nbi1.ais-idc.net.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest-nbi1.ais-idc.net",
+            "ip_address": {
+                "A": "58.64.48.12",
+                "AAAA": "2405:9800:b010:48::12"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest-pte1.ais-idc.net:8080/speedtest/upload.php",
+            "lat": "14.0500",
+            "lon": "100.4833",
+            "name": "Pathum Thani",
+            "country": "Thailand",
+            "cc": "TH",
+            "sponsor": "AIS",
+            "id": "16062",
+            "preferred": 0,
+            "isp_id": "79233",
+            "https_functional": 1,
+            "host": "speedtest-pte1.ais-idc.net.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest-pte1.ais-idc.net",
+            "ip_address": {
+                "A": "58.64.48.197",
+                "AAAA": "2405:9800:b010:49::197"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://ptnsp1.myaisfibre.com:8080/speedtest/upload.php",
+            "lat": "6.7618",
+            "lon": "101.3233",
+            "name": "Pattani",
+            "country": "Thailand",
+            "cc": "TH",
+            "sponsor": "AIS",
+            "id": "42930",
+            "preferred": 0,
+            "isp_id": "79233",
+            "https_functional": 1,
+            "host": "ptnsp1.myaisfibre.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "ptnsp1.myaisfibre.com",
+            "ip_address": {
+                "A": "58.64.63.20",
+                "AAAA": "2405:9800:b01f:64::20"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest-pty1.ais-idc.net:8080/speedtest/upload.php",
+            "lat": "12.9276",
+            "lon": "100.8771",
+            "name": "Pattaya",
+            "country": "Thailand",
+            "cc": "TH",
+            "sponsor": "AIS",
+            "id": "17692",
+            "preferred": 0,
+            "isp_id": "79233",
+            "https_functional": 1,
+            "host": "speedtest-pty1.ais-idc.net.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest-pty1.ais-idc.net",
+            "ip_address": {
+                "A": "58.64.62.12",
+                "AAAA": "2405:9800:b01e:62::12"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest-plk1.ais-idc.net:8080/speedtest/upload.php",
+            "lat": "16.8211",
+            "lon": "100.2659",
+            "name": "Phitsanulok",
+            "country": "Thailand",
+            "cc": "TH",
+            "sponsor": "AIS",
+            "id": "17134",
+            "preferred": 0,
+            "isp_id": "79233",
+            "https_functional": 1,
+            "host": "speedtest-plk1.ais-idc.net.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest-plk1.ais-idc.net",
+            "ip_address": {
+                "A": "58.64.60.12",
+                "AAAA": "2405:9800:b01c:60::12"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://pktsp1.myaisfibre.com:8080/speedtest/upload.php",
+            "lat": "7.9739",
+            "lon": "98.3439",
+            "name": "Phuket",
+            "country": "Thailand",
+            "cc": "TH",
+            "sponsor": "AIS",
+            "id": "42135",
+            "preferred": 0,
+            "isp_id": "79233",
+            "https_functional": 1,
+            "host": "pktsp1.myaisfibre.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "pktsp1.myaisfibre.com",
+            "ip_address": {
+                "A": "58.64.55.20",
+                "AAAA": "2405:9800:b017:56::20"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://rygsp1.myaisfibre.com:8080/speedtest/upload.php",
+            "lat": "12.6814",
+            "lon": "101.2816",
+            "name": "Rayong",
+            "country": "Thailand",
+            "cc": "TH",
+            "sponsor": "AIS",
+            "id": "42134",
+            "preferred": 0,
+            "isp_id": "79233",
+            "https_functional": 1,
+            "host": "rygsp1.myaisfibre.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "rygsp1.myaisfibre.com",
+            "ip_address": {
+                "A": "58.64.62.20",
+                "AAAA": "2405:9800:b01e:63::20"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest-spk1.ais-idc.net:8080/speedtest/upload.php",
+            "lat": "13.5991",
+            "lon": "100.5998",
+            "name": "Samut Prakan",
+            "country": "Thailand",
+            "cc": "TH",
+            "sponsor": "AIS",
+            "id": "16063",
+            "preferred": 0,
+            "isp_id": "79233",
+            "https_functional": 1,
+            "host": "speedtest-spk1.ais-idc.net.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest-spk1.ais-idc.net",
+            "ip_address": {
+                "A": "58.64.56.196",
+                "AAAA": "2405:9800:b018:57::196"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://skasp1.myaisfibre.com:8080/speedtest/upload.php",
+            "lat": "13.5498",
+            "lon": "100.2741",
+            "name": "Samut Sakhon",
+            "country": "Thailand",
+            "cc": "TH",
+            "sponsor": "AIS",
+            "id": "41066",
+            "preferred": 0,
+            "isp_id": "79233",
+            "https_functional": 1,
+            "host": "skasp1.myaisfibre.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "skasp1.myaisfibre.com",
+            "ip_address": {
+                "A": "58.64.61.20",
+                "AAAA": "2405:9800:b01d:62::20"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest-hyi1.ais-idc.net:8080/speedtest/upload.php",
+            "lat": "7.1898",
+            "lon": "100.5954",
+            "name": "Songkhla",
+            "country": "Thailand",
+            "cc": "TH",
+            "sponsor": "AIS",
+            "id": "12059",
+            "preferred": 0,
+            "isp_id": "79233",
+            "https_functional": 1,
+            "host": "speedtest-hyi1.ais-idc.net.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest-hyi1.ais-idc.net",
+            "ip_address": {
+                "A": "58.64.63.12",
+                "AAAA": "2405:9800:b01f:63::12"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://speedtest-sni1.ais-idc.net:8080/speedtest/upload.php",
+            "lat": "9.1333",
+            "lon": "99.3317",
+            "name": "Surat Thani",
+            "country": "Thailand",
+            "cc": "TH",
+            "sponsor": "AIS",
+            "id": "11277",
+            "preferred": 0,
+            "isp_id": "79233",
+            "https_functional": 1,
+            "host": "speedtest-sni1.ais-idc.net.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest-sni1.ais-idc.net",
+            "ip_address": {
+                "A": "58.64.55.12",
+                "AAAA": "2405:9800:b017:55::12"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://sursp1.myaisfibre.com:8080/speedtest/upload.php",
+            "lat": "14.8829",
+            "lon": "103.4937",
+            "name": "Surin",
+            "country": "Thailand",
+            "cc": "TH",
+            "sponsor": "AIS",
+            "id": "42277",
+            "preferred": 0,
+            "isp_id": "79233",
+            "https_functional": 1,
+            "host": "sursp1.myaisfibre.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "sursp1.myaisfibre.com",
+            "ip_address": {
+                "A": "58.64.59.20",
+                "AAAA": "2405:9800:b01b:60::20"
+            },
+            "ipv6_capable": "yes"
+        },
+        {
+            "url": "http://udtsp1.myaisfibre.com:8080/speedtest/upload.php",
+            "lat": "17.3647",
+            "lon": "102.8159",
+            "name": "Udon Thani",
+            "country": "Thailand",
+            "cc": "TH",
+            "sponsor": "AIS",
+            "id": "42130",
+            "preferred": 0,
+            "isp_id": "79233",
+            "https_functional": 1,
+            "host": "udtsp1.myaisfibre.com.prod.hosts.ooklaserver.net:8080",
+            "hostname": "udtsp1.myaisfibre.com",
+            "ip_address": {
+                "A": "58.64.51.20",
+                "AAAA": "2405:9800:b013:52::20"
+            },
+            "ipv6_capable": "yes"
+        }
+    ],
+    "total_servers": 24,
+    "updated_at": "2026-06-25T14:07:57.051718+05:30"
+}

@@ -1,0 +1,25 @@
+{
+    "servers": [
+        {
+            "url": "http://speedtest-jkt.hypernet.co.id:8080/speedtest/upload.php",
+            "lat": "-6.1745",
+            "lon": "106.8227",
+            "name": "Jakarta",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "HYPERNET",
+            "id": "5248",
+            "preferred": 0,
+            "isp_id": "28881",
+            "https_functional": 1,
+            "host": "speedtest-jkt.hypernet.co.id.prod.hosts.ooklaserver.net:8080",
+            "hostname": "speedtest-jkt.hypernet.co.id",
+            "ip_address": {
+                "A": "122.102.44.18"
+            },
+            "ipv6_capable": "no"
+        }
+    ],
+    "total_servers": 1,
+    "updated_at": "2026-06-25T14:13:24.730145+05:30"
+}

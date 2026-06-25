@@ -10,8 +10,11 @@ __author__ = "Jugal Kishore <me@devjugal.com>"
 import argparse
 from datetime import datetime, timezone
 import json
-import sys
 import os
+import random
+import re
+import sys
+import time
 import jc
 import requests
 
@@ -22,6 +25,7 @@ API_DNS_ENDPOINT = "https://api.devjugal.com/dns?hostname="
 SPEEDTEST_SERVERS_URL = (
     "https://www.speedtest.net/api/js/config-sdk?engine=js&limit=100&search="
 )
+REQUEST_DELAY_RANGE_SECONDS = (0.5, 1.5)
 
 
 def parse_args():
@@ -77,13 +81,78 @@ def sanitize_name(name):
     return name.strip().lower().replace(" ", "-")
 
 
+def normalize_isp_name(name):
+    """Normalizes ISP names for generated markdown output."""
+    special_cases = {
+        "GMEDIA": "GMedia",
+        "nusanet": "Nusanet",
+        "Firstmedia": "FirstMedia",
+        "MetfonePNP": "Metfone PNP",
+        "CelcomDigi Berhad": "CelcomDigi Berhad",
+        "CitraNet": "CitraNet",
+        "FarEasTone Telecom": "FarEasTone Telecom",
+        "fdcservers.net": "fdcservers.net",
+        "GlobalXtreme": "GlobalXtreme",
+        "SCTV Co.,Ltd": "SCTV Co., Ltd",
+        "ORANGE FRANCE": "Orange France",
+        "BHARAT SANCHAR NIGAM LTD": "Bharat Sanchar Nigam Ltd",
+        "HATHWAY CABLE & DATACOM LTD.": "Hathway Cable & Datacom Ltd.",
+        "ACT FIBERNET": "ACT Fibernet",
+        "MyRepublic Indonesia": "MyRepublic Indonesia",
+        "OneBroadband": "OneBroadband",
+        "Powergrid Corporation of India Ltd": "Powergrid Corporation of India Ltd",
+        "PT Indosat Tbk": "Indosat",
+        "PT Smartfren": "Smartfren",
+        "PT. Mora Telematika Indonesia": "Mora Telematika Indonesia",
+        "PT. Aplikanusa Lintasarta": "Aplikanusa Lintasarta",
+        "PT. Biznet Gio Nusantara": "Biznet Gio Nusantara",
+        "RailTel Corporation of India Ltd": "RailTel Corporation of India Ltd",
+        "Saudi Telecom Company (STC)": "STC",
+        "SIMBA Telecom": "SIMBA Telecom",
+        "SPTEL PTE. LTD.": "SPTEL Pte. Ltd.",
+        "TrueMove H": "TrueMove H",
+        "U Mobile Sdn Bhd": "U Mobile",
+        "Unified National Networks (UNN) Sdn Bhd": "Unified National Networks (UNN)",
+        "TELUS Mobility": "TELUS Mobility",
+        "VNPT-NET": "VNPT-NET",
+        "Yes SEATEL": "Yes SEATEL",
+        "KPN B.V.": "KPN",
+        "Digi (RCS & RDS)": "Digi",
+        "M1 Limited": "M1",
+        "Vodafone UK": "Vodafone UK",
+        "ViewQwest": "ViewQwest",
+        "FPT Telecom": "FPT Telecom",
+        "CMC Telecom": "CMC Telecom",
+        "CBN": "CBN",
+        "AIS": "AIS",
+        "AIS Fibre": "AIS Fibre",
+        "DITO": "DITO",
+        "SINET": "SINET",
+        "IZZI": "Izzi",
+        "NOS": "NOS",
+        "MEO": "MEO",
+        "BT": "BT",
+    }
+    if name in special_cases:
+        return special_cases[name]
+
+    words = []
+    for word in name.split():
+        bare = re.sub(r"[^A-Za-z0-9&.+-]", "", word)
+        if bare.isupper() and len(bare) <= 5:
+            words.append(word.upper())
+            continue
+        words.append(word[:1].upper() + word[1:].lower())
+    return " ".join(words)
+
+
 def format_isp_name(slug, servers):
     """Formats an ISP display name from server data, falling back to the slug."""
     if servers:
         sponsor = servers[0].get("sponsor", "").strip()
         if sponsor:
-            return sponsor
-    return slug.replace("-", " ").title()
+            return normalize_isp_name(sponsor)
+    return normalize_isp_name(slug.replace("-", " ").title())
 
 
 def update_server_data_markdown():
@@ -152,7 +221,7 @@ def main():
         sys.exit(1)
 
     try:
-        for term, country_filter in search_entries:
+        for index, (term, country_filter) in enumerate(search_entries):
             label = f"{term.title()}" + (f" (country: {country_filter})" if country_filter else "")
             print(f"\n--- Processing: {label} ---")
 
@@ -169,6 +238,11 @@ def main():
 
             print(f"INFO: Fetching servers for '{term}'...")
             try:
+                if index > 0:
+                    delay = random.uniform(*REQUEST_DELAY_RANGE_SECONDS)
+                    print(f"INFO: Sleeping {delay:.2f}s before next API request...")
+                    time.sleep(delay)
+
                 response = requests.get(
                     f"{SPEEDTEST_SERVERS_URL}{term}", timeout=30, allow_redirects=True
                 )

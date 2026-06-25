@@ -1,0 +1,26 @@
+{
+    "servers": [
+        {
+            "url": "http://speedtest.cbn.id:8080/speedtest/upload.php",
+            "lat": "-6.1745",
+            "lon": "106.8227",
+            "name": "Jakarta",
+            "country": "Indonesia",
+            "cc": "ID",
+            "sponsor": "CBN",
+            "id": "12807",
+            "preferred": 0,
+            "isp_id": "6208",
+            "https_functional": 1,
+            "host": "speedtest.cbn.id:8080",
+            "hostname": "speedtest.cbn.id",
+            "ip_address": {
+                "A": "202.158.8.14",
+                "AAAA": "2001:d10:9:3:202:158:8:14"
+            },
+            "ipv6_capable": "yes"
+        }
+    ],
+    "total_servers": 1,
+    "updated_at": "2026-06-25T14:02:31.818241+05:30"
+}
