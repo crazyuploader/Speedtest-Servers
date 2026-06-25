@@ -1,405 +1,405 @@
 {
-    "servers": [
-        {
-            "url": "http://speedtest-adelaide.optusnet.com.au:8080/speedtest/upload.php",
-            "lat": "-34.9290",
-            "lon": "138.6010",
-            "name": "Adelaide",
-            "country": "Australia",
-            "cc": "AU",
-            "sponsor": "Optus",
-            "id": "30936",
-            "preferred": 0,
-            "isp_id": "71769",
-            "https_functional": 1,
-            "host": "speedtest-adelaide.optusnet.com.au:8080",
-            "hostname": "speedtest-adelaide.optusnet.com.au",
-            "ip_address": {
-                "A": "198.142.236.211",
-                "AAAA": "2405:dc00:ef01:31b::1"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest-blacktown.optusnet.com.au:8080/speedtest/upload.php",
-            "lat": "-33.7447",
-            "lon": "150.8842",
-            "name": "Blacktown",
-            "country": "Australia",
-            "cc": "AU",
-            "sponsor": "Optus",
-            "id": "8777",
-            "preferred": 0,
-            "isp_id": "71769",
-            "https_functional": 1,
-            "host": "speedtest-blacktown.optusnet.com.au:8080",
-            "hostname": "speedtest-blacktown.optusnet.com.au",
-            "ip_address": {
-                "A": "198.142.236.205",
-                "AAAA": "2405:dc00:ef01:1c::1"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest-brisbane.optusnet.com.au:8080/speedtest/upload.php",
-            "lat": "-27.4728",
-            "lon": "153.0278",
-            "name": "Brisbane",
-            "country": "Australia",
-            "cc": "AU",
-            "sponsor": "Optus",
-            "id": "1594",
-            "preferred": 0,
-            "isp_id": "71769",
-            "https_functional": 1,
-            "host": "speedtest-brisbane.optusnet.com.au:8080",
-            "hostname": "speedtest-brisbane.optusnet.com.au",
-            "ip_address": {
-                "A": "198.142.236.207",
-                "AAAA": "2405:dc00:ef01:21a::1"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest-broome.optusnet.com.au:8080/speedtest/upload.php",
-            "lat": "-17.9614",
-            "lon": "122.2359",
-            "name": "Broome",
-            "country": "Australia",
-            "cc": "AU",
-            "sponsor": "Optus",
-            "id": "10630",
-            "preferred": 0,
-            "isp_id": "71769",
-            "https_functional": 1,
-            "host": "speedtest-broome.optusnet.com.au:8080",
-            "hostname": "speedtest-broome.optusnet.com.au",
-            "ip_address": {
-                "A": "198.142.236.203",
-                "AAAA": "2405:dc00:ef01:319::1"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest-darwin.optusnet.com.au:8080/speedtest/upload.php",
-            "lat": "-12.4500",
-            "lon": "130.8333",
-            "name": "Darwin",
-            "country": "Australia",
-            "cc": "AU",
-            "sponsor": "Optus",
-            "id": "10438",
-            "preferred": 0,
-            "isp_id": "71769",
-            "https_functional": 1,
-            "host": "speedtest-darwin.optusnet.com.au:8080",
-            "hostname": "speedtest-darwin.optusnet.com.au",
-            "ip_address": {
-                "A": "198.142.236.214",
-                "AAAA": "2405:dc00:ef01:21e::1"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "https://speedtest-eastburwood.optusnet.com.au:8080/speedtest/upload.php",
-            "lat": "-37.8136",
-            "lon": "144.9631",
-            "name": "East Burwood",
-            "country": "Australia",
-            "cc": "AU",
-            "sponsor": "Optus",
-            "id": "9108",
-            "preferred": 0,
-            "isp_id": "71769",
-            "https_functional": 1,
-            "host": "speedtest-eastburwood.optusnet.com.au:8080",
-            "hostname": "speedtest-eastburwood.optusnet.com.au",
-            "ip_address": {
-                "A": "198.142.236.206",
-                "AAAA": "2405:dc00:ef01:11d::1"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest-geelong.optusnet.com.au:8080/speedtest/upload.php",
-            "lat": "-38.1499",
-            "lon": "144.3617",
-            "name": "Geelong",
-            "country": "Australia",
-            "cc": "AU",
-            "sponsor": "Optus",
-            "id": "10612",
-            "preferred": 0,
-            "isp_id": "71769",
-            "https_functional": 1,
-            "host": "speedtest-geelong.optusnet.com.au:8080",
-            "hostname": "speedtest-geelong.optusnet.com.au",
-            "ip_address": {
-                "A": "198.142.236.200",
-                "AAAA": "2405:dc00:ef01:11b::1"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest-goldcoast.optusnet.com.au:8080/speedtest/upload.php",
-            "lat": "-28.0160",
-            "lon": "153.0167",
-            "name": "Gold Coast",
-            "country": "Australia",
-            "cc": "AU",
-            "sponsor": "Optus",
-            "id": "10441",
-            "preferred": 0,
-            "isp_id": "71769",
-            "https_functional": 1,
-            "host": "speedtest-goldcoast.optusnet.com.au:8080",
-            "hostname": "speedtest-goldcoast.optusnet.com.au",
-            "ip_address": {
-                "A": "198.142.236.208",
-                "AAAA": "2405:dc00:ef01:21b::1"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest-hobart.optusnet.com.au:8080/speedtest/upload.php",
-            "lat": "-42.8806",
-            "lon": "147.3250",
-            "name": "Hobart",
-            "country": "Australia",
-            "cc": "AU",
-            "sponsor": "Optus",
-            "id": "8976",
-            "preferred": 0,
-            "isp_id": "71769",
-            "https_functional": 1,
-            "host": "speedtest-hobart.optusnet.com.au:8080",
-            "hostname": "speedtest-hobart.optusnet.com.au",
-            "ip_address": {
-                "A": "198.142.236.201",
-                "AAAA": "2405:dc00:ef01:11c::1"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "https://speedtest-limestonecoast.optusnet.com.au:8080/speedtest/upload.php",
-            "lat": "-37.8284",
-            "lon": "140.7804",
-            "name": "Limestone Coast",
-            "country": "Australia",
-            "cc": "AU",
-            "sponsor": "Optus",
-            "id": "10439",
-            "preferred": 0,
-            "isp_id": "71769",
-            "https_functional": 1,
-            "host": "speedtest-limestonecoast.optusnet.com.au:8080",
-            "hostname": "speedtest-limestonecoast.optusnet.com.au",
-            "ip_address": {
-                "A": "198.142.236.213",
-                "AAAA": "2405:dc00:ef01:31d::1"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://pulsespeedtest.per.optusnet.com.au:8080/speedtest/upload.php",
-            "lat": "-31.8820",
-            "lon": "115.9498",
-            "name": "Lockridge",
-            "country": "Australia",
-            "cc": "AU",
-            "sponsor": "Optus",
-            "id": "53212",
-            "preferred": 0,
-            "isp_id": "71769",
-            "https_functional": 1,
-            "host": "pulsespeedtest.per.optusnet.com.au.prod.hosts.ooklaserver.net:8080",
-            "hostname": "pulsespeedtest.per.optusnet.com.au",
-            "ip_address": {
-                "A": "198.142.236.76"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest-marion.optusnet.com.au:8080/speedtest/upload.php",
-            "lat": "-35.0000",
-            "lon": "138.5520",
-            "name": "Marion",
-            "country": "Australia",
-            "cc": "AU",
-            "sponsor": "Optus",
-            "id": "10623",
-            "preferred": 0,
-            "isp_id": "71769",
-            "https_functional": 1,
-            "host": "speedtest-marion.optusnet.com.au:8080",
-            "hostname": "speedtest-marion.optusnet.com.au",
-            "ip_address": {
-                "A": "198.142.236.212",
-                "AAAA": "2405:dc00:ef01:31c::1"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest-melbourne.optusnet.com.au:8080/speedtest/upload.php",
-            "lat": "-37.8136",
-            "lon": "144.9631",
-            "name": "Melbourne",
-            "country": "Australia",
-            "cc": "AU",
-            "sponsor": "Optus",
-            "id": "30932",
-            "preferred": 0,
-            "isp_id": "71769",
-            "https_functional": 1,
-            "host": "speedtest-melbourne.optusnet.com.au:8080",
-            "hostname": "speedtest-melbourne.optusnet.com.au",
-            "ip_address": {
-                "A": "198.142.236.199",
-                "AAAA": "2405:dc00:ef01:11a::1"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest-moorooka.optusnet.com.au:8080/speedtest/upload.php",
-            "lat": "-27.5350",
-            "lon": "153.0260",
-            "name": "Moorooka",
-            "country": "Australia",
-            "cc": "AU",
-            "sponsor": "Optus",
-            "id": "31137",
-            "preferred": 0,
-            "isp_id": "71769",
-            "https_functional": 1,
-            "host": "speedtest-moorooka.optusnet.com.au:8080",
-            "hostname": "speedtest-moorooka.optusnet.com.au",
-            "ip_address": {
-                "A": "198.142.236.215",
-                "AAAA": "2405:dc00:ef01:21f::1"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest-newcastle.optusnet.com.au:8080/speedtest/upload.php",
-            "lat": "-32.9283",
-            "lon": "151.7817",
-            "name": "Newcastle",
-            "country": "Australia",
-            "cc": "AU",
-            "sponsor": "Optus",
-            "id": "10440",
-            "preferred": 0,
-            "isp_id": "71769",
-            "https_functional": 1,
-            "host": "speedtest-newcastle.optusnet.com.au:8080",
-            "hostname": "speedtest-newcastle.optusnet.com.au",
-            "ip_address": {
-                "A": "198.142.236.198",
-                "AAAA": "2405:dc00:ef01:1b::1"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest-perth.optusnet.com.au:8080/speedtest/upload.php",
-            "lat": "-31.9554",
-            "lon": "115.8585",
-            "name": "Perth",
-            "country": "Australia",
-            "cc": "AU",
-            "sponsor": "Optus",
-            "id": "30879",
-            "preferred": 0,
-            "isp_id": "71769",
-            "https_functional": 1,
-            "host": "speedtest-perth.optusnet.com.au:8080",
-            "hostname": "speedtest-perth.optusnet.com.au",
-            "ip_address": {
-                "A": "198.142.236.202",
-                "AAAA": "2405:dc00:ef01:318::1"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "https://speedtest-rockingham.optusnet.com.au:8080/speedtest/upload.php",
-            "lat": "-32.2810",
-            "lon": "115.7270",
-            "name": "Rockingham",
-            "country": "Australia",
-            "cc": "AU",
-            "sponsor": "Optus",
-            "id": "10613",
-            "preferred": 0,
-            "isp_id": "71769",
-            "https_functional": 1,
-            "host": "speedtest-rockingham.optusnet.com.au:8080",
-            "hostname": "speedtest-rockingham.optusnet.com.au",
-            "ip_address": {
-                "A": "198.142.236.204",
-                "AAAA": "2405:dc00:ef01:31a::1"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest-sunshinecoast.optusnet.com.au:8080/speedtest/upload.php",
-            "lat": "-25.8833",
-            "lon": "152.5500",
-            "name": "Sunshine",
-            "country": "Australia",
-            "cc": "AU",
-            "sponsor": "Optus",
-            "id": "10443",
-            "preferred": 0,
-            "isp_id": "71769",
-            "https_functional": 1,
-            "host": "speedtest-sunshinecoast.optusnet.com.au:8080",
-            "hostname": "speedtest-sunshinecoast.optusnet.com.au",
-            "ip_address": {
-                "A": "198.142.236.210",
-                "AAAA": "2405:dc00:ef01:21d::1"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest-sydney.optusnet.com.au:8080/speedtest/upload.php",
-            "lat": "-33.8600",
-            "lon": "151.2111",
-            "name": "Sydney",
-            "country": "Australia",
-            "cc": "AU",
-            "sponsor": "Optus",
-            "id": "1267",
-            "preferred": 0,
-            "isp_id": "71769",
-            "https_functional": 1,
-            "host": "speedtest-sydney.optusnet.com.au:8080",
-            "hostname": "speedtest-sydney.optusnet.com.au",
-            "ip_address": {
-                "A": "198.142.236.197",
-                "AAAA": "2405:dc00:ef01:1a::1"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest-townsville.optusnet.com.au:8080/speedtest/upload.php",
-            "lat": "-19.2590",
-            "lon": "146.8169",
-            "name": "Townsville",
-            "country": "Australia",
-            "cc": "AU",
-            "sponsor": "Optus",
-            "id": "10442",
-            "preferred": 0,
-            "isp_id": "71769",
-            "https_functional": 1,
-            "host": "speedtest-townsville.optusnet.com.au:8080",
-            "hostname": "speedtest-townsville.optusnet.com.au",
-            "ip_address": {
-                "A": "198.142.236.209",
-                "AAAA": "2405:dc00:ef01:21c::1"
-            },
-            "ipv6_capable": "yes"
-        }
-    ],
-    "total_servers": 20,
-    "updated_at": "2026-06-25T13:52:17.752506+05:30"
+  "servers": [
+    {
+      "url": "http://speedtest-adelaide.optusnet.com.au:8080/speedtest/upload.php",
+      "lat": "-34.9290",
+      "lon": "138.6010",
+      "name": "Adelaide",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Optus",
+      "id": "30936",
+      "preferred": 0,
+      "isp_id": "71769",
+      "https_functional": 1,
+      "host": "speedtest-adelaide.optusnet.com.au:8080",
+      "hostname": "speedtest-adelaide.optusnet.com.au",
+      "ip_address": {
+        "A": "198.142.236.211",
+        "AAAA": "2405:dc00:ef01:31b::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-blacktown.optusnet.com.au:8080/speedtest/upload.php",
+      "lat": "-33.7447",
+      "lon": "150.8842",
+      "name": "Blacktown",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Optus",
+      "id": "8777",
+      "preferred": 0,
+      "isp_id": "71769",
+      "https_functional": 1,
+      "host": "speedtest-blacktown.optusnet.com.au:8080",
+      "hostname": "speedtest-blacktown.optusnet.com.au",
+      "ip_address": {
+        "A": "198.142.236.205",
+        "AAAA": "2405:dc00:ef01:1c::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-brisbane.optusnet.com.au:8080/speedtest/upload.php",
+      "lat": "-27.4728",
+      "lon": "153.0278",
+      "name": "Brisbane",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Optus",
+      "id": "1594",
+      "preferred": 0,
+      "isp_id": "71769",
+      "https_functional": 1,
+      "host": "speedtest-brisbane.optusnet.com.au:8080",
+      "hostname": "speedtest-brisbane.optusnet.com.au",
+      "ip_address": {
+        "A": "198.142.236.207",
+        "AAAA": "2405:dc00:ef01:21a::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-broome.optusnet.com.au:8080/speedtest/upload.php",
+      "lat": "-17.9614",
+      "lon": "122.2359",
+      "name": "Broome",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Optus",
+      "id": "10630",
+      "preferred": 0,
+      "isp_id": "71769",
+      "https_functional": 1,
+      "host": "speedtest-broome.optusnet.com.au:8080",
+      "hostname": "speedtest-broome.optusnet.com.au",
+      "ip_address": {
+        "A": "198.142.236.203",
+        "AAAA": "2405:dc00:ef01:319::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-darwin.optusnet.com.au:8080/speedtest/upload.php",
+      "lat": "-12.4500",
+      "lon": "130.8333",
+      "name": "Darwin",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Optus",
+      "id": "10438",
+      "preferred": 0,
+      "isp_id": "71769",
+      "https_functional": 1,
+      "host": "speedtest-darwin.optusnet.com.au:8080",
+      "hostname": "speedtest-darwin.optusnet.com.au",
+      "ip_address": {
+        "A": "198.142.236.214",
+        "AAAA": "2405:dc00:ef01:21e::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "https://speedtest-eastburwood.optusnet.com.au:8080/speedtest/upload.php",
+      "lat": "-37.8136",
+      "lon": "144.9631",
+      "name": "East Burwood",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Optus",
+      "id": "9108",
+      "preferred": 0,
+      "isp_id": "71769",
+      "https_functional": 1,
+      "host": "speedtest-eastburwood.optusnet.com.au:8080",
+      "hostname": "speedtest-eastburwood.optusnet.com.au",
+      "ip_address": {
+        "A": "198.142.236.206",
+        "AAAA": "2405:dc00:ef01:11d::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-geelong.optusnet.com.au:8080/speedtest/upload.php",
+      "lat": "-38.1499",
+      "lon": "144.3617",
+      "name": "Geelong",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Optus",
+      "id": "10612",
+      "preferred": 0,
+      "isp_id": "71769",
+      "https_functional": 1,
+      "host": "speedtest-geelong.optusnet.com.au:8080",
+      "hostname": "speedtest-geelong.optusnet.com.au",
+      "ip_address": {
+        "A": "198.142.236.200",
+        "AAAA": "2405:dc00:ef01:11b::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-goldcoast.optusnet.com.au:8080/speedtest/upload.php",
+      "lat": "-28.0160",
+      "lon": "153.0167",
+      "name": "Gold Coast",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Optus",
+      "id": "10441",
+      "preferred": 0,
+      "isp_id": "71769",
+      "https_functional": 1,
+      "host": "speedtest-goldcoast.optusnet.com.au:8080",
+      "hostname": "speedtest-goldcoast.optusnet.com.au",
+      "ip_address": {
+        "A": "198.142.236.208",
+        "AAAA": "2405:dc00:ef01:21b::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-hobart.optusnet.com.au:8080/speedtest/upload.php",
+      "lat": "-42.8806",
+      "lon": "147.3250",
+      "name": "Hobart",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Optus",
+      "id": "8976",
+      "preferred": 0,
+      "isp_id": "71769",
+      "https_functional": 1,
+      "host": "speedtest-hobart.optusnet.com.au:8080",
+      "hostname": "speedtest-hobart.optusnet.com.au",
+      "ip_address": {
+        "A": "198.142.236.201",
+        "AAAA": "2405:dc00:ef01:11c::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "https://speedtest-limestonecoast.optusnet.com.au:8080/speedtest/upload.php",
+      "lat": "-37.8284",
+      "lon": "140.7804",
+      "name": "Limestone Coast",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Optus",
+      "id": "10439",
+      "preferred": 0,
+      "isp_id": "71769",
+      "https_functional": 1,
+      "host": "speedtest-limestonecoast.optusnet.com.au:8080",
+      "hostname": "speedtest-limestonecoast.optusnet.com.au",
+      "ip_address": {
+        "A": "198.142.236.213",
+        "AAAA": "2405:dc00:ef01:31d::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://pulsespeedtest.per.optusnet.com.au:8080/speedtest/upload.php",
+      "lat": "-31.8820",
+      "lon": "115.9498",
+      "name": "Lockridge",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Optus",
+      "id": "53212",
+      "preferred": 0,
+      "isp_id": "71769",
+      "https_functional": 1,
+      "host": "pulsespeedtest.per.optusnet.com.au.prod.hosts.ooklaserver.net:8080",
+      "hostname": "pulsespeedtest.per.optusnet.com.au",
+      "ip_address": {
+        "A": "198.142.236.76"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest-marion.optusnet.com.au:8080/speedtest/upload.php",
+      "lat": "-35.0000",
+      "lon": "138.5520",
+      "name": "Marion",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Optus",
+      "id": "10623",
+      "preferred": 0,
+      "isp_id": "71769",
+      "https_functional": 1,
+      "host": "speedtest-marion.optusnet.com.au:8080",
+      "hostname": "speedtest-marion.optusnet.com.au",
+      "ip_address": {
+        "A": "198.142.236.212",
+        "AAAA": "2405:dc00:ef01:31c::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-melbourne.optusnet.com.au:8080/speedtest/upload.php",
+      "lat": "-37.8136",
+      "lon": "144.9631",
+      "name": "Melbourne",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Optus",
+      "id": "30932",
+      "preferred": 0,
+      "isp_id": "71769",
+      "https_functional": 1,
+      "host": "speedtest-melbourne.optusnet.com.au:8080",
+      "hostname": "speedtest-melbourne.optusnet.com.au",
+      "ip_address": {
+        "A": "198.142.236.199",
+        "AAAA": "2405:dc00:ef01:11a::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-moorooka.optusnet.com.au:8080/speedtest/upload.php",
+      "lat": "-27.5350",
+      "lon": "153.0260",
+      "name": "Moorooka",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Optus",
+      "id": "31137",
+      "preferred": 0,
+      "isp_id": "71769",
+      "https_functional": 1,
+      "host": "speedtest-moorooka.optusnet.com.au:8080",
+      "hostname": "speedtest-moorooka.optusnet.com.au",
+      "ip_address": {
+        "A": "198.142.236.215",
+        "AAAA": "2405:dc00:ef01:21f::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-newcastle.optusnet.com.au:8080/speedtest/upload.php",
+      "lat": "-32.9283",
+      "lon": "151.7817",
+      "name": "Newcastle",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Optus",
+      "id": "10440",
+      "preferred": 0,
+      "isp_id": "71769",
+      "https_functional": 1,
+      "host": "speedtest-newcastle.optusnet.com.au:8080",
+      "hostname": "speedtest-newcastle.optusnet.com.au",
+      "ip_address": {
+        "A": "198.142.236.198",
+        "AAAA": "2405:dc00:ef01:1b::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-perth.optusnet.com.au:8080/speedtest/upload.php",
+      "lat": "-31.9554",
+      "lon": "115.8585",
+      "name": "Perth",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Optus",
+      "id": "30879",
+      "preferred": 0,
+      "isp_id": "71769",
+      "https_functional": 1,
+      "host": "speedtest-perth.optusnet.com.au:8080",
+      "hostname": "speedtest-perth.optusnet.com.au",
+      "ip_address": {
+        "A": "198.142.236.202",
+        "AAAA": "2405:dc00:ef01:318::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "https://speedtest-rockingham.optusnet.com.au:8080/speedtest/upload.php",
+      "lat": "-32.2810",
+      "lon": "115.7270",
+      "name": "Rockingham",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Optus",
+      "id": "10613",
+      "preferred": 0,
+      "isp_id": "71769",
+      "https_functional": 1,
+      "host": "speedtest-rockingham.optusnet.com.au:8080",
+      "hostname": "speedtest-rockingham.optusnet.com.au",
+      "ip_address": {
+        "A": "198.142.236.204",
+        "AAAA": "2405:dc00:ef01:31a::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-sunshinecoast.optusnet.com.au:8080/speedtest/upload.php",
+      "lat": "-25.8833",
+      "lon": "152.5500",
+      "name": "Sunshine",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Optus",
+      "id": "10443",
+      "preferred": 0,
+      "isp_id": "71769",
+      "https_functional": 1,
+      "host": "speedtest-sunshinecoast.optusnet.com.au:8080",
+      "hostname": "speedtest-sunshinecoast.optusnet.com.au",
+      "ip_address": {
+        "A": "198.142.236.210",
+        "AAAA": "2405:dc00:ef01:21d::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-sydney.optusnet.com.au:8080/speedtest/upload.php",
+      "lat": "-33.8600",
+      "lon": "151.2111",
+      "name": "Sydney",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Optus",
+      "id": "1267",
+      "preferred": 0,
+      "isp_id": "71769",
+      "https_functional": 1,
+      "host": "speedtest-sydney.optusnet.com.au:8080",
+      "hostname": "speedtest-sydney.optusnet.com.au",
+      "ip_address": {
+        "A": "198.142.236.197",
+        "AAAA": "2405:dc00:ef01:1a::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-townsville.optusnet.com.au:8080/speedtest/upload.php",
+      "lat": "-19.2590",
+      "lon": "146.8169",
+      "name": "Townsville",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Optus",
+      "id": "10442",
+      "preferred": 0,
+      "isp_id": "71769",
+      "https_functional": 1,
+      "host": "speedtest-townsville.optusnet.com.au:8080",
+      "hostname": "speedtest-townsville.optusnet.com.au",
+      "ip_address": {
+        "A": "198.142.236.209",
+        "AAAA": "2405:dc00:ef01:21c::1"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 20,
+  "updated_at": "2026-06-25T13:52:17.752506+05:30"
 }

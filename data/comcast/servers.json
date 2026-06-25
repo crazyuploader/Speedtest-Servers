@@ -1,566 +1,566 @@
 {
-    "servers": [
-        {
-            "url": "http://stosat-albq-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "35.1107",
-            "lon": "-106.6100",
-            "name": "Albuquerque, NM",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "1773",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "stosat-albq-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "stosat-albq-01.sys.comcast.net",
-            "ip_address": {
-                "A": "69.241.36.46",
-                "AAAA": "2001:558:fe18:b::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://stosat-atlt-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "33.7483",
-            "lon": "-84.3911",
-            "name": "Atlanta, GA",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "37808",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "stosat-atlt-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "stosat-atlt-01.sys.comcast.net",
-            "ip_address": {
-                "A": "69.252.226.54",
-                "AAAA": "2001:558:fe12:a::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://stosat-agta-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "33.2800",
-            "lon": "-81.5800",
-            "name": "Augusta, GA",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "1772",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "stosat-agta-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "stosat-agta-01.sys.comcast.net",
-            "ip_address": {
-                "A": "69.252.37.26",
-                "AAAA": "2001:558:fe3c:9::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://stosat-balt-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "39.2833",
-            "lon": "-76.6167",
-            "name": "Baltimore, MD",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "1775",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "stosat-balt-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "stosat-balt-01.sys.comcast.net",
-            "ip_address": {
-                "A": "69.241.110.34",
-                "AAAA": "2001:558:fe07:3d::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://stosat-bspr-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "26.3548",
-            "lon": "-81.7387",
-            "name": "Bonita Springs, FL",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "8087",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "stosat-bspr-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "stosat-bspr-01.sys.comcast.net",
-            "ip_address": {
-                "A": "69.252.39.142",
-                "AAAA": "2001:558:fe09:d::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://stosat-ndhm-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "42.3578",
-            "lon": "-71.0617",
-            "name": "Boston, MA",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "1774",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "stosat-ndhm-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "stosat-ndhm-01.sys.comcast.net",
-            "ip_address": {
-                "A": "76.96.122.78",
-                "AAAA": "2001:558:fe03:8c::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://stosat-dvre-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "39.7392",
-            "lon": "-104.9903",
-            "name": "Denver, CO",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "10051",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "stosat-dvre-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "stosat-dvre-01.sys.comcast.net",
-            "ip_address": {
-                "A": "69.241.22.154",
-                "AAAA": "2001:558:fe1c:5b::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://stosat-taylr-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "42.3314",
-            "lon": "-83.0458",
-            "name": "Detroit, MI",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "1778",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "stosat-taylr-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "stosat-taylr-01.sys.comcast.net",
-            "ip_address": {
-                "A": "69.241.14.2",
-                "AAAA": "2001:558:fe11:4a::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://stosat-hstn-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "29.7631",
-            "lon": "-95.3631",
-            "name": "Houston, TX",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "1763",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "stosat-hstn-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "stosat-hstn-01.sys.comcast.net",
-            "ip_address": {
-                "A": "69.241.81.250",
-                "AAAA": "2001:558:fe1a:2d::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://stosat-indp-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "39.0911",
-            "lon": "-94.4155",
-            "name": "Independence, MO",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "8088",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "stosat-indp-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "stosat-indp-01.sys.comcast.net",
-            "ip_address": {
-                "A": "69.241.94.10",
-                "AAAA": "2001:558:fe20:a::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://stosat-jkvl-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "30.3194",
-            "lon": "-81.6600",
-            "name": "Jacksonville, FL",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "1771",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "stosat-jkvl-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "stosat-jkvl-01.sys.comcast.net",
-            "ip_address": {
-                "A": "68.87.56.138",
-                "AAAA": "2001:558:fe1d:12::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://stosat-lrck-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "34.7361",
-            "lon": "-92.3311",
-            "name": "Little Rock, AR",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "26913",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "stosat-lrck-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "stosat-lrck-01.sys.comcast.net",
-            "ip_address": {
-                "A": "69.241.120.110",
-                "AAAA": "2001:558:fe22:5::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://stosat-malt-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "35.1495",
-            "lon": "-90.0490",
-            "name": "Memphis, TN",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "26915",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "stosat-malt-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "stosat-malt-01.sys.comcast.net",
-            "ip_address": {
-                "A": "69.241.0.94",
-                "AAAA": "2001:558:fe19:d::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://qoeookla-mimi-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "25.7878",
-            "lon": "-80.2242",
-            "name": "Miami, FL",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "72487",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "qoeookla-mimi-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "qoeookla-mimi-01.sys.comcast.net",
-            "ip_address": {
-                "A": "96.114.248.7",
-                "AAAA": "2001:558:fe2e:30c::7"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://secretspeedsterserver2364.cpe.nj.crnrstn.comcast.net:8080/speedtest/upload.php",
-            "lat": "39.9340",
-            "lon": "-74.8910",
-            "name": "Mount Laurel, NJ",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "58200",
-            "preferred": 0,
-            "isp_id": "31",
-            "https_functional": 1,
-            "host": "secretspeedsterserver2364.cpe.nj.crnrstn.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "secretspeedsterserver2364.cpe.nj.crnrstn.comcast.net",
-            "ip_address": {
-                "A": "50.223.39.254",
-                "AAAA": "2001:55c::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://stosat-nash-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "36.1667",
-            "lon": "-86.7833",
-            "name": "Nashville, TN",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "1764",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "stosat-nash-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "stosat-nash-01.sys.comcast.net",
-            "ip_address": {
-                "A": "69.241.93.86",
-                "AAAA": "2001:558:fe26:18::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://qoeookla-ncst-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "39.6620",
-            "lon": "-75.5668",
-            "name": "New Castle, DE",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "72934",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "qoeookla-ncst-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "qoeookla-ncst-01.sys.comcast.net",
-            "ip_address": {
-                "A": "96.97.240.15",
-                "AAAA": "2001:558:fe23:100::15"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://stosat-pima-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "32.5300",
-            "lon": "-109.4900",
-            "name": "Pima, AZ",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "1768",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "stosat-pima-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "stosat-pima-01.sys.comcast.net",
-            "ip_address": {
-                "A": "69.241.95.42",
-                "AAAA": "2001:558:fe2c:c::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://stosat-crls-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "40.4417",
-            "lon": "-80.0000",
-            "name": "Pittsburgh, PA",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "1206",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "stosat-crls-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "stosat-crls-01.sys.comcast.net",
-            "ip_address": {
-                "A": "76.96.118.190",
-                "AAAA": "2001:558:fe0f:21::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://stosat-plfi-08p.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "40.3600",
-            "lon": "-74.2400",
-            "name": "Plainfield, NJ",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "1767",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "stosat-plfi-08p.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "stosat-plfi-08p.sys.comcast.net",
-            "ip_address": {
-                "A": "96.96.159.10",
-                "AAAA": "2001:558:fe36:196::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://stosat-bvrt-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "45.5236",
-            "lon": "-122.6750",
-            "name": "Portland, OR",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "1780",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "stosat-bvrt-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "stosat-bvrt-01.sys.comcast.net",
-            "ip_address": {
-                "A": "69.241.76.74",
-                "AAAA": "2001:558:fe01:1e::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://stosat-smil-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "37.3200",
-            "lon": "-77.2500",
-            "name": "Richmond, VA",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "1770",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "stosat-smil-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "stosat-smil-01.sys.comcast.net",
-            "ip_address": {
-                "A": "69.241.85.10",
-                "AAAA": "2001:558:fe30:12::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://stosat-scrm-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "38.5556",
-            "lon": "-121.4689",
-            "name": "Sacramento, CA",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "9436",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "stosat-scrm-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "stosat-scrm-01.sys.comcast.net",
-            "ip_address": {
-                "A": "69.241.21.18",
-                "AAAA": "2001:558:fe32:6::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://stosat-utah-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "40.7500",
-            "lon": "-111.8833",
-            "name": "Salt Lake City, UT",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "1781",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "stosat-utah-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "stosat-utah-01.sys.comcast.net",
-            "ip_address": {
-                "A": "69.241.89.150",
-                "AAAA": "2001:558:fe0a:800c::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://stosat-scla-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "37.7749",
-            "lon": "-122.4194",
-            "name": "San Francisco, CA",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "1783",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "stosat-scla-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "stosat-scla-01.sys.comcast.net",
-            "ip_address": {
-                "A": "69.241.90.82",
-                "AAAA": "2001:558:fe0d:42::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://qoeookla-scla-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "37.3541",
-            "lon": "-121.9552",
-            "name": "Santa Clara, CA",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "73169",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "qoeookla-scla-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "qoeookla-scla-01.sys.comcast.net",
-            "ip_address": {
-                "A": "96.97.102.4",
-                "AAAA": "2001:558:fe0d:5c::4"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://stosat-smtn-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "33.8082",
-            "lon": "-84.1702",
-            "name": "Stone Mountain, GA",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "26914",
-            "preferred": 0,
-            "isp_id": "31",
-            "https_functional": 1,
-            "host": "stosat-smtn-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "stosat-smtn-01.sys.comcast.net",
-            "ip_address": {
-                "A": "162.150.120.206",
-                "AAAA": "2001:558:fe13:41::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://stosat-tall-01.sys.comcast.net:8080/speedtest/upload.php",
-            "lat": "30.4517",
-            "lon": "-84.2685",
-            "name": "Tallahassee, FL",
-            "country": "United States",
-            "cc": "US",
-            "sponsor": "Comcast",
-            "id": "9125",
-            "preferred": 0,
-            "isp_id": "20",
-            "https_functional": 1,
-            "host": "stosat-tall-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "stosat-tall-01.sys.comcast.net",
-            "ip_address": {
-                "A": "69.241.83.66",
-                "AAAA": "2001:558:fe28:a::2"
-            },
-            "ipv6_capable": "yes"
-        }
-    ],
-    "total_servers": 28,
-    "updated_at": "2026-06-25T13:51:09.450191+05:30"
+  "servers": [
+    {
+      "url": "http://stosat-albq-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "35.1107",
+      "lon": "-106.6100",
+      "name": "Albuquerque, NM",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "1773",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "stosat-albq-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "stosat-albq-01.sys.comcast.net",
+      "ip_address": {
+        "A": "69.241.36.46",
+        "AAAA": "2001:558:fe18:b::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://stosat-atlt-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "33.7483",
+      "lon": "-84.3911",
+      "name": "Atlanta, GA",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "37808",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "stosat-atlt-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "stosat-atlt-01.sys.comcast.net",
+      "ip_address": {
+        "A": "69.252.226.54",
+        "AAAA": "2001:558:fe12:a::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://stosat-agta-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "33.2800",
+      "lon": "-81.5800",
+      "name": "Augusta, GA",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "1772",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "stosat-agta-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "stosat-agta-01.sys.comcast.net",
+      "ip_address": {
+        "A": "69.252.37.26",
+        "AAAA": "2001:558:fe3c:9::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://stosat-balt-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "39.2833",
+      "lon": "-76.6167",
+      "name": "Baltimore, MD",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "1775",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "stosat-balt-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "stosat-balt-01.sys.comcast.net",
+      "ip_address": {
+        "A": "69.241.110.34",
+        "AAAA": "2001:558:fe07:3d::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://stosat-bspr-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "26.3548",
+      "lon": "-81.7387",
+      "name": "Bonita Springs, FL",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "8087",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "stosat-bspr-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "stosat-bspr-01.sys.comcast.net",
+      "ip_address": {
+        "A": "69.252.39.142",
+        "AAAA": "2001:558:fe09:d::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://stosat-ndhm-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "42.3578",
+      "lon": "-71.0617",
+      "name": "Boston, MA",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "1774",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "stosat-ndhm-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "stosat-ndhm-01.sys.comcast.net",
+      "ip_address": {
+        "A": "76.96.122.78",
+        "AAAA": "2001:558:fe03:8c::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://stosat-dvre-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "39.7392",
+      "lon": "-104.9903",
+      "name": "Denver, CO",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "10051",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "stosat-dvre-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "stosat-dvre-01.sys.comcast.net",
+      "ip_address": {
+        "A": "69.241.22.154",
+        "AAAA": "2001:558:fe1c:5b::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://stosat-taylr-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "42.3314",
+      "lon": "-83.0458",
+      "name": "Detroit, MI",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "1778",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "stosat-taylr-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "stosat-taylr-01.sys.comcast.net",
+      "ip_address": {
+        "A": "69.241.14.2",
+        "AAAA": "2001:558:fe11:4a::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://stosat-hstn-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "29.7631",
+      "lon": "-95.3631",
+      "name": "Houston, TX",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "1763",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "stosat-hstn-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "stosat-hstn-01.sys.comcast.net",
+      "ip_address": {
+        "A": "69.241.81.250",
+        "AAAA": "2001:558:fe1a:2d::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://stosat-indp-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "39.0911",
+      "lon": "-94.4155",
+      "name": "Independence, MO",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "8088",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "stosat-indp-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "stosat-indp-01.sys.comcast.net",
+      "ip_address": {
+        "A": "69.241.94.10",
+        "AAAA": "2001:558:fe20:a::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://stosat-jkvl-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "30.3194",
+      "lon": "-81.6600",
+      "name": "Jacksonville, FL",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "1771",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "stosat-jkvl-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "stosat-jkvl-01.sys.comcast.net",
+      "ip_address": {
+        "A": "68.87.56.138",
+        "AAAA": "2001:558:fe1d:12::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://stosat-lrck-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "34.7361",
+      "lon": "-92.3311",
+      "name": "Little Rock, AR",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "26913",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "stosat-lrck-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "stosat-lrck-01.sys.comcast.net",
+      "ip_address": {
+        "A": "69.241.120.110",
+        "AAAA": "2001:558:fe22:5::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://stosat-malt-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "35.1495",
+      "lon": "-90.0490",
+      "name": "Memphis, TN",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "26915",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "stosat-malt-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "stosat-malt-01.sys.comcast.net",
+      "ip_address": {
+        "A": "69.241.0.94",
+        "AAAA": "2001:558:fe19:d::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://qoeookla-mimi-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "25.7878",
+      "lon": "-80.2242",
+      "name": "Miami, FL",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "72487",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "qoeookla-mimi-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "qoeookla-mimi-01.sys.comcast.net",
+      "ip_address": {
+        "A": "96.114.248.7",
+        "AAAA": "2001:558:fe2e:30c::7"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://secretspeedsterserver2364.cpe.nj.crnrstn.comcast.net:8080/speedtest/upload.php",
+      "lat": "39.9340",
+      "lon": "-74.8910",
+      "name": "Mount Laurel, NJ",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "58200",
+      "preferred": 0,
+      "isp_id": "31",
+      "https_functional": 1,
+      "host": "secretspeedsterserver2364.cpe.nj.crnrstn.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "secretspeedsterserver2364.cpe.nj.crnrstn.comcast.net",
+      "ip_address": {
+        "A": "50.223.39.254",
+        "AAAA": "2001:55c::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://stosat-nash-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "36.1667",
+      "lon": "-86.7833",
+      "name": "Nashville, TN",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "1764",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "stosat-nash-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "stosat-nash-01.sys.comcast.net",
+      "ip_address": {
+        "A": "69.241.93.86",
+        "AAAA": "2001:558:fe26:18::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://qoeookla-ncst-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "39.6620",
+      "lon": "-75.5668",
+      "name": "New Castle, DE",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "72934",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "qoeookla-ncst-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "qoeookla-ncst-01.sys.comcast.net",
+      "ip_address": {
+        "A": "96.97.240.15",
+        "AAAA": "2001:558:fe23:100::15"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://stosat-pima-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "32.5300",
+      "lon": "-109.4900",
+      "name": "Pima, AZ",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "1768",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "stosat-pima-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "stosat-pima-01.sys.comcast.net",
+      "ip_address": {
+        "A": "69.241.95.42",
+        "AAAA": "2001:558:fe2c:c::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://stosat-crls-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "40.4417",
+      "lon": "-80.0000",
+      "name": "Pittsburgh, PA",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "1206",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "stosat-crls-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "stosat-crls-01.sys.comcast.net",
+      "ip_address": {
+        "A": "76.96.118.190",
+        "AAAA": "2001:558:fe0f:21::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://stosat-plfi-08p.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "40.3600",
+      "lon": "-74.2400",
+      "name": "Plainfield, NJ",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "1767",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "stosat-plfi-08p.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "stosat-plfi-08p.sys.comcast.net",
+      "ip_address": {
+        "A": "96.96.159.10",
+        "AAAA": "2001:558:fe36:196::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://stosat-bvrt-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "45.5236",
+      "lon": "-122.6750",
+      "name": "Portland, OR",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "1780",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "stosat-bvrt-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "stosat-bvrt-01.sys.comcast.net",
+      "ip_address": {
+        "A": "69.241.76.74",
+        "AAAA": "2001:558:fe01:1e::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://stosat-smil-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "37.3200",
+      "lon": "-77.2500",
+      "name": "Richmond, VA",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "1770",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "stosat-smil-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "stosat-smil-01.sys.comcast.net",
+      "ip_address": {
+        "A": "69.241.85.10",
+        "AAAA": "2001:558:fe30:12::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://stosat-scrm-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "38.5556",
+      "lon": "-121.4689",
+      "name": "Sacramento, CA",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "9436",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "stosat-scrm-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "stosat-scrm-01.sys.comcast.net",
+      "ip_address": {
+        "A": "69.241.21.18",
+        "AAAA": "2001:558:fe32:6::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://stosat-utah-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "40.7500",
+      "lon": "-111.8833",
+      "name": "Salt Lake City, UT",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "1781",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "stosat-utah-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "stosat-utah-01.sys.comcast.net",
+      "ip_address": {
+        "A": "69.241.89.150",
+        "AAAA": "2001:558:fe0a:800c::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://stosat-scla-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "37.7749",
+      "lon": "-122.4194",
+      "name": "San Francisco, CA",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "1783",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "stosat-scla-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "stosat-scla-01.sys.comcast.net",
+      "ip_address": {
+        "A": "69.241.90.82",
+        "AAAA": "2001:558:fe0d:42::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://qoeookla-scla-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "37.3541",
+      "lon": "-121.9552",
+      "name": "Santa Clara, CA",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "73169",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "qoeookla-scla-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "qoeookla-scla-01.sys.comcast.net",
+      "ip_address": {
+        "A": "96.97.102.4",
+        "AAAA": "2001:558:fe0d:5c::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://stosat-smtn-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "33.8082",
+      "lon": "-84.1702",
+      "name": "Stone Mountain, GA",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "26914",
+      "preferred": 0,
+      "isp_id": "31",
+      "https_functional": 1,
+      "host": "stosat-smtn-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "stosat-smtn-01.sys.comcast.net",
+      "ip_address": {
+        "A": "162.150.120.206",
+        "AAAA": "2001:558:fe13:41::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://stosat-tall-01.sys.comcast.net:8080/speedtest/upload.php",
+      "lat": "30.4517",
+      "lon": "-84.2685",
+      "name": "Tallahassee, FL",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "Comcast",
+      "id": "9125",
+      "preferred": 0,
+      "isp_id": "20",
+      "https_functional": 1,
+      "host": "stosat-tall-01.sys.comcast.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "stosat-tall-01.sys.comcast.net",
+      "ip_address": {
+        "A": "69.241.83.66",
+        "AAAA": "2001:558:fe28:a::2"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 28,
+  "updated_at": "2026-06-25T13:51:09.450191+05:30"
 }

@@ -1,43 +1,43 @@
 {
-    "servers": [
-        {
-            "url": "http://speedtestiky.mtn.ng:8080/speedtest/upload.php",
-            "lat": "6.4535",
-            "lon": "3.4343",
-            "name": "Ikoyi",
-            "country": "Nigeria",
-            "cc": "NG",
-            "sponsor": "MTN NIGERIA COMMUNICATIONS LTD",
-            "id": "33160",
-            "preferred": 0,
-            "isp_id": "23703",
-            "host": "speedtestiky.mtn.ng:8080",
-            "hostname": "speedtestiky.mtn.ng",
-            "ip_address": {
-                "A": "102.88.18.20"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtestoj2.mtn.ng:8080/speedtest/upload.php",
-            "lat": "6.4474",
-            "lon": "3.3903",
-            "name": "Lagos",
-            "country": "Nigeria",
-            "cc": "NG",
-            "sponsor": "MTN NIGERIA COMMUNICATIONS LTD",
-            "id": "33159",
-            "preferred": 0,
-            "isp_id": "23703",
-            "https_functional": 1,
-            "host": "speedtestoj2.mtn.ng.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtestoj2.mtn.ng",
-            "ip_address": {
-                "A": "102.89.4.20"
-            },
-            "ipv6_capable": "no"
-        }
-    ],
-    "total_servers": 2,
-    "updated_at": "2026-06-25T13:58:16.769485+05:30"
+  "servers": [
+    {
+      "url": "http://speedtestiky.mtn.ng:8080/speedtest/upload.php",
+      "lat": "6.4535",
+      "lon": "3.4343",
+      "name": "Ikoyi",
+      "country": "Nigeria",
+      "cc": "NG",
+      "sponsor": "MTN NIGERIA COMMUNICATIONS LTD",
+      "id": "33160",
+      "preferred": 0,
+      "isp_id": "23703",
+      "host": "speedtestiky.mtn.ng:8080",
+      "hostname": "speedtestiky.mtn.ng",
+      "ip_address": {
+        "A": "102.88.18.20"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtestoj2.mtn.ng:8080/speedtest/upload.php",
+      "lat": "6.4474",
+      "lon": "3.3903",
+      "name": "Lagos",
+      "country": "Nigeria",
+      "cc": "NG",
+      "sponsor": "MTN NIGERIA COMMUNICATIONS LTD",
+      "id": "33159",
+      "preferred": 0,
+      "isp_id": "23703",
+      "https_functional": 1,
+      "host": "speedtestoj2.mtn.ng.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestoj2.mtn.ng",
+      "ip_address": {
+        "A": "102.89.4.20"
+      },
+      "ipv6_capable": "no"
+    }
+  ],
+  "total_servers": 2,
+  "updated_at": "2026-06-25T13:58:16.769485+05:30"
 }

@@ -1,290 +1,290 @@
 {
-    "servers": [
-        {
-            "url": "http://speedtest-movistar-atf.movistarplay.cl:8080/speedtest/upload.php",
-            "lat": "-23.6509",
-            "lon": "-70.3975",
-            "name": "Antofagasta",
-            "country": "Chile",
-            "cc": "CL",
-            "sponsor": "Movistar Chile",
-            "id": "32444",
-            "preferred": 0,
-            "isp_id": "94547",
-            "https_functional": 1,
-            "host": "speedtest-movistar-atf.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest-movistar-atf.movistarplay.cl",
-            "ip_address": {
-                "A": "200.28.7.254"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest-movistar-ari.movistarplay.cl:8080/speedtest/upload.php",
-            "lat": "-18.4783",
-            "lon": "-70.3126",
-            "name": "Arica",
-            "country": "Chile",
-            "cc": "CL",
-            "sponsor": "Movistar Chile",
-            "id": "70205",
-            "preferred": 0,
-            "isp_id": "94547",
-            "https_functional": 1,
-            "host": "speedtest-movistar-ari.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest-movistar-ari.movistarplay.cl",
-            "ip_address": {
-                "A": "200.29.39.161"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest-movistar-ccp.movistarplay.cl:8080/speedtest/upload.php",
-            "lat": "-36.8201",
-            "lon": "-73.0444",
-            "name": "Concepción",
-            "country": "Chile",
-            "cc": "CL",
-            "sponsor": "Movistar Chile",
-            "id": "32041",
-            "preferred": 0,
-            "isp_id": "94547",
-            "https_functional": 1,
-            "host": "speedtest-movistar-ccp.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest-movistar-ccp.movistarplay.cl",
-            "ip_address": {
-                "A": "200.28.0.254"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest-movistar-iqq.movistarplay.cl:8080/speedtest/upload.php",
-            "lat": "-20.2307",
-            "lon": "-70.1357",
-            "name": "Iquique",
-            "country": "Chile",
-            "cc": "CL",
-            "sponsor": "Movistar Chile",
-            "id": "33996",
-            "preferred": 0,
-            "isp_id": "94547",
-            "https_functional": 1,
-            "host": "speedtest-movistar-iqq.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest-movistar-iqq.movistarplay.cl",
-            "ip_address": {
-                "A": "200.29.37.254"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest-movistar-scl-lflo.movistarplay.cl:8080/speedtest/upload.php",
-            "lat": "-33.5227",
-            "lon": "-70.5987",
-            "name": "La Florida",
-            "country": "Chile",
-            "cc": "CL",
-            "sponsor": "Movistar Chile",
-            "id": "34382",
-            "preferred": 0,
-            "isp_id": "94547",
-            "https_functional": 1,
-            "host": "speedtest-movistar-scl-lflo.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest-movistar-scl-lflo.movistarplay.cl",
-            "ip_address": {
-                "A": "200.29.48.194"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest-movistar-lsc.movistarplay.cl:8080/speedtest/upload.php",
-            "lat": "-29.9027",
-            "lon": "-71.2519",
-            "name": "La Serena",
-            "country": "Chile",
-            "cc": "CL",
-            "sponsor": "Movistar Chile",
-            "id": "32046",
-            "preferred": 0,
-            "isp_id": "94547",
-            "https_functional": 1,
-            "host": "speedtest-movistar-lsc.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest-movistar-lsc.movistarplay.cl",
-            "ip_address": {
-                "A": "200.28.10.254"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest-movistar-scl-apoq.movistarplay.cl:8080/speedtest/upload.php",
-            "lat": "-33.4079",
-            "lon": "-70.5451",
-            "name": "Las Condes",
-            "country": "Chile",
-            "cc": "CL",
-            "sponsor": "Movistar Chile",
-            "id": "34606",
-            "preferred": 0,
-            "isp_id": "94547",
-            "https_functional": 1,
-            "host": "speedtest-movistar-scl-apoq.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest-movistar-scl-apoq.movistarplay.cl",
-            "ip_address": {
-                "A": "200.29.48.221"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest-movistar-scl-chio.movistarplay.cl:8080/speedtest/upload.php",
-            "lat": "-33.5106",
-            "lon": "-70.7573",
-            "name": "Maipu",
-            "country": "Chile",
-            "cc": "CL",
-            "sponsor": "Movistar Chile",
-            "id": "34347",
-            "preferred": 0,
-            "isp_id": "94547",
-            "https_functional": 1,
-            "host": "speedtest-movistar-scl-chio.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest-movistar-scl-chio.movistarplay.cl",
-            "ip_address": {
-                "A": "200.29.48.198"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest-movistar-scl-palto.movistarplay.cl:8080/speedtest/upload.php",
-            "lat": "-33.5955",
-            "lon": "-70.6318",
-            "name": "Puente Alto",
-            "country": "Chile",
-            "cc": "CL",
-            "sponsor": "Movistar Chile",
-            "id": "41657",
-            "preferred": 0,
-            "isp_id": "94547",
-            "https_functional": 1,
-            "host": "speedtest-movistar-scl-palto.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest-movistar-scl-palto.movistarplay.cl",
-            "ip_address": {
-                "A": "200.29.50.241"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest-movistar-qrc.movistarplay.cl:8080/speedtest/upload.php",
-            "lat": "-34.1701",
-            "lon": "-70.7406",
-            "name": "Rancagua",
-            "country": "Chile",
-            "cc": "CL",
-            "sponsor": "Movistar Chile",
-            "id": "33408",
-            "preferred": 0,
-            "isp_id": "94547",
-            "https_functional": 1,
-            "host": "speedtest-movistar-qrc.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest-movistar-qrc.movistarplay.cl",
-            "ip_address": {
-                "A": "200.29.38.233"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest-movistar-scl-ppal.movistarplay.cl:8080/speedtest/upload.php",
-            "lat": "-33.4062",
-            "lon": "-70.6336",
-            "name": "Recoleta",
-            "country": "Chile",
-            "cc": "CL",
-            "sponsor": "Movistar Chile",
-            "id": "34641",
-            "preferred": 0,
-            "isp_id": "94547",
-            "https_functional": 1,
-            "host": "speedtest-movistar-scl-ppal.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest-movistar-scl-ppal.movistarplay.cl",
-            "ip_address": {
-                "A": "200.29.48.211"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest-h5-10g.movistarplay.cl:8080/speedtest/upload.php",
-            "lat": "-33.4378",
-            "lon": "-70.6503",
-            "name": "Santiago",
-            "country": "Chile",
-            "cc": "CL",
-            "sponsor": "Movistar Chile",
-            "id": "21436",
-            "preferred": 0,
-            "isp_id": "94547",
-            "https_functional": 1,
-            "host": "speedtest-h5-10g.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest-h5-10g.movistarplay.cl",
-            "ip_address": {
-                "A": "200.29.48.201"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest-movistar-tlx.movistarplay.cl:8080/speedtest/upload.php",
-            "lat": "-35.4232",
-            "lon": "-71.6485",
-            "name": "Talca",
-            "country": "Chile",
-            "cc": "CL",
-            "sponsor": "Movistar Chile",
-            "id": "32048",
-            "preferred": 0,
-            "isp_id": "94547",
-            "https_functional": 1,
-            "host": "speedtest-movistar-tlx.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest-movistar-tlx.movistarplay.cl",
-            "ip_address": {
-                "A": "200.28.11.238"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest-movistar-zco.movistarplay.cl:8080/speedtest/upload.php",
-            "lat": "-38.7359",
-            "lon": "-72.5904",
-            "name": "Temuco",
-            "country": "Chile",
-            "cc": "CL",
-            "sponsor": "Movistar Chile",
-            "id": "32049",
-            "preferred": 0,
-            "isp_id": "94547",
-            "host": "speedtest-movistar-zco.movistarplay.cl:8080",
-            "hostname": "speedtest-movistar-zco.movistarplay.cl",
-            "ip_address": {
-                "A": "200.28.12.254"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest-movistar-vap.movistarplay.cl:8080/speedtest/upload.php",
-            "lat": "-33.0500",
-            "lon": "-71.6167",
-            "name": "Valparaiso",
-            "country": "Chile",
-            "cc": "CL",
-            "sponsor": "Movistar Chile",
-            "id": "32045",
-            "preferred": 0,
-            "isp_id": "94547",
-            "https_functional": 1,
-            "host": "speedtest-movistar-vap.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest-movistar-vap.movistarplay.cl",
-            "ip_address": {
-                "A": "200.28.9.254"
-            },
-            "ipv6_capable": "no"
-        }
-    ],
-    "total_servers": 15,
-    "updated_at": "2026-06-25T13:58:02.113210+05:30"
+  "servers": [
+    {
+      "url": "http://speedtest-movistar-atf.movistarplay.cl:8080/speedtest/upload.php",
+      "lat": "-23.6509",
+      "lon": "-70.3975",
+      "name": "Antofagasta",
+      "country": "Chile",
+      "cc": "CL",
+      "sponsor": "Movistar Chile",
+      "id": "32444",
+      "preferred": 0,
+      "isp_id": "94547",
+      "https_functional": 1,
+      "host": "speedtest-movistar-atf.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-movistar-atf.movistarplay.cl",
+      "ip_address": {
+        "A": "200.28.7.254"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest-movistar-ari.movistarplay.cl:8080/speedtest/upload.php",
+      "lat": "-18.4783",
+      "lon": "-70.3126",
+      "name": "Arica",
+      "country": "Chile",
+      "cc": "CL",
+      "sponsor": "Movistar Chile",
+      "id": "70205",
+      "preferred": 0,
+      "isp_id": "94547",
+      "https_functional": 1,
+      "host": "speedtest-movistar-ari.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-movistar-ari.movistarplay.cl",
+      "ip_address": {
+        "A": "200.29.39.161"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest-movistar-ccp.movistarplay.cl:8080/speedtest/upload.php",
+      "lat": "-36.8201",
+      "lon": "-73.0444",
+      "name": "Concepción",
+      "country": "Chile",
+      "cc": "CL",
+      "sponsor": "Movistar Chile",
+      "id": "32041",
+      "preferred": 0,
+      "isp_id": "94547",
+      "https_functional": 1,
+      "host": "speedtest-movistar-ccp.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-movistar-ccp.movistarplay.cl",
+      "ip_address": {
+        "A": "200.28.0.254"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest-movistar-iqq.movistarplay.cl:8080/speedtest/upload.php",
+      "lat": "-20.2307",
+      "lon": "-70.1357",
+      "name": "Iquique",
+      "country": "Chile",
+      "cc": "CL",
+      "sponsor": "Movistar Chile",
+      "id": "33996",
+      "preferred": 0,
+      "isp_id": "94547",
+      "https_functional": 1,
+      "host": "speedtest-movistar-iqq.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-movistar-iqq.movistarplay.cl",
+      "ip_address": {
+        "A": "200.29.37.254"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest-movistar-scl-lflo.movistarplay.cl:8080/speedtest/upload.php",
+      "lat": "-33.5227",
+      "lon": "-70.5987",
+      "name": "La Florida",
+      "country": "Chile",
+      "cc": "CL",
+      "sponsor": "Movistar Chile",
+      "id": "34382",
+      "preferred": 0,
+      "isp_id": "94547",
+      "https_functional": 1,
+      "host": "speedtest-movistar-scl-lflo.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-movistar-scl-lflo.movistarplay.cl",
+      "ip_address": {
+        "A": "200.29.48.194"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest-movistar-lsc.movistarplay.cl:8080/speedtest/upload.php",
+      "lat": "-29.9027",
+      "lon": "-71.2519",
+      "name": "La Serena",
+      "country": "Chile",
+      "cc": "CL",
+      "sponsor": "Movistar Chile",
+      "id": "32046",
+      "preferred": 0,
+      "isp_id": "94547",
+      "https_functional": 1,
+      "host": "speedtest-movistar-lsc.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-movistar-lsc.movistarplay.cl",
+      "ip_address": {
+        "A": "200.28.10.254"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest-movistar-scl-apoq.movistarplay.cl:8080/speedtest/upload.php",
+      "lat": "-33.4079",
+      "lon": "-70.5451",
+      "name": "Las Condes",
+      "country": "Chile",
+      "cc": "CL",
+      "sponsor": "Movistar Chile",
+      "id": "34606",
+      "preferred": 0,
+      "isp_id": "94547",
+      "https_functional": 1,
+      "host": "speedtest-movistar-scl-apoq.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-movistar-scl-apoq.movistarplay.cl",
+      "ip_address": {
+        "A": "200.29.48.221"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest-movistar-scl-chio.movistarplay.cl:8080/speedtest/upload.php",
+      "lat": "-33.5106",
+      "lon": "-70.7573",
+      "name": "Maipu",
+      "country": "Chile",
+      "cc": "CL",
+      "sponsor": "Movistar Chile",
+      "id": "34347",
+      "preferred": 0,
+      "isp_id": "94547",
+      "https_functional": 1,
+      "host": "speedtest-movistar-scl-chio.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-movistar-scl-chio.movistarplay.cl",
+      "ip_address": {
+        "A": "200.29.48.198"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest-movistar-scl-palto.movistarplay.cl:8080/speedtest/upload.php",
+      "lat": "-33.5955",
+      "lon": "-70.6318",
+      "name": "Puente Alto",
+      "country": "Chile",
+      "cc": "CL",
+      "sponsor": "Movistar Chile",
+      "id": "41657",
+      "preferred": 0,
+      "isp_id": "94547",
+      "https_functional": 1,
+      "host": "speedtest-movistar-scl-palto.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-movistar-scl-palto.movistarplay.cl",
+      "ip_address": {
+        "A": "200.29.50.241"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest-movistar-qrc.movistarplay.cl:8080/speedtest/upload.php",
+      "lat": "-34.1701",
+      "lon": "-70.7406",
+      "name": "Rancagua",
+      "country": "Chile",
+      "cc": "CL",
+      "sponsor": "Movistar Chile",
+      "id": "33408",
+      "preferred": 0,
+      "isp_id": "94547",
+      "https_functional": 1,
+      "host": "speedtest-movistar-qrc.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-movistar-qrc.movistarplay.cl",
+      "ip_address": {
+        "A": "200.29.38.233"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest-movistar-scl-ppal.movistarplay.cl:8080/speedtest/upload.php",
+      "lat": "-33.4062",
+      "lon": "-70.6336",
+      "name": "Recoleta",
+      "country": "Chile",
+      "cc": "CL",
+      "sponsor": "Movistar Chile",
+      "id": "34641",
+      "preferred": 0,
+      "isp_id": "94547",
+      "https_functional": 1,
+      "host": "speedtest-movistar-scl-ppal.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-movistar-scl-ppal.movistarplay.cl",
+      "ip_address": {
+        "A": "200.29.48.211"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest-h5-10g.movistarplay.cl:8080/speedtest/upload.php",
+      "lat": "-33.4378",
+      "lon": "-70.6503",
+      "name": "Santiago",
+      "country": "Chile",
+      "cc": "CL",
+      "sponsor": "Movistar Chile",
+      "id": "21436",
+      "preferred": 0,
+      "isp_id": "94547",
+      "https_functional": 1,
+      "host": "speedtest-h5-10g.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-h5-10g.movistarplay.cl",
+      "ip_address": {
+        "A": "200.29.48.201"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest-movistar-tlx.movistarplay.cl:8080/speedtest/upload.php",
+      "lat": "-35.4232",
+      "lon": "-71.6485",
+      "name": "Talca",
+      "country": "Chile",
+      "cc": "CL",
+      "sponsor": "Movistar Chile",
+      "id": "32048",
+      "preferred": 0,
+      "isp_id": "94547",
+      "https_functional": 1,
+      "host": "speedtest-movistar-tlx.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-movistar-tlx.movistarplay.cl",
+      "ip_address": {
+        "A": "200.28.11.238"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest-movistar-zco.movistarplay.cl:8080/speedtest/upload.php",
+      "lat": "-38.7359",
+      "lon": "-72.5904",
+      "name": "Temuco",
+      "country": "Chile",
+      "cc": "CL",
+      "sponsor": "Movistar Chile",
+      "id": "32049",
+      "preferred": 0,
+      "isp_id": "94547",
+      "host": "speedtest-movistar-zco.movistarplay.cl:8080",
+      "hostname": "speedtest-movistar-zco.movistarplay.cl",
+      "ip_address": {
+        "A": "200.28.12.254"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest-movistar-vap.movistarplay.cl:8080/speedtest/upload.php",
+      "lat": "-33.0500",
+      "lon": "-71.6167",
+      "name": "Valparaiso",
+      "country": "Chile",
+      "cc": "CL",
+      "sponsor": "Movistar Chile",
+      "id": "32045",
+      "preferred": 0,
+      "isp_id": "94547",
+      "https_functional": 1,
+      "host": "speedtest-movistar-vap.movistarplay.cl.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-movistar-vap.movistarplay.cl",
+      "ip_address": {
+        "A": "200.28.9.254"
+      },
+      "ipv6_capable": "no"
+    }
+  ],
+  "total_servers": 15,
+  "updated_at": "2026-06-25T13:58:02.113210+05:30"
 }

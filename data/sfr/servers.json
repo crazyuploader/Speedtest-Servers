@@ -1,104 +1,104 @@
 {
-    "servers": [
-        {
-            "url": "http://lil2.speedtest.mire.sfr.net:8080/speedtest/upload.php",
-            "lat": "50.6292",
-            "lon": "3.0573",
-            "name": "Lille",
-            "country": "France",
-            "cc": "FR",
-            "sponsor": "SFR",
-            "id": "58768",
-            "preferred": 0,
-            "isp_id": "17894",
-            "https_functional": 1,
-            "host": "lil2.speedtest.mire.sfr.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "lil2.speedtest.mire.sfr.net",
-            "ip_address": {
-                "A": "62.39.228.35",
-                "AAAA": "2a02:8400:1202:fe09:30d6:a1ff:fec8:77f2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://mit1.speedtest.mire.sfr.net:8080/speedtest/upload.php",
-            "lat": "48.9854",
-            "lon": "2.6192",
-            "name": "Mitry",
-            "country": "France",
-            "cc": "FR",
-            "sponsor": "SFR",
-            "id": "27984",
-            "preferred": 0,
-            "isp_id": "17894",
-            "host": "mit1.speedtest.mire.sfr.net:8080",
-            "hostname": "mit1.speedtest.mire.sfr.net",
-            "ip_address": {
-                "A": "62.39.228.3",
-                "AAAA": "2a02:8400:1004:fe09:f816:3eff:fefa:4fa6"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://ren1.speedtest.mire.sfr.net:8080/speedtest/upload.php",
-            "lat": "48.1173",
-            "lon": "-1.6778",
-            "name": "Rennes",
-            "country": "France",
-            "cc": "FR",
-            "sponsor": "SFR",
-            "id": "58770",
-            "preferred": 0,
-            "isp_id": "17894",
-            "https_functional": 1,
-            "host": "ren1.speedtest.mire.sfr.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "ren1.speedtest.mire.sfr.net",
-            "ip_address": {
-                "A": "62.39.228.33",
-                "AAAA": "2a02:8400:1402:fe09:6457:72ff:fe54:e29e"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://tls3.speedtest.mire.sfr.net:8080/speedtest/upload.php",
-            "lat": "43.6047",
-            "lon": "1.4442",
-            "name": "Toulouse",
-            "country": "France",
-            "cc": "FR",
-            "sponsor": "SFR",
-            "id": "62991",
-            "preferred": 0,
-            "isp_id": "17894",
-            "https_functional": 1,
-            "host": "tls3.speedtest.mire.sfr.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "tls3.speedtest.mire.sfr.net",
-            "ip_address": {
-                "A": "62.39.228.39",
-                "AAAA": "2a02:8400:1505:fe09:f48c:cfff:fec4:67b"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://lyo1.speedtest.mire.sfr.net:8080/speedtest/upload.php",
-            "lat": "45.6996",
-            "lon": "4.8845",
-            "name": "Venissieux",
-            "country": "France",
-            "cc": "FR",
-            "sponsor": "SFR",
-            "id": "30993",
-            "preferred": 0,
-            "isp_id": "17894",
-            "host": "lyo1.speedtest.mire.sfr.net:8080",
-            "hostname": "lyo1.speedtest.mire.sfr.net",
-            "ip_address": {
-                "A": "62.39.228.5",
-                "AAAA": "2a02:8400:1008:fe09:f816:3eff:fea0:54b0"
-            },
-            "ipv6_capable": "yes"
-        }
-    ],
-    "total_servers": 5,
-    "updated_at": "2026-06-25T13:51:27.169956+05:30"
+  "servers": [
+    {
+      "url": "http://lil2.speedtest.mire.sfr.net:8080/speedtest/upload.php",
+      "lat": "50.6292",
+      "lon": "3.0573",
+      "name": "Lille",
+      "country": "France",
+      "cc": "FR",
+      "sponsor": "SFR",
+      "id": "58768",
+      "preferred": 0,
+      "isp_id": "17894",
+      "https_functional": 1,
+      "host": "lil2.speedtest.mire.sfr.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "lil2.speedtest.mire.sfr.net",
+      "ip_address": {
+        "A": "62.39.228.35",
+        "AAAA": "2a02:8400:1202:fe09:30d6:a1ff:fec8:77f2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://mit1.speedtest.mire.sfr.net:8080/speedtest/upload.php",
+      "lat": "48.9854",
+      "lon": "2.6192",
+      "name": "Mitry",
+      "country": "France",
+      "cc": "FR",
+      "sponsor": "SFR",
+      "id": "27984",
+      "preferred": 0,
+      "isp_id": "17894",
+      "host": "mit1.speedtest.mire.sfr.net:8080",
+      "hostname": "mit1.speedtest.mire.sfr.net",
+      "ip_address": {
+        "A": "62.39.228.3",
+        "AAAA": "2a02:8400:1004:fe09:f816:3eff:fefa:4fa6"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ren1.speedtest.mire.sfr.net:8080/speedtest/upload.php",
+      "lat": "48.1173",
+      "lon": "-1.6778",
+      "name": "Rennes",
+      "country": "France",
+      "cc": "FR",
+      "sponsor": "SFR",
+      "id": "58770",
+      "preferred": 0,
+      "isp_id": "17894",
+      "https_functional": 1,
+      "host": "ren1.speedtest.mire.sfr.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ren1.speedtest.mire.sfr.net",
+      "ip_address": {
+        "A": "62.39.228.33",
+        "AAAA": "2a02:8400:1402:fe09:6457:72ff:fe54:e29e"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://tls3.speedtest.mire.sfr.net:8080/speedtest/upload.php",
+      "lat": "43.6047",
+      "lon": "1.4442",
+      "name": "Toulouse",
+      "country": "France",
+      "cc": "FR",
+      "sponsor": "SFR",
+      "id": "62991",
+      "preferred": 0,
+      "isp_id": "17894",
+      "https_functional": 1,
+      "host": "tls3.speedtest.mire.sfr.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "tls3.speedtest.mire.sfr.net",
+      "ip_address": {
+        "A": "62.39.228.39",
+        "AAAA": "2a02:8400:1505:fe09:f48c:cfff:fec4:67b"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://lyo1.speedtest.mire.sfr.net:8080/speedtest/upload.php",
+      "lat": "45.6996",
+      "lon": "4.8845",
+      "name": "Venissieux",
+      "country": "France",
+      "cc": "FR",
+      "sponsor": "SFR",
+      "id": "30993",
+      "preferred": 0,
+      "isp_id": "17894",
+      "host": "lyo1.speedtest.mire.sfr.net:8080",
+      "hostname": "lyo1.speedtest.mire.sfr.net",
+      "ip_address": {
+        "A": "62.39.228.5",
+        "AAAA": "2a02:8400:1008:fe09:f816:3eff:fea0:54b0"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 5,
+  "updated_at": "2026-06-25T13:51:27.169956+05:30"
 }

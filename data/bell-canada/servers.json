@@ -1,842 +1,842 @@
 {
-    "servers": [
-        {
-            "url": "http://wirelinespeedtestbarrie.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "44.3900",
-            "lon": "-79.6860",
-            "name": "Barrie, ON",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "57780",
-            "preferred": 0,
-            "isp_id": "254596",
-            "https_functional": 1,
-            "host": "wirelinespeedtestbarrie.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestbarrie.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.168.37",
-                "AAAA": "2001:4958:300:406::73"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestnapanee.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "44.1628",
-            "lon": "-77.3832",
-            "name": "Belleville, ON",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "46793",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "wirelinespeedtestnapanee.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestnapanee.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.168.45",
-                "AAAA": "2001:4958:300:406::7b"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestbrampton.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "43.7315",
-            "lon": "-79.7624",
-            "name": "Brampton, ON",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "53395",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "wirelinespeedtestbrampton.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestbrampton.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.62.131",
-                "AAAA": "2001:4958:300:412::b"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestburlington.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "43.3255",
-            "lon": "-79.7990",
-            "name": "Burlington, ON",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "46797",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "wirelinespeedtestburlington.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestburlington.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.168.57",
-                "AAAA": "2001:4958:300:406::87"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestcharlottetown.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "46.2382",
-            "lon": "-63.1311",
-            "name": "Charlottetown, PE",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "49103",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "wirelinespeedtestcharlottetown.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestcharlottetown.srvr.bell.ca",
-            "ip_address": {
-                "A": "142.176.23.50",
-                "AAAA": "2001:4c0:1:401b::1:2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestcornerbrook.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "48.9523",
-            "lon": "-57.9460",
-            "name": "Corner Brook, NL",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "55011",
-            "preferred": 0,
-            "isp_id": "254596",
-            "https_functional": 1,
-            "host": "wirelinespeedtestcornerbrook.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestcornerbrook.srvr.bell.ca",
-            "ip_address": {
-                "A": "142.176.4.122",
-                "AAAA": "2001:4c0:1:331b::1:2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestdartmouth.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "44.6661",
-            "lon": "-63.5676",
-            "name": "Dartmouth, NS",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "54632",
-            "preferred": 0,
-            "isp_id": "254596",
-            "https_functional": 1,
-            "host": "wirelinespeedtestdartmouth.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestdartmouth.srvr.bell.ca",
-            "ip_address": {
-                "A": "142.176.8.170",
-                "AAAA": "2001:4c0:1:261b::1:2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestdorval.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "45.4503",
-            "lon": "-73.7500",
-            "name": "Dorval, QC",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "60309",
-            "preferred": 0,
-            "isp_id": "254596",
-            "https_functional": 1,
-            "host": "wirelinespeedtestdorval.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestdorval.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.213.33",
-                "AAAA": "2001:4958:300:412::13"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestfredericton.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "45.9636",
-            "lon": "-66.6431",
-            "name": "Fredericton, NB",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "55009",
-            "preferred": 0,
-            "isp_id": "254596",
-            "https_functional": 1,
-            "host": "wirelinespeedtestfredericton.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestfredericton.srvr.bell.ca",
-            "ip_address": {
-                "A": "142.176.8.178",
-                "AAAA": "2001:4c0:1:131b::1:2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestgoosebay.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "53.3086",
-            "lon": "-60.3762",
-            "name": "Goose Bay, NL",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "47831",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "wirelinespeedtestgoosebay.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestgoosebay.srvr.bell.ca",
-            "ip_address": {
-                "A": "142.163.100.130",
-                "AAAA": "2001:4c0:1:7305:0:1000:0:2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestcambridge.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "43.5448",
-            "lon": "-80.2482",
-            "name": "Guelph, ON",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "46805",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "wirelinespeedtestcambridge.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestcambridge.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.168.49",
-                "AAAA": "2001:4958:300:406::7f"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest-ns.bellaliant.net:8080/speedtest/upload.php",
-            "lat": "44.6700",
-            "lon": "-63.6100",
-            "name": "Halifax, NS",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "3907",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "speedtest-ns.bellaliant.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest-ns.bellaliant.net",
-            "ip_address": {
-                "A": "142.176.208.26",
-                "AAAA": "2001:4c0:1:2001:8000::a"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtesthamilton.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "43.2565",
-            "lon": "-79.8675",
-            "name": "Hamilton, ON",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "46796",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "wirelinespeedtesthamilton.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtesthamilton.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.168.55",
-                "AAAA": "2001:4958:300:406::85"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestinnisfil.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "44.3009",
-            "lon": "-79.6115",
-            "name": "Innisfil, ON",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "46802",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "wirelinespeedtestinnisfil.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestinnisfil.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.168.39",
-                "AAAA": "2001:4958:300:406::75"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestkanata.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "45.4167",
-            "lon": "-75.7000",
-            "name": "Kanata, ON",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "17396",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "wirelinespeedtestkanata.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestkanata.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.167.234",
-                "AAAA": "2001:4958:19::1"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://Wirelinespeedtestkingston.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "44.2300",
-            "lon": "-76.5000",
-            "name": "Kingston, ON",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "46803",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "Wirelinespeedtestkingston.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestkingston.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.168.43",
-                "AAAA": "2001:4958:300:406::79"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestkitchener.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "43.4500",
-            "lon": "-80.4833",
-            "name": "Kitchener, ON",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "46804",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "wirelinespeedtestkitchener.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestkitchener.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.168.47",
-                "AAAA": "2001:4958:300:406::7d"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestmalbaie.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "47.6570",
-            "lon": "-70.1522",
-            "name": "La Malbaie, QC",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "60112",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "wirelinespeedtestmalbaie.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestmalbaie.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.168.67",
-                "AAAA": "2001:4958:300:404::6f"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://mtl02spd01.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "45.5700",
-            "lon": "-73.7500",
-            "name": "Laval, QC",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "17567",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "mtl02spd01.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "mtl02spd01.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.167.222"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://wirelinespeedtestlondon.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "42.9849",
-            "lon": "-81.2453",
-            "name": "London, ON",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "57695",
-            "preferred": 0,
-            "isp_id": "254596",
-            "https_functional": 1,
-            "host": "wirelinespeedtestlondon.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestlondon.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.168.33",
-                "AAAA": "2001:4958:300:406::6f"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestmarkham.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "43.6481",
-            "lon": "-79.4042",
-            "name": "Markham, ON",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "17394",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "wirelinespeedtestmarkham.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestmarkham.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.62.133",
-                "AAAA": "2001:4958:300:412::d"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestmississauga.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "43.6000",
-            "lon": "-79.6500",
-            "name": "Mississauga, ON",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "56780",
-            "preferred": 0,
-            "isp_id": "254596",
-            "https_functional": 1,
-            "host": "wirelinespeedtestmississauga.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestmississauga.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.62.141",
-                "AAAA": "2001:4958:300:412::11"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestmoncton.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "46.1328",
-            "lon": "-64.7714",
-            "name": "Moncton, NB",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "55010",
-            "preferred": 0,
-            "isp_id": "254596",
-            "https_functional": 1,
-            "host": "wirelinespeedtestmoncton.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestmoncton.srvr.bell.ca",
-            "ip_address": {
-                "A": "142.176.8.150",
-                "AAAA": "2001:4c0:1:161b::1:2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestmontreal.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "45.5017",
-            "lon": "-73.5673",
-            "name": "Montréal, QC",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "58956",
-            "preferred": 0,
-            "isp_id": "254596",
-            "https_functional": 1,
-            "host": "wirelinespeedtestmontreal.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestmontreal.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.213.41",
-                "AAAA": "2001:4958:300:412::1b"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestmountpearl.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "47.5206",
-            "lon": "-52.8077",
-            "name": "Mount Pearl, NL",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "53098",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "wirelinespeedtestmountpearl.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestmountpearl.srvr.bell.ca",
-            "ip_address": {
-                "A": "142.163.63.170",
-                "AAAA": "2001:4c0:1:301b::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://tor21spd01.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "43.7615",
-            "lon": "-79.4111",
-            "name": "North York, ON",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "17568",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "tor21spd01.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "tor21spd01.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.167.226"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://wirelinespeedtestoshawa.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "43.8971",
-            "lon": "-78.8658",
-            "name": "Oshawa, ON",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "54585",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "wirelinespeedtestoshawa.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestoshawa.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.62.139",
-                "AAAA": "2001:4958:300:410::b"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestottawa.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "45.4167",
-            "lon": "-75.7000",
-            "name": "Ottawa, ON",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "54836",
-            "preferred": 0,
-            "isp_id": "254596",
-            "https_functional": 1,
-            "host": "wirelinespeedtestottawa.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestottawa.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.62.137",
-                "AAAA": "2001:4958:300:410::9"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestquebeccity.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "46.8139",
-            "lon": "-71.2080",
-            "name": "Quebec City, QC",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "46790",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "wirelinespeedtestquebeccity.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestquebeccity.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.168.65",
-                "AAAA": "2001:4958:300:404::6d"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest.bellaliant.net:8080/speedtest/upload.php",
-            "lat": "45.2806",
-            "lon": "-66.0761",
-            "name": "Saint John, NB",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "3908",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "speedtest.bellaliant.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest.bellaliant.net",
-            "ip_address": {
-                "A": "142.166.184.94",
-                "AAAA": "2001:4c0:1:3001:8000::a"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestscarborough.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "43.7764",
-            "lon": "-79.2318",
-            "name": "Scarborough, ON",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "53394",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "wirelinespeedtestscarborough.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestscarborough.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.62.129",
-                "AAAA": "2001:4958:300:412::9"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedteststcatharines.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "43.1594",
-            "lon": "-79.2469",
-            "name": "St. Catharines, ON",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "46794",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "wirelinespeedteststcatharines.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedteststcatharines.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.168.51",
-                "AAAA": "2001:4958:300:406::81"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest-nl.bellaliant.net:8080/speedtest/upload.php",
-            "lat": "47.5675",
-            "lon": "-52.7072",
-            "name": "St. John's, NL",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "3845",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "speedtest-nl.bellaliant.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest-nl.bellaliant.net",
-            "ip_address": {
-                "A": "142.163.63.138",
-                "AAAA": "2001:4c0:1:3001:8000::6"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedteststthomas.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "42.7777",
-            "lon": "-81.1827",
-            "name": "St. Thomas, ON",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "43553",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "wirelinespeedteststthomas.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedteststthomas.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.168.35",
-                "AAAA": "2001:4958:300:406::71"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestsudbury.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "46.5220",
-            "lon": "-80.9530",
-            "name": "Sudbury, ON",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "60890",
-            "preferred": 0,
-            "isp_id": "254596",
-            "https_functional": 1,
-            "host": "wirelinespeedtestsudbury.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestsudbury.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.213.45",
-                "AAAA": "2001:4958:300:412::1f"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestsydney.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "46.1378",
-            "lon": "-60.1829",
-            "name": "Sydney, NS",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "55031",
-            "preferred": 0,
-            "isp_id": "254596",
-            "https_functional": 1,
-            "host": "wirelinespeedtestsydney.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestsydney.srvr.bell.ca",
-            "ip_address": {
-                "A": "142.176.4.126",
-                "AAAA": "2001:4c0:1:231b::1:2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtesttecumseh.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "42.3118",
-            "lon": "-82.8858",
-            "name": "Tecumseh, ON",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "46799",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "wirelinespeedtesttecumseh.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtesttecumseh.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.168.61",
-                "AAAA": "2001:4958:300:406::8b"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestthorold.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "43.1236",
-            "lon": "-79.1989",
-            "name": "Thorold, ON",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "46795",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "wirelinespeedtestthorold.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestthorold.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.168.53",
-                "AAAA": "2001:4958:300:406::83"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtesttoronto.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "43.6481",
-            "lon": "-79.4042",
-            "name": "Toronto, ON",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "53393",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "wirelinespeedtesttoronto.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtesttoronto.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.62.135",
-                "AAAA": "2001:4958:300:412::f"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestwestmount.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "45.4857",
-            "lon": "-73.5957",
-            "name": "Westmount, QC",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "69626",
-            "preferred": 0,
-            "isp_id": "254596",
-            "https_functional": 1,
-            "host": "wirelinespeedtestwestmount.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestwestmount.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.168.41",
-                "AAAA": "2001:4958:300:406::77"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wirelinespeedtestwindsor.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "42.2833",
-            "lon": "-83.0000",
-            "name": "Windsor, ON",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "46798",
-            "preferred": 0,
-            "isp_id": "0",
-            "https_functional": 1,
-            "host": "wirelinespeedtestwindsor.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
-            "hostname": "wirelinespeedtestwindsor.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.168.59",
-                "AAAA": "2001:4958:18::1"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://wnpcfspd02.srvr.bell.ca:8080/speedtest/upload.php",
-            "lat": "49.8833",
-            "lon": "-97.1500",
-            "name": "Winnipeg, MB",
-            "country": "Canada",
-            "cc": "CA",
-            "sponsor": "Bell Canada",
-            "id": "25266",
-            "preferred": 0,
-            "isp_id": "0",
-            "host": "wnpcfspd02.srvr.bell.ca:8080",
-            "hostname": "wnpcfspd02.srvr.bell.ca",
-            "ip_address": {
-                "A": "184.150.168.2"
-            },
-            "ipv6_capable": "no"
-        }
-    ],
-    "total_servers": 42,
-    "updated_at": "2026-06-25T13:54:25.444011+05:30"
+  "servers": [
+    {
+      "url": "http://wirelinespeedtestbarrie.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "44.3900",
+      "lon": "-79.6860",
+      "name": "Barrie, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "57780",
+      "preferred": 0,
+      "isp_id": "254596",
+      "https_functional": 1,
+      "host": "wirelinespeedtestbarrie.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestbarrie.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.168.37",
+        "AAAA": "2001:4958:300:406::73"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestnapanee.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "44.1628",
+      "lon": "-77.3832",
+      "name": "Belleville, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "46793",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "wirelinespeedtestnapanee.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestnapanee.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.168.45",
+        "AAAA": "2001:4958:300:406::7b"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestbrampton.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "43.7315",
+      "lon": "-79.7624",
+      "name": "Brampton, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "53395",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "wirelinespeedtestbrampton.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestbrampton.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.62.131",
+        "AAAA": "2001:4958:300:412::b"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestburlington.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "43.3255",
+      "lon": "-79.7990",
+      "name": "Burlington, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "46797",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "wirelinespeedtestburlington.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestburlington.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.168.57",
+        "AAAA": "2001:4958:300:406::87"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestcharlottetown.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "46.2382",
+      "lon": "-63.1311",
+      "name": "Charlottetown, PE",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "49103",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "wirelinespeedtestcharlottetown.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestcharlottetown.srvr.bell.ca",
+      "ip_address": {
+        "A": "142.176.23.50",
+        "AAAA": "2001:4c0:1:401b::1:2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestcornerbrook.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "48.9523",
+      "lon": "-57.9460",
+      "name": "Corner Brook, NL",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "55011",
+      "preferred": 0,
+      "isp_id": "254596",
+      "https_functional": 1,
+      "host": "wirelinespeedtestcornerbrook.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestcornerbrook.srvr.bell.ca",
+      "ip_address": {
+        "A": "142.176.4.122",
+        "AAAA": "2001:4c0:1:331b::1:2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestdartmouth.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "44.6661",
+      "lon": "-63.5676",
+      "name": "Dartmouth, NS",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "54632",
+      "preferred": 0,
+      "isp_id": "254596",
+      "https_functional": 1,
+      "host": "wirelinespeedtestdartmouth.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestdartmouth.srvr.bell.ca",
+      "ip_address": {
+        "A": "142.176.8.170",
+        "AAAA": "2001:4c0:1:261b::1:2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestdorval.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "45.4503",
+      "lon": "-73.7500",
+      "name": "Dorval, QC",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "60309",
+      "preferred": 0,
+      "isp_id": "254596",
+      "https_functional": 1,
+      "host": "wirelinespeedtestdorval.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestdorval.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.213.33",
+        "AAAA": "2001:4958:300:412::13"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestfredericton.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "45.9636",
+      "lon": "-66.6431",
+      "name": "Fredericton, NB",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "55009",
+      "preferred": 0,
+      "isp_id": "254596",
+      "https_functional": 1,
+      "host": "wirelinespeedtestfredericton.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestfredericton.srvr.bell.ca",
+      "ip_address": {
+        "A": "142.176.8.178",
+        "AAAA": "2001:4c0:1:131b::1:2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestgoosebay.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "53.3086",
+      "lon": "-60.3762",
+      "name": "Goose Bay, NL",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "47831",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "wirelinespeedtestgoosebay.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestgoosebay.srvr.bell.ca",
+      "ip_address": {
+        "A": "142.163.100.130",
+        "AAAA": "2001:4c0:1:7305:0:1000:0:2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestcambridge.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "43.5448",
+      "lon": "-80.2482",
+      "name": "Guelph, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "46805",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "wirelinespeedtestcambridge.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestcambridge.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.168.49",
+        "AAAA": "2001:4958:300:406::7f"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-ns.bellaliant.net:8080/speedtest/upload.php",
+      "lat": "44.6700",
+      "lon": "-63.6100",
+      "name": "Halifax, NS",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "3907",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "speedtest-ns.bellaliant.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-ns.bellaliant.net",
+      "ip_address": {
+        "A": "142.176.208.26",
+        "AAAA": "2001:4c0:1:2001:8000::a"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtesthamilton.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "43.2565",
+      "lon": "-79.8675",
+      "name": "Hamilton, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "46796",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "wirelinespeedtesthamilton.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtesthamilton.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.168.55",
+        "AAAA": "2001:4958:300:406::85"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestinnisfil.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "44.3009",
+      "lon": "-79.6115",
+      "name": "Innisfil, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "46802",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "wirelinespeedtestinnisfil.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestinnisfil.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.168.39",
+        "AAAA": "2001:4958:300:406::75"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestkanata.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "45.4167",
+      "lon": "-75.7000",
+      "name": "Kanata, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "17396",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "wirelinespeedtestkanata.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestkanata.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.167.234",
+        "AAAA": "2001:4958:19::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://Wirelinespeedtestkingston.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "44.2300",
+      "lon": "-76.5000",
+      "name": "Kingston, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "46803",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "Wirelinespeedtestkingston.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestkingston.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.168.43",
+        "AAAA": "2001:4958:300:406::79"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestkitchener.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "43.4500",
+      "lon": "-80.4833",
+      "name": "Kitchener, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "46804",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "wirelinespeedtestkitchener.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestkitchener.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.168.47",
+        "AAAA": "2001:4958:300:406::7d"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestmalbaie.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "47.6570",
+      "lon": "-70.1522",
+      "name": "La Malbaie, QC",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "60112",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "wirelinespeedtestmalbaie.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestmalbaie.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.168.67",
+        "AAAA": "2001:4958:300:404::6f"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://mtl02spd01.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "45.5700",
+      "lon": "-73.7500",
+      "name": "Laval, QC",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "17567",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "mtl02spd01.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "mtl02spd01.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.167.222"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://wirelinespeedtestlondon.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "42.9849",
+      "lon": "-81.2453",
+      "name": "London, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "57695",
+      "preferred": 0,
+      "isp_id": "254596",
+      "https_functional": 1,
+      "host": "wirelinespeedtestlondon.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestlondon.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.168.33",
+        "AAAA": "2001:4958:300:406::6f"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestmarkham.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "43.6481",
+      "lon": "-79.4042",
+      "name": "Markham, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "17394",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "wirelinespeedtestmarkham.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestmarkham.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.62.133",
+        "AAAA": "2001:4958:300:412::d"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestmississauga.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "43.6000",
+      "lon": "-79.6500",
+      "name": "Mississauga, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "56780",
+      "preferred": 0,
+      "isp_id": "254596",
+      "https_functional": 1,
+      "host": "wirelinespeedtestmississauga.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestmississauga.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.62.141",
+        "AAAA": "2001:4958:300:412::11"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestmoncton.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "46.1328",
+      "lon": "-64.7714",
+      "name": "Moncton, NB",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "55010",
+      "preferred": 0,
+      "isp_id": "254596",
+      "https_functional": 1,
+      "host": "wirelinespeedtestmoncton.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestmoncton.srvr.bell.ca",
+      "ip_address": {
+        "A": "142.176.8.150",
+        "AAAA": "2001:4c0:1:161b::1:2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestmontreal.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "45.5017",
+      "lon": "-73.5673",
+      "name": "Montréal, QC",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "58956",
+      "preferred": 0,
+      "isp_id": "254596",
+      "https_functional": 1,
+      "host": "wirelinespeedtestmontreal.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestmontreal.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.213.41",
+        "AAAA": "2001:4958:300:412::1b"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestmountpearl.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "47.5206",
+      "lon": "-52.8077",
+      "name": "Mount Pearl, NL",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "53098",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "wirelinespeedtestmountpearl.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestmountpearl.srvr.bell.ca",
+      "ip_address": {
+        "A": "142.163.63.170",
+        "AAAA": "2001:4c0:1:301b::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://tor21spd01.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "43.7615",
+      "lon": "-79.4111",
+      "name": "North York, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "17568",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "tor21spd01.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "tor21spd01.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.167.226"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://wirelinespeedtestoshawa.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "43.8971",
+      "lon": "-78.8658",
+      "name": "Oshawa, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "54585",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "wirelinespeedtestoshawa.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestoshawa.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.62.139",
+        "AAAA": "2001:4958:300:410::b"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestottawa.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "45.4167",
+      "lon": "-75.7000",
+      "name": "Ottawa, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "54836",
+      "preferred": 0,
+      "isp_id": "254596",
+      "https_functional": 1,
+      "host": "wirelinespeedtestottawa.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestottawa.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.62.137",
+        "AAAA": "2001:4958:300:410::9"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestquebeccity.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "46.8139",
+      "lon": "-71.2080",
+      "name": "Quebec City, QC",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "46790",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "wirelinespeedtestquebeccity.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestquebeccity.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.168.65",
+        "AAAA": "2001:4958:300:404::6d"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.bellaliant.net:8080/speedtest/upload.php",
+      "lat": "45.2806",
+      "lon": "-66.0761",
+      "name": "Saint John, NB",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "3908",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "speedtest.bellaliant.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.bellaliant.net",
+      "ip_address": {
+        "A": "142.166.184.94",
+        "AAAA": "2001:4c0:1:3001:8000::a"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestscarborough.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "43.7764",
+      "lon": "-79.2318",
+      "name": "Scarborough, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "53394",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "wirelinespeedtestscarborough.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestscarborough.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.62.129",
+        "AAAA": "2001:4958:300:412::9"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedteststcatharines.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "43.1594",
+      "lon": "-79.2469",
+      "name": "St. Catharines, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "46794",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "wirelinespeedteststcatharines.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedteststcatharines.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.168.51",
+        "AAAA": "2001:4958:300:406::81"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-nl.bellaliant.net:8080/speedtest/upload.php",
+      "lat": "47.5675",
+      "lon": "-52.7072",
+      "name": "St. John's, NL",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "3845",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "speedtest-nl.bellaliant.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-nl.bellaliant.net",
+      "ip_address": {
+        "A": "142.163.63.138",
+        "AAAA": "2001:4c0:1:3001:8000::6"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedteststthomas.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "42.7777",
+      "lon": "-81.1827",
+      "name": "St. Thomas, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "43553",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "wirelinespeedteststthomas.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedteststthomas.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.168.35",
+        "AAAA": "2001:4958:300:406::71"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestsudbury.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "46.5220",
+      "lon": "-80.9530",
+      "name": "Sudbury, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "60890",
+      "preferred": 0,
+      "isp_id": "254596",
+      "https_functional": 1,
+      "host": "wirelinespeedtestsudbury.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestsudbury.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.213.45",
+        "AAAA": "2001:4958:300:412::1f"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestsydney.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "46.1378",
+      "lon": "-60.1829",
+      "name": "Sydney, NS",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "55031",
+      "preferred": 0,
+      "isp_id": "254596",
+      "https_functional": 1,
+      "host": "wirelinespeedtestsydney.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestsydney.srvr.bell.ca",
+      "ip_address": {
+        "A": "142.176.4.126",
+        "AAAA": "2001:4c0:1:231b::1:2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtesttecumseh.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "42.3118",
+      "lon": "-82.8858",
+      "name": "Tecumseh, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "46799",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "wirelinespeedtesttecumseh.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtesttecumseh.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.168.61",
+        "AAAA": "2001:4958:300:406::8b"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestthorold.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "43.1236",
+      "lon": "-79.1989",
+      "name": "Thorold, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "46795",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "wirelinespeedtestthorold.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestthorold.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.168.53",
+        "AAAA": "2001:4958:300:406::83"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtesttoronto.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "43.6481",
+      "lon": "-79.4042",
+      "name": "Toronto, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "53393",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "wirelinespeedtesttoronto.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtesttoronto.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.62.135",
+        "AAAA": "2001:4958:300:412::f"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestwestmount.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "45.4857",
+      "lon": "-73.5957",
+      "name": "Westmount, QC",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "69626",
+      "preferred": 0,
+      "isp_id": "254596",
+      "https_functional": 1,
+      "host": "wirelinespeedtestwestmount.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestwestmount.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.168.41",
+        "AAAA": "2001:4958:300:406::77"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wirelinespeedtestwindsor.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "42.2833",
+      "lon": "-83.0000",
+      "name": "Windsor, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "46798",
+      "preferred": 0,
+      "isp_id": "0",
+      "https_functional": 1,
+      "host": "wirelinespeedtestwindsor.srvr.bell.ca.prod.hosts.ooklaserver.net:8080",
+      "hostname": "wirelinespeedtestwindsor.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.168.59",
+        "AAAA": "2001:4958:18::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://wnpcfspd02.srvr.bell.ca:8080/speedtest/upload.php",
+      "lat": "49.8833",
+      "lon": "-97.1500",
+      "name": "Winnipeg, MB",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "Bell Canada",
+      "id": "25266",
+      "preferred": 0,
+      "isp_id": "0",
+      "host": "wnpcfspd02.srvr.bell.ca:8080",
+      "hostname": "wnpcfspd02.srvr.bell.ca",
+      "ip_address": {
+        "A": "184.150.168.2"
+      },
+      "ipv6_capable": "no"
+    }
+  ],
+  "total_servers": 42,
+  "updated_at": "2026-06-25T13:54:25.444011+05:30"
 }

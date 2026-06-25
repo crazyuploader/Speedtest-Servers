@@ -1,62 +1,62 @@
 {
-    "servers": [
-        {
-            "url": "http://speedtest3.entelchile.net:8080/speedtest/upload.php",
-            "lat": "-23.6509",
-            "lon": "-70.3975",
-            "name": "Antofagasta",
-            "country": "Chile",
-            "cc": "CL",
-            "sponsor": "Entel",
-            "id": "18166",
-            "preferred": 0,
-            "isp_id": "32355",
-            "https_functional": 1,
-            "host": "speedtest3.entelchile.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest3.entelchile.net",
-            "ip_address": {
-                "A": "190.151.98.194"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest2.entelchile.net:8080/lqt/speedtest/upload.php",
-            "lat": "-41.4689",
-            "lon": "-72.9411",
-            "name": "Puerto Montt",
-            "country": "Chile",
-            "cc": "CL",
-            "sponsor": "Entel",
-            "id": "18146",
-            "preferred": 0,
-            "isp_id": "32355",
-            "https_functional": 1,
-            "host": "speedtest2.entelchile.net.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest2.entelchile.net",
-            "ip_address": {
-                "A": "190.151.98.196"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest1.entelchile.net:8080/lqt/client/speedtest/upload.php",
-            "lat": "-33.4378",
-            "lon": "-70.6503",
-            "name": "Santiago",
-            "country": "Chile",
-            "cc": "CL",
-            "sponsor": "Entel",
-            "id": "1858",
-            "preferred": 0,
-            "isp_id": "32355",
-            "host": "speedtest1.entelchile.net:8080",
-            "hostname": "speedtest1.entelchile.net",
-            "ip_address": {
-                "A": "190.151.98.195"
-            },
-            "ipv6_capable": "no"
-        }
-    ],
-    "total_servers": 3,
-    "updated_at": "2026-06-25T13:57:34.203883+05:30"
+  "servers": [
+    {
+      "url": "http://speedtest3.entelchile.net:8080/speedtest/upload.php",
+      "lat": "-23.6509",
+      "lon": "-70.3975",
+      "name": "Antofagasta",
+      "country": "Chile",
+      "cc": "CL",
+      "sponsor": "Entel",
+      "id": "18166",
+      "preferred": 0,
+      "isp_id": "32355",
+      "https_functional": 1,
+      "host": "speedtest3.entelchile.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest3.entelchile.net",
+      "ip_address": {
+        "A": "190.151.98.194"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest2.entelchile.net:8080/lqt/speedtest/upload.php",
+      "lat": "-41.4689",
+      "lon": "-72.9411",
+      "name": "Puerto Montt",
+      "country": "Chile",
+      "cc": "CL",
+      "sponsor": "Entel",
+      "id": "18146",
+      "preferred": 0,
+      "isp_id": "32355",
+      "https_functional": 1,
+      "host": "speedtest2.entelchile.net.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest2.entelchile.net",
+      "ip_address": {
+        "A": "190.151.98.196"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest1.entelchile.net:8080/lqt/client/speedtest/upload.php",
+      "lat": "-33.4378",
+      "lon": "-70.6503",
+      "name": "Santiago",
+      "country": "Chile",
+      "cc": "CL",
+      "sponsor": "Entel",
+      "id": "1858",
+      "preferred": 0,
+      "isp_id": "32355",
+      "host": "speedtest1.entelchile.net:8080",
+      "hostname": "speedtest1.entelchile.net",
+      "ip_address": {
+        "A": "190.151.98.195"
+      },
+      "ipv6_capable": "no"
+    }
+  ],
+  "total_servers": 3,
+  "updated_at": "2026-06-25T13:57:34.203883+05:30"
 }

@@ -1,546 +1,546 @@
 {
-    "servers": [
-        {
-            "url": "http://abh.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "18.2465",
-            "lon": "42.5117",
-            "name": "Abha",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "26103",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "abh.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "abh.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.29.125",
-                "AAAA": "2a02:ce0:1:95::4"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://dry.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "24.7481",
-            "lon": "46.5363",
-            "name": "Ad Diriyah",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "40246",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "dry.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "dry.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.76.253",
-                "AAAA": "2a02:ce0:1:35::4"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://msr.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "21.3785",
-            "lon": "39.9299",
-            "name": "Al Mashair",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "26515",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "msr.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "msr.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.29.190",
-                "AAAA": "2a02:ce0:1:94::4"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://qtf.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "26.5765",
-            "lon": "49.9982",
-            "name": "Al Qatif",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "58333",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "qtf.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "qtf.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.83.253",
-                "AAAA": "2a02:ce0:1:ac::5"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://jouf.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "29.8874",
-            "lon": "39.3206",
-            "name": "Aljouf",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "25374",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "jouf.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "jouf.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.26.147",
-                "AAAA": "2a02:ce0:1:aa::6"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://nsm.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "24.7100",
-            "lon": "46.8200",
-            "name": "An Nasim",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "47124",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "nsm.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "nsm.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.28.45",
-                "AAAA": "2a02:ce0:1:33::4"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://bah.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "20.0217",
-            "lon": "41.4713",
-            "name": "Baha",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "26106",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "bah.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "bah.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.29.124",
-                "AAAA": "2a02:ce0:1:95::5"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://bhr.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "21.3782",
-            "lon": "39.4225",
-            "name": "Bahrah",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "30628",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "bhr.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "bhr.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.29.117",
-                "AAAA": "2a02:ce0:1:97::4"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://dam.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "26.4336",
-            "lon": "50.1116",
-            "name": "Dammam",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "1734",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "dam.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "dam.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.82.252",
-                "AAAA": "2a02:ce0:1:ab::4"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://dah.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "26.2361",
-            "lon": "50.0393",
-            "name": "Dhahran",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "48995",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "dah.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "dah.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.26.145",
-                "AAAA": "2a02:ce0:1:aa::4"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://hfr.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "28.3595",
-            "lon": "45.9420",
-            "name": "Hafer",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "27911",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "hfr.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "hfr.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.83.244",
-                "AAAA": "2a02:ce0:1:ae::4"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://hal.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "27.5114",
-            "lon": "41.7208",
-            "name": "Hail",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "26064",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "hal.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "hal.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.77.212",
-                "AAAA": "2a02:ce0:1:30::4"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://jzn.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "16.8894",
-            "lon": "42.5706",
-            "name": "Jazan",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "26105",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "jzn.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "jzn.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.29.100",
-                "AAAA": "2a02:ce0:1:96::4"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://jed.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "21.5000",
-            "lon": "39.1833",
-            "name": "Jeddah",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "1733",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "jed.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "jed.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.80.252",
-                "AAAA": "2a02:ce0:1:92::4"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://jbl.myspeed.net.sa:8080/upload.php",
-            "lat": "26.9598",
-            "lon": "49.5687",
-            "name": "Jubail",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "28245",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "jbl.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "jbl.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.26.146",
-                "AAAA": "2a02:ce0:1:aa::5"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://krj.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "24.1455",
-            "lon": "47.3119",
-            "name": "Kharj",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "26065",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "krj.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "krj.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.76.236",
-                "AAAA": "2a02:ce0:1:32::4"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://khobar.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "26.2172",
-            "lon": "50.1971",
-            "name": "Khobar",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "25379",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "khobar.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "khobar.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.26.52",
-                "AAAA": "2a02:ce0:1:ad::4"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://mdn.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "24.5247",
-            "lon": "39.5692",
-            "name": "Madina",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "26066",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "mdn.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "mdn.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.93.50",
-                "AAAA": "2a02:ce0:1:c4::50"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://mkh.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "21.3891",
-            "lon": "39.8579",
-            "name": "Makkah",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "26107",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "mkh.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "mkh.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.29.188",
-                "AAAA": "2a02:ce0:1:94::5"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://njr.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "17.5656",
-            "lon": "44.2289",
-            "name": "Najran",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "26104",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "njr.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "njr.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.28.36",
-                "AAAA": "2a02:ce0:1:91::4"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://qam.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "25.8275",
-            "lon": "42.8638",
-            "name": "Qassim",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "26067",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "qam.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "qam.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.77.220",
-                "AAAA": "2a02:ce0:1:34::4"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://sulm.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "24.7053",
-            "lon": "46.7066",
-            "name": "Riyadh",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily - As Sulimaniyah",
-            "id": "61401",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "sulm.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "sulm.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.67.51",
-                "AAAA": "2a02:ce0:1:51::6"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://ryd.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "24.6500",
-            "lon": "46.7100",
-            "name": "Riyadh",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "1402",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "ryd.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "ryd.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.67.53",
-                "AAAA": "2a02:ce0:1:51::4"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://taf.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "21.2841",
-            "lon": "40.4248",
-            "name": "Ta'if",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "26100",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "taf.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "taf.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.28.188",
-                "AAAA": "2a02:ce0:1:93::4"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://tbk.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "28.3835",
-            "lon": "36.5662",
-            "name": "Tabuk",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "26063",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "tbk.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "tbk.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.29.189",
-                "AAAA": "2a02:ce0:1:94::6"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://twq.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "24.5793",
-            "lon": "46.5564",
-            "name": "Tuwaiq",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "47125",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "twq.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "twq.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.77.205",
-                "AAAA": "2a02:ce0:1:38::4"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://ynb.myspeed.net.sa:8080/speedtest/upload.php",
-            "lat": "24.0232",
-            "lon": "38.1900",
-            "name": "Yanbu",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Mobily",
-            "id": "26068",
-            "preferred": 0,
-            "isp_id": "101935",
-            "https_functional": 1,
-            "host": "ynb.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "ynb.myspeed.net.sa",
-            "ip_address": {
-                "A": "86.51.25.18",
-                "AAAA": "2a02:ce0:1:71::5"
-            },
-            "ipv6_capable": "yes"
-        }
-    ],
-    "total_servers": 27,
-    "updated_at": "2026-06-25T13:56:39.588210+05:30"
+  "servers": [
+    {
+      "url": "http://abh.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "18.2465",
+      "lon": "42.5117",
+      "name": "Abha",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "26103",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "abh.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "abh.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.29.125",
+        "AAAA": "2a02:ce0:1:95::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://dry.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "24.7481",
+      "lon": "46.5363",
+      "name": "Ad Diriyah",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "40246",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "dry.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "dry.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.76.253",
+        "AAAA": "2a02:ce0:1:35::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://msr.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "21.3785",
+      "lon": "39.9299",
+      "name": "Al Mashair",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "26515",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "msr.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "msr.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.29.190",
+        "AAAA": "2a02:ce0:1:94::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://qtf.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "26.5765",
+      "lon": "49.9982",
+      "name": "Al Qatif",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "58333",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "qtf.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "qtf.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.83.253",
+        "AAAA": "2a02:ce0:1:ac::5"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://jouf.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "29.8874",
+      "lon": "39.3206",
+      "name": "Aljouf",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "25374",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "jouf.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "jouf.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.26.147",
+        "AAAA": "2a02:ce0:1:aa::6"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://nsm.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "24.7100",
+      "lon": "46.8200",
+      "name": "An Nasim",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "47124",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "nsm.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "nsm.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.28.45",
+        "AAAA": "2a02:ce0:1:33::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://bah.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "20.0217",
+      "lon": "41.4713",
+      "name": "Baha",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "26106",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "bah.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "bah.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.29.124",
+        "AAAA": "2a02:ce0:1:95::5"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://bhr.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "21.3782",
+      "lon": "39.4225",
+      "name": "Bahrah",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "30628",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "bhr.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "bhr.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.29.117",
+        "AAAA": "2a02:ce0:1:97::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://dam.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "26.4336",
+      "lon": "50.1116",
+      "name": "Dammam",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "1734",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "dam.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "dam.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.82.252",
+        "AAAA": "2a02:ce0:1:ab::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://dah.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "26.2361",
+      "lon": "50.0393",
+      "name": "Dhahran",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "48995",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "dah.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "dah.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.26.145",
+        "AAAA": "2a02:ce0:1:aa::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://hfr.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "28.3595",
+      "lon": "45.9420",
+      "name": "Hafer",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "27911",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "hfr.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "hfr.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.83.244",
+        "AAAA": "2a02:ce0:1:ae::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://hal.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "27.5114",
+      "lon": "41.7208",
+      "name": "Hail",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "26064",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "hal.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "hal.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.77.212",
+        "AAAA": "2a02:ce0:1:30::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://jzn.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "16.8894",
+      "lon": "42.5706",
+      "name": "Jazan",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "26105",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "jzn.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "jzn.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.29.100",
+        "AAAA": "2a02:ce0:1:96::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://jed.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "21.5000",
+      "lon": "39.1833",
+      "name": "Jeddah",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "1733",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "jed.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "jed.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.80.252",
+        "AAAA": "2a02:ce0:1:92::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://jbl.myspeed.net.sa:8080/upload.php",
+      "lat": "26.9598",
+      "lon": "49.5687",
+      "name": "Jubail",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "28245",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "jbl.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "jbl.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.26.146",
+        "AAAA": "2a02:ce0:1:aa::5"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://krj.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "24.1455",
+      "lon": "47.3119",
+      "name": "Kharj",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "26065",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "krj.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "krj.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.76.236",
+        "AAAA": "2a02:ce0:1:32::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://khobar.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "26.2172",
+      "lon": "50.1971",
+      "name": "Khobar",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "25379",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "khobar.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "khobar.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.26.52",
+        "AAAA": "2a02:ce0:1:ad::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://mdn.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "24.5247",
+      "lon": "39.5692",
+      "name": "Madina",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "26066",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "mdn.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "mdn.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.93.50",
+        "AAAA": "2a02:ce0:1:c4::50"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://mkh.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "21.3891",
+      "lon": "39.8579",
+      "name": "Makkah",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "26107",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "mkh.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "mkh.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.29.188",
+        "AAAA": "2a02:ce0:1:94::5"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://njr.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "17.5656",
+      "lon": "44.2289",
+      "name": "Najran",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "26104",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "njr.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "njr.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.28.36",
+        "AAAA": "2a02:ce0:1:91::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://qam.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "25.8275",
+      "lon": "42.8638",
+      "name": "Qassim",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "26067",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "qam.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "qam.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.77.220",
+        "AAAA": "2a02:ce0:1:34::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://sulm.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "24.7053",
+      "lon": "46.7066",
+      "name": "Riyadh",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily - As Sulimaniyah",
+      "id": "61401",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "sulm.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "sulm.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.67.51",
+        "AAAA": "2a02:ce0:1:51::6"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ryd.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "24.6500",
+      "lon": "46.7100",
+      "name": "Riyadh",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "1402",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "ryd.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ryd.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.67.53",
+        "AAAA": "2a02:ce0:1:51::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://taf.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "21.2841",
+      "lon": "40.4248",
+      "name": "Ta'if",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "26100",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "taf.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "taf.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.28.188",
+        "AAAA": "2a02:ce0:1:93::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://tbk.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "28.3835",
+      "lon": "36.5662",
+      "name": "Tabuk",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "26063",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "tbk.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "tbk.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.29.189",
+        "AAAA": "2a02:ce0:1:94::6"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://twq.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "24.5793",
+      "lon": "46.5564",
+      "name": "Tuwaiq",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "47125",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "twq.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "twq.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.77.205",
+        "AAAA": "2a02:ce0:1:38::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ynb.myspeed.net.sa:8080/speedtest/upload.php",
+      "lat": "24.0232",
+      "lon": "38.1900",
+      "name": "Yanbu",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Mobily",
+      "id": "26068",
+      "preferred": 0,
+      "isp_id": "101935",
+      "https_functional": 1,
+      "host": "ynb.myspeed.net.sa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ynb.myspeed.net.sa",
+      "ip_address": {
+        "A": "86.51.25.18",
+        "AAAA": "2a02:ce0:1:71::5"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 27,
+  "updated_at": "2026-06-25T13:56:39.588210+05:30"
 }

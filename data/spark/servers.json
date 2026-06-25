@@ -1,63 +1,63 @@
 {
-    "servers": [
-        {
-            "url": "http://speedtest-auckland.spark.co.nz:8080/speedtest/upload.php",
-            "lat": "-36.8500",
-            "lon": "174.7833",
-            "name": "Auckland",
-            "country": "New Zealand",
-            "cc": "NZ",
-            "sponsor": "Spark New Zealand",
-            "id": "11327",
-            "preferred": 0,
-            "isp_id": "100678",
-            "https_functional": 1,
-            "host": "speedtest-auckland.spark.co.nz.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest-auckland.spark.co.nz",
-            "ip_address": {
-                "A": "219.88.203.2"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest-christchurch.spark.co.nz:8080/speedtest/upload.php",
-            "lat": "-43.5000",
-            "lon": "172.6000",
-            "name": "Christchurch",
-            "country": "New Zealand",
-            "cc": "NZ",
-            "sponsor": "Spark New Zealand",
-            "id": "11328",
-            "preferred": 0,
-            "isp_id": "100678",
-            "https_functional": 1,
-            "host": "speedtest-christchurch.spark.co.nz.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest-christchurch.spark.co.nz",
-            "ip_address": {
-                "A": "219.88.203.10"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest-wellington.spark.co.nz:8080/speedtest/upload.php",
-            "lat": "-41.2889",
-            "lon": "174.7772",
-            "name": "Wellington",
-            "country": "New Zealand",
-            "cc": "NZ",
-            "sponsor": "Spark New Zealand",
-            "id": "11326",
-            "preferred": 0,
-            "isp_id": "100678",
-            "https_functional": 1,
-            "host": "speedtest-wellington.spark.co.nz.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest-wellington.spark.co.nz",
-            "ip_address": {
-                "A": "219.88.203.6"
-            },
-            "ipv6_capable": "no"
-        }
-    ],
-    "total_servers": 3,
-    "updated_at": "2026-06-25T13:57:07.935408+05:30"
+  "servers": [
+    {
+      "url": "http://speedtest-auckland.spark.co.nz:8080/speedtest/upload.php",
+      "lat": "-36.8500",
+      "lon": "174.7833",
+      "name": "Auckland",
+      "country": "New Zealand",
+      "cc": "NZ",
+      "sponsor": "Spark New Zealand",
+      "id": "11327",
+      "preferred": 0,
+      "isp_id": "100678",
+      "https_functional": 1,
+      "host": "speedtest-auckland.spark.co.nz.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-auckland.spark.co.nz",
+      "ip_address": {
+        "A": "219.88.203.2"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest-christchurch.spark.co.nz:8080/speedtest/upload.php",
+      "lat": "-43.5000",
+      "lon": "172.6000",
+      "name": "Christchurch",
+      "country": "New Zealand",
+      "cc": "NZ",
+      "sponsor": "Spark New Zealand",
+      "id": "11328",
+      "preferred": 0,
+      "isp_id": "100678",
+      "https_functional": 1,
+      "host": "speedtest-christchurch.spark.co.nz.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-christchurch.spark.co.nz",
+      "ip_address": {
+        "A": "219.88.203.10"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest-wellington.spark.co.nz:8080/speedtest/upload.php",
+      "lat": "-41.2889",
+      "lon": "174.7772",
+      "name": "Wellington",
+      "country": "New Zealand",
+      "cc": "NZ",
+      "sponsor": "Spark New Zealand",
+      "id": "11326",
+      "preferred": 0,
+      "isp_id": "100678",
+      "https_functional": 1,
+      "host": "speedtest-wellington.spark.co.nz.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest-wellington.spark.co.nz",
+      "ip_address": {
+        "A": "219.88.203.6"
+      },
+      "ipv6_capable": "no"
+    }
+  ],
+  "total_servers": 3,
+  "updated_at": "2026-06-25T13:57:07.935408+05:30"
 }

@@ -1,86 +1,86 @@
 {
-    "servers": [
-        {
-            "url": "http://speedtest.rcs-rds.ro:8080/speedtest/upload.php",
-            "lat": "44.4167",
-            "lon": "26.1000",
-            "name": "Bucharest",
-            "country": "Romania",
-            "cc": "RO",
-            "sponsor": "Digi (RCS & RDS)",
-            "id": "11494",
-            "preferred": 0,
-            "isp_id": "53993",
-            "https_functional": 1,
-            "host": "speedtest.rcs-rds.ro:8080",
-            "hostname": "speedtest.rcs-rds.ro",
-            "ip_address": {
-                "A": "81.196.8.146",
-                "AAAA": "2a02:2f0a:dfff:2::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest-is.rcs-rds.ro:8080/speedtest/upload.php",
-            "lat": "47.1569",
-            "lon": "27.5903",
-            "name": "Iasi",
-            "country": "Romania",
-            "cc": "RO",
-            "sponsor": "Digi (RCS & RDS)",
-            "id": "11502",
-            "preferred": 0,
-            "isp_id": "195563",
-            "https_functional": 1,
-            "host": "speedtest-is.rcs-rds.ro:8080",
-            "hostname": "speedtest-is.rcs-rds.ro",
-            "ip_address": {
-                "A": "213.157.176.194",
-                "AAAA": "2a02:2f0e:5ff0:f::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest-or.rcs-rds.ro:8080/speedtest/upload.php",
-            "lat": "47.0722",
-            "lon": "21.9211",
-            "name": "Oradea",
-            "country": "Romania",
-            "cc": "RO",
-            "sponsor": "Digi (RCS & RDS)",
-            "id": "11501",
-            "preferred": 0,
-            "isp_id": "53993",
-            "https_functional": 1,
-            "host": "speedtest-or.rcs-rds.ro:8080",
-            "hostname": "speedtest-or.rcs-rds.ro",
-            "ip_address": {
-                "A": "86.127.118.246",
-                "AAAA": "2a02:2f02:2030:1::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest-tm.rcs-rds.ro:8080/speedtest/upload.php",
-            "lat": "45.7597",
-            "lon": "21.2300",
-            "name": "Timisoara",
-            "country": "Romania",
-            "cc": "RO",
-            "sponsor": "Digi (RCS & RDS)",
-            "id": "11500",
-            "preferred": 0,
-            "isp_id": "53993",
-            "https_functional": 1,
-            "host": "speedtest-tm.rcs-rds.ro:8080",
-            "hostname": "speedtest-tm.rcs-rds.ro",
-            "ip_address": {
-                "A": "81.196.122.82",
-                "AAAA": "2a02:2f02:1030:8::2"
-            },
-            "ipv6_capable": "yes"
-        }
-    ],
-    "total_servers": 4,
-    "updated_at": "2026-06-25T13:58:47.730157+05:30"
+  "servers": [
+    {
+      "url": "http://speedtest.rcs-rds.ro:8080/speedtest/upload.php",
+      "lat": "44.4167",
+      "lon": "26.1000",
+      "name": "Bucharest",
+      "country": "Romania",
+      "cc": "RO",
+      "sponsor": "Digi (RCS & RDS)",
+      "id": "11494",
+      "preferred": 0,
+      "isp_id": "53993",
+      "https_functional": 1,
+      "host": "speedtest.rcs-rds.ro:8080",
+      "hostname": "speedtest.rcs-rds.ro",
+      "ip_address": {
+        "A": "81.196.8.146",
+        "AAAA": "2a02:2f0a:dfff:2::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-is.rcs-rds.ro:8080/speedtest/upload.php",
+      "lat": "47.1569",
+      "lon": "27.5903",
+      "name": "Iasi",
+      "country": "Romania",
+      "cc": "RO",
+      "sponsor": "Digi (RCS & RDS)",
+      "id": "11502",
+      "preferred": 0,
+      "isp_id": "195563",
+      "https_functional": 1,
+      "host": "speedtest-is.rcs-rds.ro:8080",
+      "hostname": "speedtest-is.rcs-rds.ro",
+      "ip_address": {
+        "A": "213.157.176.194",
+        "AAAA": "2a02:2f0e:5ff0:f::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-or.rcs-rds.ro:8080/speedtest/upload.php",
+      "lat": "47.0722",
+      "lon": "21.9211",
+      "name": "Oradea",
+      "country": "Romania",
+      "cc": "RO",
+      "sponsor": "Digi (RCS & RDS)",
+      "id": "11501",
+      "preferred": 0,
+      "isp_id": "53993",
+      "https_functional": 1,
+      "host": "speedtest-or.rcs-rds.ro:8080",
+      "hostname": "speedtest-or.rcs-rds.ro",
+      "ip_address": {
+        "A": "86.127.118.246",
+        "AAAA": "2a02:2f02:2030:1::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest-tm.rcs-rds.ro:8080/speedtest/upload.php",
+      "lat": "45.7597",
+      "lon": "21.2300",
+      "name": "Timisoara",
+      "country": "Romania",
+      "cc": "RO",
+      "sponsor": "Digi (RCS & RDS)",
+      "id": "11500",
+      "preferred": 0,
+      "isp_id": "53993",
+      "https_functional": 1,
+      "host": "speedtest-tm.rcs-rds.ro:8080",
+      "hostname": "speedtest-tm.rcs-rds.ro",
+      "ip_address": {
+        "A": "81.196.122.82",
+        "AAAA": "2a02:2f02:1030:8::2"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 4,
+  "updated_at": "2026-06-25T13:58:47.730157+05:30"
 }

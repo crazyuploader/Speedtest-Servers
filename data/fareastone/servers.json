@@ -1,85 +1,85 @@
 {
-    "servers": [
-        {
-            "url": "http://fetnt1.seed.net.tw:8080/speedtest/upload.php",
-            "lat": "23.9180",
-            "lon": "120.6775",
-            "name": "Nantou City",
-            "country": "Taiwan",
-            "cc": "TW",
-            "sponsor": "FarEasTone Telecom",
-            "id": "17189",
-            "preferred": 0,
-            "isp_id": "12707",
-            "https_functional": 1,
-            "host": "fetnt1.seed.net.tw.prod.hosts.ooklaserver.net:8080",
-            "hostname": "fetnt1.seed.net.tw",
-            "ip_address": {
-                "A": "211.77.43.28",
-                "AAAA": "2401:e180:0:f::609"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://fetyl1.seed.net.tw:8080/speedtest/upload.php",
-            "lat": "23.9596",
-            "lon": "120.5855",
-            "name": "Yuanlin City",
-            "country": "Taiwan",
-            "cc": "TW",
-            "sponsor": "FarEasTone Telecom",
-            "id": "17204",
-            "preferred": 0,
-            "isp_id": "12707",
-            "https_functional": 1,
-            "host": "fetyl1.seed.net.tw:8080",
-            "hostname": "fetyl1.seed.net.tw",
-            "ip_address": {
-                "A": "211.77.43.25",
-                "AAAA": "2401:e180:0:f::603"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://fetsz1.seed.net.tw:8080/speedtest/upload.php",
-            "lat": "24.9962",
-            "lon": "121.4853",
-            "name": "Zhonghe",
-            "country": "Taiwan",
-            "cc": "TW",
-            "sponsor": "FarEasTone Telecom",
-            "id": "17265",
-            "preferred": 0,
-            "isp_id": "12707",
-            "https_functional": 1,
-            "host": "fetsz1.seed.net.tw.prod.hosts.ooklaserver.net:8080",
-            "hostname": "fetsz1.seed.net.tw",
-            "ip_address": {
-                "A": "211.77.43.18",
-                "AAAA": "2401:e180:0:f::604"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://fetzl1.seed.net.tw:8080/speedtest/upload.php",
-            "lat": "24.9722",
-            "lon": "121.2054",
-            "name": "Zhongli",
-            "country": "Taiwan",
-            "cc": "TW",
-            "sponsor": "FarEasTone Telecom",
-            "id": "17186",
-            "preferred": 0,
-            "isp_id": "12707",
-            "host": "fetzl1.seed.net.tw:8080",
-            "hostname": "fetzl1.seed.net.tw",
-            "ip_address": {
-                "A": "211.77.43.20",
-                "AAAA": "2401:e180:0:f::608"
-            },
-            "ipv6_capable": "yes"
-        }
-    ],
-    "total_servers": 4,
-    "updated_at": "2026-06-25T13:57:04.966659+05:30"
+  "servers": [
+    {
+      "url": "http://fetnt1.seed.net.tw:8080/speedtest/upload.php",
+      "lat": "23.9180",
+      "lon": "120.6775",
+      "name": "Nantou City",
+      "country": "Taiwan",
+      "cc": "TW",
+      "sponsor": "FarEasTone Telecom",
+      "id": "17189",
+      "preferred": 0,
+      "isp_id": "12707",
+      "https_functional": 1,
+      "host": "fetnt1.seed.net.tw.prod.hosts.ooklaserver.net:8080",
+      "hostname": "fetnt1.seed.net.tw",
+      "ip_address": {
+        "A": "211.77.43.28",
+        "AAAA": "2401:e180:0:f::609"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://fetyl1.seed.net.tw:8080/speedtest/upload.php",
+      "lat": "23.9596",
+      "lon": "120.5855",
+      "name": "Yuanlin City",
+      "country": "Taiwan",
+      "cc": "TW",
+      "sponsor": "FarEasTone Telecom",
+      "id": "17204",
+      "preferred": 0,
+      "isp_id": "12707",
+      "https_functional": 1,
+      "host": "fetyl1.seed.net.tw:8080",
+      "hostname": "fetyl1.seed.net.tw",
+      "ip_address": {
+        "A": "211.77.43.25",
+        "AAAA": "2401:e180:0:f::603"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://fetsz1.seed.net.tw:8080/speedtest/upload.php",
+      "lat": "24.9962",
+      "lon": "121.4853",
+      "name": "Zhonghe",
+      "country": "Taiwan",
+      "cc": "TW",
+      "sponsor": "FarEasTone Telecom",
+      "id": "17265",
+      "preferred": 0,
+      "isp_id": "12707",
+      "https_functional": 1,
+      "host": "fetsz1.seed.net.tw.prod.hosts.ooklaserver.net:8080",
+      "hostname": "fetsz1.seed.net.tw",
+      "ip_address": {
+        "A": "211.77.43.18",
+        "AAAA": "2401:e180:0:f::604"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://fetzl1.seed.net.tw:8080/speedtest/upload.php",
+      "lat": "24.9722",
+      "lon": "121.2054",
+      "name": "Zhongli",
+      "country": "Taiwan",
+      "cc": "TW",
+      "sponsor": "FarEasTone Telecom",
+      "id": "17186",
+      "preferred": 0,
+      "isp_id": "12707",
+      "host": "fetzl1.seed.net.tw:8080",
+      "hostname": "fetzl1.seed.net.tw",
+      "ip_address": {
+        "A": "211.77.43.20",
+        "AAAA": "2401:e180:0:f::608"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 4,
+  "updated_at": "2026-06-25T13:57:04.966659+05:30"
 }

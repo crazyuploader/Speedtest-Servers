@@ -1,366 +1,366 @@
 {
-    "servers": [
-        {
-            "url": "http://adana.hizinitestet.com:8080/speedtest/upload.php",
-            "lat": "36.9914",
-            "lon": "35.3308",
-            "name": "Adana",
-            "country": "Turkey",
-            "cc": "TR",
-            "sponsor": "Turkcell",
-            "id": "73622",
-            "preferred": 0,
-            "isp_id": "76431",
-            "https_functional": 1,
-            "host": "adana.hizinitestet.com:8080",
-            "hostname": "adana.hizinitestet.com",
-            "ip_address": {
-                "A": "213.14.197.178",
-                "AAAA": "2a02:e0:4003:126::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://ankara.hizinitestet.com:8080/speedtest/upload.php",
-            "lat": "39.9334",
-            "lon": "32.8597",
-            "name": "Ankara",
-            "country": "Turkey",
-            "cc": "TR",
-            "sponsor": "Turkcell",
-            "id": "73436",
-            "preferred": 0,
-            "isp_id": "76431",
-            "https_functional": 1,
-            "host": "ankara.hizinitestet.com:8080",
-            "hostname": "ankara.hizinitestet.com",
-            "ip_address": {
-                "A": "213.14.197.102",
-                "AAAA": "2a02:e0:4003:11f::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://antl03.hizinitestet.com:8080/speedtest/upload.php",
-            "lat": "36.9095",
-            "lon": "30.6949",
-            "name": "Antalya",
-            "country": "Turkey",
-            "cc": "TR",
-            "sponsor": "Turkcell",
-            "id": "32646",
-            "preferred": 0,
-            "isp_id": "76431",
-            "https_functional": 1,
-            "host": "antl03.hizinitestet.com:8080",
-            "hostname": "antl03.hizinitestet.com",
-            "ip_address": {
-                "A": "213.14.197.174",
-                "AAAA": "2a02:e0:4003:125::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://avrupa.hizinitestet.com:8080/speedtest/upload.php",
-            "lat": "41.0383",
-            "lon": "28.9703",
-            "name": "Beyoglu",
-            "country": "Turkey",
-            "cc": "TR",
-            "sponsor": "Turkcell",
-            "id": "73840",
-            "preferred": 0,
-            "isp_id": "76431",
-            "https_functional": 1,
-            "host": "avrupa.hizinitestet.com:8080",
-            "hostname": "avrupa.hizinitestet.com",
-            "ip_address": {
-                "A": "213.14.197.94",
-                "AAAA": "2a02:e0:4003:11d::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://bursa.hizinitestet.com:8080/speedtest/upload.php",
-            "lat": "40.1885",
-            "lon": "29.0610",
-            "name": "Bursa",
-            "country": "Turkey",
-            "cc": "TR",
-            "sponsor": "Turkcell",
-            "id": "73443",
-            "preferred": 0,
-            "isp_id": "76431",
-            "https_functional": 1,
-            "host": "bursa.hizinitestet.com:8080",
-            "hostname": "bursa.hizinitestet.com",
-            "ip_address": {
-                "A": "213.14.197.226",
-                "AAAA": "2a02:e0:4003:127::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://diyarbakir.hizinitestet.com:8080/speedtest/upload.php",
-            "lat": "37.9250",
-            "lon": "40.2110",
-            "name": "Diyarbakir",
-            "country": "Turkey",
-            "cc": "TR",
-            "sponsor": "Turkcell",
-            "id": "73425",
-            "preferred": 0,
-            "isp_id": "76431",
-            "https_functional": 1,
-            "host": "diyarbakir.hizinitestet.com:8080",
-            "hostname": "diyarbakir.hizinitestet.com",
-            "ip_address": {
-                "A": "213.14.197.238",
-                "AAAA": "2a02:e0:4003:12a::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://erzurum.hizinitestet.com:8080/speedtest/upload.php",
-            "lat": "39.9055",
-            "lon": "41.2658",
-            "name": "Erzurum",
-            "country": "Turkey",
-            "cc": "TR",
-            "sponsor": "Turkcell",
-            "id": "73440",
-            "preferred": 0,
-            "isp_id": "76431",
-            "https_functional": 1,
-            "host": "erzurum.hizinitestet.com:8080",
-            "hostname": "erzurum.hizinitestet.com",
-            "ip_address": {
-                "A": "213.14.197.118",
-                "AAAA": "2a02:e0:4003:123::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://eskisehir.hizinitestet.com:8080/speedtest/upload.php",
-            "lat": "39.7667",
-            "lon": "30.5256",
-            "name": "Eskisehir",
-            "country": "Turkey",
-            "cc": "TR",
-            "sponsor": "Turkcell",
-            "id": "73444",
-            "preferred": 0,
-            "isp_id": "76431",
-            "https_functional": 1,
-            "host": "eskisehir.hizinitestet.com:8080",
-            "hostname": "eskisehir.hizinitestet.com",
-            "ip_address": {
-                "A": "213.14.197.234",
-                "AAAA": "2a02:e0:4003:129::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://mbey01.hizinitestet.com:8080/speedtest/upload.php",
-            "lat": "41.0082",
-            "lon": "28.9784",
-            "name": "Istanbul",
-            "country": "Turkey",
-            "cc": "TR",
-            "sponsor": "Turkcell",
-            "id": "31851",
-            "preferred": 0,
-            "isp_id": "76431",
-            "https_functional": 1,
-            "host": "mbey01.hizinitestet.com:8080",
-            "hostname": "mbey01.hizinitestet.com",
-            "ip_address": {
-                "A": "213.14.197.162",
-                "AAAA": "2a02:e0:4003:100::1"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://izmir.hizinitestet.com:8080/speedtest/upload.php",
-            "lat": "38.4237",
-            "lon": "27.1428",
-            "name": "Izmir",
-            "country": "Turkey",
-            "cc": "TR",
-            "sponsor": "Turkcell",
-            "id": "73441",
-            "preferred": 0,
-            "isp_id": "76431",
-            "https_functional": 1,
-            "host": "izmir.hizinitestet.com:8080",
-            "hostname": "izmir.hizinitestet.com",
-            "ip_address": {
-                "A": "213.14.197.170",
-                "AAAA": "2a02:e0:4003:124::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://kastamonu.hizinitestet.com:8080/speedtest/upload.php",
-            "lat": "41.3766",
-            "lon": "33.7765",
-            "name": "Kastamonu",
-            "country": "Turkey",
-            "cc": "TR",
-            "sponsor": "Turkcell",
-            "id": "73428",
-            "preferred": 0,
-            "isp_id": "76431",
-            "https_functional": 1,
-            "host": "kastamonu.hizinitestet.com:8080",
-            "hostname": "kastamonu.hizinitestet.com",
-            "ip_address": {
-                "A": "213.14.197.230",
-                "AAAA": "2a02:e0:4003:128::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://kayseri.hizinitestet.com:8080/speedtest/upload.php",
-            "lat": "38.7205",
-            "lon": "35.4826",
-            "name": "Kayseri",
-            "country": "Turkey",
-            "cc": "TR",
-            "sponsor": "Turkcell",
-            "id": "73437",
-            "preferred": 0,
-            "isp_id": "76431",
-            "https_functional": 1,
-            "host": "kayseri.hizinitestet.com:8080",
-            "hostname": "kayseri.hizinitestet.com",
-            "ip_address": {
-                "A": "213.14.197.106",
-                "AAAA": "2a02:e0:4003:120::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://kocaeli.hizinitestet.com:8080/speedtest/upload.php",
-            "lat": "40.7654",
-            "lon": "29.9408",
-            "name": "Kocaeli",
-            "country": "Turkey",
-            "cc": "TR",
-            "sponsor": "Turkcell",
-            "id": "73263",
-            "preferred": 0,
-            "isp_id": "76431",
-            "https_functional": 1,
-            "host": "kocaeli.hizinitestet.com:8080",
-            "hostname": "kocaeli.hizinitestet.com",
-            "ip_address": {
-                "A": "213.14.197.86",
-                "AAAA": "2a02:e0:4003:11b::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://sakarya.hizinitestet.com:8080/speedtest/upload.php",
-            "lat": "40.7889",
-            "lon": "30.4060",
-            "name": "Sakarya",
-            "country": "Turkey",
-            "cc": "TR",
-            "sponsor": "Turkcell",
-            "id": "73306",
-            "preferred": 0,
-            "isp_id": "76431",
-            "https_functional": 1,
-            "host": "sakarya.hizinitestet.com:8080",
-            "hostname": "sakarya.hizinitestet.com",
-            "ip_address": {
-                "A": "213.14.197.90",
-                "AAAA": "2a02:e0:4003:11c::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://samsun.hizinitestet.com:8080/speedtest/upload.php",
-            "lat": "41.2797",
-            "lon": "36.3361",
-            "name": "Samsun",
-            "country": "Turkey",
-            "cc": "TR",
-            "sponsor": "Turkcell",
-            "id": "73438",
-            "preferred": 0,
-            "isp_id": "76431",
-            "https_functional": 1,
-            "host": "samsun.hizinitestet.com:8080",
-            "hostname": "samsun.hizinitestet.com",
-            "ip_address": {
-                "A": "213.14.197.110",
-                "AAAA": "2a02:e0:4003:121::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://tekirdag.hizinitestet.com:8080/speedtest/upload.php",
-            "lat": "40.9781",
-            "lon": "27.5117",
-            "name": "Tekirdag",
-            "country": "Turkey",
-            "cc": "TR",
-            "sponsor": "Turkcell",
-            "id": "73839",
-            "preferred": 0,
-            "isp_id": "76431",
-            "https_functional": 1,
-            "host": "tekirdag.hizinitestet.com:8080",
-            "hostname": "tekirdag.hizinitestet.com",
-            "ip_address": {
-                "A": "213.14.197.98",
-                "AAAA": "2a02:e0:4003:11e::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://trabzon.hizinitestet.com:8080/speedtest/upload.php",
-            "lat": "41.0027",
-            "lon": "39.7168",
-            "name": "Trabzon",
-            "country": "Turkey",
-            "cc": "TR",
-            "sponsor": "Turkcell",
-            "id": "73439",
-            "preferred": 0,
-            "isp_id": "76431",
-            "https_functional": 1,
-            "host": "trabzon.hizinitestet.com:8080",
-            "hostname": "trabzon.hizinitestet.com",
-            "ip_address": {
-                "A": "213.14.197.114",
-                "AAAA": "2a02:e0:4003:122::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://halfeti.hizinitestet.com:8080/speedtest/upload.php",
-            "lat": "37.1674",
-            "lon": "38.7955",
-            "name": "Urfa",
-            "country": "Turkey",
-            "cc": "TR",
-            "sponsor": "Turkcell",
-            "id": "73426",
-            "preferred": 0,
-            "isp_id": "76431",
-            "https_functional": 1,
-            "host": "halfeti.hizinitestet.com:8080",
-            "hostname": "halfeti.hizinitestet.com",
-            "ip_address": {
-                "A": "213.14.197.242",
-                "AAAA": "2a02:e0:4003:12b::2"
-            },
-            "ipv6_capable": "yes"
-        }
-    ],
-    "total_servers": 18,
-    "updated_at": "2026-06-25T13:55:14.395887+05:30"
+  "servers": [
+    {
+      "url": "http://adana.hizinitestet.com:8080/speedtest/upload.php",
+      "lat": "36.9914",
+      "lon": "35.3308",
+      "name": "Adana",
+      "country": "Turkey",
+      "cc": "TR",
+      "sponsor": "Turkcell",
+      "id": "73622",
+      "preferred": 0,
+      "isp_id": "76431",
+      "https_functional": 1,
+      "host": "adana.hizinitestet.com:8080",
+      "hostname": "adana.hizinitestet.com",
+      "ip_address": {
+        "A": "213.14.197.178",
+        "AAAA": "2a02:e0:4003:126::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ankara.hizinitestet.com:8080/speedtest/upload.php",
+      "lat": "39.9334",
+      "lon": "32.8597",
+      "name": "Ankara",
+      "country": "Turkey",
+      "cc": "TR",
+      "sponsor": "Turkcell",
+      "id": "73436",
+      "preferred": 0,
+      "isp_id": "76431",
+      "https_functional": 1,
+      "host": "ankara.hizinitestet.com:8080",
+      "hostname": "ankara.hizinitestet.com",
+      "ip_address": {
+        "A": "213.14.197.102",
+        "AAAA": "2a02:e0:4003:11f::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://antl03.hizinitestet.com:8080/speedtest/upload.php",
+      "lat": "36.9095",
+      "lon": "30.6949",
+      "name": "Antalya",
+      "country": "Turkey",
+      "cc": "TR",
+      "sponsor": "Turkcell",
+      "id": "32646",
+      "preferred": 0,
+      "isp_id": "76431",
+      "https_functional": 1,
+      "host": "antl03.hizinitestet.com:8080",
+      "hostname": "antl03.hizinitestet.com",
+      "ip_address": {
+        "A": "213.14.197.174",
+        "AAAA": "2a02:e0:4003:125::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://avrupa.hizinitestet.com:8080/speedtest/upload.php",
+      "lat": "41.0383",
+      "lon": "28.9703",
+      "name": "Beyoglu",
+      "country": "Turkey",
+      "cc": "TR",
+      "sponsor": "Turkcell",
+      "id": "73840",
+      "preferred": 0,
+      "isp_id": "76431",
+      "https_functional": 1,
+      "host": "avrupa.hizinitestet.com:8080",
+      "hostname": "avrupa.hizinitestet.com",
+      "ip_address": {
+        "A": "213.14.197.94",
+        "AAAA": "2a02:e0:4003:11d::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://bursa.hizinitestet.com:8080/speedtest/upload.php",
+      "lat": "40.1885",
+      "lon": "29.0610",
+      "name": "Bursa",
+      "country": "Turkey",
+      "cc": "TR",
+      "sponsor": "Turkcell",
+      "id": "73443",
+      "preferred": 0,
+      "isp_id": "76431",
+      "https_functional": 1,
+      "host": "bursa.hizinitestet.com:8080",
+      "hostname": "bursa.hizinitestet.com",
+      "ip_address": {
+        "A": "213.14.197.226",
+        "AAAA": "2a02:e0:4003:127::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://diyarbakir.hizinitestet.com:8080/speedtest/upload.php",
+      "lat": "37.9250",
+      "lon": "40.2110",
+      "name": "Diyarbakir",
+      "country": "Turkey",
+      "cc": "TR",
+      "sponsor": "Turkcell",
+      "id": "73425",
+      "preferred": 0,
+      "isp_id": "76431",
+      "https_functional": 1,
+      "host": "diyarbakir.hizinitestet.com:8080",
+      "hostname": "diyarbakir.hizinitestet.com",
+      "ip_address": {
+        "A": "213.14.197.238",
+        "AAAA": "2a02:e0:4003:12a::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://erzurum.hizinitestet.com:8080/speedtest/upload.php",
+      "lat": "39.9055",
+      "lon": "41.2658",
+      "name": "Erzurum",
+      "country": "Turkey",
+      "cc": "TR",
+      "sponsor": "Turkcell",
+      "id": "73440",
+      "preferred": 0,
+      "isp_id": "76431",
+      "https_functional": 1,
+      "host": "erzurum.hizinitestet.com:8080",
+      "hostname": "erzurum.hizinitestet.com",
+      "ip_address": {
+        "A": "213.14.197.118",
+        "AAAA": "2a02:e0:4003:123::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://eskisehir.hizinitestet.com:8080/speedtest/upload.php",
+      "lat": "39.7667",
+      "lon": "30.5256",
+      "name": "Eskisehir",
+      "country": "Turkey",
+      "cc": "TR",
+      "sponsor": "Turkcell",
+      "id": "73444",
+      "preferred": 0,
+      "isp_id": "76431",
+      "https_functional": 1,
+      "host": "eskisehir.hizinitestet.com:8080",
+      "hostname": "eskisehir.hizinitestet.com",
+      "ip_address": {
+        "A": "213.14.197.234",
+        "AAAA": "2a02:e0:4003:129::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://mbey01.hizinitestet.com:8080/speedtest/upload.php",
+      "lat": "41.0082",
+      "lon": "28.9784",
+      "name": "Istanbul",
+      "country": "Turkey",
+      "cc": "TR",
+      "sponsor": "Turkcell",
+      "id": "31851",
+      "preferred": 0,
+      "isp_id": "76431",
+      "https_functional": 1,
+      "host": "mbey01.hizinitestet.com:8080",
+      "hostname": "mbey01.hizinitestet.com",
+      "ip_address": {
+        "A": "213.14.197.162",
+        "AAAA": "2a02:e0:4003:100::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://izmir.hizinitestet.com:8080/speedtest/upload.php",
+      "lat": "38.4237",
+      "lon": "27.1428",
+      "name": "Izmir",
+      "country": "Turkey",
+      "cc": "TR",
+      "sponsor": "Turkcell",
+      "id": "73441",
+      "preferred": 0,
+      "isp_id": "76431",
+      "https_functional": 1,
+      "host": "izmir.hizinitestet.com:8080",
+      "hostname": "izmir.hizinitestet.com",
+      "ip_address": {
+        "A": "213.14.197.170",
+        "AAAA": "2a02:e0:4003:124::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://kastamonu.hizinitestet.com:8080/speedtest/upload.php",
+      "lat": "41.3766",
+      "lon": "33.7765",
+      "name": "Kastamonu",
+      "country": "Turkey",
+      "cc": "TR",
+      "sponsor": "Turkcell",
+      "id": "73428",
+      "preferred": 0,
+      "isp_id": "76431",
+      "https_functional": 1,
+      "host": "kastamonu.hizinitestet.com:8080",
+      "hostname": "kastamonu.hizinitestet.com",
+      "ip_address": {
+        "A": "213.14.197.230",
+        "AAAA": "2a02:e0:4003:128::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://kayseri.hizinitestet.com:8080/speedtest/upload.php",
+      "lat": "38.7205",
+      "lon": "35.4826",
+      "name": "Kayseri",
+      "country": "Turkey",
+      "cc": "TR",
+      "sponsor": "Turkcell",
+      "id": "73437",
+      "preferred": 0,
+      "isp_id": "76431",
+      "https_functional": 1,
+      "host": "kayseri.hizinitestet.com:8080",
+      "hostname": "kayseri.hizinitestet.com",
+      "ip_address": {
+        "A": "213.14.197.106",
+        "AAAA": "2a02:e0:4003:120::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://kocaeli.hizinitestet.com:8080/speedtest/upload.php",
+      "lat": "40.7654",
+      "lon": "29.9408",
+      "name": "Kocaeli",
+      "country": "Turkey",
+      "cc": "TR",
+      "sponsor": "Turkcell",
+      "id": "73263",
+      "preferred": 0,
+      "isp_id": "76431",
+      "https_functional": 1,
+      "host": "kocaeli.hizinitestet.com:8080",
+      "hostname": "kocaeli.hizinitestet.com",
+      "ip_address": {
+        "A": "213.14.197.86",
+        "AAAA": "2a02:e0:4003:11b::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://sakarya.hizinitestet.com:8080/speedtest/upload.php",
+      "lat": "40.7889",
+      "lon": "30.4060",
+      "name": "Sakarya",
+      "country": "Turkey",
+      "cc": "TR",
+      "sponsor": "Turkcell",
+      "id": "73306",
+      "preferred": 0,
+      "isp_id": "76431",
+      "https_functional": 1,
+      "host": "sakarya.hizinitestet.com:8080",
+      "hostname": "sakarya.hizinitestet.com",
+      "ip_address": {
+        "A": "213.14.197.90",
+        "AAAA": "2a02:e0:4003:11c::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://samsun.hizinitestet.com:8080/speedtest/upload.php",
+      "lat": "41.2797",
+      "lon": "36.3361",
+      "name": "Samsun",
+      "country": "Turkey",
+      "cc": "TR",
+      "sponsor": "Turkcell",
+      "id": "73438",
+      "preferred": 0,
+      "isp_id": "76431",
+      "https_functional": 1,
+      "host": "samsun.hizinitestet.com:8080",
+      "hostname": "samsun.hizinitestet.com",
+      "ip_address": {
+        "A": "213.14.197.110",
+        "AAAA": "2a02:e0:4003:121::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://tekirdag.hizinitestet.com:8080/speedtest/upload.php",
+      "lat": "40.9781",
+      "lon": "27.5117",
+      "name": "Tekirdag",
+      "country": "Turkey",
+      "cc": "TR",
+      "sponsor": "Turkcell",
+      "id": "73839",
+      "preferred": 0,
+      "isp_id": "76431",
+      "https_functional": 1,
+      "host": "tekirdag.hizinitestet.com:8080",
+      "hostname": "tekirdag.hizinitestet.com",
+      "ip_address": {
+        "A": "213.14.197.98",
+        "AAAA": "2a02:e0:4003:11e::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://trabzon.hizinitestet.com:8080/speedtest/upload.php",
+      "lat": "41.0027",
+      "lon": "39.7168",
+      "name": "Trabzon",
+      "country": "Turkey",
+      "cc": "TR",
+      "sponsor": "Turkcell",
+      "id": "73439",
+      "preferred": 0,
+      "isp_id": "76431",
+      "https_functional": 1,
+      "host": "trabzon.hizinitestet.com:8080",
+      "hostname": "trabzon.hizinitestet.com",
+      "ip_address": {
+        "A": "213.14.197.114",
+        "AAAA": "2a02:e0:4003:122::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://halfeti.hizinitestet.com:8080/speedtest/upload.php",
+      "lat": "37.1674",
+      "lon": "38.7955",
+      "name": "Urfa",
+      "country": "Turkey",
+      "cc": "TR",
+      "sponsor": "Turkcell",
+      "id": "73426",
+      "preferred": 0,
+      "isp_id": "76431",
+      "https_functional": 1,
+      "host": "halfeti.hizinitestet.com:8080",
+      "hostname": "halfeti.hizinitestet.com",
+      "ip_address": {
+        "A": "213.14.197.242",
+        "AAAA": "2a02:e0:4003:12b::2"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 18,
+  "updated_at": "2026-06-25T13:55:14.395887+05:30"
 }

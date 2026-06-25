@@ -1,46 +1,46 @@
 {
-    "servers": [
-        {
-            "url": "http://speedtest2.ooredoo.qa:8080/speedtest/upload.php",
-            "lat": "25.2523",
-            "lon": "51.4389",
-            "name": "Al Rayyan",
-            "country": "Qatar",
-            "cc": "QA",
-            "sponsor": "Ooredoo Qatar",
-            "id": "24742",
-            "preferred": 0,
-            "isp_id": "96838",
-            "https_functional": 1,
-            "host": "speedtest2.ooredoo.qa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest2.ooredoo.qa",
-            "ip_address": {
-                "A": "89.211.1.82",
-                "AAAA": "2001:1a10:0:bb:8781::1a1"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest2a.ooredoo.qa:8080/speedtest/upload.php",
-            "lat": "25.2854",
-            "lon": "51.5310",
-            "name": "Doha",
-            "country": "Qatar",
-            "cc": "QA",
-            "sponsor": "Ooredoo Qatar",
-            "id": "6193",
-            "preferred": 0,
-            "isp_id": "96838",
-            "https_functional": 1,
-            "host": "speedtest2a.ooredoo.qa.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest2a.ooredoo.qa",
-            "ip_address": {
-                "A": "82.148.100.61",
-                "AAAA": "2001:1a10:0:bb:8781::1a2"
-            },
-            "ipv6_capable": "yes"
-        }
-    ],
-    "total_servers": 2,
-    "updated_at": "2026-06-25T13:56:48.873432+05:30"
+  "servers": [
+    {
+      "url": "http://speedtest2.ooredoo.qa:8080/speedtest/upload.php",
+      "lat": "25.2523",
+      "lon": "51.4389",
+      "name": "Al Rayyan",
+      "country": "Qatar",
+      "cc": "QA",
+      "sponsor": "Ooredoo Qatar",
+      "id": "24742",
+      "preferred": 0,
+      "isp_id": "96838",
+      "https_functional": 1,
+      "host": "speedtest2.ooredoo.qa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest2.ooredoo.qa",
+      "ip_address": {
+        "A": "89.211.1.82",
+        "AAAA": "2001:1a10:0:bb:8781::1a1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest2a.ooredoo.qa:8080/speedtest/upload.php",
+      "lat": "25.2854",
+      "lon": "51.5310",
+      "name": "Doha",
+      "country": "Qatar",
+      "cc": "QA",
+      "sponsor": "Ooredoo Qatar",
+      "id": "6193",
+      "preferred": 0,
+      "isp_id": "96838",
+      "https_functional": 1,
+      "host": "speedtest2a.ooredoo.qa.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest2a.ooredoo.qa",
+      "ip_address": {
+        "A": "82.148.100.61",
+        "AAAA": "2001:1a10:0:bb:8781::1a2"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 2,
+  "updated_at": "2026-06-25T13:56:48.873432+05:30"
 }

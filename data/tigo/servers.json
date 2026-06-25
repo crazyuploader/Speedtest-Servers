@@ -1,66 +1,66 @@
 {
-    "servers": [
-        {
-            "url": "http://speedtestbaq1.tigo.com.co:8080/speedtest/upload.php",
-            "lat": "10.9827",
-            "lon": "-74.8302",
-            "name": "Barranquilla",
-            "country": "Colombia",
-            "cc": "CO",
-            "sponsor": "Tigo",
-            "id": "15019",
-            "preferred": 0,
-            "isp_id": "103132",
-            "https_functional": 1,
-            "host": "speedtestbaq1.tigo.com.co.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtestbaq1.tigo.com.co",
-            "ip_address": {
-                "A": "181.70.124.126",
-                "AAAA": "2800:e1:5100:610::111"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtestbog1.tigo.com.co:8080/speedtest/upload.php",
-            "lat": "4.5981",
-            "lon": "-74.0758",
-            "name": "Bogotá",
-            "country": "Colombia",
-            "cc": "CO",
-            "sponsor": "Tigo",
-            "id": "15018",
-            "preferred": 0,
-            "isp_id": "103132",
-            "https_functional": 1,
-            "host": "speedtestbog1.tigo.com.co.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtestbog1.tigo.com.co",
-            "ip_address": {
-                "A": "200.24.58.11",
-                "AAAA": "2800:e1:1100:474::11"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtestmed1.tigo.com.co:8080/speedtest/upload.php",
-            "lat": "6.2459",
-            "lon": "-75.5746",
-            "name": "Medellín",
-            "country": "Colombia",
-            "cc": "CO",
-            "sponsor": "Tigo",
-            "id": "15017",
-            "preferred": 0,
-            "isp_id": "103132",
-            "https_functional": 1,
-            "host": "speedtestmed1.tigo.com.co.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtestmed1.tigo.com.co",
-            "ip_address": {
-                "A": "200.13.249.233",
-                "AAAA": "2800:e1:4100:610::233"
-            },
-            "ipv6_capable": "yes"
-        }
-    ],
-    "total_servers": 3,
-    "updated_at": "2026-06-25T13:58:08.303696+05:30"
+  "servers": [
+    {
+      "url": "http://speedtestbaq1.tigo.com.co:8080/speedtest/upload.php",
+      "lat": "10.9827",
+      "lon": "-74.8302",
+      "name": "Barranquilla",
+      "country": "Colombia",
+      "cc": "CO",
+      "sponsor": "Tigo",
+      "id": "15019",
+      "preferred": 0,
+      "isp_id": "103132",
+      "https_functional": 1,
+      "host": "speedtestbaq1.tigo.com.co.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestbaq1.tigo.com.co",
+      "ip_address": {
+        "A": "181.70.124.126",
+        "AAAA": "2800:e1:5100:610::111"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestbog1.tigo.com.co:8080/speedtest/upload.php",
+      "lat": "4.5981",
+      "lon": "-74.0758",
+      "name": "Bogotá",
+      "country": "Colombia",
+      "cc": "CO",
+      "sponsor": "Tigo",
+      "id": "15018",
+      "preferred": 0,
+      "isp_id": "103132",
+      "https_functional": 1,
+      "host": "speedtestbog1.tigo.com.co.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestbog1.tigo.com.co",
+      "ip_address": {
+        "A": "200.24.58.11",
+        "AAAA": "2800:e1:1100:474::11"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtestmed1.tigo.com.co:8080/speedtest/upload.php",
+      "lat": "6.2459",
+      "lon": "-75.5746",
+      "name": "Medellín",
+      "country": "Colombia",
+      "cc": "CO",
+      "sponsor": "Tigo",
+      "id": "15017",
+      "preferred": 0,
+      "isp_id": "103132",
+      "https_functional": 1,
+      "host": "speedtestmed1.tigo.com.co.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestmed1.tigo.com.co",
+      "ip_address": {
+        "A": "200.13.249.233",
+        "AAAA": "2800:e1:4100:610::233"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 3,
+  "updated_at": "2026-06-25T13:58:08.303696+05:30"
 }

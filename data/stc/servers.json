@@ -1,686 +1,686 @@
 {
-    "servers": [
-        {
-            "url": "http://abha-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "18.2465",
-            "lon": "42.5117",
-            "name": "Abha",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "24110",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "abha-speedtest.saudi.net.sa:8080",
-            "hostname": "abha-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "84.235.127.110",
-                "AAAA": "2001:16a0:2:2030::a"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://abyarali-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "24.4136",
-            "lon": "39.5455",
-            "name": "Abyar 'Ali",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "56501",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "abyarali-speedtest.saudi.net.sa:8080",
-            "hostname": "abyarali-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "84.235.127.130",
-                "AAAA": "2001:16a0:2:2030::1e"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://addiriyah-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "24.7481",
-            "lon": "46.5363",
-            "name": "Ad Diriyah",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "43126",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "addiriyah-speedtest.saudi.net.sa:8080",
-            "hostname": "addiriyah-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "87.109.44.102",
-                "AAAA": "2001:16a0:1:3009::1:2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://alhofuf-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "25.3800",
-            "lon": "49.5888",
-            "name": "Al Hofuf",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "24200",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "alhofuf-speedtest.saudi.net.sa:8080",
-            "hostname": "alhofuf-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "195.78.233.194",
-                "AAAA": "2001:16a0:1:2040::26"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://al-mursalat.speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "24.7451",
-            "lon": "46.6907",
-            "name": "Al Mursalat",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "44653",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "al-mursalat.speedtest.saudi.net.sa:8080",
-            "hostname": "al-mursalat.speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "87.109.45.10",
-                "AAAA": "2001:16a0:1:3009::2:2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://qassim-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "25.8275",
-            "lon": "42.8638",
-            "name": "Al Qassim",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "24104",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "qassim-speedtest.saudi.net.sa:8080",
-            "hostname": "qassim-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "193.19.247.2",
-                "AAAA": "2001:16a0:1:2040::12"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://alhamraa-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "21.5292",
-            "lon": "39.1611",
-            "name": "Alhamra'a",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "55210",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "alhamraa-speedtest.saudi.net.sa:8080",
-            "hostname": "alhamraa-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "193.19.246.6",
-                "AAAA": "2001:16a0:1:2040::1a"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://an-nasim-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "24.7100",
-            "lon": "46.8200",
-            "name": "An Nasim",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "55212",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "an-nasim-speedtest.saudi.net.sa:8080",
-            "hostname": "an-nasim-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "193.19.247.6",
-                "AAAA": "2001:16a0:1:2040::1e"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://ash-sharq-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "24.7136",
-            "lon": "46.6753",
-            "name": "Ash Sharq",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "74515",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "ash-sharq-speedtest.saudi.net.sa:8080",
-            "hostname": "ash-sharq-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "84.235.125.78",
-                "AAAA": "2001:16a0:1:2040::22"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://baha-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "20.0217",
-            "lon": "41.4713",
-            "name": "Baha",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "24106",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "baha-speedtest.saudi.net.sa:8080",
-            "hostname": "baha-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "84.235.127.118",
-                "AAAA": "2001:16a0:2:2030::12"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://bahrah-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "21.3782",
-            "lon": "39.4225",
-            "name": "Bahrah",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "56462",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "bahrah-speedtest.saudi.net.sa:8080",
-            "hostname": "bahrah-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "84.235.127.198",
-                "AAAA": "2001:16a0:2:2030::32"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://baqaa-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "27.8869",
-            "lon": "42.4135",
-            "name": "Baqaa",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "56222",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "baqaa-speedtest.saudi.net.sa:8080",
-            "hostname": "baqaa-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "193.19.246.10",
-                "AAAA": "2001:16a0:2:2030::36"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://bisha-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "19.9764",
-            "lon": "42.5902",
-            "name": "Bisha",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "24203",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "bisha-speedtest.saudi.net.sa:8080",
-            "hostname": "bisha-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "84.235.127.126",
-                "AAAA": "2001:16a0:2:2030::1a"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://dam-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "26.2833",
-            "lon": "50.2000",
-            "name": "Dammam",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "16051",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "dam-speedtest.saudi.net.sa:8080",
-            "hostname": "dam-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "87.109.44.122",
-                "AAAA": "2001:16a0:1:300b::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://hafar-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "28.3784",
-            "lon": "45.9627",
-            "name": "Hafar Al Batin",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "56213",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "hafar-speedtest.saudi.net.sa:8080",
-            "hostname": "hafar-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "195.78.233.202",
-                "AAAA": "2001:16a0:1:2040::2e"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://hail-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "27.5114",
-            "lon": "41.7208",
-            "name": "Hail",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "24105",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "hail-speedtest.saudi.net.sa:8080",
-            "hostname": "hail-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "84.235.127.190",
-                "AAAA": "2001:16a0:2:2030::2a"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://jed-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "21.2854",
-            "lon": "39.2376",
-            "name": "Jeddah",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "14580",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "jed-speedtest.saudi.net.sa:8080",
-            "hostname": "jed-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "212.215.133.38",
-                "AAAA": "2001:16a0:2:300d::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://jizan-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "17.5000",
-            "lon": "42.5000",
-            "name": "Jizan",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "24111",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "jizan-speedtest.saudi.net.sa:8080",
-            "hostname": "jizan-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "84.235.127.114",
-                "AAAA": "2001:16a0:2:2030::e"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://jouf-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "29.8874",
-            "lon": "39.3206",
-            "name": "Jouf",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "23289",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "jouf-speedtest.saudi.net.sa:8080",
-            "hostname": "jouf-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "84.235.127.194",
-                "AAAA": "2001:16a0:2:2030::2e"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://jubail-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "26.9598",
-            "lon": "49.5687",
-            "name": "Jubail",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "24201",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "jubail-speedtest.saudi.net.sa:8080",
-            "hostname": "jubail-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "195.78.233.198",
-                "AAAA": "2001:16a0:1:2040::2a"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://khamismushait-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "18.3093",
-            "lon": "42.7662",
-            "name": "Khamis Mushait",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "24112",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "khamismushait-speedtest.saudi.net.sa:8080",
-            "hostname": "khamismushait-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "212.215.133.18",
-                "AAAA": "2001:16a0:2:3010::3"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://kharj-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "24.1455",
-            "lon": "47.3119",
-            "name": "Kharj",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "24115",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "kharj-speedtest.saudi.net.sa:8080",
-            "hostname": "kharj-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "87.109.45.14",
-                "AAAA": "2001:16a0:1:300a::2:2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://khobar-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "26.2172",
-            "lon": "50.1971",
-            "name": "Khobar",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "24199",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "khobar-speedtest.saudi.net.sa:8080",
-            "hostname": "khobar-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "87.109.44.114",
-                "AAAA": "2001:16a0:1:300c::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://ab-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "24.5247",
-            "lon": "39.5692",
-            "name": "Madina",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "17079",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "ab-speedtest.saudi.net.sa:8080",
-            "hostname": "ab-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "84.235.127.186",
-                "AAAA": "2001:16a0:2:2030::26"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://makkah-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "21.3891",
-            "lon": "39.8579",
-            "name": "Makkah",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "24107",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "makkah-speedtest.saudi.net.sa:8080",
-            "hostname": "makkah-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "212.215.133.34",
-                "AAAA": "2001:16a0:2:300d::1:2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://najran-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "17.5656",
-            "lon": "44.2289",
-            "name": "Najran",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "24113",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "najran-speedtest.saudi.net.sa:8080",
-            "hostname": "najran-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "84.235.127.122",
-                "AAAA": "2001:16a0:2:2030::16"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://obhur-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "21.7430",
-            "lon": "39.1205",
-            "name": "Obhur",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "55209",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "obhur-speedtest.saudi.net.sa:8080",
-            "hostname": "obhur-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "193.19.246.2",
-                "AAAA": "2001:16a0:1:2040::16"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://olaya.speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "24.6951",
-            "lon": "46.6806",
-            "name": "Olaya",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "44742",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "olaya.speedtest.saudi.net.sa:8080",
-            "hostname": "olaya.speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "87.109.44.106",
-                "AAAA": "2001:16a0:1:300a::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "24.6500",
-            "lon": "46.7100",
-            "name": "Riyadh",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "608",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "speedtest.saudi.net.sa:8080",
-            "hostname": "speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "87.109.44.98",
-                "AAAA": "2001:16a0:1:3009::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://shaqra-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "25.2476",
-            "lon": "45.2525",
-            "name": "Shaqra",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "56246",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "shaqra-speedtest.saudi.net.sa:8080",
-            "hostname": "shaqra-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "193.19.247.10",
-                "AAAA": "2001:16a0:1:2040::32"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://tabuk-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "28.3835",
-            "lon": "36.5662",
-            "name": "Tabuk",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "24103",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "tabuk-speedtest.saudi.net.sa:8080",
-            "hostname": "tabuk-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "84.235.127.182",
-                "AAAA": "2001:16a0:2:2030::22"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://taif-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "21.2841",
-            "lon": "40.4248",
-            "name": "Taif",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "24109",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "taif-speedtest.saudi.net.sa:8080",
-            "hostname": "taif-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "212.215.133.26",
-                "AAAA": "2001:16a0:2:300f::3"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://tuwaiq-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "24.5793",
-            "lon": "46.5564",
-            "name": "Tuwaiq",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "43127",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "tuwaiq-speedtest.saudi.net.sa:8080",
-            "hostname": "tuwaiq-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "87.109.44.110",
-                "AAAA": "2001:16a0:1:300a::1:2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://yanbu-speedtest.saudi.net.sa:8080/speedtest/upload.php",
-            "lat": "24.0232",
-            "lon": "38.1900",
-            "name": "Yanbu",
-            "country": "Saudi Arabia",
-            "cc": "SA",
-            "sponsor": "Saudi Telecom Company (STC)",
-            "id": "24102",
-            "preferred": 0,
-            "isp_id": "87730",
-            "https_functional": 1,
-            "host": "yanbu-speedtest.saudi.net.sa:8080",
-            "hostname": "yanbu-speedtest.saudi.net.sa",
-            "ip_address": {
-                "A": "212.215.133.2",
-                "AAAA": "2001:16a0:2:3012::3"
-            },
-            "ipv6_capable": "yes"
-        }
-    ],
-    "total_servers": 34,
-    "updated_at": "2026-06-25T13:56:03.341011+05:30"
+  "servers": [
+    {
+      "url": "http://abha-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "18.2465",
+      "lon": "42.5117",
+      "name": "Abha",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "24110",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "abha-speedtest.saudi.net.sa:8080",
+      "hostname": "abha-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "84.235.127.110",
+        "AAAA": "2001:16a0:2:2030::a"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://abyarali-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "24.4136",
+      "lon": "39.5455",
+      "name": "Abyar 'Ali",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "56501",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "abyarali-speedtest.saudi.net.sa:8080",
+      "hostname": "abyarali-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "84.235.127.130",
+        "AAAA": "2001:16a0:2:2030::1e"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://addiriyah-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "24.7481",
+      "lon": "46.5363",
+      "name": "Ad Diriyah",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "43126",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "addiriyah-speedtest.saudi.net.sa:8080",
+      "hostname": "addiriyah-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "87.109.44.102",
+        "AAAA": "2001:16a0:1:3009::1:2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://alhofuf-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "25.3800",
+      "lon": "49.5888",
+      "name": "Al Hofuf",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "24200",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "alhofuf-speedtest.saudi.net.sa:8080",
+      "hostname": "alhofuf-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "195.78.233.194",
+        "AAAA": "2001:16a0:1:2040::26"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://al-mursalat.speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "24.7451",
+      "lon": "46.6907",
+      "name": "Al Mursalat",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "44653",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "al-mursalat.speedtest.saudi.net.sa:8080",
+      "hostname": "al-mursalat.speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "87.109.45.10",
+        "AAAA": "2001:16a0:1:3009::2:2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://qassim-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "25.8275",
+      "lon": "42.8638",
+      "name": "Al Qassim",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "24104",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "qassim-speedtest.saudi.net.sa:8080",
+      "hostname": "qassim-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "193.19.247.2",
+        "AAAA": "2001:16a0:1:2040::12"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://alhamraa-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "21.5292",
+      "lon": "39.1611",
+      "name": "Alhamra'a",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "55210",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "alhamraa-speedtest.saudi.net.sa:8080",
+      "hostname": "alhamraa-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "193.19.246.6",
+        "AAAA": "2001:16a0:1:2040::1a"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://an-nasim-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "24.7100",
+      "lon": "46.8200",
+      "name": "An Nasim",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "55212",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "an-nasim-speedtest.saudi.net.sa:8080",
+      "hostname": "an-nasim-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "193.19.247.6",
+        "AAAA": "2001:16a0:1:2040::1e"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ash-sharq-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "24.7136",
+      "lon": "46.6753",
+      "name": "Ash Sharq",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "74515",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "ash-sharq-speedtest.saudi.net.sa:8080",
+      "hostname": "ash-sharq-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "84.235.125.78",
+        "AAAA": "2001:16a0:1:2040::22"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://baha-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "20.0217",
+      "lon": "41.4713",
+      "name": "Baha",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "24106",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "baha-speedtest.saudi.net.sa:8080",
+      "hostname": "baha-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "84.235.127.118",
+        "AAAA": "2001:16a0:2:2030::12"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://bahrah-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "21.3782",
+      "lon": "39.4225",
+      "name": "Bahrah",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "56462",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "bahrah-speedtest.saudi.net.sa:8080",
+      "hostname": "bahrah-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "84.235.127.198",
+        "AAAA": "2001:16a0:2:2030::32"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://baqaa-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "27.8869",
+      "lon": "42.4135",
+      "name": "Baqaa",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "56222",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "baqaa-speedtest.saudi.net.sa:8080",
+      "hostname": "baqaa-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "193.19.246.10",
+        "AAAA": "2001:16a0:2:2030::36"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://bisha-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "19.9764",
+      "lon": "42.5902",
+      "name": "Bisha",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "24203",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "bisha-speedtest.saudi.net.sa:8080",
+      "hostname": "bisha-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "84.235.127.126",
+        "AAAA": "2001:16a0:2:2030::1a"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://dam-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "26.2833",
+      "lon": "50.2000",
+      "name": "Dammam",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "16051",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "dam-speedtest.saudi.net.sa:8080",
+      "hostname": "dam-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "87.109.44.122",
+        "AAAA": "2001:16a0:1:300b::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://hafar-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "28.3784",
+      "lon": "45.9627",
+      "name": "Hafar Al Batin",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "56213",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "hafar-speedtest.saudi.net.sa:8080",
+      "hostname": "hafar-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "195.78.233.202",
+        "AAAA": "2001:16a0:1:2040::2e"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://hail-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "27.5114",
+      "lon": "41.7208",
+      "name": "Hail",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "24105",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "hail-speedtest.saudi.net.sa:8080",
+      "hostname": "hail-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "84.235.127.190",
+        "AAAA": "2001:16a0:2:2030::2a"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://jed-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "21.2854",
+      "lon": "39.2376",
+      "name": "Jeddah",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "14580",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "jed-speedtest.saudi.net.sa:8080",
+      "hostname": "jed-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "212.215.133.38",
+        "AAAA": "2001:16a0:2:300d::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://jizan-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "17.5000",
+      "lon": "42.5000",
+      "name": "Jizan",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "24111",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "jizan-speedtest.saudi.net.sa:8080",
+      "hostname": "jizan-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "84.235.127.114",
+        "AAAA": "2001:16a0:2:2030::e"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://jouf-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "29.8874",
+      "lon": "39.3206",
+      "name": "Jouf",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "23289",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "jouf-speedtest.saudi.net.sa:8080",
+      "hostname": "jouf-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "84.235.127.194",
+        "AAAA": "2001:16a0:2:2030::2e"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://jubail-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "26.9598",
+      "lon": "49.5687",
+      "name": "Jubail",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "24201",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "jubail-speedtest.saudi.net.sa:8080",
+      "hostname": "jubail-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "195.78.233.198",
+        "AAAA": "2001:16a0:1:2040::2a"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://khamismushait-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "18.3093",
+      "lon": "42.7662",
+      "name": "Khamis Mushait",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "24112",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "khamismushait-speedtest.saudi.net.sa:8080",
+      "hostname": "khamismushait-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "212.215.133.18",
+        "AAAA": "2001:16a0:2:3010::3"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://kharj-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "24.1455",
+      "lon": "47.3119",
+      "name": "Kharj",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "24115",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "kharj-speedtest.saudi.net.sa:8080",
+      "hostname": "kharj-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "87.109.45.14",
+        "AAAA": "2001:16a0:1:300a::2:2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://khobar-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "26.2172",
+      "lon": "50.1971",
+      "name": "Khobar",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "24199",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "khobar-speedtest.saudi.net.sa:8080",
+      "hostname": "khobar-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "87.109.44.114",
+        "AAAA": "2001:16a0:1:300c::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ab-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "24.5247",
+      "lon": "39.5692",
+      "name": "Madina",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "17079",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "ab-speedtest.saudi.net.sa:8080",
+      "hostname": "ab-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "84.235.127.186",
+        "AAAA": "2001:16a0:2:2030::26"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://makkah-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "21.3891",
+      "lon": "39.8579",
+      "name": "Makkah",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "24107",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "makkah-speedtest.saudi.net.sa:8080",
+      "hostname": "makkah-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "212.215.133.34",
+        "AAAA": "2001:16a0:2:300d::1:2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://najran-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "17.5656",
+      "lon": "44.2289",
+      "name": "Najran",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "24113",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "najran-speedtest.saudi.net.sa:8080",
+      "hostname": "najran-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "84.235.127.122",
+        "AAAA": "2001:16a0:2:2030::16"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://obhur-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "21.7430",
+      "lon": "39.1205",
+      "name": "Obhur",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "55209",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "obhur-speedtest.saudi.net.sa:8080",
+      "hostname": "obhur-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "193.19.246.2",
+        "AAAA": "2001:16a0:1:2040::16"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://olaya.speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "24.6951",
+      "lon": "46.6806",
+      "name": "Olaya",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "44742",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "olaya.speedtest.saudi.net.sa:8080",
+      "hostname": "olaya.speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "87.109.44.106",
+        "AAAA": "2001:16a0:1:300a::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "24.6500",
+      "lon": "46.7100",
+      "name": "Riyadh",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "608",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "speedtest.saudi.net.sa:8080",
+      "hostname": "speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "87.109.44.98",
+        "AAAA": "2001:16a0:1:3009::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://shaqra-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "25.2476",
+      "lon": "45.2525",
+      "name": "Shaqra",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "56246",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "shaqra-speedtest.saudi.net.sa:8080",
+      "hostname": "shaqra-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "193.19.247.10",
+        "AAAA": "2001:16a0:1:2040::32"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://tabuk-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "28.3835",
+      "lon": "36.5662",
+      "name": "Tabuk",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "24103",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "tabuk-speedtest.saudi.net.sa:8080",
+      "hostname": "tabuk-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "84.235.127.182",
+        "AAAA": "2001:16a0:2:2030::22"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://taif-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "21.2841",
+      "lon": "40.4248",
+      "name": "Taif",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "24109",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "taif-speedtest.saudi.net.sa:8080",
+      "hostname": "taif-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "212.215.133.26",
+        "AAAA": "2001:16a0:2:300f::3"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://tuwaiq-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "24.5793",
+      "lon": "46.5564",
+      "name": "Tuwaiq",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "43127",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "tuwaiq-speedtest.saudi.net.sa:8080",
+      "hostname": "tuwaiq-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "87.109.44.110",
+        "AAAA": "2001:16a0:1:300a::1:2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://yanbu-speedtest.saudi.net.sa:8080/speedtest/upload.php",
+      "lat": "24.0232",
+      "lon": "38.1900",
+      "name": "Yanbu",
+      "country": "Saudi Arabia",
+      "cc": "SA",
+      "sponsor": "Saudi Telecom Company (STC)",
+      "id": "24102",
+      "preferred": 0,
+      "isp_id": "87730",
+      "https_functional": 1,
+      "host": "yanbu-speedtest.saudi.net.sa:8080",
+      "hostname": "yanbu-speedtest.saudi.net.sa",
+      "ip_address": {
+        "A": "212.215.133.2",
+        "AAAA": "2001:16a0:2:3012::3"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 34,
+  "updated_at": "2026-06-25T13:56:03.341011+05:30"
 }

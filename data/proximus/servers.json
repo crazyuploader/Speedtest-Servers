@@ -1,46 +1,46 @@
 {
-    "servers": [
-        {
-            "url": "http://ultraspeed1.proximus.be:8080/speedtest/upload.php",
-            "lat": "50.8476",
-            "lon": "4.3572",
-            "name": "Brussels",
-            "country": "Belgium",
-            "cc": "BE",
-            "sponsor": "Proximus",
-            "id": "63249",
-            "preferred": 0,
-            "isp_id": "546",
-            "https_functional": 1,
-            "host": "ultraspeed1.proximus.be:8080",
-            "hostname": "ultraspeed1.proximus.be",
-            "ip_address": {
-                "A": "91.183.240.95",
-                "AAAA": "2a02:a000:1:202::1"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://ultraspeed2.proximus.be:8080/speedtest/upload.php",
-            "lat": "50.9265",
-            "lon": "4.4258",
-            "name": "Vilvoorde",
-            "country": "Belgium",
-            "cc": "BE",
-            "sponsor": "Proximus",
-            "id": "63250",
-            "preferred": 0,
-            "isp_id": "546",
-            "https_functional": 1,
-            "host": "ultraspeed2.proximus.be:8080",
-            "hostname": "ultraspeed2.proximus.be",
-            "ip_address": {
-                "A": "91.183.240.97",
-                "AAAA": "2a02:a000:2:202::1"
-            },
-            "ipv6_capable": "yes"
-        }
-    ],
-    "total_servers": 2,
-    "updated_at": "2026-06-25T13:58:21.586456+05:30"
+  "servers": [
+    {
+      "url": "http://ultraspeed1.proximus.be:8080/speedtest/upload.php",
+      "lat": "50.8476",
+      "lon": "4.3572",
+      "name": "Brussels",
+      "country": "Belgium",
+      "cc": "BE",
+      "sponsor": "Proximus",
+      "id": "63249",
+      "preferred": 0,
+      "isp_id": "546",
+      "https_functional": 1,
+      "host": "ultraspeed1.proximus.be:8080",
+      "hostname": "ultraspeed1.proximus.be",
+      "ip_address": {
+        "A": "91.183.240.95",
+        "AAAA": "2a02:a000:1:202::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://ultraspeed2.proximus.be:8080/speedtest/upload.php",
+      "lat": "50.9265",
+      "lon": "4.4258",
+      "name": "Vilvoorde",
+      "country": "Belgium",
+      "cc": "BE",
+      "sponsor": "Proximus",
+      "id": "63250",
+      "preferred": 0,
+      "isp_id": "546",
+      "https_functional": 1,
+      "host": "ultraspeed2.proximus.be:8080",
+      "hostname": "ultraspeed2.proximus.be",
+      "ip_address": {
+        "A": "91.183.240.97",
+        "AAAA": "2a02:a000:2:202::1"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 2,
+  "updated_at": "2026-06-25T13:58:21.586456+05:30"
 }

@@ -1,106 +1,106 @@
 {
-    "servers": [
-        {
-            "url": "http://speed.ade.aussiebroadband.com.au:8080/speedtest/upload.php",
-            "lat": "-34.9285",
-            "lon": "138.6007",
-            "name": "Adelaide",
-            "country": "Australia",
-            "cc": "AU",
-            "sponsor": "Aussie Broadband",
-            "id": "15135",
-            "preferred": 0,
-            "isp_id": "7219",
-            "https_functional": 1,
-            "host": "speed.ade.aussiebroadband.com.au.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speed.ade.aussiebroadband.com.au",
-            "ip_address": {
-                "A": "180.150.2.31",
-                "AAAA": "2403:5800:500:d::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speed.bne.aussiebroadband.com.au:8080/speedtest/upload.php",
-            "lat": "-27.4698",
-            "lon": "153.0251",
-            "name": "Brisbane",
-            "country": "Australia",
-            "cc": "AU",
-            "sponsor": "Aussie Broadband",
-            "id": "15134",
-            "preferred": 0,
-            "isp_id": "7219",
-            "https_functional": 1,
-            "host": "speed.bne.aussiebroadband.com.au.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speed.bne.aussiebroadband.com.au",
-            "ip_address": {
-                "A": "119.18.32.1",
-                "AAAA": "2403:5800:700:d::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speed.mel.aussiebroadband.com.au:8080/speedtest/upload.php",
-            "lat": "-37.8136",
-            "lon": "144.9631",
-            "name": "Melbourne",
-            "country": "Australia",
-            "cc": "AU",
-            "sponsor": "Aussie Broadband",
-            "id": "14670",
-            "preferred": 0,
-            "isp_id": "7219",
-            "https_functional": 1,
-            "host": "speed.mel.aussiebroadband.com.au.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speed.mel.aussiebroadband.com.au",
-            "ip_address": {
-                "A": "119.18.32.223",
-                "AAAA": "2403:5800:1301:1::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speed.per.aussiebroadband.com.au:8080/speedtest/upload.php",
-            "lat": "-31.9505",
-            "lon": "115.8605",
-            "name": "Perth",
-            "country": "Australia",
-            "cc": "AU",
-            "sponsor": "Aussie Broadband",
-            "id": "15136",
-            "preferred": 0,
-            "isp_id": "7219",
-            "https_functional": 1,
-            "host": "speed.per.aussiebroadband.com.au.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speed.per.aussiebroadband.com.au",
-            "ip_address": {
-                "A": "202.142.143.61",
-                "AAAA": "2403:5800:900:d::2"
-            },
-            "ipv6_capable": "yes"
-        },
-        {
-            "url": "http://speed.syd.aussiebroadband.com.au:8080/speedtest/upload.php",
-            "lat": "-33.8688",
-            "lon": "151.2093",
-            "name": "Sydney",
-            "country": "Australia",
-            "cc": "AU",
-            "sponsor": "Aussie Broadband",
-            "id": "15132",
-            "preferred": 0,
-            "isp_id": "7219",
-            "https_functional": 1,
-            "host": "speed.syd.aussiebroadband.com.au.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speed.syd.aussiebroadband.com.au",
-            "ip_address": {
-                "A": "119.18.32.153",
-                "AAAA": "2403:5800:200:d::2"
-            },
-            "ipv6_capable": "yes"
-        }
-    ],
-    "total_servers": 5,
-    "updated_at": "2026-06-25T13:52:22.871518+05:30"
+  "servers": [
+    {
+      "url": "http://speed.ade.aussiebroadband.com.au:8080/speedtest/upload.php",
+      "lat": "-34.9285",
+      "lon": "138.6007",
+      "name": "Adelaide",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Aussie Broadband",
+      "id": "15135",
+      "preferred": 0,
+      "isp_id": "7219",
+      "https_functional": 1,
+      "host": "speed.ade.aussiebroadband.com.au.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speed.ade.aussiebroadband.com.au",
+      "ip_address": {
+        "A": "180.150.2.31",
+        "AAAA": "2403:5800:500:d::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speed.bne.aussiebroadband.com.au:8080/speedtest/upload.php",
+      "lat": "-27.4698",
+      "lon": "153.0251",
+      "name": "Brisbane",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Aussie Broadband",
+      "id": "15134",
+      "preferred": 0,
+      "isp_id": "7219",
+      "https_functional": 1,
+      "host": "speed.bne.aussiebroadband.com.au.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speed.bne.aussiebroadband.com.au",
+      "ip_address": {
+        "A": "119.18.32.1",
+        "AAAA": "2403:5800:700:d::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speed.mel.aussiebroadband.com.au:8080/speedtest/upload.php",
+      "lat": "-37.8136",
+      "lon": "144.9631",
+      "name": "Melbourne",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Aussie Broadband",
+      "id": "14670",
+      "preferred": 0,
+      "isp_id": "7219",
+      "https_functional": 1,
+      "host": "speed.mel.aussiebroadband.com.au.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speed.mel.aussiebroadband.com.au",
+      "ip_address": {
+        "A": "119.18.32.223",
+        "AAAA": "2403:5800:1301:1::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speed.per.aussiebroadband.com.au:8080/speedtest/upload.php",
+      "lat": "-31.9505",
+      "lon": "115.8605",
+      "name": "Perth",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Aussie Broadband",
+      "id": "15136",
+      "preferred": 0,
+      "isp_id": "7219",
+      "https_functional": 1,
+      "host": "speed.per.aussiebroadband.com.au.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speed.per.aussiebroadband.com.au",
+      "ip_address": {
+        "A": "202.142.143.61",
+        "AAAA": "2403:5800:900:d::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speed.syd.aussiebroadband.com.au:8080/speedtest/upload.php",
+      "lat": "-33.8688",
+      "lon": "151.2093",
+      "name": "Sydney",
+      "country": "Australia",
+      "cc": "AU",
+      "sponsor": "Aussie Broadband",
+      "id": "15132",
+      "preferred": 0,
+      "isp_id": "7219",
+      "https_functional": 1,
+      "host": "speed.syd.aussiebroadband.com.au.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speed.syd.aussiebroadband.com.au",
+      "ip_address": {
+        "A": "119.18.32.153",
+        "AAAA": "2403:5800:200:d::2"
+      },
+      "ipv6_capable": "yes"
+    }
+  ],
+  "total_servers": 5,
+  "updated_at": "2026-06-25T13:52:22.871518+05:30"
 }

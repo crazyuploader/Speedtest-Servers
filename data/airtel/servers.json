@@ -1,25 +1,25 @@
 {
-    "servers": [
-        {
-            "url": "http://speedtest.ke.airtel.com:8080/speedtest/upload.php",
-            "lat": "-1.2833",
-            "lon": "36.8167",
-            "name": "Nairobi",
-            "country": "Kenya",
-            "cc": "KE",
-            "sponsor": "Airtel Kenya",
-            "id": "8402",
-            "preferred": 0,
-            "isp_id": "105457",
-            "https_functional": 1,
-            "host": "speedtest.ke.airtel.com.prod.hosts.ooklaserver.net:8080",
-            "hostname": "speedtest.ke.airtel.com",
-            "ip_address": {
-                "A": "41.223.57.249"
-            },
-            "ipv6_capable": "no"
-        }
-    ],
-    "total_servers": 1,
-    "updated_at": "2026-06-25T13:58:18.532567+05:30"
+  "servers": [
+    {
+      "url": "http://speedtest.ke.airtel.com:8080/speedtest/upload.php",
+      "lat": "-1.2833",
+      "lon": "36.8167",
+      "name": "Nairobi",
+      "country": "Kenya",
+      "cc": "KE",
+      "sponsor": "Airtel Kenya",
+      "id": "8402",
+      "preferred": 0,
+      "isp_id": "105457",
+      "https_functional": 1,
+      "host": "speedtest.ke.airtel.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.ke.airtel.com",
+      "ip_address": {
+        "A": "41.223.57.249"
+      },
+      "ipv6_capable": "no"
+    }
+  ],
+  "total_servers": 1,
+  "updated_at": "2026-06-25T13:58:18.532567+05:30"
 }

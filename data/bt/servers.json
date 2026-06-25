@@ -1,63 +1,63 @@
 {
-    "servers": [
-        {
-            "url": "http://speedtest3.networks.bt.com:8080/speedtest/upload.php",
-            "lat": "52.4823",
-            "lon": "-1.8900",
-            "name": "Birmingham",
-            "country": "United Kingdom",
-            "cc": "GB",
-            "sponsor": "BT",
-            "id": "74367",
-            "preferred": 0,
-            "isp_id": "65",
-            "https_functional": 1,
-            "host": "speedtest3.networks.bt.com:8080",
-            "hostname": "speedtest3.networks.bt.com",
-            "ip_address": {
-                "A": "81.139.4.92"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest.networks.bt.com:8080/speedtest/upload.php",
-            "lat": "51.2362",
-            "lon": "-0.5704",
-            "name": "Guildford",
-            "country": "United Kingdom",
-            "cc": "GB",
-            "sponsor": "BT",
-            "id": "70522",
-            "preferred": 0,
-            "isp_id": "65",
-            "https_functional": 1,
-            "host": "speedtest.networks.bt.com:8080",
-            "hostname": "speedtest.networks.bt.com",
-            "ip_address": {
-                "A": "81.139.4.28"
-            },
-            "ipv6_capable": "no"
-        },
-        {
-            "url": "http://speedtest2.networks.bt.com:8080/speedtest/upload.php",
-            "lat": "51.5072",
-            "lon": "-0.1276",
-            "name": "London",
-            "country": "United Kingdom",
-            "cc": "GB",
-            "sponsor": "BT",
-            "id": "72004",
-            "preferred": 0,
-            "isp_id": "65",
-            "https_functional": 1,
-            "host": "speedtest2.networks.bt.com:8080",
-            "hostname": "speedtest2.networks.bt.com",
-            "ip_address": {
-                "A": "81.139.4.29"
-            },
-            "ipv6_capable": "no"
-        }
-    ],
-    "total_servers": 3,
-    "updated_at": "2026-06-25T13:51:42.674558+05:30"
+  "servers": [
+    {
+      "url": "http://speedtest3.networks.bt.com:8080/speedtest/upload.php",
+      "lat": "52.4823",
+      "lon": "-1.8900",
+      "name": "Birmingham",
+      "country": "United Kingdom",
+      "cc": "GB",
+      "sponsor": "BT",
+      "id": "74367",
+      "preferred": 0,
+      "isp_id": "65",
+      "https_functional": 1,
+      "host": "speedtest3.networks.bt.com:8080",
+      "hostname": "speedtest3.networks.bt.com",
+      "ip_address": {
+        "A": "81.139.4.92"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest.networks.bt.com:8080/speedtest/upload.php",
+      "lat": "51.2362",
+      "lon": "-0.5704",
+      "name": "Guildford",
+      "country": "United Kingdom",
+      "cc": "GB",
+      "sponsor": "BT",
+      "id": "70522",
+      "preferred": 0,
+      "isp_id": "65",
+      "https_functional": 1,
+      "host": "speedtest.networks.bt.com:8080",
+      "hostname": "speedtest.networks.bt.com",
+      "ip_address": {
+        "A": "81.139.4.28"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest2.networks.bt.com:8080/speedtest/upload.php",
+      "lat": "51.5072",
+      "lon": "-0.1276",
+      "name": "London",
+      "country": "United Kingdom",
+      "cc": "GB",
+      "sponsor": "BT",
+      "id": "72004",
+      "preferred": 0,
+      "isp_id": "65",
+      "https_functional": 1,
+      "host": "speedtest2.networks.bt.com:8080",
+      "hostname": "speedtest2.networks.bt.com",
+      "ip_address": {
+        "A": "81.139.4.29"
+      },
+      "ipv6_capable": "no"
+    }
+  ],
+  "total_servers": 3,
+  "updated_at": "2026-06-25T13:51:42.674558+05:30"
 }
