@@ -17,6 +17,7 @@ import requests
 
 # Global Variable(s)
 BASE_DATA_DIR = "data"
+SERVER_DATA_MARKDOWN = "SERVER_DATA.md"
 API_DNS_ENDPOINT = "https://api.devjugal.com/dns?hostname="
 SPEEDTEST_SERVERS_URL = (
     "https://www.speedtest.net/api/js/config-sdk?engine=js&limit=100&search="
@@ -74,6 +75,54 @@ def resolve_hostname(hostname):
 def sanitize_name(name):
     """Sanitizes a string for use as a directory or file name."""
     return name.strip().lower().replace(" ", "-")
+
+
+def format_isp_name(slug, servers):
+    """Formats an ISP display name from server data, falling back to the slug."""
+    if servers:
+        sponsor = servers[0].get("sponsor", "").strip()
+        if sponsor:
+            return sponsor
+    return slug.replace("-", " ").title()
+
+
+def update_server_data_markdown():
+    """Generates a markdown index of all ISP server JSON files."""
+    print("\n--- Updating server data markdown ---")
+    try:
+        entries = []
+        for slug in sorted(
+            d
+            for d in os.listdir(BASE_DATA_DIR)
+            if os.path.isdir(os.path.join(BASE_DATA_DIR, d))
+            and os.path.isfile(os.path.join(BASE_DATA_DIR, d, "servers.json"))
+        ):
+            file_path = os.path.join(BASE_DATA_DIR, slug, "servers.json")
+            with open(file_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+
+            name = format_isp_name(slug, data.get("servers", []))
+            entries.append((name, f"data/{slug}/servers.json"))
+
+        entries.sort(key=lambda entry: entry[0].lower())
+
+        lines = [
+            "# Server Data",
+            "",
+            "This file is auto-generated from the JSON files in `data/`.",
+            "",
+        ]
+        lines.extend(f"- [{name}]({path})" for name, path in entries)
+        lines.append("")
+
+        with open(SERVER_DATA_MARKDOWN, "w", encoding="utf-8") as f:
+            f.write("\n".join(lines))
+
+        print(
+            f"INFO: Successfully updated '{SERVER_DATA_MARKDOWN}' with {len(entries)} ISPs"
+        )
+    except (OSError, TypeError, ValueError, json.JSONDecodeError) as e:
+        print(f"ERROR: Could not update server data markdown: {e}")
 
 
 def main():
@@ -181,6 +230,7 @@ def main():
                 print(f"ERROR: Failed to decode JSON response for '{term}'.")
     finally:
         update_isp_list()
+        update_server_data_markdown()
 
 
 def update_isp_list():
