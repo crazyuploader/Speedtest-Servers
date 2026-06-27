@@ -141,7 +141,7 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtest.maxis.com.my:8080/upload.php",
+      "url": "http://speedtest.maxis.com.my:8080/speedtest/upload.php",
       "lat": "3.0567",
       "lon": "101.5851",
       "name": "Subang Jaya",
@@ -161,5 +161,5 @@
     }
   ],
   "total_servers": 8,
-  "updated_at": "2026-06-26T02:42:54.179434+00:00"
+  "updated_at": "2026-06-27T02:35:07.537489+00:00"
 }

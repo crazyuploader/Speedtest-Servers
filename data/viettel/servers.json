@@ -220,7 +220,7 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtestkv1dp1.viettel.vn/speedtest/upload.php",
+      "url": "http://speedtestkv1dp1.viettel.vn:8080/speedtest/upload.php",
       "lat": "20.5317",
       "lon": "105.9176",
       "name": "Phu Ly",
@@ -300,5 +300,5 @@
     }
   ],
   "total_servers": 15,
-  "updated_at": "2026-06-26T02:44:31.884116+00:00"
+  "updated_at": "2026-06-27T02:36:24.041836+00:00"
 }
