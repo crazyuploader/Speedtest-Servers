@@ -111,7 +111,6 @@
       "id": "28912",
       "preferred": 0,
       "isp_id": "27716",
-      "https_functional": 1,
       "host": "lg-hkg.fdcservers.net:8080",
       "hostname": "lg-hkg.fdcservers.net",
       "ip_address": {
@@ -150,7 +149,6 @@
       "id": "34265",
       "preferred": 0,
       "isp_id": "27716",
-      "https_functional": 1,
       "host": "lg-lis.fdcservers.net:8080",
       "hostname": "lg-lis.fdcservers.net",
       "ip_address": {
@@ -209,7 +207,6 @@
       "id": "9933",
       "preferred": 0,
       "isp_id": "27716",
-      "https_functional": 1,
       "host": "lg-mad.fdcservers.net:8080",
       "hostname": "lg-mad.fdcservers.net",
       "ip_address": {
@@ -379,5 +376,5 @@
     }
   ],
   "total_servers": 19,
-  "updated_at": "2026-06-29T02:47:53.582901+00:00"
+  "updated_at": "2026-06-30T02:42:00.766566+00:00"
 }
