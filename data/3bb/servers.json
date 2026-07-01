@@ -141,26 +141,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtest-npt1.3bb.co.th:8080/speedtest/upload.php",
-      "lat": "13.8140",
-      "lon": "100.0373",
-      "name": "Nakhon Pathom",
-      "country": "Thailand",
-      "cc": "TH",
-      "sponsor": "3BB",
-      "id": "23646",
-      "preferred": 0,
-      "isp_id": "42011",
-      "https_functional": 1,
-      "host": "speedtest-npt1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtest-npt1.3bb.co.th",
-      "ip_address": {
-        "A": "110.164.3.218",
-        "AAAA": "2403:6200:ffff:fbff::f82"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtest-nma1.3bb.co.th:8080/speedtest/upload.php",
       "lat": "14.9750",
       "lon": "102.1000",
@@ -177,26 +157,6 @@
       "ip_address": {
         "A": "110.164.3.246",
         "AAAA": "2403:6200:ffff:fbff::f6a"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtest-nsn1.3bb.co.th:8080/speedtest/upload.php",
-      "lat": "15.6987",
-      "lon": "100.1200",
-      "name": "Nakhon Sawan",
-      "country": "Thailand",
-      "cc": "TH",
-      "sponsor": "3BB",
-      "id": "24990",
-      "preferred": 0,
-      "isp_id": "42011",
-      "https_functional": 1,
-      "host": "speedtest-nsn1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtest-nsn1.3bb.co.th",
-      "ip_address": {
-        "A": "110.164.3.211",
-        "AAAA": "2403:6200:ffff:fbff::fc2"
       },
       "ipv6_capable": "yes"
     },
@@ -317,26 +277,6 @@
       "ip_address": {
         "A": "110.164.3.237",
         "AAAA": "2403:6200:ffff:fbff::fe2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtest-ryg1.3bb.co.th:8080/speedtest/upload.php",
-      "lat": "12.6814",
-      "lon": "101.2816",
-      "name": "Rayong",
-      "country": "Thailand",
-      "cc": "TH",
-      "sponsor": "3BB",
-      "id": "26897",
-      "preferred": 0,
-      "isp_id": "42011",
-      "https_functional": 1,
-      "host": "speedtest-ryg1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtest-ryg1.3bb.co.th",
-      "ip_address": {
-        "A": "110.164.3.239",
-        "AAAA": "2403:6200:ffff:fbff::ff2"
       },
       "ipv6_capable": "yes"
     },
@@ -521,6 +461,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 26,
-  "updated_at": "2026-06-30T02:41:18.989259+00:00"
+  "total_servers": 23,
+  "updated_at": "2026-07-01T02:47:25.293772+00:00"
 }
