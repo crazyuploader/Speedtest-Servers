@@ -284,7 +284,7 @@
       "sponsor": "fdcservers.net",
       "id": "26654",
       "preferred": 0,
-      "isp_id": "27716",
+      "isp_id": "213182",
       "https_functional": 1,
       "host": "speedtest.sg.fdcservers.net:8080",
       "hostname": "speedtest.sg.fdcservers.net",
@@ -311,6 +311,26 @@
       "ip_address": {
         "A": "67.159.33.211",
         "AAAA": "2001:49f0:d11b:a::10"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.hnd.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "35.6833",
+      "lon": "139.6833",
+      "name": "Tokyo",
+      "country": "Japan",
+      "cc": "JP",
+      "sponsor": "fdcservers.net",
+      "id": "28910",
+      "preferred": 0,
+      "isp_id": "27716",
+      "https_functional": 1,
+      "host": "speedtest.hnd.fdcservers.net:8080",
+      "hostname": "speedtest.hnd.fdcservers.net",
+      "ip_address": {
+        "A": "50.7.159.210",
+        "AAAA": "2001:49f0:d0d9:3:b::4"
       },
       "ipv6_capable": "yes"
     },
@@ -375,6 +395,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 19,
-  "updated_at": "2026-07-01T02:48:09.415124+00:00"
+  "total_servers": 20,
+  "updated_at": "2026-07-02T02:37:51.674894+00:00"
 }

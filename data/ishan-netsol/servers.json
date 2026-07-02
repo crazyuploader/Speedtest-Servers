@@ -110,7 +110,7 @@
       "sponsor": "Ishan Netsol Pvt Ltd",
       "id": "28397",
       "preferred": 0,
-      "isp_id": "219787",
+      "isp_id": "27544",
       "https_functional": 1,
       "host": "kotaspeed.ishancloud.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "kotaspeed.ishancloud.com",
@@ -242,5 +242,5 @@
     }
   ],
   "total_servers": 12,
-  "updated_at": "2026-07-01T02:48:32.330117+00:00"
+  "updated_at": "2026-07-02T02:38:14.336438+00:00"
 }
