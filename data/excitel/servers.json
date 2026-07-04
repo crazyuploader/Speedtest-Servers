@@ -91,8 +91,7 @@
       "id": "36668",
       "preferred": 0,
       "isp_id": "115835",
-      "https_functional": 1,
-      "host": "speedtest.lko.excitel.in.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest.lko.excitel.in:8080",
       "hostname": "speedtest.lko.excitel.in",
       "ip_address": {
         "A": "103.120.50.245",
@@ -182,5 +181,5 @@
     }
   ],
   "total_servers": 9,
-  "updated_at": "2026-07-03T02:13:06.859129+00:00"
+  "updated_at": "2026-07-04T02:11:18.429192+00:00"
 }
