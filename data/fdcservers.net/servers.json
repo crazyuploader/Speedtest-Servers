@@ -120,21 +120,21 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://lg-lis.fdcservers.net:8080/speedtest/upload.php",
-      "lat": "38.7000",
-      "lon": "-9.1833",
-      "name": "Lisbon",
-      "country": "Portugal",
-      "cc": "PT",
+      "url": "http://lg-khv.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "48.4770",
+      "lon": "135.0941",
+      "name": "Khabarovsk",
+      "country": "Russia",
+      "cc": "RU",
       "sponsor": "fdcservers.net",
-      "id": "34265",
+      "id": "46700",
       "preferred": 0,
-      "isp_id": "27716",
-      "host": "lg-lis.fdcservers.net:8080",
-      "hostname": "lg-lis.fdcservers.net",
+      "isp_id": "70159",
+      "host": "lg-khv.fdcservers.net:8080",
+      "hostname": "lg-khv.fdcservers.net",
       "ip_address": {
-        "A": "50.7.43.4",
-        "AAAA": "2001:49f0:d0ed::4"
+        "A": "66.90.93.4",
+        "AAAA": "2001:49f0:d104::4"
       },
       "ipv6_capable": "yes"
     },
@@ -316,6 +316,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtest.tor.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "43.6481",
+      "lon": "-79.4042",
+      "name": "Toronto, ON",
+      "country": "Canada",
+      "cc": "CA",
+      "sponsor": "fdcservers.net",
+      "id": "9911",
+      "preferred": 0,
+      "isp_id": "27716",
+      "https_functional": 1,
+      "host": "speedtest.tor.fdcservers.net:8080",
+      "hostname": "speedtest.tor.fdcservers.net",
+      "ip_address": {
+        "A": "23.237.140.7",
+        "AAAA": "2001:49f0:d055::10"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtest.vie.fdcservers.net:8080/speedtest/upload.php",
       "lat": "48.2088",
       "lon": "16.3726",
@@ -356,6 +376,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 18,
-  "updated_at": "2026-07-05T02:27:18.978300+00:00"
+  "total_servers": 19,
+  "updated_at": "2026-07-06T02:31:37.206126+00:00"
 }
