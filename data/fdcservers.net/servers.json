@@ -139,6 +139,25 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://lg-lis.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "38.7000",
+      "lon": "-9.1833",
+      "name": "Lisbon",
+      "country": "Portugal",
+      "cc": "PT",
+      "sponsor": "fdcservers.net",
+      "id": "34265",
+      "preferred": 0,
+      "isp_id": "27716",
+      "host": "lg-lis.fdcservers.net:8080",
+      "hostname": "lg-lis.fdcservers.net",
+      "ip_address": {
+        "A": "50.7.43.4",
+        "AAAA": "2001:49f0:d0ed::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtest.ld7.fdcservers.net:8080/speedtest/upload.php",
       "lat": "51.5171",
       "lon": "-0.1062",
@@ -376,6 +395,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 19,
-  "updated_at": "2026-07-06T02:31:37.206126+00:00"
+  "total_servers": 20,
+  "updated_at": "2026-07-07T02:27:09.318956+00:00"
 }
