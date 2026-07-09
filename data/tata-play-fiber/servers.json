@@ -1,6 +1,25 @@
 {
   "servers": [
     {
+      "url": "http://speedtest.tataplayfiber.co.in:8080/speedtest/upload.php",
+      "lat": "12.9833",
+      "lon": "77.5833",
+      "name": "Bangalore",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Tata Play Fiber",
+      "id": "16671",
+      "preferred": 0,
+      "isp_id": "122193",
+      "host": "speedtest.tataplayfiber.co.in:8080",
+      "hostname": "speedtest.tataplayfiber.co.in",
+      "ip_address": {
+        "A": "45.127.47.9",
+        "AAAA": "2402:e280:21fc:233::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtestchennai.tataplayfiber.co.in:8080/speedtest/upload.php",
       "lat": "13.0827",
       "lon": "80.2707",
@@ -11,7 +30,8 @@
       "id": "37352",
       "preferred": 0,
       "isp_id": "122193",
-      "host": "speedtestchennai.tataplayfiber.co.in:8080",
+      "https_functional": 1,
+      "host": "speedtestchennai.tataplayfiber.co.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtestchennai.tataplayfiber.co.in",
       "ip_address": {
         "A": "182.50.71.233",
@@ -80,6 +100,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtestdel.tataplayfiber.co.in:8080/speedtest/upload.php",
+      "lat": "28.6100",
+      "lon": "77.2300",
+      "name": "New Delhi",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Tata Play Fiber",
+      "id": "29658",
+      "preferred": 0,
+      "isp_id": "122193",
+      "https_functional": 1,
+      "host": "speedtestdel.tataplayfiber.co.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestdel.tataplayfiber.co.in",
+      "ip_address": {
+        "A": "103.195.201.233",
+        "AAAA": "2402:e280:3de9:233::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtestnoida.tataplayfiber.co.in:8080/speedtest/upload.php",
       "lat": "28.5700",
       "lon": "77.3200",
@@ -120,6 +160,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 6,
-  "updated_at": "2026-07-08T02:02:58.189109+00:00"
+  "total_servers": 8,
+  "updated_at": "2026-07-09T02:15:06.781641+00:00"
 }
