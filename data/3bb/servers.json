@@ -111,8 +111,7 @@
       "id": "23519",
       "preferred": 0,
       "isp_id": "42011",
-      "https_functional": 1,
-      "host": "speedtest-kkn1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest-kkn1.3bb.co.th:8080",
       "hostname": "speedtest-kkn1.3bb.co.th",
       "ip_address": {
         "A": "110.164.3.226",
@@ -522,5 +521,5 @@
     }
   ],
   "total_servers": 26,
-  "updated_at": "2026-07-12T02:01:47.433554+00:00"
+  "updated_at": "2026-07-13T02:03:44.284405+00:00"
 }
