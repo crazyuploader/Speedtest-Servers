@@ -11,7 +11,6 @@
       "id": "71696",
       "preferred": 0,
       "isp_id": "23698",
-      "https_functional": 1,
       "host": "speedtest.kol.vodafoneidea.com:8080",
       "hostname": "speedtest.kol.vodafoneidea.com",
       "ip_address": {
@@ -358,5 +357,5 @@
     }
   ],
   "total_servers": 18,
-  "updated_at": "2026-07-14T01:52:40.391357+00:00"
+  "updated_at": "2026-07-15T01:49:01.510002+00:00"
 }
