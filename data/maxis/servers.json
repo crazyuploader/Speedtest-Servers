@@ -121,6 +121,25 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://sgbookla03.maxis.com.my:8080/speedtest/upload.php",
+      "lat": "3.0327",
+      "lon": "101.6188",
+      "name": "Puchong",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "Maxis",
+      "id": "11391",
+      "preferred": 0,
+      "isp_id": "17961",
+      "https_functional": 1,
+      "host": "sgbookla03.maxis.com.my.prod.hosts.ooklaserver.net:8080",
+      "hostname": "sgbookla03.maxis.com.my",
+      "ip_address": {
+        "A": "202.75.141.80"
+      },
+      "ipv6_capable": "no"
+    },
+    {
       "url": "http://shtookla02.maxis.com.my:8080/speedtest/upload.php",
       "lat": "3.0733",
       "lon": "101.5185",
@@ -160,6 +179,6 @@
       "ipv6_capable": "no"
     }
   ],
-  "total_servers": 8,
-  "updated_at": "2026-07-15T01:47:45.896307+00:00"
+  "total_servers": 9,
+  "updated_at": "2026-07-16T01:58:16.018604+00:00"
 }

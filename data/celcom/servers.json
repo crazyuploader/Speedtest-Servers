@@ -201,26 +201,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtest.celcomred.com:8080/speedtest/upload.php",
-      "lat": "-3.4594",
-      "lon": "-79.9668",
-      "name": "Santa Rosa",
-      "country": "Ecuador",
-      "cc": "EC",
-      "sponsor": "Celcomred",
-      "id": "73838",
-      "preferred": 0,
-      "isp_id": "447",
-      "https_functional": 1,
-      "host": "speedtest.celcomred.com:8080",
-      "hostname": "speedtest.celcomred.com",
-      "ip_address": {
-        "A": "181.198.38.200",
-        "AAAA": "2800:2a0:4009::2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://kpg-ookla01.celcomdigi.com:8080/speedtest/upload.php",
       "lat": "3.0734",
       "lon": "101.5217",
@@ -261,6 +241,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 13,
-  "updated_at": "2026-07-15T01:46:45.456235+00:00"
+  "total_servers": 12,
+  "updated_at": "2026-07-16T01:57:08.180505+00:00"
 }
