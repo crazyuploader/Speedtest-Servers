@@ -111,8 +111,7 @@
       "id": "28355",
       "preferred": 0,
       "isp_id": "27544",
-      "https_functional": 1,
-      "host": "jaipur-sptest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
+      "host": "jaipur-sptest.ishancloud.com:8080",
       "hostname": "jaipur-sptest.ishancloud.com",
       "ip_address": {
         "A": "103.94.111.252",
@@ -262,5 +261,5 @@
     }
   ],
   "total_servers": 13,
-  "updated_at": "2026-07-16T01:57:46.692338+00:00"
+  "updated_at": "2026-07-17T02:01:29.393652+00:00"
 }
