@@ -76,7 +76,7 @@
       "hostname": "speedtestcal1.airtelbroadband.in",
       "ip_address": {
         "A": "122.187.99.102",
-        "AAAA": "2404:a800:3a00:207::43"
+        "AAAA": "2404:a800:3a00:207::41"
       },
       "ipv6_capable": "yes"
     },
@@ -448,7 +448,8 @@
       "id": "57312",
       "preferred": 0,
       "isp_id": "46101",
-      "host": "speedtestkhd1.airtel.in:8080",
+      "https_functional": 1,
+      "host": "speedtestkhd1.airtel.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtestkhd1.airtel.in",
       "ip_address": {
         "A": "182.78.249.222",
@@ -578,5 +579,5 @@
     }
   ],
   "total_servers": 29,
-  "updated_at": "2026-07-17T02:00:46.255675+00:00"
+  "updated_at": "2026-07-18T01:50:17.888369+00:00"
 }
