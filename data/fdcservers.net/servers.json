@@ -325,6 +325,7 @@
       "id": "28910",
       "preferred": 0,
       "isp_id": "27716",
+      "https_functional": 1,
       "host": "speedtest.hnd.fdcservers.net:8080",
       "hostname": "speedtest.hnd.fdcservers.net",
       "ip_address": {
@@ -395,5 +396,5 @@
     }
   ],
   "total_servers": 20,
-  "updated_at": "2026-07-18T01:50:35.412099+00:00"
+  "updated_at": "2026-07-19T02:00:27.931260+00:00"
 }
