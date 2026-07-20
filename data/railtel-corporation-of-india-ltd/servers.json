@@ -51,7 +51,8 @@
       "id": "39596",
       "preferred": 0,
       "isp_id": "96146",
-      "host": "bbs.speedtest.railtel.in:8080",
+      "https_functional": 1,
+      "host": "bbs.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "bbs.speedtest.railtel.in",
       "ip_address": {
         "A": "112.133.208.162",
@@ -241,5 +242,5 @@
     }
   ],
   "total_servers": 12,
-  "updated_at": "2026-07-19T02:01:44.919355+00:00"
+  "updated_at": "2026-07-20T02:22:46.384932+00:00"
 }
