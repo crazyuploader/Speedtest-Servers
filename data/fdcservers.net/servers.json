@@ -11,32 +11,11 @@
       "id": "9913",
       "preferred": 0,
       "isp_id": "27716",
-      "https_functional": 1,
       "host": "speedtest.ams.fdcservers.net:8080",
       "hostname": "speedtest.ams.fdcservers.net",
       "ip_address": {
         "A": "50.7.231.181",
         "AAAA": "2001:49f0:d00d:ff00::10"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedtest.atl.fdcservers.net:8080/speedtest/upload.php",
-      "lat": "33.7483",
-      "lon": "-84.3911",
-      "name": "Atlanta, GA",
-      "country": "United States",
-      "cc": "US",
-      "sponsor": "fdcservers.net",
-      "id": "26653",
-      "preferred": 0,
-      "isp_id": "27716",
-      "https_functional": 1,
-      "host": "speedtest.atl.fdcservers.net:8080",
-      "hostname": "speedtest.atl.fdcservers.net",
-      "ip_address": {
-        "A": "23.237.163.195",
-        "AAAA": "2001:49f0:d0d1:a::10"
       },
       "ipv6_capable": "yes"
     },
@@ -395,6 +374,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 20,
-  "updated_at": "2026-07-21T01:59:45.335822+00:00"
+  "total_servers": 19,
+  "updated_at": "2026-07-22T01:58:22.814680+00:00"
 }
