@@ -89,7 +89,6 @@
       "id": "71692",
       "preferred": 0,
       "isp_id": "23698",
-      "https_functional": 1,
       "host": "speedtest.ker.vodafoneidea.com:8080",
       "hostname": "speedtest.ker.vodafoneidea.com",
       "ip_address": {
@@ -207,7 +206,6 @@
       "id": "71691",
       "preferred": 0,
       "isp_id": "23698",
-      "https_functional": 1,
       "host": "speedtest.upe.vodafoneidea.com:8080",
       "hostname": "speedtest.upe.vodafoneidea.com",
       "ip_address": {
@@ -336,5 +334,5 @@
     }
   ],
   "total_servers": 17,
-  "updated_at": "2026-07-22T02:00:20.873434+00:00"
+  "updated_at": "2026-07-23T02:07:58.818584+00:00"
 }

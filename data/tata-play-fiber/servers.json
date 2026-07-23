@@ -11,8 +11,7 @@
       "id": "36392",
       "preferred": 0,
       "isp_id": "122193",
-      "https_functional": 1,
-      "host": "speedtestjaipur.tataplayfiber.co.in.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtestjaipur.tataplayfiber.co.in:8080",
       "hostname": "speedtestjaipur.tataplayfiber.co.in",
       "ip_address": {
         "A": "103.22.143.173",
@@ -102,5 +101,5 @@
     }
   ],
   "total_servers": 5,
-  "updated_at": "2026-07-22T01:59:57.450960+00:00"
+  "updated_at": "2026-07-23T02:07:33.698159+00:00"
 }
