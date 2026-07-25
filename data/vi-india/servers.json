@@ -241,7 +241,6 @@
       "id": "69598",
       "preferred": 0,
       "isp_id": "23698",
-      "https_functional": 1,
       "host": "speedtest.pnb.vodafoneidea.com:8080",
       "hostname": "speedtest.pnb.vodafoneidea.com",
       "ip_address": {
@@ -330,5 +329,5 @@
     }
   ],
   "total_servers": 17,
-  "updated_at": "2026-07-24T02:02:49.913700+00:00"
+  "updated_at": "2026-07-25T02:02:33.283703+00:00"
 }
