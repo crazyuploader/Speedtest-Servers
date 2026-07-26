@@ -131,8 +131,7 @@
       "id": "33603",
       "preferred": 0,
       "isp_id": "122193",
-      "https_functional": 1,
-      "host": "speedtestpune.tataplayfiber.co.in.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtestpune.tataplayfiber.co.in:8080",
       "hostname": "speedtestpune.tataplayfiber.co.in",
       "ip_address": {
         "A": "103.208.69.233",
@@ -142,5 +141,5 @@
     }
   ],
   "total_servers": 7,
-  "updated_at": "2026-07-25T02:02:09.596225+00:00"
+  "updated_at": "2026-07-26T02:06:36.066671+00:00"
 }
