@@ -169,7 +169,6 @@
       "id": "71028",
       "preferred": 0,
       "isp_id": "67639",
-      "https_functional": 1,
       "host": "speedtest.jakartaselatan.telkomsel.com:8080",
       "hostname": "speedtest.jakartaselatan.telkomsel.com",
       "ip_address": {
@@ -326,7 +325,6 @@
       "id": "70721",
       "preferred": 0,
       "isp_id": "67639",
-      "https_functional": 1,
       "host": "speedtest.pekanbaru2.telkomsel.com:8080",
       "hostname": "speedtest.pekanbaru2.telkomsel.com",
       "ip_address": {
@@ -366,7 +364,6 @@
       "id": "70717",
       "preferred": 0,
       "isp_id": "67639",
-      "https_functional": 1,
       "host": "speedtest.semarang.telkomsel.com:8080",
       "hostname": "speedtest.semarang.telkomsel.com",
       "ip_address": {
@@ -425,7 +422,6 @@
       "id": "70730",
       "preferred": 0,
       "isp_id": "67639",
-      "https_functional": 1,
       "host": "speedtest.surabaya2.telkomsel.com:8080",
       "hostname": "speedtest.surabaya2.telkomsel.com",
       "ip_address": {
@@ -445,7 +441,6 @@
       "id": "72239",
       "preferred": 0,
       "isp_id": "67639",
-      "https_functional": 1,
       "host": "speedtest.solo.telkomsel.com:8080",
       "hostname": "speedtest.solo.telkomsel.com",
       "ip_address": {
@@ -465,7 +460,6 @@
       "id": "70715",
       "preferred": 0,
       "isp_id": "67639",
-      "https_functional": 1,
       "host": "speedtest.jakarta2.telkomsel.com:8080",
       "hostname": "speedtest.jakarta2.telkomsel.com",
       "ip_address": {
@@ -485,7 +479,6 @@
       "id": "71030",
       "preferred": 0,
       "isp_id": "67639",
-      "https_functional": 1,
       "host": "speedtest.yogyakarta.telkomsel.com:8080",
       "hostname": "speedtest.yogyakarta.telkomsel.com",
       "ip_address": {
@@ -496,5 +489,5 @@
     }
   ],
   "total_servers": 25,
-  "updated_at": "2026-07-28T01:55:26.246732+00:00"
+  "updated_at": "2026-07-29T01:58:21.305534+00:00"
 }
