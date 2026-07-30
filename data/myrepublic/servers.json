@@ -132,8 +132,27 @@
         "A": "158.140.186.79"
       },
       "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest.tangerang.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "-6.1783",
+      "lon": "106.6319",
+      "name": "Tangerang",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "MyRepublic Indonesia",
+      "id": "46362",
+      "preferred": 0,
+      "isp_id": "108000",
+      "https_functional": 1,
+      "host": "speedtest.tangerang.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.tangerang.myrepublic.net.id",
+      "ip_address": {
+        "A": "158.140.186.75"
+      },
+      "ipv6_capable": "no"
     }
   ],
-  "total_servers": 7,
-  "updated_at": "2026-07-29T01:57:30.038777+00:00"
+  "total_servers": 8,
+  "updated_at": "2026-07-30T01:49:29.838866+00:00"
 }

@@ -107,6 +107,7 @@
       "id": "69558",
       "preferred": 0,
       "isp_id": "23698",
+      "https_functional": 1,
       "host": "speedtest.del.vodafoneidea.com:8080",
       "hostname": "speedtest.del.vodafoneidea.com",
       "ip_address": {
@@ -329,5 +330,5 @@
     }
   ],
   "total_servers": 17,
-  "updated_at": "2026-07-29T01:58:31.837322+00:00"
+  "updated_at": "2026-07-30T01:50:29.122666+00:00"
 }

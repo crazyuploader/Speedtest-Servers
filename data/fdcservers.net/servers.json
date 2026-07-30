@@ -255,26 +255,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtest.prg.fdcservers.net:8080/speedtest/upload.php",
-      "lat": "50.0833",
-      "lon": "14.4167",
-      "name": "Prague",
-      "country": "Czechia",
-      "cc": "CZ",
-      "sponsor": "fdcservers.net",
-      "id": "48622",
-      "preferred": 0,
-      "isp_id": "27716",
-      "https_functional": 1,
-      "host": "speedtest.prg.fdcservers.net:8080",
-      "hostname": "speedtest.prg.fdcservers.net",
-      "ip_address": {
-        "A": "50.7.54.7",
-        "AAAA": "2001:49f0:d10d:a::10"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtest.sg.fdcservers.net:8080/speedtest/upload.php",
       "lat": "1.3000",
       "lon": "103.8000",
@@ -395,6 +375,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 20,
-  "updated_at": "2026-07-29T01:56:33.165722+00:00"
+  "total_servers": 19,
+  "updated_at": "2026-07-30T01:48:29.907725+00:00"
 }
