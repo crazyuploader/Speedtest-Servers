@@ -139,8 +139,26 @@
         "AAAA": "2001:d08:11:500::102"
       },
       "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.maxis.com.my:8080/speedtest/upload.php",
+      "lat": "3.0567",
+      "lon": "101.5851",
+      "name": "Subang Jaya",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "Maxis",
+      "id": "26511",
+      "preferred": 0,
+      "isp_id": "17961",
+      "host": "speedtest.maxis.com.my:8080",
+      "hostname": "speedtest.maxis.com.my",
+      "ip_address": {
+        "A": "202.75.151.82"
+      },
+      "ipv6_capable": "no"
     }
   ],
-  "total_servers": 7,
-  "updated_at": "2026-07-30T01:49:23.464792+00:00"
+  "total_servers": 8,
+  "updated_at": "2026-07-31T02:06:50.202629+00:00"
 }
