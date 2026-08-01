@@ -30,6 +30,7 @@
       "id": "71694",
       "preferred": 0,
       "isp_id": "23698",
+      "https_functional": 1,
       "host": "speedtest.guj.vodafoneidea.com:8080",
       "hostname": "speedtest.guj.vodafoneidea.com",
       "ip_address": {
@@ -69,6 +70,7 @@
       "id": "71705",
       "preferred": 0,
       "isp_id": "23698",
+      "https_functional": 1,
       "host": "speedtest.tnc.vodafoneidea.com:8080",
       "hostname": "speedtest.tnc.vodafoneidea.com",
       "ip_address": {
@@ -88,6 +90,7 @@
       "id": "71692",
       "preferred": 0,
       "isp_id": "23698",
+      "https_functional": 1,
       "host": "speedtest.ker.vodafoneidea.com:8080",
       "hostname": "speedtest.ker.vodafoneidea.com",
       "ip_address": {
@@ -206,6 +209,7 @@
       "id": "71691",
       "preferred": 0,
       "isp_id": "23698",
+      "https_functional": 1,
       "host": "speedtest.upe.vodafoneidea.com:8080",
       "hostname": "speedtest.upe.vodafoneidea.com",
       "ip_address": {
@@ -225,6 +229,7 @@
       "id": "71704",
       "preferred": 0,
       "isp_id": "23698",
+      "https_functional": 1,
       "host": "speedtest.upw.vodafoneidea.com:8080",
       "hostname": "speedtest.upw.vodafoneidea.com",
       "ip_address": {
@@ -333,5 +338,5 @@
     }
   ],
   "total_servers": 17,
-  "updated_at": "2026-07-31T02:07:59.686762+00:00"
+  "updated_at": "2026-08-01T02:09:28.951579+00:00"
 }
