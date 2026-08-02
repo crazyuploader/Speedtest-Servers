@@ -180,26 +180,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://patna-speedtest.ishancloud.com:8080/speedtest/upload.php",
-      "lat": "25.6139",
-      "lon": "85.1354",
-      "name": "Patna",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Ishan Netsol Pvt Ltd",
-      "id": "38394",
-      "preferred": 0,
-      "isp_id": "27544",
-      "https_functional": 1,
-      "host": "patna-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "patna-speedtest.ishancloud.com",
-      "ip_address": {
-        "A": "110.44.96.252",
-        "AAAA": "2405:f600:b0::a"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://rajkot-speedtest.ishancloud.com:8080/speedtest/upload.php",
       "lat": "22.3000",
       "lon": "70.7833",
@@ -260,6 +240,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 13,
-  "updated_at": "2026-08-01T02:07:50.297358+00:00"
+  "total_servers": 12,
+  "updated_at": "2026-08-02T02:04:41.420024+00:00"
 }
