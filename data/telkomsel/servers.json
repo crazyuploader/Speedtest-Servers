@@ -50,7 +50,6 @@
       "id": "70716",
       "preferred": 0,
       "isp_id": "67639",
-      "https_functional": 1,
       "host": "speedtest.bandung2.telkomsel.com:8080",
       "hostname": "speedtest.bandung2.telkomsel.com",
       "ip_address": {
@@ -489,5 +488,5 @@
     }
   ],
   "total_servers": 25,
-  "updated_at": "2026-08-05T01:54:22.518928+00:00"
+  "updated_at": "2026-08-06T01:56:16.842154+00:00"
 }
