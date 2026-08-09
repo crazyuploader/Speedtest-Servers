@@ -60,25 +60,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://cdo2-speedtest.globe.com.ph:8080/speedtest/upload.php",
-      "lat": "8.4542",
-      "lon": "124.6319",
-      "name": "Cagayan de Oro",
-      "country": "Philippines",
-      "cc": "PH",
-      "sponsor": "Globe Telecom",
-      "id": "28756",
-      "preferred": 0,
-      "isp_id": "900",
-      "host": "cdo2-speedtest.globe.com.ph:8080",
-      "hostname": "cdo2-speedtest.globe.com.ph",
-      "ip_address": {
-        "A": "120.28.4.74",
-        "AAAA": "2001:fe0:10:e6::2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://cln-speedtest.globe.com.ph:8080/speedtest/upload.php",
       "lat": "14.7566",
       "lon": "121.0450",
@@ -414,6 +395,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 21,
-  "updated_at": "2026-08-08T01:04:35.940777+00:00"
+  "total_servers": 20,
+  "updated_at": "2026-08-09T01:08:43.792957+00:00"
 }
