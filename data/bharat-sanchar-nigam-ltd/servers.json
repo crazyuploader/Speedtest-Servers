@@ -131,7 +131,8 @@
       "id": "6893",
       "preferred": 0,
       "isp_id": "73461",
-      "host": "bsnlooklajpr.mywire.org:8080",
+      "https_functional": 1,
+      "host": "bsnlooklajpr.mywire.org.prod.hosts.ooklaserver.net:8080",
       "hostname": "bsnlooklajpr.mywire.org",
       "ip_address": {
         "A": "117.232.129.249",
@@ -161,5 +162,5 @@
     }
   ],
   "total_servers": 8,
-  "updated_at": "2026-08-10T01:09:38.879170+00:00"
+  "updated_at": "2026-08-11T01:08:55.762731+00:00"
 }
