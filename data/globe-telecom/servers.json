@@ -395,25 +395,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://tgr-speedtest.globe.com.ph:8080/speedtest/upload.php",
-      "lat": "17.6158",
-      "lon": "121.7230",
-      "name": "Tuguegarao",
-      "country": "Philippines",
-      "cc": "PH",
-      "sponsor": "Globe Telecom",
-      "id": "32617",
-      "preferred": 0,
-      "isp_id": "900",
-      "host": "tgr-speedtest.globe.com.ph:8080",
-      "hostname": "tgr-speedtest.globe.com.ph",
-      "ip_address": {
-        "A": "120.28.4.94",
-        "AAAA": "2001:fd8:361:1::2"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://dav2-speedtest.globe.com.ph:8080/speedtest/upload.php",
       "lat": "6.9214",
       "lon": "122.0790",
@@ -433,6 +414,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 22,
-  "updated_at": "2026-08-11T01:09:32.147858+00:00"
+  "total_servers": 21,
+  "updated_at": "2026-08-12T01:17:16.054007+00:00"
 }

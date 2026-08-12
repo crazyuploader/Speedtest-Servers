@@ -200,6 +200,25 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtestkv3b.viettel.vn:8080/speedtest/upload.php",
+      "lat": "10.7500",
+      "lon": "106.6667",
+      "name": "Ho Chi Minh",
+      "country": "Vietnam",
+      "cc": "VN",
+      "sponsor": "Viettel Network",
+      "id": "26853",
+      "preferred": 0,
+      "isp_id": "48490",
+      "host": "speedtestkv3b.viettel.vn:8080",
+      "hostname": "speedtestkv3b.viettel.vn",
+      "ip_address": {
+        "A": "27.68.239.33",
+        "AAAA": "2402:800:6360:5d::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://tth-speedtest.viettelidc.com.vn:8080/speedtest/upload.php",
       "lat": "16.4637",
       "lon": "107.5909",
@@ -216,26 +235,6 @@
       "ip_address": {
         "A": "210.211.127.142",
         "AAAA": "2401:5f80:2002:1b::6"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://phuly-speedtest.viettelidc.com.vn:8080/speedtest/upload.php",
-      "lat": "20.5317",
-      "lon": "105.9176",
-      "name": "Phu Ly",
-      "country": "Vietnam",
-      "cc": "VN",
-      "sponsor": "Viettel IDC",
-      "id": "59934",
-      "preferred": 0,
-      "isp_id": "171596",
-      "https_functional": 1,
-      "host": "phuly-speedtest.viettelidc.com.vn.prod.hosts.ooklaserver.net:8080",
-      "hostname": "phuly-speedtest.viettelidc.com.vn",
-      "ip_address": {
-        "A": "210.211.127.132",
-        "AAAA": "2401:5f80:2002:1a::4"
       },
       "ipv6_capable": "yes"
     },
@@ -360,5 +359,5 @@
     }
   ],
   "total_servers": 18,
-  "updated_at": "2026-08-11T01:11:37.667688+00:00"
+  "updated_at": "2026-08-12T01:19:26.285700+00:00"
 }
