@@ -421,6 +421,7 @@
       "id": "70730",
       "preferred": 0,
       "isp_id": "67639",
+      "https_functional": 1,
       "host": "speedtest.surabaya2.telkomsel.com:8080",
       "hostname": "speedtest.surabaya2.telkomsel.com",
       "ip_address": {
@@ -488,5 +489,5 @@
     }
   ],
   "total_servers": 25,
-  "updated_at": "2026-08-14T01:20:06.905177+00:00"
+  "updated_at": "2026-08-15T00:51:45.331707+00:00"
 }
