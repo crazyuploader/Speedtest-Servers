@@ -380,26 +380,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://ookla.m3h.as6453.net:8080/speedtest/upload.php",
-      "lat": "-33.8623",
-      "lon": "151.2077",
-      "name": "Sydney",
-      "country": "Australia",
-      "cc": "AU",
-      "sponsor": "Tata Communications",
-      "id": "73631",
-      "preferred": 0,
-      "isp_id": "153522",
-      "https_functional": 1,
-      "host": "ookla.m3h.as6453.net.prod.hosts.ooklaserver.net:8080",
-      "hostname": "ookla.m3h.as6453.net",
-      "ip_address": {
-        "A": "180.87.35.29",
-        "AAAA": "2405:2000:2000:10::d382"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://ookla.z3z.as6453.net:8080/speedtest/upload.php",
       "lat": "47.3952",
       "lon": "8.4925",
@@ -420,6 +400,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 21,
-  "updated_at": "2026-08-18T06:20:09.770563+05:30"
+  "total_servers": 20,
+  "updated_at": "2026-08-19T06:20:17.032022+05:30"
 }
