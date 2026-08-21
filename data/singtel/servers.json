@@ -14,11 +14,11 @@
       "host": "speedtest.singnet.com.sg:8080",
       "hostname": "speedtest.singnet.com.sg",
       "ip_address": {
-        "A": "165.21.70.18"
+        "A": "165.21.70.30"
       },
       "ipv6_capable": "no"
     }
   ],
   "total_servers": 1,
-  "updated_at": "2026-08-20T06:19:19.623091+05:30"
+  "updated_at": "2026-08-21T06:23:56.288252+05:30"
 }
