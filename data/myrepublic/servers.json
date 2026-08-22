@@ -20,25 +20,6 @@
       "ipv6_capable": "no"
     },
     {
-      "url": "http://speedtest.tangerang2.myrepublic.net.id:8080/speedtest/upload.php",
-      "lat": "-6.2980",
-      "lon": "106.6522",
-      "name": "BSD City",
-      "country": "Indonesia",
-      "cc": "ID",
-      "sponsor": "MyRepublic Indonesia",
-      "id": "72618",
-      "preferred": 0,
-      "isp_id": "108000",
-      "https_functional": 1,
-      "host": "speedtest.tangerang2.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtest.tangerang2.myrepublic.net.id",
-      "ip_address": {
-        "A": "157.66.210.199"
-      },
-      "ipv6_capable": "no"
-    },
-    {
       "url": "http://speedtest.makasar.myrepublic.net.id:8080/speedtest/upload.php",
       "lat": "-5.1616",
       "lon": "119.4359",
@@ -153,6 +134,6 @@
       "ipv6_capable": "no"
     }
   ],
-  "total_servers": 8,
-  "updated_at": "2026-08-21T06:23:44.122988+05:30"
+  "total_servers": 7,
+  "updated_at": "2026-08-22T06:19:36.445174+05:30"
 }
