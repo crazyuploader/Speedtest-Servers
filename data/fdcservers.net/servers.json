@@ -21,6 +21,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtest.iad.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "39.0438",
+      "lon": "-77.4874",
+      "name": "Ashburn, VA",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "fdcservers.net",
+      "id": "6030",
+      "preferred": 0,
+      "isp_id": "213182",
+      "https_functional": 1,
+      "host": "speedtest.iad.fdcservers.net:8080",
+      "hostname": "speedtest.iad.fdcservers.net",
+      "ip_address": {
+        "A": "198.255.79.8",
+        "AAAA": "2001:49f0:d025::10"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtest.atl.fdcservers.net:8080/speedtest/upload.php",
       "lat": "33.7483",
       "lon": "-84.3911",
@@ -101,7 +121,27 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://lg-hkg.fdcservers.net:8080/speedtest/upload.php",
+      "url": "http://speedtest.fr8.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "50.1109",
+      "lon": "8.6821",
+      "name": "Frankfurt",
+      "country": "Germany",
+      "cc": "DE",
+      "sponsor": "fdcservers.net",
+      "id": "10010",
+      "preferred": 0,
+      "isp_id": "27716",
+      "https_functional": 1,
+      "host": "speedtest.fr8.fdcservers.net:8080",
+      "hostname": "speedtest.fr8.fdcservers.net",
+      "ip_address": {
+        "A": "50.7.50.11",
+        "AAAA": "2001:49f0:d01f:ffff::10"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.hkg.fdcservers.net:8080/speedtest/upload.php",
       "lat": "22.2500",
       "lon": "114.1667",
       "name": "Hong Kong",
@@ -111,8 +151,8 @@
       "id": "28912",
       "preferred": 0,
       "isp_id": "27716",
-      "host": "lg-hkg.fdcservers.net:8080",
-      "hostname": "lg-hkg.fdcservers.net",
+      "host": "speedtest.hkg.fdcservers.net:8080",
+      "hostname": "speedtest.hkg.fdcservers.net",
       "ip_address": {
         "A": "50.7.251.4",
         "AAAA": "2001:49f0:d0da::4"
@@ -120,7 +160,7 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://lg-khv.fdcservers.net:8080/speedtest/upload.php",
+      "url": "http://speedtest.khv.fdcservers.net:8080/speedtest/upload.php",
       "lat": "48.4770",
       "lon": "135.0941",
       "name": "Khabarovsk",
@@ -130,8 +170,8 @@
       "id": "46700",
       "preferred": 0,
       "isp_id": "70159",
-      "host": "lg-khv.fdcservers.net:8080",
-      "hostname": "lg-khv.fdcservers.net",
+      "host": "speedtest.khv.fdcservers.net:8080",
+      "hostname": "speedtest.khv.fdcservers.net",
       "ip_address": {
         "A": "66.90.93.4",
         "AAAA": "2001:49f0:d104::4"
@@ -139,7 +179,7 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://lg-lis.fdcservers.net:8080/speedtest/upload.php",
+      "url": "http://speedtest.lis.fdcservers.net:8080/speedtest/upload.php",
       "lat": "38.7000",
       "lon": "-9.1833",
       "name": "Lisbon",
@@ -149,8 +189,8 @@
       "id": "34265",
       "preferred": 0,
       "isp_id": "27716",
-      "host": "lg-lis.fdcservers.net:8080",
-      "hostname": "lg-lis.fdcservers.net",
+      "host": "speedtest.lis.fdcservers.net:8080",
+      "hostname": "speedtest.lis.fdcservers.net",
       "ip_address": {
         "A": "50.7.43.4",
         "AAAA": "2001:49f0:d0ed::4"
@@ -197,7 +237,7 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://lg-mad.fdcservers.net:8080/speedtest/upload.php",
+      "url": "http://speedtest.mad.fdcservers.net:8080/speedtest/upload.php",
       "lat": "40.4000",
       "lon": "-3.6833",
       "name": "Madrid",
@@ -207,8 +247,8 @@
       "id": "9933",
       "preferred": 0,
       "isp_id": "27716",
-      "host": "lg-mad.fdcservers.net:8080",
-      "hostname": "lg-mad.fdcservers.net",
+      "host": "speedtest.mad.fdcservers.net:8080",
+      "hostname": "speedtest.mad.fdcservers.net",
       "ip_address": {
         "A": "50.7.31.242",
         "AAAA": "2001:49f0:d01e:e::4"
@@ -236,7 +276,7 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://lg-dme.fdcservers.net:8080/speedtest/upload.php",
+      "url": "http://speedtest.dme.fdcservers.net:8080/speedtest/upload.php",
       "lat": "55.7517",
       "lon": "37.6178",
       "name": "Moscow",
@@ -246,11 +286,71 @@
       "id": "46685",
       "preferred": 0,
       "isp_id": "70159",
-      "host": "lg-dme.fdcservers.net:8080",
-      "hostname": "lg-dme.fdcservers.net",
+      "host": "speedtest.dme.fdcservers.net:8080",
+      "hostname": "speedtest.dme.fdcservers.net",
       "ip_address": {
         "A": "66.90.91.4",
         "AAAA": "2001:49f0:d103::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.pa10.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "48.8742",
+      "lon": "2.3470",
+      "name": "Paris",
+      "country": "France",
+      "cc": "FR",
+      "sponsor": "fdcservers.net",
+      "id": "6027",
+      "preferred": 0,
+      "isp_id": "27716",
+      "https_functional": 1,
+      "host": "speedtest.pa10.fdcservers.net:8080",
+      "hostname": "speedtest.pa10.fdcservers.net",
+      "ip_address": {
+        "A": "50.7.228.11",
+        "AAAA": "2001:49f0:d0e4:21::10"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.prg.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "50.0833",
+      "lon": "14.4167",
+      "name": "Prague",
+      "country": "Czechia",
+      "cc": "CZ",
+      "sponsor": "fdcservers.net",
+      "id": "48622",
+      "preferred": 0,
+      "isp_id": "27716",
+      "https_functional": 1,
+      "host": "speedtest.prg.fdcservers.net:8080",
+      "hostname": "speedtest.prg.fdcservers.net",
+      "ip_address": {
+        "A": "50.7.54.7",
+        "AAAA": "2001:49f0:d10d:a::10"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.sea.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "47.6062",
+      "lon": "-122.3321",
+      "name": "Seattle, WA",
+      "country": "United States",
+      "cc": "US",
+      "sponsor": "fdcservers.net",
+      "id": "6029",
+      "preferred": 0,
+      "isp_id": "27716",
+      "https_functional": 1,
+      "host": "speedtest.sea.fdcservers.net:8080",
+      "hostname": "speedtest.sea.fdcservers.net",
+      "ip_address": {
+        "A": "23.237.83.249",
+        "AAAA": "2001:49f0:d090:a::10"
       },
       "ipv6_capable": "yes"
     },
@@ -375,6 +475,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 19,
-  "updated_at": "2026-08-22T06:18:56.868013+05:30"
+  "total_servers": 24,
+  "updated_at": "2026-08-23T06:23:26.713393+05:30"
 }
