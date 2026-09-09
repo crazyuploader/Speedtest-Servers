@@ -1,25 +1,6 @@
 {
   "servers": [
     {
-      "url": "http://speedahm1.jioconnect.com:8080/speedtest/upload.php",
-      "lat": "23.0225",
-      "lon": "72.5714",
-      "name": "Ahmedabad",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Jio",
-      "id": "10197",
-      "preferred": 0,
-      "isp_id": "137615",
-      "host": "speedahm1.jioconnect.com:8080",
-      "hostname": "speedahm1.jioconnect.com",
-      "ip_address": {
-        "A": "49.44.56.247",
-        "AAAA": "2405:200:1609:2820:41::7"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://abddooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
       "lat": "25.4358",
       "lon": "81.8463",
@@ -180,25 +161,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedbhp1.jioconnect.com:8080/speedtest/upload.php",
-      "lat": "23.2599",
-      "lon": "77.4126",
-      "name": "Bhopal",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Jio",
-      "id": "10108",
-      "preferred": 0,
-      "isp_id": "137615",
-      "host": "speedbhp1.jioconnect.com:8080",
-      "hostname": "speedbhp1.jioconnect.com",
-      "ip_address": {
-        "A": "49.44.79.70",
-        "AAAA": "2405:200:160d:2820:41::5"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://bbsrooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
       "lat": "20.2961",
       "lon": "85.8245",
@@ -339,25 +301,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedgwh1.jioconnect.com:8080/speedtest/upload.php",
-      "lat": "26.1445",
-      "lon": "91.7362",
-      "name": "Guwahati",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Jio",
-      "id": "10107",
-      "preferred": 0,
-      "isp_id": "137615",
-      "host": "speedgwh1.jioconnect.com:8080",
-      "hostname": "speedgwh1.jioconnect.com",
-      "ip_address": {
-        "A": "49.44.79.54",
-        "AAAA": "2405:200:1612:2820:41::4"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://indrooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
       "lat": "22.7287",
       "lon": "75.8654",
@@ -394,25 +337,6 @@
       "ip_address": {
         "A": "49.45.64.74",
         "AAAA": "2405:200:1670:200:49:45:64:46"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speedjpr1.jioconnect.com:8080/speedtest/upload.php",
-      "lat": "26.9260",
-      "lon": "75.8235",
-      "name": "Jaipur",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Jio",
-      "id": "10203",
-      "preferred": 0,
-      "isp_id": "137615",
-      "host": "speedjpr1.jioconnect.com:8080",
-      "hostname": "speedjpr1.jioconnect.com",
-      "ip_address": {
-        "A": "49.44.79.133",
-        "AAAA": "2405:200:160f:2820:41::5"
       },
       "ipv6_capable": "yes"
     },
@@ -777,26 +701,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedngp1.jioconnect.com:8080/speedtest/upload.php",
-      "lat": "21.1458",
-      "lon": "79.0882",
-      "name": "Nagpur",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Jio",
-      "id": "9692",
-      "preferred": 0,
-      "isp_id": "137615",
-      "https_functional": 1,
-      "host": "speedngp1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedngp1.jioconnect.com",
-      "ip_address": {
-        "A": "49.44.56.231",
-        "AAAA": "2405:200:1632:2820:41::7"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://nddgooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
       "lat": "19.1383",
       "lon": "77.3210",
@@ -853,25 +757,6 @@
       "ip_address": {
         "A": "49.45.64.26",
         "AAAA": "2405:200:1670:200:49:45:64:1a"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speeddlh1.jioconnect.com:8080/speedtest/upload.php",
-      "lat": "28.5355",
-      "lon": "77.3910",
-      "name": "Noida",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Jio",
-      "id": "24158",
-      "preferred": 0,
-      "isp_id": "137615",
-      "host": "speeddlh1.jioconnect.com:8080",
-      "hostname": "speeddlh1.jioconnect.com",
-      "ip_address": {
-        "A": "49.44.56.202",
-        "AAAA": "2405:200:1604:2820:41::1a"
       },
       "ipv6_capable": "yes"
     },
@@ -1076,26 +961,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedshm1.jioconnect.com:8080/speedtest/upload.php",
-      "lat": "31.1048",
-      "lon": "77.1734",
-      "name": "Shimla",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Jio",
-      "id": "10109",
-      "preferred": 0,
-      "isp_id": "137615",
-      "https_functional": 1,
-      "host": "speedshm1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedshm1.jioconnect.com",
-      "ip_address": {
-        "A": "49.44.79.182",
-        "AAAA": "2405:200:161b:2820:41::4"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://slgrooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
       "lat": "26.7084",
       "lon": "88.4318",
@@ -1275,6 +1140,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 64,
-  "updated_at": "2026-09-08T07:56:11.241348+05:30"
+  "total_servers": 57,
+  "updated_at": "2026-09-09T07:59:06.942250+05:30"
 }
