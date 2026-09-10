@@ -218,26 +218,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speedtestjmu.airtel.in:8080/speedtest/upload.php",
-      "lat": "32.7266",
-      "lon": "74.8570",
-      "name": "Jammu",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Bharti Airtel Ltd",
-      "id": "69850",
-      "preferred": 0,
-      "isp_id": "46101",
-      "https_functional": 1,
-      "host": "speedtestjmu.airtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestjmu.airtel.in",
-      "ip_address": {
-        "A": "182.95.38.46",
-        "AAAA": "2404:a800:1a00:a00::36"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtestjdh1.airtel.in:8080/speedtest/upload.php",
       "lat": "26.2389",
       "lon": "73.0243",
@@ -598,6 +578,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 30,
-  "updated_at": "2026-09-09T07:58:32.474872+05:30"
+  "total_servers": 29,
+  "updated_at": "2026-09-10T07:58:18.885337+05:30"
 }
