@@ -141,6 +141,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtestmum.actcorp.in:8080/speedtest/upload.php",
+      "lat": "18.9647",
+      "lon": "72.8258",
+      "name": "Mumbai",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "ACT FIBERNET",
+      "id": "76259",
+      "preferred": 0,
+      "isp_id": "64789",
+      "https_functional": 1,
+      "host": "speedtestmum.actcorp.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtestmum.actcorp.in",
+      "ip_address": {
+        "A": "183.82.194.158",
+        "AAAA": "2406:b400:74::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtestnlr.actcorp.in:8080/speedtest/upload.php",
       "lat": "14.4426",
       "lon": "79.9865",
@@ -241,6 +261,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 12,
-  "updated_at": "2026-09-17T08:17:12.162882+05:30"
+  "total_servers": 13,
+  "updated_at": "2026-09-18T08:04:04.044986+05:30"
 }
