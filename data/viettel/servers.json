@@ -348,8 +348,7 @@
       "id": "59932",
       "preferred": 0,
       "isp_id": "171596",
-      "https_functional": 1,
-      "host": "vinh-speedtest.viettelidc.com.vn.prod.hosts.ooklaserver.net:8080",
+      "host": "vinh-speedtest.viettelidc.com.vn:8080",
       "hostname": "vinh-speedtest.viettelidc.com.vn",
       "ip_address": {
         "A": "210.211.127.130",
@@ -379,5 +378,5 @@
     }
   ],
   "total_servers": 19,
-  "updated_at": "2026-09-18T08:06:04.487447+05:30"
+  "updated_at": "2026-09-19T08:05:09.354839+05:30"
 }
