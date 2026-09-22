@@ -181,6 +181,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://ranchi-speedtest.ishancloud.com:8080/speedtest/upload.php",
+      "lat": "23.3441",
+      "lon": "85.3096",
+      "name": "Ranchi",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "Ishan Netsol Pvt Ltd",
+      "id": "45825",
+      "preferred": 0,
+      "isp_id": "27544",
+      "https_functional": 1,
+      "host": "ranchi-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "ranchi-speedtest.ishancloud.com",
+      "ip_address": {
+        "A": "103.59.209.3",
+        "AAAA": "2405:f600:ba::5a"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://vadodara-sptest.ishancloud.com:8080/speedtest/upload.php",
       "lat": "22.3000",
       "lon": "73.2000",
@@ -201,6 +221,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 10,
-  "updated_at": "2026-09-21T08:12:37.422231+05:30"
+  "total_servers": 11,
+  "updated_at": "2026-09-22T08:13:58.936067+05:30"
 }
