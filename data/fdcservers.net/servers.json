@@ -281,6 +281,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtest.dme.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "55.7517",
+      "lon": "37.6178",
+      "name": "Moscow",
+      "country": "Russia",
+      "cc": "RU",
+      "sponsor": "fdcservers.net",
+      "id": "46685",
+      "preferred": 0,
+      "isp_id": "70159",
+      "https_functional": 1,
+      "host": "speedtest.dme.fdcservers.net:8080",
+      "hostname": "speedtest.dme.fdcservers.net",
+      "ip_address": {
+        "A": "66.90.91.4",
+        "AAAA": "2001:49f0:d103::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtest.pa10.fdcservers.net:8080/speedtest/upload.php",
       "lat": "48.8742",
       "lon": "2.3470",
@@ -461,6 +481,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 23,
-  "updated_at": "2026-09-22T08:13:44.380017+05:30"
+  "total_servers": 24,
+  "updated_at": "2026-09-23T08:14:13.676401+05:30"
 }

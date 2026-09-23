@@ -31,8 +31,7 @@
       "id": "22709",
       "preferred": 0,
       "isp_id": "227198",
-      "https_functional": 1,
-      "host": "kolkataspeedtest.onebroadband.in.prod.hosts.ooklaserver.net:8080",
+      "host": "kolkataspeedtest.onebroadband.in:8080",
       "hostname": "kolkataspeedtest.onebroadband.in",
       "ip_address": {
         "A": "203.192.209.3",
@@ -102,5 +101,5 @@
     }
   ],
   "total_servers": 5,
-  "updated_at": "2026-09-22T08:14:19.606912+05:30"
+  "updated_at": "2026-09-23T08:14:49.737639+05:30"
 }
