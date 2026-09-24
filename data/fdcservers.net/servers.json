@@ -221,6 +221,25 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtest.ld7.fdcservers.net:8080/speedtest/upload.php",
+      "lat": "51.5171",
+      "lon": "-0.1062",
+      "name": "London",
+      "country": "United Kingdom",
+      "cc": "GB",
+      "sponsor": "fdcservers.net",
+      "id": "6032",
+      "preferred": 0,
+      "isp_id": "27716",
+      "host": "speedtest.ld7.fdcservers.net:8080",
+      "hostname": "speedtest.ld7.fdcservers.net",
+      "ip_address": {
+        "A": "50.7.213.6",
+        "AAAA": "2001:49f0:d007:3::10"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtest.la3eq.fdcservers.net:8080/speedtest/upload.php",
       "lat": "34.0500",
       "lon": "-118.2500",
@@ -481,6 +500,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 24,
-  "updated_at": "2026-09-23T08:14:13.676401+05:30"
+  "total_servers": 25,
+  "updated_at": "2026-09-24T08:03:36.163368+05:30"
 }
