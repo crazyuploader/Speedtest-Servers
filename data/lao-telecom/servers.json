@@ -11,7 +11,6 @@
       "id": "45929",
       "preferred": 0,
       "isp_id": "4428",
-      "https_functional": 1,
       "host": "ooklaodx.laotel.com:8080",
       "hostname": "ooklaodx.laotel.com",
       "ip_address": {
@@ -30,7 +29,6 @@
       "id": "45930",
       "preferred": 0,
       "isp_id": "4428",
-      "https_functional": 1,
       "host": "ooklasvk.laotel.com:8080",
       "hostname": "ooklasvk.laotel.com",
       "ip_address": {
@@ -49,7 +47,6 @@
       "id": "47463",
       "preferred": 0,
       "isp_id": "300903",
-      "https_functional": 1,
       "host": "ooklavte.laotel.com:8080",
       "hostname": "ooklavte.laotel.com",
       "ip_address": {
@@ -59,5 +56,5 @@
     }
   ],
   "total_servers": 3,
-  "updated_at": "2026-09-28T08:26:39.134679+05:30"
+  "updated_at": "2026-09-29T09:06:42.515884+05:30"
 }
