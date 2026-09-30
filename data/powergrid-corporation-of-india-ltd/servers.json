@@ -11,6 +11,7 @@
       "id": "19117",
       "preferred": 0,
       "isp_id": "298835",
+      "https_functional": 1,
       "host": "speedtest2.powertel.org:8080",
       "hostname": "speedtest2.powertel.org",
       "ip_address": {
@@ -30,6 +31,7 @@
       "id": "25652",
       "preferred": 0,
       "isp_id": "298835",
+      "https_functional": 1,
       "host": "speedtest1.powertel.org:8080",
       "hostname": "speedtest1.powertel.org",
       "ip_address": {
@@ -40,5 +42,5 @@
     }
   ],
   "total_servers": 2,
-  "updated_at": "2026-09-29T09:06:56.589065+05:30"
+  "updated_at": "2026-09-30T08:52:53.511414+05:30"
 }
