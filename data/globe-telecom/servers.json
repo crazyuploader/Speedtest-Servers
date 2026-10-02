@@ -364,7 +364,7 @@
       "sponsor": "Globe Telecom",
       "id": "29916",
       "preferred": 0,
-      "isp_id": "56178",
+      "isp_id": "900",
       "host": "srg-speedtest.globe.com.ph:8080",
       "hostname": "srg-speedtest.globe.com.ph",
       "ip_address": {
@@ -472,5 +472,5 @@
     }
   ],
   "total_servers": 24,
-  "updated_at": "2026-10-01T08:58:33.527235+05:30"
+  "updated_at": "2026-10-02T08:58:54.950796+05:30"
 }
