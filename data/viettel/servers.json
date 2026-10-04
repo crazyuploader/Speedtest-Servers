@@ -21,25 +21,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://cto-speedtest.viettelidc.com.vn:8080/speedtest/upload.php",
-      "lat": "10.0452",
-      "lon": "105.7469",
-      "name": "Can Tho",
-      "country": "Vietnam",
-      "cc": "VN",
-      "sponsor": "Viettel IDC",
-      "id": "59916",
-      "preferred": 0,
-      "isp_id": "171596",
-      "host": "cto-speedtest.viettelidc.com.vn:8080",
-      "hostname": "cto-speedtest.viettelidc.com.vn",
-      "ip_address": {
-        "A": "210.211.127.147",
-        "AAAA": "2401:5f80:2002:1c::3"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://dtp-speedtest.viettelidc.com.vn:8080/speedtest/upload.php",
       "lat": "10.4550",
       "lon": "105.6340",
@@ -357,6 +338,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 18,
-  "updated_at": "2026-10-03T08:44:11.223165+05:30"
+  "total_servers": 17,
+  "updated_at": "2026-10-04T09:13:33.190598+05:30"
 }
