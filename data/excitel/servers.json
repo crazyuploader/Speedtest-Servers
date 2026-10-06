@@ -11,7 +11,8 @@
       "id": "36627",
       "preferred": 0,
       "isp_id": "115835",
-      "host": "speedtest.blr.excitel.in:8080",
+      "https_functional": 1,
+      "host": "speedtest.blr.excitel.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest.blr.excitel.in",
       "ip_address": {
         "A": "103.57.86.37",
@@ -181,5 +182,5 @@
     }
   ],
   "total_servers": 9,
-  "updated_at": "2026-10-05T08:54:40.721175+05:30"
+  "updated_at": "2026-10-06T09:41:52.905326+05:30"
 }

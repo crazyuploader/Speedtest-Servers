@@ -21,6 +21,25 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://cto-speedtest.viettelidc.com.vn:8080/speedtest/upload.php",
+      "lat": "10.0452",
+      "lon": "105.7469",
+      "name": "Can Tho",
+      "country": "Vietnam",
+      "cc": "VN",
+      "sponsor": "Viettel IDC",
+      "id": "59916",
+      "preferred": 0,
+      "isp_id": "171596",
+      "host": "cto-speedtest.viettelidc.com.vn:8080",
+      "hostname": "cto-speedtest.viettelidc.com.vn",
+      "ip_address": {
+        "A": "210.211.127.147",
+        "AAAA": "2401:5f80:2002:1c::3"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://dtp-speedtest.viettelidc.com.vn:8080/speedtest/upload.php",
       "lat": "10.4550",
       "lon": "105.6340",
@@ -77,6 +96,26 @@
       "ip_address": {
         "A": "27.68.201.1",
         "AAAA": "2402:800:6260:1b::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://dng-speedtest.viettelidc.com.vn:8080/speedtest/upload.php",
+      "lat": "16.0667",
+      "lon": "108.2333",
+      "name": "Da Nang",
+      "country": "Vietnam",
+      "cc": "VN",
+      "sponsor": "Viettel IDC",
+      "id": "59883",
+      "preferred": 0,
+      "isp_id": "171596",
+      "https_functional": 1,
+      "host": "dng-speedtest.viettelidc.com.vn.prod.hosts.ooklaserver.net:8080",
+      "hostname": "dng-speedtest.viettelidc.com.vn",
+      "ip_address": {
+        "A": "210.211.127.138",
+        "AAAA": "2401:5f80:2002:1b::2"
       },
       "ipv6_capable": "yes"
     },
@@ -338,6 +377,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 17,
-  "updated_at": "2026-10-05T08:56:08.171632+05:30"
+  "total_servers": 19,
+  "updated_at": "2026-10-06T09:43:29.999512+05:30"
 }
