@@ -251,7 +251,6 @@
       "id": "69596",
       "preferred": 0,
       "isp_id": "23698",
-      "https_functional": 1,
       "host": "speedtest.mum.vodafoneidea.com:8080",
       "hostname": "speedtest.mum.vodafoneidea.com",
       "ip_address": {
@@ -321,5 +320,5 @@
     }
   ],
   "total_servers": 16,
-  "updated_at": "2026-10-08T09:24:33.326131+05:30"
+  "updated_at": "2026-10-09T09:30:00.727322+05:30"
 }
