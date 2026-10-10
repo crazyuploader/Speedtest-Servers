@@ -31,7 +31,8 @@
       "id": "59916",
       "preferred": 0,
       "isp_id": "171596",
-      "host": "cto-speedtest.viettelidc.com.vn:8080",
+      "https_functional": 1,
+      "host": "cto-speedtest.viettelidc.com.vn.prod.hosts.ooklaserver.net:8080",
       "hostname": "cto-speedtest.viettelidc.com.vn",
       "ip_address": {
         "A": "210.211.127.147",
@@ -378,5 +379,5 @@
     }
   ],
   "total_servers": 19,
-  "updated_at": "2026-10-09T09:30:08.622083+05:30"
+  "updated_at": "2026-10-10T09:15:08.339762+05:30"
 }

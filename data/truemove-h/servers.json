@@ -91,7 +91,6 @@
       "id": "61505",
       "preferred": 0,
       "isp_id": "208623",
-      "https_functional": 1,
       "host": "spd-tt2.trueinternet.co.th:8080",
       "hostname": "spd-tt2.trueinternet.co.th",
       "ip_address": {
@@ -155,12 +154,12 @@
       "host": "spd-srt.trueinternet.co.th:8080",
       "hostname": "spd-srt.trueinternet.co.th",
       "ip_address": {
-        "A": "27.55.63.1",
-        "AAAA": "2001:fb0:7fff:700::7d0"
+        "A": "203.144.190.243",
+        "AAAA": "2001:fb0:1061:4c1::243"
       },
       "ipv6_capable": "yes"
     }
   ],
   "total_servers": 8,
-  "updated_at": "2026-10-09T09:29:54.825259+05:30"
+  "updated_at": "2026-10-10T09:14:59.396201+05:30"
 }
