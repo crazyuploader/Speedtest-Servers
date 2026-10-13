@@ -91,8 +91,7 @@
       "id": "23118",
       "preferred": 0,
       "isp_id": "42011",
-      "https_functional": 1,
-      "host": "speedtest-cbi1.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest-cbi1.3bb.co.th:8080",
       "hostname": "speedtest-cbi1.3bb.co.th",
       "ip_address": {
         "A": "110.164.3.234",
@@ -522,5 +521,5 @@
     }
   ],
   "total_servers": 26,
-  "updated_at": "2026-10-12T09:08:49.727810+05:30"
+  "updated_at": "2026-10-13T10:22:17.217865+05:30"
 }
