@@ -1,26 +1,6 @@
 {
   "servers": [
     {
-      "url": "http://speedtest9.vtn.com.vn:8080/speedtest/upload.php",
-      "lat": "10.0452",
-      "lon": "105.7469",
-      "name": "Can Tho",
-      "country": "Vietnam",
-      "cc": "VN",
-      "sponsor": "VNPT-NET",
-      "id": "45567",
-      "preferred": 0,
-      "isp_id": "880",
-      "https_functional": 1,
-      "host": "speedtest9.vtn.com.vn.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtest9.vtn.com.vn",
-      "ip_address": {
-        "A": "113.164.9.121",
-        "AAAA": "2001:ee0:3100:7::a"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speedtest5.vtn.com.vn:8080/speedtest/upload.php",
       "lat": "16.0667",
       "lon": "108.2333",
@@ -101,6 +81,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 5,
-  "updated_at": "2026-10-15T08:12:31.439993+05:30"
+  "total_servers": 4,
+  "updated_at": "2026-10-16T08:07:40.961883+05:30"
 }

@@ -58,28 +58,8 @@
         "AAAA": "2404:ba00:a::66"
       },
       "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://ngpspeedtest.onebroadband.in:8080/speedtest/upload.php",
-      "lat": "21.1458",
-      "lon": "79.0882",
-      "name": "Nagpur",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "OneBroadband",
-      "id": "10426",
-      "preferred": 0,
-      "isp_id": "227198",
-      "https_functional": 1,
-      "host": "ngpspeedtest.onebroadband.in:8080",
-      "hostname": "ngpspeedtest.onebroadband.in",
-      "ip_address": {
-        "A": "203.192.224.3",
-        "AAAA": "2404:ba00:fb00::e"
-      },
-      "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 4,
-  "updated_at": "2026-10-15T08:11:44.715929+05:30"
+  "total_servers": 3,
+  "updated_at": "2026-10-16T08:06:48.434765+05:30"
 }
