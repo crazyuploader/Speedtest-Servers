@@ -1,6 +1,26 @@
 {
   "servers": [
     {
+      "url": "http://speedtest.aceh.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "5.5483",
+      "lon": "95.3238",
+      "name": "Banda Aceh",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "74153",
+      "preferred": 0,
+      "isp_id": "67639",
+      "https_functional": 1,
+      "host": "speedtest.aceh.telkomsel.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.aceh.telkomsel.com",
+      "ip_address": {
+        "A": "182.3.0.17",
+        "AAAA": "2404:c0:5400:9::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtest.lampung.telkomsel.com:8080/speedtest/upload.php",
       "lat": "-5.4479",
       "lon": "105.2653",
@@ -236,6 +256,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtest.medan2.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "3.5833",
+      "lon": "98.6667",
+      "name": "Medan",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "70718",
+      "preferred": 0,
+      "isp_id": "67639",
+      "https_functional": 1,
+      "host": "speedtest.medan2.telkomsel.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.medan2.telkomsel.com",
+      "ip_address": {
+        "A": "114.122.0.41",
+        "AAAA": "2404:c0:1c00:9::11"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtest.padang.telkomsel.com:8080/speedtest/upload.php",
       "lat": "-0.9480",
       "lon": "100.3631",
@@ -289,6 +329,26 @@
       "ip_address": {
         "A": "114.125.32.241",
         "AAAA": "2404:c0:1400:5::11"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://speedtest.siantar.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "2.9651",
+      "lon": "99.0626",
+      "name": "Pematang Siantar",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "74366",
+      "preferred": 0,
+      "isp_id": "67639",
+      "https_functional": 1,
+      "host": "speedtest.siantar.telkomsel.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.siantar.telkomsel.com",
+      "ip_address": {
+        "A": "114.122.32.17",
+        "AAAA": "2404:c0:5600:a::1"
       },
       "ipv6_capable": "yes"
     },
@@ -427,6 +487,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 22,
-  "updated_at": "2026-10-21T08:19:13.878013+05:30"
+  "total_servers": 25,
+  "updated_at": "2026-10-22T08:18:29.967331+05:30"
 }
