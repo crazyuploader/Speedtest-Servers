@@ -1,6 +1,26 @@
 {
   "servers": [
     {
+      "url": "http://spd-bkk.trueinternet.co.th:8080/speedtest/upload.php",
+      "lat": "13.7500",
+      "lon": "100.4833",
+      "name": "Bangkok",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "TrueMove H",
+      "id": "1219",
+      "preferred": 0,
+      "isp_id": "208623",
+      "https_functional": 1,
+      "host": "spd-bkk.trueinternet.co.th:8080",
+      "hostname": "spd-bkk.trueinternet.co.th",
+      "ip_address": {
+        "A": "27.55.63.246",
+        "AAAA": "2001:fb0:100:2755:27:55:63:2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://truemoveookla-cmi.trueinternet.co.th:8080/speedtest/upload.php",
       "lat": "18.7061",
       "lon": "98.9817",
@@ -81,6 +101,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://truemoveookla-ska.trueinternet.co.th:8080/speedtest/upload.php",
+      "lat": "7.1898",
+      "lon": "100.5954",
+      "name": "Songkhla",
+      "country": "Thailand",
+      "cc": "TH",
+      "sponsor": "TrueMove H",
+      "id": "16519",
+      "preferred": 0,
+      "isp_id": "208623",
+      "https_functional": 1,
+      "host": "truemoveookla-ska.trueinternet.co.th:8080",
+      "hostname": "truemoveookla-ska.trueinternet.co.th",
+      "ip_address": {
+        "A": "27.55.63.206",
+        "AAAA": "2001:fb0:7fff:dc::2"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://spd-srt.trueinternet.co.th:8080/speedtest/upload.php",
       "lat": "9.1333",
       "lon": "99.3317",
@@ -101,6 +141,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 5,
-  "updated_at": "2026-10-23T08:21:31.702330+05:30"
+  "total_servers": 7,
+  "updated_at": "2026-10-24T08:18:31.117450+05:30"
 }
