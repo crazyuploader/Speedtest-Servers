@@ -71,8 +71,7 @@
       "id": "23249",
       "preferred": 0,
       "isp_id": "42011",
-      "https_functional": 1,
-      "host": "speedtest-cmi2.3bb.co.th.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtest-cmi2.3bb.co.th:8080",
       "hostname": "speedtest-cmi2.3bb.co.th",
       "ip_address": {
         "A": "110.164.3.253",
@@ -522,5 +521,5 @@
     }
   ],
   "total_servers": 26,
-  "updated_at": "2026-10-24T08:16:46.053807+05:30"
+  "updated_at": "2026-10-25T08:07:32.236251+05:30"
 }
