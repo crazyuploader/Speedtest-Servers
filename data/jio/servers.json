@@ -361,26 +361,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://jmmuooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
-      "lat": "32.7266",
-      "lon": "74.8570",
-      "name": "Jammu",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Jio",
-      "id": "15883",
-      "preferred": 0,
-      "isp_id": "137615",
-      "https_functional": 1,
-      "host": "jmmuooklaspeed1.jioconnect.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "jmmuooklaspeed1.jioconnect.com",
-      "ip_address": {
-        "A": "49.45.64.178",
-        "AAAA": "2405:200:1670:200:49:45:64:ae"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://jmgrooklaspeed1.jioconnect.com:8080/speedtest/upload.php",
       "lat": "22.4707",
       "lon": "70.0577",
@@ -1140,6 +1120,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 57,
-  "updated_at": "2026-10-26T08:06:56.716391+05:30"
+  "total_servers": 56,
+  "updated_at": "2026-10-27T08:41:42.742358+05:30"
 }
