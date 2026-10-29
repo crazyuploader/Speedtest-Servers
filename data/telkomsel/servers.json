@@ -21,6 +21,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://speedtest.lampung.telkomsel.com:8080/speedtest/upload.php",
+      "lat": "-5.4479",
+      "lon": "105.2653",
+      "name": "Bandar Lampung",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Telkomsel",
+      "id": "73385",
+      "preferred": 0,
+      "isp_id": "67639",
+      "https_functional": 1,
+      "host": "speedtest.lampung.telkomsel.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.lampung.telkomsel.com",
+      "ip_address": {
+        "A": "182.3.97.65",
+        "AAAA": "2404:c0:5a00:8::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://speedtest.bandung2.telkomsel.com:8080/speedtest/upload.php",
       "lat": "-6.9167",
       "lon": "107.6000",
@@ -469,6 +489,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 24,
-  "updated_at": "2026-10-28T08:55:58.488793+05:30"
+  "total_servers": 25,
+  "updated_at": "2026-10-29T09:19:13.465150+05:30"
 }
