@@ -20,6 +20,25 @@
       "ipv6_capable": "no"
     },
     {
+      "url": "http://speedtest.banjarmasin.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "-3.3200",
+      "lon": "114.5925",
+      "name": "Banjarmasin",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "MyRepublic Indonesia",
+      "id": "76785",
+      "preferred": 0,
+      "isp_id": "108000",
+      "https_functional": 1,
+      "host": "speedtest.banjarmasin.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.banjarmasin.myrepublic.net.id",
+      "ip_address": {
+        "A": "202.152.206.213"
+      },
+      "ipv6_capable": "no"
+    },
+    {
       "url": "http://speedtest.makasar.myrepublic.net.id:8080/speedtest/upload.php",
       "lat": "-5.1616",
       "lon": "119.4359",
@@ -172,6 +191,6 @@
       "ipv6_capable": "no"
     }
   ],
-  "total_servers": 9,
-  "updated_at": "2026-10-30T09:22:03.732928+05:30"
+  "total_servers": 10,
+  "updated_at": "2026-10-31T09:05:50.242330+05:30"
 }
