@@ -130,7 +130,7 @@
       "sponsor": "TrueMove H",
       "id": "61295",
       "preferred": 0,
-      "isp_id": "208623",
+      "isp_id": "70160",
       "https_functional": 1,
       "host": "spd-srt.trueinternet.co.th:8080",
       "hostname": "spd-srt.trueinternet.co.th",
@@ -142,5 +142,5 @@
     }
   ],
   "total_servers": 7,
-  "updated_at": "2026-11-01T09:12:03.395251+05:30"
+  "updated_at": "2026-11-02T09:17:29.146530+05:30"
 }

@@ -41,26 +41,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://bhopal-speedtest.ishancloud.com:8080/speedtest/upload.php",
-      "lat": "23.2599",
-      "lon": "77.4126",
-      "name": "Bhopal",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Ishan Netsol Pvt Ltd",
-      "id": "45500",
-      "preferred": 0,
-      "isp_id": "27544",
-      "https_functional": 1,
-      "host": "bhopal-speedtest.ishancloud.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "bhopal-speedtest.ishancloud.com",
-      "ip_address": {
-        "A": "123.253.162.252",
-        "AAAA": "2405:f600:6c::6a"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://Indore-speedtest.ishancloud.com:8080/speedtest/upload.php",
       "lat": "22.7287",
       "lon": "75.8654",
@@ -221,6 +201,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 11,
-  "updated_at": "2026-11-01T09:11:03.889541+05:30"
+  "total_servers": 10,
+  "updated_at": "2026-11-02T09:16:26.302744+05:30"
 }
