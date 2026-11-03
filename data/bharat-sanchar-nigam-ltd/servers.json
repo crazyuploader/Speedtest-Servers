@@ -1,26 +1,6 @@
 {
   "servers": [
     {
-      "url": "http://bsnlooklaagt.mywire.org:8080/speedtest/upload.php",
-      "lat": "23.8315",
-      "lon": "91.2868",
-      "name": "Agartala",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "BHARAT SANCHAR NIGAM LTD",
-      "id": "7002",
-      "preferred": 0,
-      "isp_id": "73461",
-      "https_functional": 1,
-      "host": "bsnlooklaagt.mywire.org.prod.hosts.ooklaserver.net:8080",
-      "hostname": "bsnlooklaagt.mywire.org",
-      "ip_address": {
-        "A": "117.232.135.5",
-        "AAAA": "2001:4490:dffc:1001::1"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://bsnlooklaahb.mywire.org:8080/speedtest/upload.php",
       "lat": "23.0225",
       "lon": "72.5714",
@@ -141,6 +121,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 7,
-  "updated_at": "2026-11-02T09:15:49.524545+05:30"
+  "total_servers": 6,
+  "updated_at": "2026-11-03T10:20:12.200641+05:30"
 }
