@@ -91,6 +91,7 @@
       "id": "14340",
       "preferred": 0,
       "isp_id": "64789",
+      "https_functional": 1,
       "host": "speedtest.actcorp.in:8080",
       "hostname": "speedtest.actcorp.in",
       "ip_address": {
@@ -261,5 +262,5 @@
     }
   ],
   "total_servers": 13,
-  "updated_at": "2026-11-04T09:46:04.831251+05:30"
+  "updated_at": "2026-11-05T10:04:22.685819+05:30"
 }
