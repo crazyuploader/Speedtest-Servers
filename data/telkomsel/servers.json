@@ -290,6 +290,7 @@
       "id": "70719",
       "preferred": 0,
       "isp_id": "67639",
+      "https_functional": 1,
       "host": "speedtest.palembang2.telkomsel.com:8080",
       "hostname": "speedtest.palembang2.telkomsel.com",
       "ip_address": {
@@ -479,5 +480,5 @@
     }
   ],
   "total_servers": 24,
-  "updated_at": "2026-11-06T10:04:21.961482+05:30"
+  "updated_at": "2026-11-07T09:30:44.147341+05:30"
 }
