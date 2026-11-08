@@ -121,26 +121,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://kch-ookla02.celcomdigi.com:8080/speedtest/upload.php",
-      "lat": "4.3995",
-      "lon": "113.9914",
-      "name": "Miri",
-      "country": "Malaysia",
-      "cc": "MY",
-      "sponsor": "CelcomDigi Berhad",
-      "id": "70830",
-      "preferred": 0,
-      "isp_id": "300896",
-      "https_functional": 1,
-      "host": "kch-ookla02.celcomdigi.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "kch-ookla02.celcomdigi.com",
-      "ip_address": {
-        "A": "182.63.71.21",
-        "AAAA": "2001:4458:4003:20f::5"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://sht-ookla03.celcomdigi.com:8080/speedtest/upload.php",
       "lat": "5.4141",
       "lon": "100.3285",
@@ -260,6 +240,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 13,
-  "updated_at": "2026-11-07T09:29:22.014478+05:30"
+  "total_servers": 12,
+  "updated_at": "2026-11-08T09:14:50.568464+05:30"
 }

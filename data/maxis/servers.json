@@ -41,26 +41,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://sgbookla02.maxis.com.my:8080/speedtest/upload.php",
-      "lat": "3.1319",
-      "lon": "101.6841",
-      "name": "Kuala Lumpur",
-      "country": "Malaysia",
-      "cc": "MY",
-      "sponsor": "Maxis",
-      "id": "49683",
-      "preferred": 0,
-      "isp_id": "17961",
-      "https_functional": 1,
-      "host": "sgbookla02.maxis.com.my.prod.hosts.ooklaserver.net:8080",
-      "hostname": "sgbookla02.maxis.com.my",
-      "ip_address": {
-        "A": "202.75.141.115",
-        "AAAA": "2001:d08:10:500::103"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://dingookla01.maxis.com.my:8080/speedtest/upload.php",
       "lat": "1.5600",
       "lon": "110.3450",
@@ -160,6 +140,6 @@
       "ipv6_capable": "no"
     }
   ],
-  "total_servers": 8,
-  "updated_at": "2026-11-07T09:30:00.697981+05:30"
+  "total_servers": 7,
+  "updated_at": "2026-11-08T09:15:29.338915+05:30"
 }

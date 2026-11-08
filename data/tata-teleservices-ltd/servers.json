@@ -21,26 +21,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://sthyd.tatatelebusiness.com:8080/speedtest/upload.php",
-      "lat": "17.3700",
-      "lon": "78.4800",
-      "name": "Hyderabad",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Tata Teleservices Ltd",
-      "id": "50231",
-      "preferred": 0,
-      "isp_id": "2434",
-      "https_functional": 1,
-      "host": "sthyd.tatatelebusiness.com:8080",
-      "hostname": "sthyd.tatatelebusiness.com",
-      "ip_address": {
-        "A": "49.249.8.254",
-        "AAAA": "2403:8600:a090:10::201"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://stmum.tatatelebusiness.com:8080/speedtest/upload.php",
       "lat": "18.9647",
       "lon": "72.8258",
@@ -101,6 +81,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 5,
-  "updated_at": "2026-11-07T09:30:36.279694+05:30"
+  "total_servers": 4,
+  "updated_at": "2026-11-08T09:16:02.247563+05:30"
 }

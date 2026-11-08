@@ -119,8 +119,28 @@
         "AAAA": "2405:6800:0:4:ffff:ffff:ffff:fffd"
       },
       "ipv6_capable": "yes"
+    },
+    {
+      "url": "http://sp1-vad.youbroadband.in:8080/speedtest/upload.php",
+      "lat": "22.3000",
+      "lon": "73.2000",
+      "name": "Vadodara",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "YOU Broadband India Pvt. Ltd.",
+      "id": "6453",
+      "preferred": 0,
+      "isp_id": "71775",
+      "https_functional": 1,
+      "host": "sp1-vad.youbroadband.in.prod.hosts.ooklaserver.net:8080",
+      "hostname": "sp1-vad.youbroadband.in",
+      "ip_address": {
+        "A": "203.187.193.66",
+        "AAAA": "2405:6800:800:4:ffff:ffff:ffff:fffd"
+      },
+      "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 6,
-  "updated_at": "2026-11-07T09:31:08.462289+05:30"
+  "total_servers": 7,
+  "updated_at": "2026-11-08T09:16:32.645408+05:30"
 }
