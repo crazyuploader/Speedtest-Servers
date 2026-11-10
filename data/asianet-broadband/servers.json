@@ -41,46 +41,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://speed-node-cok.asianetdigital.net:8080/speedtest/upload.php",
-      "lat": "9.9312",
-      "lon": "76.2673",
-      "name": "Cochin",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Asianet Broadband",
-      "id": "29372",
-      "preferred": 0,
-      "isp_id": "93082",
-      "https_functional": 1,
-      "host": "speed-node-cok.asianetdigital.net:8080",
-      "hostname": "speed-node-cok.asianetdigital.net",
-      "ip_address": {
-        "A": "202.88.230.190",
-        "AAAA": "2406:8800:a000:1::5e"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://speed-node-hyd.asianetdigital.net:8080/speedtest/upload.php",
-      "lat": "17.3700",
-      "lon": "78.4800",
-      "name": "Hyderabad",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Asianet Broadband",
-      "id": "49760",
-      "preferred": 0,
-      "isp_id": "93082",
-      "https_functional": 1,
-      "host": "speed-node-hyd.asianetdigital.net:8080",
-      "hostname": "speed-node-hyd.asianetdigital.net",
-      "ip_address": {
-        "A": "202.164.135.22",
-        "AAAA": "2406:8800:a000:1::5a"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://speed-node-clt.asianetdigital.net:8080/speedtest/upload.php",
       "lat": "11.2488",
       "lon": "75.7839",
@@ -141,6 +101,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 7,
-  "updated_at": "2026-11-09T09:27:21.835149+05:30"
+  "total_servers": 5,
+  "updated_at": "2026-11-10T11:00:15.317789+05:30"
 }

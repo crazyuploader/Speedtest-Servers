@@ -251,8 +251,7 @@
       "id": "7895",
       "preferred": 0,
       "isp_id": "64789",
-      "https_functional": 1,
-      "host": "speedtestviz.actcorp.in.prod.hosts.ooklaserver.net:8080",
+      "host": "speedtestviz.actcorp.in:8080",
       "hostname": "speedtestviz.actcorp.in",
       "ip_address": {
         "A": "106.51.115.152",
@@ -262,5 +261,5 @@
     }
   ],
   "total_servers": 13,
-  "updated_at": "2026-11-09T09:27:17.973362+05:30"
+  "updated_at": "2026-11-10T11:00:11.087928+05:30"
 }
