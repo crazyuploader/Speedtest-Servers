@@ -41,6 +41,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://kkb-ookla01.celcomdigi.com:8080/speedtest/upload.php",
+      "lat": "5.9714",
+      "lon": "116.0953",
+      "name": "Kinabalu",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "CelcomDigi Berhad",
+      "id": "70832",
+      "preferred": 0,
+      "isp_id": "300896",
+      "https_functional": 1,
+      "host": "kkb-ookla01.celcomdigi.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "kkb-ookla01.celcomdigi.com",
+      "ip_address": {
+        "A": "182.63.7.20",
+        "AAAA": "2001:4458:4002:20f::4"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://sht-ookla01.celcomdigi.com:8080/speedtest/upload.php",
       "lat": "6.1251",
       "lon": "102.2379",
@@ -97,26 +117,6 @@
       "ip_address": {
         "A": "182.63.71.20",
         "AAAA": "2001:4458:4003:20f::4"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://kch-ookla02.celcomdigi.com:8080/speedtest/upload.php",
-      "lat": "4.3995",
-      "lon": "113.9914",
-      "name": "Miri",
-      "country": "Malaysia",
-      "cc": "MY",
-      "sponsor": "CelcomDigi Berhad",
-      "id": "70830",
-      "preferred": 0,
-      "isp_id": "300896",
-      "https_functional": 1,
-      "host": "kch-ookla02.celcomdigi.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "kch-ookla02.celcomdigi.com",
-      "ip_address": {
-        "A": "182.63.71.21",
-        "AAAA": "2001:4458:4003:20f::5"
       },
       "ipv6_capable": "yes"
     },
@@ -198,28 +198,8 @@
         "AAAA": "2001:4458:4001:20f::4"
       },
       "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://kkb-ookla03.celcomdigi.com:8080/speedtest/upload.php",
-      "lat": "4.2447",
-      "lon": "117.8912",
-      "name": "Tawau",
-      "country": "Malaysia",
-      "cc": "MY",
-      "sponsor": "CelcomDigi Berhad",
-      "id": "70834",
-      "preferred": 0,
-      "isp_id": "300896",
-      "https_functional": 1,
-      "host": "kkb-ookla03.celcomdigi.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "kkb-ookla03.celcomdigi.com",
-      "ip_address": {
-        "A": "182.63.7.22",
-        "AAAA": "2001:4458:4002:20f::6"
-      },
-      "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 11,
-  "updated_at": "2026-11-10T11:00:29.925149+05:30"
+  "total_servers": 10,
+  "updated_at": "2026-11-11T09:31:17.510939+05:30"
 }
