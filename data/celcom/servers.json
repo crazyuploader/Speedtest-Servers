@@ -61,26 +61,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://sht-ookla01.celcomdigi.com:8080/speedtest/upload.php",
-      "lat": "6.1251",
-      "lon": "102.2379",
-      "name": "Kota Bharu",
-      "country": "Malaysia",
-      "cc": "MY",
-      "sponsor": "CelcomDigi Berhad",
-      "id": "74523",
-      "preferred": 0,
-      "isp_id": "300896",
-      "https_functional": 1,
-      "host": "sht-ookla01.celcomdigi.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "sht-ookla01.celcomdigi.com",
-      "ip_address": {
-        "A": "115.164.64.20",
-        "AAAA": "2001:4458:4000:40d::4"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://sht-ookla02.celcomdigi.com:8080/speedtest/upload.php",
       "lat": "3.1319",
       "lon": "101.6841",
@@ -121,6 +101,26 @@
       "ipv6_capable": "yes"
     },
     {
+      "url": "http://kch-ookla02.celcomdigi.com:8080/speedtest/upload.php",
+      "lat": "4.3995",
+      "lon": "113.9914",
+      "name": "Miri",
+      "country": "Malaysia",
+      "cc": "MY",
+      "sponsor": "CelcomDigi Berhad",
+      "id": "70830",
+      "preferred": 0,
+      "isp_id": "300896",
+      "https_functional": 1,
+      "host": "kch-ookla02.celcomdigi.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "kch-ookla02.celcomdigi.com",
+      "ip_address": {
+        "A": "182.63.71.21",
+        "AAAA": "2001:4458:4003:20f::5"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://sht-ookla03.celcomdigi.com:8080/speedtest/upload.php",
       "lat": "5.4141",
       "lon": "100.3285",
@@ -141,22 +141,22 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://kkb-ookla02.celcomdigi.com:8080/speedtest/upload.php",
-      "lat": "5.8559",
-      "lon": "118.0722",
-      "name": "Sandakan",
+      "url": "http://kpg-ookla02.celcomdigi.com:8080/speedtest/upload.php",
+      "lat": "3.1279",
+      "lon": "101.5945",
+      "name": "Petaling Jaya",
       "country": "Malaysia",
       "cc": "MY",
       "sponsor": "CelcomDigi Berhad",
-      "id": "70833",
+      "id": "70827",
       "preferred": 0,
       "isp_id": "300896",
       "https_functional": 1,
-      "host": "kkb-ookla02.celcomdigi.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "kkb-ookla02.celcomdigi.com",
+      "host": "kpg-ookla02.celcomdigi.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "kpg-ookla02.celcomdigi.com",
       "ip_address": {
-        "A": "182.63.7.21",
-        "AAAA": "2001:4458:4002:20f::5"
+        "A": "182.62.210.21",
+        "AAAA": "2001:4458:4001:20f::5"
       },
       "ipv6_capable": "yes"
     },
@@ -180,26 +180,26 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://kpg-ookla01.celcomdigi.com:8080/speedtest/upload.php",
-      "lat": "3.0734",
-      "lon": "101.5217",
-      "name": "Shah Alam",
+      "url": "http://kkb-ookla03.celcomdigi.com:8080/speedtest/upload.php",
+      "lat": "4.2447",
+      "lon": "117.8912",
+      "name": "Tawau",
       "country": "Malaysia",
       "cc": "MY",
       "sponsor": "CelcomDigi Berhad",
-      "id": "70826",
+      "id": "70834",
       "preferred": 0,
       "isp_id": "300896",
       "https_functional": 1,
-      "host": "kpg-ookla01.celcomdigi.com.prod.hosts.ooklaserver.net:8080",
-      "hostname": "kpg-ookla01.celcomdigi.com",
+      "host": "kkb-ookla03.celcomdigi.com.prod.hosts.ooklaserver.net:8080",
+      "hostname": "kkb-ookla03.celcomdigi.com",
       "ip_address": {
-        "A": "182.62.210.20",
-        "AAAA": "2001:4458:4001:20f::4"
+        "A": "182.63.7.22",
+        "AAAA": "2001:4458:4002:20f::6"
       },
       "ipv6_capable": "yes"
     }
   ],
   "total_servers": 10,
-  "updated_at": "2026-11-11T09:31:17.510939+05:30"
+  "updated_at": "2026-11-12T10:42:46.424970+05:30"
 }

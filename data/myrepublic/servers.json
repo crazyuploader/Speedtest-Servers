@@ -58,6 +58,24 @@
       "ipv6_capable": "no"
     },
     {
+      "url": "http://speedtest.malang.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "-7.9800",
+      "lon": "112.6200",
+      "name": "Malang",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "MyRepublic Indonesia",
+      "id": "46071",
+      "preferred": 0,
+      "isp_id": "108000",
+      "host": "speedtest.malang.myrepublic.net.id:8080",
+      "hostname": "speedtest.malang.myrepublic.net.id",
+      "ip_address": {
+        "A": "158.140.186.73"
+      },
+      "ipv6_capable": "no"
+    },
+    {
       "url": "http://speedtest.medan.myrepublic.net.id:8080/speedtest/upload.php",
       "lat": "3.5833",
       "lon": "98.6667",
@@ -210,6 +228,6 @@
       "ipv6_capable": "no"
     }
   ],
-  "total_servers": 11,
-  "updated_at": "2026-11-11T09:31:59.916785+05:30"
+  "total_servers": 12,
+  "updated_at": "2026-11-12T10:43:29.425258+05:30"
 }
