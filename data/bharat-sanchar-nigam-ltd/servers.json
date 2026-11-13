@@ -1,6 +1,26 @@
 {
   "servers": [
     {
+      "url": "http://bsnlooklaagt.mywire.org:8080/speedtest/upload.php",
+      "lat": "23.8315",
+      "lon": "91.2868",
+      "name": "Agartala",
+      "country": "India",
+      "cc": "IN",
+      "sponsor": "BHARAT SANCHAR NIGAM LTD",
+      "id": "7002",
+      "preferred": 0,
+      "isp_id": "73461",
+      "https_functional": 1,
+      "host": "bsnlooklaagt.mywire.org.prod.hosts.ooklaserver.net:8080",
+      "hostname": "bsnlooklaagt.mywire.org",
+      "ip_address": {
+        "A": "117.232.135.5",
+        "AAAA": "2001:4490:dffc:1001::1"
+      },
+      "ipv6_capable": "yes"
+    },
+    {
       "url": "http://bsnlooklaahb.mywire.org:8080/speedtest/upload.php",
       "lat": "23.0225",
       "lon": "72.5714",
@@ -17,26 +37,6 @@
       "ip_address": {
         "A": "210.212.129.101",
         "AAAA": "2001:4490:dfe8:900::1"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
-      "url": "http://ooklabsnlazl.freeddns.org:8080/speedtest/upload.php",
-      "lat": "23.7285",
-      "lon": "92.7188",
-      "name": "Aizawl",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "BHARAT SANCHAR NIGAM LTD",
-      "id": "60294",
-      "preferred": 0,
-      "isp_id": "73461",
-      "https_functional": 1,
-      "host": "ooklabsnlazl.freeddns.org.prod.hosts.ooklaserver.net:8080",
-      "hostname": "ooklabsnlazl.freeddns.org",
-      "ip_address": {
-        "A": "117.250.116.225",
-        "AAAA": "2001:4490:dff8::12"
       },
       "ipv6_capable": "yes"
     },
@@ -142,5 +142,5 @@
     }
   ],
   "total_servers": 7,
-  "updated_at": "2026-11-12T10:42:36.323513+05:30"
+  "updated_at": "2026-11-13T09:59:06.530914+05:30"
 }

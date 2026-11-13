@@ -68,7 +68,8 @@
       "id": "46071",
       "preferred": 0,
       "isp_id": "108000",
-      "host": "speedtest.malang.myrepublic.net.id:8080",
+      "https_functional": 1,
+      "host": "speedtest.malang.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest.malang.myrepublic.net.id",
       "ip_address": {
         "A": "158.140.186.73"
@@ -229,5 +230,5 @@
     }
   ],
   "total_servers": 12,
-  "updated_at": "2026-11-12T10:43:29.425258+05:30"
+  "updated_at": "2026-11-13T09:59:58.740949+05:30"
 }
