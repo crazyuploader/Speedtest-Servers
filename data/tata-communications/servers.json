@@ -260,26 +260,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://ookla.mtt.as6453.net:8080/speedtest/upload.php",
-      "lat": "45.5019",
-      "lon": "-73.5674",
-      "name": "Montreal, QC",
-      "country": "Canada",
-      "cc": "CA",
-      "sponsor": "Tata Communications",
-      "id": "73620",
-      "preferred": 0,
-      "isp_id": "310556",
-      "https_functional": 1,
-      "host": "ookla.mtt.as6453.net.prod.hosts.ooklaserver.net:8080",
-      "hostname": "ookla.mtt.as6453.net",
-      "ip_address": {
-        "A": "66.198.161.133",
-        "AAAA": "2001:5a0:3604:3::1:54"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://ookla.mu.as6453.net:8080/speedtest/upload.php",
       "lat": "18.9647",
       "lon": "72.8258",
@@ -400,6 +380,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 20,
-  "updated_at": "2026-11-15T09:41:05.609378+05:30"
+  "total_servers": 19,
+  "updated_at": "2026-11-16T09:40:18.682633+05:30"
 }
