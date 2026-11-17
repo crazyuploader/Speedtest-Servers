@@ -214,8 +214,8 @@
       "host": "speedtest.kupang.telkomsel.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest.kupang.telkomsel.com",
       "ip_address": {
-        "A": "182.4.192.81",
-        "AAAA": "2404:c0:7a01:2::1"
+        "A": "182.4.192.97",
+        "AAAA": "2404:c0:7a00:2::1"
       },
       "ipv6_capable": "yes"
     },
@@ -390,7 +390,8 @@
       "id": "74576",
       "preferred": 0,
       "isp_id": "67639",
-      "host": "speedtest.singaraja.telkomsel.com:8080",
+      "https_functional": 1,
+      "host": "speedtest.singaraja.telkomsel.com.prod.hosts.ooklaserver.net:8080",
       "hostname": "speedtest.singaraja.telkomsel.com",
       "ip_address": {
         "A": "114.122.160.73",
@@ -500,5 +501,5 @@
     }
   ],
   "total_servers": 25,
-  "updated_at": "2026-11-16T09:40:27.076424+05:30"
+  "updated_at": "2026-11-17T11:28:39.504718+05:30"
 }
