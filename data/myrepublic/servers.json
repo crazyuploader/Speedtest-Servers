@@ -20,6 +20,81 @@
       "ipv6_capable": "no"
     },
     {
+      "url": "http://speedtest.balikpapan.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "-1.2635",
+      "lon": "116.8279",
+      "name": "Balikpapan",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "MyRepublic Indonesia",
+      "id": "76839",
+      "preferred": 0,
+      "isp_id": "108000",
+      "https_functional": 1,
+      "host": "speedtest.balikpapan.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.balikpapan.myrepublic.net.id",
+      "ip_address": {
+        "A": "202.152.206.215"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest.banjarmasin.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "-3.3200",
+      "lon": "114.5925",
+      "name": "Banjarmasin",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "MyRepublic Indonesia",
+      "id": "76785",
+      "preferred": 0,
+      "isp_id": "108000",
+      "https_functional": 1,
+      "host": "speedtest.banjarmasin.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.banjarmasin.myrepublic.net.id",
+      "ip_address": {
+        "A": "202.152.206.213"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest.makasar.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "-5.1616",
+      "lon": "119.4359",
+      "name": "Makassar",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "MyRepublic Indonesia",
+      "id": "72796",
+      "preferred": 0,
+      "isp_id": "108000",
+      "https_functional": 1,
+      "host": "speedtest.makasar.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.makasar.myrepublic.net.id",
+      "ip_address": {
+        "A": "103.129.173.9"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest.malang.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "-7.9800",
+      "lon": "112.6200",
+      "name": "Malang",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "MyRepublic Indonesia",
+      "id": "46071",
+      "preferred": 0,
+      "isp_id": "108000",
+      "host": "speedtest.malang.myrepublic.net.id:8080",
+      "hostname": "speedtest.malang.myrepublic.net.id",
+      "ip_address": {
+        "A": "158.140.186.73"
+      },
+      "ipv6_capable": "no"
+    },
+    {
       "url": "http://speedtest.medan.myrepublic.net.id:8080/speedtest/upload.php",
       "lat": "3.5833",
       "lon": "98.6667",
@@ -39,6 +114,25 @@
       "ipv6_capable": "no"
     },
     {
+      "url": "http://speedtest.palangkaraya.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "-2.2161",
+      "lon": "113.9140",
+      "name": "Palangkaraya",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "MyRepublic Indonesia",
+      "id": "76841",
+      "preferred": 0,
+      "isp_id": "108000",
+      "https_functional": 1,
+      "host": "speedtest.palangkaraya.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.palangkaraya.myrepublic.net.id",
+      "ip_address": {
+        "A": "202.152.206.227"
+      },
+      "ipv6_capable": "no"
+    },
+    {
       "url": "http://speedtest.palembang.myrepublic.net.id:8080/speedtest/upload.php",
       "lat": "-2.9911",
       "lon": "104.7567",
@@ -54,6 +148,25 @@
       "hostname": "speedtest.palembang.myrepublic.net.id",
       "ip_address": {
         "A": "158.140.186.83"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest.samarinda.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "-0.4948",
+      "lon": "112.1609",
+      "name": "Samarinda",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "MyRepublic Indonesia",
+      "id": "76840",
+      "preferred": 0,
+      "isp_id": "108000",
+      "https_functional": 1,
+      "host": "speedtest.samarinda.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.samarinda.myrepublic.net.id",
+      "ip_address": {
+        "A": "202.152.206.225"
       },
       "ipv6_capable": "no"
     },
@@ -134,6 +247,6 @@
       "ipv6_capable": "no"
     }
   ],
-  "total_servers": 7,
-  "updated_at": "2026-11-20T10:40:22.458662+05:30"
+  "total_servers": 13,
+  "updated_at": "2026-11-21T10:32:43.338358+05:30"
 }
