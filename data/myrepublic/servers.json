@@ -58,6 +58,63 @@
       "ipv6_capable": "no"
     },
     {
+      "url": "http://speedtest.bone.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "-4.5386",
+      "lon": "120.3297",
+      "name": "Bone",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "MyRepublic Indonesia",
+      "id": "52562",
+      "preferred": 0,
+      "isp_id": "108000",
+      "https_functional": 1,
+      "host": "speedtest.bone.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.bone.myrepublic.net.id",
+      "ip_address": {
+        "A": "202.152.206.237"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest.gorontalo.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "0.5420",
+      "lon": "123.0610",
+      "name": "Gorontalo",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Myrepublic Indonesia",
+      "id": "46213",
+      "preferred": 0,
+      "isp_id": "108000",
+      "https_functional": 1,
+      "host": "speedtest.gorontalo.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.gorontalo.myrepublic.net.id",
+      "ip_address": {
+        "A": "202.152.206.231"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest.kendari.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "-3.9907",
+      "lon": "106.6522",
+      "name": "Kendari",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "Myrepublic Indonesia",
+      "id": "72618",
+      "preferred": 0,
+      "isp_id": "108000",
+      "https_functional": 1,
+      "host": "speedtest.kendari.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.kendari.myrepublic.net.id",
+      "ip_address": {
+        "A": "202.152.206.233"
+      },
+      "ipv6_capable": "no"
+    },
+    {
       "url": "http://speedtest.makasar.myrepublic.net.id:8080/speedtest/upload.php",
       "lat": "-5.1616",
       "lon": "119.4359",
@@ -73,6 +130,25 @@
       "hostname": "speedtest.makasar.myrepublic.net.id",
       "ip_address": {
         "A": "103.129.173.9"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest.manado.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "-8.6559",
+      "lon": "115.2168",
+      "name": "Manado",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "MyRepublic Indonesia",
+      "id": "72782",
+      "preferred": 0,
+      "isp_id": "108000",
+      "https_functional": 1,
+      "host": "speedtest.manado.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.manado.myrepublic.net.id",
+      "ip_address": {
+        "A": "202.152.206.229"
       },
       "ipv6_capable": "no"
     },
@@ -130,6 +206,44 @@
       "hostname": "speedtest.palembang.myrepublic.net.id",
       "ip_address": {
         "A": "158.140.186.83"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest.palu.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "-0.8950",
+      "lon": "119.8556",
+      "name": "Palu",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "MyRepublic Indonesia",
+      "id": "35858",
+      "preferred": 0,
+      "isp_id": "108000",
+      "https_functional": 1,
+      "host": "speedtest.palu.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.palu.myrepublic.net.id",
+      "ip_address": {
+        "A": "202.152.206.235"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest.parepare.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "-4.0135",
+      "lon": "119.6255",
+      "name": "Parepare",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "MyRepublic Indonesia",
+      "id": "11118",
+      "preferred": 0,
+      "isp_id": "108000",
+      "https_functional": 1,
+      "host": "speedtest.parepare.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.parepare.myrepublic.net.id",
+      "ip_address": {
+        "A": "202.152.206.239"
       },
       "ipv6_capable": "no"
     },
@@ -229,6 +343,6 @@
       "ipv6_capable": "no"
     }
   ],
-  "total_servers": 12,
-  "updated_at": "2026-11-23T10:34:04.041252+05:30"
+  "total_servers": 18,
+  "updated_at": "2026-11-24T13:22:24.389337+05:30"
 }
