@@ -240,26 +240,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://ookla.mln.as6453.net:8080/speedtest/upload.php",
-      "lat": "25.7617",
-      "lon": "-80.1918",
-      "name": "Miami, FL",
-      "country": "United States",
-      "cc": "US",
-      "sponsor": "Tata Communications",
-      "id": "73619",
-      "preferred": 0,
-      "isp_id": "153428",
-      "https_functional": 1,
-      "host": "ookla.mln.as6453.net.prod.hosts.ooklaserver.net:8080",
-      "hostname": "ookla.mln.as6453.net",
-      "ip_address": {
-        "A": "66.110.9.37",
-        "AAAA": "2001:5a0:40:50::90c4"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://ookla.mtt.as6453.net:8080/speedtest/upload.php",
       "lat": "45.5019",
       "lon": "-73.5674",
@@ -400,6 +380,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 20,
-  "updated_at": "2026-11-24T13:22:47.056562+05:30"
+  "total_servers": 19,
+  "updated_at": "2026-11-25T11:55:03.866428+05:30"
 }

@@ -56,7 +56,7 @@
       "hostname": "speedtestcal1.airtelbroadband.in",
       "ip_address": {
         "A": "122.187.99.102",
-        "AAAA": "2404:a800:3a00:207::40"
+        "AAAA": "2404:a800:3a00:207::41"
       },
       "ipv6_capable": "yes"
     },
@@ -116,25 +116,6 @@
       "hostname": "speedtestggn1.airtel.in",
       "ip_address": {
         "A": "223.224.79.2"
-      },
-      "ipv6_capable": "no"
-    },
-    {
-      "url": "http://speedtestguw1.airtel.in:8080/speedtest/upload.php",
-      "lat": "26.1445",
-      "lon": "91.7362",
-      "name": "Guwahati",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "Bharti Airtel Ltd",
-      "id": "46660",
-      "preferred": 0,
-      "isp_id": "46101",
-      "https_functional": 1,
-      "host": "speedtestguw1.airtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "speedtestguw1.airtel.in",
-      "ip_address": {
-        "A": "122.185.181.122"
       },
       "ipv6_capable": "no"
     },
@@ -538,6 +519,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 27,
-  "updated_at": "2026-11-24T13:21:33.340950+05:30"
+  "total_servers": 26,
+  "updated_at": "2026-11-25T11:53:47.975087+05:30"
 }
