@@ -77,6 +77,25 @@
       "ipv6_capable": "no"
     },
     {
+      "url": "http://speedtest.bali.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "-8.6500",
+      "lon": "115.2167",
+      "name": "Denpasar",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "MyRepublic Indonesia",
+      "id": "44447",
+      "preferred": 0,
+      "isp_id": "108000",
+      "https_functional": 1,
+      "host": "speedtest.bali.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.bali.myrepublic.net.id",
+      "ip_address": {
+        "A": "202.152.206.245"
+      },
+      "ipv6_capable": "no"
+    },
+    {
       "url": "http://speedtest.gorontalo.myrepublic.net.id:8080/speedtest/upload.php",
       "lat": "0.5420",
       "lon": "123.0610",
@@ -111,6 +130,25 @@
       "hostname": "speedtest.kendari.myrepublic.net.id",
       "ip_address": {
         "A": "202.152.206.233"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest.kupang.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "-10.1772",
+      "lon": "123.6070",
+      "name": "Kupang",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "MyRepublic Indonesia",
+      "id": "44445",
+      "preferred": 0,
+      "isp_id": "108000",
+      "https_functional": 1,
+      "host": "speedtest.kupang.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.kupang.myrepublic.net.id",
+      "ip_address": {
+        "A": "202.152.206.243"
       },
       "ipv6_capable": "no"
     },
@@ -168,6 +206,25 @@
       "hostname": "speedtest.manado.myrepublic.net.id",
       "ip_address": {
         "A": "202.152.206.229"
+      },
+      "ipv6_capable": "no"
+    },
+    {
+      "url": "http://speedtest.mataram.myrepublic.net.id:8080/speedtest/upload.php",
+      "lat": "-8.5770",
+      "lon": "116.1005",
+      "name": "Mataram",
+      "country": "Indonesia",
+      "cc": "ID",
+      "sponsor": "MyRepublic Indonesia",
+      "id": "44547",
+      "preferred": 0,
+      "isp_id": "108000",
+      "https_functional": 1,
+      "host": "speedtest.mataram.myrepublic.net.id.prod.hosts.ooklaserver.net:8080",
+      "hostname": "speedtest.mataram.myrepublic.net.id",
+      "ip_address": {
+        "A": "202.152.206.241"
       },
       "ipv6_capable": "no"
     },
@@ -362,6 +419,6 @@
       "ipv6_capable": "no"
     }
   ],
-  "total_servers": 19,
-  "updated_at": "2026-11-25T11:54:41.975781+05:30"
+  "total_servers": 22,
+  "updated_at": "2026-11-26T11:47:15.923468+05:30"
 }
