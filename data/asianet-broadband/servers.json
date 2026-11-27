@@ -71,6 +71,7 @@
       "id": "49760",
       "preferred": 0,
       "isp_id": "93082",
+      "https_functional": 1,
       "host": "speed-node-hyd.asianetdigital.net:8080",
       "hostname": "speed-node-hyd.asianetdigital.net",
       "ip_address": {
@@ -141,5 +142,5 @@
     }
   ],
   "total_servers": 7,
-  "updated_at": "2026-11-26T11:46:12.230748+05:30"
+  "updated_at": "2026-11-27T11:35:16.076518+05:30"
 }

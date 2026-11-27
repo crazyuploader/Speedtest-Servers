@@ -151,8 +151,7 @@
       "id": "45023",
       "preferred": 0,
       "isp_id": "96146",
-      "https_functional": 1,
-      "host": "gwh.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
+      "host": "gwh.speedtest.railtel.in:8080",
       "hostname": "gwh.speedtest.railtel.in",
       "ip_address": {
         "A": "112.133.224.34",
@@ -231,8 +230,7 @@
       "id": "47291",
       "preferred": 0,
       "isp_id": "96146",
-      "https_functional": 1,
-      "host": "ngp.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
+      "host": "ngp.speedtest.railtel.in:8080",
       "hostname": "ngp.speedtest.railtel.in",
       "ip_address": {
         "A": "112.133.241.110",
@@ -262,5 +260,5 @@
     }
   ],
   "total_servers": 13,
-  "updated_at": "2026-11-26T11:47:24.816235+05:30"
+  "updated_at": "2026-11-27T11:36:25.882753+05:30"
 }
