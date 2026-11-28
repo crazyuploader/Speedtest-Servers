@@ -121,26 +121,6 @@
       "ipv6_capable": "yes"
     },
     {
-      "url": "http://ers.speedtest.railtel.in:8080/speedtest/upload.php",
-      "lat": "9.9816",
-      "lon": "76.2999",
-      "name": "Ernakulam",
-      "country": "India",
-      "cc": "IN",
-      "sponsor": "RailTel Corporation of India Ltd",
-      "id": "37123",
-      "preferred": 0,
-      "isp_id": "96146",
-      "https_functional": 1,
-      "host": "ers.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
-      "hostname": "ers.speedtest.railtel.in",
-      "ip_address": {
-        "A": "112.133.214.157",
-        "AAAA": "2401:b200:9::62"
-      },
-      "ipv6_capable": "yes"
-    },
-    {
       "url": "http://gwh.speedtest.railtel.in:8080/speedtest/upload.php",
       "lat": "26.1445",
       "lon": "91.7362",
@@ -151,7 +131,8 @@
       "id": "45023",
       "preferred": 0,
       "isp_id": "96146",
-      "host": "gwh.speedtest.railtel.in:8080",
+      "https_functional": 1,
+      "host": "gwh.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "gwh.speedtest.railtel.in",
       "ip_address": {
         "A": "112.133.224.34",
@@ -230,7 +211,8 @@
       "id": "47291",
       "preferred": 0,
       "isp_id": "96146",
-      "host": "ngp.speedtest.railtel.in:8080",
+      "https_functional": 1,
+      "host": "ngp.speedtest.railtel.in.prod.hosts.ooklaserver.net:8080",
       "hostname": "ngp.speedtest.railtel.in",
       "ip_address": {
         "A": "112.133.241.110",
@@ -259,6 +241,6 @@
       "ipv6_capable": "yes"
     }
   ],
-  "total_servers": 13,
-  "updated_at": "2026-11-27T11:36:25.882753+05:30"
+  "total_servers": 12,
+  "updated_at": "2026-11-28T11:17:54.977416+05:30"
 }
